@@ -1,0 +1,82 @@
+---
+
+title: Appendicitis ACEP Clinical Policy
+collection:
+  - surgery
+  - ebm
+tags:
+
+---
+
+# Appendicitis: ACEP Clinical Policy
+
+**How predictive is WBC in appendicitis? **
+
+WBC count &gt; 10K and likelihood of having appendicitis:
+
+-   Positive LR 1.59, Negative LR 0.46
+  - ([Cardall et al, Acad Emerg Med 2004](http://onlinelibrary.wiley.com/doi/10.1197/j.aem.2004.04.011/abstract))
+-   Positive LR 2.47, Negative LR 0.25
+  - ([Andersson, Br J Surg 2004](http://onlinelibrary.wiley.com/doi/10.1002/bjs.4464/abstract?deniedAccessCustomisedMessage=&userIsAuthenticated=false))
+
+## Alvarado Score
+
+**Alvarado score in predicting appendicitis** (Max 10 points)
+
+|                              |     |
+|------------------------------|-----|
+| Pain migration               | 1   |
+| Anorexia-acetone in urine    | 1   |
+| Nausea/vomiting              | 1   |
+| RLQ tenderness               | 2   |
+| Rebound pain                 | 1   |
+| Temp &gt; 37.3 C oral        | 1   |
+| WBC &gt; 10K                 | 2   |
+| Left shift WBC (&gt;75% PMN) | 1   |
+
+***Score:*** 
+-   1-4 (appendicitis unlikely)
+-   5-6 (possible)
+-   7-8 (probable)
+-   9-10 (very probable)
+
+However, 0-8% of patients with Score &lt; 5 had appendicitis
+
+Beware of patients &lt; 10 yr and &gt; 60 yr old for atypical presentations
+
+## CT imaging
+
+**IV contrast improves ability to detect appendicitis** ([Jacobs, Radiology 2001](http://radiology.rsna.org/content/220/3/683.long)) 
+
+| CT with...       | Sensitivity  |
+|------------------|--------------|
+| PO/IV contrast   | 91%          |
+| PO contrast only | 76%          |
+
+**Addition of oral contrast to CT Abd-pelvis (IV contrast) study is unnecessary **([Anderson, Am J Surg 2005](https://secure.muhealth.org/~ed/students/articles/ajs_190_p0474.pdf))
+
+| CT with...      | Sens | Spec |
+|-----------------|------|------|
+| Noncontrast     | 93%  | 98%  |
+| PO/IV contrast  | 93%  | 93%  |
+| Rectal contrast | 97%  | 97%  |
+
+## Imaging in Pediatric Appy
+
+***U/S***: Appendix &gt; 6 mm in diameter, non-compressible appx, appendiceal tenderness 
+
+-   Positive LR 17.2-49.5
+-   Negative LR 0.01-0.14
+
+***CT***: Unclear about additional benefit of PO/IV contrast. Many give PO/IV because ofless intraperitoneal fat in children (less obvious stranding on noncontrast study)
+
+[Kharbanda, Pediatrics 2005:](http://pediatrics.aappublications.org/content/116/3/709.short) In kids, if 0/5 of the following criteria: (1) nausea, (2) RLQ pain, (3)difficulty walking, (4) rebound tenderness, and (5) absolute PMN&gt;6,750, then the patient is very unlikely to have appendicitis (negative LR=0.058). (\* see Bayes nomogram)
+
+## Bayes nomogram
+
+![](https://d2p53dh3qxfm0x.cloudfront.net/uploads/img/1jx/5/m/1eb66422-ee7d-5f5d-89f6-7b53f4b096da/640.png)
+Draw a connecting your pre-test probability and your likelihood ratio. This provides you with your post-test probability.
+
+## References
+
+-   [Howell JM, Eddy OL, Lukens TW, Thiessen ME, Weingart SD, Decker WW; American College of Emergency Physicians.Clinical policy: Critical issues in the evaluation and management of emergency department patients with suspected appendicitis. Ann Emerg Med. 2010 Jan;55(1):71-116. doi: 10.1016/j.annemergmed.2009.10.004.](http://www.ncbi.nlm.nih.gov/pubmed/20116016)
