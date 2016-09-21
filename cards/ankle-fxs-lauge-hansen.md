@@ -1,6 +1,6 @@
 ---
 
-title: Ankle Fractures: Lauge-Hansen Classification
+title: "Ankle Fractures: Lauge-Hansen Classification"
 collection:
   - orthopedics
 tags:
