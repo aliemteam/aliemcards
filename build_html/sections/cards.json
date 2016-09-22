@@ -1,0 +1,1004 @@
+{
+    "CNS-infection": {
+        "title": "CNS Infection",
+        "collection": ["infectious disease"],
+        "tags": null,
+        "slug": "CNS-infection"
+    },
+    "DVT-ultrasound": {
+        "title": "Ultrasound DVT Assessment",
+        "collection": ["radiology", "Ultrasound", "cardiovascular"],
+        "tags": null,
+        "slug": "DVT-ultrasound"
+    },
+    "DVT": {
+        "title": "DVT of the Leg - ACCP Guidelines",
+        "collection": ["cardiovascular", "ebm"],
+        "tags": null,
+        "slug": "DVT"
+    },
+    "ECG-MI-geography": {
+        "title": "ECG Geography for AMI",
+        "collection": ["cardiovascular", "ECG"],
+        "tags": null,
+        "slug": "ECG-MI-geography"
+    },
+    "ECG-avl": {
+        "title": "ECG Reciprocal Changes in aVL",
+        "collection": ["cardiovascular", "ECG"],
+        "tags": null,
+        "slug": "ECG-avl"
+    },
+    "ECG-electrolytes": {
+        "title": "ECG Electrolyte Imbalance",
+        "collection": ["cardiovascular", "ECG"],
+        "tags": null,
+        "slug": "ECG-electrolytes"
+    },
+    "ECG-flipped-paper": {
+        "title": "Posterior MI - How Accurate is the Flipped ECG?",
+        "collection": ["cardiovascular", "ECG"],
+        "tags": null,
+        "slug": "ECG-flipped-paper"
+    },
+    "ECG-lead-avr": {
+        "title": "Lead aVR",
+        "collection": ["cardiovascular", "ECG"],
+        "tags": null,
+        "slug": "ECG-lead-avr"
+    },
+    "ECG-right-posterior-leads": {
+        "title": "ECG Right and Posterior Leads",
+        "collection": ["cardiovascular", "ECG"],
+        "tags": null,
+        "slug": "ECG-right-posterior-leads"
+    },
+    "ECG-sgarbossa": {
+        "title": "Sgarbossa Criteria for LBBB and AMI",
+        "collection": ["cardiovascular", "ECG"],
+        "tags": null,
+        "slug": "ECG-sgarbossa"
+    },
+    "EMTALA-rules": {
+        "title": "EMTALA Transfer Rules",
+        "collection": ["EMS"],
+        "tags": null,
+        "slug": "EMTALA-rules"
+    },
+    "FAST-ultrasound": {
+        "title": "Focused Assessment with Sonography in Trauma (FAST)",
+        "collection": ["ultrasound", "radiology", "trauma"],
+        "tags": null,
+        "slug": "FAST-ultrasound"
+    },
+    "NIH-stroke-scale": {
+        "title": "NIH Stroke Scale",
+        "collection": ["neurology"],
+        "tags": null,
+        "slug": "NIH-stroke-scale"
+    },
+    "NSAID-GI-bleed": {
+        "title": "NSAIDs and Upper GI Bleed",
+        "collection": ["gastroenterology", "pharmacology"],
+        "tags": ["Ibuprofen", "Diclofenac", "Meloxicam", "Indomethacin", "Ketoprofen", "Naproxen", "Piroxicam", "Ketorolac", "Celecoxib", "Aceclofenac", "Rofecoxib"],
+        "slug": "NSAID-GI-bleed"
+    },
+    "PE-fibrinolysis": {
+        "title": "Fibrinolysis for Acute Pulmonary Embolism",
+        "collection": ["pulmonary", "critical care"],
+        "tags": ["alteplase", "tpa"],
+        "slug": "PE-fibrinolysis"
+    },
+    "PESI": {
+        "title": "PESI Score for Pulmonary Embolism",
+        "collection": ["pulmonary", "critical care"],
+        "tags": ["enoxaparin", "warfarin"],
+        "slug": "PESI"
+    },
+    "SHOCK-RUSH-exams": {
+        "title": "Shock and RUSH Exam",
+        "collection": ["Ultrasound", "radiology"],
+        "tags": null,
+        "slug": "SHOCK-RUSH-exams"
+    },
+    "SVT-troponin": {
+        "title": "SVT and Troponin",
+        "collection": ["cardiovascular"],
+        "tags": null,
+        "slug": "SVT-troponin"
+    },
+    "TIMI-score": {
+        "title": "TIMI Risk Score for Unstable Angina and NSTEMI",
+        "collection": ["cardiovascular", "ebm"],
+        "tags": null,
+        "slug": "TIMI-score"
+    },
+    "TPA-code-dose": {
+        "title": "tPA Code Dose",
+        "collection": ["critical care"],
+        "tags": ["TPA"],
+        "slug": "TPA-code-dose"
+    },
+    "TPA-contraindications": {
+        "title": "Contraindications for Thrombolytics",
+        "collection": ["neurology"],
+        "tags": ["TPA"],
+        "slug": "TPA-contraindications"
+    },
+    "UTI": {
+        "title": "Urinary Tract Infection",
+        "collection": ["genitourinary", "infectious disease"],
+        "tags": null,
+        "slug": "UTI"
+    },
+    "abdominal-pain-diagnostics": {
+        "title": "Abdominal Pain - Diagnostic Studies",
+        "collection": ["gastroenterology", "surgery", "ebm"],
+        "tags": null,
+        "slug": "abdominal-pain-diagnostics"
+    },
+    "abg-interpretation": {
+        "title": "ABG Interpretation",
+        "collection": ["pulmonary"],
+        "tags": null,
+        "slug": "abg-interpretation"
+    },
+    "abg-vs-vbg": {
+        "title": "ABG versus VBG",
+        "collection": ["pulmonary"],
+        "tags": null,
+        "slug": "abg-vs-vbg"
+    },
+    "acetaminophen-toxicity": {
+        "title": "Acetaminophen toxicity",
+        "collection": ["toxicology", "pharmacology"],
+        "tags": ["acetaminophen"],
+        "slug": "acetaminophen-toxicity"
+    },
+    "acls": {
+        "slug": "acls"
+    },
+    "acute-limb-ischemia": {
+        "title": "Acute Limb Ischemia",
+        "collection": ["cardiovascular"],
+        "tags": ["aspirin", "heparin"],
+        "slug": "acute-limb-ischemia"
+    },
+    "adenosine": {
+        "title": "Adenosine 6-12-12 Approach",
+        "collection": ["cardiovascular", "pharmacology", "critical care"],
+        "tags": ["adenosine"],
+        "slug": "adenosine"
+    },
+    "against-medical-advice": {
+        "title": "Against Medical Advice (AMA)",
+        "collection": ["Education and Policy"],
+        "tags": null,
+        "slug": "against-medical-advice"
+    },
+    "anaphylaxis": {
+        "title": "Anaphylaxis",
+        "collection": ["Allergy-Immunology"],
+        "tags": ["epinepherine", "diphenhydramine", "ranitidine", "glucagon", "methylprednisolone"],
+        "slug": "anaphylaxis"
+    },
+    "angioedema": {
+        "title": "Angioedema",
+        "collection": ["Allergy-Immunology"],
+        "tags": ["ACE inhibitor,"],
+        "slug": "angioedema"
+    },
+    "ankle-fxs-lauge-hansen": {
+        "title": "Ankle Fractures: Lauge-Hansen Classification",
+        "collection": ["orthopedics"],
+        "tags": null,
+        "slug": "ankle-fxs-lauge-hansen"
+    },
+    "aorta-ultrasound": {
+        "title": "Focused Abdominal Aorta Ultrasound",
+        "collection": ["ultrasound", "radiology", "cardiovascular"],
+        "tags": null,
+        "slug": "aorta-ultrasound"
+    },
+    "aortic-dissection": {
+        "title": "Aortic Dissection",
+        "collection": ["cardiovascular", "critical care"],
+        "tags": null,
+        "slug": "aortic-dissection"
+    },
+    "appendicitis-ACEP": {
+        "title": "Appendicitis ACEP Clinical Policy",
+        "collection": ["surgery", "ebm"],
+        "tags": null,
+        "slug": "appendicitis-ACEP"
+    },
+    "asthma-classification": {
+        "title": "Asthma Classification",
+        "collection": ["Pulmonary", "Allergy-Immunology"],
+        "tags": null,
+        "slug": "asthma-classification"
+    },
+    "ativan-vs-haldol": {
+        "title": "Chemical Sedation - Haldol vs Ativan vs Versed",
+        "collection": ["pharmacology"],
+        "tags": ["haldol", "midazolam", "lorazepam"],
+        "slug": "ativan-vs-haldol"
+    },
+    "atls": {
+        "title": "ATLS - Palpable Pulses are Inaccurate",
+        "collection": ["surgery", "trauma"],
+        "tags": null,
+        "slug": "atls"
+    },
+    "atrial-fibrillation": {
+        "title": "Atrial Fibrillation and Anticoagulation",
+        "collection": ["cardiovascular"],
+        "tags": ["aspirin", "warfarin"],
+        "slug": "atrial-fibrillation"
+    },
+    "bayes-nomogram": {
+        "title": "Bayes Nomogram",
+        "collection": ["ebm"],
+        "tags": null,
+        "slug": "bayes-nomogram"
+    },
+    "bells-palsy-treatment": {
+        "title": "Bell's Palsy Treatment",
+        "collection": ["Neurology"],
+        "tags": ["Valacylovir", "Acyclovir", "Prednisone"],
+        "slug": "bells-palsy-treatment"
+    },
+    "benzo-metabolism": {
+        "title": "Benzodiazepines Metabolism by the Liver",
+        "collection": ["pharmacology", "toxicology"],
+        "tags": ["lorazepam", "oxazepam", "temazepam", "clonazepam", "midazolam", "diazepam"],
+        "slug": "benzo-metabolism"
+    },
+    "beta-agonist-lactic-acidosis": {
+        "title": "Beta Agonist Therapy and Lactic Acidosis in Asthma",
+        "collection": ["pulmonary", "pharmacology", "toxicology"],
+        "tags": null,
+        "slug": "beta-agonist-lactic-acidosis"
+    },
+    "blood-cultures": {
+        "title": "Blood Culture Indications",
+        "collection": ["infectious disease"],
+        "tags": null,
+        "slug": "blood-cultures"
+    },
+    "blunt-abdominal-trauma": {
+        "title": "Blunt Intra-Abdominal Injury",
+        "collection": ["trauma", "ebm"],
+        "tags": null,
+        "slug": "blunt-abdominal-trauma"
+    },
+    "blunt-cardiac-injury": {
+        "title": "Blunt Cardiac Injury",
+        "collection": ["trauma"],
+        "tags": null,
+        "slug": "blunt-cardiac-injury"
+    },
+    "blunt-cerebrovascular-injury": {
+        "title": "Blunt Cerebrovascular Injuries",
+        "collection": ["trauma"],
+        "tags": ["heparin", "aspirin"],
+        "slug": "blunt-cerebrovascular-injury"
+    },
+    "brugada-vs-svt": {
+        "title": "Brugada Criteria for SVT with Aberrancy vs VT",
+        "collection": ["cardiovascular"],
+        "tags": null,
+        "slug": "brugada-vs-svt"
+    },
+    "brugada": {
+        "title": "Brugada Syndrome",
+        "collection": ["cardiovascular"],
+        "tags": null,
+        "slug": "brugada"
+    },
+    "bundle-branch-blocks": {
+        "title": "Bundle Branch Blocks 101",
+        "collection": ["cardiovascular"],
+        "tags": null,
+        "slug": "bundle-branch-blocks"
+    },
+    "burn-wounds": {
+        "title": "Burn Wounds",
+        "collection": ["trauma"],
+        "tags": null,
+        "slug": "burn-wounds"
+    },
+    "c1-c2-fractures": {
+        "title": "C1 and C2 Spine Fractures",
+        "collection": ["orthopedics"],
+        "tags": null,
+        "slug": "c1-c2-fractures"
+    },
+    "c3-c7-fractures": {
+        "title": "C3-C7 Spine Fractures",
+        "collection": ["orthopedics"],
+        "tags": null,
+        "slug": "c3-c7-fractures"
+    },
+    "cancer-neutropenic-fever": {
+        "title": "Neutropenic Fever and Cancer",
+        "collection": ["hematology and oncology"],
+        "tags": ["ciprofloxacin", "vancomycin", "cefipime", "pipercillin-tazobactam", "amoxicillin-clavulanate", "aztreonam"],
+        "slug": "cancer-neutropenic-fever"
+    },
+    "carbon-monoxide-poisoning": {
+        "title": "Carbon Monoxide Poisoning",
+        "collection": ["toxicology"],
+        "tags": null,
+        "slug": "carbon-monoxide-poisoning"
+    },
+    "cardiac-tamponade": {
+        "title": "Cardiac Tamponade",
+        "collection": ["cardiovascular"],
+        "tags": null,
+        "slug": "cardiac-tamponade"
+    },
+    "cdiff": {
+        "title": "Clostridium Difficile Infection",
+        "collection": ["infectious disease"],
+        "tags": null,
+        "slug": "cdiff"
+    },
+    "chest-pain-adp": {
+        "title": "Chest Pain - Accelerated Diagnostic Protocol",
+        "collection": ["cardiovascular"],
+        "tags": null,
+        "slug": "chest-pain-adp"
+    },
+    "chest-pain-ct-coronary": {
+        "title": "CT Coronary in the ED",
+        "collection": ["cardiovascular", "ebm"],
+        "tags": null,
+        "slug": "chest-pain-ct-coronary"
+    },
+    "chest-pain-history": {
+        "title": "Chest Pain History",
+        "collection": ["cardiovascular", "ebm"],
+        "tags": null,
+        "slug": "chest-pain-history"
+    },
+    "chest-pain-stratify": {
+        "title": "Chest Pain Risk Stratification for ACS",
+        "collection": ["cardiovascular", "ebm"],
+        "tags": null,
+        "slug": "chest-pain-stratify"
+    },
+    "cholecystitis-diagnosis": {
+        "title": "Cholecystitis Diagnostic Test",
+        "collection": ["gastroenterology", "ebm"],
+        "tags": null,
+        "slug": "cholecystitis-diagnosis"
+    },
+    "cpr-mechanical-vs-manual": {
+        "title": "CPR - Mechanical vs Manual",
+        "collection": ["cardiovascular", "critical care"],
+        "tags": null,
+        "slug": "cpr-mechanical-vs-manual"
+    },
+    "croup": {
+        "title": "Croup",
+        "collection": ["pediatrics", "ent"],
+        "tags": ["dexamethasone", "racemic epinephrine"],
+        "slug": "croup"
+    },
+    "cspine-distracting-injuries": {
+        "title": "Cervical Spine Distracting Injuries",
+        "collection": ["trauma", "orthopedics"],
+        "tags": null,
+        "slug": "cspine-distracting-injuries"
+    },
+    "cspine-rules": {
+        "title": "Cervical Spine Rules",
+        "collection": ["trauma", "orthopedics"],
+        "tags": null,
+        "slug": "cspine-rules"
+    },
+    "ct-cancer-risk": {
+        "title": "Cancer Risk from CT",
+        "collection": ["radiology"],
+        "tags": null,
+        "slug": "ct-cancer-risk"
+    },
+    "cystitis-pregnant": {
+        "title": "Cystitis and Pyelonephritis in Women",
+        "collection": ["infectious disease", "genitourinary"],
+        "tags": ["Nitrofurantoin", "sulfamethoxazole", "fosfomycin", "pivmecillinam", "ofloxacin", "ciprofloxacin", "levofloxacin", "amoxicillin-clavulanate", "cefdinir", "cefaclor", "cefpodoxime-proxetil", "Trimethoprim-sulfamethoxazole"],
+        "slug": "cystitis-pregnant"
+    },
+    "defibrillation-hands-off": {
+        "title": "CPR Hands-on vs Hands-off Defibrillation",
+        "collection": ["cardiovascular", "critical care"],
+        "tags": null,
+        "slug": "defibrillation-hands-off"
+    },
+    "delayed-sequence-intubation": {
+        "title": "Delayed Sequence Intubation",
+        "collection": ["critical care", "procedures"],
+        "tags": ["ketamine"],
+        "slug": "delayed-sequence-intubation"
+    },
+    "dental-infections": {
+        "title": "Dental Infections",
+        "collection": ["ent"],
+        "tags": null,
+        "slug": "dental-infections"
+    },
+    "dental-trauma": {
+        "title": "Dental Trauma",
+        "collection": ["ent"],
+        "tags": null,
+        "slug": "dental-trauma"
+    },
+    "dermatomes": {
+        "title": "Dermatomes and Myotomal Maps",
+        "collection": ["orthopedics"],
+        "tags": null,
+        "slug": "dermatomes"
+    },
+    "diabetic-ulcer": {
+        "title": "Diabetic Leg Ulcer and Osteomyelitis",
+        "collection": ["orthopedics", "ebm"],
+        "tags": null,
+        "slug": "diabetic-ulcer"
+    },
+    "difficult-airway": {
+        "title": "Predictors of a Difficult Airway",
+        "collection": ["critical care"],
+        "tags": null,
+        "slug": "difficult-airway"
+    },
+    "diverticulitis-outpatient": {
+        "title": "Diverticulitis Outpatient Treatment",
+        "collection": ["gastroenterology", "ebm"],
+        "tags": null,
+        "slug": "diverticulitis-outpatient"
+    },
+    "does-your-pt-have-chf": {
+        "title": "Does Your Dyspneic Patient Have CHF?",
+        "collection": ["cardiovascular", "ebm"],
+        "tags": null,
+        "slug": "does-your-pt-have-chf"
+    },
+    "dysphagia": {
+        "title": "Dysphagia",
+        "collection": ["gastroenterology"],
+        "tags": null,
+        "slug": "dysphagia"
+    },
+    "early-goal-directed-therapy": {
+        "title": "Early Goal Directed Therapy in Sepsis",
+        "collection": ["critical care"],
+        "tags": null,
+        "slug": "early-goal-directed-therapy"
+    },
+    "echocardiography": {
+        "title": "Focused Echocardiography",
+        "collection": ["cardiovascular", "ultrasound"],
+        "tags": null,
+        "slug": "echocardiography"
+    },
+    "ectopic-diagnosis": {
+        "title": "Ectopic Pregnancy - Making the Diagnosis",
+        "collection": ["OBGYN"],
+        "tags": null,
+        "slug": "ectopic-diagnosis"
+    },
+    "ectopic-methotrexate": {
+        "title": "Ectopic Pregnancy and Methotrexate",
+        "collection": ["OBGYN"],
+        "tags": ["Methotrexate,"],
+        "slug": "ectopic-methotrexate"
+    },
+    "emergency-drug-card-adult": {
+        "title": "Emergency Drug Card - Adult",
+        "collection": ["pharmacology", "critical care"],
+        "tags": ["etomidate", "lidocaine", "rocuronium", "succinylcholine", "vecuronium", "amiodarone", "diltiazem", "esmolol", "labetalol", "nicardipine", "procainamide", "fentanyl", "ketamine", "propofol", "dobutamine", "dopamine", "epinephrine", "norepinephrine", "phenylephrine", "vasopressin,"],
+        "slug": "emergency-drug-card-adult"
+    },
+    "emergency-drug-card-peds": {
+        "title": "Emergency Drug Card (Pediatric)",
+        "collection": ["pharmacology", "critical care"],
+        "tags": ["adenosine", "amiodarone", "atronie", "calcium chloride", "dextrose", "epinephrine", "Magnesium", "procainamide", "sodium bicarbonate", "etomidate", "lidocaine", "rocuronium", "succinylcholine", "vecuronium", "Haloperidol", "dobutamine", "dopamine", "norepinephrine", "phenylephrine", "vasopressin", "Diazepam", "Fosphenytoin", "Levetiracetam", "Lorazepam", "Midazolam", "Phenobarbital", "Nitroglycerin", "Nitroprusside", "Dexamethasone", "Diphenhydramine", "Famotidine", "Methylprednisolone", "Ranitidine", "fentanyl", "ketamine", "propofol", "morphine", "N-acetylcysteine", "Flumazenil", "Fomepizole", "Naloxone", "Alprostadil", "prostaglandin", "factor VIII", "heparin", "Ondansetron"],
+        "slug": "emergency-drug-card-peds"
+    },
+    "end-of-shift-feedback": {
+        "title": "End-of-Shift Feedback",
+        "collection": ["Education"],
+        "tags": null,
+        "slug": "end-of-shift-feedback"
+    },
+    "ethylene-glycol": {
+        "title": "Toxic Alcohol Ingestion - Ethylene Glycol",
+        "collection": ["toxicology"],
+        "tags": ["fomipezole"],
+        "slug": "ethylene-glycol"
+    },
+    "first-time-seizure": {
+        "title": "Seizure, New Onset",
+        "collection": ["neurology"],
+        "tags": null,
+        "slug": "first-time-seizure"
+    },
+    "first-trimester-transvaginal-ultrasound": {
+        "title": "Focused 1st Trimester Pregnancy Transvaginal Ultrasound",
+        "collection": ["ultrasound", "radiology", "obgyn"],
+        "tags": null,
+        "slug": "first-trimester-transvaginal-ultrasound"
+    },
+    "first-trimester-ultrasound": {
+        "title": "Focused 1st Trimester Pregnancy Transabdominal Ultrasound",
+        "collection": ["radiology", "ultrasound", "obgyn"],
+        "tags": null,
+        "slug": "first-trimester-ultrasound"
+    },
+    "gallbladder-ultrasound": {
+        "title": "Focused Biliary Assessment",
+        "collection": ["radiology", "ultrasound", "gastroenterology"],
+        "tags": null,
+        "slug": "gallbladder-ultrasound"
+    },
+    "genital-ulcers": {
+        "title": "Genital Ulcers",
+        "collection": ["infectious disease", "genitourinary"],
+        "tags": null,
+        "slug": "genital-ulcers"
+    },
+    "geriatric-procedural-sedation": {
+        "title": "Geriatric Procedural Sedation",
+        "collection": ["pharmacology"],
+        "tags": ["diazepam", "midazolam", "propofol", "ketamine", "etomidate", "ketofol"],
+        "slug": "geriatric-procedural-sedation"
+    },
+    "head-ct-and-lp": {
+        "title": "Head CT Before LP for Meningitis",
+        "collection": ["neurology", "procedures", "ebm", "radiology"],
+        "tags": null,
+        "slug": "head-ct-and-lp"
+    },
+    "head-ct-in-trauma": {
+        "title": "Head CT in Trauma",
+        "collection": ["radiology", "ebm", "trauma"],
+        "tags": null,
+        "slug": "head-ct-in-trauma"
+    },
+    "heart-murmurs": {
+        "title": "Murmurs Needing Echocardiography Evaluation",
+        "collection": ["cardiology"],
+        "tags": null,
+        "slug": "heart-murmurs"
+    },
+    "hyperkalemia": {
+        "title": "Hyperkalemia",
+        "collection": ["endocrine", "metabolic", "critical care"],
+        "tags": ["insulin", "albuterol", "furosemide", "sodium bicarbonate", "Kayexalate", "calcium gluconate"],
+        "slug": "hyperkalemia"
+    },
+    "hyperthyroidism": {
+        "title": "Hyperthyroidism",
+        "collection": ["endocrine"],
+        "tags": null,
+        "slug": "hyperthyroidism"
+    },
+    "hypothermia": {
+        "title": "Hypothermia",
+        "collection": ["environmental"],
+        "tags": null,
+        "slug": "hypothermia"
+    },
+    "increased-osmolar-gap": {
+        "title": "Approach to Increased Osmolar Gap",
+        "collection": ["toxicology"],
+        "tags": null,
+        "slug": "increased-osmolar-gap"
+    },
+    "influenza-treatment": {
+        "title": "Influenza - to treat or not to treat?",
+        "collection": ["infectious disease"],
+        "tags": ["Amantadine", "Rimantidine", "Oseltamivir", "Zanamivir"],
+        "slug": "influenza-treatment"
+    },
+    "infusions": {
+        "title": "Continuous Infusions",
+        "collection": ["pharmacology", "critical care"],
+        "tags": ["amiodarone", "Diltiazem", "Dobutamine", "Dopamine", "Epinephrine", "Esmolol", "fentanyl", "furosemide", "Isoproterenol", "ketamine", "lidocaine", "Lorazepam", "midazolam", "naloxone", "Nicardipine", "Nitroglycerin", "Nitroprusside", "Norepinephrine", "Octreotide", "Phenylephrine", "propofol", "Vasopressin", "Vecuronium"],
+        "slug": "infusions"
+    },
+    "insulin-pumps": {
+        "title": "Insulin Pumps",
+        "collection": ["endocrine"],
+        "tags": ["insulin"],
+        "slug": "insulin-pumps"
+    },
+    "intimate-partner-violence": {
+        "title": "Intimate Partner Violence",
+        "collection": ["trauma"],
+        "tags": null,
+        "slug": "intimate-partner-violence"
+    },
+    "is-bicarb-useless": {
+        "title": "Bicarbonate - Completely Useless?",
+        "collection": ["toxicology", "pharmacology", "critical care"],
+        "tags": ["sodium bicarbonate"],
+        "slug": "is-bicarb-useless"
+    },
+    "iv-fluids-for-icu-patients": {
+        "title": "IV Fluid Formulations for ICU Patients",
+        "collection": ["critical care"],
+        "tags": null,
+        "slug": "iv-fluids-for-icu-patients"
+    },
+    "kawasaki": {
+        "title": "Kawasaki Disease",
+        "collection": ["pediatrics"],
+        "tags": null,
+        "slug": "kawasaki"
+    },
+    "ketofol": {
+        "title": "Ketofol",
+        "collection": ["pharmacology"],
+        "tags": ["ketofol", "propofol", "ketamine"],
+        "slug": "ketofol"
+    },
+    "knee-exam": {
+        "title": "Knee Examination",
+        "collection": ["orthopedics", "ebm"],
+        "tags": null,
+        "slug": "knee-exam"
+    },
+    "legionella": {
+        "title": "Legionnaire's Disease",
+        "collection": ["infectious disease", "pulmonary"],
+        "tags": null,
+        "slug": "legionella"
+    },
+    "local-anesthetic-toxicity": {
+        "title": "Local Anesthetic Toxicity",
+        "collection": ["toxicology"],
+        "tags": ["Bupivacaine", "Lidocaine", "Epinephrine", "intralipid"],
+        "slug": "local-anesthetic-toxicity"
+    },
+    "lung-ultrasound": {
+        "title": "Focused Lung Assessment",
+        "collection": ["ultrasound", "radiology", "pulmonary"],
+        "tags": null,
+        "slug": "lung-ultrasound"
+    },
+    "metacarpal-metatarsal-fractures": {
+        "title": "Metatarsal & Metacarpal Fractures",
+        "collection": ["orthopedics"],
+        "tags": null,
+        "slug": "metacarpal-metatarsal-fractures"
+    },
+    "methanol": {
+        "title": "Toxic Alcohol Ingestion - Methanol",
+        "collection": ["toxicology"],
+        "tags": ["fomipezole", "ethanol", "folic acid"],
+        "slug": "methanol"
+    },
+    "nebulized-lidocaine": {
+        "title": "Lidocaine, nebulized dose",
+        "collection": ["pharmacology"],
+        "tags": ["lidocaine"],
+        "slug": "nebulized-lidocaine"
+    },
+    "ocular-ultrasound": {
+        "title": "Ocular Assessment",
+        "collection": ["ultrasound", "radiology", "ophthalmology"],
+        "tags": null,
+        "slug": "ocular-ultrasound"
+    },
+    "open-fractures": {
+        "title": "Open Fractures and Antibiotics",
+        "collection": ["orthopedics"],
+        "tags": null,
+        "slug": "open-fractures"
+    },
+    "ottawa-knee-ankle-foot": {
+        "title": "Ottawa Knee, Ankle, and Foot Rules",
+        "collection": ["orthopedics", "ebm"],
+        "tags": null,
+        "slug": "ottawa-knee-ankle-foot"
+    },
+    "pain-management": {
+        "title": "Initial Pain Management Options",
+        "collection": ["pharmacology"],
+        "tags": ["acetaminophen", "Ibuprofen", "Naproxen", "Ketorolac", "Indomethacin", "lidocaine", "lidoderm", "Bupivacaine", "Triamcinolone", "Gabapentin", "Pregabalin", "Ketamine", "Oxycodone", "Hydrocodone", "Hydromorphone", "Morphine", "Fentanyl", "naloxone"],
+        "slug": "pain-management"
+    },
+    "palliative-care-screening": {
+        "title": "Palliative Care Screening Tool",
+        "collection": ["palliative care"],
+        "tags": null,
+        "slug": "palliative-care-screening"
+    },
+    "paracentesis": {
+        "title": "Paracentesis for Ascites",
+        "collection": ["gastroenterology"],
+        "tags": null,
+        "slug": "paracentesis"
+    },
+    "pe-prediction-rules": {
+        "title": "Pulmonary Embolism Clinical Prediction Rules",
+        "collection": ["pulmonary", "ebm"],
+        "tags": null,
+        "slug": "pe-prediction-rules"
+    },
+    "pediatric-assessment-triangle": {
+        "title": "Pediatric Assessment Triangle",
+        "collection": ["pediatrics", "critical care"],
+        "tags": null,
+        "slug": "pediatric-assessment-triangle"
+    },
+    "pediatric-fever-neonate": {
+        "title": "Fever Without a Source - neonate",
+        "collection": ["pediatrics", "infectious disease"],
+        "tags": ["Ampicillin", "Cefotaxime", "Gentamicin"],
+        "slug": "pediatric-fever-neonate"
+    },
+    "pediatric-fever-over-one-month": {
+        "title": "Pediatric Fever Without a Source - Infant",
+        "collection": ["pediatrics"],
+        "tags": ["ceftriaxone"],
+        "slug": "pediatric-fever-over-one-month"
+    },
+    "pediatric-head-injury": {
+        "title": "Pediatric Blunt Head Trauma (PECARN Study)",
+        "collection": ["pediatrics", "trauma"],
+        "tags": null,
+        "slug": "pediatric-head-injury"
+    },
+    "pediatric-ingestion": {
+        "title": "Pediatric Ingestion Dose Thresholds for ED Referral",
+        "collection": ["pediatrics", "toxicology"],
+        "tags": ["acetaminophen", "aripiprazole", "clozapine", "olanzapine", "quetiapine", "risperidone", "ziprasidone", "acebutolol", "atenolol", "carvedilol", "labetalol", "metoprolol", "nadolol", "propranolol", "sotalol", "timolol", "amlodipine", "diltiazem", "felodipine", "isradipine", "nifedipine", "verapamil", "camphor", "dextromethorphan", "diphenhydramine", "dimenhydrinate", "ethylene glycol", "iron", "mercury", "methylphenidate", "salicylate", "aspirin", "citalopram", "escitalopram", "fluoxetine", "fluvoxamine", "paroxetine", "sertraline", "desipramine", "nortriptyline", "trimipramine", "protriptyline", "valproic acid"],
+        "slug": "pediatric-ingestion"
+    },
+    "pediatric-weight-based-resus": {
+        "title": "Pediatric Weight-Based Resuscitation Reference",
+        "collection": ["critical care", "pediatric"],
+        "tags": null,
+        "slug": "pediatric-weight-based-resus"
+    },
+    "penetrating-abdominal-trauma": {
+        "title": "Penetrating Abdominal Trauma - Observe vs Laparotomy",
+        "collection": ["trauma"],
+        "tags": null,
+        "slug": "penetrating-abdominal-trauma"
+    },
+    "peripheral-vertigo-vs-stroke": {
+        "title": "Acute Vestibular Syndrome vs Stroke",
+        "collection": ["neurology", "ent", "ebm"],
+        "tags": null,
+        "slug": "peripheral-vertigo-vs-stroke"
+    },
+    "persistent-tachycardia": {
+        "title": "Persistent Tachycardia",
+        "collection": ["cardiovascular"],
+        "tags": null,
+        "slug": "persistent-tachycardia"
+    },
+    "pertussis-treatment": {
+        "title": "Pertussis Treatment Algorithm",
+        "collection": ["pediatrics", "infectious disease"],
+        "tags": ["Azithromycin", "Clarithromycin", "Erythromycin"],
+        "slug": "pertussis-treatment"
+    },
+    "pertussis": {
+        "title": "Pertussis",
+        "collection": ["infectious disease", "ebm"],
+        "tags": ["Azithromycin"],
+        "slug": "pertussis"
+    },
+    "phenytoin-loading": {
+        "title": "Phenytoin Oral Loading in the ED",
+        "collection": ["neurology", "pharmacology"],
+        "tags": ["phenytoin"],
+        "slug": "phenytoin-loading"
+    },
+    "pneumonia-severity": {
+        "title": "Pneumonia Risk Stratification Tools",
+        "collection": ["pulmonology", "infectious disease", "ebm"],
+        "tags": null,
+        "slug": "pneumonia-severity"
+    },
+    "post-exposure-prophylaxis": {
+        "title": "Post-Exposure Prophylaxis, non-occupational contact",
+        "collection": ["infectious disease"],
+        "tags": null,
+        "slug": "post-exposure-prophylaxis"
+    },
+    "procedural-sedation": {
+        "title": "Procedural Sedation & Analgesia",
+        "collection": ["pharmacology", "procedures"],
+        "tags": ["propofol", "etomidate", "ketamine", "ketofol", "Dexamedetomidine", "lorazepam", "diazepam", "midazolam", "Fentanyl", "Hydromorphone", "Morphine"],
+        "slug": "procedural-sedation"
+    },
+    "rapid-sequence-intubation": {
+        "title": "Rapid Sequence Intubation",
+        "collection": ["critical care", "procedures"],
+        "tags": ["lidocaine", "fentanyl", "etomidate", "propofol", "thiopental", "ketamine", "midazolam", "Succinylcholine", "Rocuronium", "Vecuronium"],
+        "slug": "rapid-sequence-intubation"
+    },
+    "rash-unknown": {
+        "title": "An Approach to the Unknown Rash",
+        "collection": ["dermatology"],
+        "tags": null,
+        "slug": "rash-unknown"
+    },
+    "red-eye": {
+        "title": "Red Eye",
+        "collection": ["ophthalmology"],
+        "tags": ["trifluridine", "vidarabine", "acyclovir", "erythromycin", "Azithromycin", "timolol", "prednisolone", "apraclonidine", "acetazolamide"],
+        "slug": "red-eye"
+    },
+    "scaphoid-fractures": {
+        "title": "Scaphoid Fracture",
+        "collection": ["orthopedics", "ebm"],
+        "tags": null,
+        "slug": "scaphoid-fractures"
+    },
+    "septic-arthritis": {
+        "title": "Septic Arthritis",
+        "collection": ["orthopedics", "infectious disease", "ebm"],
+        "tags": null,
+        "slug": "septic-arthritis"
+    },
+    "serotonin-syndrome": {
+        "title": "Serotonin Syndrome",
+        "collection": ["toxicology"],
+        "tags": ["Cyclobenzaprine", "Fentanyl", "Meperidine", "Tramadol", "Buspirone", "Lithium", "Metoclopramide", "Ondansetron", "Carbamazepine", "valproic acid", "cocaine", "Dextromethorphan", "Linezolid", "cyproheptadine"],
+        "slug": "serotonin-syndrome"
+    },
+    "shoulder-exam": {
+        "title": "Shoulder Exam Provocative Testing",
+        "collection": ["orthopedics"],
+        "tags": null,
+        "slug": "shoulder-exam"
+    },
+    "skin-soft-tissue-ultrasound": {
+        "title": "Skin and Soft Tissue Ultrasound",
+        "collection": ["ultrasound", "radiology"],
+        "tags": null,
+        "slug": "skin-soft-tissue-ultrasound"
+    },
+    "spinal-epidural-abscess": {
+        "title": "Spinal Epidural Abscess",
+        "collection": ["infectious disease", "ebm"],
+        "tags": null,
+        "slug": "spinal-epidural-abscess"
+    },
+    "status-epilepticus": {
+        "title": "Seizures and Status Epilepticus",
+        "collection": ["neurology", "critical care"],
+        "tags": ["phenytoin", "fosphenytoin", "Midazolam", "lorazepam", "Propofol", "Pentobarbital", "Thiamine", "Ceftriaxone", "vancomycin", "pyridoxine"],
+        "slug": "status-epilepticus"
+    },
+    "sternal-fractures": {
+        "title": "Sternal Fractures",
+        "collection": ["Trauma"],
+        "tags": null,
+        "slug": "sternal-fractures"
+    },
+    "strep-pharyngitis": {
+        "title": "Streptococcal Pharyngitis",
+        "collection": ["ENT", "infectious disease", "ebm"],
+        "tags": ["penicillin", "amoxicillin,"],
+        "slug": "strep-pharyngitis"
+    },
+    "subarachnoid-hemorrhage-nontraumatic": {
+        "title": "Subarachnoid Hemorrhage, Nontraumatic",
+        "collection": ["neurology"],
+        "tags": null,
+        "slug": "subarachnoid-hemorrhage-nontraumatic"
+    },
+    "subarachnoid-hemorrhage": {
+        "title": "Subarachnoid Hemorrhage",
+        "collection": ["neurology"],
+        "tags": null,
+        "slug": "subarachnoid-hemorrhage"
+    },
+    "submassive-PE-thrombolytics": {
+        "title": "Thrombolytics for Submassive PE",
+        "collection": ["critical care", "pulmonology"],
+        "tags": ["tPA", "tenecteplase", "alteplase", "heparin"],
+        "slug": "submassive-PE-thrombolytics"
+    },
+    "suicide-assessment": {
+        "title": "Suicide Risk Stratification",
+        "collection": ["psychiatry"],
+        "tags": null,
+        "slug": "suicide-assessment"
+    },
+    "supratherapeutic-INR": {
+        "title": "Supratherapeutic INR",
+        "collection": ["hematology/oncology"],
+        "tags": ["coumadin", "vitamin K", "PCC", "FFP", "aspirin", "clopidogrel,"],
+        "slug": "supratherapeutic-INR"
+    },
+    "suture-materials": {
+        "title": "Suture Materials",
+        "collection": ["surgery"],
+        "tags": null,
+        "slug": "suture-materials"
+    },
+    "synovitis-vs-septic-hip": {
+        "title": "Transient Synovitis vs Septic Arthritis of the Hip",
+        "collection": ["orthopedics", "pediatrics"],
+        "tags": null,
+        "slug": "synovitis-vs-septic-hip"
+    },
+    "testicular-ultrasound": {
+        "title": "Testicular Ultrasound Assessment",
+        "collection": ["urology", "radiology", "ultrasound"],
+        "tags": null,
+        "slug": "testicular-ultrasound"
+    },
+    "thyroid-storm": {
+        "title": "Thyroid Storm - Treatment Strategies",
+        "collection": ["endocrinology", "critical care"],
+        "tags": ["propylthiouriacil", "methimazole", "propranolol", "hydrocortisone", "esmolol", "cholestyramine"],
+        "slug": "thyroid-storm"
+    },
+    "toxidrome-vitals": {
+        "title": "Toxidromes by Vital Signs",
+        "collection": ["toxicology"],
+        "tags": ["propranolol", "propoxyphene", "physostigmine", "clonidine", "digoxin", "theophylline", "clonidine", "aminophylline,"],
+        "slug": "toxidrome-vitals"
+    },
+    "transient-ischemic-attack": {
+        "title": "Transient Ichemic Attack (TIA)",
+        "collection": ["neurology"],
+        "tags": null,
+        "slug": "transient-ischemic-attack"
+    },
+    "ultrasound-measurements": {
+        "title": "Ultrasound Measurement Cheat Sheet",
+        "collection": ["radiology", "ultrasound"],
+        "tags": null,
+        "slug": "ultrasound-measurements"
+    },
+    "upper-GI-bleed": {
+        "title": "Upper GI Bleed",
+        "collection": ["gastroenterology", "ebm"],
+        "tags": ["aspirin", "warfarin", "Octreotide"],
+        "slug": "upper-GI-bleed"
+    },
+    "urine-tox-screen": {
+        "title": "Urine Toxicology Screen",
+        "collection": ["toxicology"],
+        "tags": ["amantadine", "buproprion", "chlorpromazine", "desipramine", "fluoxetine", "labetalol", "Methylphenidate", "Phentermine", "Phenylephrine", "Phenylpropanolamine", "Promethazine", "Pseudoephedrine", "Ranitidine", "Thioridazine", "trazodone", "oxaprozin", "sertraline", "Dextromethorphan", "Diphenhydramine", "Quinine", "Rifampin", "Verapamil", "Ibuprofen", "Imipramine", "Ketamine", "Meperidine", "Venlafaxine", "Dronabinol", "Pantoprazole", "oxazepam", "diazepam", "chlordiazepoxide", "alprazolam", "clonazepam", "lorazepam", "morphine", "codeine", "hydrocodone", "hydromorphone", "oxycodone", "oxymorphone", "buprenorphine", "fentanyl", "methadone", "tramadol,"],
+        "slug": "urine-tox-screen"
+    },
+    "vasopressors-in-hypotension": {
+        "title": "Vasopressors in Hypotension",
+        "collection": ["critical care", "cardiovascular"],
+        "tags": ["dobutamine", "isoproterenol", "epinephrine", "norepinephrine", "dopamine"],
+        "slug": "vasopressors-in-hypotension"
+    },
+    "vasopressors-inotropes-shock": {
+        "title": "Vasopressors and Inotropes in Shock",
+        "collection": ["cardiovascular", "critical care"],
+        "tags": ["epinephrine", "Phenylephrine", "norepinephrine", "dopamine", "dobutamine"],
+        "slug": "vasopressors-inotropes-shock"
+    },
+    "ventilator-settings-obstruction": {
+        "slug": "ventilator-settings-obstruction"
+    },
+    "ventilator-settings": {
+        "title": "Ventilator Setting for Lung Protection",
+        "collection": ["pulmonology", "critical care"],
+        "tags": null,
+        "slug": "ventilator-settings"
+    },
+    "when-avoid-tramadol": {
+        "title": "When to Avoid Tramadol",
+        "collection": ["toxicology"],
+        "tags": ["tramadol,"],
+        "slug": "when-avoid-tramadol"
+    }
+}

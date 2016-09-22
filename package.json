@@ -8,6 +8,7 @@
     "gulp-debug": "^2.1.2",
     "gulp-front-matter": "^1.3.0",
     "gulp-jsbeautifier": "^2.0.3",
+    "gulp-markdown": "^1.2.0",
     "gulp-tap": "^0.1.3",
     "gulp-util": "^3.0.7",
     "lodash": "^4.16.1",

@@ -43,7 +43,6 @@ Lactate is useful adjunct to risk stratify for mortality ([Shapiro et al. (2005)
 
 
 |                        | 28-day in-hospital mortality | Early death (≤ 3d)       |
-
 |------------------------|--------------------|-------------|
 | Lactate &lt; 2.5 (low) | 4.9%               | 1.5%        |
 | Lactate 2.5-3.99 (med) | 9.0%               | 4.5%        |

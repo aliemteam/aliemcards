@@ -4,7 +4,7 @@ collection:
   - cardiovascular
   - pharmacology
   - critical care
-tags: adenosine,
+tags: adenosine
 ---
 
 # Adenosine: 6-12-12 adenosine approach
