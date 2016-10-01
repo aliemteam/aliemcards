@@ -1,6 +1,6 @@
 # ALIEM Cards
 
-This repository contains the original markdown source for all the ALIEM Cards.
+This repository contains the original markdown source for all the ALIEM Cards as well as the simple API providing the cards to a ReactJS frontend website.
 
 ## Card Format
 
@@ -29,3 +29,19 @@ tags: acetaminophen, NAQ
 
 ---
 ```
+
+
+
+## API Documentation
+
+### API Endpoints
+
+Method  | URL               | Action
+--------|-------------------|-------------------------------------
+GET     | /cards            | Retrieve all cards.
+GET     | /cards/:slug      | Retrieve card with specific slug.
+GET     | /sections         | Retrieve all sections.
+GET     | /sections/:slug   | Retrieve sections with specific slug.
+GET     | /search/:term     | Retrieve cards based on search term.
+GET     | /tags             | Retrieve all tags and their associated cards' slugs.
+GET     | /tags/:slug       | Retrieve all tags with specific slug and their associated cards' slugs
