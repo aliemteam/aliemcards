@@ -9,7 +9,9 @@
 var express = require('express');
 var router = express.Router();
 var path = require('path');
-var C = require('../constants');
+
+// get constants
+var C = require('../cons');
 var store = C.CARDS;
 var cards = require(path.join(C.CARDS_META, '/cards'));
 var categories = require(path.join(C.CARDS_META, '/categories'));
@@ -23,6 +25,8 @@ var apires = function(status, data) {
     data: data
   };
 }
+
+// INDEX
 
 router.get('/', function(req, res){
   res.send('Here is the api');

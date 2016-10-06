@@ -13,9 +13,8 @@ app.use('/', express.static(__dirname + '/public'));
 // import api routes
 app.use('/api', api);
 
-// ...
+// all other routes get served this
 app.get('*', function (req, res) {
-  // and drop 'public' in the middle of here
   // res.sendFile(path.join(__dirname, 'public', 'index.html'))
   res.send("'ello guvnah.");
 })
