@@ -1,0 +1,31 @@
+/* Header
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+header-height = 6rem
+
+#header
+  z-index: 100
+  position: fixed
+  top: 0
+  height: header-height
+  width: 100%
+  padding: 1rem
+  background-color: white
+  border-bottom: 1px gray solid
+
+  h1
+    display: inline-block
+    font-size: 3rem
+    font-weight: 700
+    padding: 0 0 0 0.5em
+    margin: 0
+
+  a
+    text-decoration: none
+    color: black
+
+has-header()
+  padding-top: header-height + 2
+
+.has-header
+  has-header()

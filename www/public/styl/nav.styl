@@ -1,0 +1,80 @@
+/* Nav Drawer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+nav-width = 15em
+
+#navtoggle
+  float: right
+  padding: 0.5em
+
+#navdrawer
+  position: absolute
+  top: header-height
+  z-index: 10
+  width: 100%
+  background-color: black
+  color: gray
+
+  ul
+    list-style: none
+    margin-bottom: 0
+
+  li
+    margin-bottom: 0
+    border-bottom: 1px solid gray
+    text-align: center
+
+  a,
+  a:visited
+    display: block
+    height: 2em
+
+    padding: 0.3em 1em
+    color: white
+    text-decoration: none
+
+    &:hover
+      background-color: gray
+
+
+/* Menu Items
+-----------------------------------------------------*/
+
+.searchbox
+  padding: 0.5em 1em
+
+  form
+    margin-bottom: 0
+
+  input
+    margin-bottom: 0
+
+
+/* Nav Toggle
+-----------------------------------------------------*/
+.navopen
+  opacity: 1
+  visibility: visible
+  transition: opacity 0.5s linear
+
+.navclosed
+  opacity: 0
+  visibility: hidden
+  transition: visibility 0s 0.5s, opacity 0.5s linear
+
+
+/* Media Queries
+-----------------------------------------------------*/
+@media (min-width: 750px)
+  #navtoggle
+    display: none
+
+  #navdrawer
+    width: nav-width
+    float: left
+    margin: 1em
+
+  .navopen,
+  .navclosed
+    visibility: visible
+    opacity: 1
