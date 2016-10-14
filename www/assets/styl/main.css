@@ -466,6 +466,7 @@ li {
 #navtoggle {
   float: right;
   padding: 0.5em;
+  cursor: pointer;
 }
 #navdrawer {
   position: absolute;

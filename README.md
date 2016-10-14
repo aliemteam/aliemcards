@@ -30,9 +30,16 @@ tags: acetaminophen, NAQ
 ---
 ```
 
+## Compiling Cards
+
+The markdown cards are compiled to various formats as necessary using Gulp. The ```gulpfile.js``` script includes various functions for compilation into ```.json```, ```html```, or other formats.
 
 
 ## API Documentation
+
+Within the ```www``` folder is a Node Express server that handles API requests for cards and serves the ReactJS-based SPA to all other URL requests.
+
+### APE Endpoints
 
 The API Endpoints return objects with ```status``` and ```data``` properties.
 
