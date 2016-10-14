@@ -232,7 +232,7 @@ hr {
 .container {
   position: relative;
   width: 100%;
-  max-width: 960px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box;
@@ -366,7 +366,7 @@ hr {
   }
 }
 body {
-  font-size: 1.5em /* currently ems cause chrome bug misinterpreting rems on body element */;
+  font-size: 1.6em /* currently ems cause chrome bug misinterpreting rems on body element */;
   line-height: 1.6;
   font-weight: 400;
   font-family: "Lato", "Roboto", "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -383,17 +383,17 @@ h6 {
   font-weight: 700;
 }
 h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   line-height: 1.2;
   letter-spacing: -0.1rem;
 }
 h2 {
-  font-size: 3.6rem;
+  font-size: 2.8rem;
   line-height: 1.25;
   letter-spacing: -0.1rem;
 }
 h3 {
-  font-size: 3rem;
+  font-size: 2.4rem;
   line-height: 1.3;
   letter-spacing: -0.1rem;
 }
@@ -414,10 +414,10 @@ h6 {
 }
 @media (min-width: 550px) {
   h1 {
-    font-size: 5rem;
+    font-size: 4.5rem;
   }
   h2 {
-    font-size: 4.2rem;
+    font-size: 3.8rem;
   }
   h3 {
     font-size: 3.6rem;
@@ -435,6 +435,9 @@ h6 {
 p {
   margin-top: 0;
 }
+li {
+  list-style-type: disc;
+}
 #header {
   z-index: 100;
   position: fixed;
@@ -442,8 +445,9 @@ p {
   height: 6rem;
   width: 100%;
   padding: 1rem;
-  background-color: #fff;
-  border-bottom: 1px #808080 solid;
+  background-color: #00b092;
+  color: #fff;
+  border-bottom: 1px #007d68 solid;
 }
 #header h1 {
   display: inline-block;
@@ -454,7 +458,7 @@ p {
 }
 #header a {
   text-decoration: none;
-  color: #000;
+  color: #fff;
 }
 .has-header {
   padding-top: 8rem;
@@ -468,29 +472,32 @@ p {
   top: 6rem;
   z-index: 10;
   width: 100%;
-  background-color: #000;
-  color: #808080;
+  background-color: #eee;
+  color: #bbb;
+  border: 1px solid #bbb;
+  padding: 1em 0;
 }
 #navdrawer ul {
   list-style: none;
   margin-bottom: 0;
 }
 #navdrawer li {
-  margin-bottom: 0;
-  border-bottom: 1px solid #808080;
+  margin-bottom: 1em;
   text-align: center;
 }
 #navdrawer a,
 #navdrawer a:visited {
   display: block;
   height: 2em;
+  text-transform: uppercase;
   padding: 0.3em 1em;
-  color: #fff;
+  color: #bbb;
   text-decoration: none;
 }
 #navdrawer a:hover,
 #navdrawer a:visited:hover {
-  background-color: #808080;
+  color: #fff;
+  background-color: #bbb;
 }
 .searchbox {
   padding: 0.5em 1em;
@@ -516,7 +523,7 @@ p {
     display: none;
   }
   #navdrawer {
-    width: 15em;
+    width: 16em;
     float: left;
     margin: 1em;
   }
@@ -527,14 +534,51 @@ p {
   }
 }
 .content {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 1.6rem;
+}
+.content h1 {
+  background-color: #00b092;
+  border: 1px solid #007d68;
+  color: #fff;
+  padding: 0.5em 1em;
+}
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+  font-family: "Lato", "Roboto", "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#references {
+  background-color: #eee;
+  border: 1px solid #bbb;
+  color: #bbb;
+  padding: 0.5em 1em;
+  font-size: 2.5rem;
+}
+#references + ul {
+  background-color: #eee;
+  border: 1px solid #bbb;
+  padding: 1.5em;
+}
+#references + ul li {
+  margin-bottom: 1.5em;
+}
+#references + ul a {
+  text-decoration: none;
+}
+.content {
   position: relative;
 }
 @media (min-width: 750px) {
   .content {
-    padding-left: 15em;
+    padding-left: 12em;
   }
 }
-/* NORMALIZE */
+/* Normalize
+-----------------------------------------*/
 body {
   padding-top: 8rem;
 }

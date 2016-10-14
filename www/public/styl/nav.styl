@@ -1,7 +1,7 @@
 /* Nav Drawer
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+-----------------------------------------------------*/
 
-nav-width = 15em
+nav-width = 16em
 
 #navtoggle
   float: right
@@ -12,29 +12,34 @@ nav-width = 15em
   top: header-height
   z-index: 10
   width: 100%
-  background-color: black
-  color: gray
+  background-color: light-shade
+  color: dark-shade
+  border: 1px solid dark-shade
+  padding: 1em 0
+
 
   ul
     list-style: none
     margin-bottom: 0
 
   li
-    margin-bottom: 0
-    border-bottom: 1px solid gray
+    margin-bottom: 1em
+    //border-bottom: 1px solid light-shade
     text-align: center
 
   a,
   a:visited
     display: block
     height: 2em
+    text-transform: uppercase
 
     padding: 0.3em 1em
-    color: white
+    color: dark-shade
     text-decoration: none
 
     &:hover
-      background-color: gray
+      color: white
+      background-color: dark-shade
 
 
 /* Menu Items
