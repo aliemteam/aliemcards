@@ -2,7 +2,7 @@
 
 title: Lead aVR
 collection:
-  - cardiovascular
+  - Cardiovascular
   - ECG
 tags:
 

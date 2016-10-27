@@ -2,9 +2,9 @@
 
 title: Focused Assessment with Sonography in Trauma (FAST)
 collection:
-  - ultrasound
-  - radiology
-  - trauma
+  - Ultrasound
+  - Radiology
+  - Trauma
 tags:
 
 ---

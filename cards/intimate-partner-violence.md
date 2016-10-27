@@ -2,7 +2,7 @@
 
 title: Intimate Partner Violence
 collection:
-  - trauma
+  - Trauma
 tags:
 
 ---

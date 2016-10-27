@@ -2,9 +2,9 @@
 
 title: Beta Agonist Therapy and Lactic Acidosis in Asthma
 collection:
-  - pulmonary
-  - pharmacology
-  - toxicology
+  - Pulmonology
+  - Pharmacology
+  - Toxicology
 tags:
 
 ---

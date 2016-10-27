@@ -2,8 +2,8 @@
 
 title: Thyroid Storm - Treatment Strategies
 collection:
-  - endocrinology
-  - critical care
+  - Endocrinology
+  - Critical Care
 tags: propylthiouriacil, methimazole, propranolol, hydrocortisone, esmolol, cholestyramine
 
 ---

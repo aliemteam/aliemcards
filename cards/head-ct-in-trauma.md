@@ -2,9 +2,9 @@
 
 title: Head CT in Trauma
 collection:
-  - radiology
-  - ebm
-  - trauma
+  - Radiology
+  - EBM
+  - Trauma
 tags:
 
 ---

@@ -1,1446 +1,2304 @@
 {
-    "Ibuprofen": [{
-        "slug": "NSAID-GI-bleed",
-        "title": "NSAIDs and Upper GI Bleed"
-    }, {
-        "slug": "pain-management",
-        "title": "Initial Pain Management Options"
-    }, {
-        "slug": "urine-tox-screen",
-        "title": "Urine Toxicology Screen"
-    }],
-    "Diclofenac": [{
-        "slug": "NSAID-GI-bleed",
-        "title": "NSAIDs and Upper GI Bleed"
-    }],
-    "Meloxicam": [{
-        "slug": "NSAID-GI-bleed",
-        "title": "NSAIDs and Upper GI Bleed"
-    }],
-    "Indomethacin": [{
-        "slug": "NSAID-GI-bleed",
-        "title": "NSAIDs and Upper GI Bleed"
-    }, {
-        "slug": "pain-management",
-        "title": "Initial Pain Management Options"
-    }],
-    "Ketoprofen": [{
-        "slug": "NSAID-GI-bleed",
-        "title": "NSAIDs and Upper GI Bleed"
-    }],
-    "Naproxen": [{
-        "slug": "NSAID-GI-bleed",
-        "title": "NSAIDs and Upper GI Bleed"
-    }, {
-        "slug": "pain-management",
-        "title": "Initial Pain Management Options"
-    }],
-    "Piroxicam": [{
-        "slug": "NSAID-GI-bleed",
-        "title": "NSAIDs and Upper GI Bleed"
-    }],
-    "Ketorolac": [{
-        "slug": "NSAID-GI-bleed",
-        "title": "NSAIDs and Upper GI Bleed"
-    }, {
-        "slug": "pain-management",
-        "title": "Initial Pain Management Options"
-    }],
-    "Celecoxib": [{
-        "slug": "NSAID-GI-bleed",
-        "title": "NSAIDs and Upper GI Bleed"
-    }],
-    "Aceclofenac": [{
-        "slug": "NSAID-GI-bleed",
-        "title": "NSAIDs and Upper GI Bleed"
-    }],
-    "Rofecoxib": [{
-        "slug": "NSAID-GI-bleed",
-        "title": "NSAIDs and Upper GI Bleed"
-    }],
-    "alteplase": [{
-        "slug": "PE-fibrinolysis",
-        "title": "Fibrinolysis for Acute Pulmonary Embolism"
-    }, {
-        "slug": "submassive-PE-thrombolytics",
-        "title": "Thrombolytics for Submassive PE"
-    }],
-    "tpa": [{
-        "slug": "PE-fibrinolysis",
-        "title": "Fibrinolysis for Acute Pulmonary Embolism"
-    }],
-    "enoxaparin": [{
-        "slug": "PESI",
-        "title": "PESI Score for Pulmonary Embolism"
-    }],
-    "warfarin": [{
-        "slug": "PESI",
-        "title": "PESI Score for Pulmonary Embolism"
-    }, {
-        "slug": "atrial-fibrillation",
-        "title": "Atrial Fibrillation and Anticoagulation"
-    }, {
-        "slug": "upper-GI-bleed",
-        "title": "Upper GI Bleed"
-    }],
-    "TPA": [{
-        "slug": "TPA-code-dose",
-        "title": "tPA Code Dose"
-    }, {
-        "slug": "TPA-contraindications",
-        "title": "Contraindications for Thrombolytics"
-    }],
-    "acetaminophen": [{
-        "slug": "acetaminophen-toxicity",
-        "title": "Acetaminophen toxicity"
-    }, {
-        "slug": "pain-management",
-        "title": "Initial Pain Management Options"
-    }, {
-        "slug": "pediatric-ingestion",
-        "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
-    }],
-    "aspirin": [{
-        "slug": "acute-limb-ischemia",
-        "title": "Acute Limb Ischemia"
-    }, {
-        "slug": "atrial-fibrillation",
-        "title": "Atrial Fibrillation and Anticoagulation"
-    }, {
-        "slug": "blunt-cerebrovascular-injury",
-        "title": "Blunt Cerebrovascular Injuries"
-    }, {
-        "slug": "pediatric-ingestion",
-        "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
-    }, {
-        "slug": "supratherapeutic-INR",
-        "title": "Supratherapeutic INR"
-    }, {
-        "slug": "upper-GI-bleed",
-        "title": "Upper GI Bleed"
-    }],
-    "heparin": [{
-        "slug": "acute-limb-ischemia",
-        "title": "Acute Limb Ischemia"
-    }, {
-        "slug": "blunt-cerebrovascular-injury",
-        "title": "Blunt Cerebrovascular Injuries"
-    }, {
-        "slug": "emergency-drug-card-peds",
-        "title": "Emergency Drug Card (Pediatric)"
-    }, {
-        "slug": "submassive-PE-thrombolytics",
-        "title": "Thrombolytics for Submassive PE"
-    }],
-    "adenosine": [{
+    "ace-inhibitor": {
+        "title": "ACE inhibitor,",
+        "slug": "ace-inhibitor",
+        "cards": [{
+            "slug": "angioedema",
+            "title": "Angioedema"
+        }]
+    },
+    "acebutolol": {
+        "title": "acebutolol",
+        "slug": "acebutolol",
+        "cards": [{
+            "slug": "pediatric-ingestion",
+            "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
+        }]
+    },
+    "aceclofenac": {
+        "title": "Aceclofenac",
+        "slug": "aceclofenac",
+        "cards": [{
+            "slug": "nsaid-gi-bleed",
+            "title": "NSAIDs and Upper GI Bleed"
+        }]
+    },
+    "acetaminophen": {
+        "title": "acetaminophen",
+        "slug": "acetaminophen",
+        "cards": [{
+            "slug": "acetaminophen-toxicity",
+            "title": "Acetaminophen toxicity"
+        }, {
+            "slug": "pain-management",
+            "title": "Initial Pain Management Options"
+        }, {
+            "slug": "pediatric-ingestion",
+            "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
+        }]
+    },
+    "acetazolamide": {
+        "title": "acetazolamide",
+        "slug": "acetazolamide",
+        "cards": [{
+            "slug": "red-eye",
+            "title": "Red Eye"
+        }]
+    },
+    "acyclovir": {
+        "title": "Acyclovir",
+        "slug": "acyclovir",
+        "cards": [{
+            "slug": "bells-palsy-treatment",
+            "title": "Bell's Palsy Treatment"
+        }, {
+            "slug": "red-eye",
+            "title": "Red Eye"
+        }]
+    },
+    "adenosine": {
+        "title": "adenosine",
         "slug": "adenosine",
-        "title": "Adenosine 6-12-12 Approach"
-    }, {
-        "slug": "emergency-drug-card-peds",
-        "title": "Emergency Drug Card (Pediatric)"
-    }],
-    "epinepherine": [{
-        "slug": "anaphylaxis",
-        "title": "Anaphylaxis"
-    }],
-    "diphenhydramine": [{
-        "slug": "anaphylaxis",
-        "title": "Anaphylaxis"
-    }, {
-        "slug": "pediatric-ingestion",
-        "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
-    }],
-    "ranitidine": [{
-        "slug": "anaphylaxis",
-        "title": "Anaphylaxis"
-    }],
-    "glucagon": [{
-        "slug": "anaphylaxis",
-        "title": "Anaphylaxis"
-    }],
-    "methylprednisolone": [{
-        "slug": "anaphylaxis",
-        "title": "Anaphylaxis"
-    }],
-    "ACE inhibitor,": [{
-        "slug": "angioedema",
-        "title": "Angioedema"
-    }],
-    "haldol": [{
-        "slug": "ativan-vs-haldol",
-        "title": "Chemical Sedation - Haldol vs Ativan vs Versed"
-    }],
-    "midazolam": [{
-        "slug": "ativan-vs-haldol",
-        "title": "Chemical Sedation - Haldol vs Ativan vs Versed"
-    }, {
-        "slug": "benzo-metabolism",
-        "title": "Benzodiazepines Metabolism by the Liver"
-    }, {
-        "slug": "geriatric-procedural-sedation",
-        "title": "Geriatric Procedural Sedation"
-    }, {
-        "slug": "infusions",
-        "title": "Continuous Infusions"
-    }, {
-        "slug": "procedural-sedation",
-        "title": "Procedural Sedation & Analgesia"
-    }, {
-        "slug": "rapid-sequence-intubation",
-        "title": "Rapid Sequence Intubation"
-    }],
-    "lorazepam": [{
-        "slug": "ativan-vs-haldol",
-        "title": "Chemical Sedation - Haldol vs Ativan vs Versed"
-    }, {
-        "slug": "benzo-metabolism",
-        "title": "Benzodiazepines Metabolism by the Liver"
-    }, {
-        "slug": "procedural-sedation",
-        "title": "Procedural Sedation & Analgesia"
-    }, {
-        "slug": "status-epilepticus",
-        "title": "Seizures and Status Epilepticus"
-    }, {
-        "slug": "urine-tox-screen",
-        "title": "Urine Toxicology Screen"
-    }],
-    "Valacylovir": [{
-        "slug": "bells-palsy-treatment",
-        "title": "Bell's Palsy Treatment"
-    }],
-    "Acyclovir": [{
-        "slug": "bells-palsy-treatment",
-        "title": "Bell's Palsy Treatment"
-    }],
-    "Prednisone": [{
-        "slug": "bells-palsy-treatment",
-        "title": "Bell's Palsy Treatment"
-    }],
-    "oxazepam": [{
-        "slug": "benzo-metabolism",
-        "title": "Benzodiazepines Metabolism by the Liver"
-    }, {
-        "slug": "urine-tox-screen",
-        "title": "Urine Toxicology Screen"
-    }],
-    "temazepam": [{
-        "slug": "benzo-metabolism",
-        "title": "Benzodiazepines Metabolism by the Liver"
-    }],
-    "clonazepam": [{
-        "slug": "benzo-metabolism",
-        "title": "Benzodiazepines Metabolism by the Liver"
-    }, {
-        "slug": "urine-tox-screen",
-        "title": "Urine Toxicology Screen"
-    }],
-    "diazepam": [{
-        "slug": "benzo-metabolism",
-        "title": "Benzodiazepines Metabolism by the Liver"
-    }, {
-        "slug": "geriatric-procedural-sedation",
-        "title": "Geriatric Procedural Sedation"
-    }, {
-        "slug": "procedural-sedation",
-        "title": "Procedural Sedation & Analgesia"
-    }, {
-        "slug": "urine-tox-screen",
-        "title": "Urine Toxicology Screen"
-    }],
-    "ciprofloxacin": [{
-        "slug": "cancer-neutropenic-fever",
-        "title": "Neutropenic Fever and Cancer"
-    }, {
-        "slug": "cystitis-pregnant",
-        "title": "Cystitis and Pyelonephritis in Women"
-    }],
-    "vancomycin": [{
-        "slug": "cancer-neutropenic-fever",
-        "title": "Neutropenic Fever and Cancer"
-    }, {
-        "slug": "status-epilepticus",
-        "title": "Seizures and Status Epilepticus"
-    }],
-    "cefipime": [{
-        "slug": "cancer-neutropenic-fever",
-        "title": "Neutropenic Fever and Cancer"
-    }],
-    "pipercillin-tazobactam": [{
-        "slug": "cancer-neutropenic-fever",
-        "title": "Neutropenic Fever and Cancer"
-    }],
-    "amoxicillin-clavulanate": [{
-        "slug": "cancer-neutropenic-fever",
-        "title": "Neutropenic Fever and Cancer"
-    }, {
-        "slug": "cystitis-pregnant",
-        "title": "Cystitis and Pyelonephritis in Women"
-    }],
-    "aztreonam": [{
-        "slug": "cancer-neutropenic-fever",
-        "title": "Neutropenic Fever and Cancer"
-    }],
-    "dexamethasone": [{
-        "slug": "croup",
-        "title": "Croup"
-    }],
-    "racemic epinephrine": [{
-        "slug": "croup",
-        "title": "Croup"
-    }],
-    "Nitrofurantoin": [{
-        "slug": "cystitis-pregnant",
-        "title": "Cystitis and Pyelonephritis in Women"
-    }],
-    "sulfamethoxazole": [{
-        "slug": "cystitis-pregnant",
-        "title": "Cystitis and Pyelonephritis in Women"
-    }],
-    "fosfomycin": [{
-        "slug": "cystitis-pregnant",
-        "title": "Cystitis and Pyelonephritis in Women"
-    }],
-    "pivmecillinam": [{
-        "slug": "cystitis-pregnant",
-        "title": "Cystitis and Pyelonephritis in Women"
-    }],
-    "ofloxacin": [{
-        "slug": "cystitis-pregnant",
-        "title": "Cystitis and Pyelonephritis in Women"
-    }],
-    "levofloxacin": [{
-        "slug": "cystitis-pregnant",
-        "title": "Cystitis and Pyelonephritis in Women"
-    }],
-    "cefdinir": [{
-        "slug": "cystitis-pregnant",
-        "title": "Cystitis and Pyelonephritis in Women"
-    }],
-    "cefaclor": [{
-        "slug": "cystitis-pregnant",
-        "title": "Cystitis and Pyelonephritis in Women"
-    }],
-    "cefpodoxime-proxetil": [{
-        "slug": "cystitis-pregnant",
-        "title": "Cystitis and Pyelonephritis in Women"
-    }],
-    "Trimethoprim-sulfamethoxazole": [{
-        "slug": "cystitis-pregnant",
-        "title": "Cystitis and Pyelonephritis in Women"
-    }],
-    "ketamine": [{
-        "slug": "delayed-sequence-intubation",
-        "title": "Delayed Sequence Intubation"
-    }, {
-        "slug": "emergency-drug-card-adult",
-        "title": "Emergency Drug Card - Adult"
-    }, {
-        "slug": "emergency-drug-card-peds",
-        "title": "Emergency Drug Card (Pediatric)"
-    }, {
-        "slug": "geriatric-procedural-sedation",
-        "title": "Geriatric Procedural Sedation"
-    }, {
-        "slug": "infusions",
-        "title": "Continuous Infusions"
-    }, {
-        "slug": "ketofol",
-        "title": "Ketofol"
-    }, {
-        "slug": "procedural-sedation",
-        "title": "Procedural Sedation & Analgesia"
-    }, {
-        "slug": "rapid-sequence-intubation",
-        "title": "Rapid Sequence Intubation"
-    }],
-    "Methotrexate,": [{
-        "slug": "ectopic-methotrexate",
-        "title": "Ectopic Pregnancy and Methotrexate"
-    }],
-    "etomidate": [{
-        "slug": "emergency-drug-card-adult",
-        "title": "Emergency Drug Card - Adult"
-    }, {
-        "slug": "emergency-drug-card-peds",
-        "title": "Emergency Drug Card (Pediatric)"
-    }, {
-        "slug": "geriatric-procedural-sedation",
-        "title": "Geriatric Procedural Sedation"
-    }, {
-        "slug": "procedural-sedation",
-        "title": "Procedural Sedation & Analgesia"
-    }, {
-        "slug": "rapid-sequence-intubation",
-        "title": "Rapid Sequence Intubation"
-    }],
-    "lidocaine": [{
-        "slug": "emergency-drug-card-adult",
-        "title": "Emergency Drug Card - Adult"
-    }, {
-        "slug": "emergency-drug-card-peds",
-        "title": "Emergency Drug Card (Pediatric)"
-    }, {
-        "slug": "infusions",
-        "title": "Continuous Infusions"
-    }, {
-        "slug": "nebulized-lidocaine",
-        "title": "Lidocaine, nebulized dose"
-    }, {
-        "slug": "pain-management",
-        "title": "Initial Pain Management Options"
-    }, {
-        "slug": "rapid-sequence-intubation",
-        "title": "Rapid Sequence Intubation"
-    }],
-    "rocuronium": [{
-        "slug": "emergency-drug-card-adult",
-        "title": "Emergency Drug Card - Adult"
-    }, {
-        "slug": "emergency-drug-card-peds",
-        "title": "Emergency Drug Card (Pediatric)"
-    }],
-    "succinylcholine": [{
-        "slug": "emergency-drug-card-adult",
-        "title": "Emergency Drug Card - Adult"
-    }, {
-        "slug": "emergency-drug-card-peds",
-        "title": "Emergency Drug Card (Pediatric)"
-    }],
-    "vecuronium": [{
-        "slug": "emergency-drug-card-adult",
-        "title": "Emergency Drug Card - Adult"
-    }, {
-        "slug": "emergency-drug-card-peds",
-        "title": "Emergency Drug Card (Pediatric)"
-    }],
-    "amiodarone": [{
-        "slug": "emergency-drug-card-adult",
-        "title": "Emergency Drug Card - Adult"
-    }, {
-        "slug": "emergency-drug-card-peds",
-        "title": "Emergency Drug Card (Pediatric)"
-    }, {
-        "slug": "infusions",
-        "title": "Continuous Infusions"
-    }],
-    "diltiazem": [{
-        "slug": "emergency-drug-card-adult",
-        "title": "Emergency Drug Card - Adult"
-    }, {
-        "slug": "pediatric-ingestion",
-        "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
-    }],
-    "esmolol": [{
-        "slug": "emergency-drug-card-adult",
-        "title": "Emergency Drug Card - Adult"
-    }, {
-        "slug": "thyroid-storm",
-        "title": "Thyroid Storm - Treatment Strategies"
-    }],
-    "labetalol": [{
-        "slug": "emergency-drug-card-adult",
-        "title": "Emergency Drug Card - Adult"
-    }, {
-        "slug": "pediatric-ingestion",
-        "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
-    }, {
-        "slug": "urine-tox-screen",
-        "title": "Urine Toxicology Screen"
-    }],
-    "nicardipine": [{
-        "slug": "emergency-drug-card-adult",
-        "title": "Emergency Drug Card - Adult"
-    }],
-    "procainamide": [{
-        "slug": "emergency-drug-card-adult",
-        "title": "Emergency Drug Card - Adult"
-    }, {
-        "slug": "emergency-drug-card-peds",
-        "title": "Emergency Drug Card (Pediatric)"
-    }],
-    "fentanyl": [{
-        "slug": "emergency-drug-card-adult",
-        "title": "Emergency Drug Card - Adult"
-    }, {
-        "slug": "emergency-drug-card-peds",
-        "title": "Emergency Drug Card (Pediatric)"
-    }, {
-        "slug": "infusions",
-        "title": "Continuous Infusions"
-    }, {
-        "slug": "rapid-sequence-intubation",
-        "title": "Rapid Sequence Intubation"
-    }, {
-        "slug": "urine-tox-screen",
-        "title": "Urine Toxicology Screen"
-    }],
-    "propofol": [{
-        "slug": "emergency-drug-card-adult",
-        "title": "Emergency Drug Card - Adult"
-    }, {
-        "slug": "emergency-drug-card-peds",
-        "title": "Emergency Drug Card (Pediatric)"
-    }, {
-        "slug": "geriatric-procedural-sedation",
-        "title": "Geriatric Procedural Sedation"
-    }, {
-        "slug": "infusions",
-        "title": "Continuous Infusions"
-    }, {
-        "slug": "ketofol",
-        "title": "Ketofol"
-    }, {
-        "slug": "procedural-sedation",
-        "title": "Procedural Sedation & Analgesia"
-    }, {
-        "slug": "rapid-sequence-intubation",
-        "title": "Rapid Sequence Intubation"
-    }],
-    "dobutamine": [{
-        "slug": "emergency-drug-card-adult",
-        "title": "Emergency Drug Card - Adult"
-    }, {
-        "slug": "emergency-drug-card-peds",
-        "title": "Emergency Drug Card (Pediatric)"
-    }, {
-        "slug": "vasopressors-in-hypotension",
-        "title": "Vasopressors in Hypotension"
-    }, {
-        "slug": "vasopressors-inotropes-shock",
-        "title": "Vasopressors and Inotropes in Shock"
-    }],
-    "dopamine": [{
-        "slug": "emergency-drug-card-adult",
-        "title": "Emergency Drug Card - Adult"
-    }, {
-        "slug": "emergency-drug-card-peds",
-        "title": "Emergency Drug Card (Pediatric)"
-    }, {
-        "slug": "vasopressors-in-hypotension",
-        "title": "Vasopressors in Hypotension"
-    }, {
-        "slug": "vasopressors-inotropes-shock",
-        "title": "Vasopressors and Inotropes in Shock"
-    }],
-    "epinephrine": [{
-        "slug": "emergency-drug-card-adult",
-        "title": "Emergency Drug Card - Adult"
-    }, {
-        "slug": "emergency-drug-card-peds",
-        "title": "Emergency Drug Card (Pediatric)"
-    }, {
-        "slug": "vasopressors-in-hypotension",
-        "title": "Vasopressors in Hypotension"
-    }, {
-        "slug": "vasopressors-inotropes-shock",
-        "title": "Vasopressors and Inotropes in Shock"
-    }],
-    "norepinephrine": [{
-        "slug": "emergency-drug-card-adult",
-        "title": "Emergency Drug Card - Adult"
-    }, {
-        "slug": "emergency-drug-card-peds",
-        "title": "Emergency Drug Card (Pediatric)"
-    }, {
-        "slug": "vasopressors-in-hypotension",
-        "title": "Vasopressors in Hypotension"
-    }, {
-        "slug": "vasopressors-inotropes-shock",
-        "title": "Vasopressors and Inotropes in Shock"
-    }],
-    "phenylephrine": [{
-        "slug": "emergency-drug-card-adult",
-        "title": "Emergency Drug Card - Adult"
-    }, {
-        "slug": "emergency-drug-card-peds",
-        "title": "Emergency Drug Card (Pediatric)"
-    }],
-    "vasopressin,": [{
-        "slug": "emergency-drug-card-adult",
-        "title": "Emergency Drug Card - Adult"
-    }],
-    "atronie": [{
-        "slug": "emergency-drug-card-peds",
-        "title": "Emergency Drug Card (Pediatric)"
-    }],
-    "calcium chloride": [{
-        "slug": "emergency-drug-card-peds",
-        "title": "Emergency Drug Card (Pediatric)"
-    }],
-    "dextrose": [{
-        "slug": "emergency-drug-card-peds",
-        "title": "Emergency Drug Card (Pediatric)"
-    }],
-    "Magnesium": [{
-        "slug": "emergency-drug-card-peds",
-        "title": "Emergency Drug Card (Pediatric)"
-    }],
-    "sodium bicarbonate": [{
-        "slug": "emergency-drug-card-peds",
-        "title": "Emergency Drug Card (Pediatric)"
-    }, {
-        "slug": "hyperkalemia",
-        "title": "Hyperkalemia"
-    }, {
-        "slug": "is-bicarb-useless",
-        "title": "Bicarbonate - Completely Useless?"
-    }],
-    "Haloperidol": [{
-        "slug": "emergency-drug-card-peds",
-        "title": "Emergency Drug Card (Pediatric)"
-    }],
-    "vasopressin": [{
-        "slug": "emergency-drug-card-peds",
-        "title": "Emergency Drug Card (Pediatric)"
-    }],
-    "Diazepam": [{
-        "slug": "emergency-drug-card-peds",
-        "title": "Emergency Drug Card (Pediatric)"
-    }],
-    "Fosphenytoin": [{
-        "slug": "emergency-drug-card-peds",
-        "title": "Emergency Drug Card (Pediatric)"
-    }],
-    "Levetiracetam": [{
-        "slug": "emergency-drug-card-peds",
-        "title": "Emergency Drug Card (Pediatric)"
-    }],
-    "Lorazepam": [{
-        "slug": "emergency-drug-card-peds",
-        "title": "Emergency Drug Card (Pediatric)"
-    }, {
-        "slug": "infusions",
-        "title": "Continuous Infusions"
-    }],
-    "Midazolam": [{
-        "slug": "emergency-drug-card-peds",
-        "title": "Emergency Drug Card (Pediatric)"
-    }, {
-        "slug": "status-epilepticus",
-        "title": "Seizures and Status Epilepticus"
-    }],
-    "Phenobarbital": [{
-        "slug": "emergency-drug-card-peds",
-        "title": "Emergency Drug Card (Pediatric)"
-    }],
-    "Nitroglycerin": [{
-        "slug": "emergency-drug-card-peds",
-        "title": "Emergency Drug Card (Pediatric)"
-    }, {
-        "slug": "infusions",
-        "title": "Continuous Infusions"
-    }],
-    "Nitroprusside": [{
-        "slug": "emergency-drug-card-peds",
-        "title": "Emergency Drug Card (Pediatric)"
-    }, {
-        "slug": "infusions",
-        "title": "Continuous Infusions"
-    }],
-    "Dexamethasone": [{
-        "slug": "emergency-drug-card-peds",
-        "title": "Emergency Drug Card (Pediatric)"
-    }],
-    "Diphenhydramine": [{
-        "slug": "emergency-drug-card-peds",
-        "title": "Emergency Drug Card (Pediatric)"
-    }, {
-        "slug": "urine-tox-screen",
-        "title": "Urine Toxicology Screen"
-    }],
-    "Famotidine": [{
-        "slug": "emergency-drug-card-peds",
-        "title": "Emergency Drug Card (Pediatric)"
-    }],
-    "Methylprednisolone": [{
-        "slug": "emergency-drug-card-peds",
-        "title": "Emergency Drug Card (Pediatric)"
-    }],
-    "Ranitidine": [{
-        "slug": "emergency-drug-card-peds",
-        "title": "Emergency Drug Card (Pediatric)"
-    }, {
-        "slug": "urine-tox-screen",
-        "title": "Urine Toxicology Screen"
-    }],
-    "morphine": [{
-        "slug": "emergency-drug-card-peds",
-        "title": "Emergency Drug Card (Pediatric)"
-    }, {
-        "slug": "urine-tox-screen",
-        "title": "Urine Toxicology Screen"
-    }],
-    "N-acetylcysteine": [{
-        "slug": "emergency-drug-card-peds",
-        "title": "Emergency Drug Card (Pediatric)"
-    }],
-    "Flumazenil": [{
-        "slug": "emergency-drug-card-peds",
-        "title": "Emergency Drug Card (Pediatric)"
-    }],
-    "Fomepizole": [{
-        "slug": "emergency-drug-card-peds",
-        "title": "Emergency Drug Card (Pediatric)"
-    }],
-    "Naloxone": [{
-        "slug": "emergency-drug-card-peds",
-        "title": "Emergency Drug Card (Pediatric)"
-    }],
-    "Alprostadil": [{
-        "slug": "emergency-drug-card-peds",
-        "title": "Emergency Drug Card (Pediatric)"
-    }],
-    "prostaglandin": [{
-        "slug": "emergency-drug-card-peds",
-        "title": "Emergency Drug Card (Pediatric)"
-    }],
-    "factor VIII": [{
-        "slug": "emergency-drug-card-peds",
-        "title": "Emergency Drug Card (Pediatric)"
-    }],
-    "Ondansetron": [{
-        "slug": "emergency-drug-card-peds",
-        "title": "Emergency Drug Card (Pediatric)"
-    }, {
-        "slug": "serotonin-syndrome",
-        "title": "Serotonin Syndrome"
-    }],
-    "fomipezole": [{
+        "cards": [{
+            "slug": "adenosine",
+            "title": "Adenosine 6-12-12 Approach"
+        }, {
+            "slug": "emergency-drug-card-peds",
+            "title": "Emergency Drug Card (Pediatric)"
+        }]
+    },
+    "albuterol": {
+        "title": "albuterol",
+        "slug": "albuterol",
+        "cards": [{
+            "slug": "hyperkalemia",
+            "title": "Hyperkalemia"
+        }]
+    },
+    "alprazolam": {
+        "title": "alprazolam",
+        "slug": "alprazolam",
+        "cards": [{
+            "slug": "urine-tox-screen",
+            "title": "Urine Toxicology Screen"
+        }]
+    },
+    "alprostadil": {
+        "title": "Alprostadil",
+        "slug": "alprostadil",
+        "cards": [{
+            "slug": "emergency-drug-card-peds",
+            "title": "Emergency Drug Card (Pediatric)"
+        }]
+    },
+    "alteplase": {
+        "title": "alteplase",
+        "slug": "alteplase",
+        "cards": [{
+            "slug": "pe-fibrinolysis",
+            "title": "Fibrinolysis for Acute Pulmonary Embolism"
+        }, {
+            "slug": "submassive-pe-thrombolytics",
+            "title": "Thrombolytics for Submassive PE"
+        }]
+    },
+    "amantadine": {
+        "title": "Amantadine",
+        "slug": "amantadine",
+        "cards": [{
+            "slug": "influenza-treatment",
+            "title": "Influenza - to treat or not to treat?"
+        }, {
+            "slug": "urine-tox-screen",
+            "title": "Urine Toxicology Screen"
+        }]
+    },
+    "aminophylline": {
+        "title": "aminophylline,",
+        "slug": "aminophylline",
+        "cards": [{
+            "slug": "toxidrome-vitals",
+            "title": "Toxidromes by Vital Signs"
+        }]
+    },
+    "amiodarone": {
+        "title": "amiodarone",
+        "slug": "amiodarone",
+        "cards": [{
+            "slug": "emergency-drug-card-adult",
+            "title": "Emergency Drug Card - Adult"
+        }, {
+            "slug": "emergency-drug-card-peds",
+            "title": "Emergency Drug Card (Pediatric)"
+        }, {
+            "slug": "infusions",
+            "title": "Continuous Infusions"
+        }]
+    },
+    "amlodipine": {
+        "title": "amlodipine",
+        "slug": "amlodipine",
+        "cards": [{
+            "slug": "pediatric-ingestion",
+            "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
+        }]
+    },
+    "amoxicillin": {
+        "title": "amoxicillin,",
+        "slug": "amoxicillin",
+        "cards": [{
+            "slug": "strep-pharyngitis",
+            "title": "Streptococcal Pharyngitis"
+        }]
+    },
+    "amoxicillin-clavulanate": {
+        "title": "amoxicillin-clavulanate",
+        "slug": "amoxicillin-clavulanate",
+        "cards": [{
+            "slug": "cancer-neutropenic-fever",
+            "title": "Neutropenic Fever and Cancer"
+        }, {
+            "slug": "cystitis-pregnant",
+            "title": "Cystitis and Pyelonephritis in Women"
+        }]
+    },
+    "ampicillin": {
+        "title": "Ampicillin",
+        "slug": "ampicillin",
+        "cards": [{
+            "slug": "pediatric-fever-neonate",
+            "title": "Fever Without a Source - neonate"
+        }]
+    },
+    "apraclonidine": {
+        "title": "apraclonidine",
+        "slug": "apraclonidine",
+        "cards": [{
+            "slug": "red-eye",
+            "title": "Red Eye"
+        }]
+    },
+    "aripiprazole": {
+        "title": "aripiprazole",
+        "slug": "aripiprazole",
+        "cards": [{
+            "slug": "pediatric-ingestion",
+            "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
+        }]
+    },
+    "aspirin": {
+        "title": "aspirin",
+        "slug": "aspirin",
+        "cards": [{
+            "slug": "acute-limb-ischemia",
+            "title": "Acute Limb Ischemia"
+        }, {
+            "slug": "atrial-fibrillation",
+            "title": "Atrial Fibrillation and Anticoagulation"
+        }, {
+            "slug": "blunt-cerebrovascular-injury",
+            "title": "Blunt Cerebrovascular Injuries"
+        }, {
+            "slug": "pediatric-ingestion",
+            "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
+        }, {
+            "slug": "supratherapeutic-inr",
+            "title": "Supratherapeutic INR"
+        }, {
+            "slug": "upper-gi-bleed",
+            "title": "Upper GI Bleed"
+        }]
+    },
+    "atenolol": {
+        "title": "atenolol",
+        "slug": "atenolol",
+        "cards": [{
+            "slug": "pediatric-ingestion",
+            "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
+        }]
+    },
+    "atronie": {
+        "title": "atronie",
+        "slug": "atronie",
+        "cards": [{
+            "slug": "emergency-drug-card-peds",
+            "title": "Emergency Drug Card (Pediatric)"
+        }]
+    },
+    "azithromycin": {
+        "title": "Azithromycin",
+        "slug": "azithromycin",
+        "cards": [{
+            "slug": "pertussis-treatment",
+            "title": "Pertussis Treatment Algorithm"
+        }, {
+            "slug": "pertussis",
+            "title": "Pertussis"
+        }, {
+            "slug": "red-eye",
+            "title": "Red Eye"
+        }]
+    },
+    "aztreonam": {
+        "title": "aztreonam",
+        "slug": "aztreonam",
+        "cards": [{
+            "slug": "cancer-neutropenic-fever",
+            "title": "Neutropenic Fever and Cancer"
+        }]
+    },
+    "bupivacaine": {
+        "title": "Bupivacaine",
+        "slug": "bupivacaine",
+        "cards": [{
+            "slug": "local-anesthetic-toxicity",
+            "title": "Local Anesthetic Toxicity"
+        }, {
+            "slug": "pain-management",
+            "title": "Initial Pain Management Options"
+        }]
+    },
+    "buprenorphine": {
+        "title": "buprenorphine",
+        "slug": "buprenorphine",
+        "cards": [{
+            "slug": "urine-tox-screen",
+            "title": "Urine Toxicology Screen"
+        }]
+    },
+    "buproprion": {
+        "title": "buproprion",
+        "slug": "buproprion",
+        "cards": [{
+            "slug": "urine-tox-screen",
+            "title": "Urine Toxicology Screen"
+        }]
+    },
+    "buspirone": {
+        "title": "Buspirone",
+        "slug": "buspirone",
+        "cards": [{
+            "slug": "serotonin-syndrome",
+            "title": "Serotonin Syndrome"
+        }]
+    },
+    "calcium-chloride": {
+        "title": "calcium chloride",
+        "slug": "calcium-chloride",
+        "cards": [{
+            "slug": "emergency-drug-card-peds",
+            "title": "Emergency Drug Card (Pediatric)"
+        }]
+    },
+    "calcium-gluconate": {
+        "title": "calcium gluconate",
+        "slug": "calcium-gluconate",
+        "cards": [{
+            "slug": "hyperkalemia",
+            "title": "Hyperkalemia"
+        }]
+    },
+    "camphor": {
+        "title": "camphor",
+        "slug": "camphor",
+        "cards": [{
+            "slug": "pediatric-ingestion",
+            "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
+        }]
+    },
+    "carbamazepine": {
+        "title": "Carbamazepine",
+        "slug": "carbamazepine",
+        "cards": [{
+            "slug": "serotonin-syndrome",
+            "title": "Serotonin Syndrome"
+        }]
+    },
+    "carvedilol": {
+        "title": "carvedilol",
+        "slug": "carvedilol",
+        "cards": [{
+            "slug": "pediatric-ingestion",
+            "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
+        }]
+    },
+    "cefaclor": {
+        "title": "cefaclor",
+        "slug": "cefaclor",
+        "cards": [{
+            "slug": "cystitis-pregnant",
+            "title": "Cystitis and Pyelonephritis in Women"
+        }]
+    },
+    "cefdinir": {
+        "title": "cefdinir",
+        "slug": "cefdinir",
+        "cards": [{
+            "slug": "cystitis-pregnant",
+            "title": "Cystitis and Pyelonephritis in Women"
+        }]
+    },
+    "cefipime": {
+        "title": "cefipime",
+        "slug": "cefipime",
+        "cards": [{
+            "slug": "cancer-neutropenic-fever",
+            "title": "Neutropenic Fever and Cancer"
+        }]
+    },
+    "cefotaxime": {
+        "title": "Cefotaxime",
+        "slug": "cefotaxime",
+        "cards": [{
+            "slug": "pediatric-fever-neonate",
+            "title": "Fever Without a Source - neonate"
+        }]
+    },
+    "cefpodoxime-proxetil": {
+        "title": "cefpodoxime-proxetil",
+        "slug": "cefpodoxime-proxetil",
+        "cards": [{
+            "slug": "cystitis-pregnant",
+            "title": "Cystitis and Pyelonephritis in Women"
+        }]
+    },
+    "ceftriaxone": {
+        "title": "ceftriaxone",
+        "slug": "ceftriaxone",
+        "cards": [{
+            "slug": "pediatric-fever-over-one-month",
+            "title": "Pediatric Fever Without a Source - Infant"
+        }, {
+            "slug": "status-epilepticus",
+            "title": "Seizures and Status Epilepticus"
+        }]
+    },
+    "celecoxib": {
+        "title": "Celecoxib",
+        "slug": "celecoxib",
+        "cards": [{
+            "slug": "nsaid-gi-bleed",
+            "title": "NSAIDs and Upper GI Bleed"
+        }]
+    },
+    "chlordiazepoxide": {
+        "title": "chlordiazepoxide",
+        "slug": "chlordiazepoxide",
+        "cards": [{
+            "slug": "urine-tox-screen",
+            "title": "Urine Toxicology Screen"
+        }]
+    },
+    "chlorpromazine": {
+        "title": "chlorpromazine",
+        "slug": "chlorpromazine",
+        "cards": [{
+            "slug": "urine-tox-screen",
+            "title": "Urine Toxicology Screen"
+        }]
+    },
+    "cholestyramine": {
+        "title": "cholestyramine",
+        "slug": "cholestyramine",
+        "cards": [{
+            "slug": "thyroid-storm",
+            "title": "Thyroid Storm - Treatment Strategies"
+        }]
+    },
+    "ciprofloxacin": {
+        "title": "ciprofloxacin",
+        "slug": "ciprofloxacin",
+        "cards": [{
+            "slug": "cancer-neutropenic-fever",
+            "title": "Neutropenic Fever and Cancer"
+        }, {
+            "slug": "cystitis-pregnant",
+            "title": "Cystitis and Pyelonephritis in Women"
+        }]
+    },
+    "citalopram": {
+        "title": "citalopram",
+        "slug": "citalopram",
+        "cards": [{
+            "slug": "pediatric-ingestion",
+            "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
+        }]
+    },
+    "clarithromycin": {
+        "title": "Clarithromycin",
+        "slug": "clarithromycin",
+        "cards": [{
+            "slug": "pertussis-treatment",
+            "title": "Pertussis Treatment Algorithm"
+        }]
+    },
+    "clonazepam": {
+        "title": "clonazepam",
+        "slug": "clonazepam",
+        "cards": [{
+            "slug": "benzo-metabolism",
+            "title": "Benzodiazepines Metabolism by the Liver"
+        }, {
+            "slug": "urine-tox-screen",
+            "title": "Urine Toxicology Screen"
+        }]
+    },
+    "clonidine": {
+        "title": "clonidine",
+        "slug": "clonidine",
+        "cards": [{
+            "slug": "toxidrome-vitals",
+            "title": "Toxidromes by Vital Signs"
+        }, {
+            "slug": "toxidrome-vitals",
+            "title": "Toxidromes by Vital Signs"
+        }]
+    },
+    "clopidogrel": {
+        "title": "clopidogrel,",
+        "slug": "clopidogrel",
+        "cards": [{
+            "slug": "supratherapeutic-inr",
+            "title": "Supratherapeutic INR"
+        }]
+    },
+    "clozapine": {
+        "title": "clozapine",
+        "slug": "clozapine",
+        "cards": [{
+            "slug": "pediatric-ingestion",
+            "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
+        }]
+    },
+    "cocaine": {
+        "title": "cocaine",
+        "slug": "cocaine",
+        "cards": [{
+            "slug": "serotonin-syndrome",
+            "title": "Serotonin Syndrome"
+        }]
+    },
+    "codeine": {
+        "title": "codeine",
+        "slug": "codeine",
+        "cards": [{
+            "slug": "urine-tox-screen",
+            "title": "Urine Toxicology Screen"
+        }]
+    },
+    "coumadin": {
+        "title": "coumadin",
+        "slug": "coumadin",
+        "cards": [{
+            "slug": "supratherapeutic-inr",
+            "title": "Supratherapeutic INR"
+        }]
+    },
+    "cyclobenzaprine": {
+        "title": "Cyclobenzaprine",
+        "slug": "cyclobenzaprine",
+        "cards": [{
+            "slug": "serotonin-syndrome",
+            "title": "Serotonin Syndrome"
+        }]
+    },
+    "cyproheptadine": {
+        "title": "cyproheptadine",
+        "slug": "cyproheptadine",
+        "cards": [{
+            "slug": "serotonin-syndrome",
+            "title": "Serotonin Syndrome"
+        }]
+    },
+    "desipramine": {
+        "title": "desipramine",
+        "slug": "desipramine",
+        "cards": [{
+            "slug": "pediatric-ingestion",
+            "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
+        }, {
+            "slug": "urine-tox-screen",
+            "title": "Urine Toxicology Screen"
+        }]
+    },
+    "dexamedetomidine": {
+        "title": "Dexamedetomidine",
+        "slug": "dexamedetomidine",
+        "cards": [{
+            "slug": "procedural-sedation",
+            "title": "Procedural Sedation & Analgesia"
+        }]
+    },
+    "dexamethasone": {
+        "title": "dexamethasone",
+        "slug": "dexamethasone",
+        "cards": [{
+            "slug": "croup",
+            "title": "Croup"
+        }, {
+            "slug": "emergency-drug-card-peds",
+            "title": "Emergency Drug Card (Pediatric)"
+        }]
+    },
+    "dextromethorphan": {
+        "title": "dextromethorphan",
+        "slug": "dextromethorphan",
+        "cards": [{
+            "slug": "pediatric-ingestion",
+            "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
+        }, {
+            "slug": "serotonin-syndrome",
+            "title": "Serotonin Syndrome"
+        }, {
+            "slug": "urine-tox-screen",
+            "title": "Urine Toxicology Screen"
+        }]
+    },
+    "dextrose": {
+        "title": "dextrose",
+        "slug": "dextrose",
+        "cards": [{
+            "slug": "emergency-drug-card-peds",
+            "title": "Emergency Drug Card (Pediatric)"
+        }]
+    },
+    "diazepam": {
+        "title": "diazepam",
+        "slug": "diazepam",
+        "cards": [{
+            "slug": "benzo-metabolism",
+            "title": "Benzodiazepines Metabolism by the Liver"
+        }, {
+            "slug": "emergency-drug-card-peds",
+            "title": "Emergency Drug Card (Pediatric)"
+        }, {
+            "slug": "geriatric-procedural-sedation",
+            "title": "Geriatric Procedural Sedation"
+        }, {
+            "slug": "procedural-sedation",
+            "title": "Procedural Sedation & Analgesia"
+        }, {
+            "slug": "urine-tox-screen",
+            "title": "Urine Toxicology Screen"
+        }]
+    },
+    "diclofenac": {
+        "title": "Diclofenac",
+        "slug": "diclofenac",
+        "cards": [{
+            "slug": "nsaid-gi-bleed",
+            "title": "NSAIDs and Upper GI Bleed"
+        }]
+    },
+    "digoxin": {
+        "title": "digoxin",
+        "slug": "digoxin",
+        "cards": [{
+            "slug": "toxidrome-vitals",
+            "title": "Toxidromes by Vital Signs"
+        }]
+    },
+    "diltiazem": {
+        "title": "diltiazem",
+        "slug": "diltiazem",
+        "cards": [{
+            "slug": "emergency-drug-card-adult",
+            "title": "Emergency Drug Card - Adult"
+        }, {
+            "slug": "infusions",
+            "title": "Continuous Infusions"
+        }, {
+            "slug": "pediatric-ingestion",
+            "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
+        }]
+    },
+    "dimenhydrinate": {
+        "title": "dimenhydrinate",
+        "slug": "dimenhydrinate",
+        "cards": [{
+            "slug": "pediatric-ingestion",
+            "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
+        }]
+    },
+    "diphenhydramine": {
+        "title": "diphenhydramine",
+        "slug": "diphenhydramine",
+        "cards": [{
+            "slug": "anaphylaxis",
+            "title": "Anaphylaxis"
+        }, {
+            "slug": "emergency-drug-card-peds",
+            "title": "Emergency Drug Card (Pediatric)"
+        }, {
+            "slug": "pediatric-ingestion",
+            "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
+        }, {
+            "slug": "urine-tox-screen",
+            "title": "Urine Toxicology Screen"
+        }]
+    },
+    "dobutamine": {
+        "title": "dobutamine",
+        "slug": "dobutamine",
+        "cards": [{
+            "slug": "emergency-drug-card-adult",
+            "title": "Emergency Drug Card - Adult"
+        }, {
+            "slug": "emergency-drug-card-peds",
+            "title": "Emergency Drug Card (Pediatric)"
+        }, {
+            "slug": "infusions",
+            "title": "Continuous Infusions"
+        }, {
+            "slug": "vasopressors-in-hypotension",
+            "title": "Vasopressors in Hypotension"
+        }, {
+            "slug": "vasopressors-inotropes-shock",
+            "title": "Vasopressors and Inotropes in Shock"
+        }]
+    },
+    "dopamine": {
+        "title": "dopamine",
+        "slug": "dopamine",
+        "cards": [{
+            "slug": "emergency-drug-card-adult",
+            "title": "Emergency Drug Card - Adult"
+        }, {
+            "slug": "emergency-drug-card-peds",
+            "title": "Emergency Drug Card (Pediatric)"
+        }, {
+            "slug": "infusions",
+            "title": "Continuous Infusions"
+        }, {
+            "slug": "vasopressors-in-hypotension",
+            "title": "Vasopressors in Hypotension"
+        }, {
+            "slug": "vasopressors-inotropes-shock",
+            "title": "Vasopressors and Inotropes in Shock"
+        }]
+    },
+    "dronabinol": {
+        "title": "Dronabinol",
+        "slug": "dronabinol",
+        "cards": [{
+            "slug": "urine-tox-screen",
+            "title": "Urine Toxicology Screen"
+        }]
+    },
+    "enoxaparin": {
+        "title": "enoxaparin",
+        "slug": "enoxaparin",
+        "cards": [{
+            "slug": "pesi",
+            "title": "PESI Score for Pulmonary Embolism"
+        }]
+    },
+    "epinepherine": {
+        "title": "epinepherine",
+        "slug": "epinepherine",
+        "cards": [{
+            "slug": "anaphylaxis",
+            "title": "Anaphylaxis"
+        }]
+    },
+    "epinephrine": {
+        "title": "epinephrine",
+        "slug": "epinephrine",
+        "cards": [{
+            "slug": "acls",
+            "title": "ACLS 2010 Algorithm for Cardiac Arrest"
+        }, {
+            "slug": "emergency-drug-card-adult",
+            "title": "Emergency Drug Card - Adult"
+        }, {
+            "slug": "emergency-drug-card-peds",
+            "title": "Emergency Drug Card (Pediatric)"
+        }, {
+            "slug": "infusions",
+            "title": "Continuous Infusions"
+        }, {
+            "slug": "local-anesthetic-toxicity",
+            "title": "Local Anesthetic Toxicity"
+        }, {
+            "slug": "vasopressors-in-hypotension",
+            "title": "Vasopressors in Hypotension"
+        }, {
+            "slug": "vasopressors-inotropes-shock",
+            "title": "Vasopressors and Inotropes in Shock"
+        }]
+    },
+    "erythromycin": {
+        "title": "Erythromycin",
+        "slug": "erythromycin",
+        "cards": [{
+            "slug": "pertussis-treatment",
+            "title": "Pertussis Treatment Algorithm"
+        }, {
+            "slug": "red-eye",
+            "title": "Red Eye"
+        }]
+    },
+    "escitalopram": {
+        "title": "escitalopram",
+        "slug": "escitalopram",
+        "cards": [{
+            "slug": "pediatric-ingestion",
+            "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
+        }]
+    },
+    "esmolol": {
+        "title": "esmolol",
+        "slug": "esmolol",
+        "cards": [{
+            "slug": "emergency-drug-card-adult",
+            "title": "Emergency Drug Card - Adult"
+        }, {
+            "slug": "infusions",
+            "title": "Continuous Infusions"
+        }, {
+            "slug": "thyroid-storm",
+            "title": "Thyroid Storm - Treatment Strategies"
+        }]
+    },
+    "ethanol": {
+        "title": "ethanol",
+        "slug": "ethanol",
+        "cards": [{
+            "slug": "methanol",
+            "title": "Toxic Alcohol Ingestion - Methanol"
+        }]
+    },
+    "ethylene-glycol": {
+        "title": "ethylene glycol",
         "slug": "ethylene-glycol",
-        "title": "Toxic Alcohol Ingestion - Ethylene Glycol"
-    }, {
-        "slug": "methanol",
-        "title": "Toxic Alcohol Ingestion - Methanol"
-    }],
-    "ketofol": [{
-        "slug": "geriatric-procedural-sedation",
-        "title": "Geriatric Procedural Sedation"
-    }, {
+        "cards": [{
+            "slug": "pediatric-ingestion",
+            "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
+        }]
+    },
+    "etomidate": {
+        "title": "etomidate",
+        "slug": "etomidate",
+        "cards": [{
+            "slug": "emergency-drug-card-adult",
+            "title": "Emergency Drug Card - Adult"
+        }, {
+            "slug": "emergency-drug-card-peds",
+            "title": "Emergency Drug Card (Pediatric)"
+        }, {
+            "slug": "geriatric-procedural-sedation",
+            "title": "Geriatric Procedural Sedation"
+        }, {
+            "slug": "procedural-sedation",
+            "title": "Procedural Sedation & Analgesia"
+        }, {
+            "slug": "rapid-sequence-intubation",
+            "title": "Rapid Sequence Intubation"
+        }]
+    },
+    "factor-viii": {
+        "title": "factor VIII",
+        "slug": "factor-viii",
+        "cards": [{
+            "slug": "emergency-drug-card-peds",
+            "title": "Emergency Drug Card (Pediatric)"
+        }]
+    },
+    "famotidine": {
+        "title": "Famotidine",
+        "slug": "famotidine",
+        "cards": [{
+            "slug": "emergency-drug-card-peds",
+            "title": "Emergency Drug Card (Pediatric)"
+        }]
+    },
+    "felodipine": {
+        "title": "felodipine",
+        "slug": "felodipine",
+        "cards": [{
+            "slug": "pediatric-ingestion",
+            "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
+        }]
+    },
+    "fentanyl": {
+        "title": "fentanyl",
+        "slug": "fentanyl",
+        "cards": [{
+            "slug": "emergency-drug-card-adult",
+            "title": "Emergency Drug Card - Adult"
+        }, {
+            "slug": "emergency-drug-card-peds",
+            "title": "Emergency Drug Card (Pediatric)"
+        }, {
+            "slug": "infusions",
+            "title": "Continuous Infusions"
+        }, {
+            "slug": "pain-management",
+            "title": "Initial Pain Management Options"
+        }, {
+            "slug": "procedural-sedation",
+            "title": "Procedural Sedation & Analgesia"
+        }, {
+            "slug": "rapid-sequence-intubation",
+            "title": "Rapid Sequence Intubation"
+        }, {
+            "slug": "serotonin-syndrome",
+            "title": "Serotonin Syndrome"
+        }, {
+            "slug": "urine-tox-screen",
+            "title": "Urine Toxicology Screen"
+        }]
+    },
+    "ffp": {
+        "title": "FFP",
+        "slug": "ffp",
+        "cards": [{
+            "slug": "supratherapeutic-inr",
+            "title": "Supratherapeutic INR"
+        }]
+    },
+    "flumazenil": {
+        "title": "Flumazenil",
+        "slug": "flumazenil",
+        "cards": [{
+            "slug": "emergency-drug-card-peds",
+            "title": "Emergency Drug Card (Pediatric)"
+        }]
+    },
+    "fluoxetine": {
+        "title": "fluoxetine",
+        "slug": "fluoxetine",
+        "cards": [{
+            "slug": "pediatric-ingestion",
+            "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
+        }, {
+            "slug": "urine-tox-screen",
+            "title": "Urine Toxicology Screen"
+        }]
+    },
+    "fluvoxamine": {
+        "title": "fluvoxamine",
+        "slug": "fluvoxamine",
+        "cards": [{
+            "slug": "pediatric-ingestion",
+            "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
+        }]
+    },
+    "folic-acid": {
+        "title": "folic acid",
+        "slug": "folic-acid",
+        "cards": [{
+            "slug": "methanol",
+            "title": "Toxic Alcohol Ingestion - Methanol"
+        }]
+    },
+    "fomepizole": {
+        "title": "Fomepizole",
+        "slug": "fomepizole",
+        "cards": [{
+            "slug": "emergency-drug-card-peds",
+            "title": "Emergency Drug Card (Pediatric)"
+        }]
+    },
+    "fomipezole": {
+        "title": "fomipezole",
+        "slug": "fomipezole",
+        "cards": [{
+            "slug": "ethylene-glycol",
+            "title": "Toxic Alcohol Ingestion - Ethylene Glycol"
+        }, {
+            "slug": "methanol",
+            "title": "Toxic Alcohol Ingestion - Methanol"
+        }]
+    },
+    "fosfomycin": {
+        "title": "fosfomycin",
+        "slug": "fosfomycin",
+        "cards": [{
+            "slug": "cystitis-pregnant",
+            "title": "Cystitis and Pyelonephritis in Women"
+        }]
+    },
+    "fosphenytoin": {
+        "title": "Fosphenytoin",
+        "slug": "fosphenytoin",
+        "cards": [{
+            "slug": "emergency-drug-card-peds",
+            "title": "Emergency Drug Card (Pediatric)"
+        }, {
+            "slug": "status-epilepticus",
+            "title": "Seizures and Status Epilepticus"
+        }]
+    },
+    "furosemide": {
+        "title": "furosemide",
+        "slug": "furosemide",
+        "cards": [{
+            "slug": "hyperkalemia",
+            "title": "Hyperkalemia"
+        }, {
+            "slug": "infusions",
+            "title": "Continuous Infusions"
+        }]
+    },
+    "gabapentin": {
+        "title": "Gabapentin",
+        "slug": "gabapentin",
+        "cards": [{
+            "slug": "pain-management",
+            "title": "Initial Pain Management Options"
+        }]
+    },
+    "gentamicin": {
+        "title": "Gentamicin",
+        "slug": "gentamicin",
+        "cards": [{
+            "slug": "pediatric-fever-neonate",
+            "title": "Fever Without a Source - neonate"
+        }]
+    },
+    "glucagon": {
+        "title": "glucagon",
+        "slug": "glucagon",
+        "cards": [{
+            "slug": "anaphylaxis",
+            "title": "Anaphylaxis"
+        }]
+    },
+    "haldol": {
+        "title": "haldol",
+        "slug": "haldol",
+        "cards": [{
+            "slug": "ativan-vs-haldol",
+            "title": "Chemical Sedation - Haldol vs Ativan vs Versed"
+        }]
+    },
+    "haloperidol": {
+        "title": "Haloperidol",
+        "slug": "haloperidol",
+        "cards": [{
+            "slug": "emergency-drug-card-peds",
+            "title": "Emergency Drug Card (Pediatric)"
+        }]
+    },
+    "heparin": {
+        "title": "heparin",
+        "slug": "heparin",
+        "cards": [{
+            "slug": "acute-limb-ischemia",
+            "title": "Acute Limb Ischemia"
+        }, {
+            "slug": "blunt-cerebrovascular-injury",
+            "title": "Blunt Cerebrovascular Injuries"
+        }, {
+            "slug": "emergency-drug-card-peds",
+            "title": "Emergency Drug Card (Pediatric)"
+        }, {
+            "slug": "submassive-pe-thrombolytics",
+            "title": "Thrombolytics for Submassive PE"
+        }]
+    },
+    "hydrocodone": {
+        "title": "Hydrocodone",
+        "slug": "hydrocodone",
+        "cards": [{
+            "slug": "pain-management",
+            "title": "Initial Pain Management Options"
+        }, {
+            "slug": "urine-tox-screen",
+            "title": "Urine Toxicology Screen"
+        }]
+    },
+    "hydrocortisone": {
+        "title": "hydrocortisone",
+        "slug": "hydrocortisone",
+        "cards": [{
+            "slug": "thyroid-storm",
+            "title": "Thyroid Storm - Treatment Strategies"
+        }]
+    },
+    "hydromorphone": {
+        "title": "Hydromorphone",
+        "slug": "hydromorphone",
+        "cards": [{
+            "slug": "pain-management",
+            "title": "Initial Pain Management Options"
+        }, {
+            "slug": "procedural-sedation",
+            "title": "Procedural Sedation & Analgesia"
+        }, {
+            "slug": "urine-tox-screen",
+            "title": "Urine Toxicology Screen"
+        }]
+    },
+    "ibuprofen": {
+        "title": "Ibuprofen",
+        "slug": "ibuprofen",
+        "cards": [{
+            "slug": "nsaid-gi-bleed",
+            "title": "NSAIDs and Upper GI Bleed"
+        }, {
+            "slug": "pain-management",
+            "title": "Initial Pain Management Options"
+        }, {
+            "slug": "urine-tox-screen",
+            "title": "Urine Toxicology Screen"
+        }]
+    },
+    "imipramine": {
+        "title": "Imipramine",
+        "slug": "imipramine",
+        "cards": [{
+            "slug": "urine-tox-screen",
+            "title": "Urine Toxicology Screen"
+        }]
+    },
+    "indomethacin": {
+        "title": "Indomethacin",
+        "slug": "indomethacin",
+        "cards": [{
+            "slug": "nsaid-gi-bleed",
+            "title": "NSAIDs and Upper GI Bleed"
+        }, {
+            "slug": "pain-management",
+            "title": "Initial Pain Management Options"
+        }]
+    },
+    "insulin": {
+        "title": "insulin",
+        "slug": "insulin",
+        "cards": [{
+            "slug": "hyperkalemia",
+            "title": "Hyperkalemia"
+        }, {
+            "slug": "insulin-pumps",
+            "title": "Insulin Pumps"
+        }]
+    },
+    "intralipid": {
+        "title": "intralipid",
+        "slug": "intralipid",
+        "cards": [{
+            "slug": "local-anesthetic-toxicity",
+            "title": "Local Anesthetic Toxicity"
+        }]
+    },
+    "iron": {
+        "title": "iron",
+        "slug": "iron",
+        "cards": [{
+            "slug": "pediatric-ingestion",
+            "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
+        }]
+    },
+    "isoproterenol": {
+        "title": "Isoproterenol",
+        "slug": "isoproterenol",
+        "cards": [{
+            "slug": "infusions",
+            "title": "Continuous Infusions"
+        }, {
+            "slug": "vasopressors-in-hypotension",
+            "title": "Vasopressors in Hypotension"
+        }]
+    },
+    "isradipine": {
+        "title": "isradipine",
+        "slug": "isradipine",
+        "cards": [{
+            "slug": "pediatric-ingestion",
+            "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
+        }]
+    },
+    "kayexalate": {
+        "title": "Kayexalate",
+        "slug": "kayexalate",
+        "cards": [{
+            "slug": "hyperkalemia",
+            "title": "Hyperkalemia"
+        }]
+    },
+    "ketamine": {
+        "title": "ketamine",
+        "slug": "ketamine",
+        "cards": [{
+            "slug": "delayed-sequence-intubation",
+            "title": "Delayed Sequence Intubation"
+        }, {
+            "slug": "emergency-drug-card-adult",
+            "title": "Emergency Drug Card - Adult"
+        }, {
+            "slug": "emergency-drug-card-peds",
+            "title": "Emergency Drug Card (Pediatric)"
+        }, {
+            "slug": "geriatric-procedural-sedation",
+            "title": "Geriatric Procedural Sedation"
+        }, {
+            "slug": "infusions",
+            "title": "Continuous Infusions"
+        }, {
+            "slug": "ketofol",
+            "title": "Ketofol"
+        }, {
+            "slug": "pain-management",
+            "title": "Initial Pain Management Options"
+        }, {
+            "slug": "procedural-sedation",
+            "title": "Procedural Sedation & Analgesia"
+        }, {
+            "slug": "rapid-sequence-intubation",
+            "title": "Rapid Sequence Intubation"
+        }, {
+            "slug": "urine-tox-screen",
+            "title": "Urine Toxicology Screen"
+        }]
+    },
+    "ketofol": {
+        "title": "ketofol",
         "slug": "ketofol",
-        "title": "Ketofol"
-    }, {
-        "slug": "procedural-sedation",
-        "title": "Procedural Sedation & Analgesia"
-    }],
-    "insulin": [{
-        "slug": "hyperkalemia",
-        "title": "Hyperkalemia"
-    }, {
-        "slug": "insulin-pumps",
-        "title": "Insulin Pumps"
-    }],
-    "albuterol": [{
-        "slug": "hyperkalemia",
-        "title": "Hyperkalemia"
-    }],
-    "furosemide": [{
-        "slug": "hyperkalemia",
-        "title": "Hyperkalemia"
-    }, {
-        "slug": "infusions",
-        "title": "Continuous Infusions"
-    }],
-    "Kayexalate": [{
-        "slug": "hyperkalemia",
-        "title": "Hyperkalemia"
-    }],
-    "calcium gluconate": [{
-        "slug": "hyperkalemia",
-        "title": "Hyperkalemia"
-    }],
-    "Amantadine": [{
-        "slug": "influenza-treatment",
-        "title": "Influenza - to treat or not to treat?"
-    }],
-    "Rimantidine": [{
-        "slug": "influenza-treatment",
-        "title": "Influenza - to treat or not to treat?"
-    }],
-    "Oseltamivir": [{
-        "slug": "influenza-treatment",
-        "title": "Influenza - to treat or not to treat?"
-    }],
-    "Zanamivir": [{
-        "slug": "influenza-treatment",
-        "title": "Influenza - to treat or not to treat?"
-    }],
-    "Diltiazem": [{
-        "slug": "infusions",
-        "title": "Continuous Infusions"
-    }],
-    "Dobutamine": [{
-        "slug": "infusions",
-        "title": "Continuous Infusions"
-    }],
-    "Dopamine": [{
-        "slug": "infusions",
-        "title": "Continuous Infusions"
-    }],
-    "Epinephrine": [{
-        "slug": "infusions",
-        "title": "Continuous Infusions"
-    }, {
-        "slug": "local-anesthetic-toxicity",
-        "title": "Local Anesthetic Toxicity"
-    }],
-    "Esmolol": [{
-        "slug": "infusions",
-        "title": "Continuous Infusions"
-    }],
-    "Isoproterenol": [{
-        "slug": "infusions",
-        "title": "Continuous Infusions"
-    }],
-    "naloxone": [{
-        "slug": "infusions",
-        "title": "Continuous Infusions"
-    }, {
-        "slug": "pain-management",
-        "title": "Initial Pain Management Options"
-    }],
-    "Nicardipine": [{
-        "slug": "infusions",
-        "title": "Continuous Infusions"
-    }],
-    "Norepinephrine": [{
-        "slug": "infusions",
-        "title": "Continuous Infusions"
-    }],
-    "Octreotide": [{
-        "slug": "infusions",
-        "title": "Continuous Infusions"
-    }, {
-        "slug": "upper-GI-bleed",
-        "title": "Upper GI Bleed"
-    }],
-    "Phenylephrine": [{
-        "slug": "infusions",
-        "title": "Continuous Infusions"
-    }, {
-        "slug": "urine-tox-screen",
-        "title": "Urine Toxicology Screen"
-    }, {
-        "slug": "vasopressors-inotropes-shock",
-        "title": "Vasopressors and Inotropes in Shock"
-    }],
-    "Vasopressin": [{
-        "slug": "infusions",
-        "title": "Continuous Infusions"
-    }],
-    "Vecuronium": [{
-        "slug": "infusions",
-        "title": "Continuous Infusions"
-    }, {
-        "slug": "rapid-sequence-intubation",
-        "title": "Rapid Sequence Intubation"
-    }],
-    "Bupivacaine": [{
-        "slug": "local-anesthetic-toxicity",
-        "title": "Local Anesthetic Toxicity"
-    }, {
-        "slug": "pain-management",
-        "title": "Initial Pain Management Options"
-    }],
-    "Lidocaine": [{
-        "slug": "local-anesthetic-toxicity",
-        "title": "Local Anesthetic Toxicity"
-    }],
-    "intralipid": [{
-        "slug": "local-anesthetic-toxicity",
-        "title": "Local Anesthetic Toxicity"
-    }],
-    "ethanol": [{
-        "slug": "methanol",
-        "title": "Toxic Alcohol Ingestion - Methanol"
-    }],
-    "folic acid": [{
-        "slug": "methanol",
-        "title": "Toxic Alcohol Ingestion - Methanol"
-    }],
-    "lidoderm": [{
-        "slug": "pain-management",
-        "title": "Initial Pain Management Options"
-    }],
-    "Triamcinolone": [{
-        "slug": "pain-management",
-        "title": "Initial Pain Management Options"
-    }],
-    "Gabapentin": [{
-        "slug": "pain-management",
-        "title": "Initial Pain Management Options"
-    }],
-    "Pregabalin": [{
-        "slug": "pain-management",
-        "title": "Initial Pain Management Options"
-    }],
-    "Ketamine": [{
-        "slug": "pain-management",
-        "title": "Initial Pain Management Options"
-    }, {
-        "slug": "urine-tox-screen",
-        "title": "Urine Toxicology Screen"
-    }],
-    "Oxycodone": [{
-        "slug": "pain-management",
-        "title": "Initial Pain Management Options"
-    }],
-    "Hydrocodone": [{
-        "slug": "pain-management",
-        "title": "Initial Pain Management Options"
-    }],
-    "Hydromorphone": [{
-        "slug": "pain-management",
-        "title": "Initial Pain Management Options"
-    }, {
-        "slug": "procedural-sedation",
-        "title": "Procedural Sedation & Analgesia"
-    }],
-    "Morphine": [{
-        "slug": "pain-management",
-        "title": "Initial Pain Management Options"
-    }, {
-        "slug": "procedural-sedation",
-        "title": "Procedural Sedation & Analgesia"
-    }],
-    "Fentanyl": [{
-        "slug": "pain-management",
-        "title": "Initial Pain Management Options"
-    }, {
-        "slug": "procedural-sedation",
-        "title": "Procedural Sedation & Analgesia"
-    }, {
-        "slug": "serotonin-syndrome",
-        "title": "Serotonin Syndrome"
-    }],
-    "Ampicillin": [{
-        "slug": "pediatric-fever-neonate",
-        "title": "Fever Without a Source - neonate"
-    }],
-    "Cefotaxime": [{
-        "slug": "pediatric-fever-neonate",
-        "title": "Fever Without a Source - neonate"
-    }],
-    "Gentamicin": [{
-        "slug": "pediatric-fever-neonate",
-        "title": "Fever Without a Source - neonate"
-    }],
-    "ceftriaxone": [{
-        "slug": "pediatric-fever-over-one-month",
-        "title": "Pediatric Fever Without a Source - Infant"
-    }],
-    "aripiprazole": [{
-        "slug": "pediatric-ingestion",
-        "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
-    }],
-    "clozapine": [{
-        "slug": "pediatric-ingestion",
-        "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
-    }],
-    "olanzapine": [{
-        "slug": "pediatric-ingestion",
-        "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
-    }],
-    "quetiapine": [{
-        "slug": "pediatric-ingestion",
-        "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
-    }],
-    "risperidone": [{
-        "slug": "pediatric-ingestion",
-        "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
-    }],
-    "ziprasidone": [{
-        "slug": "pediatric-ingestion",
-        "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
-    }],
-    "acebutolol": [{
-        "slug": "pediatric-ingestion",
-        "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
-    }],
-    "atenolol": [{
-        "slug": "pediatric-ingestion",
-        "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
-    }],
-    "carvedilol": [{
-        "slug": "pediatric-ingestion",
-        "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
-    }],
-    "metoprolol": [{
-        "slug": "pediatric-ingestion",
-        "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
-    }],
-    "nadolol": [{
-        "slug": "pediatric-ingestion",
-        "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
-    }],
-    "propranolol": [{
-        "slug": "pediatric-ingestion",
-        "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
-    }, {
-        "slug": "thyroid-storm",
-        "title": "Thyroid Storm - Treatment Strategies"
-    }, {
-        "slug": "toxidrome-vitals",
-        "title": "Toxidromes by Vital Signs"
-    }],
-    "sotalol": [{
-        "slug": "pediatric-ingestion",
-        "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
-    }],
-    "timolol": [{
-        "slug": "pediatric-ingestion",
-        "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
-    }, {
-        "slug": "red-eye",
-        "title": "Red Eye"
-    }],
-    "amlodipine": [{
-        "slug": "pediatric-ingestion",
-        "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
-    }],
-    "felodipine": [{
-        "slug": "pediatric-ingestion",
-        "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
-    }],
-    "isradipine": [{
-        "slug": "pediatric-ingestion",
-        "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
-    }],
-    "nifedipine": [{
-        "slug": "pediatric-ingestion",
-        "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
-    }],
-    "verapamil": [{
-        "slug": "pediatric-ingestion",
-        "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
-    }],
-    "camphor": [{
-        "slug": "pediatric-ingestion",
-        "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
-    }],
-    "dextromethorphan": [{
-        "slug": "pediatric-ingestion",
-        "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
-    }],
-    "dimenhydrinate": [{
-        "slug": "pediatric-ingestion",
-        "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
-    }],
-    "ethylene glycol": [{
-        "slug": "pediatric-ingestion",
-        "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
-    }],
-    "iron": [{
-        "slug": "pediatric-ingestion",
-        "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
-    }],
-    "mercury": [{
-        "slug": "pediatric-ingestion",
-        "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
-    }],
-    "methylphenidate": [{
-        "slug": "pediatric-ingestion",
-        "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
-    }],
-    "salicylate": [{
-        "slug": "pediatric-ingestion",
-        "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
-    }],
-    "citalopram": [{
-        "slug": "pediatric-ingestion",
-        "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
-    }],
-    "escitalopram": [{
-        "slug": "pediatric-ingestion",
-        "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
-    }],
-    "fluoxetine": [{
-        "slug": "pediatric-ingestion",
-        "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
-    }, {
-        "slug": "urine-tox-screen",
-        "title": "Urine Toxicology Screen"
-    }],
-    "fluvoxamine": [{
-        "slug": "pediatric-ingestion",
-        "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
-    }],
-    "paroxetine": [{
-        "slug": "pediatric-ingestion",
-        "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
-    }],
-    "sertraline": [{
-        "slug": "pediatric-ingestion",
-        "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
-    }, {
-        "slug": "urine-tox-screen",
-        "title": "Urine Toxicology Screen"
-    }],
-    "desipramine": [{
-        "slug": "pediatric-ingestion",
-        "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
-    }, {
-        "slug": "urine-tox-screen",
-        "title": "Urine Toxicology Screen"
-    }],
-    "nortriptyline": [{
-        "slug": "pediatric-ingestion",
-        "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
-    }],
-    "trimipramine": [{
-        "slug": "pediatric-ingestion",
-        "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
-    }],
-    "protriptyline": [{
-        "slug": "pediatric-ingestion",
-        "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
-    }],
-    "valproic acid": [{
-        "slug": "pediatric-ingestion",
-        "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
-    }, {
-        "slug": "serotonin-syndrome",
-        "title": "Serotonin Syndrome"
-    }],
-    "Azithromycin": [{
-        "slug": "pertussis-treatment",
-        "title": "Pertussis Treatment Algorithm"
-    }, {
-        "slug": "pertussis",
-        "title": "Pertussis"
-    }, {
-        "slug": "red-eye",
-        "title": "Red Eye"
-    }],
-    "Clarithromycin": [{
-        "slug": "pertussis-treatment",
-        "title": "Pertussis Treatment Algorithm"
-    }],
-    "Erythromycin": [{
-        "slug": "pertussis-treatment",
-        "title": "Pertussis Treatment Algorithm"
-    }],
-    "phenytoin": [{
-        "slug": "phenytoin-loading",
-        "title": "Phenytoin Oral Loading in the ED"
-    }, {
-        "slug": "status-epilepticus",
-        "title": "Seizures and Status Epilepticus"
-    }],
-    "Dexamedetomidine": [{
-        "slug": "procedural-sedation",
-        "title": "Procedural Sedation & Analgesia"
-    }],
-    "thiopental": [{
-        "slug": "rapid-sequence-intubation",
-        "title": "Rapid Sequence Intubation"
-    }],
-    "Succinylcholine": [{
-        "slug": "rapid-sequence-intubation",
-        "title": "Rapid Sequence Intubation"
-    }],
-    "Rocuronium": [{
-        "slug": "rapid-sequence-intubation",
-        "title": "Rapid Sequence Intubation"
-    }],
-    "trifluridine": [{
-        "slug": "red-eye",
-        "title": "Red Eye"
-    }],
-    "vidarabine": [{
-        "slug": "red-eye",
-        "title": "Red Eye"
-    }],
-    "acyclovir": [{
-        "slug": "red-eye",
-        "title": "Red Eye"
-    }],
-    "erythromycin": [{
-        "slug": "red-eye",
-        "title": "Red Eye"
-    }],
-    "prednisolone": [{
-        "slug": "red-eye",
-        "title": "Red Eye"
-    }],
-    "apraclonidine": [{
-        "slug": "red-eye",
-        "title": "Red Eye"
-    }],
-    "acetazolamide": [{
-        "slug": "red-eye",
-        "title": "Red Eye"
-    }],
-    "Cyclobenzaprine": [{
-        "slug": "serotonin-syndrome",
-        "title": "Serotonin Syndrome"
-    }],
-    "Meperidine": [{
-        "slug": "serotonin-syndrome",
-        "title": "Serotonin Syndrome"
-    }, {
-        "slug": "urine-tox-screen",
-        "title": "Urine Toxicology Screen"
-    }],
-    "Tramadol": [{
-        "slug": "serotonin-syndrome",
-        "title": "Serotonin Syndrome"
-    }],
-    "Buspirone": [{
-        "slug": "serotonin-syndrome",
-        "title": "Serotonin Syndrome"
-    }],
-    "Lithium": [{
-        "slug": "serotonin-syndrome",
-        "title": "Serotonin Syndrome"
-    }],
-    "Metoclopramide": [{
-        "slug": "serotonin-syndrome",
-        "title": "Serotonin Syndrome"
-    }],
-    "Carbamazepine": [{
-        "slug": "serotonin-syndrome",
-        "title": "Serotonin Syndrome"
-    }],
-    "cocaine": [{
-        "slug": "serotonin-syndrome",
-        "title": "Serotonin Syndrome"
-    }],
-    "Dextromethorphan": [{
-        "slug": "serotonin-syndrome",
-        "title": "Serotonin Syndrome"
-    }, {
-        "slug": "urine-tox-screen",
-        "title": "Urine Toxicology Screen"
-    }],
-    "Linezolid": [{
-        "slug": "serotonin-syndrome",
-        "title": "Serotonin Syndrome"
-    }],
-    "cyproheptadine": [{
-        "slug": "serotonin-syndrome",
-        "title": "Serotonin Syndrome"
-    }],
-    "fosphenytoin": [{
-        "slug": "status-epilepticus",
-        "title": "Seizures and Status Epilepticus"
-    }],
-    "Propofol": [{
-        "slug": "status-epilepticus",
-        "title": "Seizures and Status Epilepticus"
-    }],
-    "Pentobarbital": [{
-        "slug": "status-epilepticus",
-        "title": "Seizures and Status Epilepticus"
-    }],
-    "Thiamine": [{
-        "slug": "status-epilepticus",
-        "title": "Seizures and Status Epilepticus"
-    }],
-    "Ceftriaxone": [{
-        "slug": "status-epilepticus",
-        "title": "Seizures and Status Epilepticus"
-    }],
-    "pyridoxine": [{
-        "slug": "status-epilepticus",
-        "title": "Seizures and Status Epilepticus"
-    }],
-    "penicillin": [{
-        "slug": "strep-pharyngitis",
-        "title": "Streptococcal Pharyngitis"
-    }],
-    "amoxicillin,": [{
-        "slug": "strep-pharyngitis",
-        "title": "Streptococcal Pharyngitis"
-    }],
-    "tPA": [{
-        "slug": "submassive-PE-thrombolytics",
-        "title": "Thrombolytics for Submassive PE"
-    }],
-    "tenecteplase": [{
-        "slug": "submassive-PE-thrombolytics",
-        "title": "Thrombolytics for Submassive PE"
-    }],
-    "coumadin": [{
-        "slug": "supratherapeutic-INR",
-        "title": "Supratherapeutic INR"
-    }],
-    "vitamin K": [{
-        "slug": "supratherapeutic-INR",
-        "title": "Supratherapeutic INR"
-    }],
-    "PCC": [{
-        "slug": "supratherapeutic-INR",
-        "title": "Supratherapeutic INR"
-    }],
-    "FFP": [{
-        "slug": "supratherapeutic-INR",
-        "title": "Supratherapeutic INR"
-    }],
-    "clopidogrel,": [{
-        "slug": "supratherapeutic-INR",
-        "title": "Supratherapeutic INR"
-    }],
-    "propylthiouriacil": [{
-        "slug": "thyroid-storm",
-        "title": "Thyroid Storm - Treatment Strategies"
-    }],
-    "methimazole": [{
-        "slug": "thyroid-storm",
-        "title": "Thyroid Storm - Treatment Strategies"
-    }],
-    "hydrocortisone": [{
-        "slug": "thyroid-storm",
-        "title": "Thyroid Storm - Treatment Strategies"
-    }],
-    "cholestyramine": [{
-        "slug": "thyroid-storm",
-        "title": "Thyroid Storm - Treatment Strategies"
-    }],
-    "propoxyphene": [{
-        "slug": "toxidrome-vitals",
-        "title": "Toxidromes by Vital Signs"
-    }],
-    "physostigmine": [{
-        "slug": "toxidrome-vitals",
-        "title": "Toxidromes by Vital Signs"
-    }],
-    "clonidine": [{
-        "slug": "toxidrome-vitals",
-        "title": "Toxidromes by Vital Signs"
-    }, {
-        "slug": "toxidrome-vitals",
-        "title": "Toxidromes by Vital Signs"
-    }],
-    "digoxin": [{
-        "slug": "toxidrome-vitals",
-        "title": "Toxidromes by Vital Signs"
-    }],
-    "theophylline": [{
-        "slug": "toxidrome-vitals",
-        "title": "Toxidromes by Vital Signs"
-    }],
-    "aminophylline,": [{
-        "slug": "toxidrome-vitals",
-        "title": "Toxidromes by Vital Signs"
-    }],
-    "amantadine": [{
-        "slug": "urine-tox-screen",
-        "title": "Urine Toxicology Screen"
-    }],
-    "buproprion": [{
-        "slug": "urine-tox-screen",
-        "title": "Urine Toxicology Screen"
-    }],
-    "chlorpromazine": [{
-        "slug": "urine-tox-screen",
-        "title": "Urine Toxicology Screen"
-    }],
-    "Methylphenidate": [{
-        "slug": "urine-tox-screen",
-        "title": "Urine Toxicology Screen"
-    }],
-    "Phentermine": [{
-        "slug": "urine-tox-screen",
-        "title": "Urine Toxicology Screen"
-    }],
-    "Phenylpropanolamine": [{
-        "slug": "urine-tox-screen",
-        "title": "Urine Toxicology Screen"
-    }],
-    "Promethazine": [{
-        "slug": "urine-tox-screen",
-        "title": "Urine Toxicology Screen"
-    }],
-    "Pseudoephedrine": [{
-        "slug": "urine-tox-screen",
-        "title": "Urine Toxicology Screen"
-    }],
-    "Thioridazine": [{
-        "slug": "urine-tox-screen",
-        "title": "Urine Toxicology Screen"
-    }],
-    "trazodone": [{
-        "slug": "urine-tox-screen",
-        "title": "Urine Toxicology Screen"
-    }],
-    "oxaprozin": [{
-        "slug": "urine-tox-screen",
-        "title": "Urine Toxicology Screen"
-    }],
-    "Quinine": [{
-        "slug": "urine-tox-screen",
-        "title": "Urine Toxicology Screen"
-    }],
-    "Rifampin": [{
-        "slug": "urine-tox-screen",
-        "title": "Urine Toxicology Screen"
-    }],
-    "Verapamil": [{
-        "slug": "urine-tox-screen",
-        "title": "Urine Toxicology Screen"
-    }],
-    "Imipramine": [{
-        "slug": "urine-tox-screen",
-        "title": "Urine Toxicology Screen"
-    }],
-    "Venlafaxine": [{
-        "slug": "urine-tox-screen",
-        "title": "Urine Toxicology Screen"
-    }],
-    "Dronabinol": [{
-        "slug": "urine-tox-screen",
-        "title": "Urine Toxicology Screen"
-    }],
-    "Pantoprazole": [{
-        "slug": "urine-tox-screen",
-        "title": "Urine Toxicology Screen"
-    }],
-    "chlordiazepoxide": [{
-        "slug": "urine-tox-screen",
-        "title": "Urine Toxicology Screen"
-    }],
-    "alprazolam": [{
-        "slug": "urine-tox-screen",
-        "title": "Urine Toxicology Screen"
-    }],
-    "codeine": [{
-        "slug": "urine-tox-screen",
-        "title": "Urine Toxicology Screen"
-    }],
-    "hydrocodone": [{
-        "slug": "urine-tox-screen",
-        "title": "Urine Toxicology Screen"
-    }],
-    "hydromorphone": [{
-        "slug": "urine-tox-screen",
-        "title": "Urine Toxicology Screen"
-    }],
-    "oxycodone": [{
-        "slug": "urine-tox-screen",
-        "title": "Urine Toxicology Screen"
-    }],
-    "oxymorphone": [{
-        "slug": "urine-tox-screen",
-        "title": "Urine Toxicology Screen"
-    }],
-    "buprenorphine": [{
-        "slug": "urine-tox-screen",
-        "title": "Urine Toxicology Screen"
-    }],
-    "methadone": [{
-        "slug": "urine-tox-screen",
-        "title": "Urine Toxicology Screen"
-    }],
-    "tramadol,": [{
-        "slug": "urine-tox-screen",
-        "title": "Urine Toxicology Screen"
-    }, {
-        "slug": "when-avoid-tramadol",
-        "title": "When to Avoid Tramadol"
-    }],
-    "isoproterenol": [{
-        "slug": "vasopressors-in-hypotension",
-        "title": "Vasopressors in Hypotension"
-    }]
+        "cards": [{
+            "slug": "geriatric-procedural-sedation",
+            "title": "Geriatric Procedural Sedation"
+        }, {
+            "slug": "ketofol",
+            "title": "Ketofol"
+        }, {
+            "slug": "procedural-sedation",
+            "title": "Procedural Sedation & Analgesia"
+        }]
+    },
+    "ketoprofen": {
+        "title": "Ketoprofen",
+        "slug": "ketoprofen",
+        "cards": [{
+            "slug": "nsaid-gi-bleed",
+            "title": "NSAIDs and Upper GI Bleed"
+        }]
+    },
+    "ketorolac": {
+        "title": "Ketorolac",
+        "slug": "ketorolac",
+        "cards": [{
+            "slug": "nsaid-gi-bleed",
+            "title": "NSAIDs and Upper GI Bleed"
+        }, {
+            "slug": "pain-management",
+            "title": "Initial Pain Management Options"
+        }]
+    },
+    "labetalol": {
+        "title": "labetalol",
+        "slug": "labetalol",
+        "cards": [{
+            "slug": "emergency-drug-card-adult",
+            "title": "Emergency Drug Card - Adult"
+        }, {
+            "slug": "pediatric-ingestion",
+            "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
+        }, {
+            "slug": "urine-tox-screen",
+            "title": "Urine Toxicology Screen"
+        }]
+    },
+    "levetiracetam": {
+        "title": "Levetiracetam",
+        "slug": "levetiracetam",
+        "cards": [{
+            "slug": "emergency-drug-card-peds",
+            "title": "Emergency Drug Card (Pediatric)"
+        }]
+    },
+    "levofloxacin": {
+        "title": "levofloxacin",
+        "slug": "levofloxacin",
+        "cards": [{
+            "slug": "cystitis-pregnant",
+            "title": "Cystitis and Pyelonephritis in Women"
+        }]
+    },
+    "lidocaine": {
+        "title": "lidocaine",
+        "slug": "lidocaine",
+        "cards": [{
+            "slug": "emergency-drug-card-adult",
+            "title": "Emergency Drug Card - Adult"
+        }, {
+            "slug": "emergency-drug-card-peds",
+            "title": "Emergency Drug Card (Pediatric)"
+        }, {
+            "slug": "infusions",
+            "title": "Continuous Infusions"
+        }, {
+            "slug": "local-anesthetic-toxicity",
+            "title": "Local Anesthetic Toxicity"
+        }, {
+            "slug": "nebulized-lidocaine",
+            "title": "Lidocaine, nebulized dose"
+        }, {
+            "slug": "pain-management",
+            "title": "Initial Pain Management Options"
+        }, {
+            "slug": "rapid-sequence-intubation",
+            "title": "Rapid Sequence Intubation"
+        }]
+    },
+    "lidoderm": {
+        "title": "lidoderm",
+        "slug": "lidoderm",
+        "cards": [{
+            "slug": "pain-management",
+            "title": "Initial Pain Management Options"
+        }]
+    },
+    "linezolid": {
+        "title": "Linezolid",
+        "slug": "linezolid",
+        "cards": [{
+            "slug": "serotonin-syndrome",
+            "title": "Serotonin Syndrome"
+        }]
+    },
+    "lithium": {
+        "title": "Lithium",
+        "slug": "lithium",
+        "cards": [{
+            "slug": "serotonin-syndrome",
+            "title": "Serotonin Syndrome"
+        }]
+    },
+    "lorazepam": {
+        "title": "lorazepam",
+        "slug": "lorazepam",
+        "cards": [{
+            "slug": "ativan-vs-haldol",
+            "title": "Chemical Sedation - Haldol vs Ativan vs Versed"
+        }, {
+            "slug": "benzo-metabolism",
+            "title": "Benzodiazepines Metabolism by the Liver"
+        }, {
+            "slug": "emergency-drug-card-peds",
+            "title": "Emergency Drug Card (Pediatric)"
+        }, {
+            "slug": "infusions",
+            "title": "Continuous Infusions"
+        }, {
+            "slug": "procedural-sedation",
+            "title": "Procedural Sedation & Analgesia"
+        }, {
+            "slug": "status-epilepticus",
+            "title": "Seizures and Status Epilepticus"
+        }, {
+            "slug": "urine-tox-screen",
+            "title": "Urine Toxicology Screen"
+        }]
+    },
+    "magnesium": {
+        "title": "Magnesium",
+        "slug": "magnesium",
+        "cards": [{
+            "slug": "emergency-drug-card-peds",
+            "title": "Emergency Drug Card (Pediatric)"
+        }]
+    },
+    "meloxicam": {
+        "title": "Meloxicam",
+        "slug": "meloxicam",
+        "cards": [{
+            "slug": "nsaid-gi-bleed",
+            "title": "NSAIDs and Upper GI Bleed"
+        }]
+    },
+    "meperidine": {
+        "title": "Meperidine",
+        "slug": "meperidine",
+        "cards": [{
+            "slug": "serotonin-syndrome",
+            "title": "Serotonin Syndrome"
+        }, {
+            "slug": "urine-tox-screen",
+            "title": "Urine Toxicology Screen"
+        }]
+    },
+    "mercury": {
+        "title": "mercury",
+        "slug": "mercury",
+        "cards": [{
+            "slug": "pediatric-ingestion",
+            "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
+        }]
+    },
+    "methadone": {
+        "title": "methadone",
+        "slug": "methadone",
+        "cards": [{
+            "slug": "urine-tox-screen",
+            "title": "Urine Toxicology Screen"
+        }]
+    },
+    "methimazole": {
+        "title": "methimazole",
+        "slug": "methimazole",
+        "cards": [{
+            "slug": "thyroid-storm",
+            "title": "Thyroid Storm - Treatment Strategies"
+        }]
+    },
+    "methotrexate": {
+        "title": "Methotrexate,",
+        "slug": "methotrexate",
+        "cards": [{
+            "slug": "ectopic-methotrexate",
+            "title": "Ectopic Pregnancy and Methotrexate"
+        }]
+    },
+    "methylphenidate": {
+        "title": "methylphenidate",
+        "slug": "methylphenidate",
+        "cards": [{
+            "slug": "pediatric-ingestion",
+            "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
+        }, {
+            "slug": "urine-tox-screen",
+            "title": "Urine Toxicology Screen"
+        }]
+    },
+    "methylprednisolone": {
+        "title": "methylprednisolone",
+        "slug": "methylprednisolone",
+        "cards": [{
+            "slug": "anaphylaxis",
+            "title": "Anaphylaxis"
+        }, {
+            "slug": "emergency-drug-card-peds",
+            "title": "Emergency Drug Card (Pediatric)"
+        }]
+    },
+    "metoclopramide": {
+        "title": "Metoclopramide",
+        "slug": "metoclopramide",
+        "cards": [{
+            "slug": "serotonin-syndrome",
+            "title": "Serotonin Syndrome"
+        }]
+    },
+    "metoprolol": {
+        "title": "metoprolol",
+        "slug": "metoprolol",
+        "cards": [{
+            "slug": "pediatric-ingestion",
+            "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
+        }]
+    },
+    "midazolam": {
+        "title": "midazolam",
+        "slug": "midazolam",
+        "cards": [{
+            "slug": "ativan-vs-haldol",
+            "title": "Chemical Sedation - Haldol vs Ativan vs Versed"
+        }, {
+            "slug": "benzo-metabolism",
+            "title": "Benzodiazepines Metabolism by the Liver"
+        }, {
+            "slug": "emergency-drug-card-peds",
+            "title": "Emergency Drug Card (Pediatric)"
+        }, {
+            "slug": "geriatric-procedural-sedation",
+            "title": "Geriatric Procedural Sedation"
+        }, {
+            "slug": "infusions",
+            "title": "Continuous Infusions"
+        }, {
+            "slug": "procedural-sedation",
+            "title": "Procedural Sedation & Analgesia"
+        }, {
+            "slug": "rapid-sequence-intubation",
+            "title": "Rapid Sequence Intubation"
+        }, {
+            "slug": "status-epilepticus",
+            "title": "Seizures and Status Epilepticus"
+        }]
+    },
+    "morphine": {
+        "title": "morphine",
+        "slug": "morphine",
+        "cards": [{
+            "slug": "emergency-drug-card-peds",
+            "title": "Emergency Drug Card (Pediatric)"
+        }, {
+            "slug": "pain-management",
+            "title": "Initial Pain Management Options"
+        }, {
+            "slug": "procedural-sedation",
+            "title": "Procedural Sedation & Analgesia"
+        }, {
+            "slug": "urine-tox-screen",
+            "title": "Urine Toxicology Screen"
+        }]
+    },
+    "n-acetylcysteine": {
+        "title": "N-acetylcysteine",
+        "slug": "n-acetylcysteine",
+        "cards": [{
+            "slug": "emergency-drug-card-peds",
+            "title": "Emergency Drug Card (Pediatric)"
+        }]
+    },
+    "nadolol": {
+        "title": "nadolol",
+        "slug": "nadolol",
+        "cards": [{
+            "slug": "pediatric-ingestion",
+            "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
+        }]
+    },
+    "naloxone": {
+        "title": "Naloxone",
+        "slug": "naloxone",
+        "cards": [{
+            "slug": "emergency-drug-card-peds",
+            "title": "Emergency Drug Card (Pediatric)"
+        }, {
+            "slug": "infusions",
+            "title": "Continuous Infusions"
+        }, {
+            "slug": "pain-management",
+            "title": "Initial Pain Management Options"
+        }]
+    },
+    "naproxen": {
+        "title": "Naproxen",
+        "slug": "naproxen",
+        "cards": [{
+            "slug": "nsaid-gi-bleed",
+            "title": "NSAIDs and Upper GI Bleed"
+        }, {
+            "slug": "pain-management",
+            "title": "Initial Pain Management Options"
+        }]
+    },
+    "nicardipine": {
+        "title": "nicardipine",
+        "slug": "nicardipine",
+        "cards": [{
+            "slug": "emergency-drug-card-adult",
+            "title": "Emergency Drug Card - Adult"
+        }, {
+            "slug": "infusions",
+            "title": "Continuous Infusions"
+        }]
+    },
+    "nifedipine": {
+        "title": "nifedipine",
+        "slug": "nifedipine",
+        "cards": [{
+            "slug": "pediatric-ingestion",
+            "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
+        }]
+    },
+    "nitrofurantoin": {
+        "title": "Nitrofurantoin",
+        "slug": "nitrofurantoin",
+        "cards": [{
+            "slug": "cystitis-pregnant",
+            "title": "Cystitis and Pyelonephritis in Women"
+        }]
+    },
+    "nitroglycerin": {
+        "title": "Nitroglycerin",
+        "slug": "nitroglycerin",
+        "cards": [{
+            "slug": "emergency-drug-card-peds",
+            "title": "Emergency Drug Card (Pediatric)"
+        }, {
+            "slug": "infusions",
+            "title": "Continuous Infusions"
+        }]
+    },
+    "nitroprusside": {
+        "title": "Nitroprusside",
+        "slug": "nitroprusside",
+        "cards": [{
+            "slug": "emergency-drug-card-peds",
+            "title": "Emergency Drug Card (Pediatric)"
+        }, {
+            "slug": "infusions",
+            "title": "Continuous Infusions"
+        }]
+    },
+    "norepinephrine": {
+        "title": "norepinephrine",
+        "slug": "norepinephrine",
+        "cards": [{
+            "slug": "emergency-drug-card-adult",
+            "title": "Emergency Drug Card - Adult"
+        }, {
+            "slug": "emergency-drug-card-peds",
+            "title": "Emergency Drug Card (Pediatric)"
+        }, {
+            "slug": "infusions",
+            "title": "Continuous Infusions"
+        }, {
+            "slug": "vasopressors-in-hypotension",
+            "title": "Vasopressors in Hypotension"
+        }, {
+            "slug": "vasopressors-inotropes-shock",
+            "title": "Vasopressors and Inotropes in Shock"
+        }]
+    },
+    "nortriptyline": {
+        "title": "nortriptyline",
+        "slug": "nortriptyline",
+        "cards": [{
+            "slug": "pediatric-ingestion",
+            "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
+        }]
+    },
+    "octreotide": {
+        "title": "Octreotide",
+        "slug": "octreotide",
+        "cards": [{
+            "slug": "infusions",
+            "title": "Continuous Infusions"
+        }, {
+            "slug": "upper-gi-bleed",
+            "title": "Upper GI Bleed"
+        }]
+    },
+    "ofloxacin": {
+        "title": "ofloxacin",
+        "slug": "ofloxacin",
+        "cards": [{
+            "slug": "cystitis-pregnant",
+            "title": "Cystitis and Pyelonephritis in Women"
+        }]
+    },
+    "olanzapine": {
+        "title": "olanzapine",
+        "slug": "olanzapine",
+        "cards": [{
+            "slug": "pediatric-ingestion",
+            "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
+        }]
+    },
+    "ondansetron": {
+        "title": "Ondansetron",
+        "slug": "ondansetron",
+        "cards": [{
+            "slug": "emergency-drug-card-peds",
+            "title": "Emergency Drug Card (Pediatric)"
+        }, {
+            "slug": "serotonin-syndrome",
+            "title": "Serotonin Syndrome"
+        }]
+    },
+    "oseltamivir": {
+        "title": "Oseltamivir",
+        "slug": "oseltamivir",
+        "cards": [{
+            "slug": "influenza-treatment",
+            "title": "Influenza - to treat or not to treat?"
+        }]
+    },
+    "oxaprozin": {
+        "title": "oxaprozin",
+        "slug": "oxaprozin",
+        "cards": [{
+            "slug": "urine-tox-screen",
+            "title": "Urine Toxicology Screen"
+        }]
+    },
+    "oxazepam": {
+        "title": "oxazepam",
+        "slug": "oxazepam",
+        "cards": [{
+            "slug": "benzo-metabolism",
+            "title": "Benzodiazepines Metabolism by the Liver"
+        }, {
+            "slug": "urine-tox-screen",
+            "title": "Urine Toxicology Screen"
+        }]
+    },
+    "oxycodone": {
+        "title": "Oxycodone",
+        "slug": "oxycodone",
+        "cards": [{
+            "slug": "pain-management",
+            "title": "Initial Pain Management Options"
+        }, {
+            "slug": "urine-tox-screen",
+            "title": "Urine Toxicology Screen"
+        }]
+    },
+    "oxymorphone": {
+        "title": "oxymorphone",
+        "slug": "oxymorphone",
+        "cards": [{
+            "slug": "urine-tox-screen",
+            "title": "Urine Toxicology Screen"
+        }]
+    },
+    "pantoprazole": {
+        "title": "Pantoprazole",
+        "slug": "pantoprazole",
+        "cards": [{
+            "slug": "urine-tox-screen",
+            "title": "Urine Toxicology Screen"
+        }]
+    },
+    "paroxetine": {
+        "title": "paroxetine",
+        "slug": "paroxetine",
+        "cards": [{
+            "slug": "pediatric-ingestion",
+            "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
+        }]
+    },
+    "pcc": {
+        "title": "PCC",
+        "slug": "pcc",
+        "cards": [{
+            "slug": "supratherapeutic-inr",
+            "title": "Supratherapeutic INR"
+        }]
+    },
+    "penicillin": {
+        "title": "penicillin",
+        "slug": "penicillin",
+        "cards": [{
+            "slug": "strep-pharyngitis",
+            "title": "Streptococcal Pharyngitis"
+        }]
+    },
+    "pentobarbital": {
+        "title": "Pentobarbital",
+        "slug": "pentobarbital",
+        "cards": [{
+            "slug": "status-epilepticus",
+            "title": "Seizures and Status Epilepticus"
+        }]
+    },
+    "phenobarbital": {
+        "title": "Phenobarbital",
+        "slug": "phenobarbital",
+        "cards": [{
+            "slug": "emergency-drug-card-peds",
+            "title": "Emergency Drug Card (Pediatric)"
+        }]
+    },
+    "phentermine": {
+        "title": "Phentermine",
+        "slug": "phentermine",
+        "cards": [{
+            "slug": "urine-tox-screen",
+            "title": "Urine Toxicology Screen"
+        }]
+    },
+    "phenylephrine": {
+        "title": "phenylephrine",
+        "slug": "phenylephrine",
+        "cards": [{
+            "slug": "emergency-drug-card-adult",
+            "title": "Emergency Drug Card - Adult"
+        }, {
+            "slug": "emergency-drug-card-peds",
+            "title": "Emergency Drug Card (Pediatric)"
+        }, {
+            "slug": "infusions",
+            "title": "Continuous Infusions"
+        }, {
+            "slug": "urine-tox-screen",
+            "title": "Urine Toxicology Screen"
+        }, {
+            "slug": "vasopressors-inotropes-shock",
+            "title": "Vasopressors and Inotropes in Shock"
+        }]
+    },
+    "phenylpropanolamine": {
+        "title": "Phenylpropanolamine",
+        "slug": "phenylpropanolamine",
+        "cards": [{
+            "slug": "urine-tox-screen",
+            "title": "Urine Toxicology Screen"
+        }]
+    },
+    "phenytoin": {
+        "title": "phenytoin",
+        "slug": "phenytoin",
+        "cards": [{
+            "slug": "phenytoin-loading",
+            "title": "Phenytoin Oral Loading in the ED"
+        }, {
+            "slug": "status-epilepticus",
+            "title": "Seizures and Status Epilepticus"
+        }]
+    },
+    "physostigmine": {
+        "title": "physostigmine",
+        "slug": "physostigmine",
+        "cards": [{
+            "slug": "toxidrome-vitals",
+            "title": "Toxidromes by Vital Signs"
+        }]
+    },
+    "pipercillin-tazobactam": {
+        "title": "pipercillin-tazobactam",
+        "slug": "pipercillin-tazobactam",
+        "cards": [{
+            "slug": "cancer-neutropenic-fever",
+            "title": "Neutropenic Fever and Cancer"
+        }]
+    },
+    "piroxicam": {
+        "title": "Piroxicam",
+        "slug": "piroxicam",
+        "cards": [{
+            "slug": "nsaid-gi-bleed",
+            "title": "NSAIDs and Upper GI Bleed"
+        }]
+    },
+    "pivmecillinam": {
+        "title": "pivmecillinam",
+        "slug": "pivmecillinam",
+        "cards": [{
+            "slug": "cystitis-pregnant",
+            "title": "Cystitis and Pyelonephritis in Women"
+        }]
+    },
+    "prednisolone": {
+        "title": "prednisolone",
+        "slug": "prednisolone",
+        "cards": [{
+            "slug": "red-eye",
+            "title": "Red Eye"
+        }]
+    },
+    "prednisone": {
+        "title": "Prednisone",
+        "slug": "prednisone",
+        "cards": [{
+            "slug": "bells-palsy-treatment",
+            "title": "Bell's Palsy Treatment"
+        }]
+    },
+    "pregabalin": {
+        "title": "Pregabalin",
+        "slug": "pregabalin",
+        "cards": [{
+            "slug": "pain-management",
+            "title": "Initial Pain Management Options"
+        }]
+    },
+    "procainamide": {
+        "title": "procainamide",
+        "slug": "procainamide",
+        "cards": [{
+            "slug": "emergency-drug-card-adult",
+            "title": "Emergency Drug Card - Adult"
+        }, {
+            "slug": "emergency-drug-card-peds",
+            "title": "Emergency Drug Card (Pediatric)"
+        }]
+    },
+    "promethazine": {
+        "title": "Promethazine",
+        "slug": "promethazine",
+        "cards": [{
+            "slug": "urine-tox-screen",
+            "title": "Urine Toxicology Screen"
+        }]
+    },
+    "propofol": {
+        "title": "propofol",
+        "slug": "propofol",
+        "cards": [{
+            "slug": "emergency-drug-card-adult",
+            "title": "Emergency Drug Card - Adult"
+        }, {
+            "slug": "emergency-drug-card-peds",
+            "title": "Emergency Drug Card (Pediatric)"
+        }, {
+            "slug": "geriatric-procedural-sedation",
+            "title": "Geriatric Procedural Sedation"
+        }, {
+            "slug": "infusions",
+            "title": "Continuous Infusions"
+        }, {
+            "slug": "ketofol",
+            "title": "Ketofol"
+        }, {
+            "slug": "procedural-sedation",
+            "title": "Procedural Sedation & Analgesia"
+        }, {
+            "slug": "rapid-sequence-intubation",
+            "title": "Rapid Sequence Intubation"
+        }, {
+            "slug": "status-epilepticus",
+            "title": "Seizures and Status Epilepticus"
+        }]
+    },
+    "propoxyphene": {
+        "title": "propoxyphene",
+        "slug": "propoxyphene",
+        "cards": [{
+            "slug": "toxidrome-vitals",
+            "title": "Toxidromes by Vital Signs"
+        }]
+    },
+    "propranolol": {
+        "title": "propranolol",
+        "slug": "propranolol",
+        "cards": [{
+            "slug": "pediatric-ingestion",
+            "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
+        }, {
+            "slug": "thyroid-storm",
+            "title": "Thyroid Storm - Treatment Strategies"
+        }, {
+            "slug": "toxidrome-vitals",
+            "title": "Toxidromes by Vital Signs"
+        }]
+    },
+    "propylthiouriacil": {
+        "title": "propylthiouriacil",
+        "slug": "propylthiouriacil",
+        "cards": [{
+            "slug": "thyroid-storm",
+            "title": "Thyroid Storm - Treatment Strategies"
+        }]
+    },
+    "prostaglandin": {
+        "title": "prostaglandin",
+        "slug": "prostaglandin",
+        "cards": [{
+            "slug": "emergency-drug-card-peds",
+            "title": "Emergency Drug Card (Pediatric)"
+        }]
+    },
+    "protriptyline": {
+        "title": "protriptyline",
+        "slug": "protriptyline",
+        "cards": [{
+            "slug": "pediatric-ingestion",
+            "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
+        }]
+    },
+    "pseudoephedrine": {
+        "title": "Pseudoephedrine",
+        "slug": "pseudoephedrine",
+        "cards": [{
+            "slug": "urine-tox-screen",
+            "title": "Urine Toxicology Screen"
+        }]
+    },
+    "pyridoxine": {
+        "title": "pyridoxine",
+        "slug": "pyridoxine",
+        "cards": [{
+            "slug": "status-epilepticus",
+            "title": "Seizures and Status Epilepticus"
+        }]
+    },
+    "quetiapine": {
+        "title": "quetiapine",
+        "slug": "quetiapine",
+        "cards": [{
+            "slug": "pediatric-ingestion",
+            "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
+        }]
+    },
+    "quinine": {
+        "title": "Quinine",
+        "slug": "quinine",
+        "cards": [{
+            "slug": "urine-tox-screen",
+            "title": "Urine Toxicology Screen"
+        }]
+    },
+    "racemic-epinephrine": {
+        "title": "racemic epinephrine",
+        "slug": "racemic-epinephrine",
+        "cards": [{
+            "slug": "croup",
+            "title": "Croup"
+        }]
+    },
+    "ranitidine": {
+        "title": "ranitidine",
+        "slug": "ranitidine",
+        "cards": [{
+            "slug": "anaphylaxis",
+            "title": "Anaphylaxis"
+        }, {
+            "slug": "emergency-drug-card-peds",
+            "title": "Emergency Drug Card (Pediatric)"
+        }, {
+            "slug": "urine-tox-screen",
+            "title": "Urine Toxicology Screen"
+        }]
+    },
+    "rifampin": {
+        "title": "Rifampin",
+        "slug": "rifampin",
+        "cards": [{
+            "slug": "urine-tox-screen",
+            "title": "Urine Toxicology Screen"
+        }]
+    },
+    "rimantidine": {
+        "title": "Rimantidine",
+        "slug": "rimantidine",
+        "cards": [{
+            "slug": "influenza-treatment",
+            "title": "Influenza - to treat or not to treat?"
+        }]
+    },
+    "risperidone": {
+        "title": "risperidone",
+        "slug": "risperidone",
+        "cards": [{
+            "slug": "pediatric-ingestion",
+            "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
+        }]
+    },
+    "rocuronium": {
+        "title": "rocuronium",
+        "slug": "rocuronium",
+        "cards": [{
+            "slug": "emergency-drug-card-adult",
+            "title": "Emergency Drug Card - Adult"
+        }, {
+            "slug": "emergency-drug-card-peds",
+            "title": "Emergency Drug Card (Pediatric)"
+        }, {
+            "slug": "rapid-sequence-intubation",
+            "title": "Rapid Sequence Intubation"
+        }]
+    },
+    "rofecoxib": {
+        "title": "Rofecoxib",
+        "slug": "rofecoxib",
+        "cards": [{
+            "slug": "nsaid-gi-bleed",
+            "title": "NSAIDs and Upper GI Bleed"
+        }]
+    },
+    "salicylate": {
+        "title": "salicylate",
+        "slug": "salicylate",
+        "cards": [{
+            "slug": "pediatric-ingestion",
+            "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
+        }]
+    },
+    "sertraline": {
+        "title": "sertraline",
+        "slug": "sertraline",
+        "cards": [{
+            "slug": "pediatric-ingestion",
+            "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
+        }, {
+            "slug": "urine-tox-screen",
+            "title": "Urine Toxicology Screen"
+        }]
+    },
+    "sodium-bicarbonate": {
+        "title": "sodium bicarbonate",
+        "slug": "sodium-bicarbonate",
+        "cards": [{
+            "slug": "emergency-drug-card-peds",
+            "title": "Emergency Drug Card (Pediatric)"
+        }, {
+            "slug": "hyperkalemia",
+            "title": "Hyperkalemia"
+        }, {
+            "slug": "is-bicarb-useless",
+            "title": "Bicarbonate - Completely Useless?"
+        }]
+    },
+    "sotalol": {
+        "title": "sotalol",
+        "slug": "sotalol",
+        "cards": [{
+            "slug": "pediatric-ingestion",
+            "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
+        }]
+    },
+    "succinylcholine": {
+        "title": "succinylcholine",
+        "slug": "succinylcholine",
+        "cards": [{
+            "slug": "emergency-drug-card-adult",
+            "title": "Emergency Drug Card - Adult"
+        }, {
+            "slug": "emergency-drug-card-peds",
+            "title": "Emergency Drug Card (Pediatric)"
+        }, {
+            "slug": "rapid-sequence-intubation",
+            "title": "Rapid Sequence Intubation"
+        }]
+    },
+    "sulfamethoxazole": {
+        "title": "sulfamethoxazole",
+        "slug": "sulfamethoxazole",
+        "cards": [{
+            "slug": "cystitis-pregnant",
+            "title": "Cystitis and Pyelonephritis in Women"
+        }]
+    },
+    "temazepam": {
+        "title": "temazepam",
+        "slug": "temazepam",
+        "cards": [{
+            "slug": "benzo-metabolism",
+            "title": "Benzodiazepines Metabolism by the Liver"
+        }]
+    },
+    "tenecteplase": {
+        "title": "tenecteplase",
+        "slug": "tenecteplase",
+        "cards": [{
+            "slug": "submassive-pe-thrombolytics",
+            "title": "Thrombolytics for Submassive PE"
+        }]
+    },
+    "theophylline": {
+        "title": "theophylline",
+        "slug": "theophylline",
+        "cards": [{
+            "slug": "toxidrome-vitals",
+            "title": "Toxidromes by Vital Signs"
+        }]
+    },
+    "thiamine": {
+        "title": "Thiamine",
+        "slug": "thiamine",
+        "cards": [{
+            "slug": "status-epilepticus",
+            "title": "Seizures and Status Epilepticus"
+        }]
+    },
+    "thiopental": {
+        "title": "thiopental",
+        "slug": "thiopental",
+        "cards": [{
+            "slug": "rapid-sequence-intubation",
+            "title": "Rapid Sequence Intubation"
+        }]
+    },
+    "thioridazine": {
+        "title": "Thioridazine",
+        "slug": "thioridazine",
+        "cards": [{
+            "slug": "urine-tox-screen",
+            "title": "Urine Toxicology Screen"
+        }]
+    },
+    "timolol": {
+        "title": "timolol",
+        "slug": "timolol",
+        "cards": [{
+            "slug": "pediatric-ingestion",
+            "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
+        }, {
+            "slug": "red-eye",
+            "title": "Red Eye"
+        }]
+    },
+    "tpa": {
+        "title": "tpa",
+        "slug": "tpa",
+        "cards": [{
+            "slug": "pe-fibrinolysis",
+            "title": "Fibrinolysis for Acute Pulmonary Embolism"
+        }, {
+            "slug": "tpa-code-dose",
+            "title": "tPA Code Dose"
+        }, {
+            "slug": "tpa-contraindications",
+            "title": "Contraindications for Thrombolytics"
+        }, {
+            "slug": "submassive-pe-thrombolytics",
+            "title": "Thrombolytics for Submassive PE"
+        }]
+    },
+    "tramadol": {
+        "title": "Tramadol",
+        "slug": "tramadol",
+        "cards": [{
+            "slug": "serotonin-syndrome",
+            "title": "Serotonin Syndrome"
+        }, {
+            "slug": "urine-tox-screen",
+            "title": "Urine Toxicology Screen"
+        }, {
+            "slug": "when-avoid-tramadol",
+            "title": "When to Avoid Tramadol"
+        }]
+    },
+    "trazodone": {
+        "title": "trazodone",
+        "slug": "trazodone",
+        "cards": [{
+            "slug": "urine-tox-screen",
+            "title": "Urine Toxicology Screen"
+        }]
+    },
+    "triamcinolone": {
+        "title": "Triamcinolone",
+        "slug": "triamcinolone",
+        "cards": [{
+            "slug": "pain-management",
+            "title": "Initial Pain Management Options"
+        }]
+    },
+    "trifluridine": {
+        "title": "trifluridine",
+        "slug": "trifluridine",
+        "cards": [{
+            "slug": "red-eye",
+            "title": "Red Eye"
+        }]
+    },
+    "trimethoprim-sulfamethoxazole": {
+        "title": "Trimethoprim-sulfamethoxazole",
+        "slug": "trimethoprim-sulfamethoxazole",
+        "cards": [{
+            "slug": "cystitis-pregnant",
+            "title": "Cystitis and Pyelonephritis in Women"
+        }]
+    },
+    "trimipramine": {
+        "title": "trimipramine",
+        "slug": "trimipramine",
+        "cards": [{
+            "slug": "pediatric-ingestion",
+            "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
+        }]
+    },
+    "valacylovir": {
+        "title": "Valacylovir",
+        "slug": "valacylovir",
+        "cards": [{
+            "slug": "bells-palsy-treatment",
+            "title": "Bell's Palsy Treatment"
+        }]
+    },
+    "valproic-acid": {
+        "title": "valproic acid",
+        "slug": "valproic-acid",
+        "cards": [{
+            "slug": "pediatric-ingestion",
+            "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
+        }, {
+            "slug": "serotonin-syndrome",
+            "title": "Serotonin Syndrome"
+        }]
+    },
+    "vancomycin": {
+        "title": "vancomycin",
+        "slug": "vancomycin",
+        "cards": [{
+            "slug": "cancer-neutropenic-fever",
+            "title": "Neutropenic Fever and Cancer"
+        }, {
+            "slug": "status-epilepticus",
+            "title": "Seizures and Status Epilepticus"
+        }]
+    },
+    "vasopressin": {
+        "title": "vasopressin,",
+        "slug": "vasopressin",
+        "cards": [{
+            "slug": "emergency-drug-card-adult",
+            "title": "Emergency Drug Card - Adult"
+        }, {
+            "slug": "emergency-drug-card-peds",
+            "title": "Emergency Drug Card (Pediatric)"
+        }, {
+            "slug": "infusions",
+            "title": "Continuous Infusions"
+        }]
+    },
+    "vecuronium": {
+        "title": "vecuronium",
+        "slug": "vecuronium",
+        "cards": [{
+            "slug": "emergency-drug-card-adult",
+            "title": "Emergency Drug Card - Adult"
+        }, {
+            "slug": "emergency-drug-card-peds",
+            "title": "Emergency Drug Card (Pediatric)"
+        }, {
+            "slug": "infusions",
+            "title": "Continuous Infusions"
+        }, {
+            "slug": "rapid-sequence-intubation",
+            "title": "Rapid Sequence Intubation"
+        }]
+    },
+    "venlafaxine": {
+        "title": "Venlafaxine",
+        "slug": "venlafaxine",
+        "cards": [{
+            "slug": "urine-tox-screen",
+            "title": "Urine Toxicology Screen"
+        }]
+    },
+    "verapamil": {
+        "title": "verapamil",
+        "slug": "verapamil",
+        "cards": [{
+            "slug": "pediatric-ingestion",
+            "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
+        }, {
+            "slug": "urine-tox-screen",
+            "title": "Urine Toxicology Screen"
+        }]
+    },
+    "vidarabine": {
+        "title": "vidarabine",
+        "slug": "vidarabine",
+        "cards": [{
+            "slug": "red-eye",
+            "title": "Red Eye"
+        }]
+    },
+    "vitamin-k": {
+        "title": "vitamin K",
+        "slug": "vitamin-k",
+        "cards": [{
+            "slug": "supratherapeutic-inr",
+            "title": "Supratherapeutic INR"
+        }]
+    },
+    "warfarin": {
+        "title": "warfarin",
+        "slug": "warfarin",
+        "cards": [{
+            "slug": "pesi",
+            "title": "PESI Score for Pulmonary Embolism"
+        }, {
+            "slug": "atrial-fibrillation",
+            "title": "Atrial Fibrillation and Anticoagulation"
+        }, {
+            "slug": "upper-gi-bleed",
+            "title": "Upper GI Bleed"
+        }]
+    },
+    "zanamivir": {
+        "title": "Zanamivir",
+        "slug": "zanamivir",
+        "cards": [{
+            "slug": "influenza-treatment",
+            "title": "Influenza - to treat or not to treat?"
+        }]
+    },
+    "ziprasidone": {
+        "title": "ziprasidone",
+        "slug": "ziprasidone",
+        "cards": [{
+            "slug": "pediatric-ingestion",
+            "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
+        }]
+    }
 }

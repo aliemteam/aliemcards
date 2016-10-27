@@ -2,7 +2,7 @@
 
 title: Blunt Cardiac Injury
 collection:
-  - trauma
+  - Trauma
 tags:
 
 ---

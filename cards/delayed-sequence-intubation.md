@@ -2,8 +2,8 @@
 
 title: Delayed Sequence Intubation
 collection:
-  - critical care
-  - procedures
+  - Critical Care
+  - Procedures
 tags: ketamine
 
 ---

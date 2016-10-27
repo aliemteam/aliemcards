@@ -2,9 +2,9 @@
 
 title: Pneumonia Risk Stratification Tools
 collection:
-  - pulmonology
-  - infectious disease
-  - ebm
+  - Pulmonology
+  - Infectious Disease
+  - EBM
 tags:
 
 ---

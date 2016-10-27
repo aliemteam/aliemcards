@@ -1,28 +1,21 @@
 import React from 'react';
 
-class NavDrawer extends React.Component {
-
-  constructor(props) {
-    super(props);
-  }
-
-  render() {
-    return(
-      <div id="navdrawer" className={ this.props.show ? 'navopen' : 'navclosed' }>
-        <ul>
-          <li className="searchbox">
-            <form>
-              <input type="search" value="Search" />
-            </form>
-          </li>
-          <li><a href="#">Categories</a></li>
-          <li><a href="#">Tags</a></li>
-          <li><a href="#">About</a></li>
-        </ul>
-      </div>
-    );
-  }
-
+const NavDrawer = ({ show }) => {
+  return (
+    <div id="navdrawer" className={show ? 'navopen' : 'navclosed'}>
+      <ul>
+        <li className="searchbox">
+          <form>
+            <input type="search" value="Search" />
+          </form>
+        </li>
+        <li><a href="/cards">Cards</a></li>
+        <li><a href="/categories">Categories</a></li>
+        <li><a href="/tags">Tags</a></li>
+        <li><a href="/about">About</a></li>
+      </ul>
+    </div>
+  );
 };
 
 NavDrawer.propTypes = {

@@ -2,8 +2,8 @@
 
 title: Transient Synovitis vs Septic Arthritis of the Hip
 collection:
-  - orthopedics
-  - pediatrics
+  - Orthopedics
+  - Pediatrics
 tags:
 
 ---

@@ -2,8 +2,8 @@
 
 title: Blunt Intra-Abdominal Injury
 collection:
-  - trauma
-  - ebm
+  - Trauma
+  - EBM
 tags:
 
 ---

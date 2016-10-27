@@ -2,8 +2,8 @@
 
 title: Cholecystitis Diagnostic Test
 collection:
-  - gastroenterology
-  - ebm
+  - Gastroenterology
+  - EBM
 tags:
 
 ---

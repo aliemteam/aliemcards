@@ -2,7 +2,7 @@
 
 title: Posterior MI - How Accurate is the Flipped ECG?
 collection:
-  - cardiovascular
+  - Cardiovascular
   - ECG
 tags:
 

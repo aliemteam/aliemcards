@@ -2,7 +2,7 @@
 
 title: Brugada Syndrome
 collection:
-  - cardiovascular
+  - Cardiovascular
 tags:
 
 ---

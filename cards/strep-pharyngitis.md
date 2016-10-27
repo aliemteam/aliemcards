@@ -3,8 +3,8 @@
 title: Streptococcal Pharyngitis
 collection:
   - ENT
-  - infectious disease
-  - ebm
+  - Infectious Disease
+  - EBM
 tags: penicillin, amoxicillin,
 
 ---

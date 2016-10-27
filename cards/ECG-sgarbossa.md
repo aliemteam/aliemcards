@@ -2,7 +2,7 @@
 
 title: Sgarbossa Criteria for LBBB and AMI
 collection:
-  - cardiovascular
+  - Cardiovascular
   - ECG
 tags:
 

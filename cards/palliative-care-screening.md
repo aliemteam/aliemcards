@@ -2,7 +2,7 @@
 
 title: Palliative Care Screening Tool
 collection:
-  - palliative care
+  - Palliative Care
 tags:
 
 ---

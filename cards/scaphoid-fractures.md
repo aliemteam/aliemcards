@@ -2,8 +2,8 @@
 
 title: Scaphoid Fracture
 collection:
-  - orthopedics
-  - ebm
+  - Orthopedics
+  - EBM
 tags:
 
 ---

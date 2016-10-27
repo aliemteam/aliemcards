@@ -2,9 +2,11 @@
 
 title: ACLS 2010 Algorithm for Cardiac Arrest
 collection:
-  - cardiovascular
-  - critical care
+  - Cardiovascular
+  - Critical Care
 tags: epinephrine
+
+---
 
 # ACLS 2010 Algorithm for Cardiac Arrest
 

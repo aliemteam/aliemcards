@@ -2,7 +2,7 @@
 
 title: Metatarsal & Metacarpal Fractures
 collection:
-  - orthopedics
+  - Orthopedics
 tags:
 
 ---

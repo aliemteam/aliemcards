@@ -2,8 +2,8 @@
 
 title: Cystitis and Pyelonephritis in Women
 collection:
-  - infectious disease
-  - genitourinary
+  - Infectious Disease
+  - Genitourinary
 tags: Nitrofurantoin, sulfamethoxazole, fosfomycin, pivmecillinam, ofloxacin, ciprofloxacin, levofloxacin, amoxicillin-clavulanate, cefdinir, cefaclor, cefpodoxime-proxetil, Trimethoprim-sulfamethoxazole
 
 ---

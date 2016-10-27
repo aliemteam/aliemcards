@@ -2,7 +2,7 @@
 
 title: Predictors of a Difficult Airway
 collection:
-  - critical care
+  - Critical Care
 tags:
 
 ---

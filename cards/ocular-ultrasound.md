@@ -2,9 +2,9 @@
 
 title: Ocular Assessment
 collection:
-  - ultrasound
-  - radiology
-  - ophthalmology
+  - Ultrasound
+  - Radiology
+  - Ophthalmology
 tags:
 
 ---

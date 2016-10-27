@@ -2,7 +2,7 @@
 
 title: Neutropenic Fever and Cancer
 collection:
-  - hematology and oncology
+  - Hematology and Oncology
 tags: ciprofloxacin, vancomycin, cefipime, pipercillin-tazobactam, amoxicillin-clavulanate, aztreonam
 
 ---

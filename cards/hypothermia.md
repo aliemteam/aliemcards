@@ -2,7 +2,7 @@
 
 title: Hypothermia
 collection:
-  - environmental
+  - Environmental
 tags:
 
 ---

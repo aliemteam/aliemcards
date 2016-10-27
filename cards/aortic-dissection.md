@@ -2,8 +2,8 @@
 
 title: Aortic Dissection
 collection:
-  - cardiovascular
-  - critical care
+  - Cardiovascular
+  - Critical Care
 tags:
 
 ---

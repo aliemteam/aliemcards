@@ -2,9 +2,9 @@
 
 title: Testicular Ultrasound Assessment
 collection:
-  - urology
-  - radiology
-  - ultrasound
+  - Genitourinary
+  - Radiology
+  - Ultrasound
 tags:
 
 ---

@@ -2,7 +2,7 @@
 
 title: When to Avoid Tramadol
 collection:
-  - toxicology
+  - Toxicology
 tags: tramadol,
 
 ---

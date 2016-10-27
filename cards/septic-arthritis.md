@@ -2,9 +2,9 @@
 
 title: Septic Arthritis
 collection:
-  - orthopedics
-  - infectious disease
-  - ebm
+  - Orthopedics
+  - Infectious Disease
+  - EBM
 tags:
 
 ---

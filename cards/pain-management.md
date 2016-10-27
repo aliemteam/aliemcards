@@ -2,7 +2,7 @@
 
 title: Initial Pain Management Options
 collection:
-  - pharmacology
+  - Pharmacology
 tags: acetaminophen, Ibuprofen, Naproxen, Ketorolac, Indomethacin, lidocaine, lidoderm, Bupivacaine, Triamcinolone, Gabapentin, Pregabalin, Ketamine, Oxycodone, Hydrocodone, Hydromorphone, Morphine, Fentanyl, naloxone
 
 ---

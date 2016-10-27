@@ -2,7 +2,7 @@
 
 title: tPA Code Dose
 collection:
-  - critical care
+  - Critical Care
 tags: TPA
 
 ---

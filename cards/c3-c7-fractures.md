@@ -2,7 +2,7 @@
 
 title: C3-C7 Spine Fractures
 collection:
-  - orthopedics
+  - Orthopedics
 tags:
 
 ---

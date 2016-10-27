@@ -2,7 +2,7 @@
 
 title: Serotonin Syndrome
 collection:
-  - toxicology
+  - Toxicology
 tags: Cyclobenzaprine, Fentanyl, Meperidine, Tramadol, Buspirone, Lithium, Metoclopramide, Ondansetron, Carbamazepine, valproic acid, cocaine, Dextromethorphan, Linezolid, cyproheptadine
 
 ---

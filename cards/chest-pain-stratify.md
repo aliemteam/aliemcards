@@ -2,8 +2,8 @@
 
 title: Chest Pain Risk Stratification for ACS
 collection:
-  - cardiovascular
-  - ebm
+  - Cardiovascular
+  - EBM
 tags:
 
 ---

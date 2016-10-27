@@ -2,7 +2,7 @@
 
 title: ECG Reciprocal Changes in aVL
 collection:
-  - cardiovascular
+  - Cardiovascular
   - ECG
 tags:
 

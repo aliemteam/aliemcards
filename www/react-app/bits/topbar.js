@@ -1,5 +1,7 @@
 import React from 'react';
 
+import NavMenu from './navmenu';
+
 class TopBar extends React.Component {
 
   constructor(props) {
@@ -13,19 +15,22 @@ class TopBar extends React.Component {
   }
 
   render() {
-    return(
-      <div id="header">
-        <a onClick={this.toggleNavTap} id="navtoggle" ><i className="material-icons">menu</i></a>
-        <h1><a href="index.html">{this.props.title}</a></h1>
+    return (
+      <div>
+        <div id="header">
+          <a onClick={this.toggleNavTap} id="navtoggle" ><i className="material-icons">menu</i></a>
+          <h1><a href="/">{this.props.title}</a></h1>
+        </div>
+        <NavMenu showNav={this.props.showNav} />
       </div>
     );
   }
-
-};
+}
 
 TopBar.propTypes = {
   title: React.PropTypes.string,
   events: React.PropTypes.func,
+  showNav: React.PropTypes.bool,
 };
 
 TopBar.defaultProps = {

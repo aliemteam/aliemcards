@@ -2,7 +2,7 @@
 
 title: Burn Wounds
 collection:
-  - trauma
+  - Trauma
 tags:
 
 ---

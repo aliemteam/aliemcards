@@ -2,7 +2,7 @@
 
 title: ECG Right and Posterior Leads
 collection:
-  - cardiovascular
+  - Cardiovascular
   - ECG
 tags:
 

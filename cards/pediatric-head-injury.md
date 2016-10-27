@@ -2,8 +2,8 @@
 
 title: Pediatric Blunt Head Trauma (PECARN Study)
 collection:
-  - pediatrics
-  - trauma
+  - Pediatrics
+  - Trauma
 tags:
 
 ---

@@ -2,7 +2,7 @@
 
 title: Acute Limb Ischemia
 collection:
-  - cardiovascular
+  - Cardiovascular
 tags: aspirin, heparin
 
 ---

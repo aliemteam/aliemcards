@@ -2,8 +2,8 @@
 
 title: Chest Pain History
 collection:
-  - cardiovascular
-  - ebm
+  - Cardiovascular
+  - EBM
 tags:
 
 ---

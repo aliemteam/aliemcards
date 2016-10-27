@@ -2,7 +2,7 @@
 
 title: Lidocaine, nebulized dose
 collection:
-  - pharmacology
+  - Pharmacology
 tags: lidocaine
 
 ---

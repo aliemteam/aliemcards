@@ -2,7 +2,7 @@
 
 title: ECG Geography for AMI
 collection:
-  - cardiovascular
+  - Cardiovascular
   - ECG
 tags:
 

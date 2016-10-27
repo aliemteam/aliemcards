@@ -2,7 +2,7 @@
 
 title: Paracentesis for Ascites
 collection:
-  - gastroenterology
+  - Gastroenterology
 tags:
 
 ---

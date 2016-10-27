@@ -2,9 +2,9 @@
 
 title: Focused Abdominal Aorta Ultrasound
 collection:
-  - ultrasound
-  - radiology
-  - cardiovascular
+  - Ultrasound
+  - Radiology
+  - Cardiovascular
 tags:
 
 ---

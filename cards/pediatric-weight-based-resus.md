@@ -2,8 +2,8 @@
 
 title: Pediatric Weight-Based Resuscitation Reference
 collection:
-  - critical care
-  - pediatric
+  - Critical Care
+  - Pediatrics
 tags:
 
 ---

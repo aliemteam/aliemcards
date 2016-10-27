@@ -2,7 +2,7 @@
 
 title: Suicide Risk Stratification
 collection:
-  - psychiatry
+  - Psychiatry
 tags:
 
 ---

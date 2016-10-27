@@ -2,8 +2,8 @@
 
 title: Knee Examination
 collection:
-  - orthopedics
-  - ebm
+  - Orthopedics
+  - EBM
 tags:
 
 ---

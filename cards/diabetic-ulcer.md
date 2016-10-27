@@ -2,8 +2,8 @@
 
 title: Diabetic Leg Ulcer and Osteomyelitis
 collection:
-  - orthopedics
-  - ebm
+  - Orthopedics
+  - EBM
 tags:
 
 ---

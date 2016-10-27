@@ -2,7 +2,7 @@
 
 title: Geriatric Procedural Sedation
 collection:
-  - pharmacology
+  - Pharmacology
 tags: diazepam, midazolam, propofol, ketamine, etomidate, ketofol
 
 ---

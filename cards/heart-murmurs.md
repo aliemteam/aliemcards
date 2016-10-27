@@ -2,7 +2,7 @@
 
 title: Murmurs Needing Echocardiography Evaluation
 collection:
-  - cardiology
+  - Cardiovascular
 tags:
 
 ---

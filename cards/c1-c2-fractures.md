@@ -2,7 +2,7 @@
 
 title: C1 and C2 Spine Fractures
 collection:
-  - orthopedics
+  - Orthopedics
 tags:
 
 ---

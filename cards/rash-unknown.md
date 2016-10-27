@@ -2,7 +2,7 @@
 
 title: An Approach to the Unknown Rash
 collection:
-  - dermatology
+  - Dermatology
 tags:
 
 ---

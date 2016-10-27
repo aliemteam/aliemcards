@@ -2,9 +2,9 @@
 
 title: Focused 1st Trimester Pregnancy Transvaginal Ultrasound
 collection:
-  - ultrasound
-  - radiology
-  - obgyn
+  - Ultrasound
+  - Radiology
+  - OBGYN
 tags:
 
 ---

@@ -2,7 +2,7 @@
 
 title: NIH Stroke Scale
 collection:
-  - neurology
+  - Neurology
 tags:
 
 ---

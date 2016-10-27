@@ -2,8 +2,8 @@
 
 title: PESI Score for Pulmonary Embolism
 collection:
-  - pulmonary
-  - critical care
+  - Pulmonology
+  - Critical Care
 tags: enoxaparin, warfarin
 
 ---

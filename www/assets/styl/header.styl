@@ -1,18 +1,16 @@
 /* Header
 -----------------------------------------*/
 
-header-height = 6rem
+header-height = 8rem
 
 #header
-  z-index: 100
-  position: fixed
-  top: 0
-  height: header-height
+  position: relative
   width: 100%
+  height: header-height
   padding: 1rem
-  background-color: aliem-green
-  color: white
-  border-bottom: 1px aliem-green-shade solid
+  background-color: light-shade
+  color: dark-shade
+  border-top: 2rem aliem-green solid
 
   h1
     display: inline-block
@@ -23,10 +21,10 @@ header-height = 6rem
 
   a
     text-decoration: none
-    color: white
+    color: dark-shade
 
 has-header()
-  padding-top: header-height + 2
+  padding-top: header-height
 
 .has-header
   has-header()

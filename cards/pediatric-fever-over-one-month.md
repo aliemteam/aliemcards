@@ -2,7 +2,7 @@
 
 title: Pediatric Fever Without a Source - Infant
 collection:
-  - pediatrics
+  - Pediatrics
 tags: ceftriaxone
 
 ---

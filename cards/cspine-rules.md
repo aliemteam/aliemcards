@@ -2,8 +2,8 @@
 
 title: Cervical Spine Rules
 collection:
-  - trauma
-  - orthopedics
+  - Trauma
+  - Orthopedics
 tags:
 
 ---

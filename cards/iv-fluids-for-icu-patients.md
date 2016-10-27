@@ -2,7 +2,7 @@
 
 title: IV Fluid Formulations for ICU Patients
 collection:
-  - critical care
+  - Critical Care
 tags:
 
 ---

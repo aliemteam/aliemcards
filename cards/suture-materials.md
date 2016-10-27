@@ -2,7 +2,7 @@
 
 title: Suture Materials
 collection:
-  - surgery
+  - Surgery
 tags:
 
 ---

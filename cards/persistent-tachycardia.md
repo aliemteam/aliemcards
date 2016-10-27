@@ -2,7 +2,7 @@
 
 title: Persistent Tachycardia
 collection:
-  - cardiovascular
+  - Cardiovascular
 tags:
 
 ---

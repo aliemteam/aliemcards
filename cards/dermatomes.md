@@ -2,7 +2,7 @@
 
 title: Dermatomes and Myotomal Maps
 collection:
-  - orthopedics
+  - Orthopedics
 tags:
 
 ---

@@ -2,8 +2,8 @@
 
 title: Emergency Drug Card (Pediatric)
 collection:
-  - pharmacology
-  - critical care
+  - Pharmacology
+  - Critical Care
 tags: adenosine, amiodarone, atronie, calcium chloride, dextrose, epinephrine, Magnesium, procainamide, sodium bicarbonate, etomidate, lidocaine, rocuronium, succinylcholine, vecuronium, Haloperidol, dobutamine, dopamine, norepinephrine, phenylephrine, vasopressin, Diazepam, Fosphenytoin, Levetiracetam, Lorazepam, Midazolam, Phenobarbital, Nitroglycerin, Nitroprusside, Dexamethasone, Diphenhydramine, Famotidine, Methylprednisolone, Ranitidine, fentanyl, ketamine, propofol, morphine, N-acetylcysteine, Flumazenil, Fomepizole, Naloxone, Alprostadil, prostaglandin, factor VIII, heparin, Ondansetron
 
 ---

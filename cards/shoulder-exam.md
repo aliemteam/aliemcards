@@ -2,7 +2,7 @@
 
 title: Shoulder Exam Provocative Testing
 collection:
-  - orthopedics
+  - Orthopedics
 tags:
 
 ---

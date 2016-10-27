@@ -2,8 +2,8 @@
 
 title: Phenytoin Oral Loading in the ED
 collection:
-  - neurology
-  - pharmacology
+  - Neurology
+  - Pharmacology
 tags: phenytoin
 
 ---

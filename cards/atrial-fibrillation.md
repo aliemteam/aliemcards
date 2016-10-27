@@ -2,7 +2,7 @@
 
 title: Atrial Fibrillation and Anticoagulation
 collection:
-  - cardiovascular
+  - Cardiovascular
 tags: aspirin, warfarin
 
 ---

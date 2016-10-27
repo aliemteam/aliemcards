@@ -2,10 +2,10 @@
 
 title: Head CT Before LP for Meningitis
 collection:
-  - neurology
-  - procedures
-  - ebm
-  - radiology
+  - Neurology
+  - Procedures
+  - EBM
+  - Radiology
 tags:
 
 ---

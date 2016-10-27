@@ -2,8 +2,8 @@
 
 title: CPR Hands-on vs Hands-off Defibrillation
 collection:
-  - cardiovascular
-  - critical care
+  - Cardiovascular
+  - Critical Care
 tags:
 
 ---

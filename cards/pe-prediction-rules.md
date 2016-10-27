@@ -2,8 +2,8 @@
 
 title: Pulmonary Embolism Clinical Prediction Rules
 collection:
-  - pulmonary
-  - ebm
+  - Pulmonology
+  - EBM
 tags:
 
 ---

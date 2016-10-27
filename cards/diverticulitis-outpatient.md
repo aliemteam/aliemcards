@@ -2,8 +2,8 @@
 
 title: Diverticulitis Outpatient Treatment
 collection:
-  - gastroenterology
-  - ebm
+  - Gastroenterology
+  - EBM
 tags:
 
 ---

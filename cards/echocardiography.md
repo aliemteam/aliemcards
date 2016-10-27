@@ -2,8 +2,8 @@
 
 title: Focused Echocardiography
 collection:
-  - cardiovascular
-  - ultrasound
+  - Cardiovascular
+  - Ultrasound
 tags:
 
 ---

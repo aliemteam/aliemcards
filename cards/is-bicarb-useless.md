@@ -2,9 +2,9 @@
 
 title: Bicarbonate - Completely Useless?
 collection:
-  - toxicology
-  - pharmacology
-  - critical care
+  - Toxicology
+  - Pharmacology
+  - Critical Care
 tags: sodium bicarbonate
 
 ---

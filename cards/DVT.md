@@ -2,8 +2,8 @@
 
 title: DVT of the Leg - ACCP Guidelines
 collection:
-  - cardiovascular
-  - ebm
+  - Cardiovascular
+  - EBM
 tags:
 
 ---

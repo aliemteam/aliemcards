@@ -2,7 +2,7 @@
 
 title: Hyperthyroidism
 collection:
-  - endocrine
+  - Endocrinology
 tags:
 
 ---

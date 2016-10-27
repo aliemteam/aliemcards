@@ -2,8 +2,8 @@
 
 title: NSAIDs and Upper GI Bleed
 collection:
-  - gastroenterology
-  - pharmacology
+  - Gastroenterology
+  - Pharmacology
 tags: Ibuprofen, Diclofenac, Meloxicam, Indomethacin, Ketoprofen, Naproxen, Piroxicam, Ketorolac, Celecoxib, Aceclofenac, Rofecoxib
 
 ---

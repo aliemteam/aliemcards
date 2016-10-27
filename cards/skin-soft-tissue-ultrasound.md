@@ -2,8 +2,8 @@
 
 title: Skin and Soft Tissue Ultrasound
 collection:
-  - ultrasound
-  - radiology
+  - Ultrasound
+  - Radiology
 tags:
 
 ---

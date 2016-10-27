@@ -2,8 +2,8 @@
 
 title: Ottawa Knee, Ankle, and Foot Rules
 collection:
-  - orthopedics
-  - ebm
+  - Orthopedics
+  - EBM
 tags:
 
 ---

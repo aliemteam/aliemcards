@@ -2,8 +2,8 @@
 
 title: Genital Ulcers
 collection:
-  - infectious disease
-  - genitourinary
+  - Infectious Disease
+  - Genitourinary
 tags:
 
 ---

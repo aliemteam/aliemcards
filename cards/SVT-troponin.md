@@ -2,7 +2,7 @@
 
 title: SVT and Troponin
 collection:
-  - cardiovascular
+  - Cardiovascular
 tags:
 
 ---

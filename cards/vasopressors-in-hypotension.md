@@ -2,8 +2,8 @@
 
 title: Vasopressors in Hypotension
 collection:
-  - critical care
-  - cardiovascular
+  - Critical Care
+  - Cardiovascular
 tags: dobutamine, isoproterenol, epinephrine, norepinephrine, dopamine
 
 ---

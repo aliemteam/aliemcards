@@ -2,7 +2,7 @@
 
 title: Dental Infections
 collection:
-  - ent
+  - ENT
 tags:
 
 ---

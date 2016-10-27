@@ -2,7 +2,7 @@
 
 title: Clostridium Difficile Infection
 collection:
-  - infectious disease
+  - Infectious Disease
 tags:
 
 ---

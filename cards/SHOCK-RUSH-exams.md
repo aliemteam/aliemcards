@@ -3,7 +3,7 @@
 title: Shock and RUSH Exam
 collection:
   - Ultrasound
-  - radiology
+  - Radiology
 tags:
 
 ---

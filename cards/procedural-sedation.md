@@ -2,8 +2,8 @@
 
 title: Procedural Sedation & Analgesia
 collection:
-  - pharmacology
-  - procedures
+  - Pharmacology
+  - Procedures
 tags: propofol, etomidate, ketamine, ketofol, Dexamedetomidine, lorazepam, diazepam, midazolam, Fentanyl, Hydromorphone, Morphine
 
 ---

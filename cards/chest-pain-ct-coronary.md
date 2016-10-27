@@ -2,8 +2,8 @@
 
 title: CT Coronary in the ED
 collection:
-  - cardiovascular
-  - ebm
+  - Cardiovascular
+  - EBM
 tags:
 
 ---

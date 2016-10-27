@@ -2,8 +2,8 @@
 
 title: Pertussis Treatment Algorithm
 collection:
-  - pediatrics
-  - infectious disease
+  - Pediatrics
+  - Infectious Disease
 tags: Azithromycin, Clarithromycin, Erythromycin
 
 ---

@@ -1,19 +1,31 @@
-var _ = require('lodash');
-var gulp = require('gulp');
-var gutil = require('gulp-util');
-var debug = require('gulp-debug');
-var tap = require('gulp-tap');
-var through = require('through2');
-var fm = require('gulp-front-matter');
-var markdown = require('gulp-markdown');
-var prettify = require('gulp-jsbeautifier');
+const _ = require('lodash');
+const gulp = require('gulp');
+const gutil = require('gulp-util');
+const debug = require('gulp-debug');
+const tap = require('gulp-tap');
+const through = require('through2');
+const fm = require('gulp-front-matter');
+const markdown = require('gulp-markdown');
+const prettify = require('gulp-jsbeautifier');
+const marked = require('marked');
 
-//////////////////////////////////////
+marked.setOptions({
+  renderer: new marked.Renderer(),
+  gfm: true,
+  tables: true,
+  breaks: false,
+  pedantic: false,
+  sanitize: false,
+  smartLists: true,
+  smartypants: false,
+});
+
+// ////////////////////////////////////
 // HELPER FUNCTIONS
-//////////////////////////////////////
+// ////////////////////////////////////
 
 // function to add to category or tag arrays
-var addCardToSection = function(section, name, card_slug, card_title) {
+const addCardToSection = function(section, name, card_slug, card_title) {
   section[name] = (section[name]) ? section[name] : [];
   section[name].push({
     slug: card_slug,
@@ -29,7 +41,7 @@ var buildSections = function(card, slug, cat_array, tag_array) {
   _.forEach(card.tags, function(tag){
     addCardToSection(tag_array, tag, slug, card.title);
   });
-}
+};
 
 // function to build vinyl file object from JSON object
 var buildFile = function(name, json) {
@@ -40,11 +52,20 @@ var buildFile = function(name, json) {
     contents: new Buffer(JSON.stringify(json))
   });
   return file;
-}
+};
 
-//////////////////////////////////////
+// function to compare
+var sortByKey = function(toSort) {
+  const sorted = {};
+  Object.keys(toSort).sort().forEach((key) => {
+    sorted[key] = toSort[key];
+  });
+  return sorted;
+};
+
+// ////////////////////////////////////
 // COMPLETE_JSON BUILD
-//////////////////////////////////////
+// ////////////////////////////////////
 
 gulp.task('complete_json', function(){
   return gulp.src('./cards/*.md')
@@ -97,9 +118,9 @@ gulp.task('complete_json', function(){
   .pipe(gulp.dest('./build_json'));
 });
 
-//////////////////////////////////////
+// ////////////////////////////////////
 // HTML STATIC SITE build_html
-//////////////////////////////////////
+// ////////////////////////////////////
 
 gulp.task('build_html', function(){
   return gulp.src('./cards/*.md')
@@ -185,42 +206,106 @@ gulp.task('build_html', function(){
 });
 
 
-//////////////////////////////////////
+// ////////////////////////////////////
 // API STATIC SITE build_api
-//////////////////////////////////////
+// ////////////////////////////////////
 
-gulp.task('build_api', function(){
-  return gulp.src('./cards/*.md')
-  .pipe(debug({title: 'build_api:'}))
+// Taxonomy - categories or tags
+// each taxonomy contains headings populated with card objects corresponding to that section
 
-  // extract frontmatter
+function Taxonomy() {
+  this.headings = [];
+
+  /**
+   * Slugify string
+   * @param {string} text
+   * @return {string}
+   */
+  this.slugify = (text) =>
+    text
+    .toString()
+    .trim()
+    .toLowerCase()
+    .replace(/\s+/g, '-')
+    .replace(/[^\w\-]+/g, '')
+    .replace(/\-\-+/g, '-')
+    .replace(/^-+/, '')
+    .replace(/-+$/, '');
+
+  this.sortByKey = function(toSort) {
+    const sorted = {};
+    Object.keys(toSort).sort().forEach((key) => {
+      sorted[key] = toSort[key];
+    });
+    return sorted;
+  };
+
+  /**
+   * Add card to heading, make new heading object if needed
+   * @param {object} card
+   * @param {string} heading
+   * @return null
+   */
+  this.addCardToHeading = (card, heading) => {
+    const slug = this.slugify(heading);
+    if (!this.headings[slug]) {
+      this.headings[slug] = { title: heading, slug: slug, cards: [] };
+    }
+    this.headings[slug].cards.push({ slug: card.slug, title: card.title });
+    this.headings = this.sortByKey(this.headings);
+  };
+
+  /**
+   * Add card to multiple headings
+   * @param {object} card
+   * @param {array} headings
+   * @return null
+   */
+  this.addCardToHeadings = (card, headings) => {
+    if (headings) headings.forEach((heading) => this.addCardToHeading(card, heading));
+  };
+
+  this.getHeadings = () => this.headings;
+  this.getHeadingsJSON = () => JSON.stringify(this.headings);
+}
+
+// Gulp Task
+gulp.task('build_api', () =>
+  gulp.src('./cards/*.md')
+  .pipe(debug({ title: 'build_api:' }))
+
+  // extract frontmatter into meta property
+  .pipe(fm({ property: 'meta', remove: true }))
+
   // turn tags into array
   // save content as JSON file with api format
-  .pipe(fm({ property: 'meta', remove: true }))
   .pipe(through.obj(function (file, enc, callback) {
+    const response = {};
+    var splitTags = null;
+
     if (file.meta.tags) {
-      file.meta.tags = file.meta.tags.split(', ');
+      splitTags = file.meta.tags.split(', ');
     }
 
-    var response = {};
-    response.status = "success";
+    response.status = 'success';
     response.data = {
       title: file.meta.title,
-      slug: file.relative.split('.')[0], // filename minus .md extension
-      tags: file.meta.tags,
+      slug: file.relative.split('.')[0].toLowerCase(), // filename minus .md extension
+      tags: splitTags,
       collection: file.meta.collection,
-      content: file.contents.toString()
+      content: marked(file.contents.toString()),
     };
 
-    var file = new gutil.File({
+    const refile = new gutil.File({
       cwd: __dirname,
-      base: __dirname + '/build_api',
-      path: __dirname + '/build_api/' + response.data.slug + '.json',
+      base: `${__dirname}/build_api`,
+      path: `${__dirname}/build_api/${response.data.slug}.json`,
       contents: new Buffer(JSON.stringify(response)),
     });
-    this.push(file);
-    callback();
 
+    gutil.log(`File name: ${file.path}`);
+    this.push(refile);
+    callback();
   }))
 
   .pipe(gulp.dest('./build_api'))
@@ -232,32 +317,31 @@ gulp.task('build_api', function(){
   // build json document with categories, tags, and cards
   // save categories, pass on json doc
   .pipe(through.obj(function (files, enc, callback) {
-    var cards = {};
-    var categories = {};
-    var tags = {};
+    const cards = [];
+    const categories = new Taxonomy;
+    const tags = new Taxonomy;
 
-    _.forEach(files, function(file){
-      var file_parsed = JSON.parse(file.contents.toString());
-      var card = file_parsed.data;
-      var card_summary = { slug: card.slug, title: card.title };
-
-      cards[card.slug] = card_summary;
-      buildSections(card, card.slug, categories, tags);
+    _.forEach(files, (file) => {
+      const fileParsed = JSON.parse(file.contents.toString());
+      const card = fileParsed.data;
+      cards.push({ slug: card.slug, title: card.title });
+      categories.addCardToHeadings(card, card.collection);
+      tags.addCardToHeadings(card, card.tags);
     });
 
-    var json = {};
-    json['categories'] = categories;
-    json['tags'] = tags;
-    json['cards'] = cards;
+    const json = {};
+    json.categories = categories.getHeadingsJSON();
+    json.tags = tags.getHeadingsJSON();
+    json.cards = JSON.stringify(cards);
 
-    var file = new gutil.File({
+    const refile = new gutil.File({
       cwd: __dirname,
       base: __dirname,
-      path: __dirname + '/categories.json',
-      contents: new Buffer(JSON.stringify(json.categories)),
+      path: `${__dirname}/categories.json`,
+      contents: new Buffer(json.categories),
     });
-    file.meta = json;
-    this.push(file);
+    refile.meta = json;
+    this.push(refile);
     callback();
   }))
   .pipe(prettify())
@@ -266,11 +350,11 @@ gulp.task('build_api', function(){
   // save tags
   // pass on json doc
   .pipe(through.obj(function (file, enc, callback) {
-    var newfile = new gutil.File({
+    const newfile = new gutil.File({
       cwd: __dirname,
       base: __dirname,
-      path: __dirname + '/tags.json',
-      contents: new Buffer(JSON.stringify(file.meta.tags))
+      path: `${__dirname}/tags.json`,
+      contents: new Buffer(file.meta.tags),
     });
     newfile.meta = file.meta;
     this.push(newfile);
@@ -281,15 +365,28 @@ gulp.task('build_api', function(){
 
   // save cards
   .pipe(through.obj(function (file, enc, callback) {
-    var newfile = new gutil.File({
+    const cardsArray = JSON.parse(file.meta.cards);
+    cardsArray.sort((a, b) => {
+      const nameA = a.title ? a.title.toUpperCase() : null; // ignore upper and lowercase
+      const nameB = b.title ? b.title.toUpperCase() : null; // ignore upper and lowercase
+      if (nameA < nameB) {
+        return -1;
+      }
+      if (nameA > nameB) {
+        return 1;
+      }
+      return 0;
+    });
+
+    const newfile = new gutil.File({
       cwd: __dirname,
       base: __dirname,
-      path: __dirname + '/cards.json',
-      contents: new Buffer(JSON.stringify(file.meta.cards))
+      path: `${__dirname}/cards.json`,
+      contents: new Buffer(JSON.stringify(cardsArray)),
     });
     this.push(newfile);
     callback();
   }))
   .pipe(prettify())
   .pipe(gulp.dest('./build_api/sections/'))
-});
+);

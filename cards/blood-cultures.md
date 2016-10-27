@@ -2,7 +2,7 @@
 
 title: Blood Culture Indications
 collection:
-  - infectious disease
+  - Infectious Disease
 tags:
 
 ---

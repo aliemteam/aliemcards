@@ -2,7 +2,7 @@
 
 title: ABG versus VBG
 collection:
-  - pulmonary
+  - Pulmonology
 tags:
 
 ---

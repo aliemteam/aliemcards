@@ -2,8 +2,8 @@
 
 title: Continuous Infusions
 collection:
-  - pharmacology
-  - critical care
+  - Pharmacology
+  - Critical Care
 tags: amiodarone, Diltiazem, Dobutamine, Dopamine, Epinephrine, Esmolol, fentanyl, furosemide, Isoproterenol, ketamine, lidocaine, Lorazepam, midazolam, naloxone, Nicardipine, Nitroglycerin, Nitroprusside, Norepinephrine, Octreotide, Phenylephrine, propofol, Vasopressin, Vecuronium
 
 ---

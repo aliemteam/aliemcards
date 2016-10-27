@@ -2,7 +2,7 @@
 
 title: Brugada Criteria for SVT with Aberrancy vs VT
 collection:
-  - cardiovascular
+  - Cardiovascular
 tags:
 
 ---

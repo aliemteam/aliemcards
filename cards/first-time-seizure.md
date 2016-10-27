@@ -2,7 +2,7 @@
 
 title: Seizure, New Onset
 collection:
-  - neurology
+  - Neurology
 tags:
 
 ---

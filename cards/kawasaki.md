@@ -2,7 +2,7 @@
 
 title: Kawasaki Disease
 collection:
-  - pediatrics
+  - Pediatrics
 tags:
 
 ---

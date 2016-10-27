@@ -2,9 +2,9 @@
 
 title: Abdominal Pain - Diagnostic Studies
 collection:
-  - gastroenterology
-  - surgery
-  - ebm
+  - Gastroenterology
+  - Surgery
+  - EBM
 tags:
 
 ---

@@ -1,9 +1,9 @@
 ---
 title: Adenosine 6-12-12 Approach
 collection:
-  - cardiovascular
-  - pharmacology
-  - critical care
+  - Cardiovascular
+  - Pharmacology
+  - Critical Care
 tags: adenosine
 ---
 

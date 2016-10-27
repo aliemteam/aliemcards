@@ -2,8 +2,8 @@
 
 title: CPR - Mechanical vs Manual
 collection:
-  - cardiovascular
-  - critical care
+  - Cardiovascular
+  - Critical Care
 tags:
 
 ---

@@ -2,7 +2,7 @@
 
 title: CNS Infection
 collection:
-  - infectious disease
+  - Infectious Disease
 tags:
 
 ---
@@ -38,10 +38,11 @@ tags:
 
 <!-- -->
 
-1.  **Anti-inflammatory** to minimize bacteriolysis sequelae
-    1.  Cochrane review on Dexamethasone (1,800 adult patients): Benefits of reduced hearing loss, neuro sequelae, and mortality
-    2.  No benefit of dexamethasone in 
-    3.  Timing: Give dexamethasone **before or concurrent** with antibiotics in adults.
+**Anti-inflammatory** to minimize bacteriolysis sequelae
+
+- Cochrane review on Dexamethasone (1,800 adult patients): Benefits of reduced hearing loss, neuro sequelae, and mortality
+- No benefit of dexamethasone in 
+- Timing: Give dexamethasone **before or concurrent** with antibiotics in adults.
 
 ## Indications for Skipping CT Imaging Before LP
 

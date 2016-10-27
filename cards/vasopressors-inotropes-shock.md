@@ -2,8 +2,8 @@
 
 title: Vasopressors and Inotropes in Shock
 collection:
-  - cardiovascular
-  - critical care
+  - Cardiovascular
+  - Critical Care
 tags: epinephrine, Phenylephrine, norepinephrine, dopamine, dobutamine
 
 ---

@@ -2,8 +2,8 @@
 
 title: Appendicitis ACEP Clinical Policy
 collection:
-  - surgery
-  - ebm
+  - Surgery
+  - EBM
 tags:
 
 ---

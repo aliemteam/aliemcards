@@ -1,0 +1,57 @@
+/* Nav Drawer
+-----------------------------------------------------*/
+
+#navmenu
+  position: absolute
+  z-index: 10
+  top: header-height
+  width: 100%
+  background-color: light-shade
+  text-align: center
+
+  ul
+    list-style: none
+
+  li
+    margin: 0
+    padding: 0
+
+  a
+    color: dark-shade
+    text-decoration: none
+    display: block
+    //width: 100%
+    padding: 1rem 0
+
+  a:hover
+    background-color: white
+    color: aliem-green
+
+/* Media Queries
+-----------------------------------------------------*/
+@media (min-width: 750px)
+  #navtoggle
+    display: none
+
+  #navmenu
+    top: 3rem
+    right: 0
+    width: 50%
+    background-color: transparent
+    text-align: right
+    padding-right: 2rem
+
+    li
+      display: inline
+    a
+      display: inline-block
+      padding: 0.5rem 2rem
+
+    a:hover
+      background-color: transparent
+      border-bottom: 5px solid aliem-green
+
+  .navopen,
+  .navclosed
+    visibility: visible
+    opacity: 1

@@ -2,8 +2,8 @@
 
 title: ATLS - Palpable Pulses are Inaccurate
 collection:
-  - surgery
-  - trauma
+  - Surgery
+  - Trauma
 tags:
 
 ---

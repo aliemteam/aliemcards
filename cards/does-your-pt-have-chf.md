@@ -2,8 +2,8 @@
 
 title: Does Your Dyspneic Patient Have CHF?
 collection:
-  - cardiovascular
-  - ebm
+  - Cardiovascular
+  - EBM
 tags:
 
 ---

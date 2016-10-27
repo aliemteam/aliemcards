@@ -2,7 +2,7 @@
 
 title: Penetrating Abdominal Trauma - Observe vs Laparotomy
 collection:
-  - trauma
+  - Trauma
 tags:
 
 ---

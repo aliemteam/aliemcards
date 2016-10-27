@@ -2,8 +2,8 @@
 
 title: Thrombolytics for Submassive PE
 collection:
-  - critical care
-  - pulmonology
+  - Critical Care
+  - Pulmonology
 tags: tPA, tenecteplase, alteplase, heparin
 
 ---

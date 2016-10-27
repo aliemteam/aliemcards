@@ -2,7 +2,7 @@
 
 title: Dental Trauma
 collection:
-  - ent
+  - ENT
 tags:
 
 ---

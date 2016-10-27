@@ -2,9 +2,9 @@
 
 title: Acute Vestibular Syndrome vs Stroke
 collection:
-  - neurology
-  - ent
-  - ebm
+  - Neurology
+  - ENT
+  - EBM
 tags:
 
 ---

@@ -2,7 +2,7 @@
 
 title: Cardiac Tamponade
 collection:
-  - cardiovascular
+  - Cardiovascular
 tags:
 
 ---

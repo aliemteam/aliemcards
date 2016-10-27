@@ -2,8 +2,8 @@
 
 title: Legionnaire's Disease
 collection:
-  - infectious disease
-  - pulmonary
+  - Infectious Disease
+  - Pulmonology
 tags:
 
 ---

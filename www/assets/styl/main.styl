@@ -2,23 +2,55 @@
 @import "grid"
 @import "colors"
 @import "typography"
+@import "lists"
 @import "header"
 @import "nav"
+@import "navmenu"
+@import "breadcrumbs"
 @import "cards"
 
 .content
   position: relative
 
+.drug
+  color: #F06292
+  font-weight: bold
+
+.cards-list,
+.taxonomy-list
+  li
+    list-style: none
+    color: dark-shade
+    padding: 0.5rem 0
+    font-weight: bold
+    display: block
+
+    a
+      color: dark-shade
+      text-decoration: none
+
+
+    a:hover
+      color: aliem-green
+
+
 @media (min-width: 750px)
-  .content
-    padding-left: nav-width * 0.75
+  .taxonomy-list
+    ul
+
+
+    li
+      box-sizing: border-box
+      float: left
+      width: 33%
+      padding: 1rem
+
+    li:nth-child(3n+4)
+      clear: left
 
 
 /* Normalize
 -----------------------------------------*/
-
-body
-  has-header()
 
 div,
 section,
@@ -26,5 +58,4 @@ article,
 ul,
 table {
   box-sizing: border-box;
-  overflow: hidden;
 }

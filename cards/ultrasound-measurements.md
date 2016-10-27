@@ -2,8 +2,8 @@
 
 title: Ultrasound Measurement Cheat Sheet
 collection:
-  - radiology
-  - ultrasound
+  - Radiology
+  - Ultrasound
 tags:
 
 ---

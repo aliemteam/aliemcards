@@ -2,8 +2,8 @@
 
 title: Benzodiazepines Metabolism by the Liver
 collection:
-  - pharmacology
-  - toxicology
+  - Pharmacology
+  - Toxicology
 tags: lorazepam, oxazepam, temazepam, clonazepam, midazolam, diazepam
 
 ---

@@ -2,7 +2,7 @@
 
 title: Chest Pain - Accelerated Diagnostic Protocol
 collection:
-  - cardiovascular
+  - Cardiovascular
 tags:
 
 ---

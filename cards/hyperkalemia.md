@@ -2,9 +2,9 @@
 
 title: Hyperkalemia
 collection:
-  - endocrine
-  - metabolic
-  - critical care
+  - Endocrinology
+  - Metabolic
+  - Critical Care
 tags: insulin, albuterol, furosemide, sodium bicarbonate, Kayexalate, calcium gluconate
 
 ---

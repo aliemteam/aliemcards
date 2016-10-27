@@ -2,9 +2,9 @@
 
 title: Ultrasound DVT Assessment
 collection:
-  - radiology
+  - Radiology
   - Ultrasound
-  - cardiovascular
+  - Cardiovascular
 tags:
 
 ---

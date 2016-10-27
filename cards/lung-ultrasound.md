@@ -2,9 +2,9 @@
 
 title: Focused Lung Assessment
 collection:
-  - ultrasound
-  - radiology
-  - pulmonary
+  - Ultrasound
+  - Radiology
+  - Pulmonology
 tags:
 
 ---

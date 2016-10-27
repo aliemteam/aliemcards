@@ -1,672 +1,504 @@
-{
-    "CNS-infection": {
-        "slug": "CNS-infection",
-        "title": "CNS Infection"
-    },
-    "DVT-ultrasound": {
-        "slug": "DVT-ultrasound",
-        "title": "Ultrasound DVT Assessment"
-    },
-    "DVT": {
-        "slug": "DVT",
-        "title": "DVT of the Leg - ACCP Guidelines"
-    },
-    "ECG-MI-geography": {
-        "slug": "ECG-MI-geography",
-        "title": "ECG Geography for AMI"
-    },
-    "ECG-avl": {
-        "slug": "ECG-avl",
-        "title": "ECG Reciprocal Changes in aVL"
-    },
-    "ECG-electrolytes": {
-        "slug": "ECG-electrolytes",
-        "title": "ECG Electrolyte Imbalance"
-    },
-    "ECG-flipped-paper": {
-        "slug": "ECG-flipped-paper",
-        "title": "Posterior MI - How Accurate is the Flipped ECG?"
-    },
-    "ECG-lead-avr": {
-        "slug": "ECG-lead-avr",
-        "title": "Lead aVR"
-    },
-    "ECG-right-posterior-leads": {
-        "slug": "ECG-right-posterior-leads",
-        "title": "ECG Right and Posterior Leads"
-    },
-    "ECG-sgarbossa": {
-        "slug": "ECG-sgarbossa",
-        "title": "Sgarbossa Criteria for LBBB and AMI"
-    },
-    "EMTALA-rules": {
-        "slug": "EMTALA-rules",
-        "title": "EMTALA Transfer Rules"
-    },
-    "FAST-ultrasound": {
-        "slug": "FAST-ultrasound",
-        "title": "Focused Assessment with Sonography in Trauma (FAST)"
-    },
-    "NIH-stroke-scale": {
-        "slug": "NIH-stroke-scale",
-        "title": "NIH Stroke Scale"
-    },
-    "NSAID-GI-bleed": {
-        "slug": "NSAID-GI-bleed",
-        "title": "NSAIDs and Upper GI Bleed"
-    },
-    "PE-fibrinolysis": {
-        "slug": "PE-fibrinolysis",
-        "title": "Fibrinolysis for Acute Pulmonary Embolism"
-    },
-    "PESI": {
-        "slug": "PESI",
-        "title": "PESI Score for Pulmonary Embolism"
-    },
-    "SHOCK-RUSH-exams": {
-        "slug": "SHOCK-RUSH-exams",
-        "title": "Shock and RUSH Exam"
-    },
-    "SVT-troponin": {
-        "slug": "SVT-troponin",
-        "title": "SVT and Troponin"
-    },
-    "TIMI-score": {
-        "slug": "TIMI-score",
-        "title": "TIMI Risk Score for Unstable Angina and NSTEMI"
-    },
-    "TPA-code-dose": {
-        "slug": "TPA-code-dose",
-        "title": "tPA Code Dose"
-    },
-    "TPA-contraindications": {
-        "slug": "TPA-contraindications",
-        "title": "Contraindications for Thrombolytics"
-    },
-    "UTI": {
-        "slug": "UTI",
-        "title": "Urinary Tract Infection"
-    },
-    "abdominal-pain-diagnostics": {
-        "slug": "abdominal-pain-diagnostics",
-        "title": "Abdominal Pain - Diagnostic Studies"
-    },
-    "abg-interpretation": {
-        "slug": "abg-interpretation",
-        "title": "ABG Interpretation"
-    },
-    "abg-vs-vbg": {
-        "slug": "abg-vs-vbg",
-        "title": "ABG versus VBG"
-    },
-    "acetaminophen-toxicity": {
-        "slug": "acetaminophen-toxicity",
-        "title": "Acetaminophen toxicity"
-    },
-    "acls": {
-        "slug": "acls"
-    },
-    "acute-limb-ischemia": {
-        "slug": "acute-limb-ischemia",
-        "title": "Acute Limb Ischemia"
-    },
-    "adenosine": {
-        "slug": "adenosine",
-        "title": "Adenosine 6-12-12 Approach"
-    },
-    "against-medical-advice": {
-        "slug": "against-medical-advice",
-        "title": "Against Medical Advice (AMA)"
-    },
-    "anaphylaxis": {
-        "slug": "anaphylaxis",
-        "title": "Anaphylaxis"
-    },
-    "angioedema": {
-        "slug": "angioedema",
-        "title": "Angioedema"
-    },
-    "ankle-fxs-lauge-hansen": {
-        "slug": "ankle-fxs-lauge-hansen",
-        "title": "Ankle Fractures: Lauge-Hansen Classification"
-    },
-    "aorta-ultrasound": {
-        "slug": "aorta-ultrasound",
-        "title": "Focused Abdominal Aorta Ultrasound"
-    },
-    "aortic-dissection": {
-        "slug": "aortic-dissection",
-        "title": "Aortic Dissection"
-    },
-    "appendicitis-ACEP": {
-        "slug": "appendicitis-ACEP",
-        "title": "Appendicitis ACEP Clinical Policy"
-    },
-    "asthma-classification": {
-        "slug": "asthma-classification",
-        "title": "Asthma Classification"
-    },
-    "ativan-vs-haldol": {
-        "slug": "ativan-vs-haldol",
-        "title": "Chemical Sedation - Haldol vs Ativan vs Versed"
-    },
-    "atls": {
-        "slug": "atls",
-        "title": "ATLS - Palpable Pulses are Inaccurate"
-    },
-    "atrial-fibrillation": {
-        "slug": "atrial-fibrillation",
-        "title": "Atrial Fibrillation and Anticoagulation"
-    },
-    "bayes-nomogram": {
-        "slug": "bayes-nomogram",
-        "title": "Bayes Nomogram"
-    },
-    "bells-palsy-treatment": {
-        "slug": "bells-palsy-treatment",
-        "title": "Bell's Palsy Treatment"
-    },
-    "benzo-metabolism": {
-        "slug": "benzo-metabolism",
-        "title": "Benzodiazepines Metabolism by the Liver"
-    },
-    "beta-agonist-lactic-acidosis": {
-        "slug": "beta-agonist-lactic-acidosis",
-        "title": "Beta Agonist Therapy and Lactic Acidosis in Asthma"
-    },
-    "blood-cultures": {
-        "slug": "blood-cultures",
-        "title": "Blood Culture Indications"
-    },
-    "blunt-abdominal-trauma": {
-        "slug": "blunt-abdominal-trauma",
-        "title": "Blunt Intra-Abdominal Injury"
-    },
-    "blunt-cardiac-injury": {
-        "slug": "blunt-cardiac-injury",
-        "title": "Blunt Cardiac Injury"
-    },
-    "blunt-cerebrovascular-injury": {
-        "slug": "blunt-cerebrovascular-injury",
-        "title": "Blunt Cerebrovascular Injuries"
-    },
-    "brugada-vs-svt": {
-        "slug": "brugada-vs-svt",
-        "title": "Brugada Criteria for SVT with Aberrancy vs VT"
-    },
-    "brugada": {
-        "slug": "brugada",
-        "title": "Brugada Syndrome"
-    },
-    "bundle-branch-blocks": {
-        "slug": "bundle-branch-blocks",
-        "title": "Bundle Branch Blocks 101"
-    },
-    "burn-wounds": {
-        "slug": "burn-wounds",
-        "title": "Burn Wounds"
-    },
-    "c1-c2-fractures": {
-        "slug": "c1-c2-fractures",
-        "title": "C1 and C2 Spine Fractures"
-    },
-    "c3-c7-fractures": {
-        "slug": "c3-c7-fractures",
-        "title": "C3-C7 Spine Fractures"
-    },
-    "cancer-neutropenic-fever": {
-        "slug": "cancer-neutropenic-fever",
-        "title": "Neutropenic Fever and Cancer"
-    },
-    "carbon-monoxide-poisoning": {
-        "slug": "carbon-monoxide-poisoning",
-        "title": "Carbon Monoxide Poisoning"
-    },
-    "cardiac-tamponade": {
-        "slug": "cardiac-tamponade",
-        "title": "Cardiac Tamponade"
-    },
-    "cdiff": {
-        "slug": "cdiff",
-        "title": "Clostridium Difficile Infection"
-    },
-    "chest-pain-adp": {
-        "slug": "chest-pain-adp",
-        "title": "Chest Pain - Accelerated Diagnostic Protocol"
-    },
-    "chest-pain-ct-coronary": {
-        "slug": "chest-pain-ct-coronary",
-        "title": "CT Coronary in the ED"
-    },
-    "chest-pain-history": {
-        "slug": "chest-pain-history",
-        "title": "Chest Pain History"
-    },
-    "chest-pain-stratify": {
-        "slug": "chest-pain-stratify",
-        "title": "Chest Pain Risk Stratification for ACS"
-    },
-    "cholecystitis-diagnosis": {
-        "slug": "cholecystitis-diagnosis",
-        "title": "Cholecystitis Diagnostic Test"
-    },
-    "cpr-mechanical-vs-manual": {
-        "slug": "cpr-mechanical-vs-manual",
-        "title": "CPR - Mechanical vs Manual"
-    },
-    "croup": {
-        "slug": "croup",
-        "title": "Croup"
-    },
-    "cspine-distracting-injuries": {
-        "slug": "cspine-distracting-injuries",
-        "title": "Cervical Spine Distracting Injuries"
-    },
-    "cspine-rules": {
-        "slug": "cspine-rules",
-        "title": "Cervical Spine Rules"
-    },
-    "ct-cancer-risk": {
-        "slug": "ct-cancer-risk",
-        "title": "Cancer Risk from CT"
-    },
-    "cystitis-pregnant": {
-        "slug": "cystitis-pregnant",
-        "title": "Cystitis and Pyelonephritis in Women"
-    },
-    "defibrillation-hands-off": {
-        "slug": "defibrillation-hands-off",
-        "title": "CPR Hands-on vs Hands-off Defibrillation"
-    },
-    "delayed-sequence-intubation": {
-        "slug": "delayed-sequence-intubation",
-        "title": "Delayed Sequence Intubation"
-    },
-    "dental-infections": {
-        "slug": "dental-infections",
-        "title": "Dental Infections"
-    },
-    "dental-trauma": {
-        "slug": "dental-trauma",
-        "title": "Dental Trauma"
-    },
-    "dermatomes": {
-        "slug": "dermatomes",
-        "title": "Dermatomes and Myotomal Maps"
-    },
-    "diabetic-ulcer": {
-        "slug": "diabetic-ulcer",
-        "title": "Diabetic Leg Ulcer and Osteomyelitis"
-    },
-    "difficult-airway": {
-        "slug": "difficult-airway",
-        "title": "Predictors of a Difficult Airway"
-    },
-    "diverticulitis-outpatient": {
-        "slug": "diverticulitis-outpatient",
-        "title": "Diverticulitis Outpatient Treatment"
-    },
-    "does-your-pt-have-chf": {
-        "slug": "does-your-pt-have-chf",
-        "title": "Does Your Dyspneic Patient Have CHF?"
-    },
-    "dysphagia": {
-        "slug": "dysphagia",
-        "title": "Dysphagia"
-    },
-    "early-goal-directed-therapy": {
-        "slug": "early-goal-directed-therapy",
-        "title": "Early Goal Directed Therapy in Sepsis"
-    },
-    "echocardiography": {
-        "slug": "echocardiography",
-        "title": "Focused Echocardiography"
-    },
-    "ectopic-diagnosis": {
-        "slug": "ectopic-diagnosis",
-        "title": "Ectopic Pregnancy - Making the Diagnosis"
-    },
-    "ectopic-methotrexate": {
-        "slug": "ectopic-methotrexate",
-        "title": "Ectopic Pregnancy and Methotrexate"
-    },
-    "emergency-drug-card-adult": {
-        "slug": "emergency-drug-card-adult",
-        "title": "Emergency Drug Card - Adult"
-    },
-    "emergency-drug-card-peds": {
-        "slug": "emergency-drug-card-peds",
-        "title": "Emergency Drug Card (Pediatric)"
-    },
-    "end-of-shift-feedback": {
-        "slug": "end-of-shift-feedback",
-        "title": "End-of-Shift Feedback"
-    },
-    "ethylene-glycol": {
-        "slug": "ethylene-glycol",
-        "title": "Toxic Alcohol Ingestion - Ethylene Glycol"
-    },
-    "first-time-seizure": {
-        "slug": "first-time-seizure",
-        "title": "Seizure, New Onset"
-    },
-    "first-trimester-transvaginal-ultrasound": {
-        "slug": "first-trimester-transvaginal-ultrasound",
-        "title": "Focused 1st Trimester Pregnancy Transvaginal Ultrasound"
-    },
-    "first-trimester-ultrasound": {
-        "slug": "first-trimester-ultrasound",
-        "title": "Focused 1st Trimester Pregnancy Transabdominal Ultrasound"
-    },
-    "gallbladder-ultrasound": {
-        "slug": "gallbladder-ultrasound",
-        "title": "Focused Biliary Assessment"
-    },
-    "genital-ulcers": {
-        "slug": "genital-ulcers",
-        "title": "Genital Ulcers"
-    },
-    "geriatric-procedural-sedation": {
-        "slug": "geriatric-procedural-sedation",
-        "title": "Geriatric Procedural Sedation"
-    },
-    "head-ct-and-lp": {
-        "slug": "head-ct-and-lp",
-        "title": "Head CT Before LP for Meningitis"
-    },
-    "head-ct-in-trauma": {
-        "slug": "head-ct-in-trauma",
-        "title": "Head CT in Trauma"
-    },
-    "heart-murmurs": {
-        "slug": "heart-murmurs",
-        "title": "Murmurs Needing Echocardiography Evaluation"
-    },
-    "hyperkalemia": {
-        "slug": "hyperkalemia",
-        "title": "Hyperkalemia"
-    },
-    "hyperthyroidism": {
-        "slug": "hyperthyroidism",
-        "title": "Hyperthyroidism"
-    },
-    "hypothermia": {
-        "slug": "hypothermia",
-        "title": "Hypothermia"
-    },
-    "increased-osmolar-gap": {
-        "slug": "increased-osmolar-gap",
-        "title": "Approach to Increased Osmolar Gap"
-    },
-    "influenza-treatment": {
-        "slug": "influenza-treatment",
-        "title": "Influenza - to treat or not to treat?"
-    },
-    "infusions": {
-        "slug": "infusions",
-        "title": "Continuous Infusions"
-    },
-    "insulin-pumps": {
-        "slug": "insulin-pumps",
-        "title": "Insulin Pumps"
-    },
-    "intimate-partner-violence": {
-        "slug": "intimate-partner-violence",
-        "title": "Intimate Partner Violence"
-    },
-    "is-bicarb-useless": {
-        "slug": "is-bicarb-useless",
-        "title": "Bicarbonate - Completely Useless?"
-    },
-    "iv-fluids-for-icu-patients": {
-        "slug": "iv-fluids-for-icu-patients",
-        "title": "IV Fluid Formulations for ICU Patients"
-    },
-    "kawasaki": {
-        "slug": "kawasaki",
-        "title": "Kawasaki Disease"
-    },
-    "ketofol": {
-        "slug": "ketofol",
-        "title": "Ketofol"
-    },
-    "knee-exam": {
-        "slug": "knee-exam",
-        "title": "Knee Examination"
-    },
-    "legionella": {
-        "slug": "legionella",
-        "title": "Legionnaire's Disease"
-    },
-    "local-anesthetic-toxicity": {
-        "slug": "local-anesthetic-toxicity",
-        "title": "Local Anesthetic Toxicity"
-    },
-    "lung-ultrasound": {
-        "slug": "lung-ultrasound",
-        "title": "Focused Lung Assessment"
-    },
-    "metacarpal-metatarsal-fractures": {
-        "slug": "metacarpal-metatarsal-fractures",
-        "title": "Metatarsal & Metacarpal Fractures"
-    },
-    "methanol": {
-        "slug": "methanol",
-        "title": "Toxic Alcohol Ingestion - Methanol"
-    },
-    "nebulized-lidocaine": {
-        "slug": "nebulized-lidocaine",
-        "title": "Lidocaine, nebulized dose"
-    },
-    "ocular-ultrasound": {
-        "slug": "ocular-ultrasound",
-        "title": "Ocular Assessment"
-    },
-    "open-fractures": {
-        "slug": "open-fractures",
-        "title": "Open Fractures and Antibiotics"
-    },
-    "ottawa-knee-ankle-foot": {
-        "slug": "ottawa-knee-ankle-foot",
-        "title": "Ottawa Knee, Ankle, and Foot Rules"
-    },
-    "pain-management": {
-        "slug": "pain-management",
-        "title": "Initial Pain Management Options"
-    },
-    "palliative-care-screening": {
-        "slug": "palliative-care-screening",
-        "title": "Palliative Care Screening Tool"
-    },
-    "paracentesis": {
-        "slug": "paracentesis",
-        "title": "Paracentesis for Ascites"
-    },
-    "pe-prediction-rules": {
-        "slug": "pe-prediction-rules",
-        "title": "Pulmonary Embolism Clinical Prediction Rules"
-    },
-    "pediatric-assessment-triangle": {
-        "slug": "pediatric-assessment-triangle",
-        "title": "Pediatric Assessment Triangle"
-    },
-    "pediatric-fever-neonate": {
-        "slug": "pediatric-fever-neonate",
-        "title": "Fever Without a Source - neonate"
-    },
-    "pediatric-fever-over-one-month": {
-        "slug": "pediatric-fever-over-one-month",
-        "title": "Pediatric Fever Without a Source - Infant"
-    },
-    "pediatric-head-injury": {
-        "slug": "pediatric-head-injury",
-        "title": "Pediatric Blunt Head Trauma (PECARN Study)"
-    },
-    "pediatric-ingestion": {
-        "slug": "pediatric-ingestion",
-        "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
-    },
-    "pediatric-weight-based-resus": {
-        "slug": "pediatric-weight-based-resus",
-        "title": "Pediatric Weight-Based Resuscitation Reference"
-    },
-    "penetrating-abdominal-trauma": {
-        "slug": "penetrating-abdominal-trauma",
-        "title": "Penetrating Abdominal Trauma - Observe vs Laparotomy"
-    },
-    "peripheral-vertigo-vs-stroke": {
-        "slug": "peripheral-vertigo-vs-stroke",
-        "title": "Acute Vestibular Syndrome vs Stroke"
-    },
-    "persistent-tachycardia": {
-        "slug": "persistent-tachycardia",
-        "title": "Persistent Tachycardia"
-    },
-    "pertussis-treatment": {
-        "slug": "pertussis-treatment",
-        "title": "Pertussis Treatment Algorithm"
-    },
-    "pertussis": {
-        "slug": "pertussis",
-        "title": "Pertussis"
-    },
-    "phenytoin-loading": {
-        "slug": "phenytoin-loading",
-        "title": "Phenytoin Oral Loading in the ED"
-    },
-    "pneumonia-severity": {
-        "slug": "pneumonia-severity",
-        "title": "Pneumonia Risk Stratification Tools"
-    },
-    "post-exposure-prophylaxis": {
-        "slug": "post-exposure-prophylaxis",
-        "title": "Post-Exposure Prophylaxis, non-occupational contact"
-    },
-    "procedural-sedation": {
-        "slug": "procedural-sedation",
-        "title": "Procedural Sedation & Analgesia"
-    },
-    "rapid-sequence-intubation": {
-        "slug": "rapid-sequence-intubation",
-        "title": "Rapid Sequence Intubation"
-    },
-    "rash-unknown": {
-        "slug": "rash-unknown",
-        "title": "An Approach to the Unknown Rash"
-    },
-    "red-eye": {
-        "slug": "red-eye",
-        "title": "Red Eye"
-    },
-    "scaphoid-fractures": {
-        "slug": "scaphoid-fractures",
-        "title": "Scaphoid Fracture"
-    },
-    "septic-arthritis": {
-        "slug": "septic-arthritis",
-        "title": "Septic Arthritis"
-    },
-    "serotonin-syndrome": {
-        "slug": "serotonin-syndrome",
-        "title": "Serotonin Syndrome"
-    },
-    "shoulder-exam": {
-        "slug": "shoulder-exam",
-        "title": "Shoulder Exam Provocative Testing"
-    },
-    "skin-soft-tissue-ultrasound": {
-        "slug": "skin-soft-tissue-ultrasound",
-        "title": "Skin and Soft Tissue Ultrasound"
-    },
-    "spinal-epidural-abscess": {
-        "slug": "spinal-epidural-abscess",
-        "title": "Spinal Epidural Abscess"
-    },
-    "status-epilepticus": {
-        "slug": "status-epilepticus",
-        "title": "Seizures and Status Epilepticus"
-    },
-    "sternal-fractures": {
-        "slug": "sternal-fractures",
-        "title": "Sternal Fractures"
-    },
-    "strep-pharyngitis": {
-        "slug": "strep-pharyngitis",
-        "title": "Streptococcal Pharyngitis"
-    },
-    "subarachnoid-hemorrhage-nontraumatic": {
-        "slug": "subarachnoid-hemorrhage-nontraumatic",
-        "title": "Subarachnoid Hemorrhage, Nontraumatic"
-    },
-    "subarachnoid-hemorrhage": {
-        "slug": "subarachnoid-hemorrhage",
-        "title": "Subarachnoid Hemorrhage"
-    },
-    "submassive-PE-thrombolytics": {
-        "slug": "submassive-PE-thrombolytics",
-        "title": "Thrombolytics for Submassive PE"
-    },
-    "suicide-assessment": {
-        "slug": "suicide-assessment",
-        "title": "Suicide Risk Stratification"
-    },
-    "supratherapeutic-INR": {
-        "slug": "supratherapeutic-INR",
-        "title": "Supratherapeutic INR"
-    },
-    "suture-materials": {
-        "slug": "suture-materials",
-        "title": "Suture Materials"
-    },
-    "synovitis-vs-septic-hip": {
-        "slug": "synovitis-vs-septic-hip",
-        "title": "Transient Synovitis vs Septic Arthritis of the Hip"
-    },
-    "testicular-ultrasound": {
-        "slug": "testicular-ultrasound",
-        "title": "Testicular Ultrasound Assessment"
-    },
-    "thyroid-storm": {
-        "slug": "thyroid-storm",
-        "title": "Thyroid Storm - Treatment Strategies"
-    },
-    "toxidrome-vitals": {
-        "slug": "toxidrome-vitals",
-        "title": "Toxidromes by Vital Signs"
-    },
-    "transient-ischemic-attack": {
-        "slug": "transient-ischemic-attack",
-        "title": "Transient Ichemic Attack (TIA)"
-    },
-    "ultrasound-measurements": {
-        "slug": "ultrasound-measurements",
-        "title": "Ultrasound Measurement Cheat Sheet"
-    },
-    "upper-GI-bleed": {
-        "slug": "upper-GI-bleed",
-        "title": "Upper GI Bleed"
-    },
-    "urine-tox-screen": {
-        "slug": "urine-tox-screen",
-        "title": "Urine Toxicology Screen"
-    },
-    "vasopressors-in-hypotension": {
-        "slug": "vasopressors-in-hypotension",
-        "title": "Vasopressors in Hypotension"
-    },
-    "vasopressors-inotropes-shock": {
-        "slug": "vasopressors-inotropes-shock",
-        "title": "Vasopressors and Inotropes in Shock"
-    },
-    "ventilator-settings-obstruction": {
-        "slug": "ventilator-settings-obstruction"
-    },
-    "ventilator-settings": {
-        "slug": "ventilator-settings",
-        "title": "Ventilator Setting for Lung Protection"
-    },
-    "when-avoid-tramadol": {
-        "slug": "when-avoid-tramadol",
-        "title": "When to Avoid Tramadol"
-    }
-}
+[{
+    "slug": "abdominal-pain-diagnostics",
+    "title": "Abdominal Pain - Diagnostic Studies"
+}, {
+    "slug": "abg-interpretation",
+    "title": "ABG Interpretation"
+}, {
+    "slug": "abg-vs-vbg",
+    "title": "ABG versus VBG"
+}, {
+    "slug": "acetaminophen-toxicity",
+    "title": "Acetaminophen toxicity"
+}, {
+    "slug": "acls",
+    "title": "ACLS 2010 Algorithm for Cardiac Arrest"
+}, {
+    "slug": "acute-limb-ischemia",
+    "title": "Acute Limb Ischemia"
+}, {
+    "slug": "peripheral-vertigo-vs-stroke",
+    "title": "Acute Vestibular Syndrome vs Stroke"
+}, {
+    "slug": "adenosine",
+    "title": "Adenosine 6-12-12 Approach"
+}, {
+    "slug": "against-medical-advice",
+    "title": "Against Medical Advice (AMA)"
+}, {
+    "slug": "rash-unknown",
+    "title": "An Approach to the Unknown Rash"
+}, {
+    "slug": "anaphylaxis",
+    "title": "Anaphylaxis"
+}, {
+    "slug": "angioedema",
+    "title": "Angioedema"
+}, {
+    "slug": "ankle-fxs-lauge-hansen",
+    "title": "Ankle Fractures: Lauge-Hansen Classification"
+}, {
+    "slug": "aortic-dissection",
+    "title": "Aortic Dissection"
+}, {
+    "slug": "appendicitis-acep",
+    "title": "Appendicitis ACEP Clinical Policy"
+}, {
+    "slug": "increased-osmolar-gap",
+    "title": "Approach to Increased Osmolar Gap"
+}, {
+    "slug": "asthma-classification",
+    "title": "Asthma Classification"
+}, {
+    "slug": "atls",
+    "title": "ATLS - Palpable Pulses are Inaccurate"
+}, {
+    "slug": "atrial-fibrillation",
+    "title": "Atrial Fibrillation and Anticoagulation"
+}, {
+    "slug": "bayes-nomogram",
+    "title": "Bayes Nomogram"
+}, {
+    "slug": "bells-palsy-treatment",
+    "title": "Bell's Palsy Treatment"
+}, {
+    "slug": "benzo-metabolism",
+    "title": "Benzodiazepines Metabolism by the Liver"
+}, {
+    "slug": "beta-agonist-lactic-acidosis",
+    "title": "Beta Agonist Therapy and Lactic Acidosis in Asthma"
+}, {
+    "slug": "is-bicarb-useless",
+    "title": "Bicarbonate - Completely Useless?"
+}, {
+    "slug": "blood-cultures",
+    "title": "Blood Culture Indications"
+}, {
+    "slug": "blunt-cardiac-injury",
+    "title": "Blunt Cardiac Injury"
+}, {
+    "slug": "blunt-cerebrovascular-injury",
+    "title": "Blunt Cerebrovascular Injuries"
+}, {
+    "slug": "blunt-abdominal-trauma",
+    "title": "Blunt Intra-Abdominal Injury"
+}, {
+    "slug": "brugada-vs-svt",
+    "title": "Brugada Criteria for SVT with Aberrancy vs VT"
+}, {
+    "slug": "brugada",
+    "title": "Brugada Syndrome"
+}, {
+    "slug": "bundle-branch-blocks",
+    "title": "Bundle Branch Blocks 101"
+}, {
+    "slug": "burn-wounds",
+    "title": "Burn Wounds"
+}, {
+    "slug": "c1-c2-fractures",
+    "title": "C1 and C2 Spine Fractures"
+}, {
+    "slug": "c3-c7-fractures",
+    "title": "C3-C7 Spine Fractures"
+}, {
+    "slug": "ct-cancer-risk",
+    "title": "Cancer Risk from CT"
+}, {
+    "slug": "carbon-monoxide-poisoning",
+    "title": "Carbon Monoxide Poisoning"
+}, {
+    "slug": "cardiac-tamponade",
+    "title": "Cardiac Tamponade"
+}, {
+    "slug": "cspine-distracting-injuries",
+    "title": "Cervical Spine Distracting Injuries"
+}, {
+    "slug": "cspine-rules",
+    "title": "Cervical Spine Rules"
+}, {
+    "slug": "ativan-vs-haldol",
+    "title": "Chemical Sedation - Haldol vs Ativan vs Versed"
+}, {
+    "slug": "chest-pain-adp",
+    "title": "Chest Pain - Accelerated Diagnostic Protocol"
+}, {
+    "slug": "chest-pain-history",
+    "title": "Chest Pain History"
+}, {
+    "slug": "chest-pain-stratify",
+    "title": "Chest Pain Risk Stratification for ACS"
+}, {
+    "slug": "cholecystitis-diagnosis",
+    "title": "Cholecystitis Diagnostic Test"
+}, {
+    "slug": "cdiff",
+    "title": "Clostridium Difficile Infection"
+}, {
+    "slug": "cns-infection",
+    "title": "CNS Infection"
+}, {
+    "slug": "infusions",
+    "title": "Continuous Infusions"
+}, {
+    "slug": "tpa-contraindications",
+    "title": "Contraindications for Thrombolytics"
+}, {
+    "slug": "cpr-mechanical-vs-manual",
+    "title": "CPR - Mechanical vs Manual"
+}, {
+    "slug": "defibrillation-hands-off",
+    "title": "CPR Hands-on vs Hands-off Defibrillation"
+}, {
+    "slug": "croup",
+    "title": "Croup"
+}, {
+    "slug": "chest-pain-ct-coronary",
+    "title": "CT Coronary in the ED"
+}, {
+    "slug": "cystitis-pregnant",
+    "title": "Cystitis and Pyelonephritis in Women"
+}, {
+    "slug": "delayed-sequence-intubation",
+    "title": "Delayed Sequence Intubation"
+}, {
+    "slug": "dental-infections",
+    "title": "Dental Infections"
+}, {
+    "slug": "dental-trauma",
+    "title": "Dental Trauma"
+}, {
+    "slug": "dermatomes",
+    "title": "Dermatomes and Myotomal Maps"
+}, {
+    "slug": "diabetic-ulcer",
+    "title": "Diabetic Leg Ulcer and Osteomyelitis"
+}, {
+    "slug": "diverticulitis-outpatient",
+    "title": "Diverticulitis Outpatient Treatment"
+}, {
+    "slug": "does-your-pt-have-chf",
+    "title": "Does Your Dyspneic Patient Have CHF?"
+}, {
+    "slug": "dvt",
+    "title": "DVT of the Leg - ACCP Guidelines"
+}, {
+    "slug": "dysphagia",
+    "title": "Dysphagia"
+}, {
+    "slug": "early-goal-directed-therapy",
+    "title": "Early Goal Directed Therapy in Sepsis"
+}, {
+    "slug": "ecg-electrolytes",
+    "title": "ECG Electrolyte Imbalance"
+}, {
+    "slug": "ecg-mi-geography",
+    "title": "ECG Geography for AMI"
+}, {
+    "slug": "ecg-avl",
+    "title": "ECG Reciprocal Changes in aVL"
+}, {
+    "slug": "ecg-right-posterior-leads",
+    "title": "ECG Right and Posterior Leads"
+}, {
+    "slug": "ectopic-diagnosis",
+    "title": "Ectopic Pregnancy - Making the Diagnosis"
+}, {
+    "slug": "ectopic-methotrexate",
+    "title": "Ectopic Pregnancy and Methotrexate"
+}, {
+    "slug": "emergency-drug-card-peds",
+    "title": "Emergency Drug Card (Pediatric)"
+}, {
+    "slug": "ventilator-settings-obstruction"
+}, {
+    "slug": "emergency-drug-card-adult",
+    "title": "Emergency Drug Card - Adult"
+}, {
+    "slug": "emtala-rules",
+    "title": "EMTALA Transfer Rules"
+}, {
+    "slug": "end-of-shift-feedback",
+    "title": "End-of-Shift Feedback"
+}, {
+    "slug": "pediatric-fever-neonate",
+    "title": "Fever Without a Source - neonate"
+}, {
+    "slug": "pe-fibrinolysis",
+    "title": "Fibrinolysis for Acute Pulmonary Embolism"
+}, {
+    "slug": "first-trimester-ultrasound",
+    "title": "Focused 1st Trimester Pregnancy Transabdominal Ultrasound"
+}, {
+    "slug": "first-trimester-transvaginal-ultrasound",
+    "title": "Focused 1st Trimester Pregnancy Transvaginal Ultrasound"
+}, {
+    "slug": "aorta-ultrasound",
+    "title": "Focused Abdominal Aorta Ultrasound"
+}, {
+    "slug": "fast-ultrasound",
+    "title": "Focused Assessment with Sonography in Trauma (FAST)"
+}, {
+    "slug": "gallbladder-ultrasound",
+    "title": "Focused Biliary Assessment"
+}, {
+    "slug": "echocardiography",
+    "title": "Focused Echocardiography"
+}, {
+    "slug": "lung-ultrasound",
+    "title": "Focused Lung Assessment"
+}, {
+    "slug": "genital-ulcers",
+    "title": "Genital Ulcers"
+}, {
+    "slug": "geriatric-procedural-sedation",
+    "title": "Geriatric Procedural Sedation"
+}, {
+    "slug": "head-ct-and-lp",
+    "title": "Head CT Before LP for Meningitis"
+}, {
+    "slug": "head-ct-in-trauma",
+    "title": "Head CT in Trauma"
+}, {
+    "slug": "hyperkalemia",
+    "title": "Hyperkalemia"
+}, {
+    "slug": "hyperthyroidism",
+    "title": "Hyperthyroidism"
+}, {
+    "slug": "hypothermia",
+    "title": "Hypothermia"
+}, {
+    "slug": "influenza-treatment",
+    "title": "Influenza - to treat or not to treat?"
+}, {
+    "slug": "pain-management",
+    "title": "Initial Pain Management Options"
+}, {
+    "slug": "insulin-pumps",
+    "title": "Insulin Pumps"
+}, {
+    "slug": "intimate-partner-violence",
+    "title": "Intimate Partner Violence"
+}, {
+    "slug": "iv-fluids-for-icu-patients",
+    "title": "IV Fluid Formulations for ICU Patients"
+}, {
+    "slug": "kawasaki",
+    "title": "Kawasaki Disease"
+}, {
+    "slug": "ketofol",
+    "title": "Ketofol"
+}, {
+    "slug": "knee-exam",
+    "title": "Knee Examination"
+}, {
+    "slug": "ecg-lead-avr",
+    "title": "Lead aVR"
+}, {
+    "slug": "legionella",
+    "title": "Legionnaire's Disease"
+}, {
+    "slug": "nebulized-lidocaine",
+    "title": "Lidocaine, nebulized dose"
+}, {
+    "slug": "local-anesthetic-toxicity",
+    "title": "Local Anesthetic Toxicity"
+}, {
+    "slug": "metacarpal-metatarsal-fractures",
+    "title": "Metatarsal & Metacarpal Fractures"
+}, {
+    "slug": "heart-murmurs",
+    "title": "Murmurs Needing Echocardiography Evaluation"
+}, {
+    "slug": "cancer-neutropenic-fever",
+    "title": "Neutropenic Fever and Cancer"
+}, {
+    "slug": "nih-stroke-scale",
+    "title": "NIH Stroke Scale"
+}, {
+    "slug": "nsaid-gi-bleed",
+    "title": "NSAIDs and Upper GI Bleed"
+}, {
+    "slug": "ocular-ultrasound",
+    "title": "Ocular Assessment"
+}, {
+    "slug": "open-fractures",
+    "title": "Open Fractures and Antibiotics"
+}, {
+    "slug": "ottawa-knee-ankle-foot",
+    "title": "Ottawa Knee, Ankle, and Foot Rules"
+}, {
+    "slug": "palliative-care-screening",
+    "title": "Palliative Care Screening Tool"
+}, {
+    "slug": "paracentesis",
+    "title": "Paracentesis for Ascites"
+}, {
+    "slug": "pediatric-assessment-triangle",
+    "title": "Pediatric Assessment Triangle"
+}, {
+    "slug": "pediatric-head-injury",
+    "title": "Pediatric Blunt Head Trauma (PECARN Study)"
+}, {
+    "slug": "pediatric-fever-over-one-month",
+    "title": "Pediatric Fever Without a Source - Infant"
+}, {
+    "slug": "pediatric-ingestion",
+    "title": "Pediatric Ingestion Dose Thresholds for ED Referral"
+}, {
+    "slug": "pediatric-weight-based-resus",
+    "title": "Pediatric Weight-Based Resuscitation Reference"
+}, {
+    "slug": "penetrating-abdominal-trauma",
+    "title": "Penetrating Abdominal Trauma - Observe vs Laparotomy"
+}, {
+    "slug": "persistent-tachycardia",
+    "title": "Persistent Tachycardia"
+}, {
+    "slug": "pertussis",
+    "title": "Pertussis"
+}, {
+    "slug": "pertussis-treatment",
+    "title": "Pertussis Treatment Algorithm"
+}, {
+    "slug": "pesi",
+    "title": "PESI Score for Pulmonary Embolism"
+}, {
+    "slug": "phenytoin-loading",
+    "title": "Phenytoin Oral Loading in the ED"
+}, {
+    "slug": "pneumonia-severity",
+    "title": "Pneumonia Risk Stratification Tools"
+}, {
+    "slug": "post-exposure-prophylaxis",
+    "title": "Post-Exposure Prophylaxis, non-occupational contact"
+}, {
+    "slug": "ecg-flipped-paper",
+    "title": "Posterior MI - How Accurate is the Flipped ECG?"
+}, {
+    "slug": "difficult-airway",
+    "title": "Predictors of a Difficult Airway"
+}, {
+    "slug": "procedural-sedation",
+    "title": "Procedural Sedation & Analgesia"
+}, {
+    "slug": "pe-prediction-rules",
+    "title": "Pulmonary Embolism Clinical Prediction Rules"
+}, {
+    "slug": "rapid-sequence-intubation",
+    "title": "Rapid Sequence Intubation"
+}, {
+    "slug": "red-eye",
+    "title": "Red Eye"
+}, {
+    "slug": "scaphoid-fractures",
+    "title": "Scaphoid Fracture"
+}, {
+    "slug": "first-time-seizure",
+    "title": "Seizure, New Onset"
+}, {
+    "slug": "status-epilepticus",
+    "title": "Seizures and Status Epilepticus"
+}, {
+    "slug": "septic-arthritis",
+    "title": "Septic Arthritis"
+}, {
+    "slug": "serotonin-syndrome",
+    "title": "Serotonin Syndrome"
+}, {
+    "slug": "ecg-sgarbossa",
+    "title": "Sgarbossa Criteria for LBBB and AMI"
+}, {
+    "slug": "shock-rush-exams",
+    "title": "Shock and RUSH Exam"
+}, {
+    "slug": "shoulder-exam",
+    "title": "Shoulder Exam Provocative Testing"
+}, {
+    "slug": "skin-soft-tissue-ultrasound",
+    "title": "Skin and Soft Tissue Ultrasound"
+}, {
+    "slug": "spinal-epidural-abscess",
+    "title": "Spinal Epidural Abscess"
+}, {
+    "slug": "sternal-fractures",
+    "title": "Sternal Fractures"
+}, {
+    "slug": "strep-pharyngitis",
+    "title": "Streptococcal Pharyngitis"
+}, {
+    "slug": "subarachnoid-hemorrhage",
+    "title": "Subarachnoid Hemorrhage"
+}, {
+    "slug": "subarachnoid-hemorrhage-nontraumatic",
+    "title": "Subarachnoid Hemorrhage, Nontraumatic"
+}, {
+    "slug": "suicide-assessment",
+    "title": "Suicide Risk Stratification"
+}, {
+    "slug": "supratherapeutic-inr",
+    "title": "Supratherapeutic INR"
+}, {
+    "slug": "suture-materials",
+    "title": "Suture Materials"
+}, {
+    "slug": "svt-troponin",
+    "title": "SVT and Troponin"
+}, {
+    "slug": "testicular-ultrasound",
+    "title": "Testicular Ultrasound Assessment"
+}, {
+    "slug": "submassive-pe-thrombolytics",
+    "title": "Thrombolytics for Submassive PE"
+}, {
+    "slug": "thyroid-storm",
+    "title": "Thyroid Storm - Treatment Strategies"
+}, {
+    "slug": "timi-score",
+    "title": "TIMI Risk Score for Unstable Angina and NSTEMI"
+}, {
+    "slug": "ethylene-glycol",
+    "title": "Toxic Alcohol Ingestion - Ethylene Glycol"
+}, {
+    "slug": "methanol",
+    "title": "Toxic Alcohol Ingestion - Methanol"
+}, {
+    "slug": "toxidrome-vitals",
+    "title": "Toxidromes by Vital Signs"
+}, {
+    "slug": "tpa-code-dose",
+    "title": "tPA Code Dose"
+}, {
+    "slug": "transient-ischemic-attack",
+    "title": "Transient Ichemic Attack (TIA)"
+}, {
+    "slug": "synovitis-vs-septic-hip",
+    "title": "Transient Synovitis vs Septic Arthritis of the Hip"
+}, {
+    "slug": "dvt-ultrasound",
+    "title": "Ultrasound DVT Assessment"
+}, {
+    "slug": "ultrasound-measurements",
+    "title": "Ultrasound Measurement Cheat Sheet"
+}, {
+    "slug": "upper-gi-bleed",
+    "title": "Upper GI Bleed"
+}, {
+    "slug": "uti",
+    "title": "Urinary Tract Infection"
+}, {
+    "slug": "urine-tox-screen",
+    "title": "Urine Toxicology Screen"
+}, {
+    "slug": "vasopressors-inotropes-shock",
+    "title": "Vasopressors and Inotropes in Shock"
+}, {
+    "slug": "vasopressors-in-hypotension",
+    "title": "Vasopressors in Hypotension"
+}, {
+    "slug": "ventilator-settings",
+    "title": "Ventilator Setting for Lung Protection"
+}, {
+    "slug": "when-avoid-tramadol",
+    "title": "When to Avoid Tramadol"
+}]

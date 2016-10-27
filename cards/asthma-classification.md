@@ -2,7 +2,7 @@
 
 title: Asthma Classification
 collection:
-  - Pulmonary
+  - Pulmonology
   - Allergy-Immunology
 tags:
 

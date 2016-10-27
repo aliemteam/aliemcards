@@ -2,7 +2,7 @@
 
 title: Subarachnoid Hemorrhage
 collection:
-  - neurology
+  - Neurology
 tags:
 
 ---

@@ -2,8 +2,8 @@
 
 title: Fever Without a Source - neonate
 collection:
-  - pediatrics
-  - infectious disease
+  - Pediatrics
+  - Infectious Disease
 tags: Ampicillin, Cefotaxime, Gentamicin
 
 ---

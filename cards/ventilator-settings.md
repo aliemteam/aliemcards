@@ -2,8 +2,8 @@
 
 title: Ventilator Setting for Lung Protection
 collection:
-  - pulmonology
-  - critical care
+  - Pulmonology
+  - Critical Care
 tags:
 
 ---

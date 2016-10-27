@@ -2,9 +2,9 @@
 
 title: Focused 1st Trimester Pregnancy Transabdominal Ultrasound
 collection:
-  - radiology
-  - ultrasound
-  - obgyn
+  - Radiology
+  - Ultrasound
+  - OBGYN
 tags:
 
 ---

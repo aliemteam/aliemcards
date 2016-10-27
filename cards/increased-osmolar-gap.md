@@ -2,7 +2,7 @@
 
 title: Approach to Increased Osmolar Gap
 collection:
-  - toxicology
+  - Toxicology
 tags:
 
 ---

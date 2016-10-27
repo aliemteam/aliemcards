@@ -2,7 +2,7 @@
 
 title: ECG Electrolyte Imbalance
 collection:
-  - cardiovascular
+  - Cardiovascular
   - ECG
 tags:
 

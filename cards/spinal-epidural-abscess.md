@@ -2,8 +2,8 @@
 
 title: Spinal Epidural Abscess
 collection:
-  - infectious disease
-  - ebm
+  - Infectious Disease
+  - EBM
 tags:
 
 ---

@@ -2,7 +2,7 @@
 
 title: Carbon Monoxide Poisoning
 collection:
-  - toxicology
+  - Toxicology
 tags:
 
 ---

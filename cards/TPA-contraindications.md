@@ -2,7 +2,7 @@
 
 title: Contraindications for Thrombolytics
 collection:
-  - neurology
+  - Neurology
 tags: TPA
 
 ---

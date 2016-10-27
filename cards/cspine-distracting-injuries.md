@@ -2,8 +2,8 @@
 
 title: Cervical Spine Distracting Injuries
 collection:
-  - trauma
-  - orthopedics
+  - Trauma
+  - Orthopedics
 tags:
 
 ---

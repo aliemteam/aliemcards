@@ -2,7 +2,7 @@
 
 title: Dysphagia
 collection:
-  - gastroenterology
+  - Gastroenterology
 tags:
 
 ---

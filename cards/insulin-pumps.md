@@ -2,7 +2,7 @@
 
 title: Insulin Pumps
 collection:
-  - endocrine
+  - Endocrinology
 tags: insulin
 
 ---

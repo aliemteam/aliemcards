@@ -2,7 +2,7 @@
 
 title: Cancer Risk from CT
 collection:
-  - radiology
+  - Radiology
 tags:
 
 ---

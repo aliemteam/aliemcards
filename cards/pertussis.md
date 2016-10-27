@@ -2,8 +2,8 @@
 
 title: Pertussis
 collection:
-  - infectious disease
-  - ebm
+  - Infectious Disease
+  - EBM
 tags: Azithromycin
 
 ---

@@ -2,8 +2,8 @@
 
 title: Pediatric Assessment Triangle
 collection:
-  - pediatrics
-  - critical care
+  - Pediatrics
+  - Critical Care
 tags:
 
 ---

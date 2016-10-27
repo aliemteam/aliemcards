@@ -1,4 +1,6 @@
+// <NavDrawer show={this.state.navDrawerOpen} />
 import React from 'react';
+import Breadcrumbs from 'react-breadcrumbs';
 
 import TopBar from './topbar';
 import NavDrawer from './navdrawer';
@@ -30,19 +32,23 @@ class Main extends React.Component {
   }
 
   render() {
-
-    let navDrawerOpen = this.state.navDrawerOpen;
-
-    return(
+    return (
       <div>
         <TopBar
-          title="ALIEM Cards"
+          title="ALiEM Cards"
           events={this.reducer.bind(this)}
+          showNav={this.state.navDrawerOpen}
         />
-        <NavDrawer
-          show={this.state.navDrawerOpen}
-        />
-        {this.props.children}
+
+        <div className="container content">
+          <Breadcrumbs
+            className="breadcrumbs"
+            separator=" / "
+            routes={this.props.routes}
+            params={this.props.params}
+          />
+          <div>{this.props.children}</div>
+        </div>
       </div>
     );
   }

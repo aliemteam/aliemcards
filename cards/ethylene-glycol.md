@@ -2,7 +2,7 @@
 
 title: Toxic Alcohol Ingestion - Ethylene Glycol
 collection:
-  - toxicology
+  - Toxicology
 tags: fomipezole
 
 ---

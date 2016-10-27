@@ -2,7 +2,7 @@
 
 title: ABG Interpretation
 collection:
-  - pulmonary
+  - Pulmonology
 
 tags:
 

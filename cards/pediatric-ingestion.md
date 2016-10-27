@@ -2,8 +2,8 @@
 
 title: Pediatric Ingestion Dose Thresholds for ED Referral
 collection:
-  - pediatrics
-  - toxicology
+  - Pediatrics
+  - Toxicology
 tags: acetaminophen, aripiprazole, clozapine, olanzapine, quetiapine, risperidone, ziprasidone, acebutolol, atenolol, carvedilol, labetalol, metoprolol, nadolol, propranolol, sotalol, timolol, amlodipine, diltiazem, felodipine, isradipine, nifedipine, verapamil, camphor, dextromethorphan, diphenhydramine, dimenhydrinate, ethylene glycol, iron, mercury, methylphenidate, salicylate, aspirin, citalopram, escitalopram, fluoxetine, fluvoxamine, paroxetine, sertraline, desipramine, nortriptyline, trimipramine, protriptyline, valproic acid
 
 ---

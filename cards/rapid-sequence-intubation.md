@@ -2,8 +2,8 @@
 
 title: Rapid Sequence Intubation
 collection:
-  - critical care
-  - procedures
+  - Critical Care
+  - Procedures
 tags: lidocaine, fentanyl, etomidate, propofol, thiopental, ketamine, midazolam, Succinylcholine, Rocuronium, Vecuronium
 
 ---

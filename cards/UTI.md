@@ -2,8 +2,8 @@
 
 title: Urinary Tract Infection
 collection:
-  - genitourinary
-  - infectious disease
+  - Genitourinary
+  - Infectious Disease
 tags:
 
 ---
@@ -48,16 +48,16 @@ Thus reasonable to treat based on urine dipstick (similar error rates)
 
 **Uncomplicated UTI**
 
--   If E. coli resistance to **TMP-SMX &lt; 10%**, prescribe **<span class="drug>TMP-SMX</span>** x 3 days
--   If E. coli resistance to **TMP-SMX &gt; 20%**, prescribe **<span class="drug>nitrofurantoin</span>** x 7 days
+-   If E. coli resistance to **TMP-SMX &lt; 10%**, prescribe **<span class="drug">TMP-SMX</span>** x 3 days
+-   If E. coli resistance to **TMP-SMX &gt; 20%**, prescribe **<span class="drug">nitrofurantoin</span>** x 7 days
 
 **Pyelonephritis**
 
--   **<span class="drug>Ciprofloxacin</span>** x 7 days
--   Avoid <span class="drug>nitrofurantoin</span> because of poor tissue penetration 
+-   **<span class="drug">Ciprofloxacin</span>** x 7 days
+-   Avoid <span class="drug">nitrofurantoin</span> because of poor tissue penetration 
 
 **Antibiotic resistance**
--   Because of rising resistance to <span class="drug>TMP-SMX</span> and quinolones – check your hospital’s antibiogram 
+-   Because of rising resistance to <span class="drug">TMP-SMX</span> and quinolones – check your hospital’s antibiogram 
 
 ## Pyelonephritis Hospital Admission Indications
 

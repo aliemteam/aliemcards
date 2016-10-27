@@ -2,7 +2,7 @@
 
 title: Bayes Nomogram
 collection:
-  - ebm
+  - EBM
 tags:
 
 ---

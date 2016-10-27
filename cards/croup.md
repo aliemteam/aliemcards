@@ -2,8 +2,8 @@
 
 title: Croup
 collection:
-  - pediatrics
-  - ent
+  - Pediatrics
+  - ENT
 tags: dexamethasone, racemic epinephrine
 
 ---

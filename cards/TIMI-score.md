@@ -2,8 +2,8 @@
 
 title: TIMI Risk Score for Unstable Angina and NSTEMI
 collection:
-  - cardiovascular
-  - ebm
+  - Cardiovascular
+  - EBM
 tags:
 
 ---

@@ -2,7 +2,7 @@
 
 title: Ketofol
 collection:
-  - pharmacology
+  - Pharmacology
 tags: ketofol, propofol, ketamine
 
 ---

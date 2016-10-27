@@ -2,7 +2,7 @@
 
 title: Transient Ichemic Attack (TIA)
 collection:
-  - neurology
+  - Neurology
 tags:
 
 ---

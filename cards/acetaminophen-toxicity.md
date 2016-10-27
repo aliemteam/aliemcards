@@ -2,8 +2,8 @@
 
 title: Acetaminophen toxicity
 collection:
-  - toxicology
-  - pharmacology
+  - Toxicology
+  - Pharmacology
 tags: acetaminophen
 
 ---

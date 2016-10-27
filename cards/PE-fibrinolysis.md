@@ -2,8 +2,8 @@
 
 title: Fibrinolysis for Acute Pulmonary Embolism
 collection:
-  - pulmonary
-  - critical care
+  - Pulmonology
+  - Critical Care
 tags: alteplase, tpa
 
 ---

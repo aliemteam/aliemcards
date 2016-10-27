@@ -2,7 +2,7 @@
 
 title: Bundle Branch Blocks 101
 collection:
-  - cardiovascular
+  - Cardiovascular
 tags:
 
 ---

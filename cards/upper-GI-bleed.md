@@ -2,8 +2,8 @@
 
 title: Upper GI Bleed
 collection:
-  - gastroenterology
-  - ebm
+  - Gastroenterology
+  - EBM
 tags: aspirin, warfarin, Octreotide
 
 ---

@@ -2,7 +2,7 @@
 
 title: Open Fractures and Antibiotics
 collection:
-  - orthopedics
+  - Orthopedics
 tags:
 
 ---

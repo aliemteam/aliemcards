@@ -2,7 +2,7 @@
 
 title: Blunt Cerebrovascular Injuries
 collection:
-  - trauma
+  - Trauma
 tags: heparin, aspirin
 
 ---

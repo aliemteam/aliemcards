@@ -2,8 +2,8 @@
 
 title: Seizures and Status Epilepticus
 collection:
-  - neurology
-  - critical care
+  - Neurology
+  - Critical Care
 tags: phenytoin, fosphenytoin, Midazolam, lorazepam, Propofol, Pentobarbital, Thiamine, Ceftriaxone, vancomycin, pyridoxine
 
 ---

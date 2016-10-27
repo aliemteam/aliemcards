@@ -6,68 +6,68 @@
 *
 **/
 
-var express = require('express');
-var router = express.Router();
-var path = require('path');
+const express = require('express');
+const router = express.Router();
+const path = require('path');
 
 // get constants
-var C = require('../cons');
-var store = C.CARDS;
-var cards = require(path.join(C.CARDS_META, '/cards'));
-var categories = require(path.join(C.CARDS_META, '/categories'));
-var tags = require(path.join(C.CARDS_META, '/tags'));
+const C = require('../cons');
+const store = C.CARDS;
+const cards = require(path.join(C.CARDS_META, '/cards'));
+const categories = require(path.join(C.CARDS_META, '/categories'));
+const tags = require(path.join(C.CARDS_META, '/tags'));
 
 
 // RESPONSE HELPER
-var apires = function(status, data) {
+const apires = function apires(s, d) {
   return {
-    status: status,
-    data: data
+    status: s,
+    data: d,
   };
-}
+};
 
 // INDEX
 
-router.get('/', function(req, res){
+router.get('/', (req, res) => {
   res.send('Here is the api');
 });
 
 // CARDS
 
-router.get('/cards', function(req, res) {
-  res.send(apires("success", cards));
+router.get('/cards', (req, res) => {
+  res.send(apires('success', cards));
 });
 
-router.get('/cards/:slug', function(req, res) {
-  var card_summary = cards[req.params.slug];
-  if (card_summary) {
-    res.sendFile(path.join(store, card_summary.slug + '.json'));
+router.get('/cards/:slug', (req, res) => {
+  const cardSummary = cards[req.params.slug.toLowerCase()];
+  if (cardSummary) {
+    res.sendFile(path.join(store, `${cardSummary.slug}.json`));
   } else {
-    res.json({ status: "fail", data: "Card not found."});
+    res.json({ status: 'fail', data: 'Card not found.' });
   }
 });
 
 // CATEGORIES
 
-router.get('/categories', function(req, res){
-  res.json(apires("success", categories));
+router.get('/categories', (req, res) => {
+  res.json(apires('success', categories));
 });
 
-router.get('/categories/:slug', function(req, res){
-  var slug = categories[req.params.slug];
-  var response = (slug) ? apires("success", slug) : apires("fail", "Category not found");
+router.get('/categories/:slug', (req, res) => {
+  const slug = categories[req.params.slug];
+  const response = (slug) ? apires('success', slug) : apires('fail', 'Category not found');
   res.json(response);
 });
 
 // TAGS
 
-router.get('/tags', function(req, res) {
-  res.json(apires("success", tags));
+router.get('/tags', (req, res) => {
+  res.json(apires('success', tags));
 });
 
-router.get('/tags/:slug', function(req, res) {
-  var slug = tags[req.params.slug];
-  var response = (slug) ? apires("success", slug) : apires("fail", "Tag not found");
+router.get('/tags/:slug', (req, res) => {
+  const slug = tags[req.params.slug];
+  const response = (slug) ? apires('success', slug) : apires('fail', 'Tag not found');
   res.json(response);
 });
 

@@ -2,9 +2,9 @@
 
 title: Focused Biliary Assessment
 collection:
-  - radiology
-  - ultrasound
-  - gastroenterology
+  - Radiology
+  - Ultrasound
+  - Gastroenterology
 tags:
 
 ---

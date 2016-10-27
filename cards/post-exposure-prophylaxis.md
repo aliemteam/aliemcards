@@ -2,7 +2,7 @@
 
 title: Post-Exposure Prophylaxis, non-occupational contact
 collection:
-  - infectious disease
+  - Infectious Disease
 tags:
 
 ---

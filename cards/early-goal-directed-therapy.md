@@ -2,7 +2,7 @@
 
 title: Early Goal Directed Therapy in Sepsis
 collection:
-  - critical care
+  - Critical Care
 tags:
 
 ---

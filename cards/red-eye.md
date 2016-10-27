@@ -2,7 +2,7 @@
 
 title: Red Eye
 collection:
-  - ophthalmology
+  - Ophthalmology
 tags: trifluridine, vidarabine, acyclovir, erythromycin, Azithromycin, timolol, prednisolone, apraclonidine, acetazolamide
 
 ---
