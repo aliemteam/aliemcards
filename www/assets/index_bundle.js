@@ -29650,7 +29650,7 @@
 	        ),
 	        _react2.default.createElement(
 	          'ul',
-	          null,
+	          { className: 'taxonomy-list' },
 	          this.state.category.cards.map(function (card) {
 	            return _react2.default.createElement(
 	              'li',

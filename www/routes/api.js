@@ -39,7 +39,9 @@ router.get('/cards', (req, res) => {
 });
 
 router.get('/cards/:slug', (req, res) => {
-  const cardSummary = cards[req.params.slug.toLowerCase()];
+  const cardSummary = cards.find((card) =>
+    card.slug === req.params.slug.toLowerCase()
+  );
   if (cardSummary) {
     res.sendFile(path.join(store, `${cardSummary.slug}.json`));
   } else {

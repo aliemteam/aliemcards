@@ -26,7 +26,7 @@ class Category extends React.Component {
     return (
       <div>
         <h1>{this.state.category.title}</h1>
-        <ul>
+        <ul className="taxonomy-list">
           {this.state.category.cards.map((card) =>
             <li key={card.slug}>
               <a href={`/categories/${this.state.category.slug}/${card.slug}`}>
