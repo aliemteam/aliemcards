@@ -9,13 +9,20 @@
 const express = require('express');
 const router = express.Router();
 
-// MongooseJS Config
-const config = require('../../config');
+// MongooseJS Config;
+var config = {};
+if (process.env.OPENSHIFT_NODEJS_PORT) {
+  config = { development: { mlaburi: process.env.MLAB_CONNECT_STRING } };
+} else {
+  config = require('../../config');
+}
+
 const mongoose = require('mongoose');
 const Card = require('../../build_db/models/card');
 const Tag = require('../../build_db/models/taxonomy').tag;
 const Category = require('../../build_db/models/taxonomy').category;
 mongoose.Promise = require('bluebird');
+
 mongoose.connect(config.development.mlaburi);
 
 // RESPONSE HELPER
