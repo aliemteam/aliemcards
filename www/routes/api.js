@@ -1,22 +1,22 @@
 /**
-* ALiEM Cards API v 0.1.0
+* ALiEM Cards API v 0.2.0
 *
 * JSON response based on JSend standards: http://labs.omniti.com/labs/jsend
 * http://stackoverflow.com/questions/12806386/standard-json-api-response-format
 *
 **/
-
+// ExpressJS Config
 const express = require('express');
 const router = express.Router();
-const path = require('path');
 
-// get constants
-const C = require('../cons');
-const store = C.CARDS;
-const cards = require(path.join(C.CARDS_META, '/cards'));
-const categories = require(path.join(C.CARDS_META, '/categories'));
-const tags = require(path.join(C.CARDS_META, '/tags'));
-
+// MongooseJS Config
+const config = require('../../config');
+const mongoose = require('mongoose');
+const Card = require('../../build_db/models/card');
+const Tag = require('../../build_db/models/taxonomy').tag;
+const Category = require('../../build_db/models/taxonomy').category;
+mongoose.Promise = require('bluebird');
+mongoose.connect(config.development.mlaburi);
 
 // RESPONSE HELPER
 const apires = function apires(s, d) {
@@ -35,42 +35,96 @@ router.get('/', (req, res) => {
 // CARDS
 
 router.get('/cards', (req, res) => {
-  res.send(apires('success', cards));
+  Card.find().select('slug title').sort({ title: 1 })
+  .exec()
+  .then((cards) => {
+    res.json(apires('success', cards));
+  })
+  .catch((error) => {
+    res.json(apires('fail', `database error: ${error}`));
+  });
 });
 
 router.get('/cards/:slug', (req, res) => {
-  const cardSummary = cards.find((card) =>
-    card.slug === req.params.slug.toLowerCase()
-  );
-  if (cardSummary) {
-    res.sendFile(path.join(store, `${cardSummary.slug}.json`));
-  } else {
-    res.json({ status: 'fail', data: 'Card not found.' });
-  }
+  const searchSlug = req.params.slug;
+  Card.findOne({ slug: searchSlug }).exec()
+  .then((card) => {
+    if (card === null) res('card not found');
+    res.json(apires('success', card));
+  })
+  .catch((error) => {
+    res.json(apires('fail', `database error: ${error}`));
+  });
 });
 
 // CATEGORIES
 
 router.get('/categories', (req, res) => {
-  res.json(apires('success', categories));
+  Category.find().sort({ title: 1 })
+  .exec()
+  .then((cats) => {
+    res.json(apires('success', cats));
+  })
+  .catch((error) => {
+    res.json(apires('fail', `database error: ${error}`));
+  });
 });
 
 router.get('/categories/:slug', (req, res) => {
-  const slug = categories[req.params.slug];
-  const response = (slug) ? apires('success', slug) : apires('fail', 'Category not found');
-  res.json(response);
+  const searchSlug = req.params.slug;
+  const category = {};
+  Category.findOne({ slug: searchSlug })
+  .exec()
+  .then((cat) => {
+    category.title = cat.title;
+    category.slug = cat.slug;
+    return Card.find({ categories: cat.title })
+      .sort({ slug: 1 })
+      .select('slug title')
+      .exec();
+  })
+  .then((cards) => {
+    category.cards = cards;
+    res.json(apires('success', category));
+  })
+  .catch((error) => {
+    res.json(apires('fail', `database error: ${error}`));
+  });
 });
 
 // TAGS
 
 router.get('/tags', (req, res) => {
-  res.json(apires('success', tags));
+  Tag.find().sort({ title: 1 })
+  .exec()
+  .then((tags) => {
+    res.json(apires('success', tags));
+  })
+  .catch((error) => {
+    res.json(apires('fail', `database error: ${error}`));
+  });
 });
 
 router.get('/tags/:slug', (req, res) => {
-  const slug = tags[req.params.slug];
-  const response = (slug) ? apires('success', slug) : apires('fail', 'Tag not found');
-  res.json(response);
+  const searchSlug = req.params.slug;
+  const tag = {};
+  Tag.findOne({ slug: searchSlug })
+  .exec()
+  .then((foundtag) => {
+    tag.title = foundtag.title;
+    tag.slug = foundtag.slug;
+    return Card.find({ tags: foundtag.title })
+      .sort({ title: 1 })
+      .select('slug title')
+      .exec();
+  })
+  .then((cards) => {
+    tag.cards = cards;
+    res.json(apires('success', tag));
+  })
+  .catch((error) => {
+    res.json(apires('fail', `database error: ${error}`));
+  });
 });
 
 module.exports = router;

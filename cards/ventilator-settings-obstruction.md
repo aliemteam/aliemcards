@@ -1,3 +1,13 @@
+---
+
+title: Ventilator Setting for Obstructive Lung Disease
+collection:
+  - Pulmonology
+  - Critical Care
+tags:
+
+---
+
 # Ventilator Setting for Obstructive Lung Disease
 
 **Goal in obstruction** (asthma/COPD): Give the patient time to exhale

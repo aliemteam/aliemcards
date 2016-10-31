@@ -16,6 +16,7 @@ class Cards extends React.Component {
   componentDidMount() {
     axios.get('/api/cards')
       .then(res => {
+        console.log(res);
         if (res.data.status === 'success') {
           this.setState({ cards: res.data.data, filterCards: res.data.data });
         }

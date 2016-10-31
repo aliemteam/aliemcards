@@ -30140,6 +30140,7 @@
 	      var _this2 = this;
 
 	      _axios2.default.get('/api/cards').then(function (res) {
+	        console.log(res);
 	        if (res.data.status === 'success') {
 	          _this2.setState({ cards: res.data.data, filterCards: res.data.data });
 	        }

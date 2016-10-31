@@ -4,6 +4,7 @@ var router = express.Router();
 var compression = require('compression');
 var path = require('path');
 var api = require('./routes/api');
+//var dbapi = require('./routes/dbapi');
 
 // gzip everything
 app.use(compression());
@@ -13,11 +14,11 @@ app.use('/', express.static(__dirname + '/assets'));
 
 // import api routes
 app.use('/api', api);
+//app.use('/dbapi', dbapi);
 
 // all other routes get served this
 app.get('*', function (req, res) {
-  res.sendFile(path.join(__dirname, 'react-app', 'index.html'))
-  //res.send("'ello guvnah.");
+  res.sendFile(path.join(__dirname, 'react-app', 'index.html'));
 })
 
 // run it

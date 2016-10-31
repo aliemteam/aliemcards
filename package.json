@@ -5,7 +5,9 @@
   "main": "./www/server.js",
   "dependencies": {
     "axios": "^0.15.0",
+    "bluebird": "^3.4.6",
     "compression": "^1.6.2",
+    "crypto": "0.0.3",
     "express": "^4.14.0",
     "gulp": "^3.9.1",
     "gulp-debug": "^2.1.2",
@@ -16,6 +18,8 @@
     "gulp-util": "^3.0.7",
     "lodash": "^4.16.1",
     "marked": "^0.3.6",
+    "mongodb": "^2.2.11",
+    "mongoose": "^4.6.5",
     "react": "^15.0.2",
     "react-breadcrumbs": "^1.4.1",
     "react-dom": "^15.0.2",
@@ -46,7 +50,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./www/server.js",
-    "dev": "nodemon ./www/server.js"
+    "dev": "nodemon --harmony ./www/server.js"
   },
   "eslintConfig": {
     "env": {
