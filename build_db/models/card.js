@@ -19,4 +19,6 @@ cardSchema.pre('save', (next) => {
   next();
 });
 
+cardSchema.index({ content: 'text' });
+
 module.exports = mongoose.model('Card', cardSchema);

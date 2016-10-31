@@ -1,24 +1,12 @@
 import React from 'react';
 
-class Empty extends React.Component {
-
-  constructor(props) {
-    super(props);
-  }
-
-  render() {
-    return (
-      <div>{this.props.children}</div>
-    );
-  }
-}
+const Empty = ({ children }) =>
+  <div>{children}</div>;
 
 Empty.propTypes = {
-  props: React.PropTypes.object,
+  children: React.PropTypes.object,
 };
 
-Empty.defaultProps = {
-
-};
+Empty.defaultProps = {};
 
 export default Empty;

@@ -1,12 +1,12 @@
 import React from 'react';
 import axios from 'axios';
 
-class CategoriesList extends React.Component {
+class Categories extends React.Component {
 
   constructor(props) {
     super(props);
     this.state = {
-      categories: {},
+      categories: [],
     };
   }
 
@@ -24,12 +24,8 @@ class CategoriesList extends React.Component {
       <div>
         <h1>Categories</h1>
         <ul className="taxonomy-list">
-          {Object.keys(this.state.categories).map((key) =>
-            <li >
-              <a href={`/categories/${this.state.categories[key].slug}`}>
-                {this.state.categories[key].title}
-              </a>
-            </li>
+          {this.state.categories.map((cat) =>
+            <li><a href={`/categories/${cat.slug}`}>{cat.title}</a></li>
           )}
         </ul>
       </div>
@@ -37,11 +33,10 @@ class CategoriesList extends React.Component {
   }
 }
 
-CategoriesList.propTypes = {
+Categories.propTypes = {
   categories: React.PropTypes.object,
 };
 
-CategoriesList.defaultProps = {
-};
+Categories.defaultProps = {};
 
-export default CategoriesList;
+export default Categories;

@@ -6,7 +6,7 @@ const NavMenu = ({ showNav }) =>
       <li><a href="/cards">Cards</a></li>
       <li><a href="/categories">Categories</a></li>
       <li><a href="/tags">Tags</a></li>
-      <li><a href="/about">About</a></li>
+      <li><a href="/Search">Search</a></li>
     </ul>
   </div>;
 
@@ -14,8 +14,6 @@ NavMenu.propTypes = {
   showNav: React.PropTypes.bool,
 };
 
-NavMenu.defaultProps = {
-
-};
+NavMenu.defaultProps = {};
 
 export default NavMenu;

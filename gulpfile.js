@@ -169,5 +169,7 @@ gulp.task('upload_db', () =>
 );
 
 gulp.task('build_db', ['upload_db'], () => {
+  // ??? Not sure when to close connection!
+  // Can't figure out how to wait for promises from prior task to resovle
   // mongoose.connection.close();
 });

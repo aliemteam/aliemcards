@@ -127,4 +127,19 @@ router.get('/tags/:slug', (req, res) => {
   });
 });
 
+// SEARCH
+
+router.get('/search/:query', (req, res) => {
+  const query = req.params.query;
+  Card.find({ $text: { $search: query } }, { score: { $meta: 'textScore' } })
+  .sort({ score: { $meta: 'textScore' } })
+  .exec()
+  .then((cards) => {
+    res.json(apires('success', cards));
+  })
+  .catch((error) => {
+    res.json(apires('fail', `database error: ${error}`));
+  });
+});
+
 module.exports = router;

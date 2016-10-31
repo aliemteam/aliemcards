@@ -1,9 +1,7 @@
-// <NavDrawer show={this.state.navDrawerOpen} />
 import React from 'react';
 import Breadcrumbs from 'react-breadcrumbs';
 
 import TopBar from './topbar';
-import NavDrawer from './navdrawer';
 
 class Main extends React.Component {
 
@@ -53,5 +51,13 @@ class Main extends React.Component {
     );
   }
 }
+
+Main.propTypes = {
+  routes: React.PropTypes.object,
+  params: React.PropTypes.object,
+  children: React.PropTypes.object,
+};
+
+Main.defaultProps = {};
 
 export default Main;

@@ -33,8 +33,6 @@ TopBar.propTypes = {
   showNav: React.PropTypes.bool,
 };
 
-TopBar.defaultProps = {
-
-};
+TopBar.defaultProps = {};
 
 export default TopBar;

@@ -45,7 +45,6 @@ Category.propTypes = {
   params: React.PropTypes.object,
 };
 
-Category.defaultProps = {
-};
+Category.defaultProps = {};
 
 export default Category;

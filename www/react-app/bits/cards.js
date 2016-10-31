@@ -76,12 +76,8 @@ class Cards extends React.Component {
   }
 }
 
-Cards.propTypes = {
+Cards.propTypes = {};
 
-};
-
-Cards.defaultProps = {
-
-};
+Cards.defaultProps = {};
 
 export default Cards;

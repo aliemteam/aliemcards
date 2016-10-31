@@ -1,17 +1,11 @@
 import React from 'react';
-import Cards from './cards';
+import Search from './search';
 
-class Home extends React.Component {
-  render() {
-    return (
-      <div>
-        <h1>Welcome</h1>
-        <p>This is where all the ALiEM Cards live. Formerly the PV Cards.</p>
-        <Cards />
-      </div>
-
-    );
-  }
-}
+const Home = () =>
+  <div>
+    <h1>Welcome</h1>
+    <p>This is where all the ALiEM Cards live. Formerly the PV Cards.</p>
+    <Search />
+  </div>;
 
 export default Home;

@@ -8,11 +8,12 @@ import Main from './bits/main';
 import Home from './bits/home';
 import Empty from './bits/empty';
 import Cards from './bits/cards';
-import CardContainer from './bits/card-container';
+import Card from './bits/card';
 import Category from './bits/category';
 import Categories from './bits/categories';
-import TagsContainer from './bits/tags-container';
-import TagContainer from './bits/tag-container';
+import Tags from './bits/tags';
+import Tag from './bits/tag';
+import Search from './bits/search';
 
 
 injectTapEventPlugin();
@@ -24,25 +25,27 @@ ReactDOM.render((
 
       <Route name="Cards" path="/cards">
         <IndexRoute component={Cards} />
-        <Route name="Card" path=":slug" component={CardContainer} />
+        <Route name="Card" path=":slug" component={Card} />
       </Route>
-      <Route name="Card" path="/cards/:slug" component={CardContainer} />
+      <Route name="Card" path="/cards/:slug" component={Card} />
 
       <Route name="Categories" path="/categories">
         <IndexRoute component={Categories} />
         <Route name="Category" path=":catslug" component={Empty}>
           <IndexRoute component={Category} />
-          <Route name="CatCard" path=":slug" component={CardContainer} />
+          <Route name="CatCard" path=":slug" component={Card} />
         </Route>
       </Route>
 
       <Route name="Tags" path="/tags" >
-        <IndexRoute component={TagsContainer} />
+        <IndexRoute component={Tags} />
         <Route name="Tag" path=":tagslug" component={Empty}>
-          <IndexRoute component={TagContainer} />
-          <Route name="Card" path=":slug" component={CardContainer} />
+          <IndexRoute component={Tag} />
+          <Route name="Card" path=":slug" component={Card} />
         </Route>
       </Route>
+
+      <Route name="Search" path="/search" component={Search} />
 
       <Route name="Not Found" path="*" component={NotFound} />
     </Route>
