@@ -50,7 +50,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./www/server.js",
-    "dev": "nodemon --harmony ./www/server.js"
+    "dev": "nodemon ./www/server.js"
   },
   "eslintConfig": {
     "env": {
