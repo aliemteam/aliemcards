@@ -2,7 +2,7 @@ const path = require('path');
 const webpack = require('webpack');
 
 module.exports = {
-  context: path.resolve(__dirname, 'www', 'react-app'),
+  context: path.resolve(__dirname, 'www', 'client'),
   // devtool: 'eval-source-map',
   entry: {
     javascript: './index.js',
@@ -15,7 +15,7 @@ module.exports = {
     loaders: [
       {
         test: /\.js$/,
-        include: path.resolve(__dirname, 'www', 'react-app'),
+        include: path.resolve(__dirname, 'www', 'client'),
         loader: 'babel',
         query: {
           presets: ['es2015', 'react'],

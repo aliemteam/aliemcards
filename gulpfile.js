@@ -50,7 +50,7 @@ const slugify = function slugify(text) {
 
 // ////////////////////////////////////
 // MLAB DATABASE BUILD build_db
-// gulp build_db --gulpfile gulpfile-db.js
+// gulp build_db
 // ////////////////////////////////////
 
 gulp.task('upload_db', () =>

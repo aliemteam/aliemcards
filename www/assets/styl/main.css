@@ -600,6 +600,7 @@ li {
 .content {
   font-size: 1.6rem;
   line-height: 2.6rem;
+  min-height: 100%;
 }
 .content h1 {
   padding: 1rem;
@@ -692,11 +693,26 @@ li {
   }
 }
 .foot {
+  position: absolute;
+  bottom: 0;
+  height: 20rem;
+  width: 100%;
   background-color: #706d6e;
   color: #fff;
   min-height: 20rem;
   padding: 2rem;
   margin-top: 10rem;
+}
+html {
+  height: 100%;
+}
+body {
+  position: relative;
+  min-height: 100%;
+}
+.main {
+  padding-bottom: 25rem;
+  height: 100%;
 }
 .content {
   position: relative;

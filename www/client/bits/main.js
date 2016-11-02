@@ -31,7 +31,7 @@ class Main extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="main">
         <TopBar
           title="ALiEM Cards"
           events={this.reducer.bind(this)}
