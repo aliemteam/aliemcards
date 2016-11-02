@@ -1,7 +1,7 @@
 import React from 'react';
 import Breadcrumbs from 'react-breadcrumbs';
-
 import TopBar from './topbar';
+import Footer from './footer';
 
 class Main extends React.Component {
 
@@ -47,13 +47,14 @@ class Main extends React.Component {
           />
           <div>{this.props.children}</div>
         </div>
+        <Footer />
       </div>
     );
   }
 }
 
 Main.propTypes = {
-  routes: React.PropTypes.object,
+  routes: React.PropTypes.array,
   params: React.PropTypes.object,
   children: React.PropTypes.object,
 };

@@ -1,5 +1,6 @@
 import React from 'react';
 import axios from 'axios';
+import Loader from './Loader';
 
 class Categories extends React.Component {
 
@@ -7,31 +8,38 @@ class Categories extends React.Component {
     super(props);
     this.state = {
       categories: [],
+      loading: true,
     };
   }
 
   componentDidMount() {
+    console.log('compontent mount');
     axios.get('/api/categories')
       .then(res => {
+        console.log(res.data);
         if (res.data.status === 'success') {
-          this.setState({ categories: res.data.data });
+          this.setState({ categories: res.data.data, loading: false });
         }
-      });
+      })
+      .catch((error) => console.log(error));
   }
 
   render() {
     return (
       <div>
         <h1>Categories</h1>
-        <ul className="taxonomy-list">
-          {this.state.categories.map((cat) =>
-            <li><a href={`/categories/${cat.slug}`}>{cat.title}</a></li>
-          )}
-        </ul>
+        {this.state.loading ? <Loader /> : <Results cats={this.state.categories} />}
       </div>
     );
   }
 }
+
+const Results = ({ cats }) =>
+  <ul className="taxonomy-list">
+    {cats.map((cat) =>
+      <li><a href={`/categories/${cat.slug}`}>{cat.title}</a></li>
+    )}
+  </ul>;
 
 Categories.propTypes = {
   categories: React.PropTypes.object,

@@ -8,6 +8,8 @@
 @import "navmenu"
 @import "breadcrumbs"
 @import "cards"
+@import "search"
+@import "footer"
 
 .content
   position: relative
@@ -26,13 +28,11 @@
     display: block
 
     a
-      color: dark-shade
+      color: white
       text-decoration: none
-
 
     a:hover
       color: aliem-green
-
 
 @media (min-width: 750px)
   .taxonomy-list
@@ -47,6 +47,23 @@
 
     li:nth-child(3n+4)
       clear: left
+
+.loader
+  background-color: aliem-green
+  width: 100%
+  height: 100%
+  padding: 3rem
+  color: white
+  font-size: 8rem
+
+  i
+    font-size: 10rem
+    animation: spin 1s infinite
+
+@keyframes spin {
+  0% { transform: rotate(0deg) }
+  100% { transform: rotate(360deg) }
+}
 
 
 /* Normalize

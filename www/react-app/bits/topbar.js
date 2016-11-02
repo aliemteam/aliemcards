@@ -1,6 +1,7 @@
 import React from 'react';
 
 import NavMenu from './navmenu';
+import Search from './search';
 
 class TopBar extends React.Component {
 
@@ -22,6 +23,7 @@ class TopBar extends React.Component {
           <h1><a href="/">{this.props.title}</a></h1>
         </div>
         <NavMenu showNav={this.props.showNav} />
+        <Search />
       </div>
     );
   }

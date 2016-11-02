@@ -437,11 +437,10 @@ li {
 #header {
   position: relative;
   width: 100%;
-  height: 8rem;
+  height: 6rem;
   padding: 1rem;
   background-color: #f2f2f2;
   color: #706d6e;
-  border-top: 2rem #00b092 solid;
 }
 #header h1 {
   display: inline-block;
@@ -455,7 +454,7 @@ li {
   color: #706d6e;
 }
 .has-header {
-  padding-top: 8rem;
+  padding-top: 6rem;
 }
 #navtoggle {
   float: right;
@@ -464,7 +463,7 @@ li {
 }
 #navdrawer {
   position: absolute;
-  top: 8rem;
+  top: 6rem;
   z-index: 10;
   width: 100%;
   background-color: #f2f2f2;
@@ -531,7 +530,7 @@ li {
 #navmenu {
   position: absolute;
   z-index: 10;
-  top: 8rem;
+  top: 6rem;
   width: 100%;
   background-color: #f2f2f2;
   text-align: center;
@@ -558,7 +557,7 @@ li {
     display: none;
   }
   #navmenu {
-    top: 3rem;
+    top: 1.5rem;
     right: 0;
     width: 50%;
     background-color: transparent;
@@ -644,6 +643,61 @@ li {
 #references + ul a {
   text-decoration: none;
 }
+.searchbox {
+  position: relative;
+  width: 100%;
+  color: #fff;
+  background-color: #00b092;
+  border-bottom: 1px solid #00b092;
+  padding: 1rem;
+  text-align: center;
+}
+.searchbox label {
+  float: left;
+  padding-top: 1rem;
+  margin-bottom: 0;
+  font-size: 2rem;
+}
+.searchbox input {
+  margin-top: 0rem;
+  font-size: 2rem;
+  width: 90%;
+  outline: none;
+  color: #706d6e;
+}
+.searchbox input:focus {
+  border: none;
+  outline: none;
+}
+.search-list {
+  margin-top: 1em;
+}
+.search-list li {
+  list-style: none;
+  color: #fff;
+  padding: 0.5rem 0;
+  font-weight: bold;
+  display: block;
+}
+.search-list li a {
+  color: #fff;
+  text-decoration: none;
+}
+.search-list li a:hover {
+  text-decoration: underline;
+}
+@media (min-width: 750px) {
+  .searchbox {
+    padding: 1rem 12.5%;
+  }
+}
+.foot {
+  background-color: #706d6e;
+  color: #fff;
+  min-height: 20rem;
+  padding: 2rem;
+  margin-top: 10rem;
+}
 .content {
   position: relative;
 }
@@ -661,7 +715,7 @@ li {
 }
 .cards-list li a,
 .taxonomy-list li a {
-  color: #706d6e;
+  color: #fff;
   text-decoration: none;
 }
 .cards-list li a:hover,
@@ -680,6 +734,18 @@ li {
     clear: left;
   }
 }
+.loader {
+  background-color: #00b092;
+  width: 100%;
+  height: 100%;
+  padding: 3rem;
+  color: #fff;
+  font-size: 8rem;
+}
+.loader i {
+  font-size: 10rem;
+  animation: spin 1s infinite;
+}
 /* Normalize
 -----------------------------------------*/
 div,
@@ -688,4 +754,36 @@ article,
 ul,
 table {
   box-sizing: border-box;
+}
+@-moz-keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-o-keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
