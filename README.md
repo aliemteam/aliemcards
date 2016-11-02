@@ -30,10 +30,51 @@ tags: acetaminophen, NAQ
 ---
 ```
 
-## Compiling Cards
+### Adding Cards to Database
 
-The markdown cards are compiled to various formats as necessary using Gulp. The ```gulpfile.js``` script includes various functions for compilation into ```.json```, ```html```, or other formats.
+The cards are processed using [Gulp](http://gulpjs.com). There is a ```gulpfile.js``` in the main directory contains the code to run this task. It is run from the command line via ```gulp build_db```.
 
+The gulp task runs through each markdown file, processes the frontmatter and then uploads new cards, and updates changed cards in a [Mongo database](https://www.mongodb.com). The database is hosted on [MLab](https://mlab.com)'s free tier. Communication from the script to the database is via the [Mongoose](http://mongoosejs.com) ORM.
+
+Configuration and authentication information is stored in a ```config.js``` file that is not uploaded to the GitHub repository for security reasons. These details need to be added to OpenShift as custom environmental variables - more below.
+
+
+## ALiEM Cards Website
+
+The ```www``` folder contains files for the website.
+
+### Frontend
+
+The ```client``` folder contains the necessary pieces for a [ReactJS](https://facebook.github.io/react/)-based frontend. This is a simple [ReactJS](https://facebook.github.io/react/) website that makes ajax calls to the API - documented below.
+
+The ```assets``` folder contains static assets, e.g. images, css files, etc. CSS from the site is based on the simple and barebones [Skeleton Framework](https://skeleton-framework.github.io). Various components have been broken out, and [Stylus](http://stylus-lang.com) is used as a CSS pre-processor.
+
+### Backend
+
+The ```server.js``` file contains the primary backend file for the website. It is built using [ExpressJS](https://expressjs.com) to handle routing. Routes specific to the API live in the ```routes/api.js``` file.
+
+The backend is configured to serve the ```index.html``` to all routes not matching any of the patterns listed ahead of it in the main ```server.js``` file. This is necessary for clean URIs using [React Router](https://github.com/reactjs/react-router-tutorial).
+
+It is also configured with OpenShift environmental variables as defaults for launching the server so it works when deployed or on a development machine.
+
+### OpenShift
+
+The website is hosted on the [OpenShift](https://www.openshift.com) free tier. This hosting platform allows deployment via git. Management is done via their command-line tool.
+
+```
+rhc ssh aliemcards
+```
+
+This command will provide shell access to the serve.
+
+As mentioned above, [custom environmental variables](https://developers.openshift.com/managing-your-applications/environment-variables.html#custom-variables) must b
+e configured for the database authentication to work properly. The only custom variable in the app is ```MLAB_CONNECT_STRING```.
+
+OpenShift has been added to the git repository as another remote, in this case titled ```openshift```. After updates are made to the main respository, changes can be pushed via:
+
+```
+git push openshift HEAD
+```
 
 ## API Documentation
 
@@ -70,13 +111,13 @@ fail    | Back-end failure, e.g. unable to find specific card slug. Data contain
 
 Method  | URL               | Action                                    | Return
 --------|-------------------|-------------------------------------------|-------
-GET     | /cards            | Retrieve all cards.                       | Object with arrays of card_summary objects indexed by card slug
-GET     | /cards/:slug      | Retrieve card with specific slug.         | card object
-GET     | /categories       | Retrieve all categories and their cards.  | Object with `title`, `slug` and `cards` properties indexed by slug
-GET     | /categories/:slug | Retrieve all cards in specific category.  | Object with `title`, Array of card_summary objects
-GET     | /search/:term     | Retrieve cards based on search term.      |
-GET     | /tags             | Retrieve all tags and their cards.        | Object with arrays of card_summary objects indexed by slug
-GET     | /tags/:slug       | Retrieve all cards with specific tag      | Array of card_summary objects
+GET     | /cards            | Retrieve all cards.                       | Array of card_summary objects
+GET     | /cards/:slug      | Retrieve card with specific slug.         | Card object
+GET     | /categories       | Retrieve all categories                   | Array of category objects
+GET     | /categories/:slug | Retrieve all cards in specific category.  | Object with `title`, `slug` and array of card_summary objects
+GET     | /search/:term     | Retrieve cards based on search term.      | Array of card objects
+GET     | /tags             | Retrieve all tags                         | Array of tag objects
+GET     | /tags/:slug       | Retrieve all cards with specific tag      | Object with `title`, `slug` and array of card_summary objects
 
 **card object**:
 ```
@@ -100,22 +141,24 @@ GET     | /tags/:slug       | Retrieve all cards with specific tag      | Array 
 }
 ```
 
-**indexed object with arrays of card_summary objects**
+**Object with arrays of card_summary objects**
 ```
 {
-  "ibuprofen": {
-      "title": "Ibuprofen",
-      "slug": "ibuprofen",
-      "cards": [{
-          "slug": "nsaid-gi-bleed",
-          "title": "NSAIDs and Upper GI Bleed"
-      }, {
-          "slug": "pain-management",
-          "title": "Initial Pain Management Options"
-      }, {
-          "slug": "urine-tox-screen",
-          "title": "Urine Toxicology Screen"
-      }]
+"status": "success",
+"data": {
+  "title": "midazolam",
+  "slug": "midazolam",
+  "cards": [
+    {
+      "_id": "5813da8dac961c3b6f5683d3",
+      "title": "Benzodiazepines Metabolism by the Liver",
+      "slug": "benzo-metabolism"
+    },
+    {
+      "_id": "5813da8dac961c3b6f5683ce",
+      "title": "Chemical Sedation - Haldol vs Ativan vs Versed",
+      "slug": "ativan-vs-haldol"
+    },
   }
 }
 ```

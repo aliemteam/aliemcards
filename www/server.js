@@ -16,7 +16,7 @@ app.use('/api', api);
 
 // all other routes get served this
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'react-app', 'index.html'));
+  res.sendFile(path.join(__dirname, 'client', 'index.html'));
 });
 
 // run it
