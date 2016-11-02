@@ -2,6 +2,12 @@
 
 This repository contains the original markdown source for all the ALIEM Cards as well as the simple API providing the cards to a ReactJS frontend website.
 
+**Contents**
+
+1. [Card Format](#card-format)
+2. [Website Build Details](#aliem-cards-website)
+3. [API Documentation](#api-documentation)
+
 ## Card Format
 
 Cards are formatted in [Github-Flavored Markdown](https://guides.github.com/features/mastering-markdown/). They include [YAML](http://www.yaml.org) front matter, similar to [Jekyll](https://jekyllrb.com/docs/frontmatter/).
@@ -34,7 +40,9 @@ tags: acetaminophen, NAQ
 
 The cards are processed using [Gulp](http://gulpjs.com). There is a `gulpfile.js` in the main directory contains the code to run this task. It is run from the command line via `gulp build_db`.
 
-The gulp task runs through each markdown file, processes the frontmatter and then uploads new cards, and updates changed cards in a [Mongo database](https://www.mongodb.com). The database is hosted on [MLab](https://mlab.com)'s free tier. Communication from the script to the database is via the [Mongoose](http://mongoosejs.com) ORM.
+The gulp task runs through each markdown file, processes the frontmatter and then uploads new cards, and updates changed cards in a [Mongo database](https://www.mongodb.com). The database is hosted on [MLab](https://mlab.com)'s free tier.
+
+Communication from the script to the database is via the [Mongoose](http://mongoosejs.com) ORM. The necessary `Schema` files for both `gulpfile.js` build and then `api.js` server are in the `build_db` folder.
 
 Configuration and authentication information is stored in a `config.js` file that is not uploaded to the GitHub repository for security reasons. These details need to be added to OpenShift as custom environmental variables - more below.
 
