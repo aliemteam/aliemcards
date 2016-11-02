@@ -1,5 +1,4 @@
 import React from 'react';
-import Search from './search';
 
 const Home = () =>
   <div>

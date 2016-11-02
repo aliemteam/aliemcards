@@ -8,11 +8,10 @@ const api = require('./routes/api');
 app.use(compression());
 
 // serve static files
-app.use('/', express.static(path.join(__dirname, '/assets')));
+app.use('/', express.static(path.join(__dirname, 'assets')));
 
 // import api routes
 app.use('/api', api);
-
 
 // all other routes get served this
 app.get('*', (req, res) => {
@@ -20,6 +19,7 @@ app.get('*', (req, res) => {
 });
 
 // run it
+// use OpenShift environmental variables, or set development defaults
 const serverPort = process.env.OPENSHIFT_NODEJS_PORT || 3000;
 const serverIpAddress = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1';
 

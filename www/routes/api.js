@@ -26,12 +26,7 @@ mongoose.Promise = require('bluebird');
 mongoose.connect(config.development.mlaburi);
 
 // RESPONSE HELPER
-const apires = function apires(s, d) {
-  return {
-    status: s,
-    data: d,
-  };
-};
+const apires = (s, d) => ({ status: s, data: d });
 
 // INDEX
 
@@ -56,8 +51,11 @@ router.get('/cards/:slug', (req, res) => {
   const searchSlug = req.params.slug;
   Card.findOne({ slug: searchSlug }).exec()
   .then((card) => {
-    if (card === null) res('card not found');
-    res.json(apires('success', card));
+    if (card) {
+      res.json(apires('success', card));
+    } else {
+      res.json(apires('fail', 'card not found'));
+    }
   })
   .catch((error) => {
     res.json(apires('fail', `database error: ${error}`));
