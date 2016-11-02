@@ -12,6 +12,18 @@ This repository contains the original markdown source for all the ALIEM Cards as
 
 Cards are formatted in [Github-Flavored Markdown](https://guides.github.com/features/mastering-markdown/). They include [YAML](http://www.yaml.org) front matter, similar to [Jekyll](https://jekyllrb.com/docs/frontmatter/).
 
+### The Slug
+
+The **slug** is how the card is identified in the URL and how cards are found in the database. The **slug** for each card is based on the markdown file name, with the `.md` extension removed.
+
+Each filename must:
+
+1. be unique
+2. contain no spaces
+3. be descriptive
+
+Consider merely naming the file based on the title of the card in most cases.
+
 ### Front Matter
 
 The front matter is a simple [YAML](http://www.yaml.org) block beginning and ending with three tick marks: `---`.
@@ -121,9 +133,9 @@ Method  | URL               | Action                                    | Return
 GET     | /cards            | Retrieve all cards.                       | Array of card_summary objects
 GET     | /cards/:slug      | Retrieve card with specific slug.         | Card object
 GET     | /categories       | Retrieve all categories                   | Array of category objects
-GET     | /categories/:slug | Retrieve all cards in specific category.  | Object with `title`, `slug` and array of card_summary objects
+GET     | /categories/:slug | Retrieve all cards in specific category.  | Object with `title`, `slug` for the category and array of card_summary objects
 GET     | /tags             | Retrieve all tags                         | Array of tag objects
-GET     | /tags/:slug       | Retrieve all cards with specific tag      | Object with `title`, `slug` and array of card_summary objects
+GET     | /tags/:slug       | Retrieve all cards with specific tag      | Object with `title`, `slug` for the tag and array of card_summary objects
 GET     | /search/:term     | Retrieve cards based on search term.      | Array of card objects
 
 **card object**:
