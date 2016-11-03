@@ -56,7 +56,7 @@ The gulp task runs through each markdown file, processes the frontmatter and the
 
 Communication from the script to the database is via the [Mongoose](http://mongoosejs.com) ORM. The necessary `Schema` files for both `gulpfile.js` build and then `api.js` server are in the `build_db` folder.
 
-Configuration and authentication information is stored in a `config.js` file that is not uploaded to the GitHub repository for security reasons. These details need to be added to OpenShift as custom environmental variables - more below.
+Configuration and authentication information is stored in a `.env` file that is not uploaded to the GitHub repository for security reasons. Using the [dotenv](https://www.npmjs.com/package/dotenv) package these variables are available throughout the app. These details also need to be added to OpenShift as custom environmental variables - more below.
 
 
 ## ALiEM Cards Website
@@ -87,9 +87,9 @@ This command will provide shell access to the server console:
 rhc ssh aliemcards
 ```
 
-As mentioned above, [custom environmental variables](https://developers.openshift.com/managing-your-applications/environment-variables.html#custom-variables) must be configured for the database authentication to work properly. The only custom variable in the app is ```MLAB_CONNECT_STRING```.
+As mentioned above, [custom environmental variables](https://developers.openshift.com/managing-your-applications/environment-variables.html#custom-variables) must be configured for the database authentication to work properly. The only custom variable in the app is `MLAB_CONNECT_STRING`.
 
-OpenShift has been added to the git repository as another remote, in this case titled ```openshift```. After updates are made to the main respository, changes can be pushed via:
+OpenShift has been added to the git repository as another remote, in this case titled `openshift`. After updates are made to the main respository, changes can be pushed via:
 
 ```
 git push openshift HEAD

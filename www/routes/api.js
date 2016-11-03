@@ -5,17 +5,17 @@
 * http://stackoverflow.com/questions/12806386/standard-json-api-response-format
 *
 **/
+// Get environemental variables
+require('dotenv').config();
+
 // ExpressJS Config
 const express = require('express');
 const router = express.Router();
 
-// MongooseJS Config;
-var config = {};
-if (process.env.OPENSHIFT_NODEJS_PORT) {
-  config = { development: { mlaburi: process.env.MLAB_CONNECT_STRING } };
-} else {
-  config = require('../../config');
-}
+// MongooseJS Config
+// first variable is the OpenShift custom variable, second is the dev default
+const mlaburi = process.env.MLAB_CONNECT_STRING || process.env.MLAB_URI;
+
 
 const mongoose = require('mongoose');
 const Card = require('../../build_db/models/card');
@@ -23,7 +23,7 @@ const Tag = require('../../build_db/models/taxonomy').tag;
 const Category = require('../../build_db/models/taxonomy').category;
 mongoose.Promise = require('bluebird');
 
-mongoose.connect(config.development.mlaburi);
+mongoose.connect(mlaburi);
 
 // RESPONSE HELPER
 const apires = (s, d) => ({ status: s, data: d });
@@ -37,7 +37,9 @@ router.get('/', (req, res) => {
 // CARDS
 
 router.get('/cards', (req, res) => {
-  Card.find().select('slug title categories').sort({ title: 1 })
+  Card.find()
+  .select('slug title categories')
+  .sort({ title: 1 })
   .exec()
   .then((cards) => {
     res.json(apires('success', cards));

@@ -1,5 +1,6 @@
 /* Typography
 -----------------------------------------------------*/
+
 font-stack = "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif
 font-stack-serif = Georgia, Times, "Times New Roman", serif;
 
@@ -8,29 +9,64 @@ body
   line-height: 1.6
   font-weight: 400
   font-family: font-stack
-  color: #222;
+  color: #222
 
 h1, h2, h3, h4, h5, h6
   margin-top: 0
   margin-bottom: 2rem
   font-weight: 700
 
-h1 { font-size: 3.0rem; line-height: 1.2;  letter-spacing: -.1rem;}
-h2 { font-size: 2.8rem; line-height: 1.25; letter-spacing: -.1rem; }
-h3 { font-size: 2.4rem; line-height: 1.3;  letter-spacing: -.1rem; }
-h4 { font-size: 2.4rem; line-height: 1.35; letter-spacing: -.08rem; }
-h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
-h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
+h1
+  font-size: 3.0rem
+  line-height: 1.2
+  letter-spacing: -.1rem
+  padding: 1rem
+  background-color: light-shade
+  border-radius: 2px
+  border-bottom: 5px solid aliem-green
 
-/* Larger than phablet */
-@media (min-width: 550px) {
-  h1 { font-size: 4.5rem; }
-  h2 { font-size: 3.8rem; }
-  h3 { font-size: 3.6rem; }
-  h4 { font-size: 3.0rem; }
-  h5 { font-size: 2.4rem; }
-  h6 { font-size: 1.5rem; }
-}
+h2
+  // font-size: 2.8rem
+  line-height: 1.25
+  letter-spacing: -.1rem
+  font-size: 3.2rem
+  border-bottom: 1px solid dark-shade
 
-p {
-  margin-top: 0; }
+h3
+  font-size: 2.4rem
+  line-height: 1.3
+  letter-spacing: -.1rem
+
+h4
+  font-size: 2.4rem
+  line-height: 1.35
+  letter-spacing: -.08rem
+
+h5
+  font-size: 1.8rem
+  line-height: 1.5
+  letter-spacing: -.05rem
+
+h6
+  font-size: 1.5rem
+  line-height: 1.6
+  letter-spacing: 0
+
+/* Larger than mobile */
+@media (min-width: 750px)
+  h1
+    font-size: 4.5rem
+  h2
+    font-size: 3.8rem
+  h3
+    font-size: 3.6rem
+  h4
+    font-size: 3.0rem
+  h5
+    font-size: 2.4rem
+  h6
+    font-size: 1.5rem
+
+
+p
+  margin-top: 0
