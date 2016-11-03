@@ -3,7 +3,7 @@
 ## Frontend
 
 - alphabetical rows is counterintuitive
-- border-radius add
+X border-radius add
 - back button
 
 ## Backend

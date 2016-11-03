@@ -20,7 +20,9 @@ class TopBar extends React.Component {
       <div>
         <div id="header">
           <a onClick={this.toggleNavTap} id="navtoggle" ><i className="material-icons">menu</i></a>
-          <h1><a href="/">{this.props.title}</a></h1>
+          <a href="/">
+            <img src="/images/aliem-cards-logo-horizontal.svg" alt={this.props.title} />
+          </a>
         </div>
         <NavMenu showNav={this.props.showNav} />
         <Search />

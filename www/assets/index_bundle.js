@@ -27802,13 +27802,9 @@
 	            )
 	          ),
 	          _react2.default.createElement(
-	            'h1',
-	            null,
-	            _react2.default.createElement(
-	              'a',
-	              { href: '/' },
-	              this.props.title
-	            )
+	            'a',
+	            { href: '/' },
+	            _react2.default.createElement('img', { src: '/images/aliem-cards-logo-horizontal.svg', alt: this.props.title })
 	          )
 	        ),
 	        _react2.default.createElement(_navmenu2.default, { showNav: this.props.showNav }),

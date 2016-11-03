@@ -449,6 +449,9 @@ li {
   background-color: #f2f2f2;
   color: #706d6e;
 }
+#header img {
+  max-height: 40px;
+}
 #header h1 {
   display: inline-block;
   font-size: 3rem;
@@ -525,7 +528,6 @@ li {
   }
   #navmenu a:hover {
     background-color: transparent;
-    border-bottom: 5px solid #00b092;
   }
   .navopen,
   .navclosed {
@@ -577,9 +579,10 @@ li {
   margin-bottom: 0;
 }
 .searchbox label {
-  float: left;
-  padding-top: 1rem;
-  margin-bottom: 0;
+  display: inline;
+  padding: 0 1rem 0 0;
+  position: relative;
+  top: 0.5rem;
   font-size: 2rem;
 }
 .searchbox input {
