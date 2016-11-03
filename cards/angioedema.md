@@ -3,7 +3,7 @@
 title: Angioedema
 collection:
   - Allergy-Immunology
-tags: ACE inhibitor,
+tags: ACE inhibitor
 
 ---
 

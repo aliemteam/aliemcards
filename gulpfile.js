@@ -58,7 +58,7 @@ gulp.task('upload_db', () =>
   // .pipe(debug({ title: 'build_db:' }))
 
   // add hash to file object
-  .pipe(through.obj((file, enc, callback) => {
+  .pipe(through.obj(function(file, enc, callback) {
     const refile = file;
     refile.hash = checksum(file.contents);
     this.push(refile);
@@ -69,7 +69,7 @@ gulp.task('upload_db', () =>
   .pipe(fm({ property: 'meta', remove: true }))
 
   // Process card, add to dbase if new or updated
-  .pipe(through.obj((file, enc, callback) => {
+  .pipe(through.obj(function(file, enc, callback) {
     // filename minus .md extension
     const cardSlug = file.relative.split('.')[0].toLowerCase();
     const splitTags = (file.meta.tags) ? file.meta.tags.split(', ') : null;
