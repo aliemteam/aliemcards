@@ -5,10 +5,12 @@ class Cards extends React.Component {
 
   constructor(props) {
     super(props);
-    this.onChange = this.onChange.bind(this);
+    this.onSearchChange = this.onSearchChange.bind(this);
+    this.onSelectChange = this.onSelectChange.bind(this);
     this.filterCards = this.filterCards.bind(this);
     this.state = {
       cards: [],
+      categories: [],
       filterCards: [],
     };
   }
@@ -21,9 +23,18 @@ class Cards extends React.Component {
           this.setState({ cards: res.data.data, filterCards: res.data.data });
         }
       });
+
+    axios.get('/api/categories')
+      .then(res => {
+        console.log(res.data);
+        if (res.data.status === 'success') {
+          this.setState({ categories: res.data.data, loading: false });
+        }
+      })
+      .catch((error) => console.log(error));
   }
 
-  onChange(e) {
+  onSearchChange(e) {
     this.setState({ filterCards: this.filterCards(e.target.value) });
   }
 
@@ -36,22 +47,18 @@ class Cards extends React.Component {
         && card.title.toString().toLowerCase().search(inputValue) > -1)
       {
         return true;
-      } else {
-        return false;
       }
+      return false;
     });
   }
 
-  slugify(text) {
-    return text
-    .toString()
-    .trim()
-    .toLowerCase()
-    .replace(/\s+/g, '-')
-    .replace(/[^\w\-]+/g, '')
-    .replace(/\-\-+/g, '-')
-    .replace(/^-+/, '')
-    .replace(/-+$/, '');
+  onSelectChange(e) {
+    this.setState({ filterCards: this.selectFilterCards(e.target.value) });
+  }
+
+  selectFilterCards(cat) {
+    if (cat === '') return this.state.cards;
+    return this.state.cards.filter((card) => card.categories.includes(cat));
   }
 
   render() {
@@ -59,15 +66,23 @@ class Cards extends React.Component {
       <div>
         <h1>Cards</h1>
         <form>
-          <label>Filter by Title:</label>
-          <input type="text" onChange={this.onChange} />
+          <label>Filter by Category:</label>
+          <select name="category" onChange={this.onSelectChange}>
+            <option value="">** All Cards **</option>
+            {this.state.categories.map((cat) =>
+              <option value={cat.slug}>{cat.title}</option>
+            )}
+          </select>
         </form>
         <ul className="cards-list">
           {this.state.filterCards.map((card) =>
-            <li >
-              <a href={`/cards/${card.slug}`}>
-                {card.title}
-              </a>
+            <li key={card.slug}>
+              <a href={`/cards/${card.slug}`}>{card.title}</a>
+              <span className="metadata">
+                {card.categories.map((cat) =>
+                  <a href={`/categories/${cat}`}>{cat}</a>
+                )}
+              </span>
             </li>
           )}
         </ul>

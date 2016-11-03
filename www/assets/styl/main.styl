@@ -45,11 +45,11 @@ body
     a:hover
       color: aliem-green
 
+    .metadata
+      display: none
+
 @media (min-width: 750px)
   .taxonomy-list
-    ul
-
-
     li
       box-sizing: border-box
       float: left
@@ -58,6 +58,18 @@ body
 
     li:nth-child(3n+4)
       clear: left
+
+  .cards-list
+    li
+      .metadata
+        display: inline
+        font-size: 1rem
+        margin-left: 2rem
+
+        a
+          margin-right: 1rem
+          background-color: light-shade
+          padding: 0.5rem 1rem
 
 .loader
   background-color: aliem-green

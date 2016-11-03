@@ -10,3 +10,4 @@
 
 - gulpfile tag/category processing does not remove empty headings already in dbase
 - API needs tokenization and authorization based access
+X Search is not predictive on partial words

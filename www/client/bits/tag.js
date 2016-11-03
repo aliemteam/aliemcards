@@ -15,8 +15,12 @@ class Tag extends React.Component {
   componentDidMount() {
     axios.get(`/api/tags/${this.props.params.tagslug}`)
       .then(res => {
+        console.log(res.data.data);
         if (res.data.status === 'success') {
-          this.setState({ tag: res.data.data });
+          console.log(this.state);
+          try { this.setState({ tag: res.data.data }); }
+          catch(error) { console.log(error) };
+          console.log(this.state);
         }
       });
   }
@@ -25,10 +29,15 @@ class Tag extends React.Component {
     return (
       <div>
         <h1>{this.state.tag.title}</h1>
-        <ul className="taxonomy-list">
+        <ul className="cards-list">
           {this.state.tag.cards.map((card) =>
             <li key={card.slug}>
               <a href={`/tags/${this.state.tag.slug}/${card.slug}`}>{card.title}</a>
+              <span className="metadata">
+                {card.categories.map((cat) =>
+                  <a href={`/categories/${cat}`}>{cat}</a>
+                )}
+              </span>
             </li>
           )}
         </ul>

@@ -5,6 +5,7 @@ const through = require('through2');
 const fm = require('gulp-front-matter');
 const marked = require('marked');
 const crypto = require('crypto');
+const slug = require('slug');
 
 const config = require('./config');
 const mongoose = require('mongoose');
@@ -36,7 +37,7 @@ const checksum = function checksum(str, algorithm, encoding) {
 };
 
 // Slugify
-const slugify = function slugify(text) {
+const old_slugify = function slugify(text) {
   return text
   .toString()
   .trim()
@@ -73,11 +74,13 @@ gulp.task('upload_db', () =>
     // filename minus .md extension
     const cardSlug = file.relative.split('.')[0].toLowerCase();
     const splitTags = (file.meta.tags) ? file.meta.tags.split(', ') : null;
+    const cats = file.meta.collection.map((cat) => slug(cat, { lower: true }));
+    gutil.log(`Cats: ${cats}`);
     const card = new Card({
       title: file.meta.title,
       slug: cardSlug,
       tags: splitTags,
-      categories: file.meta.collection,
+      categories: cats,
       content: marked(file.contents.toString()),
       hash: file.hash,
       updatedAt: new Date(),
@@ -123,7 +126,7 @@ gulp.task('upload_db', () =>
     const tags = [];
 
     files.forEach((file) => {
-      const filecats = file.card.categories;
+      const filecats = file.meta.collection;
       const filetags = file.card.tags;
 
       // only add tags or categories to running array if they are unique
@@ -140,23 +143,27 @@ gulp.task('upload_db', () =>
 
     // add new categories to dbase if not there already
     categories.forEach((cat) => {
-      Category.findOne({ title: cat }).exec()
-        .then((doc) => {
-          if (doc === null) {
-            const newCat = new Category({ title: cat, slug: slugify(cat) });
-            return newCat.save();
-          }
-          return doc;
-        })
-        .catch((err) => { gutil.log(gutil.colors.magenta(err)); });
+      const catSlug = slug(cat, { lower: true });
+      Category.findOne({ slug: catSlug })
+      .exec()
+      .then((doc) => {
+        if (doc === null) {
+          const newCat = new Category({ title: cat, slug: catSlug });
+          return newCat.save();
+        }
+        return doc;
+      })
+      .catch((err) => { gutil.log(gutil.colors.magenta(err)); });
     });
 
     // add new tags to dbase if not there already
     tags.forEach((tag) => {
-      Tag.findOne({ title: tag }).exec()
+      const tagSlug = slug(tag, { lower: true });
+      Tag.findOne({ slug: tagSlug })
+      .exec()
       .then((doc) => {
         if (doc === null) {
-          const newTag = new Tag({ title: tag, slug: slugify(tag) });
+          const newTag = new Tag({ title: tag, slug: tagSlug });
           return newTag.save();
         }
         return doc;

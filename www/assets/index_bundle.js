@@ -29654,10 +29654,12 @@
 
 	    var _this = _possibleConstructorReturn(this, (Cards.__proto__ || Object.getPrototypeOf(Cards)).call(this, props));
 
-	    _this.onChange = _this.onChange.bind(_this);
+	    _this.onSearchChange = _this.onSearchChange.bind(_this);
+	    _this.onSelectChange = _this.onSelectChange.bind(_this);
 	    _this.filterCards = _this.filterCards.bind(_this);
 	    _this.state = {
 	      cards: [],
+	      categories: [],
 	      filterCards: []
 	    };
 	    return _this;
@@ -29674,10 +29676,19 @@
 	          _this2.setState({ cards: res.data.data, filterCards: res.data.data });
 	        }
 	      });
+
+	      _axios2.default.get('/api/categories').then(function (res) {
+	        console.log(res.data);
+	        if (res.data.status === 'success') {
+	          _this2.setState({ categories: res.data.data, loading: false });
+	        }
+	      }).catch(function (error) {
+	        return console.log(error);
+	      });
 	    }
 	  }, {
-	    key: 'onChange',
-	    value: function onChange(e) {
+	    key: 'onSearchChange',
+	    value: function onSearchChange(e) {
 	      this.setState({ filterCards: this.filterCards(e.target.value) });
 	    }
 	  }, {
@@ -29689,15 +29700,22 @@
 	      return inputLength === 0 ? this.state.cards : this.state.cards.filter(function (card) {
 	        if (typeof card.title === 'string' && card.title.toString().toLowerCase().search(inputValue) > -1) {
 	          return true;
-	        } else {
-	          return false;
 	        }
+	        return false;
 	      });
 	    }
 	  }, {
-	    key: 'slugify',
-	    value: function slugify(text) {
-	      return text.toString().trim().toLowerCase().replace(/\s+/g, '-').replace(/[^\w\-]+/g, '').replace(/\-\-+/g, '-').replace(/^-+/, '').replace(/-+$/, '');
+	    key: 'onSelectChange',
+	    value: function onSelectChange(e) {
+	      this.setState({ filterCards: this.selectFilterCards(e.target.value) });
+	    }
+	  }, {
+	    key: 'selectFilterCards',
+	    value: function selectFilterCards(cat) {
+	      if (cat === '') return this.state.cards;
+	      return this.state.cards.filter(function (card) {
+	        return card.categories.includes(cat);
+	      });
 	    }
 	  }, {
 	    key: 'render',
@@ -29716,9 +29734,24 @@
 	          _react2.default.createElement(
 	            'label',
 	            null,
-	            'Filter by Title:'
+	            'Filter by Category:'
 	          ),
-	          _react2.default.createElement('input', { type: 'text', onChange: this.onChange })
+	          _react2.default.createElement(
+	            'select',
+	            { name: 'category', onChange: this.onSelectChange },
+	            _react2.default.createElement(
+	              'option',
+	              { value: '' },
+	              '** All Cards **'
+	            ),
+	            this.state.categories.map(function (cat) {
+	              return _react2.default.createElement(
+	                'option',
+	                { value: cat.slug },
+	                cat.title
+	              );
+	            })
+	          )
 	        ),
 	        _react2.default.createElement(
 	          'ul',
@@ -29726,11 +29759,22 @@
 	          this.state.filterCards.map(function (card) {
 	            return _react2.default.createElement(
 	              'li',
-	              null,
+	              { key: card.slug },
 	              _react2.default.createElement(
 	                'a',
 	                { href: '/cards/' + card.slug },
 	                card.title
+	              ),
+	              _react2.default.createElement(
+	                'span',
+	                { className: 'metadata' },
+	                card.categories.map(function (cat) {
+	                  return _react2.default.createElement(
+	                    'a',
+	                    { href: '/categories/' + cat },
+	                    cat
+	                  );
+	                })
 	              )
 	            );
 	          })
@@ -29901,7 +29945,7 @@
 	        ),
 	        _react2.default.createElement(
 	          'ul',
-	          { className: 'taxonomy-list' },
+	          { className: 'cards-list' },
 	          this.state.category.cards.map(function (card) {
 	            return _react2.default.createElement(
 	              'li',
@@ -29910,6 +29954,17 @@
 	                'a',
 	                { href: '/categories/' + _this3.state.category.slug + '/' + card.slug },
 	                card.title
+	              ),
+	              _react2.default.createElement(
+	                'span',
+	                { className: 'metadata' },
+	                card.categories.map(function (cat) {
+	                  return _react2.default.createElement(
+	                    'a',
+	                    { href: '/categories/' + cat },
+	                    cat
+	                  );
+	                })
 	              )
 	            );
 	          })
@@ -30214,8 +30269,15 @@
 	      var _this2 = this;
 
 	      _axios2.default.get('/api/tags/' + this.props.params.tagslug).then(function (res) {
+	        console.log(res.data.data);
 	        if (res.data.status === 'success') {
-	          _this2.setState({ tag: res.data.data });
+	          console.log(_this2.state);
+	          try {
+	            _this2.setState({ tag: res.data.data });
+	          } catch (error) {
+	            console.log(error);
+	          };
+	          console.log(_this2.state);
 	        }
 	      });
 	    }
@@ -30234,7 +30296,7 @@
 	        ),
 	        _react2.default.createElement(
 	          'ul',
-	          { className: 'taxonomy-list' },
+	          { className: 'cards-list' },
 	          this.state.tag.cards.map(function (card) {
 	            return _react2.default.createElement(
 	              'li',
@@ -30243,6 +30305,17 @@
 	                'a',
 	                { href: '/tags/' + _this3.state.tag.slug + '/' + card.slug },
 	                card.title
+	              ),
+	              _react2.default.createElement(
+	                'span',
+	                { className: 'metadata' },
+	                card.categories.map(function (cat) {
+	                  return _react2.default.createElement(
+	                    'a',
+	                    { href: '/categories/' + cat },
+	                    cat
+	                  );
+	                })
 	              )
 	            );
 	          })

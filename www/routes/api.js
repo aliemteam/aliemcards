@@ -37,7 +37,7 @@ router.get('/', (req, res) => {
 // CARDS
 
 router.get('/cards', (req, res) => {
-  Card.find().select('slug title').sort({ title: 1 })
+  Card.find().select('slug title categories').sort({ title: 1 })
   .exec()
   .then((cards) => {
     res.json(apires('success', cards));
@@ -83,9 +83,9 @@ router.get('/categories/:slug', (req, res) => {
   .then((cat) => {
     category.title = cat.title;
     category.slug = cat.slug;
-    return Card.find({ categories: cat.title })
+    return Card.find({ categories: cat.slug })
       .sort({ slug: 1 })
-      .select('slug title')
+      .select('slug title categories')
       .exec();
   })
   .then((cards) => {
@@ -120,7 +120,7 @@ router.get('/tags/:slug', (req, res) => {
     tag.slug = foundtag.slug;
     return Card.find({ tags: foundtag.title })
       .sort({ title: 1 })
-      .select('slug title')
+      .select('slug title categories')
       .exec();
   })
   .then((cards) => {
