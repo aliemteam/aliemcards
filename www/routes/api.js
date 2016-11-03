@@ -135,9 +135,10 @@ router.get('/tags/:slug', (req, res) => {
 // SEARCH
 
 router.get('/search/:query', (req, res) => {
-  const query = req.params.query;
-  Card.find({ $text: { $search: query } }, { score: { $meta: 'textScore' } })
-  .sort({ score: { $meta: 'textScore' } })
+  const query = new RegExp(req.params.query, 'i');
+  // Card.find({ $text: { $search: query } }, { score: { $meta: 'textScore' } })
+  // .sort({ score: { $meta: 'textScore' } })
+  Card.find({ content: query })
   .exec()
   .then((cards) => {
     res.json(apires('success', cards));
