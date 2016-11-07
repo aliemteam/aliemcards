@@ -11,12 +11,10 @@ class Card extends React.Component {
   }
 
   componentDidMount() {
-    console.log(this.props.params.slug);
     axios.get(`/api/cards/${this.props.params.slug}`)
       .then(res => {
         if (res.data.status === 'success') {
           this.setState({ card: res.data.data });
-          console.log(res.data.data);
         }
       })
       .catch((error) => console.log(error));

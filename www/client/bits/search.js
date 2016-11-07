@@ -44,20 +44,17 @@ class Search extends React.Component {
 
 const SearchBar = ({ changeHandler, cards }) =>
   <div className="searchbox">
-    <div className="container">
-      <form>
-        <label><i className="material-icons">search</i></label>
-        <input type="text" onChange={changeHandler} placeholder="Search" />
-      </form>
-      {cards[0] ? <Results cards={cards} /> : null}
-    </div>
+    <form className="container">
+      <label><i className="material-icons">search</i></label>
+      <input type="text" onChange={changeHandler} placeholder="Search" />
+    </form>
+    {cards[0] ? <Results cards={cards} /> : null}
   </div>;
 
 const SearchHero = ({ changeHandler, cards }) =>
   <div className="searchHero">
-    <p><i>A point-of-care reference</i><br /><b>by</b> Emergency Medicine providers<br />
-    for Emergency Medicine providers.
-    </p>
+    <p>A Point-of-Care reference library<br />by Michelle Lin, and the <b>ALiEM Team</b></p>
+    <p>Formerly known as <i>Paucis Verbis Cards</i></p>
     <form className="container">
       <label><i className="material-icons">search</i></label>
       <input type="text" onChange={changeHandler} placeholder="Search" />
@@ -66,11 +63,13 @@ const SearchHero = ({ changeHandler, cards }) =>
   </div>;
 
 const Results = ({ cards }) =>
-  <ul className="search-list">
-    {cards.map((card) =>
-      <li><a href={`/cards/${card.slug}`}>{card.title}</a></li>
-    )}
-  </ul>;
+  <div className="container">
+    <ul className="search-list">
+      {cards.map((card) =>
+        <li><a href={`/cards/${card.slug}`}>{card.title}</a></li>
+      )}
+    </ul>
+  </div>;
 
 Search.propTypes = {
   params: React.PropTypes.object,

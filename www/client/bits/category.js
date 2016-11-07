@@ -19,7 +19,8 @@ class Category extends React.Component {
         if (res.data.status === 'success') {
           this.setState({ category: res.data.data });
         }
-      });
+      })
+      .catch((error) => console.log(error));
   }
 
   render() {

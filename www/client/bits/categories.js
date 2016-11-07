@@ -13,10 +13,8 @@ class Categories extends React.Component {
   }
 
   componentDidMount() {
-    console.log('compontent mount');
     axios.get('/api/categories')
       .then(res => {
-        console.log(res.data);
         if (res.data.status === 'success') {
           this.setState({ categories: res.data.data, loading: false });
         }

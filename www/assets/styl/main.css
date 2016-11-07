@@ -438,8 +438,6 @@ ol ul {
 }
 li {
   margin-bottom: 0.5rem;
-  text-indent: -1rem;
-  padding-left: 1rem;
 }
 #header {
   position: relative;
@@ -450,7 +448,7 @@ li {
   color: #706d6e;
 }
 #header img {
-  max-height: 40px;
+  max-height: 4rem;
 }
 #header h1 {
   display: inline-block;
@@ -569,11 +567,11 @@ li {
 .searchHero {
   position: relative;
   width: 100%;
-  min-height: 40rem;
   background-color: #00b092;
   color: #fff;
   text-align: center;
   padding: 8rem;
+  overflow: visible;
 }
 .searchHero label {
   display: inline;
@@ -597,6 +595,7 @@ li {
   border-bottom: 1px solid #00b092;
   padding: 1rem;
   text-align: center;
+  overflow: visible;
 }
 .searchbox form {
   margin-bottom: 0;
@@ -620,21 +619,29 @@ li {
   outline: none;
 }
 .search-list {
-  margin-top: 1em;
+  position: relative;
+  top: -2rem;
+  left: 2rem;
+  width: 85%;
+  margin: 1em auto;
+  padding: 3rem;
 }
 .search-list li {
   list-style: none;
-  color: #fff;
-  padding: 0.5rem 0;
+  margin-bottom: 1rem;
+  background-color: #fff;
+  text-align: left;
   font-weight: bold;
-  display: block;
 }
 .search-list li a {
-  color: #fff;
+  display: block;
+  padding: 1rem 2rem;
+  color: #00b092;
   text-decoration: none;
 }
 .search-list li a:hover {
-  text-decoration: underline;
+  background-color: #f2f2f2;
+  color: #007d68;
 }
 @media (min-width: 750px) {
   .searchbox {
@@ -666,6 +673,10 @@ body {
 .content {
   position: relative;
   margin-top: 2rem;
+}
+.content li {
+  text-indent: -1rem;
+  padding-left: 1rem;
 }
 .drug {
   color: #f06292;

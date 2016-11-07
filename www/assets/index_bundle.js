@@ -72,10 +72,6 @@
 
 	var _main2 = _interopRequireDefault(_main);
 
-	var _empty = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./bits/empty\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
-
-	var _empty2 = _interopRequireDefault(_empty);
-
 	var _cards = __webpack_require__(276);
 
 	var _cards2 = _interopRequireDefault(_cards);
@@ -99,10 +95,6 @@
 	var _tag = __webpack_require__(282);
 
 	var _tag2 = _interopRequireDefault(_tag);
-
-	var _search = __webpack_require__(243);
-
-	var _search2 = _interopRequireDefault(_search);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -27602,7 +27594,7 @@
 	      _react2.default.createElement(_search2.default, { hero: true }),
 	      _react2.default.createElement(
 	        'div',
-	        { className: 'container content' },
+	        { className: 'home container content' },
 	        _react2.default.createElement(
 	          'h1',
 	          null,
@@ -27734,24 +27726,20 @@
 	    'div',
 	    { className: 'searchbox' },
 	    _react2.default.createElement(
-	      'div',
+	      'form',
 	      { className: 'container' },
 	      _react2.default.createElement(
-	        'form',
+	        'label',
 	        null,
 	        _react2.default.createElement(
-	          'label',
-	          null,
-	          _react2.default.createElement(
-	            'i',
-	            { className: 'material-icons' },
-	            'search'
-	          )
-	        ),
-	        _react2.default.createElement('input', { type: 'text', onChange: changeHandler, placeholder: 'Search' })
+	          'i',
+	          { className: 'material-icons' },
+	          'search'
+	        )
 	      ),
-	      cards[0] ? _react2.default.createElement(Results, { cards: cards }) : null
-	    )
+	      _react2.default.createElement('input', { type: 'text', onChange: changeHandler, placeholder: 'Search' })
+	    ),
+	    cards[0] ? _react2.default.createElement(Results, { cards: cards }) : null
 	  );
 	};
 
@@ -27764,20 +27752,24 @@
 	    _react2.default.createElement(
 	      'p',
 	      null,
-	      _react2.default.createElement(
-	        'i',
-	        null,
-	        'A point-of-care reference'
-	      ),
+	      'A Point-of-Care reference library',
 	      _react2.default.createElement('br', null),
+	      'by Michelle Lin, and the ',
 	      _react2.default.createElement(
 	        'b',
 	        null,
-	        'by'
-	      ),
-	      ' Emergency Medicine providers',
-	      _react2.default.createElement('br', null),
-	      'for Emergency Medicine providers.'
+	        'ALiEM Team'
+	      )
+	    ),
+	    _react2.default.createElement(
+	      'p',
+	      null,
+	      'Formerly known as ',
+	      _react2.default.createElement(
+	        'i',
+	        null,
+	        'Paucis Verbis Cards'
+	      )
 	    ),
 	    _react2.default.createElement(
 	      'form',
@@ -27800,19 +27792,23 @@
 	var Results = function Results(_ref3) {
 	  var cards = _ref3.cards;
 	  return _react2.default.createElement(
-	    'ul',
-	    { className: 'search-list' },
-	    cards.map(function (card) {
-	      return _react2.default.createElement(
-	        'li',
-	        null,
-	        _react2.default.createElement(
-	          'a',
-	          { href: '/cards/' + card.slug },
-	          card.title
-	        )
-	      );
-	    })
+	    'div',
+	    { className: 'container' },
+	    _react2.default.createElement(
+	      'ul',
+	      { className: 'search-list' },
+	      cards.map(function (card) {
+	        return _react2.default.createElement(
+	          'li',
+	          null,
+	          _react2.default.createElement(
+	            'a',
+	            { href: '/cards/' + card.slug },
+	            card.title
+	          )
+	        );
+	      })
+	    )
 	  );
 	};
 
@@ -29862,11 +29858,9 @@
 	    value: function componentDidMount() {
 	      var _this2 = this;
 
-	      console.log(this.props.params.slug);
 	      _axios2.default.get('/api/cards/' + this.props.params.slug).then(function (res) {
 	        if (res.data.status === 'success') {
 	          _this2.setState({ card: res.data.data });
-	          console.log(res.data.data);
 	        }
 	      }).catch(function (error) {
 	        return console.log(error);
@@ -29949,6 +29943,8 @@
 	        if (res.data.status === 'success') {
 	          _this2.setState({ category: res.data.data });
 	        }
+	      }).catch(function (error) {
+	        return console.log(error);
 	      });
 	    }
 	  }, {
@@ -30058,9 +30054,7 @@
 	    value: function componentDidMount() {
 	      var _this2 = this;
 
-	      console.log('compontent mount');
 	      _axios2.default.get('/api/categories').then(function (res) {
-	        console.log(res.data);
 	        if (res.data.status === 'success') {
 	          _this2.setState({ categories: res.data.data, loading: false });
 	        }

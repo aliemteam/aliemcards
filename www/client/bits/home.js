@@ -9,7 +9,7 @@ const Home = () =>
         title="ALiEM Cards"
       />
       <Search hero />
-      <div className="container content">
+      <div className="home container content">
 
         <h1>Welcome</h1>
         <p>Cornhole poke semiotics, direct trade banjo +1 next level. Four loko humblebrag prism jianbing. Tbh next level jean shorts fanny pack tattooed. Meggings bicycle rights pabst ethical, chartreuse tumblr woke tumeric godard activated charcoal truffaut plaid. Deep v put a bird on it normcore paleo food truck kombucha. Raw denim tofu helvetica pop-up direct trade fam. Fam plaid pour-over, jean shorts farm-to-table hot chicken fixie etsy wolf.</p>

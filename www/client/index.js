@@ -6,15 +6,12 @@ import { IndexRoute, Router, Route, browserHistory } from 'react-router';
 import NotFound from './bits/not-found';
 import Home from './bits/home';
 import Main from './bits/main';
-import Empty from './bits/empty';
 import Cards from './bits/cards';
 import Card from './bits/card';
 import Category from './bits/category';
 import Categories from './bits/categories';
 import Tags from './bits/tags';
 import Tag from './bits/tag';
-import Search from './bits/search';
-
 
 injectTapEventPlugin();
 
