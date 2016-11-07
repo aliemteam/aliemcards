@@ -16,7 +16,8 @@ class Tags extends React.Component {
         if (res.data.status === 'success') {
           this.setState({ tags: res.data.data });
         }
-      });
+      })
+      .catch((error) => console.log(error));
   }
 
   render() {

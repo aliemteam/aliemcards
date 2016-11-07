@@ -1,26 +1,30 @@
 import React from 'react';
 import Breadcrumbs from 'react-breadcrumbs';
 import TopBar from './topbar';
-import SearchHero from './searchhero';
+import Search from './search';
 import Footer from './footer';
 
 class Main extends React.Component {
 
   constructor(props) {
     super(props);
-    this.state = {
-      navDrawerOpen: false,
-    };
   }
 
   render() {
-    console.log(this.props.routes[0].name);
     return (
       <div className="main">
         <TopBar
           title="ALiEM Cards"
         />
-        {this.props.children}
+        <Search />
+        <div className="content container">
+          <Breadcrumbs
+            routes={this.props.routes}
+            params={this.props.params}
+            separator=" / "
+          />
+          {this.props.children}
+        </div>
         <Footer />
       </div>
     );

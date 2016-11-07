@@ -18,7 +18,8 @@ class Card extends React.Component {
           this.setState({ card: res.data.data });
           console.log(res.data.data);
         }
-      });
+      })
+      .catch((error) => console.log(error));
   }
   getContent() {
     return {
@@ -28,9 +29,7 @@ class Card extends React.Component {
 
   render() {
     return (
-      <div>
-        <div dangerouslySetInnerHTML={this.getContent()} />
-      </div>
+      <div dangerouslySetInnerHTML={this.getContent()} />
     );
   }
 }

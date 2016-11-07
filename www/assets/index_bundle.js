@@ -64,15 +64,15 @@
 
 	var _notFound2 = _interopRequireDefault(_notFound);
 
-	var _main = __webpack_require__(242);
-
-	var _main2 = _interopRequireDefault(_main);
-
-	var _home = __webpack_require__(274);
+	var _home = __webpack_require__(242);
 
 	var _home2 = _interopRequireDefault(_home);
 
-	var _empty = __webpack_require__(275);
+	var _main = __webpack_require__(271);
+
+	var _main2 = _interopRequireDefault(_main);
+
+	var _empty = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./bits/empty\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
 
 	var _empty2 = _interopRequireDefault(_empty);
 
@@ -100,7 +100,7 @@
 
 	var _tag2 = _interopRequireDefault(_tag);
 
-	var _search = __webpack_require__(247);
+	var _search = __webpack_require__(243);
 
 	var _search2 = _interopRequireDefault(_search);
 
@@ -113,38 +113,37 @@
 	  { history: _reactRouter.browserHistory },
 	  _react2.default.createElement(
 	    _reactRouter.Route,
-	    { name: 'Home', path: '/', component: _main2.default },
+	    { name: 'Home', path: '/' },
 	    _react2.default.createElement(_reactRouter.IndexRoute, { component: _home2.default }),
 	    _react2.default.createElement(
 	      _reactRouter.Route,
-	      { name: 'Cards', path: '/cards' },
+	      { name: 'Cards', path: '/cards', component: _main2.default },
 	      _react2.default.createElement(_reactRouter.IndexRoute, { component: _cards2.default }),
 	      _react2.default.createElement(_reactRouter.Route, { name: 'Card', path: ':slug', component: _card2.default })
 	    ),
 	    _react2.default.createElement(_reactRouter.Route, { name: 'Card', path: '/cards/:slug', component: _card2.default }),
 	    _react2.default.createElement(
 	      _reactRouter.Route,
-	      { name: 'Categories', path: '/categories' },
+	      { name: 'Categories', path: '/categories', component: _main2.default },
 	      _react2.default.createElement(_reactRouter.IndexRoute, { component: _categories2.default }),
 	      _react2.default.createElement(
 	        _reactRouter.Route,
-	        { name: 'Category', path: ':catslug', component: _empty2.default },
+	        { name: 'Category', path: ':catslug' },
 	        _react2.default.createElement(_reactRouter.IndexRoute, { component: _category2.default }),
 	        _react2.default.createElement(_reactRouter.Route, { name: 'CatCard', path: ':slug', component: _card2.default })
 	      )
 	    ),
 	    _react2.default.createElement(
 	      _reactRouter.Route,
-	      { name: 'Tags', path: '/tags' },
+	      { name: 'Tags', path: '/tags', component: _main2.default },
 	      _react2.default.createElement(_reactRouter.IndexRoute, { component: _tags2.default }),
 	      _react2.default.createElement(
 	        _reactRouter.Route,
-	        { name: 'Tag', path: ':tagslug', component: _empty2.default },
+	        { name: 'Tag', path: ':tagslug' },
 	        _react2.default.createElement(_reactRouter.IndexRoute, { component: _tag2.default }),
 	        _react2.default.createElement(_reactRouter.Route, { name: 'Card', path: ':slug', component: _card2.default })
 	      )
 	    ),
-	    _react2.default.createElement(_reactRouter.Route, { name: 'Search', path: '/search', component: _search2.default }),
 	    _react2.default.createElement(_reactRouter.Route, { name: 'Not Found', path: '*', component: _notFound2.default })
 	  )
 	), document.getElementById('app'));
@@ -27576,290 +27575,80 @@
 	  value: true
 	});
 
-	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
 	var _react = __webpack_require__(1);
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _reactBreadcrumbs = __webpack_require__(243);
-
-	var _reactBreadcrumbs2 = _interopRequireDefault(_reactBreadcrumbs);
-
-	var _topbar = __webpack_require__(245);
-
-	var _topbar2 = _interopRequireDefault(_topbar);
-
-	var _searchhero = __webpack_require__(283);
-
-	var _searchhero2 = _interopRequireDefault(_searchhero);
-
-	var _footer = __webpack_require__(273);
-
-	var _footer2 = _interopRequireDefault(_footer);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-	var Main = function (_React$Component) {
-	  _inherits(Main, _React$Component);
-
-	  function Main(props) {
-	    _classCallCheck(this, Main);
-
-	    var _this = _possibleConstructorReturn(this, (Main.__proto__ || Object.getPrototypeOf(Main)).call(this, props));
-
-	    _this.state = {
-	      navDrawerOpen: false
-	    };
-	    return _this;
-	  }
-
-	  _createClass(Main, [{
-	    key: 'render',
-	    value: function render() {
-	      console.log(this.props.routes[0].name);
-	      return _react2.default.createElement(
-	        'div',
-	        { className: 'main' },
-	        _react2.default.createElement(_topbar2.default, {
-	          title: 'ALiEM Cards'
-	        }),
-	        this.props.children,
-	        _react2.default.createElement(_footer2.default, null)
-	      );
-	    }
-	  }]);
-
-	  return Main;
-	}(_react2.default.Component);
-
-	Main.propTypes = {
-	  routes: _react2.default.PropTypes.array,
-	  params: _react2.default.PropTypes.object,
-	  children: _react2.default.PropTypes.object
-	};
-
-	Main.defaultProps = {};
-
-	exports.default = Main;
-
-/***/ },
-/* 243 */
-/***/ function(module, exports, __webpack_require__) {
-
-	"use strict";function _interopRequireDefault(e){return e&&e.__esModule?e:{"default":e}}function _classCallCheck(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}function _possibleConstructorReturn(e,t){if(!e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return!t||"object"!=typeof t&&"function"!=typeof t?e:t}function _inherits(e,t){if("function"!=typeof t&&null!==t)throw new TypeError("Super expression must either be null or a function, not "+typeof t);e.prototype=Object.create(t&&t.prototype,{constructor:{value:e,enumerable:!1,writable:!0,configurable:!0}}),t&&(Object.setPrototypeOf?Object.setPrototypeOf(e,t):e.__proto__=t)}var _createClass=function(){function e(e,t){for(var r=0;r<t.length;r++){var a=t[r];a.enumerable=a.enumerable||!1,a.configurable=!0,"value"in a&&(a.writable=!0),Object.defineProperty(e,a.key,a)}}return function(t,r,a){return r&&e(t.prototype,r),a&&e(t,a),t}}(),_react=__webpack_require__(1),_react2=_interopRequireDefault(_react),_reactRouter=__webpack_require__(178),_exenv=__webpack_require__(244),_exenv2=_interopRequireDefault(_exenv),Breadcrumbs=function(e){function t(){_classCallCheck(this,t);var e=_possibleConstructorReturn(this,(t.__proto__||Object.getPrototypeOf(t)).call(this));return e.displayName="Breadcrumbs",e}return _inherits(t,e),_createClass(t,[{key:"_getDisplayName",value:function(e){var t=null;return"function"==typeof e.getDisplayName&&(t=e.getDisplayName()),t=e.indexRoute?t||e.indexRoute.displayName||null:t||e.displayName||null,!t&&e.name&&(t=e.name),!t&&this.props.displayMissing&&(t=this.props.displayMissingText),t}},{key:"_resolveRouteName",value:function(e){var t=this._getDisplayName(e);return!t&&e.breadcrumbName&&(t=e.breadcrumbName),!t&&e.name&&(t=e.name),t}},{key:"_processRoute",value:function(e,t,r,a,s){var p=this;if(!e.path&&this.props.hideNoPath)return null;var n="",o="",i="",u=this._resolveRouteName(e);if(u&&"excludes"in this.props&&this.props.excludes.some(function(e){return e===u}))return null;var l=!0;l&&(l=e.childRoutes?!0:!1,l=t!==r+1),n=t!==r+1?this.props.separator:"",l||(n=""),e.hasOwnProperty("breadcrumblink")&&(l=e.breadcrumblink),this.props.params&&(o=Object.keys(this.props.params).map(function(e){return i=e,p.props.params[e]}));var c=e.path.split("/")[e.path.split("/").length-1],f=void 0;if(e.path.split("/").map(function(t){if(":"==t.substring(0,1)&&p.props.params){f=Object.keys(p.props.params).map(function(e){return p.props.params[e]});var r=e.path.split("/").map(function(e){return":"==e.substring(0,1)?f.shift():e});e.path=r.reduce(function(e,t){return e+"/"+t}),e.staticName||":"!=c.substring(0,1)||(u=r.reduce(function(e,t){return t})),"function"==typeof e.prettifyParam&&(u=e.prettifyParam(u))}}),u){this.props.prettify&&(u=u.replace(/-/g," "),u=u.replace(/\w\S*/g,function(e){return e.charAt(0).toUpperCase()+e.substr(1).toLowerCase()}));var h=this.props.itemClass;if(l)var m=s?_react2["default"].createElement(_reactRouter.Link,{to:e.path},u):u;else m=u,h+=" "+this.props.activeItemClass;return s?_react2["default"].createElement(this.props.itemElement,{className:h,key:100*Math.random()},m,n):m}return null}},{key:"_buildRoutes",value:function(e,t){var r=this,a=[],s=e[1]&&e[1].hasOwnProperty("path"),p="/",n=[];return e.forEach(function(e,t){var a=Object.assign({},e);"function"==typeof e.prettifyParam&&(a.prettifyParam=e.prettifyParam),"props"in a&&"path"in a.props&&(a.path=a.props.path,a.children=a.props.children,a.name=a.props.name,a.prettifyParam=a.props.prettifyParam),a.path&&("/"===a.path.charAt(0)?p=a.path:("/"!==p.charAt(p.length-1)&&(p+="/"),p+=a.path)),t>0&&a.path&&"/"!==a.path.charAt(0)&&(a.path=p);var s=r._resolveRouteName(a);!r.props.displayMissing&&!s||!a.path||"excludes"in r.props&&r.props.excludes.some(function(e){return e===s})||n.push(a)}),e=n,e.map(function(n,o){if(!n)return null;"props"in n&&"path"in n.props&&(n.path=n.props.path,n.children=n.props.children,n.name=n.props.name),n.path&&("/"===n.path.charAt(0)?p=n.path:("/"!==p.charAt(p.length-1)&&(p+="/"),p+=n.path)),o>0&&n.path&&"/"!==n.path.charAt(0)&&(n.path=p);var i=r._processRoute(n,e.length,a.length,s,t);i&&a.push(i)}),_exenv2["default"].canUseDOM&&window&&window.document&&"setDocumentTitle"in this.props&&this.props.setDocumentTitle&&(window.document.title=a[a.length-1].props.children[0]),t?_react2["default"].createElement(this.props.wrapperElement,{className:this.props.customClass||this.props.wrapperClass},a):a}},{key:"render",value:function(){return this._buildRoutes(this.props.routes,this.props.createElement)}}]),t}(_react2["default"].Component);Breadcrumbs.propTypes={separator:_react2["default"].PropTypes.oneOfType([_react2["default"].PropTypes.element,_react2["default"].PropTypes.string]),createElement:_react2["default"].PropTypes.bool,displayMissing:_react2["default"].PropTypes.bool,prettify:_react2["default"].PropTypes.bool,displayMissingText:_react2["default"].PropTypes.string,displayName:_react2["default"].PropTypes.string,breadcrumbName:_react2["default"].PropTypes.string,wrapperElement:_react2["default"].PropTypes.string,wrapperClass:_react2["default"].PropTypes.string,itemElement:_react2["default"].PropTypes.string,itemClass:_react2["default"].PropTypes.string,customClass:_react2["default"].PropTypes.string,activeItemClass:_react2["default"].PropTypes.string,excludes:_react2["default"].PropTypes.arrayOf(_react2["default"].PropTypes.string),hideNoPath:_react2["default"].PropTypes.bool,routes:_react2["default"].PropTypes.arrayOf(_react2["default"].PropTypes.object).isRequired,setDocumentTitle:_react2["default"].PropTypes.bool},Breadcrumbs.defaultProps={separator:" > ",createElement:!0,displayMissing:!0,displayMissingText:"Missing name prop from Route",wrapperElement:"div",wrapperClass:"breadcrumbs",itemElement:"span",itemClass:"",activeItemClass:"",excludes:[""],prettify:!1,hideNoPath:!0,setDocumentTitle:!1},Breadcrumbs.contextTypes={routes:_react2["default"].PropTypes.array,params:_react2["default"].PropTypes.array},module.exports=Breadcrumbs;
-	//# sourceMappingURL=dist/react-breadcrumbs.min.js.map
-
-/***/ },
-/* 244 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var __WEBPACK_AMD_DEFINE_RESULT__;/*!
-	  Copyright (c) 2015 Jed Watson.
-	  Based on code that is Copyright 2013-2015, Facebook, Inc.
-	  All rights reserved.
-	*/
-	/* global define */
-
-	(function () {
-		'use strict';
-
-		var canUseDOM = !!(
-			typeof window !== 'undefined' &&
-			window.document &&
-			window.document.createElement
-		);
-
-		var ExecutionEnvironment = {
-
-			canUseDOM: canUseDOM,
-
-			canUseWorkers: typeof Worker !== 'undefined',
-
-			canUseEventListeners:
-				canUseDOM && !!(window.addEventListener || window.attachEvent),
-
-			canUseViewport: canUseDOM && !!window.screen
-
-		};
-
-		if (true) {
-			!(__WEBPACK_AMD_DEFINE_RESULT__ = function () {
-				return ExecutionEnvironment;
-			}.call(exports, __webpack_require__, exports, module), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-		} else if (typeof module !== 'undefined' && module.exports) {
-			module.exports = ExecutionEnvironment;
-		} else {
-			window.ExecutionEnvironment = ExecutionEnvironment;
-		}
-
-	}());
-
-
-/***/ },
-/* 245 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-
-	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-	var _react = __webpack_require__(1);
-
-	var _react2 = _interopRequireDefault(_react);
-
-	var _navmenu = __webpack_require__(246);
-
-	var _navmenu2 = _interopRequireDefault(_navmenu);
-
-	var _search = __webpack_require__(247);
+	var _search = __webpack_require__(243);
 
 	var _search2 = _interopRequireDefault(_search);
 
+	var _topbar = __webpack_require__(269);
+
+	var _topbar2 = _interopRequireDefault(_topbar);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-	var TopBar = function (_React$Component) {
-	  _inherits(TopBar, _React$Component);
-
-	  function TopBar(props) {
-	    _classCallCheck(this, TopBar);
-
-	    var _this = _possibleConstructorReturn(this, (TopBar.__proto__ || Object.getPrototypeOf(TopBar)).call(this, props));
-
-	    _this.toggleNavTap = _this.toggleNavTap.bind(_this);
-	    _this.state = {
-	      navDrawerOpen: false
-	    };
-	    return _this;
-	  }
-
-	  _createClass(TopBar, [{
-	    key: 'toggleNavTap',
-	    value: function toggleNavTap(e) {
-	      e.preventDefault();
-	      this.setState({ navDrawerOpen: !this.state.navDrawerOpen });
-	    }
-	  }, {
-	    key: 'render',
-	    value: function render() {
-	      return _react2.default.createElement(
+	var Home = function Home() {
+	  return _react2.default.createElement(
+	    'div',
+	    null,
+	    _react2.default.createElement(
+	      'div',
+	      { className: 'main' },
+	      _react2.default.createElement(_topbar2.default, {
+	        title: 'ALiEM Cards'
+	      }),
+	      _react2.default.createElement(_search2.default, { hero: true }),
+	      _react2.default.createElement(
 	        'div',
-	        null,
+	        { className: 'container content' },
+	        _react2.default.createElement(
+	          'h1',
+	          null,
+	          'Welcome'
+	        ),
+	        _react2.default.createElement(
+	          'p',
+	          null,
+	          'Cornhole poke semiotics, direct trade banjo +1 next level. Four loko humblebrag prism jianbing. Tbh next level jean shorts fanny pack tattooed. Meggings bicycle rights pabst ethical, chartreuse tumblr woke tumeric godard activated charcoal truffaut plaid. Deep v put a bird on it normcore paleo food truck kombucha. Raw denim tofu helvetica pop-up direct trade fam. Fam plaid pour-over, jean shorts farm-to-table hot chicken fixie etsy wolf.'
+	        ),
+	        _react2.default.createElement(
+	          'p',
+	          null,
+	          'Hot chicken thundercats migas poutine distillery, blog occupy keffiyeh 3 wolf moon fingerstache four loko direct trade. Fingerstache mlkshk brooklyn, cray wayfarers whatever selfies drinking vinegar fashion axe before they sold out. Gastropub street art post-ironic YOLO sustainable, polaroid cliche portland locavore. Glossier forage migas put a bird on it. Glossier mumblecore banh mi, whatever franzen actually DIY. Poke kogi master cleanse, sustainable typewriter salvia hexagon whatever fap vinyl banh mi tofu yr. Celiac fap vice, copper mug ennui literally microdosing normcore.'
+	        ),
 	        _react2.default.createElement(
 	          'div',
-	          { id: 'header' },
+	          { className: 'row' },
 	          _react2.default.createElement(
-	            'a',
-	            { onClick: this.toggleNavTap, id: 'navtoggle' },
+	            'div',
+	            { className: 'one-half column' },
 	            _react2.default.createElement(
-	              'i',
-	              { className: 'material-icons' },
-	              'menu'
+	              'h1',
+	              null,
+	              'Newest'
 	            )
 	          ),
 	          _react2.default.createElement(
-	            'a',
-	            { href: '/' },
-	            _react2.default.createElement('img', { src: '/images/aliem-cards-logo-horizontal.svg', alt: this.props.title })
+	            'div',
+	            { className: 'one-half column' },
+	            _react2.default.createElement(
+	              'h1',
+	              null,
+	              'Most Popular'
+	            )
 	          )
-	        ),
-	        _react2.default.createElement(_navmenu2.default, { showNav: this.state.navDrawerOpen })
-	      );
-	    }
-	  }]);
-
-	  return TopBar;
-	}(_react2.default.Component);
-
-	TopBar.propTypes = {
-	  title: _react2.default.PropTypes.string
-	};
-
-	TopBar.defaultProps = {};
-
-	exports.default = TopBar;
-
-/***/ },
-/* 246 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-
-	var _react = __webpack_require__(1);
-
-	var _react2 = _interopRequireDefault(_react);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	var NavMenu = function NavMenu(_ref) {
-	  var showNav = _ref.showNav;
-	  return _react2.default.createElement(
-	    'div',
-	    { id: 'navmenu', className: showNav ? 'navopen' : 'navclosed' },
-	    _react2.default.createElement(
-	      'ul',
-	      null,
-	      _react2.default.createElement(
-	        'li',
-	        null,
-	        _react2.default.createElement(
-	          'a',
-	          { href: '/cards' },
-	          'Cards'
-	        )
-	      ),
-	      _react2.default.createElement(
-	        'li',
-	        null,
-	        _react2.default.createElement(
-	          'a',
-	          { href: '/categories' },
-	          'Categories'
-	        )
-	      ),
-	      _react2.default.createElement(
-	        'li',
-	        null,
-	        _react2.default.createElement(
-	          'a',
-	          { href: '/tags' },
-	          'Tags'
 	        )
 	      )
 	    )
 	  );
 	};
 
-	NavMenu.propTypes = {
-	  showNav: _react2.default.PropTypes.bool
-	};
-
-	NavMenu.defaultProps = {};
-
-	exports.default = NavMenu;
+	exports.default = Home;
 
 /***/ },
-/* 247 */
+/* 243 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27874,7 +27663,7 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _axios = __webpack_require__(248);
+	var _axios = __webpack_require__(244);
 
 	var _axios2 = _interopRequireDefault(_axios);
 
@@ -28039,20 +27828,20 @@
 	exports.default = Search;
 
 /***/ },
-/* 248 */
+/* 244 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(249);
+	module.exports = __webpack_require__(245);
 
 /***/ },
-/* 249 */
+/* 245 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	var utils = __webpack_require__(250);
-	var bind = __webpack_require__(251);
-	var Axios = __webpack_require__(252);
+	var utils = __webpack_require__(246);
+	var bind = __webpack_require__(247);
+	var Axios = __webpack_require__(248);
 
 	/**
 	 * Create an instance of Axios
@@ -28085,15 +27874,15 @@
 	};
 
 	// Expose Cancel & CancelToken
-	axios.Cancel = __webpack_require__(270);
-	axios.CancelToken = __webpack_require__(271);
-	axios.isCancel = __webpack_require__(267);
+	axios.Cancel = __webpack_require__(266);
+	axios.CancelToken = __webpack_require__(267);
+	axios.isCancel = __webpack_require__(263);
 
 	// Expose all/spread
 	axios.all = function all(promises) {
 	  return Promise.all(promises);
 	};
-	axios.spread = __webpack_require__(272);
+	axios.spread = __webpack_require__(268);
 
 	module.exports = axios;
 
@@ -28102,12 +27891,12 @@
 
 
 /***/ },
-/* 250 */
+/* 246 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	var bind = __webpack_require__(251);
+	var bind = __webpack_require__(247);
 
 	/*global toString:true*/
 
@@ -28407,7 +28196,7 @@
 
 
 /***/ },
-/* 251 */
+/* 247 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -28424,17 +28213,17 @@
 
 
 /***/ },
-/* 252 */
+/* 248 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	var defaults = __webpack_require__(253);
-	var utils = __webpack_require__(250);
-	var InterceptorManager = __webpack_require__(264);
-	var dispatchRequest = __webpack_require__(265);
-	var isAbsoluteURL = __webpack_require__(268);
-	var combineURLs = __webpack_require__(269);
+	var defaults = __webpack_require__(249);
+	var utils = __webpack_require__(246);
+	var InterceptorManager = __webpack_require__(260);
+	var dispatchRequest = __webpack_require__(261);
+	var isAbsoluteURL = __webpack_require__(264);
+	var combineURLs = __webpack_require__(265);
 
 	/**
 	 * Create a new instance of Axios
@@ -28515,13 +28304,13 @@
 
 
 /***/ },
-/* 253 */
+/* 249 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
 
-	var utils = __webpack_require__(250);
-	var normalizeHeaderName = __webpack_require__(254);
+	var utils = __webpack_require__(246);
+	var normalizeHeaderName = __webpack_require__(250);
 
 	var PROTECTION_PREFIX = /^\)\]\}',?\n/;
 	var DEFAULT_CONTENT_TYPE = {
@@ -28538,10 +28327,10 @@
 	  var adapter;
 	  if (typeof XMLHttpRequest !== 'undefined') {
 	    // For browsers use XHR adapter
-	    adapter = __webpack_require__(255);
+	    adapter = __webpack_require__(251);
 	  } else if (typeof process !== 'undefined') {
 	    // For node use HTTP adapter
-	    adapter = __webpack_require__(255);
+	    adapter = __webpack_require__(251);
 	  }
 	  return adapter;
 	}
@@ -28608,12 +28397,12 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
 
 /***/ },
-/* 254 */
+/* 250 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	var utils = __webpack_require__(250);
+	var utils = __webpack_require__(246);
 
 	module.exports = function normalizeHeaderName(headers, normalizedName) {
 	  utils.forEach(headers, function processHeader(value, name) {
@@ -28626,18 +28415,18 @@
 
 
 /***/ },
-/* 255 */
+/* 251 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
 
-	var utils = __webpack_require__(250);
-	var settle = __webpack_require__(256);
-	var buildURL = __webpack_require__(259);
-	var parseHeaders = __webpack_require__(260);
-	var isURLSameOrigin = __webpack_require__(261);
-	var createError = __webpack_require__(257);
-	var btoa = (typeof window !== 'undefined' && window.btoa) || __webpack_require__(262);
+	var utils = __webpack_require__(246);
+	var settle = __webpack_require__(252);
+	var buildURL = __webpack_require__(255);
+	var parseHeaders = __webpack_require__(256);
+	var isURLSameOrigin = __webpack_require__(257);
+	var createError = __webpack_require__(253);
+	var btoa = (typeof window !== 'undefined' && window.btoa) || __webpack_require__(258);
 
 	module.exports = function xhrAdapter(config) {
 	  return new Promise(function dispatchXhrRequest(resolve, reject) {
@@ -28733,7 +28522,7 @@
 	    // This is only done if running in a standard browser environment.
 	    // Specifically not if we're in a web worker, or react-native.
 	    if (utils.isStandardBrowserEnv()) {
-	      var cookies = __webpack_require__(263);
+	      var cookies = __webpack_require__(259);
 
 	      // Add xsrf header
 	      var xsrfValue = (config.withCredentials || isURLSameOrigin(config.url)) && config.xsrfCookieName ?
@@ -28810,12 +28599,12 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
 
 /***/ },
-/* 256 */
+/* 252 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	var createError = __webpack_require__(257);
+	var createError = __webpack_require__(253);
 
 	/**
 	 * Resolve or reject a Promise based on response status.
@@ -28841,12 +28630,12 @@
 
 
 /***/ },
-/* 257 */
+/* 253 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	var enhanceError = __webpack_require__(258);
+	var enhanceError = __webpack_require__(254);
 
 	/**
 	 * Create an Error with the specified message, config, error code, and response.
@@ -28864,7 +28653,7 @@
 
 
 /***/ },
-/* 258 */
+/* 254 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -28889,12 +28678,12 @@
 
 
 /***/ },
-/* 259 */
+/* 255 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	var utils = __webpack_require__(250);
+	var utils = __webpack_require__(246);
 
 	function encode(val) {
 	  return encodeURIComponent(val).
@@ -28963,12 +28752,12 @@
 
 
 /***/ },
-/* 260 */
+/* 256 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	var utils = __webpack_require__(250);
+	var utils = __webpack_require__(246);
 
 	/**
 	 * Parse headers into an object
@@ -29006,12 +28795,12 @@
 
 
 /***/ },
-/* 261 */
+/* 257 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	var utils = __webpack_require__(250);
+	var utils = __webpack_require__(246);
 
 	module.exports = (
 	  utils.isStandardBrowserEnv() ?
@@ -29080,7 +28869,7 @@
 
 
 /***/ },
-/* 262 */
+/* 258 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -29122,12 +28911,12 @@
 
 
 /***/ },
-/* 263 */
+/* 259 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	var utils = __webpack_require__(250);
+	var utils = __webpack_require__(246);
 
 	module.exports = (
 	  utils.isStandardBrowserEnv() ?
@@ -29181,12 +28970,12 @@
 
 
 /***/ },
-/* 264 */
+/* 260 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	var utils = __webpack_require__(250);
+	var utils = __webpack_require__(246);
 
 	function InterceptorManager() {
 	  this.handlers = [];
@@ -29239,15 +29028,15 @@
 
 
 /***/ },
-/* 265 */
+/* 261 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	var utils = __webpack_require__(250);
-	var transformData = __webpack_require__(266);
-	var isCancel = __webpack_require__(267);
-	var defaults = __webpack_require__(253);
+	var utils = __webpack_require__(246);
+	var transformData = __webpack_require__(262);
+	var isCancel = __webpack_require__(263);
+	var defaults = __webpack_require__(249);
 
 	/**
 	 * Throws a `Cancel` if cancellation has been requested.
@@ -29324,12 +29113,12 @@
 
 
 /***/ },
-/* 266 */
+/* 262 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	var utils = __webpack_require__(250);
+	var utils = __webpack_require__(246);
 
 	/**
 	 * Transform the data for a request or a response
@@ -29350,7 +29139,7 @@
 
 
 /***/ },
-/* 267 */
+/* 263 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -29361,7 +29150,7 @@
 
 
 /***/ },
-/* 268 */
+/* 264 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -29381,7 +29170,7 @@
 
 
 /***/ },
-/* 269 */
+/* 265 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -29399,7 +29188,7 @@
 
 
 /***/ },
-/* 270 */
+/* 266 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -29424,12 +29213,12 @@
 
 
 /***/ },
-/* 271 */
+/* 267 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	var Cancel = __webpack_require__(270);
+	var Cancel = __webpack_require__(266);
 
 	/**
 	 * A `CancelToken` is an object that can be used to request cancellation of an operation.
@@ -29487,7 +29276,7 @@
 
 
 /***/ },
-/* 272 */
+/* 268 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -29520,7 +29309,303 @@
 
 
 /***/ },
+/* 269 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _navmenu = __webpack_require__(270);
+
+	var _navmenu2 = _interopRequireDefault(_navmenu);
+
+	var _search = __webpack_require__(243);
+
+	var _search2 = _interopRequireDefault(_search);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var TopBar = function (_React$Component) {
+	  _inherits(TopBar, _React$Component);
+
+	  function TopBar(props) {
+	    _classCallCheck(this, TopBar);
+
+	    var _this = _possibleConstructorReturn(this, (TopBar.__proto__ || Object.getPrototypeOf(TopBar)).call(this, props));
+
+	    _this.toggleNavTap = _this.toggleNavTap.bind(_this);
+	    _this.state = {
+	      navDrawerOpen: false
+	    };
+	    return _this;
+	  }
+
+	  _createClass(TopBar, [{
+	    key: 'toggleNavTap',
+	    value: function toggleNavTap(e) {
+	      e.preventDefault();
+	      this.setState({ navDrawerOpen: !this.state.navDrawerOpen });
+	    }
+	  }, {
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(
+	        'div',
+	        null,
+	        _react2.default.createElement(
+	          'div',
+	          { id: 'header' },
+	          _react2.default.createElement(
+	            'a',
+	            { onClick: this.toggleNavTap, id: 'navtoggle' },
+	            _react2.default.createElement(
+	              'i',
+	              { className: 'material-icons' },
+	              'menu'
+	            )
+	          ),
+	          _react2.default.createElement(
+	            'a',
+	            { href: '/' },
+	            _react2.default.createElement('img', { src: '/images/aliem-cards-logo-horizontal.svg', alt: this.props.title })
+	          )
+	        ),
+	        _react2.default.createElement(_navmenu2.default, { showNav: this.state.navDrawerOpen })
+	      );
+	    }
+	  }]);
+
+	  return TopBar;
+	}(_react2.default.Component);
+
+	TopBar.propTypes = {
+	  title: _react2.default.PropTypes.string
+	};
+
+	TopBar.defaultProps = {};
+
+	exports.default = TopBar;
+
+/***/ },
+/* 270 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	var NavMenu = function NavMenu(_ref) {
+	  var showNav = _ref.showNav;
+	  return _react2.default.createElement(
+	    'div',
+	    { id: 'navmenu', className: showNav ? 'navopen' : 'navclosed' },
+	    _react2.default.createElement(
+	      'ul',
+	      null,
+	      _react2.default.createElement(
+	        'li',
+	        null,
+	        _react2.default.createElement(
+	          'a',
+	          { href: '/cards' },
+	          'Cards'
+	        )
+	      ),
+	      _react2.default.createElement(
+	        'li',
+	        null,
+	        _react2.default.createElement(
+	          'a',
+	          { href: '/categories' },
+	          'Categories'
+	        )
+	      ),
+	      _react2.default.createElement(
+	        'li',
+	        null,
+	        _react2.default.createElement(
+	          'a',
+	          { href: '/tags' },
+	          'Tags'
+	        )
+	      )
+	    )
+	  );
+	};
+
+	NavMenu.propTypes = {
+	  showNav: _react2.default.PropTypes.bool
+	};
+
+	NavMenu.defaultProps = {};
+
+	exports.default = NavMenu;
+
+/***/ },
+/* 271 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _reactBreadcrumbs = __webpack_require__(272);
+
+	var _reactBreadcrumbs2 = _interopRequireDefault(_reactBreadcrumbs);
+
+	var _topbar = __webpack_require__(269);
+
+	var _topbar2 = _interopRequireDefault(_topbar);
+
+	var _search = __webpack_require__(243);
+
+	var _search2 = _interopRequireDefault(_search);
+
+	var _footer = __webpack_require__(274);
+
+	var _footer2 = _interopRequireDefault(_footer);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Main = function (_React$Component) {
+	  _inherits(Main, _React$Component);
+
+	  function Main(props) {
+	    _classCallCheck(this, Main);
+
+	    return _possibleConstructorReturn(this, (Main.__proto__ || Object.getPrototypeOf(Main)).call(this, props));
+	  }
+
+	  _createClass(Main, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(
+	        'div',
+	        { className: 'main' },
+	        _react2.default.createElement(_topbar2.default, {
+	          title: 'ALiEM Cards'
+	        }),
+	        _react2.default.createElement(_search2.default, null),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'content container' },
+	          _react2.default.createElement(_reactBreadcrumbs2.default, {
+	            routes: this.props.routes,
+	            params: this.props.params,
+	            separator: ' / '
+	          }),
+	          this.props.children
+	        ),
+	        _react2.default.createElement(_footer2.default, null)
+	      );
+	    }
+	  }]);
+
+	  return Main;
+	}(_react2.default.Component);
+
+	Main.propTypes = {
+	  routes: _react2.default.PropTypes.array,
+	  params: _react2.default.PropTypes.object,
+	  children: _react2.default.PropTypes.object
+	};
+
+	Main.defaultProps = {};
+
+	exports.default = Main;
+
+/***/ },
+/* 272 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";function _interopRequireDefault(e){return e&&e.__esModule?e:{"default":e}}function _classCallCheck(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}function _possibleConstructorReturn(e,t){if(!e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return!t||"object"!=typeof t&&"function"!=typeof t?e:t}function _inherits(e,t){if("function"!=typeof t&&null!==t)throw new TypeError("Super expression must either be null or a function, not "+typeof t);e.prototype=Object.create(t&&t.prototype,{constructor:{value:e,enumerable:!1,writable:!0,configurable:!0}}),t&&(Object.setPrototypeOf?Object.setPrototypeOf(e,t):e.__proto__=t)}var _createClass=function(){function e(e,t){for(var r=0;r<t.length;r++){var a=t[r];a.enumerable=a.enumerable||!1,a.configurable=!0,"value"in a&&(a.writable=!0),Object.defineProperty(e,a.key,a)}}return function(t,r,a){return r&&e(t.prototype,r),a&&e(t,a),t}}(),_react=__webpack_require__(1),_react2=_interopRequireDefault(_react),_reactRouter=__webpack_require__(178),_exenv=__webpack_require__(273),_exenv2=_interopRequireDefault(_exenv),Breadcrumbs=function(e){function t(){_classCallCheck(this,t);var e=_possibleConstructorReturn(this,(t.__proto__||Object.getPrototypeOf(t)).call(this));return e.displayName="Breadcrumbs",e}return _inherits(t,e),_createClass(t,[{key:"_getDisplayName",value:function(e){var t=null;return"function"==typeof e.getDisplayName&&(t=e.getDisplayName()),t=e.indexRoute?t||e.indexRoute.displayName||null:t||e.displayName||null,!t&&e.name&&(t=e.name),!t&&this.props.displayMissing&&(t=this.props.displayMissingText),t}},{key:"_resolveRouteName",value:function(e){var t=this._getDisplayName(e);return!t&&e.breadcrumbName&&(t=e.breadcrumbName),!t&&e.name&&(t=e.name),t}},{key:"_processRoute",value:function(e,t,r,a,s){var p=this;if(!e.path&&this.props.hideNoPath)return null;var n="",o="",i="",u=this._resolveRouteName(e);if(u&&"excludes"in this.props&&this.props.excludes.some(function(e){return e===u}))return null;var l=!0;l&&(l=e.childRoutes?!0:!1,l=t!==r+1),n=t!==r+1?this.props.separator:"",l||(n=""),e.hasOwnProperty("breadcrumblink")&&(l=e.breadcrumblink),this.props.params&&(o=Object.keys(this.props.params).map(function(e){return i=e,p.props.params[e]}));var c=e.path.split("/")[e.path.split("/").length-1],f=void 0;if(e.path.split("/").map(function(t){if(":"==t.substring(0,1)&&p.props.params){f=Object.keys(p.props.params).map(function(e){return p.props.params[e]});var r=e.path.split("/").map(function(e){return":"==e.substring(0,1)?f.shift():e});e.path=r.reduce(function(e,t){return e+"/"+t}),e.staticName||":"!=c.substring(0,1)||(u=r.reduce(function(e,t){return t})),"function"==typeof e.prettifyParam&&(u=e.prettifyParam(u))}}),u){this.props.prettify&&(u=u.replace(/-/g," "),u=u.replace(/\w\S*/g,function(e){return e.charAt(0).toUpperCase()+e.substr(1).toLowerCase()}));var h=this.props.itemClass;if(l)var m=s?_react2["default"].createElement(_reactRouter.Link,{to:e.path},u):u;else m=u,h+=" "+this.props.activeItemClass;return s?_react2["default"].createElement(this.props.itemElement,{className:h,key:100*Math.random()},m,n):m}return null}},{key:"_buildRoutes",value:function(e,t){var r=this,a=[],s=e[1]&&e[1].hasOwnProperty("path"),p="/",n=[];return e.forEach(function(e,t){var a=Object.assign({},e);"function"==typeof e.prettifyParam&&(a.prettifyParam=e.prettifyParam),"props"in a&&"path"in a.props&&(a.path=a.props.path,a.children=a.props.children,a.name=a.props.name,a.prettifyParam=a.props.prettifyParam),a.path&&("/"===a.path.charAt(0)?p=a.path:("/"!==p.charAt(p.length-1)&&(p+="/"),p+=a.path)),t>0&&a.path&&"/"!==a.path.charAt(0)&&(a.path=p);var s=r._resolveRouteName(a);!r.props.displayMissing&&!s||!a.path||"excludes"in r.props&&r.props.excludes.some(function(e){return e===s})||n.push(a)}),e=n,e.map(function(n,o){if(!n)return null;"props"in n&&"path"in n.props&&(n.path=n.props.path,n.children=n.props.children,n.name=n.props.name),n.path&&("/"===n.path.charAt(0)?p=n.path:("/"!==p.charAt(p.length-1)&&(p+="/"),p+=n.path)),o>0&&n.path&&"/"!==n.path.charAt(0)&&(n.path=p);var i=r._processRoute(n,e.length,a.length,s,t);i&&a.push(i)}),_exenv2["default"].canUseDOM&&window&&window.document&&"setDocumentTitle"in this.props&&this.props.setDocumentTitle&&(window.document.title=a[a.length-1].props.children[0]),t?_react2["default"].createElement(this.props.wrapperElement,{className:this.props.customClass||this.props.wrapperClass},a):a}},{key:"render",value:function(){return this._buildRoutes(this.props.routes,this.props.createElement)}}]),t}(_react2["default"].Component);Breadcrumbs.propTypes={separator:_react2["default"].PropTypes.oneOfType([_react2["default"].PropTypes.element,_react2["default"].PropTypes.string]),createElement:_react2["default"].PropTypes.bool,displayMissing:_react2["default"].PropTypes.bool,prettify:_react2["default"].PropTypes.bool,displayMissingText:_react2["default"].PropTypes.string,displayName:_react2["default"].PropTypes.string,breadcrumbName:_react2["default"].PropTypes.string,wrapperElement:_react2["default"].PropTypes.string,wrapperClass:_react2["default"].PropTypes.string,itemElement:_react2["default"].PropTypes.string,itemClass:_react2["default"].PropTypes.string,customClass:_react2["default"].PropTypes.string,activeItemClass:_react2["default"].PropTypes.string,excludes:_react2["default"].PropTypes.arrayOf(_react2["default"].PropTypes.string),hideNoPath:_react2["default"].PropTypes.bool,routes:_react2["default"].PropTypes.arrayOf(_react2["default"].PropTypes.object).isRequired,setDocumentTitle:_react2["default"].PropTypes.bool},Breadcrumbs.defaultProps={separator:" > ",createElement:!0,displayMissing:!0,displayMissingText:"Missing name prop from Route",wrapperElement:"div",wrapperClass:"breadcrumbs",itemElement:"span",itemClass:"",activeItemClass:"",excludes:[""],prettify:!1,hideNoPath:!0,setDocumentTitle:!1},Breadcrumbs.contextTypes={routes:_react2["default"].PropTypes.array,params:_react2["default"].PropTypes.array},module.exports=Breadcrumbs;
+	//# sourceMappingURL=dist/react-breadcrumbs.min.js.map
+
+/***/ },
 /* 273 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var __WEBPACK_AMD_DEFINE_RESULT__;/*!
+	  Copyright (c) 2015 Jed Watson.
+	  Based on code that is Copyright 2013-2015, Facebook, Inc.
+	  All rights reserved.
+	*/
+	/* global define */
+
+	(function () {
+		'use strict';
+
+		var canUseDOM = !!(
+			typeof window !== 'undefined' &&
+			window.document &&
+			window.document.createElement
+		);
+
+		var ExecutionEnvironment = {
+
+			canUseDOM: canUseDOM,
+
+			canUseWorkers: typeof Worker !== 'undefined',
+
+			canUseEventListeners:
+				canUseDOM && !!(window.addEventListener || window.attachEvent),
+
+			canUseViewport: canUseDOM && !!window.screen
+
+		};
+
+		if (true) {
+			!(__WEBPACK_AMD_DEFINE_RESULT__ = function () {
+				return ExecutionEnvironment;
+			}.call(exports, __webpack_require__, exports, module), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+		} else if (typeof module !== 'undefined' && module.exports) {
+			module.exports = ExecutionEnvironment;
+		} else {
+			window.ExecutionEnvironment = ExecutionEnvironment;
+		}
+
+	}());
+
+
+/***/ },
+/* 274 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -29550,110 +29635,7 @@
 	exports.default = Footer;
 
 /***/ },
-/* 274 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-
-	var _react = __webpack_require__(1);
-
-	var _react2 = _interopRequireDefault(_react);
-
-	var _search = __webpack_require__(247);
-
-	var _search2 = _interopRequireDefault(_search);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	var Home = function Home() {
-	  return _react2.default.createElement(
-	    'div',
-	    null,
-	    _react2.default.createElement(_search2.default, { hero: true }),
-	    _react2.default.createElement(
-	      'div',
-	      { className: 'container content' },
-	      _react2.default.createElement(
-	        'h1',
-	        null,
-	        'Welcome'
-	      ),
-	      _react2.default.createElement(
-	        'p',
-	        null,
-	        'Cornhole poke semiotics, direct trade banjo +1 next level. Four loko humblebrag prism jianbing. Tbh next level jean shorts fanny pack tattooed. Meggings bicycle rights pabst ethical, chartreuse tumblr woke tumeric godard activated charcoal truffaut plaid. Deep v put a bird on it normcore paleo food truck kombucha. Raw denim tofu helvetica pop-up direct trade fam. Fam plaid pour-over, jean shorts farm-to-table hot chicken fixie etsy wolf.'
-	      ),
-	      _react2.default.createElement(
-	        'p',
-	        null,
-	        'Hot chicken thundercats migas poutine distillery, blog occupy keffiyeh 3 wolf moon fingerstache four loko direct trade. Fingerstache mlkshk brooklyn, cray wayfarers whatever selfies drinking vinegar fashion axe before they sold out. Gastropub street art post-ironic YOLO sustainable, polaroid cliche portland locavore. Glossier forage migas put a bird on it. Glossier mumblecore banh mi, whatever franzen actually DIY. Poke kogi master cleanse, sustainable typewriter salvia hexagon whatever fap vinyl banh mi tofu yr. Celiac fap vice, copper mug ennui literally microdosing normcore.'
-	      ),
-	      _react2.default.createElement(
-	        'div',
-	        { className: 'row' },
-	        _react2.default.createElement(
-	          'div',
-	          { className: 'one-half column' },
-	          _react2.default.createElement(
-	            'h1',
-	            null,
-	            'Newest'
-	          )
-	        ),
-	        _react2.default.createElement(
-	          'div',
-	          { className: 'one-half column' },
-	          _react2.default.createElement(
-	            'h1',
-	            null,
-	            'Most Popular'
-	          )
-	        )
-	      )
-	    )
-	  );
-	};
-
-	exports.default = Home;
-
-/***/ },
-/* 275 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-
-	var _react = __webpack_require__(1);
-
-	var _react2 = _interopRequireDefault(_react);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	var Empty = function Empty(_ref) {
-	  var children = _ref.children;
-	  return _react2.default.createElement(
-	    'div',
-	    null,
-	    children
-	  );
-	};
-
-	Empty.propTypes = {
-	  children: _react2.default.PropTypes.object
-	};
-
-	Empty.defaultProps = {};
-
-	exports.default = Empty;
-
-/***/ },
+/* 275 */,
 /* 276 */
 /***/ function(module, exports, __webpack_require__) {
 
@@ -29669,11 +29651,15 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _axios = __webpack_require__(248);
+	var _reactBreadcrumbs = __webpack_require__(272);
+
+	var _reactBreadcrumbs2 = _interopRequireDefault(_reactBreadcrumbs);
+
+	var _axios = __webpack_require__(244);
 
 	var _axios2 = _interopRequireDefault(_axios);
 
-	var _search = __webpack_require__(247);
+	var _search = __webpack_require__(243);
 
 	var _search2 = _interopRequireDefault(_search);
 
@@ -29710,14 +29696,12 @@
 	      var _this2 = this;
 
 	      _axios2.default.get('/api/cards').then(function (res) {
-	        console.log(res);
 	        if (res.data.status === 'success') {
 	          _this2.setState({ cards: res.data.data, filterCards: res.data.data });
 	        }
 	      });
 
 	      _axios2.default.get('/api/categories').then(function (res) {
-	        console.log(res.data);
 	        if (res.data.status === 'success') {
 	          _this2.setState({ categories: res.data.data, loading: false });
 	        }
@@ -29729,6 +29713,11 @@
 	    key: 'onSearchChange',
 	    value: function onSearchChange(e) {
 	      this.setState({ filterCards: this.filterCards(e.target.value) });
+	    }
+	  }, {
+	    key: 'onSelectChange',
+	    value: function onSelectChange(e) {
+	      this.setState({ filterCards: this.selectFilterCards(e.target.value) });
 	    }
 	  }, {
 	    key: 'filterCards',
@@ -29744,11 +29733,6 @@
 	      });
 	    }
 	  }, {
-	    key: 'onSelectChange',
-	    value: function onSelectChange(e) {
-	      this.setState({ filterCards: this.selectFilterCards(e.target.value) });
-	    }
-	  }, {
 	    key: 'selectFilterCards',
 	    value: function selectFilterCards(cat) {
 	      if (cat === '') return this.state.cards;
@@ -29762,66 +29746,61 @@
 	      return _react2.default.createElement(
 	        'div',
 	        null,
-	        _react2.default.createElement(_search2.default, null),
 	        _react2.default.createElement(
-	          'div',
-	          { className: 'content container' },
+	          'h1',
+	          null,
+	          'Cards'
+	        ),
+	        _react2.default.createElement(
+	          'form',
+	          null,
 	          _react2.default.createElement(
-	            'h1',
+	            'label',
 	            null,
-	            'Cards'
+	            'Filter by Category:'
 	          ),
 	          _react2.default.createElement(
-	            'form',
-	            null,
+	            'select',
+	            { name: 'category', onChange: this.onSelectChange },
 	            _react2.default.createElement(
-	              'label',
-	              null,
-	              'Filter by Category:'
+	              'option',
+	              { value: '' },
+	              '** All Cards **'
 	            ),
-	            _react2.default.createElement(
-	              'select',
-	              { name: 'category', onChange: this.onSelectChange },
-	              _react2.default.createElement(
-	                'option',
-	                { value: '' },
-	                '** All Cards **'
-	              ),
-	              this.state.categories.map(function (cat) {
-	                return _react2.default.createElement(
-	                  'option',
-	                  { value: cat.slug },
-	                  cat.title
-	                );
-	              })
-	            )
-	          ),
-	          _react2.default.createElement(
-	            'ul',
-	            { className: 'cards-list' },
-	            this.state.filterCards.map(function (card) {
+	            this.state.categories.map(function (cat) {
 	              return _react2.default.createElement(
-	                'li',
-	                { key: card.slug },
-	                _react2.default.createElement(
-	                  'a',
-	                  { href: '/cards/' + card.slug },
-	                  card.title
-	                ),
-	                _react2.default.createElement(
-	                  'span',
-	                  { className: 'metadata' },
-	                  card.categories.map(function (cat) {
-	                    return _react2.default.createElement(
-	                      'a',
-	                      { href: '/categories/' + cat },
-	                      cat
-	                    );
-	                  })
-	                )
+	                'option',
+	                { value: cat.slug },
+	                cat.title
 	              );
 	            })
 	          )
+	        ),
+	        _react2.default.createElement(
+	          'ul',
+	          { className: 'cards-list' },
+	          this.state.filterCards.map(function (card) {
+	            return _react2.default.createElement(
+	              'li',
+	              { key: card.slug },
+	              _react2.default.createElement(
+	                'a',
+	                { href: '/cards/' + card.slug },
+	                card.title
+	              ),
+	              _react2.default.createElement(
+	                'span',
+	                { className: 'metadata' },
+	                card.categories.map(function (cat) {
+	                  return _react2.default.createElement(
+	                    'a',
+	                    { href: '/categories/' + cat },
+	                    cat
+	                  );
+	                })
+	              )
+	            );
+	          })
 	        )
 	      );
 	    }
@@ -29852,7 +29831,7 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _axios = __webpack_require__(248);
+	var _axios = __webpack_require__(244);
 
 	var _axios2 = _interopRequireDefault(_axios);
 
@@ -29889,6 +29868,8 @@
 	          _this2.setState({ card: res.data.data });
 	          console.log(res.data.data);
 	        }
+	      }).catch(function (error) {
+	        return console.log(error);
 	      });
 	    }
 	  }, {
@@ -29901,11 +29882,7 @@
 	  }, {
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(
-	        'div',
-	        null,
-	        _react2.default.createElement('div', { dangerouslySetInnerHTML: this.getContent() })
-	      );
+	      return _react2.default.createElement('div', { dangerouslySetInnerHTML: this.getContent() });
 	    }
 	  }]);
 
@@ -29935,7 +29912,7 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _axios = __webpack_require__(248);
+	var _axios = __webpack_require__(244);
 
 	var _axios2 = _interopRequireDefault(_axios);
 
@@ -30045,7 +30022,7 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _axios = __webpack_require__(248);
+	var _axios = __webpack_require__(244);
 
 	var _axios2 = _interopRequireDefault(_axios);
 
@@ -30110,6 +30087,12 @@
 	  return Categories;
 	}(_react2.default.Component);
 
+	Categories.propTypes = {
+	  categories: _react2.default.PropTypes.object
+	};
+
+	Categories.defaultProps = {};
+
 	var Results = function Results(_ref) {
 	  var cats = _ref.cats;
 	  return _react2.default.createElement(
@@ -30129,11 +30112,9 @@
 	  );
 	};
 
-	Categories.propTypes = {
-	  categories: _react2.default.PropTypes.object
+	Results.propTypes = {
+	  cats: _react2.default.PropTypes.array
 	};
-
-	Categories.defaultProps = {};
 
 	exports.default = Categories;
 
@@ -30184,7 +30165,7 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _axios = __webpack_require__(248);
+	var _axios = __webpack_require__(244);
 
 	var _axios2 = _interopRequireDefault(_axios);
 
@@ -30219,6 +30200,8 @@
 	        if (res.data.status === 'success') {
 	          _this2.setState({ tags: res.data.data });
 	        }
+	      }).catch(function (error) {
+	        return console.log(error);
 	      });
 	    }
 	  }, {
@@ -30279,7 +30262,7 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _axios = __webpack_require__(248);
+	var _axios = __webpack_require__(244);
 
 	var _axios2 = _interopRequireDefault(_axios);
 
@@ -30313,16 +30296,11 @@
 	      var _this2 = this;
 
 	      _axios2.default.get('/api/tags/' + this.props.params.tagslug).then(function (res) {
-	        console.log(res.data.data);
 	        if (res.data.status === 'success') {
-	          console.log(_this2.state);
-	          try {
-	            _this2.setState({ tag: res.data.data });
-	          } catch (error) {
-	            console.log(error);
-	          };
-	          console.log(_this2.state);
+	          _this2.setState({ tag: res.data.data });
 	        }
+	      }).catch(function (error) {
+	        return console.log(error);
 	      });
 	    }
 	  }, {
@@ -30379,12 +30357,6 @@
 	Tag.defaultProps = {};
 
 	exports.default = Tag;
-
-/***/ },
-/* 283 */
-/***/ function(module, exports) {
-
-	"use strict";
 
 /***/ }
 /******/ ]);

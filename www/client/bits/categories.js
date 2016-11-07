@@ -34,6 +34,12 @@ class Categories extends React.Component {
   }
 }
 
+Categories.propTypes = {
+  categories: React.PropTypes.object,
+};
+
+Categories.defaultProps = {};
+
 const Results = ({ cats }) =>
   <ul className="taxonomy-list">
     {cats.map((cat) =>
@@ -41,10 +47,8 @@ const Results = ({ cats }) =>
     )}
   </ul>;
 
-Categories.propTypes = {
-  categories: React.PropTypes.object,
+Results.propTypes = {
+  cats: React.PropTypes.array,
 };
-
-Categories.defaultProps = {};
 
 export default Categories;

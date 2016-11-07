@@ -1,6 +1,8 @@
 import React from 'react';
+import Breadcrumbs from 'react-breadcrumbs';
 import axios from 'axios';
 import Search from './search';
+
 
 class Cards extends React.Component {
 
@@ -19,7 +21,6 @@ class Cards extends React.Component {
   componentDidMount() {
     axios.get('/api/cards')
       .then(res => {
-        console.log(res);
         if (res.data.status === 'success') {
           this.setState({ cards: res.data.data, filterCards: res.data.data });
         }
@@ -27,7 +28,6 @@ class Cards extends React.Component {
 
     axios.get('/api/categories')
       .then(res => {
-        console.log(res.data);
         if (res.data.status === 'success') {
           this.setState({ categories: res.data.data, loading: false });
         }
@@ -37,6 +37,10 @@ class Cards extends React.Component {
 
   onSearchChange(e) {
     this.setState({ filterCards: this.filterCards(e.target.value) });
+  }
+
+  onSelectChange(e) {
+    this.setState({ filterCards: this.selectFilterCards(e.target.value) });
   }
 
   filterCards(value) {
@@ -53,10 +57,6 @@ class Cards extends React.Component {
     });
   }
 
-  onSelectChange(e) {
-    this.setState({ filterCards: this.selectFilterCards(e.target.value) });
-  }
-
   selectFilterCards(cat) {
     if (cat === '') return this.state.cards;
     return this.state.cards.filter((card) => card.categories.includes(cat));
@@ -65,31 +65,28 @@ class Cards extends React.Component {
   render() {
     return (
       <div>
-        <Search />
-        <div className="content container">
-          <h1>Cards</h1>
-          <form>
-            <label>Filter by Category:</label>
-            <select name="category" onChange={this.onSelectChange}>
-              <option value="">** All Cards **</option>
-              {this.state.categories.map((cat) =>
-                <option value={cat.slug}>{cat.title}</option>
-              )}
-            </select>
-          </form>
-          <ul className="cards-list">
-            {this.state.filterCards.map((card) =>
-              <li key={card.slug}>
-                <a href={`/cards/${card.slug}`}>{card.title}</a>
-                <span className="metadata">
-                  {card.categories.map((cat) =>
-                    <a href={`/categories/${cat}`}>{cat}</a>
-                  )}
-                </span>
-              </li>
+        <h1>Cards</h1>
+        <form>
+          <label>Filter by Category:</label>
+          <select name="category" onChange={this.onSelectChange}>
+            <option value="">** All Cards **</option>
+            {this.state.categories.map((cat) =>
+              <option value={cat.slug}>{cat.title}</option>
             )}
-          </ul>
-        </div>
+          </select>
+        </form>
+        <ul className="cards-list">
+          {this.state.filterCards.map((card) =>
+            <li key={card.slug}>
+              <a href={`/cards/${card.slug}`}>{card.title}</a>
+              <span className="metadata">
+                {card.categories.map((cat) =>
+                  <a href={`/categories/${cat}`}>{cat}</a>
+                )}
+              </span>
+            </li>
+          )}
+        </ul>
       </div>
     );
   }

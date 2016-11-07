@@ -15,14 +15,11 @@ class Tag extends React.Component {
   componentDidMount() {
     axios.get(`/api/tags/${this.props.params.tagslug}`)
       .then(res => {
-        console.log(res.data.data);
         if (res.data.status === 'success') {
-          console.log(this.state);
-          try { this.setState({ tag: res.data.data }); }
-          catch(error) { console.log(error) };
-          console.log(this.state);
+          this.setState({ tag: res.data.data });
         }
-      });
+      })
+      .catch((error) => console.log(error));
   }
 
   render() {
