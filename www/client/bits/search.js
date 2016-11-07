@@ -30,17 +30,40 @@ class Search extends React.Component {
   }
 
   render() {
-    return (
-      <div className="searchbox">
-        <form>
-          <label><i className="material-icons">search</i></label>
-          <input type="text" onChange={this.onChange} placeholder="Search" />
-        </form>
-        {this.state.cards[0] ? <Results cards={this.state.cards} /> : null}
-      </div>
-    );
+    if (this.props.hero) {
+      return (
+        <SearchHero
+          changeHandler={this.onChange}
+          cards={this.state.cards}
+        />
+      );
+    }
+    return <SearchBar changeHandler={this.onChange} cards={this.state.cards} />;
   }
 }
+
+const SearchBar = ({ changeHandler, cards }) =>
+  <div className="searchbox">
+    <div className="container">
+      <form>
+        <label><i className="material-icons">search</i></label>
+        <input type="text" onChange={changeHandler} placeholder="Search" />
+      </form>
+      {cards[0] ? <Results cards={cards} /> : null}
+    </div>
+  </div>;
+
+const SearchHero = ({ changeHandler, cards }) =>
+  <div className="searchHero">
+    <p><i>A point-of-care reference</i><br /><b>by</b> Emergency Medicine providers<br />
+    for Emergency Medicine providers.
+    </p>
+    <form className="container">
+      <label><i className="material-icons">search</i></label>
+      <input type="text" onChange={changeHandler} placeholder="Search" />
+    </form>
+    {cards[0] ? <Results cards={cards} /> : null}
+  </div>;
 
 const Results = ({ cards }) =>
   <ul className="search-list">
@@ -51,10 +74,11 @@ const Results = ({ cards }) =>
 
 Search.propTypes = {
   params: React.PropTypes.object,
+  hero: React.PropTypes.bool,
 };
 
 Search.defaultProps = {
-
+  hero: false,
 };
 
 export default Search;

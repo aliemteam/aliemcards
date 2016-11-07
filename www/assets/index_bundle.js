@@ -27590,6 +27590,10 @@
 
 	var _topbar2 = _interopRequireDefault(_topbar);
 
+	var _searchhero = __webpack_require__(283);
+
+	var _searchhero2 = _interopRequireDefault(_searchhero);
+
 	var _footer = __webpack_require__(273);
 
 	var _footer2 = _interopRequireDefault(_footer);
@@ -27610,58 +27614,23 @@
 
 	    var _this = _possibleConstructorReturn(this, (Main.__proto__ || Object.getPrototypeOf(Main)).call(this, props));
 
-	    _this.reducer = _this.reducer.bind(_this);
 	    _this.state = {
 	      navDrawerOpen: false
 	    };
 	    return _this;
 	  }
 
-	  /**
-	   * Common reducer function to handle all child events
-	   * @param  {{type: string, ...rest}} action  Action object
-	   * @param  {Event}                   e       Event
-	   * @return {void}
-	   */
-
-
 	  _createClass(Main, [{
-	    key: 'reducer',
-	    value: function reducer(action, e) {
-	      if (e) e.preventDefault();
-	      switch (action.type) {
-	        case 'TOGGLE_NAV_DRAWER':
-	          return this.setState({ navDrawerOpen: !this.state.navDrawerOpen });
-	        default:
-	          return null;
-	      }
-	    }
-	  }, {
 	    key: 'render',
 	    value: function render() {
+	      console.log(this.props.routes[0].name);
 	      return _react2.default.createElement(
 	        'div',
 	        { className: 'main' },
 	        _react2.default.createElement(_topbar2.default, {
-	          title: 'ALiEM Cards',
-	          events: this.reducer.bind(this),
-	          showNav: this.state.navDrawerOpen
+	          title: 'ALiEM Cards'
 	        }),
-	        _react2.default.createElement(
-	          'div',
-	          { className: 'container content' },
-	          _react2.default.createElement(_reactBreadcrumbs2.default, {
-	            className: 'breadcrumbs',
-	            separator: ' / ',
-	            routes: this.props.routes,
-	            params: this.props.params
-	          }),
-	          _react2.default.createElement(
-	            'div',
-	            null,
-	            this.props.children
-	          )
-	        ),
+	        this.props.children,
 	        _react2.default.createElement(_footer2.default, null)
 	      );
 	    }
@@ -27774,6 +27743,9 @@
 	    var _this = _possibleConstructorReturn(this, (TopBar.__proto__ || Object.getPrototypeOf(TopBar)).call(this, props));
 
 	    _this.toggleNavTap = _this.toggleNavTap.bind(_this);
+	    _this.state = {
+	      navDrawerOpen: false
+	    };
 	    return _this;
 	  }
 
@@ -27781,7 +27753,7 @@
 	    key: 'toggleNavTap',
 	    value: function toggleNavTap(e) {
 	      e.preventDefault();
-	      this.props.events({ type: 'TOGGLE_NAV_DRAWER' });
+	      this.setState({ navDrawerOpen: !this.state.navDrawerOpen });
 	    }
 	  }, {
 	    key: 'render',
@@ -27807,8 +27779,7 @@
 	            _react2.default.createElement('img', { src: '/images/aliem-cards-logo-horizontal.svg', alt: this.props.title })
 	          )
 	        ),
-	        _react2.default.createElement(_navmenu2.default, { showNav: this.props.showNav }),
-	        _react2.default.createElement(_search2.default, null)
+	        _react2.default.createElement(_navmenu2.default, { showNav: this.state.navDrawerOpen })
 	      );
 	    }
 	  }]);
@@ -27817,9 +27788,7 @@
 	}(_react2.default.Component);
 
 	TopBar.propTypes = {
-	  title: _react2.default.PropTypes.string,
-	  events: _react2.default.PropTypes.func,
-	  showNav: _react2.default.PropTypes.bool
+	  title: _react2.default.PropTypes.string
 	};
 
 	TopBar.defaultProps = {};
@@ -27956,33 +27925,91 @@
 	  }, {
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(
-	        'div',
-	        { className: 'searchbox' },
-	        _react2.default.createElement(
-	          'form',
-	          null,
-	          _react2.default.createElement(
-	            'label',
-	            null,
-	            _react2.default.createElement(
-	              'i',
-	              { className: 'material-icons' },
-	              'search'
-	            )
-	          ),
-	          _react2.default.createElement('input', { type: 'text', onChange: this.onChange, placeholder: 'Search' })
-	        ),
-	        this.state.cards[0] ? _react2.default.createElement(Results, { cards: this.state.cards }) : null
-	      );
+	      if (this.props.hero) {
+	        return _react2.default.createElement(SearchHero, {
+	          changeHandler: this.onChange,
+	          cards: this.state.cards
+	        });
+	      }
+	      return _react2.default.createElement(SearchBar, { changeHandler: this.onChange, cards: this.state.cards });
 	    }
 	  }]);
 
 	  return Search;
 	}(_react2.default.Component);
 
-	var Results = function Results(_ref) {
+	var SearchBar = function SearchBar(_ref) {
+	  var changeHandler = _ref.changeHandler;
 	  var cards = _ref.cards;
+	  return _react2.default.createElement(
+	    'div',
+	    { className: 'searchbox' },
+	    _react2.default.createElement(
+	      'div',
+	      { className: 'container' },
+	      _react2.default.createElement(
+	        'form',
+	        null,
+	        _react2.default.createElement(
+	          'label',
+	          null,
+	          _react2.default.createElement(
+	            'i',
+	            { className: 'material-icons' },
+	            'search'
+	          )
+	        ),
+	        _react2.default.createElement('input', { type: 'text', onChange: changeHandler, placeholder: 'Search' })
+	      ),
+	      cards[0] ? _react2.default.createElement(Results, { cards: cards }) : null
+	    )
+	  );
+	};
+
+	var SearchHero = function SearchHero(_ref2) {
+	  var changeHandler = _ref2.changeHandler;
+	  var cards = _ref2.cards;
+	  return _react2.default.createElement(
+	    'div',
+	    { className: 'searchHero' },
+	    _react2.default.createElement(
+	      'p',
+	      null,
+	      _react2.default.createElement(
+	        'i',
+	        null,
+	        'A point-of-care reference'
+	      ),
+	      _react2.default.createElement('br', null),
+	      _react2.default.createElement(
+	        'b',
+	        null,
+	        'by'
+	      ),
+	      ' Emergency Medicine providers',
+	      _react2.default.createElement('br', null),
+	      'for Emergency Medicine providers.'
+	    ),
+	    _react2.default.createElement(
+	      'form',
+	      { className: 'container' },
+	      _react2.default.createElement(
+	        'label',
+	        null,
+	        _react2.default.createElement(
+	          'i',
+	          { className: 'material-icons' },
+	          'search'
+	        )
+	      ),
+	      _react2.default.createElement('input', { type: 'text', onChange: changeHandler, placeholder: 'Search' })
+	    ),
+	    cards[0] ? _react2.default.createElement(Results, { cards: cards }) : null
+	  );
+	};
+
+	var Results = function Results(_ref3) {
+	  var cards = _ref3.cards;
 	  return _react2.default.createElement(
 	    'ul',
 	    { className: 'search-list' },
@@ -28001,10 +28028,13 @@
 	};
 
 	Search.propTypes = {
-	  params: _react2.default.PropTypes.object
+	  params: _react2.default.PropTypes.object,
+	  hero: _react2.default.PropTypes.bool
 	};
 
-	Search.defaultProps = {};
+	Search.defaultProps = {
+	  hero: false
+	};
 
 	exports.default = Search;
 
@@ -29523,7 +29553,7 @@
 /* 274 */
 /***/ function(module, exports, __webpack_require__) {
 
-	"use strict";
+	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -29533,46 +29563,55 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
+	var _search = __webpack_require__(247);
+
+	var _search2 = _interopRequireDefault(_search);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	var Home = function Home() {
 	  return _react2.default.createElement(
-	    "div",
+	    'div',
 	    null,
+	    _react2.default.createElement(_search2.default, { hero: true }),
 	    _react2.default.createElement(
-	      "h1",
-	      null,
-	      "Welcome"
-	    ),
-	    _react2.default.createElement(
-	      "p",
-	      null,
-	      "Cornhole poke semiotics, direct trade banjo +1 next level. Four loko humblebrag prism jianbing. Tbh next level jean shorts fanny pack tattooed. Meggings bicycle rights pabst ethical, chartreuse tumblr woke tumeric godard activated charcoal truffaut plaid. Deep v put a bird on it normcore paleo food truck kombucha. Raw denim tofu helvetica pop-up direct trade fam. Fam plaid pour-over, jean shorts farm-to-table hot chicken fixie etsy wolf."
-	    ),
-	    _react2.default.createElement(
-	      "p",
-	      null,
-	      "Hot chicken thundercats migas poutine distillery, blog occupy keffiyeh 3 wolf moon fingerstache four loko direct trade. Fingerstache mlkshk brooklyn, cray wayfarers whatever selfies drinking vinegar fashion axe before they sold out. Gastropub street art post-ironic YOLO sustainable, polaroid cliche portland locavore. Glossier forage migas put a bird on it. Glossier mumblecore banh mi, whatever franzen actually DIY. Poke kogi master cleanse, sustainable typewriter salvia hexagon whatever fap vinyl banh mi tofu yr. Celiac fap vice, copper mug ennui literally microdosing normcore."
-	    ),
-	    _react2.default.createElement(
-	      "div",
-	      { className: "row" },
+	      'div',
+	      { className: 'container content' },
 	      _react2.default.createElement(
-	        "div",
-	        { className: "one-half column" },
-	        _react2.default.createElement(
-	          "h1",
-	          null,
-	          "Newest"
-	        )
+	        'h1',
+	        null,
+	        'Welcome'
 	      ),
 	      _react2.default.createElement(
-	        "div",
-	        { className: "one-half column" },
+	        'p',
+	        null,
+	        'Cornhole poke semiotics, direct trade banjo +1 next level. Four loko humblebrag prism jianbing. Tbh next level jean shorts fanny pack tattooed. Meggings bicycle rights pabst ethical, chartreuse tumblr woke tumeric godard activated charcoal truffaut plaid. Deep v put a bird on it normcore paleo food truck kombucha. Raw denim tofu helvetica pop-up direct trade fam. Fam plaid pour-over, jean shorts farm-to-table hot chicken fixie etsy wolf.'
+	      ),
+	      _react2.default.createElement(
+	        'p',
+	        null,
+	        'Hot chicken thundercats migas poutine distillery, blog occupy keffiyeh 3 wolf moon fingerstache four loko direct trade. Fingerstache mlkshk brooklyn, cray wayfarers whatever selfies drinking vinegar fashion axe before they sold out. Gastropub street art post-ironic YOLO sustainable, polaroid cliche portland locavore. Glossier forage migas put a bird on it. Glossier mumblecore banh mi, whatever franzen actually DIY. Poke kogi master cleanse, sustainable typewriter salvia hexagon whatever fap vinyl banh mi tofu yr. Celiac fap vice, copper mug ennui literally microdosing normcore.'
+	      ),
+	      _react2.default.createElement(
+	        'div',
+	        { className: 'row' },
 	        _react2.default.createElement(
-	          "h1",
-	          null,
-	          "Most Popular"
+	          'div',
+	          { className: 'one-half column' },
+	          _react2.default.createElement(
+	            'h1',
+	            null,
+	            'Newest'
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'one-half column' },
+	          _react2.default.createElement(
+	            'h1',
+	            null,
+	            'Most Popular'
+	          )
 	        )
 	      )
 	    )
@@ -29633,6 +29672,10 @@
 	var _axios = __webpack_require__(248);
 
 	var _axios2 = _interopRequireDefault(_axios);
+
+	var _search = __webpack_require__(247);
+
+	var _search2 = _interopRequireDefault(_search);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -29719,61 +29762,66 @@
 	      return _react2.default.createElement(
 	        'div',
 	        null,
+	        _react2.default.createElement(_search2.default, null),
 	        _react2.default.createElement(
-	          'h1',
-	          null,
-	          'Cards'
-	        ),
-	        _react2.default.createElement(
-	          'form',
-	          null,
+	          'div',
+	          { className: 'content container' },
 	          _react2.default.createElement(
-	            'label',
+	            'h1',
 	            null,
-	            'Filter by Category:'
+	            'Cards'
 	          ),
 	          _react2.default.createElement(
-	            'select',
-	            { name: 'category', onChange: this.onSelectChange },
+	            'form',
+	            null,
 	            _react2.default.createElement(
-	              'option',
-	              { value: '' },
-	              '** All Cards **'
+	              'label',
+	              null,
+	              'Filter by Category:'
 	            ),
-	            this.state.categories.map(function (cat) {
-	              return _react2.default.createElement(
+	            _react2.default.createElement(
+	              'select',
+	              { name: 'category', onChange: this.onSelectChange },
+	              _react2.default.createElement(
 	                'option',
-	                { value: cat.slug },
-	                cat.title
+	                { value: '' },
+	                '** All Cards **'
+	              ),
+	              this.state.categories.map(function (cat) {
+	                return _react2.default.createElement(
+	                  'option',
+	                  { value: cat.slug },
+	                  cat.title
+	                );
+	              })
+	            )
+	          ),
+	          _react2.default.createElement(
+	            'ul',
+	            { className: 'cards-list' },
+	            this.state.filterCards.map(function (card) {
+	              return _react2.default.createElement(
+	                'li',
+	                { key: card.slug },
+	                _react2.default.createElement(
+	                  'a',
+	                  { href: '/cards/' + card.slug },
+	                  card.title
+	                ),
+	                _react2.default.createElement(
+	                  'span',
+	                  { className: 'metadata' },
+	                  card.categories.map(function (cat) {
+	                    return _react2.default.createElement(
+	                      'a',
+	                      { href: '/categories/' + cat },
+	                      cat
+	                    );
+	                  })
+	                )
 	              );
 	            })
 	          )
-	        ),
-	        _react2.default.createElement(
-	          'ul',
-	          { className: 'cards-list' },
-	          this.state.filterCards.map(function (card) {
-	            return _react2.default.createElement(
-	              'li',
-	              { key: card.slug },
-	              _react2.default.createElement(
-	                'a',
-	                { href: '/cards/' + card.slug },
-	                card.title
-	              ),
-	              _react2.default.createElement(
-	                'span',
-	                { className: 'metadata' },
-	                card.categories.map(function (cat) {
-	                  return _react2.default.createElement(
-	                    'a',
-	                    { href: '/categories/' + cat },
-	                    cat
-	                  );
-	                })
-	              )
-	            );
-	          })
 	        )
 	      );
 	    }
@@ -30331,6 +30379,12 @@
 	Tag.defaultProps = {};
 
 	exports.default = Tag;
+
+/***/ },
+/* 283 */
+/***/ function(module, exports) {
+
+	"use strict";
 
 /***/ }
 /******/ ]);

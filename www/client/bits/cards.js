@@ -1,5 +1,6 @@
 import React from 'react';
 import axios from 'axios';
+import Search from './search';
 
 class Cards extends React.Component {
 
@@ -64,28 +65,31 @@ class Cards extends React.Component {
   render() {
     return (
       <div>
-        <h1>Cards</h1>
-        <form>
-          <label>Filter by Category:</label>
-          <select name="category" onChange={this.onSelectChange}>
-            <option value="">** All Cards **</option>
-            {this.state.categories.map((cat) =>
-              <option value={cat.slug}>{cat.title}</option>
+        <Search />
+        <div className="content container">
+          <h1>Cards</h1>
+          <form>
+            <label>Filter by Category:</label>
+            <select name="category" onChange={this.onSelectChange}>
+              <option value="">** All Cards **</option>
+              {this.state.categories.map((cat) =>
+                <option value={cat.slug}>{cat.title}</option>
+              )}
+            </select>
+          </form>
+          <ul className="cards-list">
+            {this.state.filterCards.map((card) =>
+              <li key={card.slug}>
+                <a href={`/cards/${card.slug}`}>{card.title}</a>
+                <span className="metadata">
+                  {card.categories.map((cat) =>
+                    <a href={`/categories/${cat}`}>{cat}</a>
+                  )}
+                </span>
+              </li>
             )}
-          </select>
-        </form>
-        <ul className="cards-list">
-          {this.state.filterCards.map((card) =>
-            <li key={card.slug}>
-              <a href={`/cards/${card.slug}`}>{card.title}</a>
-              <span className="metadata">
-                {card.categories.map((cat) =>
-                  <a href={`/categories/${cat}`}>{cat}</a>
-                )}
-              </span>
-            </li>
-          )}
-        </ul>
+          </ul>
+        </div>
       </div>
     );
   }

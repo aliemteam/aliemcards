@@ -8,11 +8,14 @@ class TopBar extends React.Component {
   constructor(props) {
     super(props);
     this.toggleNavTap = this.toggleNavTap.bind(this);
+    this.state = {
+      navDrawerOpen: false,
+    };
   }
 
   toggleNavTap(e) {
     e.preventDefault();
-    this.props.events({ type: 'TOGGLE_NAV_DRAWER' });
+    this.setState({ navDrawerOpen: !this.state.navDrawerOpen });
   }
 
   render() {
@@ -24,8 +27,7 @@ class TopBar extends React.Component {
             <img src="/images/aliem-cards-logo-horizontal.svg" alt={this.props.title} />
           </a>
         </div>
-        <NavMenu showNav={this.props.showNav} />
-        <Search />
+        <NavMenu showNav={this.state.navDrawerOpen} />
       </div>
     );
   }
@@ -33,8 +35,6 @@ class TopBar extends React.Component {
 
 TopBar.propTypes = {
   title: React.PropTypes.string,
-  events: React.PropTypes.func,
-  showNav: React.PropTypes.bool,
 };
 
 TopBar.defaultProps = {};

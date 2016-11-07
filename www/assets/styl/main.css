@@ -566,6 +566,29 @@ li {
 #references + ul a {
   text-decoration: none;
 }
+.searchHero {
+  position: relative;
+  width: 100%;
+  min-height: 40rem;
+  background-color: #00b092;
+  color: #fff;
+  text-align: center;
+  padding: 8rem;
+}
+.searchHero label {
+  display: inline;
+  position: relative;
+  top: 1rem;
+}
+.searchHero label i {
+  font-size: 4rem;
+}
+.searchHero input {
+  width: 80%;
+  height: 6rem;
+  color: #706d6e;
+  font-size: 2rem;
+}
 .searchbox {
   position: relative;
   width: 100%;
@@ -642,6 +665,7 @@ body {
 }
 .content {
   position: relative;
+  margin-top: 2rem;
 }
 .drug {
   color: #f06292;
