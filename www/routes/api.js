@@ -150,4 +150,20 @@ router.get('/search/:query', (req, res) => {
   });
 });
 
+// NEWEST
+
+router.get('/recent', (req, res) => {
+  Card.find()
+  .sort('-updatedAt')
+  .limit(5)
+  .select('slug title categories')
+  .exec()
+  .then((cards) => {
+    res.json(apires('success', cards));
+  })
+  .catch((error) => {
+    res.json(apires('fail', `database error: ${error}`));
+  });
+});
+
 module.exports = router;

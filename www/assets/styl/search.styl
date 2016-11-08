@@ -10,8 +10,7 @@ searchbox-height = 6rem
   background-color: aliem-green
   color: white
   text-align: center
-  padding: 8rem
-  overflow: visible
+  padding: 1rem
 
   label
     display: inline
@@ -19,15 +18,26 @@ searchbox-height = 6rem
     top: 1rem
 
     i
-      font-size: 4rem
+      font-size: 3rem
 
   input
-    width: 80%
-    height: 6rem
+    width: 85%
+    height: 4rem
     color: dark-shade
     font-size: 2rem
 
-.searchbox
+@media (min-width: 750px)
+  .searchHero
+    padding: 8rem
+
+    input
+      height: 6rem
+      width: 80%
+
+    label i
+      font-size: 4rem
+
+.searchBox
   position: relative
   width: 100%
   color: white
@@ -50,7 +60,7 @@ searchbox-height = 6rem
   input
     margin: 0rem
     font-size: 2rem
-    width: 90%
+    width: 85%
     outline: none
     color: dark-shade
 
@@ -59,13 +69,13 @@ searchbox-height = 6rem
     outline: none
 
 
-.search-list
+.searchList
   position: relative
   top: -2rem
   left: 2rem
   width: 85%
-  margin: 1em auto
-  padding: 3rem
+  margin: 1em
+  padding: 2rem 0
   // background-color: light-shade
   // border: 0px solid aliem-green-shade
   // text-align: left
@@ -77,6 +87,7 @@ searchbox-height = 6rem
     background-color: white
     text-align: left
     font-weight: bold
+    border-radius: 2px
 
     a
       display: block
@@ -84,11 +95,15 @@ searchbox-height = 6rem
       color: aliem-green
       text-decoration: none
 
-
     a:hover
       background-color: light-shade
       color: aliem-green-shade
+      border-radius: 2px
 
 @media (min-width: 750px)
   .searchbox
     padding: 1rem 12.5%
+
+  .search-list
+    margin: 2rem auto
+    padding: 3rem

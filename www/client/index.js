@@ -12,6 +12,7 @@ import Category from './bits/category';
 import Categories from './bits/categories';
 import Tags from './bits/tags';
 import Tag from './bits/tag';
+import About from './bits/about';
 
 injectTapEventPlugin();
 
@@ -40,6 +41,10 @@ ReactDOM.render((
           <IndexRoute component={Tag} />
           <Route name="Card" path=":slug" component={Card} />
         </Route>
+      </Route>
+
+      <Route name="Pages" path="/pages" component={Main}>
+        <Route name="About" path="about" component={About} />
       </Route>
 
       <Route name="Not Found" path="*" component={NotFound} />

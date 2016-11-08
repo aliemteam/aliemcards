@@ -448,7 +448,7 @@ li {
   color: #706d6e;
 }
 #header img {
-  max-height: 4rem;
+  height: 3.5rem;
 }
 #header h1 {
   display: inline-block;
@@ -570,8 +570,7 @@ li {
   background-color: #00b092;
   color: #fff;
   text-align: center;
-  padding: 8rem;
-  overflow: visible;
+  padding: 1rem;
 }
 .searchHero label {
   display: inline;
@@ -579,15 +578,27 @@ li {
   top: 1rem;
 }
 .searchHero label i {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 .searchHero input {
-  width: 80%;
-  height: 6rem;
+  width: 85%;
+  height: 4rem;
   color: #706d6e;
   font-size: 2rem;
 }
-.searchbox {
+@media (min-width: 750px) {
+  .searchHero {
+    padding: 8rem;
+  }
+  .searchHero input {
+    height: 6rem;
+    width: 80%;
+  }
+  .searchHero label i {
+    font-size: 4rem;
+  }
+}
+.searchBox {
   position: relative;
   width: 100%;
   color: #fff;
@@ -597,55 +608,61 @@ li {
   text-align: center;
   overflow: visible;
 }
-.searchbox form {
+.searchBox form {
   margin-bottom: 0;
 }
-.searchbox label {
+.searchBox label {
   display: inline;
   padding: 0 1rem 0 0;
   position: relative;
   top: 0.5rem;
   font-size: 2rem;
 }
-.searchbox input {
+.searchBox input {
   margin: 0rem;
   font-size: 2rem;
-  width: 90%;
+  width: 85%;
   outline: none;
   color: #706d6e;
 }
-.searchbox input:focus {
+.searchBox input:focus {
   border: none;
   outline: none;
 }
-.search-list {
+.searchList {
   position: relative;
   top: -2rem;
   left: 2rem;
   width: 85%;
-  margin: 1em auto;
-  padding: 3rem;
+  margin: 1em;
+  padding: 2rem 0;
 }
-.search-list li {
+.searchList li {
   list-style: none;
   margin-bottom: 1rem;
   background-color: #fff;
   text-align: left;
   font-weight: bold;
+  border-radius: 2px;
 }
-.search-list li a {
+.searchList li a {
   display: block;
   padding: 1rem 2rem;
   color: #00b092;
   text-decoration: none;
 }
-.search-list li a:hover {
+.searchList li a:hover {
   background-color: #f2f2f2;
   color: #007d68;
+  border-radius: 2px;
 }
 @media (min-width: 750px) {
   .searchbox {
     padding: 1rem 12.5%;
+  }
+  .search-list {
+    margin: 2rem auto;
+    padding: 3rem;
   }
 }
 .foot {
@@ -674,10 +691,6 @@ body {
   position: relative;
   margin-top: 2rem;
 }
-.content li {
-  text-indent: -1rem;
-  padding-left: 1rem;
-}
 .drug {
   color: #f06292;
   font-weight: bold;
@@ -703,6 +716,9 @@ body {
 .taxonomy-list li .metadata {
   display: none;
 }
+.breadcrumbs {
+  display: none;
+}
 @media (min-width: 750px) {
   .taxonomy-list li {
     box-sizing: border-box;
@@ -722,6 +738,12 @@ body {
     margin-right: 1rem;
     background-color: #f2f2f2;
     padding: 0.5rem 1rem;
+  }
+  .backButton {
+    display: none;
+  }
+  .breadcrumbs {
+    display: block;
   }
 }
 .loader {

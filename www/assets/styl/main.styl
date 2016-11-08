@@ -25,10 +25,6 @@ body
   position: relative
   margin-top: 2rem
 
-  li
-    text-indent: -1rem
-    padding-left: 1rem
-
 .drug
   color: #F06292
   font-weight: bold
@@ -52,6 +48,9 @@ body
     .metadata
       display: none
 
+.breadcrumbs
+  display: none
+
 @media (min-width: 750px)
   .taxonomy-list
     li
@@ -74,6 +73,12 @@ body
           margin-right: 1rem
           background-color: light-shade
           padding: 0.5rem 1rem
+
+  .backButton
+    display: none
+
+  .breadcrumbs
+    display: block
 
 .loader
   background-color: aliem-green

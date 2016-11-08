@@ -43,7 +43,7 @@ class Search extends React.Component {
 }
 
 const SearchBar = ({ changeHandler, cards }) =>
-  <div className="searchbox">
+  <div className="searchBox">
     <form className="container">
       <label><i className="material-icons">search</i></label>
       <input type="text" onChange={changeHandler} placeholder="Search" />
@@ -64,7 +64,7 @@ const SearchHero = ({ changeHandler, cards }) =>
 
 const Results = ({ cards }) =>
   <div className="container">
-    <ul className="search-list">
+    <ul className="searchList">
       {cards.map((card) =>
         <li><a href={`/cards/${card.slug}`}>{card.title}</a></li>
       )}

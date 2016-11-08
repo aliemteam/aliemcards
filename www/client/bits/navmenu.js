@@ -5,7 +5,7 @@ const NavMenu = ({ showNav }) =>
     <ul>
       <li><a href="/cards">Cards</a></li>
       <li><a href="/categories">Categories</a></li>
-      <li><a href="/tags">Tags</a></li>
+      <li><a href="/pages/about">About</a></li>
     </ul>
   </div>;
 

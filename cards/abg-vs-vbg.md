@@ -17,10 +17,6 @@ tags:
 ## **VBG**
 
 <table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th><br />
