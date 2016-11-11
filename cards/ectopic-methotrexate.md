@@ -3,7 +3,11 @@
 title: Ectopic Pregnancy and Methotrexate
 collection:
   - OBGYN
-tags: Methotrexate,
+tags: Methotrexate
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2011/11/11
 
 ---
 

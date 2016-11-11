@@ -5,6 +5,10 @@ collection:
   - Pulmonology
   - Allergy-Immunology
 tags:
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2011/04/29
 
 ---
 

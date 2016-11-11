@@ -4,6 +4,10 @@ title: Ectopic Pregnancy - Making the Diagnosis
 collection:
   - OBGYN
 tags:
+authors:
+  - Javier Benitez, MD
+updated:
+  - 2013/05/09
 
 ---
 

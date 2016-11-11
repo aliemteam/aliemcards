@@ -6,6 +6,10 @@ collection:
   - Pharmacology
   - Toxicology
 tags:
+authors:
+  - Mac Walter, MD
+updated:
+  - 2013/12/18
 
 ---
 

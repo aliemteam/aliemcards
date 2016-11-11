@@ -5,6 +5,10 @@ collection:
   - Pediatrics
   - ENT
 tags: dexamethasone, racemic epinephrine
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2010/08/20
 
 ---
 

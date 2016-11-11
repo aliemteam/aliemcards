@@ -4,6 +4,10 @@ title: Subarachnoid Hemorrhage, Nontraumatic
 collection:
   - Neurology
 tags:
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2010/03/05
 
 ---
 

@@ -4,6 +4,10 @@ title: Clostridium Difficile Infection
 collection:
   - Infectious Disease
 tags:
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2011/06/24
 
 ---
 

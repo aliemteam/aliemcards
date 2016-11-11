@@ -4,6 +4,10 @@ title: Suicide Risk Stratification
 collection:
   - Psychiatry
 tags:
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2011/02/18
 
 ---
 

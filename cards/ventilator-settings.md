@@ -5,6 +5,10 @@ collection:
   - Pulmonology
   - Critical Care
 tags:
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2011/10/14
 
 ---
 

@@ -4,6 +4,10 @@ title: Open Fractures and Antibiotics
 collection:
   - Orthopedics
 tags:
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2012/01/20
 
 ---
 

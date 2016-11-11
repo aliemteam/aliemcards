@@ -5,6 +5,10 @@ collection:
   - Critical Care
   - Pulmonology
 tags: tPA, tenecteplase, alteplase, heparin
+authors:
+  - Hans Rosenberg, MD
+updated:
+  - 2011/07/29
 
 ---
 

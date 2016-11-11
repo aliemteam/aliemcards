@@ -9,6 +9,8 @@
 @import "cards"
 @import "search"
 @import "footer"
+@import "images"
+@import "loader"
 
 html
   height: 100%
@@ -29,8 +31,15 @@ body
   color: #F06292
   font-weight: bold
 
-.cards-list,
 .taxonomy-list
+  a
+    text-decoration: none
+    color: dark-shade
+
+  a:hover
+    color: aliem-green
+
+.cards-list
   li
     list-style: none
     color: dark-shade
@@ -52,15 +61,6 @@ body
   display: none
 
 @media (min-width: 750px)
-  .taxonomy-list
-    li
-      box-sizing: border-box
-      float: left
-      width: 33%
-      padding: 1rem
-
-    li:nth-child(3n+4)
-      clear: left
 
   .cards-list
     li
@@ -79,24 +79,6 @@ body
 
   .breadcrumbs
     display: block
-
-.loader
-  background-color: aliem-green
-  width: 100%
-  height: 100%
-  padding: 3rem
-  color: white
-  font-size: 8rem
-
-  i
-    font-size: 10rem
-    animation: spin 1s infinite
-
-@keyframes spin {
-  0% { transform: rotate(0deg) }
-  100% { transform: rotate(360deg) }
-}
-
 
 /* Normalize
 -----------------------------------------*/

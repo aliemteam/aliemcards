@@ -3,7 +3,11 @@
 title: Local Anesthetic Toxicity
 collection:
   - Toxicology
-tags: Bupivacaine, Lidocaine, Epinephrine, intralipid
+tags: bupivacaine, lidocaine, epinephrine, intralipid
+authors:
+  - David Murphy
+updated:
+  - 2014/06/13
 
 ---
 

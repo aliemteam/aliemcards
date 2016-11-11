@@ -4,6 +4,10 @@ title: Carbon Monoxide Poisoning
 collection:
   - Toxicology
 tags:
+authors:
+  - Dan Repplinger, MD
+updated:
+  - 2013/12/23
 
 ---
 

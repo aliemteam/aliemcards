@@ -4,6 +4,10 @@ title: Brugada Syndrome
 collection:
   - Cardiovascular
 tags:
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2011/05/06
 
 ---
 

@@ -373,7 +373,7 @@ h1 {
 h2 {
   line-height: 1.25;
   letter-spacing: -0.1rem;
-  font-size: 3.2rem;
+  font-size: 2.6rem;
   border-bottom: 1px solid #706d6e;
 }
 h3 {
@@ -398,16 +398,16 @@ h6 {
 }
 @media (min-width: 750px) {
   h1 {
-    font-size: 4.5rem;
+    font-size: 4rem;
   }
   h2 {
-    font-size: 3.8rem;
+    font-size: 3.2rem;
   }
   h3 {
-    font-size: 3.6rem;
+    font-size: 2.8rem;
   }
   h4 {
-    font-size: 3rem;
+    font-size: 2.8rem;
   }
   h5 {
     font-size: 2.4rem;
@@ -420,10 +420,10 @@ p {
   margin-top: 0;
 }
 ul {
-  list-style: disc inside;
+  list-style: disc outside;
 }
 ol {
-  list-style: decimal inside;
+  list-style: decimal outside;
 }
 ol,
 ul {
@@ -438,6 +438,7 @@ ol ul {
 }
 li {
   margin-bottom: 0.5rem;
+  margin-left: 1rem;
 }
 #header {
   position: relative;
@@ -549,20 +550,51 @@ li {
 .breadcrumbs a:hover {
   color: #00b092;
 }
+.cardHtml h1:first-of-type {
+  display: none;
+}
+.cardMeta {
+  list-style: none;
+  padding: 0;
+}
+.cardMeta li {
+  display: block;
+  font-size: 1.4rem;
+  color: #706d6e;
+  background-color: #f2f2f2;
+  margin: 0 1rem 0 0;
+  padding: 1rem;
+}
+.author::after {
+  content: ", ";
+}
+.author:last-of-type::after {
+  content: "";
+}
 #references {
   background-color: #f2f2f2;
-  border: 1px solid #706d6e;
+  border-bottom: 0;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  margin-bottom: -1rem;
   color: #706d6e;
   padding: 0.5em 1em;
   font-size: 2.5rem;
 }
 #references + ul {
   background-color: #f2f2f2;
-  border: 1px solid #706d6e;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
   padding: 1.5em;
 }
 #references + ul a {
   text-decoration: none;
+}
+@media (min-width: 750px) {
+  .cardMeta li {
+    display: inline;
+    white-space: nowrap;
+  }
 }
 .searchHero {
   position: relative;
@@ -572,30 +604,13 @@ li {
   text-align: center;
   padding: 1rem;
 }
-.searchHero label {
-  display: inline;
-  position: relative;
-  top: 1rem;
-}
-.searchHero label i {
-  font-size: 3rem;
-}
-.searchHero input {
-  width: 85%;
-  height: 4rem;
-  color: #706d6e;
-  font-size: 2rem;
-}
 @media (min-width: 750px) {
   .searchHero {
-    padding: 8rem;
+    padding: 5rem;
   }
-  .searchHero input {
-    height: 6rem;
-    width: 80%;
-  }
-  .searchHero label i {
-    font-size: 4rem;
+  .searchHero .searchBox {
+    width: 75%;
+    margin: 0 auto;
   }
 }
 .searchBox {
@@ -603,31 +618,39 @@ li {
   width: 100%;
   color: #fff;
   background-color: #00b092;
-  border-bottom: 1px solid #00b092;
   padding: 1rem;
   text-align: center;
   overflow: visible;
 }
 .searchBox form {
-  margin-bottom: 0;
-}
-.searchBox label {
-  display: inline;
-  padding: 0 1rem 0 0;
-  position: relative;
-  top: 0.5rem;
-  font-size: 2rem;
+  margin: 1rem auto 0 auto;
 }
 .searchBox input {
-  margin: 0rem;
+  display: block;
+  float: left;
+  margin: 0;
+  padding-right: 5rem;
+  height: 4rem;
   font-size: 2rem;
-  width: 85%;
+  width: 100%;
   outline: none;
   color: #706d6e;
 }
 .searchBox input:focus {
   border: none;
   outline: none;
+}
+.searchBox button {
+  border: 0;
+  color: #fff;
+  background-color: #007d68;
+  font-size: 2rem;
+  padding: 0.5rem;
+  height: 4rem;
+  width: 5rem;
+  margin-left: -5rem;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
 .searchList {
   position: relative;
@@ -657,9 +680,6 @@ li {
   border-radius: 2px;
 }
 @media (min-width: 750px) {
-  .searchbox {
-    padding: 1rem 12.5%;
-  }
   .search-list {
     margin: 2rem auto;
     padding: 3rem;
@@ -676,96 +696,30 @@ li {
   padding: 2rem;
   margin-top: 10rem;
 }
-html {
-  height: 100%;
-}
-body {
-  position: relative;
-  min-height: 100%;
-}
-.main {
-  padding-bottom: 25rem;
-  height: 100%;
-}
-.content {
-  position: relative;
-  margin-top: 2rem;
-}
-.drug {
-  color: #f06292;
-  font-weight: bold;
-}
-.cards-list li,
-.taxonomy-list li {
-  list-style: none;
-  color: #706d6e;
-  padding: 0.5rem 0;
-  font-weight: bold;
+.content img {
   display: block;
 }
-.cards-list li a,
-.taxonomy-list li a {
-  color: #706d6e;
-  text-decoration: none;
-}
-.cards-list li a:hover,
-.taxonomy-list li a:hover {
-  color: #00b092;
-}
-.cards-list li .metadata,
-.taxonomy-list li .metadata {
-  display: none;
-}
-.breadcrumbs {
-  display: none;
-}
-@media (min-width: 750px) {
-  .taxonomy-list li {
-    box-sizing: border-box;
-    float: left;
-    width: 33%;
-    padding: 1rem;
-  }
-  .taxonomy-list li:nth-child(3n+4) {
-    clear: left;
-  }
-  .cards-list li .metadata {
-    display: inline;
-    font-size: 1rem;
-    margin-left: 2rem;
-  }
-  .cards-list li .metadata a {
-    margin-right: 1rem;
-    background-color: #f2f2f2;
-    padding: 0.5rem 1rem;
-  }
-  .backButton {
-    display: none;
-  }
-  .breadcrumbs {
-    display: block;
-  }
-}
 .loader {
-  background-color: #00b092;
+  background-color: #fff;
+  z-index: 20;
+  position: absolute;
   width: 100%;
   height: 100%;
   padding: 3rem;
-  color: #fff;
-  font-size: 8rem;
+  color: #00b092;
+  font-size: 6rem;
+  text-align: center;
+  overflow: hidden;
 }
 .loader i {
   font-size: 10rem;
   animation: spin 1s infinite;
 }
-/* Normalize
------------------------------------------*/
-div,
-section,
-article,
-ul,
-table {
-  box-sizing: border-box;
+.loader-hide {
+  opacity: 0;
+  height: 0;
+  padding: 0;
+  transition: all 0.3s linear;
 }
 @-moz-keyframes spin {
   0% {
@@ -798,4 +752,77 @@ table {
   100% {
     transform: rotate(360deg);
   }
+}
+html {
+  height: 100%;
+}
+body {
+  position: relative;
+  min-height: 100%;
+}
+.main {
+  padding-bottom: 25rem;
+  height: 100%;
+}
+.content {
+  position: relative;
+  margin-top: 2rem;
+}
+.drug {
+  color: #f06292;
+  font-weight: bold;
+}
+.taxonomy-list a {
+  text-decoration: none;
+  color: #706d6e;
+}
+.taxonomy-list a:hover {
+  color: #00b092;
+}
+.cards-list li {
+  list-style: none;
+  color: #706d6e;
+  padding: 0.5rem 0;
+  font-weight: bold;
+  display: block;
+}
+.cards-list li a {
+  color: #706d6e;
+  text-decoration: none;
+}
+.cards-list li a:hover {
+  color: #00b092;
+}
+.cards-list li .metadata {
+  display: none;
+}
+.breadcrumbs {
+  display: none;
+}
+@media (min-width: 750px) {
+  .cards-list li .metadata {
+    display: inline;
+    font-size: 1rem;
+    margin-left: 2rem;
+  }
+  .cards-list li .metadata a {
+    margin-right: 1rem;
+    background-color: #f2f2f2;
+    padding: 0.5rem 1rem;
+  }
+  .backButton {
+    display: none;
+  }
+  .breadcrumbs {
+    display: block;
+  }
+}
+/* Normalize
+-----------------------------------------*/
+div,
+section,
+article,
+ul,
+table {
+  box-sizing: border-box;
 }

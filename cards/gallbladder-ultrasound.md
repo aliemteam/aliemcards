@@ -6,16 +6,15 @@ collection:
   - Ultrasound
   - Gastroenterology
 tags:
+authors:
+  - John Eicken, MD
+  - Mike Stone, MD
+updated:
+  - 2015/01/01
 
 ---
 
 # Ultrasound: Focused Biliary Assessment
-
-John Eicken, MD and Mike Stone, MD
-
-Summers SM et al. *Annals of Emerg Med,* 2010. PMID: [20138397](http://www.ncbi.nlm.nih.gov/pubmed/?term=Summers%2C+S.+M.%2C+Scruggs%2C+W.%2C+Menchine%2C+M.+D.%2C+et+al.+(2010).+A+Prospective+Evaluation+of+Emergency+Department+Bedside+Ultrasonography+for+the+Detection+of+Acute+Cholecystitis.+Annals+of+Emergency+Medicine.)
-
-Blaivas M. et al. *Acad Emerg Med,* 1999. PMID: [10530660](http://www.ncbi.nlm.nih.gov/pubmed/?term=Blaivas%2C+M.%2C+Harwood%2C+R.+A.%2C+Lambert%2C+M.+J.+(1999).+Decreasing+length+of+stay+with+emergency+ultrasound+examination+of+the+gallbladder.+Academic+Emergency+Medicine+%3A+Official+Journal+of+the+Society+for+Academic+Emergency+Medicine%2C+6(10)%2C+1020%E2%80%931023.)
 
 **Goals:** Evaluate for gallstones, signs of cholecystitis, dilation of common bile duct (CBD)
 
@@ -75,3 +74,9 @@ Smaller stones can be missed with some portable ultrasound systems. A comprehens
 Polyps within the gallbladder can often be differentiated from gallstones by changing the patient’s position and assessing for movement - polyps should remain stationary and gallstones should move with gravity (unless impacted in the neck). Additionally, polyps should not create posterior shadowing as is seen with gallstones.
 
 Biliary sludge appears as an echogenic layer of fluid without associated posterior shadowing within the gallbladder.
+
+## References
+
+- Summers SM et al. *Annals of Emerg Med,* 2010. PMID: [20138397](http://www.ncbi.nlm.nih.gov/pubmed/20138397)
+
+- Blaivas M. et al. *Acad Emerg Med,* 1999. PMID: [10530660](http://www.ncbi.nlm.nih.gov/pubmed/10530660)

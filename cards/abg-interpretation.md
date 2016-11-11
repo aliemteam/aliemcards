@@ -5,12 +5,16 @@ collection:
   - Pulmonology
 
 tags:
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2010/04/02
 
 ---
 
 # ABG Interpretation
 
-**Rules of thumb**
+## Rules of thumb
 
 **Look at pH**: Whichever side of 7.4 the pH is on, the process that caused it to shift to that side is the primary abnormality
 

@@ -4,6 +4,10 @@ title: Predictors of a Difficult Airway
 collection:
   - Critical Care
 tags:
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2012/10/19
 
 ---
 

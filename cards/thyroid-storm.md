@@ -5,6 +5,10 @@ collection:
   - Endocrinology
   - Critical Care
 tags: propylthiouriacil, methimazole, propranolol, hydrocortisone, esmolol, cholestyramine
+authors:
+  - Nadia Awad, PharmD
+updated:
+  - 2013/11/11
 
 ---
 

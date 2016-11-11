@@ -5,6 +5,10 @@ collection:
   - Ultrasound
   - Radiology
 tags:
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2009/12/22
 
 ---
 

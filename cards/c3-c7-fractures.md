@@ -4,6 +4,10 @@ title: C3-C7 Spine Fractures
 collection:
   - Orthopedics
 tags:
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2010/10/01
 
 ---
 

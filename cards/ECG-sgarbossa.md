@@ -5,6 +5,10 @@ collection:
   - Cardiovascular
   - ECG
 tags:
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2010/11/05
 
 ---
 

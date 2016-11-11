@@ -5,6 +5,10 @@ collection:
   - Gastroenterology
   - Pharmacology
 tags: Ibuprofen, Diclofenac, Meloxicam, Indomethacin, Ketoprofen, Naproxen, Piroxicam, Ketorolac, Celecoxib, Aceclofenac, Rofecoxib
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2011/07/15
 
 ---
 

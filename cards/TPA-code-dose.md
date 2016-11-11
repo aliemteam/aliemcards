@@ -4,6 +4,10 @@ title: tPA Code Dose
 collection:
   - Critical Care
 tags: TPA
+authors:
+  - Bryan D. Hayes, PharmD
+updated:
+  - 2013/05/14
 
 ---
 

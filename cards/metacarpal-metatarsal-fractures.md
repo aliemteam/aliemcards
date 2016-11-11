@@ -4,6 +4,10 @@ title: Metatarsal & Metacarpal Fractures
 collection:
   - Orthopedics
 tags:
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2013/12/13
 
 ---
 

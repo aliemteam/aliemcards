@@ -5,6 +5,10 @@ collection:
   - Critical Care
   - Pediatrics
 tags:
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2010/10/23
 
 ---
 

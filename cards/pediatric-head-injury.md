@@ -5,6 +5,10 @@ collection:
   - Pediatrics
   - Trauma
 tags:
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2010/02/04
 
 ---
 

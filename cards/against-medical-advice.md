@@ -4,6 +4,10 @@ title: Against Medical Advice (AMA)
 collection:
   - Education and Policy
 tags:
+authors:
+  - Matthew DeLaney, MD
+updated:
+  - 2014/01/13
 
 ---
 
@@ -72,4 +76,4 @@ When patients leave AMA, providers should do whatever is possible to limit bad m
 3. Miller S. Obtaining a valid AMA (Against Medical Advice). JEMS. 1996;21 (2): 54-5.
 Baptist AP, Warrier I, Arora R, et al. Hospitalized patients with asthma who leave against medical advice: characteristics, reasons, and outcomes. J. Allergy Clin. Immunol. 2007;119 (4): 924-9.
 
-4. Lee TH, Short LW, Brand DA, et al. Patients with acute chest pain who leave emergency departments against medical advice: prevalence, clinical characteristics, and natural history. J Gen Intern Med. 3 (1): 21-4. 
+4. Lee TH, Short LW, Brand DA, et al. Patients with acute chest pain who leave emergency departments against medical advice: prevalence, clinical characteristics, and natural history. J Gen Intern Med. 3 (1): 21-4.

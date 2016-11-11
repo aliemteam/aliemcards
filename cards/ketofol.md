@@ -4,6 +4,10 @@ title: Ketofol
 collection:
   - Pharmacology
 tags: ketofol, propofol, ketamine
+authors:
+  - Salim Rezaie, MD
+updated:
+  - 2013/03/20
 
 ---
 

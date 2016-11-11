@@ -5,6 +5,10 @@ collection:
   - Gastroenterology
   - EBM
 tags:
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2013/05/26
 
 ---
 

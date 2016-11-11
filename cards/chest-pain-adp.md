@@ -4,6 +4,10 @@ title: Chest Pain - Accelerated Diagnostic Protocol
 collection:
   - Cardiovascular
 tags:
+authors:
+  - Salim Rezaie, MD
+updated:
+  - 2013/04/04
 
 ---
 

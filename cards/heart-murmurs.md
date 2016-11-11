@@ -4,6 +4,10 @@ title: Murmurs Needing Echocardiography Evaluation
 collection:
   - Cardiovascular
 tags:
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2010/09/17
 
 ---
 

@@ -4,6 +4,10 @@ title: Dental Infections
 collection:
   - ENT
 tags:
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2011/04/22
 
 ---
 

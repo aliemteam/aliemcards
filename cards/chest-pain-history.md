@@ -5,6 +5,10 @@ collection:
   - Cardiovascular
   - EBM
 tags:
+authors:
+  - Salim Rezaie, MD
+updated:
+  - 2013/03/28
 
 ---
 
@@ -19,7 +23,7 @@ tags:
 3.  N/V associated with CP
 4.  Pain with exertion
 
-**Clinical factors that DECREASE likelihood of ACS/AMI: **
+**Clinical factors that DECREASE likelihood of ACS/AMI:**
 Chest pain that is:
 
 1.  Pleuritic

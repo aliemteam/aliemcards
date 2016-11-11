@@ -4,6 +4,10 @@ title: ABG versus VBG
 collection:
   - Pulmonology
 tags:
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2013/01/31
 
 ---
 

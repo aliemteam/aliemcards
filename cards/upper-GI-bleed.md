@@ -5,6 +5,10 @@ collection:
   - Gastroenterology
   - EBM
 tags: aspirin, warfarin, Octreotide
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2011/06/17
 
 ---
 

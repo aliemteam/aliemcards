@@ -4,6 +4,11 @@ title: Burn Wounds
 collection:
   - Trauma
 tags:
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2016/04/22
+  - 2010/07/02
 
 ---
 

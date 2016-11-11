@@ -5,6 +5,10 @@ collection:
   - Critical Care
   - Procedures
 tags: lidocaine, fentanyl, etomidate, propofol, thiopental, ketamine, midazolam, Succinylcholine, Rocuronium, Vecuronium
+authors:
+  - Demian Szyld, MD
+updated:
+  - 2010/07/16
 
 ---
 

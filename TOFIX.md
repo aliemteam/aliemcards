@@ -4,7 +4,10 @@
 
 - alphabetical rows is counterintuitive
 X border-radius add
-- back button
+X back button
+- loading image
+- footer
+
 
 ## Backend
 

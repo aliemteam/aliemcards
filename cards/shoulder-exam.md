@@ -4,6 +4,10 @@ title: Shoulder Exam Provocative Testing
 collection:
   - Orthopedics
 tags:
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2011/01/28
 
 ---
 

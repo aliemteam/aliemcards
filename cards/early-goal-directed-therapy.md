@@ -4,6 +4,10 @@ title: Early Goal Directed Therapy in Sepsis
 collection:
   - Critical Care
 tags:
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2010/04/16
 
 ---
 

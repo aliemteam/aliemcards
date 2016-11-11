@@ -4,6 +4,10 @@ title: Suture Materials
 collection:
   - Surgery
 tags:
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2011/01/07
 
 ---
 

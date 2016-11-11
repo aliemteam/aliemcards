@@ -6,6 +6,10 @@ collection:
   - Radiology
   - Cardiovascular
 tags:
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2014/09/13
 
 ---
 

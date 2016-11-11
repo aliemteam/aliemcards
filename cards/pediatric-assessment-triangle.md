@@ -5,6 +5,11 @@ collection:
   - Pediatrics
   - Critical Care
 tags:
+authors:
+  - Michelle Reina, MD
+  - Rob Bryant MD
+updated:
+  - 2013/05/30
 
 ---
 

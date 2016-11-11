@@ -5,6 +5,10 @@ collection:
   - Pulmonology
   - Critical Care
 tags: enoxaparin, warfarin
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2012/11/17
 
 ---
 

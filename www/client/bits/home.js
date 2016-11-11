@@ -34,7 +34,7 @@ class Home extends React.Component {
           />
           <Search hero />
           <div className="home container content">
-            <h2>New Cards</h2>
+            <h1>New Cards</h1>
             <ul className="cards-list">
               {this.state.newest.map((card) =>
                 <li key={card.slug}>

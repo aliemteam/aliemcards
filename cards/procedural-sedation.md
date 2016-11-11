@@ -5,6 +5,10 @@ collection:
   - Pharmacology
   - Procedures
 tags: propofol, etomidate, ketamine, ketofol, Dexamedetomidine, lorazepam, diazepam, midazolam, Fentanyl, Hydromorphone, Morphine
+authors:
+  - Demian Szyld, MD
+updated:
+  - 2010/08/06
 
 ---
 
@@ -13,10 +17,6 @@ tags: propofol, etomidate, ketamine, ketofol, Dexamedetomidine, lorazepam, diaze
 **Airway Assessment: Predicting difficulty**
 
 <table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th><strong>Difficult Airway (LEMON)</strong></th>

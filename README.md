@@ -33,6 +33,8 @@ Within the tick marks are three key-value pairs:
 - **title**: the title of the card
 - **collection**: a list of categories to which each card belongs. Cards can belong to more than one category. Each category is on its own indented line, beginning with a hyphen.
 - **tags**: a comma-separated list of tags. Currently this is primarily used to tag each card with its associated drugs.
+- **authors**: a list of authors. Like categories, each author is on her/his own indented line, beginning wtih a hyphen.
+- **updated**: a list of dates in reverse chronological order, formatted `YYYY/MM/DD`. List format as **authors** and **collection**. The last, or only date for cards without revisions, will be the date the card was created.
 
 **Sample YAML Front Matter**
 
@@ -44,6 +46,11 @@ collection:
   - toxicology
   - pharmacology
 tags: acetaminophen, NAQ
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2015/05/20
+  - 2010/04/23
 
 ---
 ```

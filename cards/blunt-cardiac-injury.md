@@ -4,6 +4,10 @@ title: Blunt Cardiac Injury
 collection:
   - Trauma
 tags:
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2012/06/29
 
 ---
 

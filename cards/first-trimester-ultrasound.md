@@ -6,16 +6,16 @@ collection:
   - Ultrasound
   - OBGYN
 tags:
+authors:
+  - Matt Lipton, MD
+  - Mike Mallin, MD
+  - Mike Stone, MD
+updated:
+  - 2015/02/25
 
 ---
 
 # Ultrasound: Focused 1st Trimester Pregnancy (Transabdominal Exam)
-
-Matt Lipton, MD, Mike Mallin, MD, Mike Stone, MD
-
-Wang R., et al. *Annals of Emerg Med,* 2011. PMID: [21310509](http://www.ncbi.nlm.nih.gov/pubmed/?term=Use+of+a+%CE%B2-hCG+discriminatory+zone+with+bedside+pelvic+ultrasonography.)
-
-Tayal VS, et al. *Acad Emerg Med,* 2004. PMID: [15347539](http://www.ncbi.nlm.nih.gov/pubmed/15347539)
 
 **Goals:**
 
@@ -62,7 +62,7 @@ This is **not** diagnostic of an IUP.
 **Can’t visualize the uterus?**
 Perform the ultrasound before the patient urinates. If unable to visualize key structures, proceed to a transvaginal ultrasound.
 
-**Can’t find a yolk sac or fetal pole?                                                                       **
+**Can’t find a yolk sac or fetal pole?**
 
 1.  **There may not be an IUP**. The patient may have an ectopic pregnancy or a OOcompleted abortion.
 2.  **It may be too early** to visualize an IUP with transabdominal scanning. IUPs are difficult to visualize before 6-6.5 weeks gestational age. This may require a transvaginal ultrasound instead, which can visualize earlier IUPs.
@@ -78,3 +78,9 @@ Only using close-up, zoomed view to evaluate for intrauterine pregnancy. Be sure
 Assuming an IUP rules-out an ectopic pregnancy for those undergoing assisted reproductive therapies (ART) such as in-vitro fertilization. The risk of a heterotopic pregnancy is too high.
 
 Using pulsed wave or color Doppler on the fetus to confirm fetal heart rate or viability. Both pulse wave and color Doppler inflict unnecessary thermal energy to the developing fetus. M-Mode is sufficient for measuring fetal heart rate.
+
+## References
+
+- Wang R., et al. *Annals of Emerg Med,* 2011. PMID: [21310509](http://www.ncbi.nlm.nih.gov/pubmed/?term=Use+of+a+%CE%B2-hCG+discriminatory+zone+with+bedside+pelvic+ultrasonography.)
+
+- Tayal VS, et al. *Acad Emerg Med,* 2004. PMID: [15347539](http://www.ncbi.nlm.nih.gov/pubmed/15347539)

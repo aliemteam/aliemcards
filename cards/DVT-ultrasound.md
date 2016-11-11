@@ -6,17 +6,18 @@ collection:
   - Ultrasound
   - Cardiovascular
 tags:
+authors:
+  - Margaret Greenwood-Ericksen, MD
+  - Joshua Rempell, MD
+  - Mike Stone, MD
+updated:
+  - 2015/02/18
 
 ---
 
 
 # Ultrasound: Focused Deep Venous Thrombosis (DVT) Assessment
 
-Margaret Greenwood-Ericksen, MD, Joshua Rempell, MD, Mike Stone, MD
-
-Kline JA et al. *Annals of Emerg Med*, 2008. PMID: [18562044](http://www.ncbi.nlm.nih.gov/pubmed/?term=Kline%2C+J.+A.%2C+O%27Malley%2C+P.+M.%2C+Tayal%2C+V.+S.%2C+et+al.+(2008).+Emergency+clinician-performed+compression+ultrasonography+for+deep+venous+thrombosis+of+the+lower+extremity.+Annals+of+Emergency+Medicine%2C+52(4)%2C+437%E2%80%93445.+doi%3A10.1016%2Fj.annemergmed.2008.05.023)
-
-Bernardi E. et al. *JAMA*, 2008. PMID: [18840838](http://www.ncbi.nlm.nih.gov/pubmed/?term=Bernardi%2C+E.%2C+Camporese%2C+G.%2C+B%C3%BCller%2C+H.+R.%2C+et+al.+(2008).)
 
 **Goals: **Evaluate for DVT using the 2-point compression technique, focusing on the highest probability areas: femoral and popliteal veins
 
@@ -72,3 +73,9 @@ An appropriate amount of pressure gives complete collapse of the vein as well as
 Other structures, such as lymph nodes, may mimic a thrombus. Be sure to scan through the entire structure as a lymph node will appear discrete and separate from the vessels.
 
 To fully evaluate the common femoral vein, make sure to visualize the proximal region at the confluence of the greater saphenous and common femoral veins.
+
+## References
+
+- Kline JA et al. *Annals of Emerg Med*, 2008. PMID: [18562044](www.ncbi.nlm.nih.gov/pubmed/18562044)
+
+- Bernardi E. et al. *JAMA*, 2008. PMID: [18840838](www.ncbi.nlm.nih.gov/pubmed/18840838)

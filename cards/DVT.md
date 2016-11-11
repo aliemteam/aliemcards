@@ -5,6 +5,10 @@ collection:
   - Cardiovascular
   - EBM
 tags:
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2013/01/24
 
 ---
 

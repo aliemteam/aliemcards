@@ -4,6 +4,10 @@ title: Influenza - to treat or not to treat?
 collection:
   - Infectious Disease
 tags: Amantadine, Rimantidine, Oseltamivir, Zanamivir
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2011/10/28
 
 ---
 

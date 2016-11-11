@@ -1,10 +1,16 @@
 ---
+
 title: Adenosine 6-12-12 Approach
 collection:
   - Cardiovascular
   - Pharmacology
   - Critical Care
 tags: adenosine
+authors:
+  - Brian Hayes, PharmD
+updated:
+  - 2012/12/06
+
 ---
 
 # Adenosine: 6-12-12 adenosine approach

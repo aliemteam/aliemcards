@@ -5,6 +5,10 @@ collection:
   - Critical Care
   - Cardiovascular
 tags: dobutamine, isoproterenol, epinephrine, norepinephrine, dopamine
+authors:
+  - Todd A. Seigel, MD
+updated:
+  - 2013/08/20
 
 ---
 

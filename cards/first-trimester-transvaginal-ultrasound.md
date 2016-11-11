@@ -6,16 +6,16 @@ collection:
   - Radiology
   - OBGYN
 tags:
+authors:
+  - Matt Lipton, MD
+  - Mike Mallin, MD
+  - Mike Stone, MD
+updated:
+  - 2015/03/04
 
 ---
 
 # Ultrasound: Focused 1st Trimester Pregnancy (Transvaginal Assesment)
-
-Matt Lipton, MD, Mike Mallin, MD, Mike Stone, MD
-
-Wang R, et al. *Annals of Emerg Med,* 2011. PMID: [21310509](http://www.ncbi.nlm.nih.gov/pubmed/?term=Use+of+a+%CE%B2-hCG+discriminatory+zone+with+bedside+pelvic+ultrasonography.)
-
-Tayal, VS, et al. *Acad Emerg Med,* 2004. PMID: [15347539](http://www.ncbi.nlm.nih.gov/pubmed/15347539)
 
 **Goals:**
 
@@ -65,3 +65,8 @@ Relying on the quantitative beta-HCG and “discriminatory zone” for decision-
 **Considering an “inconclusive scan” negative for ectopic**. Ectopic pregnancies are almost always ruled-out by finding an IUP. Absence of an extrauterine mass does not exclude ectopic pregnancy.
 
 **Failure to recognize specific high-risk populations.** Patients undergoing assisted reproductive therapy have a much higher (1-3%) incidence of heterotopic pregnancy. Identification of an IUP does not exclude a co-existing ectopic in this group.
+
+## References
+
+- Wang R, et al. *Annals of Emerg Med,* 2011. PMID: [21310509](http://www.ncbi.nlm.nih.gov/pubmed/?term=Use+of+a+%CE%B2-hCG+discriminatory+zone+with+bedside+pelvic+ultrasonography.)
+- Tayal, VS, et al. *Acad Emerg Med,* 2004. PMID: [15347539](http://www.ncbi.nlm.nih.gov/pubmed/15347539)

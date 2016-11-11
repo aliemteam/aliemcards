@@ -5,6 +5,10 @@ collection:
   - Infectious Disease
   - Genitourinary
 tags:
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2012/05/04
 
 ---
 

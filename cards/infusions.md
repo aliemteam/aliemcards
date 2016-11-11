@@ -5,6 +5,10 @@ collection:
   - Pharmacology
   - Critical Care
 tags: amiodarone, Diltiazem, Dobutamine, Dopamine, Epinephrine, Esmolol, fentanyl, furosemide, Isoproterenol, ketamine, lidocaine, Lorazepam, midazolam, naloxone, Nicardipine, Nitroglycerin, Nitroprusside, Norepinephrine, Octreotide, Phenylephrine, propofol, Vasopressin, Vecuronium
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2012/03/09
 
 ---
 

@@ -36,19 +36,6 @@ const checksum = function checksum(str, algorithm, encoding) {
       .digest(encoding || 'hex');
 };
 
-// Slugify
-const old_slugify = function slugify(text) {
-  return text
-  .toString()
-  .trim()
-  .toLowerCase()
-  .replace(/\s+/g, '-')
-  .replace(/[^\w\-]+/g, '')
-  .replace(/\-\-+/g, '-')
-  .replace(/^-+/, '')
-  .replace(/-+$/, '');
-};
-
 // ////////////////////////////////////
 // MLAB DATABASE BUILD build_db
 // gulp build_db
@@ -75,15 +62,17 @@ gulp.task('upload_db', () =>
     const cardSlug = file.relative.split('.')[0].toLowerCase();
     const splitTags = (file.meta.tags) ? file.meta.tags.split(', ') : null;
     const cats = file.meta.collection.map((cat) => slug(cat, { lower: true }));
-    gutil.log(`Cats: ${cats}`);
+    const updates = (file.meta.updated) ? file.meta.updated.map((update) => new Date(update)) : null;
     const card = new Card({
       title: file.meta.title,
       slug: cardSlug,
       tags: splitTags,
       categories: cats,
+      authors: file.meta.authors,
+      created: new Date(file.meta.created),
+      updated: updates,
       content: marked(file.contents.toString()),
       hash: file.hash,
-      updatedAt: new Date(),
     });
 
     Card.findOne({ slug: card.slug }).exec()
@@ -99,13 +88,14 @@ gulp.task('upload_db', () =>
       .then((foundCard) => {
         // if card hash != foundCard hash, then update dbase with new card
         if (foundCard.hash !== card.hash) {
-          gutil.log(gutil.colors.magenta(`UUU Updating UUU : ${card.title}`));
           foundCard.title = card.title;
           foundCard.tags = card.tags;
           foundCard.categories = card.categories;
+          foundCard.authors = card.authors;
+          foundCard.created = card.created;
+          foundCard.updated = card.updated;
           foundCard.content = card.content;
           foundCard.hash = card.hash;
-          foundCard.updatedAt = new Date();
           return foundCard.save();
         }
         return foundCard;

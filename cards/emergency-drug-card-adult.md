@@ -4,7 +4,13 @@ title: Emergency Drug Card - Adult
 collection:
   - Pharmacology
   - Critical Care
-tags: etomidate, lidocaine, rocuronium, succinylcholine, vecuronium, amiodarone, diltiazem, esmolol, labetalol, nicardipine, procainamide, fentanyl, ketamine, propofol, dobutamine, dopamine, epinephrine, norepinephrine, phenylephrine, vasopressin,
+tags: etomidate, lidocaine, rocuronium, succinylcholine, vecuronium, amiodarone, diltiazem, esmolol, labetalol, nicardipine, procainamide, fentanyl, ketamine, propofol, dobutamine, dopamine, epinephrine, norepinephrine, phenylephrine, vasopressin
+authors:
+  - Rob Bryant, MD
+  - Amie Hatch, PharmD, BCPS
+  - Jeremy Bair, PharmD
+updated:
+  - 2013/09/11
 
 ---
 

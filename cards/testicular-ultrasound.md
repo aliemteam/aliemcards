@@ -6,16 +6,15 @@ collection:
   - Radiology
   - Ultrasound
 tags:
+authors:
+  - Matthew Dawson, MD
+  - Mike Stone, MD
+updated:
+  - 2015/01/21
 
 ---
 
 # Ultrasound: Testicular Assessment
-
-Matthew Dawson, MD and Mike Stone, MD
-
-Blaivas M, Sierzenski P. *Acad Emerg Med*, 2001. PMID: [11136158](http://www.ncbi.nlm.nih.gov/pubmed/?term=Blaivas%2C+M.+%26+Sierzenski%2C+P.+(2001).+Emergency+ultrasonography+in+the+evaluation+of+the+acute+scrotum.+Academic+Emergency+Medicine%2C+8(1)%2C+85%E2%80%9389.)
-
-Blaivas M, et al. *Acad Emerg Med*, 2001. PMID: [11136159](http://www.ncbi.nlm.nih.gov/pubmed/?term=Emergency+evaluation+of+patients+presenting+with+acute+scrotum+using+bedside+ultrasonography.)
 
 **Goals:** Evaluate for testicular torsion, orchitis, and epididymitis
 
@@ -49,3 +48,9 @@ Blaivas M, et al. *Acad Emerg Med*, 2001. PMID: [11136159](http://www.ncbi.nlm.n
 If unclear, consider pulse wave Doppler to identify both arterial and venous flow as early torsion will have arterial flow but absent venous flow.
 
 Torsion cannot be excluded with ultrasound, although a normal comprehensive spectral Doppler assessment makes torsion very unlikely. Normal testicular resistive indices range from 0.5 to 0.8.
+
+## References
+
+- Blaivas M, Sierzenski P. *Acad Emerg Med*, 2001. PMID: [11136158](http://www.ncbi.nlm.nih.gov/pubmed/11136158)
+
+Blaivas M, et al. *Acad Emerg Med*, 2001. PMID: [11136159](http://www.ncbi.nlm.nih.gov/pubmed/11136159)

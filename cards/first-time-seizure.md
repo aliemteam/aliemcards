@@ -4,6 +4,10 @@ title: Seizure, New Onset
 collection:
   - Neurology
 tags:
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2011/01/13
 
 ---
 

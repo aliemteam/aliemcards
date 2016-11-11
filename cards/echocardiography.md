@@ -5,22 +5,23 @@ collection:
   - Cardiovascular
   - Ultrasound
 tags:
+authors:
+  - Jimmy Fair, MD
+  - Mike Mallon, MD
+  - Mike Stone, MD
+updated:
+  - 2015/02/11
 
 ---
 
 # Ultrasound: Focused Echocardiography
 
-Jimmy Fair, MD, Mike Mallon, MD and Mike Stone, MD
 
-Randazzo MR et al. *Acad Emerg Med*, 2003. PMID: [12957982](http://www.ncbi.nlm.nih.gov/pubmed/?term=Randazzo+Acad+Emerg+Med%2C+2003.)
+**Goals:** Evaluate for pericardial effusion, general cardiac function, and evidence of right heart strain.
 
-Nagdev A, Stone MB. *Resuscitation*, 2011. PMID: [21397379](http://www.ncbi.nlm.nih.gov/pubmed/?term=Nagdev%2C+A.%2C+%26+Stone%2C+M.+B.+Resuscitation%2C+2011.)
+**Transducer:** Low frequency phased array transducer
 
-**Goals: **Evaluate for pericardial effusion, general cardiac function, and evidence of right heart strain.
-
-**Transducer: **Low frequency phased array transducer
-
-**Windows: **Can be performed in any order. Try alternative windows if initial choice is unsuccessful. Standard cardiac imaging places the screen indicator on the right side of the screen. Using abdominal or other machine presets where the screen indicator is on the left side of the screen will require a 180-degree flip of the transducer from the description below.
+**Windows:** Can be performed in any order. Try alternative windows if initial choice is unsuccessful. Standard cardiac imaging places the screen indicator on the right side of the screen. Using abdominal or other machine presets where the screen indicator is on the left side of the screen will require a 180-degree flip of the transducer from the description below.
 
 ![](https://d2p53dh3qxfm0x.cloudfront.net/uploads/img/1jz/1/c/5a698bc7-9afd-5e95-ad65-9b571b325d79/640.png)Figure 1: Standard transducer placement for the basic transthoracic echocardiography examination
 
@@ -56,13 +57,13 @@ Nagdev A, Stone MB. *Resuscitation*, 2011. PMID: [21397379](http://www.ncbi.nlm.
 
 **Pericardial effusion**: Anechoic (black) stripe encircling the heart. Pericardial effusion on PSLA will track between descending thoracic aorta and left atrium. Pleural effusion will not.
 
-**Pericardial tamponade:** Pericardial effusion with RV free wall collapse in diastole. IVC should be dilated without respiratory variation in tamponade. RA systolic collapse is an early finding. ***Tip*:** Use M-Mode through mitral valve to help with timing of RV collapse.
+**Pericardial tamponade:** Pericardial effusion with RV free wall collapse in diastole. IVC should be dilated without respiratory variation in tamponade. RA systolic collapse is an early finding. ***Tip:*** Use M-Mode through mitral valve to help with timing of RV collapse.
 
 **Hypovolemia:** Hyperdynamic heart with left ventricular walls almost touching in systole as seen in the parasternal long axis view.
 
 **Right heart strain:** RV size greater than LV (normal ratio is 0.6:1) when seen in the apical 4-chamber view. Flattened septum in parasternal short axis with a D-shaped LV. Poor RV function (size doesn’t change much from systole to diastole).
 
-**Systolic heart failure:** Poor ventricular squeeze. Mitral valve does not open widely as seen in parasternal long-axis. ***EPSS*:** Using the PSLA measured distance between mitral valve and septum in diastole. Abnormal EPSS &gt;7 mm = poor LV ejection fraction.
+**Systolic heart failure:** Poor ventricular squeeze. Mitral valve does not open widely as seen in parasternal long-axis. ***EPSS***: Using the PSLA measured distance between mitral valve and septum in diastole. Abnormal EPSS &gt;7 mm = poor LV ejection fraction.
 
 ## Struggling with the Exam?
 
@@ -79,3 +80,9 @@ Pleural effusion can be mistaken for pericardial effusion. To differentiate, loc
 Non-orthogonal planes can be mistaken for an enlarged right heart or D-sign. Make sure the LV looks round in the PSSA and that the apex is at the top of the screen in the apical windows.
 
 Anterior fat pad can be mistaken for pericardial effusion, but will have internal echos (not anechoic) and will not spread all the way around the circumference of the heart when imaged in different views.
+
+## References
+
+- Randazzo MR et al. *Acad Emerg Med*, 2003. PMID: [12957982](http://www.ncbi.nlm.nih.gov/pubmed/?term=Randazzo+Acad+Emerg+Med%2C+2003.)
+
+- Nagdev A, Stone MB. *Resuscitation*, 2011. PMID: [21397379](http://www.ncbi.nlm.nih.gov/pubmed/?term=Nagdev%2C+A.%2C+%26+Stone%2C+M.+B.+Resuscitation%2C+2011.)

@@ -5,6 +5,10 @@ collection:
   - Critical Care
   - Procedures
 tags: ketamine
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2012/08/31
 
 ---
 

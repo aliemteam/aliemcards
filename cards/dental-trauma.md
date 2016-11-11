@@ -4,6 +4,10 @@ title: Dental Trauma
 collection:
   - ENT
 tags:
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2011/04/15
 
 ---
 

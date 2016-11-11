@@ -5,6 +5,10 @@ collection:
   - Cardiovascular
   - Critical Care
 tags: epinephrine, Phenylephrine, norepinephrine, dopamine, dobutamine
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2010/04/30
 
 ---
 

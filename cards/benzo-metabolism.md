@@ -5,6 +5,10 @@ collection:
   - Pharmacology
   - Toxicology
 tags: lorazepam, oxazepam, temazepam, clonazepam, midazolam, diazepam
+authors:
+  - Brian Hayes, PharmD
+updated:
+  - 2013/11/13
 
 ---
 

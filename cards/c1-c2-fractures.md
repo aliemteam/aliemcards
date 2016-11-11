@@ -4,6 +4,10 @@ title: C1 and C2 Spine Fractures
 collection:
   - Orthopedics
 tags:
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2010/09/24
 
 ---
 

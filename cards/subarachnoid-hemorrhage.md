@@ -4,6 +4,10 @@ title: Subarachnoid Hemorrhage
 collection:
   - Neurology
 tags:
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2010/12/17
 
 ---
 

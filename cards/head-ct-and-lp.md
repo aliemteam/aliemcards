@@ -7,6 +7,10 @@ collection:
   - EBM
   - Radiology
 tags:
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2010/04/23
 
 ---
 

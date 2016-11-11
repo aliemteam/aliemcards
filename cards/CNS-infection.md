@@ -4,6 +4,10 @@ title: CNS Infection
 collection:
   - Infectious Disease
 tags:
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2009/12/29
 
 ---
 

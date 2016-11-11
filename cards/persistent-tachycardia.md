@@ -4,6 +4,10 @@ title: Persistent Tachycardia
 collection:
   - Cardiovascular
 tags:
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2011/08/19
 
 ---
 

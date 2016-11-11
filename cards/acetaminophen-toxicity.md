@@ -5,6 +5,10 @@ collection:
   - Toxicology
   - Pharmacology
 tags: acetaminophen
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2011/11/04
 
 ---
 

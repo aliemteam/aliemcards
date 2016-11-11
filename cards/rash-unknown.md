@@ -4,6 +4,10 @@ title: An Approach to the Unknown Rash
 collection:
   - Dermatology
 tags:
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2011/08/26
 
 ---
 

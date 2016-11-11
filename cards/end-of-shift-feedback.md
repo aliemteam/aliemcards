@@ -4,6 +4,10 @@ title: End-of-Shift Feedback
 collection:
   - Education
 tags:
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2011/12/09
 
 ---
 

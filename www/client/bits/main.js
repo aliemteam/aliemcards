@@ -27,7 +27,6 @@ class Main extends React.Component {
           />
           {this.props.children}
         </div>
-        <Footer />
       </div>
     );
   }

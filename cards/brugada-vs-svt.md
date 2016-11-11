@@ -4,6 +4,10 @@ title: Brugada Criteria for SVT with Aberrancy vs VT
 collection:
   - Cardiovascular
 tags:
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2013/02/27
 
 ---
 

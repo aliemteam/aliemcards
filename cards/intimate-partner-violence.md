@@ -4,6 +4,11 @@ title: Intimate Partner Violence
 collection:
   - Trauma
 tags:
+authors:
+  - Trevor Wilson
+  - Beth Kaplan, MD
+updated:
+  - 2013/07/31
 
 ---
 

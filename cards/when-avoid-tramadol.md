@@ -4,6 +4,10 @@ title: When to Avoid Tramadol
 collection:
   - Toxicology
 tags: tramadol,
+authors:
+  - Jill Logan, PharmD
+updated:
+  - 2014/01/06
 
 ---
 
@@ -29,7 +33,7 @@ Tramadol is a popular agent for the treatment of pain and offers an alternative 
 | **Patients treated with antidepressants** | As tramadol exerts serotonin and norepinephrine reuptake inhibition, this may put patients exposed to serotonergic agents at higher risk for serotonin syndrome. While the use of antidepressants and tramadol may be safely used concomitantly, use particular caution with MAO inhibitors and have suspicion for this interaction in patients in potential overdose situations                               |
 | **Warfarin patients**                     | Tramadol will likely lead to an increased INR due to its serotonergic effects as well as other unknown mechanisms.                                                                                 |
 
-*NOTE: Linezolid and some Parkinson’s medications fall into the class of MAO inhibiters (although the MAO type B inhibitors may pose less of a risk)* 
+*NOTE: Linezolid and some Parkinson’s medications fall into the class of MAO inhibiters (although the MAO type B inhibitors may pose less of a risk)*
 
 ## References
 

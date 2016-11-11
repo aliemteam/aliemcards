@@ -4,6 +4,10 @@ title: Lidocaine, nebulized dose
 collection:
   - Pharmacology
 tags: lidocaine
+authors:
+  - Bryan D. Hayes, PharmD
+updated:
+  - 2013/08/06
 
 ---
 

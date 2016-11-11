@@ -4,7 +4,12 @@ title: ECG Electrolyte Imbalance
 collection:
   - Cardiovascular
   - ECG
+  - Endocrine
 tags:
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2012/09/21
 
 ---
 

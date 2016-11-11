@@ -5,14 +5,16 @@ collection:
   - Ultrasound
   - Radiology
 tags:
+authors:
+  - Alissa Genthon, MD
+  - Patricia Henwood, MD
+  - Mike Stone, MD
+updated:
+  - 2015/01/07
 
 ---
 
 # Ultrasound: Skin and Soft Tissue
-
-Alissa Genthon, MD, Patricia Henwood, MD, and Mike Stone, MD
-
-Tayal VS, et al. *Acad Emerg Med*, 2006. PMID: [16531602](http://www.ncbi.nlm.nih.gov/pubmed/?term=The+effect+of+soft-tissue+ultrasound+on+the+management+of+cellulitis+in+the+emergency+department.+Academic+Emergency+Medicine+%3A+Official+Journal+of+the+Society+for+Academic+Emergency+Medicine%2C+13(4)%2C+384%E2%80%93388.+doi%3A10.1197%2Fj.aem.2005.11.074)
 
 **Goals:** Use ultrasound to evaluate the skin or soft tissue to identify and differentiate various types of pathology.
 
@@ -78,3 +80,7 @@ Try a water bath or heap up a generous pile of ultrasound gel to improve image a
 Be sure to familiarize yourself with normal anatomy when performing exams to avoid mistaking artifacts and normal structures for pathology.
 
 Fine movements and control of probe is necessary for accuracy and to avoid slipping off the area of interest when performing with soft tissue ultrasound. Consider resting the ulnar aspect of your hand or your 5th digit on the patient adjacent to the area of interest in order to maintain appropriate transducer position.
+
+## References
+
+- Tayal VS, et al. *Acad Emerg Med*, 2006. PMID: [16531602](http://www.ncbi.nlm.nih.gov/pubmed/16531602)

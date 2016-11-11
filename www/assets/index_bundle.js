@@ -72,31 +72,31 @@
 
 	var _main2 = _interopRequireDefault(_main);
 
-	var _cards = __webpack_require__(275);
+	var _cards = __webpack_require__(276);
 
 	var _cards2 = _interopRequireDefault(_cards);
 
-	var _card = __webpack_require__(276);
+	var _card = __webpack_require__(277);
 
 	var _card2 = _interopRequireDefault(_card);
 
-	var _category = __webpack_require__(277);
+	var _category = __webpack_require__(278);
 
 	var _category2 = _interopRequireDefault(_category);
 
-	var _categories = __webpack_require__(278);
+	var _categories = __webpack_require__(279);
 
 	var _categories2 = _interopRequireDefault(_categories);
 
-	var _tags = __webpack_require__(280);
+	var _tags = __webpack_require__(281);
 
 	var _tags2 = _interopRequireDefault(_tags);
 
-	var _tag = __webpack_require__(281);
+	var _tag = __webpack_require__(282);
 
 	var _tag2 = _interopRequireDefault(_tag);
 
-	var _about = __webpack_require__(282);
+	var _about = __webpack_require__(283);
 
 	var _about2 = _interopRequireDefault(_about);
 
@@ -27647,7 +27647,7 @@
 	            'div',
 	            { className: 'home container content' },
 	            _react2.default.createElement(
-	              'h2',
+	              'h1',
 	              null,
 	              'New Cards'
 	            ),
@@ -29258,16 +29258,16 @@
 	    _react2.default.createElement(
 	      'form',
 	      { className: 'container' },
+	      _react2.default.createElement('input', { type: 'text', onChange: changeHandler, placeholder: 'Search' }),
 	      _react2.default.createElement(
-	        'label',
-	        null,
+	        'button',
+	        { type: 'submit' },
 	        _react2.default.createElement(
 	          'i',
 	          { className: 'material-icons' },
 	          'search'
 	        )
-	      ),
-	      _react2.default.createElement('input', { type: 'text', onChange: changeHandler, placeholder: 'Search' })
+	      )
 	    ),
 	    cards[0] ? _react2.default.createElement(Results, { cards: cards }) : null
 	  );
@@ -29301,21 +29301,7 @@
 	        'Paucis Verbis Cards'
 	      )
 	    ),
-	    _react2.default.createElement(
-	      'form',
-	      { className: 'container' },
-	      _react2.default.createElement(
-	        'label',
-	        null,
-	        _react2.default.createElement(
-	          'i',
-	          { className: 'material-icons' },
-	          'search'
-	        )
-	      ),
-	      _react2.default.createElement('input', { type: 'text', onChange: changeHandler, placeholder: 'Search' })
-	    ),
-	    cards[0] ? _react2.default.createElement(Results, { cards: cards }) : null
+	    _react2.default.createElement(SearchBar, { changeHandler: changeHandler, cards: cards })
 	  );
 	};
 
@@ -29537,11 +29523,11 @@
 
 	var _search2 = _interopRequireDefault(_search);
 
-	var _backButton = __webpack_require__(283);
+	var _backButton = __webpack_require__(274);
 
 	var _backButton2 = _interopRequireDefault(_backButton);
 
-	var _footer = __webpack_require__(274);
+	var _footer = __webpack_require__(275);
 
 	var _footer2 = _interopRequireDefault(_footer);
 
@@ -29582,8 +29568,7 @@
 	            separator: ' / '
 	          }),
 	          this.props.children
-	        ),
-	        _react2.default.createElement(_footer2.default, null)
+	        )
 	      );
 	    }
 	  }]);
@@ -29658,6 +29643,34 @@
 /* 274 */
 /***/ function(module, exports, __webpack_require__) {
 
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _reactRouter = __webpack_require__(178);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	var BackButton = function BackButton() {
+	  return _react2.default.createElement(
+	    'button',
+	    { className: 'backButton', onClick: _reactRouter.browserHistory.goBack },
+	    '< Back'
+	  );
+	};
+
+	exports.default = BackButton;
+
+/***/ },
+/* 275 */
+/***/ function(module, exports, __webpack_require__) {
+
 	"use strict";
 
 	Object.defineProperty(exports, "__esModule", {
@@ -29685,7 +29698,7 @@
 	exports.default = Footer;
 
 /***/ },
-/* 275 */
+/* 276 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -29865,7 +29878,7 @@
 	exports.default = Cards;
 
 /***/ },
-/* 276 */
+/* 277 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -29901,7 +29914,11 @@
 	    var _this = _possibleConstructorReturn(this, (Card.__proto__ || Object.getPrototypeOf(Card)).call(this, props));
 
 	    _this.state = {
-	      card: {}
+	      card: {
+	        created: '',
+	        updated: [''],
+	        title: ''
+	      }
 	    };
 	    return _this;
 	  }
@@ -29929,7 +29946,37 @@
 	  }, {
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement('div', { dangerouslySetInnerHTML: this.getContent() });
+	      var updated = new Date(this.state.card.updated[0]).toLocaleDateString('en-US');
+	      return _react2.default.createElement(
+	        'div',
+	        null,
+	        _react2.default.createElement(
+	          'h1',
+	          null,
+	          this.state.card.title
+	        ),
+	        _react2.default.createElement(
+	          'ul',
+	          { className: 'cardMeta' },
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            _react2.default.createElement(AuthorList, { authorArray: this.state.card.authors })
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            _react2.default.createElement(
+	              'b',
+	              null,
+	              'Updated:'
+	            ),
+	            ' ',
+	            updated
+	          )
+	        ),
+	        _react2.default.createElement('div', { className: 'cardHtml', dangerouslySetInnerHTML: this.getContent() })
+	      );
 	    }
 	  }]);
 
@@ -29943,8 +29990,38 @@
 
 	exports.default = Card;
 
+
+	var AuthorList = function AuthorList(_ref) {
+	  var authorArray = _ref.authorArray;
+	  return _react2.default.createElement(
+	    'span',
+	    null,
+	    _react2.default.createElement(
+	      'b',
+	      null,
+	      authorArray.length > 1 ? 'Authors' : 'Author',
+	      ': '
+	    ),
+	    authorArray.map(function (author) {
+	      return _react2.default.createElement(
+	        'span',
+	        { className: 'author' },
+	        author
+	      );
+	    })
+	  );
+	};
+
+	AuthorList.propTypes = {
+	  authorArray: _react2.default.PropTypes.array
+	};
+
+	AuthorList.defaultProps = {
+	  authorArray: []
+	};
+
 /***/ },
-/* 277 */
+/* 278 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -30056,7 +30133,7 @@
 	exports.default = Category;
 
 /***/ },
-/* 278 */
+/* 279 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -30075,7 +30152,7 @@
 
 	var _axios2 = _interopRequireDefault(_axios);
 
-	var _loader = __webpack_require__(279);
+	var _loader = __webpack_require__(280);
 
 	var _loader2 = _interopRequireDefault(_loader);
 
@@ -30126,7 +30203,8 @@
 	          null,
 	          'Categories'
 	        ),
-	        this.state.loading ? _react2.default.createElement(_loader2.default, null) : _react2.default.createElement(Results, { cats: this.state.categories })
+	        _react2.default.createElement(_loader2.default, { visible: this.state.loading }),
+	        _react2.default.createElement(Results, { cats: this.state.categories })
 	      );
 	    }
 	  }]);
@@ -30143,15 +30221,15 @@
 	var Results = function Results(_ref) {
 	  var cats = _ref.cats;
 	  return _react2.default.createElement(
-	    'ul',
+	    'div',
 	    { className: 'taxonomy-list' },
 	    cats.map(function (cat) {
 	      return _react2.default.createElement(
-	        'li',
-	        null,
+	        'a',
+	        { href: '/categories/' + cat.slug },
 	        _react2.default.createElement(
-	          'a',
-	          { href: '/categories/' + cat.slug },
+	          'h2',
+	          null,
 	          cat.title
 	        )
 	      );
@@ -30166,10 +30244,10 @@
 	exports.default = Categories;
 
 /***/ },
-/* 279 */
+/* 280 */
 /***/ function(module, exports, __webpack_require__) {
 
-	"use strict";
+	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -30181,23 +30259,23 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var Loader = function Loader() {
+	var Loader = function Loader(_ref) {
+	  var visible = _ref.visible;
 	  return _react2.default.createElement(
-	    "div",
-	    { className: "loader" },
+	    'div',
+	    { className: visible ? 'loader' : 'loader loader-hide' },
 	    _react2.default.createElement(
-	      "i",
-	      { className: "material-icons" },
-	      "autorenew"
-	    ),
-	    " Loading"
+	      'i',
+	      { className: 'material-icons' },
+	      'autorenew'
+	    )
 	  );
 	};
 
 	exports.default = Loader;
 
 /***/ },
-/* 280 */
+/* 281 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -30294,7 +30372,7 @@
 	exports.default = Tags;
 
 /***/ },
-/* 281 */
+/* 282 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -30406,7 +30484,7 @@
 	exports.default = Tag;
 
 /***/ },
-/* 282 */
+/* 283 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -30439,34 +30517,6 @@
 	};
 
 	exports.default = About;
-
-/***/ },
-/* 283 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-
-	var _react = __webpack_require__(1);
-
-	var _react2 = _interopRequireDefault(_react);
-
-	var _reactRouter = __webpack_require__(178);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	var BackButton = function BackButton() {
-	  return _react2.default.createElement(
-	    'button',
-	    { className: 'backButton', onClick: _reactRouter.browserHistory.goBack },
-	    '< Back'
-	  );
-	};
-
-	exports.default = BackButton;
 
 /***/ }
 /******/ ]);

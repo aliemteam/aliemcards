@@ -5,6 +5,10 @@ collection:
   - Cardiovascular
   - Critical Care
 tags:
+authors:
+  - Sean Kivlehan, MD MPH
+updated:
+  - 2013/12/10
 
 ---
 

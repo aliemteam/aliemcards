@@ -5,6 +5,10 @@ collection:
   - Neurology
   - Pharmacology
 tags: phenytoin
+authors:
+  - Bryan D. Hayes, PharmD
+updated:
+  - 2013/04/16
 
 ---
 

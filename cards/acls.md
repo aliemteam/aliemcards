@@ -5,6 +5,10 @@ collection:
   - Cardiovascular
   - Critical Care
 tags: epinephrine
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2011/12/16
 
 ---
 

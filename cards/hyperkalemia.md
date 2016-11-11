@@ -6,6 +6,10 @@ collection:
   - Metabolic
   - Critical Care
 tags: insulin, albuterol, furosemide, sodium bicarbonate, Kayexalate, calcium gluconate
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2010/03/12
 
 ---
 

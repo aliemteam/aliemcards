@@ -6,18 +6,16 @@ collection:
   - Radiology
   - Pulmonology
 tags:
+authors:
+  - Anne Aspler, MD
+  - Clare Heslop, MD
+  - Mike Stone, MD
+updated:
+  - 2015/02/04
 
 ---
 
 # Ultrasound: Focused Lung Assessment
-
-Anne Aspler, MD, Clare Heslop, MD and Mike Stone, MD
-
-Blaivas M, et al. *Acad Emerg Med*, 2005. PMID: [16141018](http://www.ncbi.nlm.nih.gov/pubmed/?term=A+prospective+comparison+of+supine+chest+radiography+and+bedside+ultrasound+for+the+diagnosis+of+traumatic+pneumothorax.)
-
-Liteplo AS, et al. *Acad Emerg Med*, 2009. PMID: [19183402](http://www.ncbi.nlm.nih.gov/pubmed/?term=Emergency+thoracic+ultrasound+in+the+differentiation+of+the+etiology+of+shortness+of+breath+(ETUDES)%3A+sonographic+B-lines+and+N-terminal+pro-brain-type+natriuretic+peptide+in+diagnosing+congestive+heart+failure.)
-
-Volpicelli G. *J Ultrasound Med*. 2013. PMID: [23269722](http://www.ncbi.nlm.nih.gov/pubmed/23269722)
 
 **Goals:** Evaluate for lung sliding, lung artifacts (A and B lines), consolidation, and pleural effusion
 
@@ -105,3 +103,9 @@ Turn *off* artifact-reduction settings, or use a lung preset if available. Keep 
 **Quantification of B-lines:** A single B-line in dependent interspaces may be a normal finding in a healthy patient, but &gt;3 B-lines in a single interspace indicates lung pathology.
 
 **Absence of lung sliding** is 100% sensitive for pneumothorax, but is ***not specific*** to pneumothorax. Other possibilities may be failure to ventilate, contralateral mainstem intubation, dense consolidation from pneumonia, severe pulmonary fibrosis, or pleural inflammatory changes.
+
+## References
+
+- Blaivas M, et al. *Acad Emerg Med*, 2005. PMID: [16141018](http://www.ncbi.nlm.nih.gov/pubmed/16141018)
+- Liteplo AS, et al. *Acad Emerg Med*, 2009. PMID: [19183402](http://www.ncbi.nlm.nih.gov/pubmed/19183402)
+- Volpicelli G. *J Ultrasound Med*. 2013. PMID: [23269722](http://www.ncbi.nlm.nih.gov/pubmed/23269722)

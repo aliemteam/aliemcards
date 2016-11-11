@@ -8,15 +8,8 @@ const cardSchema = new Schema({
   categories: Array,
   content: String,
   hash: String,
-  createdAt: Date,
-  updatedAt: Date,
-});
-
-cardSchema.pre('save', (next) => {
-  const currentDate = new Date();
-  this.updatedAt = currentDate;
-  if (!this.created_at) this.createdAt = currentDate;
-  next();
+  updated: Array,
+  authors: Array,
 });
 
 module.exports = mongoose.model('Card', cardSchema);

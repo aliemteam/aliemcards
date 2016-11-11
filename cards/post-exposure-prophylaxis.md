@@ -4,6 +4,10 @@ title: Post-Exposure Prophylaxis, non-occupational contact
 collection:
   - Infectious Disease
 tags:
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2011/04/01
 
 ---
 

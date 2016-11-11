@@ -4,6 +4,10 @@ title: Contraindications for Thrombolytics
 collection:
   - Neurology
 tags: TPA
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2010/09/10
 
 ---
 

@@ -4,6 +4,10 @@ title: Insulin Pumps
 collection:
   - Endocrinology
 tags: insulin
+authors:
+  - Josh Joseph, MD
+updated:
+  - 2013/12/11
 
 ---
 

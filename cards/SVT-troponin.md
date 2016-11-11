@@ -4,6 +4,10 @@ title: SVT and Troponin
 collection:
   - Cardiovascular
 tags:
+authors:
+  - Salim Rezaie, MD
+updated:
+  - 2013/08/14
 
 ---
 

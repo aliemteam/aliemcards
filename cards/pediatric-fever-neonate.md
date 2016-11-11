@@ -5,6 +5,10 @@ collection:
   - Pediatrics
   - Infectious Disease
 tags: Ampicillin, Cefotaxime, Gentamicin
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2012/02/02
 
 ---
 

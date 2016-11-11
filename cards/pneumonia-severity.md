@@ -6,6 +6,10 @@ collection:
   - Infectious Disease
   - EBM
 tags:
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2011/02/25
 
 ---
 

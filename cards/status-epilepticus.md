@@ -5,6 +5,10 @@ collection:
   - Neurology
   - Critical Care
 tags: phenytoin, fosphenytoin, Midazolam, lorazepam, Propofol, Pentobarbital, Thiamine, Ceftriaxone, vancomycin, pyridoxine
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2011/01/21
 
 ---
 

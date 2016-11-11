@@ -5,6 +5,10 @@ collection:
   - Trauma
   - EBM
 tags:
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2012/04/20
 
 ---
 

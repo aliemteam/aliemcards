@@ -6,6 +6,10 @@ collection:
   - Infectious Disease
   - EBM
 tags: penicillin, amoxicillin,
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2010/07/30
 
 ---
 

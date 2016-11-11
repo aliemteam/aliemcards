@@ -6,16 +6,16 @@ collection:
   - Radiology
   - Ophthalmology
 tags:
+authors:
+  - Sarah Elisabeth Frasure, MD
+  - Mike Stone, MD
+updated:
+  - 2015/01/28
 
 ---
 
 # Ultrasound: Ocular Assessment
 
-Sarah Elisabeth Frasure, MD and Mike Stone, MD
-
-Blaivas M, et al. *Acad Emerg Med*, 2002. PMID: [12153883](http://www.ncbi.nlm.nih.gov/pubmed/?term=12153883)
-
-Kimberly HH, et al. *Acad Emerg Med*, 2008. PMID: [18275454](http://www.ncbi.nlm.nih.gov/pubmed/?term=Kimberly%2C+H.+H.%2C+Shah%2C+S.%2C+Marill%2C+K.%2C+et+al.+(2008).+Correlation+of+optic+nerve+sheath+diameter+with+direct+measurement+of+intracranial+pressure.+Academic+Emergency+Medicine%2C+15(2)%2C+201%E2%80%93204.+doi%3A10.1111%2Fj.1553-2712.2007.00031.x)
 
 **Goals:** Evaluate for retinal/vitreous detachment, retinal/vitreous hemorrhage, lens dislocation, ocular foreign body, and globe rupture.
 
@@ -93,3 +93,9 @@ Do not miss abnormal structures in the normally anechoic vitreous chamber due to
 Bedside ultrasound is of limited utility for the evaluation of the bony anatomy of the orbit. If fractures of the bony orbits are suspected, a maxillofacial CT is the test of choice.
 
 CT imaging is more sensitive in the detection of radio-opaque foreign bodies, particularly those that have penetrated through the globe.
+
+## References
+
+- Blaivas M, et al. *Acad Emerg Med*, 2002. PMID: [12153883](http://www.ncbi.nlm.nih.gov/pubmed/?term=12153883)
+
+- Kimberly HH, et al. *Acad Emerg Med*, 2008. PMID: [18275454](http://www.ncbi.nlm.nih.gov/pubmed/18275454)

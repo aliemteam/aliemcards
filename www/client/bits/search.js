@@ -45,8 +45,8 @@ class Search extends React.Component {
 const SearchBar = ({ changeHandler, cards }) =>
   <div className="searchBox">
     <form className="container">
-      <label><i className="material-icons">search</i></label>
       <input type="text" onChange={changeHandler} placeholder="Search" />
+      <button type="submit"><i className="material-icons">search</i></button>
     </form>
     {cards[0] ? <Results cards={cards} /> : null}
   </div>;
@@ -55,11 +55,7 @@ const SearchHero = ({ changeHandler, cards }) =>
   <div className="searchHero">
     <p>A Point-of-Care reference library<br />by Michelle Lin, and the <b>ALiEM Team</b></p>
     <p>Formerly known as <i>Paucis Verbis Cards</i></p>
-    <form className="container">
-      <label><i className="material-icons">search</i></label>
-      <input type="text" onChange={changeHandler} placeholder="Search" />
-    </form>
-    {cards[0] ? <Results cards={cards} /> : null}
+    <SearchBar changeHandler={changeHandler} cards={cards} />
   </div>;
 
 const Results = ({ cards }) =>

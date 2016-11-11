@@ -4,6 +4,10 @@ title: Acute Limb Ischemia
 collection:
   - Cardiovascular
 tags: aspirin, heparin
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2010/08/13
 
 ---
 

@@ -5,6 +5,10 @@ collection:
   - Surgery
   - EBM
 tags:
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2010/06/18
 
 ---
 

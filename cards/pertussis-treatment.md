@@ -5,6 +5,10 @@ collection:
   - Pediatrics
   - Infectious Disease
 tags: Azithromycin, Clarithromycin, Erythromycin
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2013/05/26
 
 ---
 

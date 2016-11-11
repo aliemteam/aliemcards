@@ -4,6 +4,10 @@ title: Atrial Fibrillation and Anticoagulation
 collection:
   - Cardiovascular
 tags: aspirin, warfarin
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2010/04/09
 
 ---
 

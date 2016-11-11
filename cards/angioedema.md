@@ -4,6 +4,10 @@ title: Angioedema
 collection:
   - Allergy-Immunology
 tags: ACE inhibitor
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2010/03/26
 
 ---
 

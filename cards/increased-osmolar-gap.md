@@ -4,6 +4,10 @@ title: Approach to Increased Osmolar Gap
 collection:
   - Toxicology
 tags:
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2012/06/01
 
 ---
 

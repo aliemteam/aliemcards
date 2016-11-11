@@ -6,6 +6,10 @@ collection:
   - Pharmacology
   - Critical Care
 tags: sodium bicarbonate
+authors:
+  - Andrew Grock, MD
+updated:
+  - 2013/12/04
 
 ---
 

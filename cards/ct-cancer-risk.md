@@ -4,6 +4,10 @@ title: Cancer Risk from CT
 collection:
   - Radiology
 tags:
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2011/06/10
 
 ---
 

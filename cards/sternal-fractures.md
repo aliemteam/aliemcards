@@ -4,6 +4,10 @@ title: Sternal Fractures
 collection:
   - Trauma
 tags:
+authors:
+  - Salim Rezaie, MD
+updated:
+  - 2014/01/17
 
 ---
 

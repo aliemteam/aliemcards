@@ -4,6 +4,10 @@ title: Toxic Alcohol Ingestion - Methanol
 collection:
   - Toxicology
 tags: fomipezole, ethanol, folic acid
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2012/06/15
 
 ---
 

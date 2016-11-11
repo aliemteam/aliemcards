@@ -5,6 +5,10 @@ collection:
   - Pulmonology
   - Critical Care
 tags: alteplase, tpa
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2011/07/29
 
 ---
 

@@ -4,6 +4,10 @@ title: Supratherapeutic INR
 collection:
   - Hematology and Oncology
 tags: coumadin, vitamin K, PCC, FFP, aspirin, clopidogrel,
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2012/08/10
 
 ---
 

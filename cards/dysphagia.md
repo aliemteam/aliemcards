@@ -4,6 +4,10 @@ title: Dysphagia
 collection:
   - Gastroenterology
 tags:
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2010/02/03
 
 ---
 

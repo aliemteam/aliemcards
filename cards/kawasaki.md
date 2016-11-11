@@ -4,6 +4,10 @@ title: Kawasaki Disease
 collection:
   - Pediatrics
 tags:
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2012/03/23
 
 ---
 

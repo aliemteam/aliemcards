@@ -5,6 +5,10 @@ collection:
   - Infectious Disease
   - Genitourinary
 tags: Nitrofurantoin, sulfamethoxazole, fosfomycin, pivmecillinam, ofloxacin, ciprofloxacin, levofloxacin, amoxicillin-clavulanate, cefdinir, cefaclor, cefpodoxime-proxetil, Trimethoprim-sulfamethoxazole
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2011/09/02
 
 ---
 
@@ -53,7 +57,7 @@ If **&lt; 10% resistance rate,** alternative oral fluoroquinolone outpatient dos
 -   <span class="drug">Levofloxacin</span> 750 mg po daily x 5 days 
 
 **<span class="drug">Trimethoprim</span>-sulfamethoxazole** (1 tab DS PO BID x 14 days) 
-1.  If resistance rate unknown, give 1-time dose of <span class="drug">ceftriaxone</span> 1 gm IV or  aminoglycoside first
+1.  If resistance rate unknown, give 1-time dose of <span class="drug">ceftriaxone</span> 1 gm IV or aminoglycoside first
 
 **  Beta-lactams** (10-14 day course) 
 1.  Because of less efficacy, give 1-time dose of <span class="drug">ceftriaxone</span> 1 gm IV or aminoglycoside first 

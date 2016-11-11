@@ -6,14 +6,16 @@ collection:
   - Radiology
   - Trauma
 tags:
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2014/09/14
 
 ---
 
 
 
 # Ultrasound: Focused Assessment with Sonography in Trauma (FAST)
-
-<span>Durston W et al. </span>*Ann of Surg*<span>, 1998. PMID </span>[9790345](mailto:http://www.ncbi.nlm.nih.gov/pubmed/9790345)<span>;</span><span>Stengel D et al. </span>*Br J Surg*<span>, 2001. PMID </span>[11442520](http://www.ncbi.nlm.nih.gov/pubmed/11442520)<span>;</span><span>Stengel D et al. Radiology, 2005. PMID </span>[15983072](http://www.ncbi.nlm.nih.gov/pubmed/15983072)
 
 **Goals**: Evaluate for free fluid (i.e. blood) in the abdomen, pelvis, thorax, and pericardium in the setting of trauma.
 
@@ -92,3 +94,9 @@ Figure 3: Positive FAST in LUQ view demonstrating large amount of complex free f
 -   Appreciate that the FAST exam is not sensitive for the detection of small amounts (&lt;400-500 cc) of intra-peritoneal fluid
 -   Appreciate that intra-peritoneal blood will not appear anechoic in patients presenting with delayed trauma. Blood clots typically exhibit mixed echogenicity.
 -   Appreciate that the FAST exam cannot reliably differentiate between ascites and blood in patients with a history of ascites.
+
+## References
+
+- Durston W et al. *Ann of Surg*, 1998. PMID [9790345](mailto:http://www.ncbi.nlm.nih.gov/pubmed/9790345)
+- Stengel D et al. *Br J Surg*, 2001. PMID [11442520](http://www.ncbi.nlm.nih.gov/pubmed/11442520)
+- Stengel D et al. Radiology, 2005. PMID [15983072](http://www.ncbi.nlm.nih.gov/pubmed/15983072)

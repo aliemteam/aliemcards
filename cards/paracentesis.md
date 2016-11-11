@@ -4,6 +4,10 @@ title: Paracentesis for Ascites
 collection:
   - Gastroenterology
 tags:
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2010/06/25
 
 ---
 

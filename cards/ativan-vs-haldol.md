@@ -3,6 +3,10 @@ title: Chemical Sedation - Haldol vs Ativan vs Versed
 collection:
   - Pharmacology
 tags: haldol, midazolam, lorazepam
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2011/03/25
 
 ---
 

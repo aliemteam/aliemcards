@@ -6,6 +6,10 @@ collection:
   - Surgery
   - EBM
 tags:
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2011/07/22
 
 ---
 
@@ -19,7 +23,7 @@ When compared to unenhanced helical CT, 3-view xrays demonstrated:
 
 -   Sensitivity = 30%, Specificity = 88%, Accuracy = 56%
 -   Negative predictive value = 51%
--   **Pearl: **A 3-way acute abdominal series is too insensitive to rule-out any major acute causes of abdominal pain with confidence. No need to order routinely. If you are worried about a perforated viscus, order an upright chest x-ray instead -- more accurate and less radiation. 
+-   **Pearl:** A 3-way acute abdominal series is too insensitive to rule-out any major acute causes of abdominal pain with confidence. No need to order routinely. If you are worried about a perforated viscus, order an upright chest x-ray instead -- more accurate and less radiation. 
 
 Obtain plain film if suspicious for:
 

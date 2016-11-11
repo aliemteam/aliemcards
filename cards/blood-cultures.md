@@ -4,6 +4,10 @@ title: Blood Culture Indications
 collection:
   - Infectious Disease
 tags:
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2012/08/17
 
 ---
 

@@ -5,6 +5,10 @@ collection:
   - Cardiovascular
   - ECG
 tags:
+authors:
+  - Salim Rezaie, MD
+updated:
+  - 2013/07/03
 
 ---
 

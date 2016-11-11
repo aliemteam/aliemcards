@@ -6,7 +6,11 @@ class Card extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      card: {},
+      card: {
+        created: '',
+        updated: [''],
+        title: '',
+      },
     };
   }
 
@@ -26,8 +30,16 @@ class Card extends React.Component {
   }
 
   render() {
+    const updated = new Date(this.state.card.updated[0]).toLocaleDateString('en-US');
     return (
-      <div dangerouslySetInnerHTML={this.getContent()} />
+      <div>
+        <h1>{this.state.card.title}</h1>
+        <ul className="cardMeta">
+          <li><AuthorList authorArray={this.state.card.authors} /></li>
+          <li><b>Updated:</b> {updated}</li>
+        </ul>
+        <div className="cardHtml" dangerouslySetInnerHTML={this.getContent()} />
+      </div>
     );
   }
 }
@@ -38,3 +50,18 @@ Card.propTypes = {
 };
 
 export default Card;
+
+
+const AuthorList = ({ authorArray }) =>
+  <span>
+    <b>{authorArray.length > 1 ? 'Authors' : 'Author'}: </b>
+    {authorArray.map((author) => <span className="author">{author}</span>)}
+  </span>;
+
+AuthorList.propTypes = {
+  authorArray: React.PropTypes.array,
+};
+
+AuthorList.defaultProps = {
+  authorArray: [],
+};

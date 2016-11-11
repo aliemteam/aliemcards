@@ -5,6 +5,10 @@ collection:
   - Infectious Disease
   - EBM
 tags: Azithromycin
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2010/09/03
 
 ---
 

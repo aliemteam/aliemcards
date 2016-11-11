@@ -4,6 +4,10 @@ title: Transient Ichemic Attack (TIA)
 collection:
   - Neurology
 tags:
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2010/01/05
 
 ---
 

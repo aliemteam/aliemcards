@@ -4,6 +4,10 @@ title: Blunt Cerebrovascular Injuries
 collection:
   - Trauma
 tags: heparin, aspirin
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2011/07/01
 
 ---
 

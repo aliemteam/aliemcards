@@ -4,10 +4,14 @@ title: Hyperthyroidism
 collection:
   - Endocrinology
 tags:
+authors:
+  - Terrance Lee, MD
+updated:
+  - 2013/10/07
 
 ---
 
-# Diagnosing hyperthyroidism
+# Diagnosing Hyperthyroidism
 
 The prevalence of hyperthyroidism in the general population is about 1-2%, and is ten times more likely in women than men. The spectrum of hyperthyroidism ranges from asymptomatic or subclinical disease to thyroid storm. So how do we diagnose various presentations of hyperthyroidism in the Emergency Department? 
 

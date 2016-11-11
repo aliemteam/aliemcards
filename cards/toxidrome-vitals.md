@@ -3,7 +3,11 @@
 title: Toxidromes by Vital Signs
 collection:
   - Toxicology
-tags: propranolol, propoxyphene, physostigmine, clonidine, digoxin, theophylline, clonidine, aminophylline, 
+tags: propranolol, propoxyphene, physostigmine, clonidine, digoxin, theophylline, clonidine, aminophylline,
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2010/11/19
 
 ---
 

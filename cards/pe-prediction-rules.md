@@ -5,6 +5,10 @@ collection:
   - Pulmonology
   - EBM
 tags:
+authors:
+  - Michelle Lin, MD
+updated:
+  - 2011/06/03
 
 ---
 
