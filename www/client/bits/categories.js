@@ -1,5 +1,6 @@
 import React from 'react';
 import axios from 'axios';
+import { Link } from 'react-router';
 import Loader from './loader';
 
 class Categories extends React.Component {
@@ -42,7 +43,7 @@ Categories.defaultProps = {};
 const Results = ({ cats }) =>
   <div className="taxonomy-list">
     {cats.map((cat) =>
-      <a href={`/categories/${cat.slug}`}><h2>{cat.title}</h2></a>
+      <Link to={`/categories/${cat.slug}`}><h2>{cat.title}</h2></Link>
     )}
   </div>;
 

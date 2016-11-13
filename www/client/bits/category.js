@@ -1,5 +1,6 @@
 import React from 'react';
 import axios from 'axios';
+import { Link } from 'react-router';
 
 
 class Category extends React.Component {
@@ -30,12 +31,12 @@ class Category extends React.Component {
         <ul className="cards-list">
           {this.state.category.cards.map((card) =>
             <li key={card.slug}>
-              <a href={`/categories/${this.state.category.slug}/${card.slug}`}>
+              <Link to={`/categories/${this.state.category.slug}/${card.slug}`}>
                 {card.title}
-              </a>
+              </Link>
               <span className="metadata">
                 {card.categories.map((cat) =>
-                  <a href={`/categories/${cat}`}>{cat}</a>
+                  <Link to={`/categories/${cat}`}>{cat}</Link>
                 )}
               </span>
             </li>

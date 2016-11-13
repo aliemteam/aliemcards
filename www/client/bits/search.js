@@ -1,5 +1,6 @@
 import React from 'react';
 import axios from 'axios';
+import { Link } from 'react-router';
 
 class Search extends React.Component {
 
@@ -62,7 +63,7 @@ const Results = ({ cards }) =>
   <div className="container">
     <ul className="searchList">
       {cards.map((card) =>
-        <li><a href={`/cards/${card.slug}`}>{card.title}</a></li>
+        <li><Link to={`/cards/${card.slug}`}>{card.title}</Link></li>
       )}
     </ul>
   </div>;

@@ -29189,6 +29189,8 @@
 
 	var _axios2 = _interopRequireDefault(_axios);
 
+	var _reactRouter = __webpack_require__(178);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -29318,8 +29320,8 @@
 	          'li',
 	          null,
 	          _react2.default.createElement(
-	            'a',
-	            { href: '/cards/' + card.slug },
+	            _reactRouter.Link,
+	            { to: '/cards/' + card.slug },
 	            card.title
 	          )
 	        );
@@ -29446,6 +29448,8 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
+	var _reactRouter = __webpack_require__(178);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	var NavMenu = function NavMenu(_ref) {
@@ -29460,8 +29464,8 @@
 	        'li',
 	        null,
 	        _react2.default.createElement(
-	          'a',
-	          { href: '/cards' },
+	          _reactRouter.Link,
+	          { to: '/cards' },
 	          'Cards'
 	        )
 	      ),
@@ -29469,8 +29473,8 @@
 	        'li',
 	        null,
 	        _react2.default.createElement(
-	          'a',
-	          { href: '/categories' },
+	          _reactRouter.Link,
+	          { to: '/categories' },
 	          'Categories'
 	        )
 	      ),
@@ -29478,8 +29482,8 @@
 	        'li',
 	        null,
 	        _react2.default.createElement(
-	          'a',
-	          { href: '/pages/about' },
+	          _reactRouter.Link,
+	          { to: '/pages/about' },
 	          'About'
 	        )
 	      )
@@ -29713,17 +29717,11 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _reactBreadcrumbs = __webpack_require__(272);
-
-	var _reactBreadcrumbs2 = _interopRequireDefault(_reactBreadcrumbs);
-
 	var _axios = __webpack_require__(243);
 
 	var _axios2 = _interopRequireDefault(_axios);
 
-	var _search = __webpack_require__(268);
-
-	var _search2 = _interopRequireDefault(_search);
+	var _reactRouter = __webpack_require__(178);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -29846,8 +29844,8 @@
 	              'li',
 	              { key: card.slug },
 	              _react2.default.createElement(
-	                'a',
-	                { href: '/cards/' + card.slug },
+	                _reactRouter.Link,
+	                { to: '/cards/' + card.slug },
 	                card.title
 	              ),
 	              _react2.default.createElement(
@@ -29855,8 +29853,8 @@
 	                { className: 'metadata' },
 	                card.categories.map(function (cat) {
 	                  return _react2.default.createElement(
-	                    'a',
-	                    { href: '/categories/' + cat },
+	                    _reactRouter.Link,
+	                    { to: '/categories/' + cat },
 	                    cat
 	                  );
 	                })
@@ -30040,6 +30038,8 @@
 
 	var _axios2 = _interopRequireDefault(_axios);
 
+	var _reactRouter = __webpack_require__(178);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -30098,8 +30098,8 @@
 	              'li',
 	              { key: card.slug },
 	              _react2.default.createElement(
-	                'a',
-	                { href: '/categories/' + _this3.state.category.slug + '/' + card.slug },
+	                _reactRouter.Link,
+	                { to: '/categories/' + _this3.state.category.slug + '/' + card.slug },
 	                card.title
 	              ),
 	              _react2.default.createElement(
@@ -30107,8 +30107,8 @@
 	                { className: 'metadata' },
 	                card.categories.map(function (cat) {
 	                  return _react2.default.createElement(
-	                    'a',
-	                    { href: '/categories/' + cat },
+	                    _reactRouter.Link,
+	                    { to: '/categories/' + cat },
 	                    cat
 	                  );
 	                })
@@ -30151,6 +30151,8 @@
 	var _axios = __webpack_require__(243);
 
 	var _axios2 = _interopRequireDefault(_axios);
+
+	var _reactRouter = __webpack_require__(178);
 
 	var _loader = __webpack_require__(280);
 
@@ -30225,8 +30227,8 @@
 	    { className: 'taxonomy-list' },
 	    cats.map(function (cat) {
 	      return _react2.default.createElement(
-	        'a',
-	        { href: '/categories/' + cat.slug },
+	        _reactRouter.Link,
+	        { to: '/categories/' + cat.slug },
 	        _react2.default.createElement(
 	          'h2',
 	          null,

@@ -371,9 +371,9 @@ h1 {
   border-bottom: 5px solid #00b092;
 }
 h2 {
+  font-size: 2.6rem;
   line-height: 1.25;
   letter-spacing: -0.1rem;
-  font-size: 2.6rem;
   border-bottom: 1px solid #706d6e;
 }
 h3 {
@@ -713,7 +713,7 @@ li {
 }
 .loader i {
   font-size: 10rem;
-  animation: spin 1s infinite;
+  animation: linear spin 1s infinite;
 }
 .loader-hide {
   opacity: 0;

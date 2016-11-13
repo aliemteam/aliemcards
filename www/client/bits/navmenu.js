@@ -1,11 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 const NavMenu = ({ showNav }) =>
   <div id="navmenu" className={showNav ? 'navopen' : 'navclosed'}>
     <ul>
-      <li><a href="/cards">Cards</a></li>
-      <li><a href="/categories">Categories</a></li>
-      <li><a href="/pages/about">About</a></li>
+      <li><Link to="/cards">Cards</Link></li>
+      <li><Link to="/categories">Categories</Link></li>
+      <li><Link to="/pages/about">About</Link></li>
     </ul>
   </div>;
 

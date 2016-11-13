@@ -1,7 +1,6 @@
 import React from 'react';
-import Breadcrumbs from 'react-breadcrumbs';
 import axios from 'axios';
-import Search from './search';
+import { Link } from 'react-router';
 
 
 class Cards extends React.Component {
@@ -78,10 +77,10 @@ class Cards extends React.Component {
         <ul className="cards-list">
           {this.state.filterCards.map((card) =>
             <li key={card.slug}>
-              <a href={`/cards/${card.slug}`}>{card.title}</a>
+              <Link to={`/cards/${card.slug}`}>{card.title}</Link>
               <span className="metadata">
                 {card.categories.map((cat) =>
-                  <a href={`/categories/${cat}`}>{cat}</a>
+                  <Link to={`/categories/${cat}`}>{cat}</Link>
                 )}
               </span>
             </li>
