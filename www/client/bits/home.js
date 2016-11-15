@@ -1,4 +1,5 @@
 import React from 'react';
+require('es6-promise').polyfill();
 import axios from 'axios';
 
 import Search from './search';
