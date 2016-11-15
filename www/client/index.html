@@ -32,34 +32,7 @@
     <div id="app"></div>
   </div>
 
-  <script type="text/javascript">
-    // Object.assign Polyfill for IE11
-
-    if (typeof Object.assign != 'function') {
-      (function () {
-        Object.assign = function (target) {
-          'use strict';
-          // We must check against these specific cases.
-          if (target === undefined || target === null) {
-            throw new TypeError('Cannot convert undefined or null to object');
-          }
-
-          var output = Object(target);
-          for (var index = 1; index < arguments.length; index++) {
-            var source = arguments[index];
-            if (source !== undefined && source !== null) {
-              for (var nextKey in source) {
-                if (source.hasOwnProperty(nextKey)) {
-                  output[nextKey] = source[nextKey];
-                }
-              }
-            }
-          }
-          return output;
-        };
-      })();
-    }
-  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.7/es5-shim.min.js"></script>
   <script type="text/javascript" src="/index_bundle.js"></script>
 
 </body>
