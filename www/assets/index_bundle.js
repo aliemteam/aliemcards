@@ -90,11 +90,11 @@
 
 	var _categories2 = _interopRequireDefault(_categories);
 
-	var _tags = __webpack_require__(281);
+	var _tags = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./bits/tags\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
 
 	var _tags2 = _interopRequireDefault(_tags);
 
-	var _tag = __webpack_require__(282);
+	var _tag = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./bits/tag\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
 
 	var _tag2 = _interopRequireDefault(_tag);
 
@@ -129,17 +129,6 @@
 	        { name: 'Category', path: ':catslug' },
 	        _react2.default.createElement(_reactRouter.IndexRoute, { component: _category2.default }),
 	        _react2.default.createElement(_reactRouter.Route, { name: 'CatCard', path: ':slug', component: _card2.default })
-	      )
-	    ),
-	    _react2.default.createElement(
-	      _reactRouter.Route,
-	      { name: 'Tags', path: '/tags', component: _main2.default },
-	      _react2.default.createElement(_reactRouter.IndexRoute, { component: _tags2.default }),
-	      _react2.default.createElement(
-	        _reactRouter.Route,
-	        { name: 'Tag', path: ':tagslug' },
-	        _react2.default.createElement(_reactRouter.IndexRoute, { component: _tag2.default }),
-	        _react2.default.createElement(_reactRouter.Route, { name: 'Card', path: ':slug', component: _card2.default })
 	      )
 	    ),
 	    _react2.default.createElement(
@@ -27625,7 +27614,6 @@
 
 	      _axios2.default.get('/api/recent').then(function (res) {
 	        if (res.data.status === 'success') {
-	          console.log(res.data.data);
 	          _this2.setState({ newest: res.data.data });
 	        }
 	      }).catch(function (error) {
@@ -29213,6 +29201,7 @@
 	      cards: []
 	    };
 	    _this.onChange = _this.onChange.bind(_this);
+	    _this.onBlur = _this.onBlur.bind(_this);
 	    _this.handleSearch = _this.handleSearch.bind(_this);
 	    return _this;
 	  }
@@ -29221,6 +29210,12 @@
 	    key: 'onChange',
 	    value: function onChange(e) {
 	      this.handleSearch(e.target.value);
+	    }
+	  }, {
+	    key: 'onBlur',
+	    value: function onBlur(x) {
+	      x.target.value = '';
+	      this.handleSearch('');
 	    }
 	  }, {
 	    key: 'handleSearch',
@@ -29243,10 +29238,11 @@
 	      if (this.props.hero) {
 	        return _react2.default.createElement(SearchHero, {
 	          changeHandler: this.onChange,
+	          blurHandler: this.onBlur,
 	          cards: this.state.cards
 	        });
 	      }
-	      return _react2.default.createElement(SearchBar, { changeHandler: this.onChange, cards: this.state.cards });
+	      return _react2.default.createElement(SearchBar, { changeHandler: this.onChange, blurHandler: this.onBlur, cards: this.state.cards });
 	    }
 	  }]);
 
@@ -29255,6 +29251,7 @@
 
 	var SearchBar = function SearchBar(_ref) {
 	  var changeHandler = _ref.changeHandler;
+	  var blurHandler = _ref.blurHandler;
 	  var cards = _ref.cards;
 	  return _react2.default.createElement(
 	    'div',
@@ -29262,7 +29259,7 @@
 	    _react2.default.createElement(
 	      'form',
 	      { className: 'container' },
-	      _react2.default.createElement('input', { type: 'text', onChange: changeHandler, placeholder: 'Search' }),
+	      _react2.default.createElement('input', { type: 'text', onChange: changeHandler, onBlur: blurHandler, placeholder: 'Search' }),
 	      _react2.default.createElement(
 	        'button',
 	        { type: 'submit' },
@@ -29279,6 +29276,7 @@
 
 	var SearchHero = function SearchHero(_ref2) {
 	  var changeHandler = _ref2.changeHandler;
+	  var blurHandler = _ref2.blurHandler;
 	  var cards = _ref2.cards;
 	  return _react2.default.createElement(
 	    'div',
@@ -29309,7 +29307,7 @@
 	        )
 	      )
 	    ),
-	    _react2.default.createElement(SearchBar, { changeHandler: changeHandler, cards: cards })
+	    _react2.default.createElement(SearchBar, { changeHandler: changeHandler, blurHandler: blurHandler, cards: cards })
 	  );
 	};
 
@@ -30278,215 +30276,8 @@
 	exports.default = Loader;
 
 /***/ },
-/* 281 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-
-	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-	var _react = __webpack_require__(1);
-
-	var _react2 = _interopRequireDefault(_react);
-
-	var _axios = __webpack_require__(243);
-
-	var _axios2 = _interopRequireDefault(_axios);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-	var Tags = function (_React$Component) {
-	  _inherits(Tags, _React$Component);
-
-	  function Tags(props) {
-	    _classCallCheck(this, Tags);
-
-	    var _this = _possibleConstructorReturn(this, (Tags.__proto__ || Object.getPrototypeOf(Tags)).call(this, props));
-
-	    _this.state = {
-	      tags: []
-	    };
-	    return _this;
-	  }
-
-	  _createClass(Tags, [{
-	    key: 'componentDidMount',
-	    value: function componentDidMount() {
-	      var _this2 = this;
-
-	      _axios2.default.get('/api/tags').then(function (res) {
-	        if (res.data.status === 'success') {
-	          _this2.setState({ tags: res.data.data });
-	        }
-	      }).catch(function (error) {
-	        return console.log(error);
-	      });
-	    }
-	  }, {
-	    key: 'render',
-	    value: function render() {
-	      return _react2.default.createElement(
-	        'div',
-	        null,
-	        _react2.default.createElement(
-	          'h1',
-	          null,
-	          'Tags'
-	        ),
-	        _react2.default.createElement(
-	          'ul',
-	          { className: 'taxonomy-list' },
-	          this.state.tags.map(function (tag) {
-	            return _react2.default.createElement(
-	              'li',
-	              null,
-	              _react2.default.createElement(
-	                'a',
-	                { href: '/tags/' + tag.slug },
-	                tag.title
-	              )
-	            );
-	          })
-	        )
-	      );
-	    }
-	  }]);
-
-	  return Tags;
-	}(_react2.default.Component);
-
-	Tags.propTypes = {
-	  tag: _react2.default.PropTypes.object,
-	  params: _react2.default.PropTypes.object
-	};
-
-	Tags.defaultProps = {};
-
-	exports.default = Tags;
-
-/***/ },
-/* 282 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-
-	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-	var _react = __webpack_require__(1);
-
-	var _react2 = _interopRequireDefault(_react);
-
-	var _axios = __webpack_require__(243);
-
-	var _axios2 = _interopRequireDefault(_axios);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-	var Tag = function (_React$Component) {
-	  _inherits(Tag, _React$Component);
-
-	  function Tag(props) {
-	    _classCallCheck(this, Tag);
-
-	    var _this = _possibleConstructorReturn(this, (Tag.__proto__ || Object.getPrototypeOf(Tag)).call(this, props));
-
-	    _this.state = {
-	      tag: {
-	        cards: []
-	      }
-	    };
-	    return _this;
-	  }
-
-	  _createClass(Tag, [{
-	    key: 'componentDidMount',
-	    value: function componentDidMount() {
-	      var _this2 = this;
-
-	      _axios2.default.get('/api/tags/' + this.props.params.tagslug).then(function (res) {
-	        if (res.data.status === 'success') {
-	          _this2.setState({ tag: res.data.data });
-	        }
-	      }).catch(function (error) {
-	        return console.log(error);
-	      });
-	    }
-	  }, {
-	    key: 'render',
-	    value: function render() {
-	      var _this3 = this;
-
-	      return _react2.default.createElement(
-	        'div',
-	        null,
-	        _react2.default.createElement(
-	          'h1',
-	          null,
-	          this.state.tag.title
-	        ),
-	        _react2.default.createElement(
-	          'ul',
-	          { className: 'cards-list' },
-	          this.state.tag.cards.map(function (card) {
-	            return _react2.default.createElement(
-	              'li',
-	              { key: card.slug },
-	              _react2.default.createElement(
-	                'a',
-	                { href: '/tags/' + _this3.state.tag.slug + '/' + card.slug },
-	                card.title
-	              ),
-	              _react2.default.createElement(
-	                'span',
-	                { className: 'metadata' },
-	                card.categories.map(function (cat) {
-	                  return _react2.default.createElement(
-	                    'a',
-	                    { href: '/categories/' + cat },
-	                    cat
-	                  );
-	                })
-	              )
-	            );
-	          })
-	        )
-	      );
-	    }
-	  }]);
-
-	  return Tag;
-	}(_react2.default.Component);
-
-	Tag.propTypes = {
-	  tag: _react2.default.PropTypes.object,
-	  params: _react2.default.PropTypes.object
-	};
-
-	Tag.defaultProps = {};
-
-	exports.default = Tag;
-
-/***/ },
+/* 281 */,
+/* 282 */,
 /* 283 */
 /***/ function(module, exports, __webpack_require__) {
 

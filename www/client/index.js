@@ -36,14 +36,6 @@ ReactDOM.render((
         </Route>
       </Route>
 
-      <Route name="Tags" path="/tags" component={Main}>
-        <IndexRoute component={Tags} />
-        <Route name="Tag" path=":tagslug">
-          <IndexRoute component={Tag} />
-          <Route name="Card" path=":slug" component={Card} />
-        </Route>
-      </Route>
-
       <Route name="Pages" path="/pages" component={Main}>
         <Route name="About" path="about" component={About} />
       </Route>

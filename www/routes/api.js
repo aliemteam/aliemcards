@@ -21,7 +21,6 @@ const mongoose = require('mongoose');
 const Card = require('../../build_db/models/card');
 const Tag = require('../../build_db/models/taxonomy').tag;
 const Category = require('../../build_db/models/taxonomy').category;
-mongoose.Promise = require('bluebird');
 
 mongoose.connect(mlaburi);
 

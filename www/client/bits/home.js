@@ -18,7 +18,6 @@ class Home extends React.Component {
     axios.get('/api/recent')
       .then(res => {
         if (res.data.status === 'success') {
-          console.log(res.data.data);
           this.setState({ newest: res.data.data });
         }
       })

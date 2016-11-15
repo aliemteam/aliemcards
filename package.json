@@ -1,11 +1,10 @@
 {
   "name": "ALiEMCards",
   "version": "0.1.0",
-  "description": "",
+  "description": "ALiEM Cards deployment scripts and website code.",
   "main": "./www/server.js",
   "dependencies": {
     "axios": "^0.15.0",
-    "bluebird": "^3.4.6",
     "compression": "^1.6.2",
     "dotenv": "^2.0.0",
     "express": "^4.14.0",
@@ -26,7 +25,8 @@
     "react-router": "^2.4.1",
     "react-tap-event-plugin": "^1.0.0",
     "slug": "^0.9.1",
-    "through2": "^2.0.1"
+    "through2": "^2.0.1",
+    "yamljs": "^0.2.8"
   },
   "devDependencies": {
     "babel-core": "^6.7.2",
@@ -46,8 +46,7 @@
     "stylus": "^0.54.5",
     "stylus-loader": "^2.1.0",
     "webpack": "^1.12.14",
-    "webpack-dev-server": "^1.14.1",
-    "yamljs": "^0.2.8"
+    "webpack-dev-server": "^1.14.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

@@ -10,11 +10,17 @@ class Search extends React.Component {
       cards: [],
     };
     this.onChange = this.onChange.bind(this);
+    this.onBlur = this.onBlur.bind(this);
     this.handleSearch = this.handleSearch.bind(this);
   }
 
   onChange(e) {
     this.handleSearch(e.target.value);
+  }
+
+  onBlur(x) {
+    x.target.value = '';
+    this.handleSearch('');
   }
 
   handleSearch(query) {
@@ -35,30 +41,31 @@ class Search extends React.Component {
       return (
         <SearchHero
           changeHandler={this.onChange}
+          blurHandler={this.onBlur}
           cards={this.state.cards}
         />
       );
     }
-    return <SearchBar changeHandler={this.onChange} cards={this.state.cards} />;
+    return <SearchBar changeHandler={this.onChange} blurHandler={this.onBlur} cards={this.state.cards} />;
   }
 }
 
-const SearchBar = ({ changeHandler, cards }) =>
+const SearchBar = ({ changeHandler, blurHandler, cards }) =>
   <div className="searchBox">
     <form className="container">
-      <input type="text" onChange={changeHandler} placeholder="Search" />
+      <input type="text" onChange={changeHandler} onBlur={blurHandler} placeholder="Search" />
       <button type="submit"><i className="material-icons">search</i></button>
     </form>
     {cards[0] ? <Results cards={cards} /> : null}
   </div>;
 
-const SearchHero = ({ changeHandler, cards }) =>
+const SearchHero = ({ changeHandler, blurHandler, cards }) =>
   <div className="searchHero">
     <div className="heroText">
       <p>A Point-of-Care reference library<br />by Michelle Lin, and the <b>ALiEM Team</b></p>
       <p>Formerly known as <i>Paucis Verbis Cards</i></p>
     </div>
-    <SearchBar changeHandler={changeHandler} cards={cards} />
+    <SearchBar changeHandler={changeHandler} blurHandler={blurHandler} cards={cards} />
   </div>;
 
 const Results = ({ cards }) =>

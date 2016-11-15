@@ -11,11 +11,9 @@ const YAML = require('yamljs');
 const config = require('./config');
 const mongoose = require('mongoose');
 const Card = require('./build_db/models/card');
-const Tag = require('./build_db/models/taxonomy').tag;
 const Drug = require('./build_db/models/taxonomy').drug;
 const Category = require('./build_db/models/taxonomy').category;
 
-mongoose.Promise = require('bluebird');
 mongoose.connect(config.development.mlaburi);
 
 marked.setOptions({
@@ -65,6 +63,7 @@ gulp.task('upload_db', () =>
     const splitTags = (file.meta.drugs) ? file.meta.drugs.split(', ') : null;
     const cats = file.meta.categories.map((cat) => slug(cat, { lower: true }));
     const updates = (file.meta.updates) ? file.meta.updates.map((update) => new Date(update)) : null;
+
     const card = new Card({
       title: file.meta.title,
       slug: cardSlug,
@@ -173,6 +172,7 @@ gulp.task('build_db', ['upload_db'], () => {
   // mongoose.connection.close();
 });
 
+// Task to convert old frontmatter to new format
 gulp.task('new_yaml', () =>
   gulp.src('./cards/*.md')
   .pipe(debug({ title: 'build_db:' }))
