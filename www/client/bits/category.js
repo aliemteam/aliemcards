@@ -1,5 +1,4 @@
 import React from 'react';
-require('es6-promise').polyfill();
 import axios from 'axios';
 import { Link } from 'react-router';
 
