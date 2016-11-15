@@ -11,8 +11,6 @@ import Cards from './bits/cards';
 import Card from './bits/card';
 import Category from './bits/category';
 import Categories from './bits/categories';
-import Tags from './bits/tags';
-import Tag from './bits/tag';
 import About from './bits/about';
 
 injectTapEventPlugin();

@@ -90,14 +90,6 @@
 
 	var _categories2 = _interopRequireDefault(_categories);
 
-	var _tags = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./bits/tags\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
-
-	var _tags2 = _interopRequireDefault(_tags);
-
-	var _tag = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./bits/tag\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
-
-	var _tag2 = _interopRequireDefault(_tag);
-
 	var _about = __webpack_require__(283);
 
 	var _about2 = _interopRequireDefault(_about);
