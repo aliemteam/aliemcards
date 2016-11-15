@@ -29282,25 +29282,29 @@
 	    'div',
 	    { className: 'searchHero' },
 	    _react2.default.createElement(
-	      'p',
-	      null,
-	      'A Point-of-Care reference library',
-	      _react2.default.createElement('br', null),
-	      'by Michelle Lin, and the ',
+	      'div',
+	      { className: 'heroText' },
 	      _react2.default.createElement(
-	        'b',
+	        'p',
 	        null,
-	        'ALiEM Team'
-	      )
-	    ),
-	    _react2.default.createElement(
-	      'p',
-	      null,
-	      'Formerly known as ',
+	        'A Point-of-Care reference library',
+	        _react2.default.createElement('br', null),
+	        'by Michelle Lin, and the ',
+	        _react2.default.createElement(
+	          'b',
+	          null,
+	          'ALiEM Team'
+	        )
+	      ),
 	      _react2.default.createElement(
-	        'i',
+	        'p',
 	        null,
-	        'Paucis Verbis Cards'
+	        'Formerly known as ',
+	        _react2.default.createElement(
+	          'i',
+	          null,
+	          'Paucis Verbis Cards'
+	        )
 	      )
 	    ),
 	    _react2.default.createElement(SearchBar, { changeHandler: changeHandler, cards: cards })
@@ -29815,17 +29819,12 @@
 	          'form',
 	          null,
 	          _react2.default.createElement(
-	            'label',
-	            null,
-	            'Filter by Category:'
-	          ),
-	          _react2.default.createElement(
 	            'select',
 	            { name: 'category', onChange: this.onSelectChange },
 	            _react2.default.createElement(
 	              'option',
 	              { value: '' },
-	              '** All Cards **'
+	              'Filter by Category:'
 	            ),
 	            this.state.categories.map(function (cat) {
 	              return _react2.default.createElement(

@@ -80,7 +80,7 @@ select {
   padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
   background-color: #fff;
   border: 1px solid #d1d1d1;
-  border-radius: 4px;
+  border-radius: 2px;
   box-shadow: none;
   box-sizing: border-box;
 }
@@ -612,6 +612,9 @@ li {
     width: 75%;
     margin: 0 auto;
   }
+  .heroText {
+    font-size: 2.3rem;
+  }
 }
 .searchBox {
   position: relative;
@@ -779,11 +782,15 @@ body {
 .taxonomy-list a:hover {
   color: #00b092;
 }
+.cards-list {
+  font-size: 2rem;
+}
 .cards-list li {
   list-style: none;
   color: #706d6e;
-  padding: 0.5rem 0;
-  font-weight: bold;
+  margin: 0 0 0 0;
+  padding: 1rem 0;
+  border-bottom: 1px solid #f2f2f2;
   display: block;
 }
 .cards-list li a {
@@ -795,14 +802,21 @@ body {
 }
 .cards-list li .metadata {
   display: none;
+  font-weight: bold;
+  font-size: 1rem;
 }
 .breadcrumbs {
   display: none;
 }
+select {
+  cursor: pointer;
+  background: url("/images/down-caret.svg") no-repeat 95% 50%;
+  background-size: 1.6rem;
+  appearance: none;
+}
 @media (min-width: 750px) {
   .cards-list li .metadata {
     display: inline;
-    font-size: 1rem;
     margin-left: 2rem;
   }
   .cards-list li .metadata a {

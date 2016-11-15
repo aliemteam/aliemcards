@@ -40,11 +40,14 @@ body
     color: aliem-green
 
 .cards-list
+  font-size: 2rem
+
   li
     list-style: none
     color: dark-shade
-    padding: 0.5rem 0
-    font-weight: bold
+    margin: 0 0 0 0
+    padding: 1rem 0
+    border-bottom: 1px solid light-shade
     display: block
 
     a
@@ -56,9 +59,18 @@ body
 
     .metadata
       display: none
+      font-weight: bold
+      font-size: 1rem
 
 .breadcrumbs
   display: none
+
+select
+  cursor: pointer
+  background: url(/images/down-caret.svg) no-repeat 95% 50%
+  background-size: 1.6rem
+  appearance: none
+
 
 @media (min-width: 750px)
 
@@ -66,7 +78,6 @@ body
     li
       .metadata
         display: inline
-        font-size: 1rem
         margin-left: 2rem
 
         a

@@ -54,8 +54,10 @@ const SearchBar = ({ changeHandler, cards }) =>
 
 const SearchHero = ({ changeHandler, cards }) =>
   <div className="searchHero">
-    <p>A Point-of-Care reference library<br />by Michelle Lin, and the <b>ALiEM Team</b></p>
-    <p>Formerly known as <i>Paucis Verbis Cards</i></p>
+    <div className="heroText">
+      <p>A Point-of-Care reference library<br />by Michelle Lin, and the <b>ALiEM Team</b></p>
+      <p>Formerly known as <i>Paucis Verbis Cards</i></p>
+    </div>
     <SearchBar changeHandler={changeHandler} cards={cards} />
   </div>;
 

@@ -66,9 +66,8 @@ class Cards extends React.Component {
       <div>
         <h1>Cards</h1>
         <form>
-          <label>Filter by Category:</label>
           <select name="category" onChange={this.onSelectChange}>
-            <option value="">** All Cards **</option>
+            <option value="">Filter by Category:</option>
             {this.state.categories.map((cat) =>
               <option value={cat.slug}>{cat.title}</option>
             )}

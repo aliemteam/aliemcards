@@ -15,6 +15,7 @@ app.use('/api', api);
 
 // all other routes get served this
 app.get('*', (req, res) => {
+  res.set('X-UA-Compatible', 'IE=edge');
   res.sendFile(path.join(__dirname, 'client', 'index.html'));
 });
 
