@@ -34,7 +34,7 @@
 
   <script type="text/javascript">
     // Object.assign Polyfill for IE11
-    
+
     if (typeof Object.assign != 'function') {
       (function () {
         Object.assign = function (target) {
@@ -59,6 +59,9 @@
         };
       })();
     }
+
+    // Promise Polyfill
+    require('es6-promise').polyfill();
   </script>
   <script type="text/javascript" src="/index_bundle.js"></script>
 
