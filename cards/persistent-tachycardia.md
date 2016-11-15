@@ -1,15 +1,17 @@
 ---
 
-title: Persistent Tachycardia
-collection:
-  - Cardiovascular
-tags:
+title: 'Persistent Tachycardia'
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2011/08/19
+    - 'Michelle Lin, MD'
+created: 2011/08/19
+updates:
+    - 2011/08/19
+categories:
+    - Cardiovascular
+drugs: 
 
 ---
+
 
 # Tachycardia: Approach to Persistent Tachycardia
 

@@ -1,17 +1,19 @@
 ---
 
-title: Bicarbonate - Completely Useless?
-collection:
-  - Toxicology
-  - Pharmacology
-  - Critical Care
-tags: sodium bicarbonate
+title: 'Bicarbonate - Completely Useless?'
 authors:
-  - Andrew Grock, MD
-updated:
-  - 2013/12/04
+    - 'Andrew Grock, MD'
+created: 2013/12/04
+updates:
+    - 2013/12/04
+categories:
+    - Toxicology
+    - Pharmacology
+    - 'Critical Care'
+drugs: 'sodium bicarbonate'
 
 ---
+
 
 # Bicarbonate: Completely Useless?
 

@@ -1,17 +1,19 @@
 ---
 
-title: Streptococcal Pharyngitis
-collection:
-  - ENT
-  - Infectious Disease
-  - EBM
-tags: penicillin, amoxicillin,
+title: 'Streptococcal Pharyngitis'
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2010/07/30
+    - 'Michelle Lin, MD'
+created: 2010/07/30
+updates:
+    - 2010/07/30
+categories:
+    - ENT
+    - 'Infectious Disease'
+    - EBM
+drugs: 'penicillin, amoxicillin,'
 
 ---
+
 
 # Streptococcal Pharyngitis
 

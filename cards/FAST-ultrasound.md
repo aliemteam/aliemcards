@@ -1,17 +1,19 @@
 ---
 
-title: Focused Assessment with Sonography in Trauma (FAST)
-collection:
-  - Ultrasound
-  - Radiology
-  - Trauma
-tags:
+title: 'Focused Assessment with Sonography in Trauma (FAST)'
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2014/09/14
+    - 'Michelle Lin, MD'
+created: 2014/09/14
+updates:
+    - 2014/09/14
+categories:
+    - Ultrasound
+    - Radiology
+    - Trauma
+drugs: 
 
 ---
+
 
 
 

@@ -1,15 +1,17 @@
 ---
 
 title: Anaphylaxis
-collection:
-  - Allergy-Immunology
-tags: epinepherine, diphenhydramine, ranitidine, glucagon, methylprednisolone
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2012/02/24
+    - 'Michelle Lin, MD'
+created: 2012/02/24
+updates:
+    - 2012/02/24
+categories:
+    - Allergy-Immunology
+drugs: 'epinepherine, diphenhydramine, ranitidine, glucagon, methylprednisolone'
 
 ---
+
 
 # Anaphylaxis
 

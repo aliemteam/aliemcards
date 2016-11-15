@@ -1,16 +1,18 @@
 ---
 
-title: Posterior MI - How Accurate is the Flipped ECG?
-collection:
-  - Cardiovascular
-  - ECG
-tags:
+title: 'Posterior MI - How Accurate is the Flipped ECG?'
 authors:
-  - Salim Rezaie, MD
-updated:
-  - 2013/08/07
+    - 'Salim Rezaie, MD'
+created: 2013/08/07
+updates:
+    - 2013/08/07
+categories:
+    - Cardiovascular
+    - ECG
+drugs: 
 
 ---
+
 
 # ECG: Posterior Myocardial Infarction: How Accurate is the Flipped ECG Trick?
 

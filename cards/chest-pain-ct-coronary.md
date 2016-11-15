@@ -1,16 +1,18 @@
 ---
 
-title: CT Coronary in the ED
-collection:
-  - Cardiovascular
-  - EBM
-tags:
+title: 'CT Coronary in the ED'
 authors:
-  - Salim Rezaie, MD
-updated:
-  - 2013/04/11
+    - 'Salim Rezaie, MD'
+created: 2013/04/11
+updates:
+    - 2013/04/11
+categories:
+    - Cardiovascular
+    - EBM
+drugs: 
 
 ---
+
 
 
 

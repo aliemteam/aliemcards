@@ -1,16 +1,18 @@
 ---
 
-title: Fibrinolysis for Acute Pulmonary Embolism
-collection:
-  - Pulmonology
-  - Critical Care
-tags: alteplase, tpa
+title: 'Fibrinolysis for Acute Pulmonary Embolism'
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2011/07/29
+    - 'Michelle Lin, MD'
+created: 2011/07/29
+updates:
+    - 2011/07/29
+categories:
+    - Pulmonology
+    - 'Critical Care'
+drugs: 'alteplase, tpa'
 
 ---
+
 
 # Fibrinolysis for Acute Pulmonary Embolism (PE)
 

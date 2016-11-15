@@ -1,15 +1,17 @@
 ---
 
-title: Dental Infections
-collection:
-  - ENT
-tags:
+title: 'Dental Infections'
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2011/04/22
+    - 'Michelle Lin, MD'
+created: 2011/04/22
+updates:
+    - 2011/04/22
+categories:
+    - ENT
+drugs: 
 
 ---
+
 
 # Dental Infections
 

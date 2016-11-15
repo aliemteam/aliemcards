@@ -1,16 +1,18 @@
 ---
 
-title: Urinary Tract Infection
-collection:
-  - Genitourinary
-  - Infectious Disease
-tags:
+title: 'Urinary Tract Infection'
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2010/02/11
+    - 'Michelle Lin, MD'
+created: 2010/02/11
+updates:
+    - 2010/02/11
+categories:
+    - Genitourinary
+    - 'Infectious Disease'
+drugs: 
 
 ---
+
 
 # Urinary Tract Infection (UTI)
 

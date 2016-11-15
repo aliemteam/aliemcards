@@ -1,17 +1,19 @@
 ---
 
-title: Acute Vestibular Syndrome vs Stroke
-collection:
-  - Neurology
-  - ENT
-  - EBM
-tags:
+title: 'Acute Vestibular Syndrome vs Stroke'
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2011/12/02
+    - 'Michelle Lin, MD'
+created: 2011/12/02
+updates:
+    - 2011/12/02
+categories:
+    - Neurology
+    - ENT
+    - EBM
+drugs: 
 
 ---
+
 
 # Acute Vestibular Syndrome vs. Stroke
 

@@ -1,15 +1,17 @@
 ---
 
-title: Kawasaki Disease
-collection:
-  - Pediatrics
-tags:
+title: 'Kawasaki Disease'
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2012/03/23
+    - 'Michelle Lin, MD'
+created: 2012/03/23
+updates:
+    - 2012/03/23
+categories:
+    - Pediatrics
+drugs: 
 
 ---
+
 
 # Kawasaki Disease
 

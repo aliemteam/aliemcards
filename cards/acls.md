@@ -1,16 +1,18 @@
 ---
 
-title: ACLS 2010 Algorithm for Cardiac Arrest
-collection:
-  - Cardiovascular
-  - Critical Care
-tags: epinephrine
+title: 'ACLS 2010 Algorithm for Cardiac Arrest'
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2011/12/16
+    - 'Michelle Lin, MD'
+created: 2011/12/16
+updates:
+    - 2011/12/16
+categories:
+    - Cardiovascular
+    - 'Critical Care'
+drugs: epinephrine
 
 ---
+
 
 # ACLS 2010 Algorithm for Cardiac Arrest
 

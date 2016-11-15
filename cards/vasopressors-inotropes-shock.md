@@ -1,16 +1,18 @@
 ---
 
-title: Vasopressors and Inotropes in Shock
-collection:
-  - Cardiovascular
-  - Critical Care
-tags: epinephrine, Phenylephrine, norepinephrine, dopamine, dobutamine
+title: 'Vasopressors and Inotropes in Shock'
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2010/04/30
+    - 'Michelle Lin, MD'
+created: 2010/04/30
+updates:
+    - 2010/04/30
+categories:
+    - Cardiovascular
+    - 'Critical Care'
+drugs: 'epinephrine, Phenylephrine, norepinephrine, dopamine, dobutamine'
 
 ---
+
 
 # Vasopressors and Inotropes in Shock
 

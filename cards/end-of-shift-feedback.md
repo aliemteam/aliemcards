@@ -1,15 +1,17 @@
 ---
 
-title: End-of-Shift Feedback
-collection:
-  - Education
-tags:
+title: 'End-of-Shift Feedback'
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2011/12/09
+    - 'Michelle Lin, MD'
+created: 2011/12/09
+updates:
+    - 2011/12/09
+categories:
+    - Education
+drugs: 
 
 ---
+
 
 # End-of-Shift Feedback in the Emergency Department
 

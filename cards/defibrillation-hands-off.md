@@ -1,16 +1,18 @@
 ---
 
-title: CPR Hands-on vs Hands-off Defibrillation
-collection:
-  - Cardiovascular
-  - Critical Care
-tags:
+title: 'CPR Hands-on vs Hands-off Defibrillation'
 authors:
-  - Salim Rezaie, MD
-updated:
-  - 2013/10/28
+    - 'Salim Rezaie, MD'
+created: 2013/10/28
+updates:
+    - 2013/10/28
+categories:
+    - Cardiovascular
+    - 'Critical Care'
+drugs: 
 
 ---
+
 
 
 # CPR: Hands-on or Hands-off Defibrillation?

@@ -29915,7 +29915,7 @@
 	    _this.state = {
 	      card: {
 	        created: '',
-	        updated: [''],
+	        updates: [''],
 	        title: ''
 	      }
 	    };
@@ -29945,7 +29945,7 @@
 	  }, {
 	    key: 'render',
 	    value: function render() {
-	      var updated = new Date(this.state.card.updated[0]).toLocaleDateString('en-US');
+	      var updated = new Date(this.state.card.updates[0]).toLocaleDateString('en-US');
 	      return _react2.default.createElement(
 	        'div',
 	        null,

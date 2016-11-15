@@ -1,16 +1,18 @@
 ---
 
-title: Lead aVR
-collection:
-  - Cardiovascular
-  - ECG
-tags:
+title: 'Lead aVR'
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2011/11/18
+    - 'Michelle Lin, MD'
+created: 2011/11/18
+updates:
+    - 2011/11/18
+categories:
+    - Cardiovascular
+    - ECG
+drugs: 
 
 ---
+
 
 # ECG: Lead aVR
 

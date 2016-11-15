@@ -1,15 +1,17 @@
 ---
 
 title: Hyperthyroidism
-collection:
-  - Endocrinology
-tags:
 authors:
-  - Terrance Lee, MD
-updated:
-  - 2013/10/07
+    - 'Terrance Lee, MD'
+created: 2013/10/07
+updates:
+    - 2013/10/07
+categories:
+    - Endocrinology
+drugs: 
 
 ---
+
 
 # Diagnosing Hyperthyroidism
 

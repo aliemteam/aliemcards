@@ -1,15 +1,17 @@
 ---
 
-title: Predictors of a Difficult Airway
-collection:
-  - Critical Care
-tags:
+title: 'Predictors of a Difficult Airway'
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2012/10/19
+    - 'Michelle Lin, MD'
+created: 2012/10/19
+updates:
+    - 2012/10/19
+categories:
+    - 'Critical Care'
+drugs: 
 
 ---
+
 
 # Mnemonics: Predictors of a Difficult Airway
 

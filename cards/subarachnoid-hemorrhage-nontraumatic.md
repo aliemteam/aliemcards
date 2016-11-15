@@ -1,15 +1,17 @@
 ---
 
-title: Subarachnoid Hemorrhage, Nontraumatic
-collection:
-  - Neurology
-tags:
+title: 'Subarachnoid Hemorrhage, Nontraumatic'
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2010/03/05
+    - 'Michelle Lin, MD'
+created: 2010/03/05
+updates:
+    - 2010/03/05
+categories:
+    - Neurology
+drugs: 
 
 ---
+
 
 # Subarachnoid Hemorrhage, Nontraumatic: High Risk Characteristics
 

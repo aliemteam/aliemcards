@@ -1,16 +1,18 @@
 ---
 
-title: Palliative Care Screening Tool
-collection:
-  - Palliative Care
-tags:
+title: 'Palliative Care Screening Tool'
 authors:
-  - Naomi George, MD
-  - Kalie Dove-Maguire, MD
-updated:
-  - 2015/07/27
+    - 'Naomi George, MD'
+    - 'Kalie Dove-Maguire, MD'
+created: 2015/07/27
+updates:
+    - 2015/07/27
+categories:
+    - 'Palliative Care'
+drugs: 
 
 ---
+
 
 # Palliative Care Screening Tool
 

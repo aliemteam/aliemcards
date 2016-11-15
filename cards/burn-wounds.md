@@ -1,16 +1,18 @@
 ---
 
-title: Burn Wounds
-collection:
-  - Trauma
-tags:
+title: 'Burn Wounds'
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2016/04/22
-  - 2010/07/02
+    - 'Michelle Lin, MD'
+created: 2010/07/02
+updates:
+    - 2016/04/22
+    - 2010/07/02
+categories:
+    - Trauma
+drugs: 
 
 ---
+
 
 # Burn Wounds
 

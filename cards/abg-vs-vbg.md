@@ -1,15 +1,17 @@
 ---
 
-title: ABG versus VBG
-collection:
-  - Pulmonology
-tags:
+title: 'ABG versus VBG'
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2013/01/31
+    - 'Michelle Lin, MD'
+created: 2013/01/31
+updates:
+    - 2013/01/31
+categories:
+    - Pulmonology
+drugs: 
 
 ---
+
 
 # ABG versus VBG
 

@@ -1,17 +1,19 @@
 ---
 
-title: Head CT in Trauma
-collection:
-  - Radiology
-  - EBM
-  - Trauma
-tags:
+title: 'Head CT in Trauma'
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2011/05/13
+    - 'Michelle Lin, MD'
+created: 2011/05/13
+updates:
+    - 2011/05/13
+categories:
+    - Radiology
+    - EBM
+    - Trauma
+drugs: 
 
 ---
+
 
 # Head CT in Trauma - Clinical Decision Rules
 

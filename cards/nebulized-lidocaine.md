@@ -1,15 +1,17 @@
 ---
 
-title: Lidocaine, nebulized dose
-collection:
-  - Pharmacology
-tags: lidocaine
+title: 'Lidocaine, nebulized dose'
 authors:
-  - Bryan D. Hayes, PharmD
-updated:
-  - 2013/08/06
+    - 'Bryan D. Hayes, PharmD'
+created: 2013/08/06
+updates:
+    - 2013/08/06
+categories:
+    - Pharmacology
+drugs: lidocaine
 
 ---
+
 
 # Lidocaine, nebulized dose
 

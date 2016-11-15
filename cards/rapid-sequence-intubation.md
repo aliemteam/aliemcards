@@ -1,16 +1,18 @@
 ---
 
-title: Rapid Sequence Intubation
-collection:
-  - Critical Care
-  - Procedures
-tags: lidocaine, fentanyl, etomidate, propofol, thiopental, ketamine, midazolam, Succinylcholine, Rocuronium, Vecuronium
+title: 'Rapid Sequence Intubation'
 authors:
-  - Demian Szyld, MD
-updated:
-  - 2010/07/16
+    - 'Demian Szyld, MD'
+created: 2010/07/16
+updates:
+    - 2010/07/16
+categories:
+    - 'Critical Care'
+    - Procedures
+drugs: 'lidocaine, fentanyl, etomidate, propofol, thiopental, ketamine, midazolam, Succinylcholine, Rocuronium, Vecuronium'
 
 ---
+
 
 # Rapid Sequence Intubation (RSI)
 

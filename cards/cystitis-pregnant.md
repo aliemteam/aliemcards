@@ -1,16 +1,18 @@
 ---
 
-title: Cystitis and Pyelonephritis in Women
-collection:
-  - Infectious Disease
-  - Genitourinary
-tags: Nitrofurantoin, sulfamethoxazole, fosfomycin, pivmecillinam, ofloxacin, ciprofloxacin, levofloxacin, amoxicillin-clavulanate, cefdinir, cefaclor, cefpodoxime-proxetil, Trimethoprim-sulfamethoxazole
+title: 'Cystitis and Pyelonephritis in Women'
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2011/09/02
+    - 'Michelle Lin, MD'
+created: 2011/09/02
+updates:
+    - 2011/09/02
+categories:
+    - 'Infectious Disease'
+    - Genitourinary
+drugs: 'Nitrofurantoin, sulfamethoxazole, fosfomycin, pivmecillinam, ofloxacin, ciprofloxacin, levofloxacin, amoxicillin-clavulanate, cefdinir, cefaclor, cefpodoxime-proxetil, Trimethoprim-sulfamethoxazole'
 
 ---
+
 
 
 

@@ -8,7 +8,7 @@ class Card extends React.Component {
     this.state = {
       card: {
         created: '',
-        updated: [''],
+        updates: [''],
         title: '',
       },
     };
@@ -30,7 +30,7 @@ class Card extends React.Component {
   }
 
   render() {
-    const updated = new Date(this.state.card.updated[0]).toLocaleDateString('en-US');
+    const updated = new Date(this.state.card.updates[0]).toLocaleDateString('en-US');
     return (
       <div>
         <h1>{this.state.card.title}</h1>
@@ -50,7 +50,6 @@ Card.propTypes = {
 };
 
 export default Card;
-
 
 const AuthorList = ({ authorArray }) =>
   <span>

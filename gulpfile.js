@@ -1,16 +1,18 @@
 const gulp = require('gulp');
 const gutil = require('gulp-util');
-// const debug = require('gulp-debug');
+const debug = require('gulp-debug');
 const through = require('through2');
 const fm = require('gulp-front-matter');
 const marked = require('marked');
 const crypto = require('crypto');
 const slug = require('slug');
+const YAML = require('yamljs');
 
 const config = require('./config');
 const mongoose = require('mongoose');
 const Card = require('./build_db/models/card');
 const Tag = require('./build_db/models/taxonomy').tag;
+const Drug = require('./build_db/models/taxonomy').drug;
 const Category = require('./build_db/models/taxonomy').category;
 
 mongoose.Promise = require('bluebird');
@@ -60,17 +62,17 @@ gulp.task('upload_db', () =>
   .pipe(through.obj(function(file, enc, callback) {
     // filename minus .md extension
     const cardSlug = file.relative.split('.')[0].toLowerCase();
-    const splitTags = (file.meta.tags) ? file.meta.tags.split(', ') : null;
-    const cats = file.meta.collection.map((cat) => slug(cat, { lower: true }));
-    const updates = (file.meta.updated) ? file.meta.updated.map((update) => new Date(update)) : null;
+    const splitTags = (file.meta.drugs) ? file.meta.drugs.split(', ') : null;
+    const cats = file.meta.categories.map((cat) => slug(cat, { lower: true }));
+    const updates = (file.meta.updates) ? file.meta.updates.map((update) => new Date(update)) : null;
     const card = new Card({
       title: file.meta.title,
       slug: cardSlug,
-      tags: splitTags,
+      drugs: splitTags,
       categories: cats,
       authors: file.meta.authors,
       created: new Date(file.meta.created),
-      updated: updates,
+      updates: updates,
       content: marked(file.contents.toString()),
       hash: file.hash,
     });
@@ -89,11 +91,11 @@ gulp.task('upload_db', () =>
         // if card hash != foundCard hash, then update dbase with new card
         if (foundCard.hash !== card.hash) {
           foundCard.title = card.title;
-          foundCard.tags = card.tags;
+          foundCard.drugs = card.drugs;
           foundCard.categories = card.categories;
           foundCard.authors = card.authors;
           foundCard.created = card.created;
-          foundCard.updated = card.updated;
+          foundCard.updates = card.updated;
           foundCard.content = card.content;
           foundCard.hash = card.hash;
           return foundCard.save();
@@ -113,11 +115,11 @@ gulp.task('upload_db', () =>
   .pipe(through.obj((files, enc, callback) => {
     // create master array of categories and tags
     const categories = [];
-    const tags = [];
+    const drugs = [];
 
     files.forEach((file) => {
-      const filecats = file.meta.collection;
-      const filetags = file.card.tags;
+      const filecats = file.meta.categories;
+      const filetags = file.card.drugs;
 
       // only add tags or categories to running array if they are unique
       filecats.forEach((cat) => {
@@ -126,7 +128,7 @@ gulp.task('upload_db', () =>
 
       if (filetags) {
         filetags.forEach((tag) => {
-          if (tags.indexOf(tag) === -1) tags.push(tag);
+          if (drugs.indexOf(tag) === -1) drugs.push(tag);
         });
       }
     });
@@ -147,13 +149,13 @@ gulp.task('upload_db', () =>
     });
 
     // add new tags to dbase if not there already
-    tags.forEach((tag) => {
+    drugs.forEach((tag) => {
       const tagSlug = slug(tag, { lower: true });
-      Tag.findOne({ slug: tagSlug })
+      Drug.findOne({ slug: tagSlug })
       .exec()
       .then((doc) => {
         if (doc === null) {
-          const newTag = new Tag({ title: tag, slug: tagSlug });
+          const newTag = new Drug({ title: tag, slug: tagSlug });
           return newTag.save();
         }
         return doc;
@@ -170,3 +172,35 @@ gulp.task('build_db', ['upload_db'], () => {
   // Can't figure out how to wait for promises from prior task to resovle
   // mongoose.connection.close();
 });
+
+gulp.task('new_yaml', () =>
+  gulp.src('./cards/*.md')
+  .pipe(debug({ title: 'build_db:' }))
+  .pipe(fm({ property: 'meta', remove: true }))
+  .pipe(through.obj(function (file, enc, callback) {
+    const title = file.meta.title;
+    const categories = file.meta.collection;
+    const drugs = file.meta.tags;
+    const authors = file.meta.authors;
+    const updates = file.meta.updated;
+    const firstUpdate = updates.length - 1;
+    const created = updates[firstUpdate];
+    const fmblock = '---\n\n';
+    const content = file.contents.toString();
+
+    const frontmatter = {
+      title,
+      authors,
+      created,
+      updates,
+      categories,
+      drugs,
+    };
+
+    const rebuildString = fmblock + YAML.stringify(frontmatter) + '\n' + fmblock + content;
+    file.contents = new Buffer(rebuildString);
+    this.push(file);
+    callback();
+  }))
+  .pipe(gulp.dest('./newcards'))
+);

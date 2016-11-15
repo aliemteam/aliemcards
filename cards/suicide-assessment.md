@@ -1,15 +1,17 @@
 ---
 
-title: Suicide Risk Stratification
-collection:
-  - Psychiatry
-tags:
+title: 'Suicide Risk Stratification'
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2011/02/18
+    - 'Michelle Lin, MD'
+created: 2011/02/18
+updates:
+    - 2011/02/18
+categories:
+    - Psychiatry
+drugs: 
 
 ---
+
 
 # Suicide: Risk Stratification
 

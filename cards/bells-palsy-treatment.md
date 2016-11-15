@@ -1,15 +1,17 @@
 ---
 
-title: Bell's Palsy Treatment
-collection:
-  - Neurology
-tags: Valacylovir, Acyclovir, Prednisone
+title: 'Bell''s Palsy Treatment'
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2013/02/21
+    - 'Michelle Lin, MD'
+created: 2013/02/21
+updates:
+    - 2013/02/21
+categories:
+    - Neurology
+drugs: 'Valacylovir, Acyclovir, Prednisone'
 
 ---
+
 
 # Bell's Palsy: Treatment
 

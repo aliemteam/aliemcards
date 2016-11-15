@@ -1,18 +1,20 @@
 ---
 
-title: Ocular Assessment
-collection:
-  - Ultrasound
-  - Radiology
-  - Ophthalmology
-tags:
+title: 'Ocular Assessment'
 authors:
-  - Sarah Elisabeth Frasure, MD
-  - Mike Stone, MD
-updated:
-  - 2015/01/28
+    - 'Sarah Elisabeth Frasure, MD'
+    - 'Mike Stone, MD'
+created: 2015/01/28
+updates:
+    - 2015/01/28
+categories:
+    - Ultrasound
+    - Radiology
+    - Ophthalmology
+drugs: 
 
 ---
+
 
 # Ultrasound: Ocular Assessment
 

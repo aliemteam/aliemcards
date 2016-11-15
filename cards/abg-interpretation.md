@@ -1,16 +1,17 @@
 ---
 
-title: ABG Interpretation
-collection:
-  - Pulmonology
-
-tags:
+title: 'ABG Interpretation'
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2010/04/02
+    - 'Michelle Lin, MD'
+created: 2010/04/02
+updates:
+    - 2010/04/02
+categories:
+    - Pulmonology
+drugs: 
 
 ---
+
 
 # ABG Interpretation
 

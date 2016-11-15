@@ -1,16 +1,18 @@
 ---
 
-title: Asthma Classification
-collection:
-  - Pulmonology
-  - Allergy-Immunology
-tags:
+title: 'Asthma Classification'
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2011/04/29
+    - 'Michelle Lin, MD'
+created: 2011/04/29
+updates:
+    - 2011/04/29
+categories:
+    - Pulmonology
+    - Allergy-Immunology
+drugs: 
 
 ---
+
 
 # Asthma Classification
 

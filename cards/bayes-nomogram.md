@@ -1,15 +1,17 @@
 ---
 
-title: Bayes Nomogram
-collection:
-  - EBM
-tags:
+title: 'Bayes Nomogram'
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2012/05/17
+    - 'Michelle Lin, MD'
+created: 2012/05/17
+updates:
+    - 2012/05/17
+categories:
+    - EBM
+drugs: 
 
 ---
+
 
 # Bayes Nomogram
 

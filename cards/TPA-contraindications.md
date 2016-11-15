@@ -1,15 +1,17 @@
 ---
 
-title: Contraindications for Thrombolytics
-collection:
-  - Neurology
-tags: TPA
+title: 'Contraindications for Thrombolytics'
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2010/09/10
+    - 'Michelle Lin, MD'
+created: 2010/09/10
+updates:
+    - 2010/09/10
+categories:
+    - Neurology
+drugs: TPA
 
 ---
+
 
 # Stroke: Contraindications for Thrombolytics
 

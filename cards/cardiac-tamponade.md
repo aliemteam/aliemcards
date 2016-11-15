@@ -1,15 +1,17 @@
 ---
 
-title: Cardiac Tamponade
-collection:
-  - Cardiovascular
-tags:
+title: 'Cardiac Tamponade'
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2011/07/08
+    - 'Michelle Lin, MD'
+created: 2011/07/08
+updates:
+    - 2011/07/08
+categories:
+    - Cardiovascular
+drugs: 
 
 ---
+
 
 # Cardiac Tamponade
 

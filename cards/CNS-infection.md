@@ -1,15 +1,17 @@
 ---
 
-title: CNS Infection
-collection:
-  - Infectious Disease
-tags:
+title: 'CNS Infection'
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2009/12/29
+    - 'Michelle Lin, MD'
+created: 2009/12/29
+updates:
+    - 2009/12/29
+categories:
+    - 'Infectious Disease'
+drugs: 
 
 ---
+
 
 # CNS Infection
 

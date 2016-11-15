@@ -1,18 +1,20 @@
 ---
 
-title: Testicular Ultrasound Assessment
-collection:
-  - Genitourinary
-  - Radiology
-  - Ultrasound
-tags:
+title: 'Testicular Ultrasound Assessment'
 authors:
-  - Matthew Dawson, MD
-  - Mike Stone, MD
-updated:
-  - 2015/01/21
+    - 'Matthew Dawson, MD'
+    - 'Mike Stone, MD'
+created: 2015/01/21
+updates:
+    - 2015/01/21
+categories:
+    - Genitourinary
+    - Radiology
+    - Ultrasound
+drugs: 
 
 ---
+
 
 # Ultrasound: Testicular Assessment
 

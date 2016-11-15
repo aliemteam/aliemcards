@@ -1,16 +1,18 @@
 ---
 
-title: Vasopressors in Hypotension
-collection:
-  - Critical Care
-  - Cardiovascular
-tags: dobutamine, isoproterenol, epinephrine, norepinephrine, dopamine
+title: 'Vasopressors in Hypotension'
 authors:
-  - Todd A. Seigel, MD
-updated:
-  - 2013/08/20
+    - 'Todd A. Seigel, MD'
+created: 2013/08/20
+updates:
+    - 2013/08/20
+categories:
+    - 'Critical Care'
+    - Cardiovascular
+drugs: 'dobutamine, isoproterenol, epinephrine, norepinephrine, dopamine'
 
 ---
+
 
 # Choosing the Right Vasopressor Agent in Hypotension
 

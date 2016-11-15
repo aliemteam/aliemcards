@@ -1,16 +1,18 @@
 ---
 
-title: DVT of the Leg - ACCP Guidelines
-collection:
-  - Cardiovascular
-  - EBM
-tags:
+title: 'DVT of the Leg - ACCP Guidelines'
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2013/01/24
+    - 'Michelle Lin, MD'
+created: 2013/01/24
+updates:
+    - 2013/01/24
+categories:
+    - Cardiovascular
+    - EBM
+drugs: 
 
 ---
+
 
 # Deep Vein Thrombosis (DVT) of Leg: 2012 ACCP Guidelines
 

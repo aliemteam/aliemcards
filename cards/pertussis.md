@@ -1,16 +1,18 @@
 ---
 
 title: Pertussis
-collection:
-  - Infectious Disease
-  - EBM
-tags: Azithromycin
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2010/09/03
+    - 'Michelle Lin, MD'
+created: 2010/09/03
+updates:
+    - 2010/09/03
+categories:
+    - 'Infectious Disease'
+    - EBM
+drugs: Azithromycin
 
 ---
+
 
 # Pertussis
 

@@ -1,15 +1,17 @@
 ---
 
-title: Dental Trauma
-collection:
-  - ENT
-tags:
+title: 'Dental Trauma'
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2011/04/15
+    - 'Michelle Lin, MD'
+created: 2011/04/15
+updates:
+    - 2011/04/15
+categories:
+    - ENT
+drugs: 
 
 ---
+
 
 # Dental Trauma
 

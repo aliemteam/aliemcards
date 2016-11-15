@@ -1,16 +1,18 @@
 ---
 
-title: Diabetic Leg Ulcer and Osteomyelitis
-collection:
-  - Orthopedics
-  - EBM
-tags:
+title: 'Diabetic Leg Ulcer and Osteomyelitis'
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2013/05/26
+    - 'Michelle Lin, MD'
+created: 2013/05/26
+updates:
+    - 2013/05/26
+categories:
+    - Orthopedics
+    - EBM
+drugs: 
 
 ---
+
 
 # Diabetic Leg Ulcer and Osteomyelitis
 

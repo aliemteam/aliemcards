@@ -1,15 +1,17 @@
 ---
 
-title: Transient Ichemic Attack (TIA)
-collection:
-  - Neurology
-tags:
+title: 'Transient Ichemic Attack (TIA)'
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2010/01/05
+    - 'Michelle Lin, MD'
+created: 2010/01/05
+updates:
+    - 2010/01/05
+categories:
+    - Neurology
+drugs: 
 
 ---
+
 
 
 # Transient Ischemic Attack (TIA)

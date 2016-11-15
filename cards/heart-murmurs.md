@@ -1,15 +1,17 @@
 ---
 
-title: Murmurs Needing Echocardiography Evaluation
-collection:
-  - Cardiovascular
-tags:
+title: 'Murmurs Needing Echocardiography Evaluation'
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2010/09/17
+    - 'Michelle Lin, MD'
+created: 2010/09/17
+updates:
+    - 2010/09/17
+categories:
+    - Cardiovascular
+drugs: 
 
 ---
+
 
 # Murmurs Needing Echocardiography Evaluation
 

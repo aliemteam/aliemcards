@@ -1,16 +1,18 @@
 ---
 
-title: Transient Synovitis vs Septic Arthritis of the Hip
-collection:
-  - Orthopedics
-  - Pediatrics
-tags:
+title: 'Transient Synovitis vs Septic Arthritis of the Hip'
 authors:
-  - Salim Rezaie, MD
-updated:
-  - 2013/05/01
+    - 'Salim Rezaie, MD'
+created: 2013/05/01
+updates:
+    - 2013/05/01
+categories:
+    - Orthopedics
+    - Pediatrics
+drugs: 
 
 ---
+
 
 # Transient Synovitis vs Septic Arthritis of the Hip
 

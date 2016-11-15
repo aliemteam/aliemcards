@@ -1,15 +1,17 @@
 ---
 
-title: Paracentesis for Ascites
-collection:
-  - Gastroenterology
-tags:
+title: 'Paracentesis for Ascites'
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2010/06/25
+    - 'Michelle Lin, MD'
+created: 2010/06/25
+updates:
+    - 2010/06/25
+categories:
+    - Gastroenterology
+drugs: 
 
 ---
+
 
 # Paracentesis for Ascites
 

@@ -1,15 +1,17 @@
 ---
 
-title: Acute Limb Ischemia
-collection:
-  - Cardiovascular
-tags: aspirin, heparin
+title: 'Acute Limb Ischemia'
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2010/08/13
+    - 'Michelle Lin, MD'
+created: 2010/08/13
+updates:
+    - 2010/08/13
+categories:
+    - Cardiovascular
+drugs: 'aspirin, heparin'
 
 ---
+
 
 # Acute Limb Ischemia
 

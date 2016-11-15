@@ -1,15 +1,17 @@
 ---
 
-title: Sternal Fractures
-collection:
-  - Trauma
-tags:
+title: 'Sternal Fractures'
 authors:
-  - Salim Rezaie, MD
-updated:
-  - 2014/01/17
+    - 'Salim Rezaie, MD'
+created: 2014/01/17
+updates:
+    - 2014/01/17
+categories:
+    - Trauma
+drugs: 
 
 ---
+
 
 # Sternal Fractures
 

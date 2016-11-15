@@ -1,16 +1,18 @@
 ---
 
-title: Procedural Sedation & Analgesia
-collection:
-  - Pharmacology
-  - Procedures
-tags: propofol, etomidate, ketamine, ketofol, Dexamedetomidine, lorazepam, diazepam, midazolam, Fentanyl, Hydromorphone, Morphine
+title: 'Procedural Sedation & Analgesia'
 authors:
-  - Demian Szyld, MD
-updated:
-  - 2010/08/06
+    - 'Demian Szyld, MD'
+created: 2010/08/06
+updates:
+    - 2010/08/06
+categories:
+    - Pharmacology
+    - Procedures
+drugs: 'propofol, etomidate, ketamine, ketofol, Dexamedetomidine, lorazepam, diazepam, midazolam, Fentanyl, Hydromorphone, Morphine'
 
 ---
+
 
 # Procedural Sedation and Analgesia
 

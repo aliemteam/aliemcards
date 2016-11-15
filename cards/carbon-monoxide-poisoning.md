@@ -1,15 +1,17 @@
 ---
 
-title: Carbon Monoxide Poisoning
-collection:
-  - Toxicology
-tags:
+title: 'Carbon Monoxide Poisoning'
 authors:
-  - Dan Repplinger, MD
-updated:
-  - 2013/12/23
+    - 'Dan Repplinger, MD'
+created: 2013/12/23
+updates:
+    - 2013/12/23
+categories:
+    - Toxicology
+drugs: 
 
 ---
+
 
 # Carbon Monoxide Poisoning
 

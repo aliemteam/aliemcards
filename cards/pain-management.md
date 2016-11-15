@@ -1,16 +1,18 @@
 ---
 
-title: Initial Pain Management Options
-collection:
-  - Pharmacology
-tags: acetaminophen, Ibuprofen, Naproxen, Ketorolac, Indomethacin, lidocaine, lidoderm, Bupivacaine, Triamcinolone, Gabapentin, Pregabalin, Ketamine, Oxycodone, Hydrocodone, Hydromorphone, Morphine, Fentanyl, naloxone
+title: 'Initial Pain Management Options'
 authors:
-  - Dr. Nick Koch
-  - Dr. Sergey Motov
-updated:
-  - 2015/10/23
+    - 'Dr. Nick Koch'
+    - 'Dr. Sergey Motov'
+created: 2015/10/23
+updates:
+    - 2015/10/23
+categories:
+    - Pharmacology
+drugs: 'acetaminophen, Ibuprofen, Naproxen, Ketorolac, Indomethacin, lidocaine, lidoderm, Bupivacaine, Triamcinolone, Gabapentin, Pregabalin, Ketamine, Oxycodone, Hydrocodone, Hydromorphone, Morphine, Fentanyl, naloxone'
 
 ---
+
 
 # Initial ED Pain Management Options in ED
 

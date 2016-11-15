@@ -1,16 +1,18 @@
 ---
 
-title: Phenytoin Oral Loading in the ED
-collection:
-  - Neurology
-  - Pharmacology
-tags: phenytoin
+title: 'Phenytoin Oral Loading in the ED'
 authors:
-  - Bryan D. Hayes, PharmD
-updated:
-  - 2013/04/16
+    - 'Bryan D. Hayes, PharmD'
+created: 2013/04/16
+updates:
+    - 2013/04/16
+categories:
+    - Neurology
+    - Pharmacology
+drugs: phenytoin
 
 ---
+
 
 # Phenytoin: Rapid Oral Phenytoin Loading in the ED
 

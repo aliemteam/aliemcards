@@ -1,17 +1,19 @@
 ---
 
 title: Hyperkalemia
-collection:
-  - Endocrinology
-  - Metabolic
-  - Critical Care
-tags: insulin, albuterol, furosemide, sodium bicarbonate, Kayexalate, calcium gluconate
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2010/03/12
+    - 'Michelle Lin, MD'
+created: 2010/03/12
+updates:
+    - 2010/03/12
+categories:
+    - Endocrinology
+    - Metabolic
+    - 'Critical Care'
+drugs: 'insulin, albuterol, furosemide, sodium bicarbonate, Kayexalate, calcium gluconate'
 
 ---
+
 
 # Hyperkalemia
 

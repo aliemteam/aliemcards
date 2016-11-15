@@ -1,16 +1,18 @@
 ---
 
-title: Aortic Dissection
-collection:
-  - Cardiovascular
-  - Critical Care
-tags:
+title: 'Aortic Dissection'
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2011/05/20
+    - 'Michelle Lin, MD'
+created: 2011/05/20
+updates:
+    - 2011/05/20
+categories:
+    - Cardiovascular
+    - 'Critical Care'
+drugs: 
 
 ---
+
 
 
 # Aortic Dissection

@@ -1,16 +1,18 @@
 ---
 
-title: ECG Reciprocal Changes in aVL
-collection:
-  - Cardiovascular
-  - ECG
-tags:
+title: 'ECG Reciprocal Changes in aVL'
 authors:
-  - Salim Rezaie, MD
-updated:
-  - 2013/07/03
+    - 'Salim Rezaie, MD'
+created: 2013/07/03
+updates:
+    - 2013/07/03
+categories:
+    - Cardiovascular
+    - ECG
+drugs: 
 
 ---
+
 
 # ECG: Reciprocal Changes in Lead aVL
 

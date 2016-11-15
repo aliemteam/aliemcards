@@ -1,16 +1,18 @@
 ---
 
-title: Fever Without a Source - neonate
-collection:
-  - Pediatrics
-  - Infectious Disease
-tags: Ampicillin, Cefotaxime, Gentamicin
+title: 'Fever Without a Source - neonate'
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2012/02/02
+    - 'Michelle Lin, MD'
+created: 2012/02/02
+updates:
+    - 2012/02/02
+categories:
+    - Pediatrics
+    - 'Infectious Disease'
+drugs: 'Ampicillin, Cefotaxime, Gentamicin'
 
 ---
+
 
 # Pediatric Fever Without a Source: Birth - 28 Days Old
 

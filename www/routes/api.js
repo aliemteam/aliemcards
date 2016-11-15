@@ -154,7 +154,7 @@ router.get('/search/:query', (req, res) => {
 
 router.get('/recent', (req, res) => {
   Card.find()
-  .sort('-updated')
+  .sort('-created')
   .limit(5)
   .select('slug title categories')
   .exec()

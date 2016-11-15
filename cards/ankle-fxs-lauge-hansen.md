@@ -1,15 +1,17 @@
 ---
 
-title: "Ankle Fractures: Lauge-Hansen Classification"
-collection:
-  - Orthopedics
-tags:
+title: 'Ankle Fractures: Lauge-Hansen Classification'
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2010/02/18
+    - 'Michelle Lin, MD'
+created: 2010/02/18
+updates:
+    - 2010/02/18
+categories:
+    - Orthopedics
+drugs: 
 
 ---
+
 
 # Ankle Fractures: Lauge-Hansen Classification
 

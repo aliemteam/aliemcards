@@ -1,16 +1,18 @@
 ---
 
-title: Genital Ulcers
-collection:
-  - Infectious Disease
-  - Genitourinary
-tags:
+title: 'Genital Ulcers'
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2012/05/04
+    - 'Michelle Lin, MD'
+created: 2012/05/04
+updates:
+    - 2012/05/04
+categories:
+    - 'Infectious Disease'
+    - Genitourinary
+drugs: 
 
 ---
+
 
 # Genital Ulcers
 

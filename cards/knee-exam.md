@@ -1,16 +1,18 @@
 ---
 
-title: Knee Examination
-collection:
-  - Orthopedics
-  - EBM
-tags:
+title: 'Knee Examination'
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2010/03/19
+    - 'Michelle Lin, MD'
+created: 2010/03/19
+updates:
+    - 2010/03/19
+categories:
+    - Orthopedics
+    - EBM
+drugs: 
 
 ---
+
 
 # Knee Examination
 

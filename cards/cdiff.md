@@ -1,15 +1,17 @@
 ---
 
-title: Clostridium Difficile Infection
-collection:
-  - Infectious Disease
-tags:
+title: 'Clostridium Difficile Infection'
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2011/06/24
+    - 'Michelle Lin, MD'
+created: 2011/06/24
+updates:
+    - 2011/06/24
+categories:
+    - 'Infectious Disease'
+drugs: 
 
 ---
+
 
 # Clostridium Difficile Infection (CDI)
 

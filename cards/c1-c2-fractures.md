@@ -1,15 +1,17 @@
 ---
 
-title: C1 and C2 Spine Fractures
-collection:
-  - Orthopedics
-tags:
+title: 'C1 and C2 Spine Fractures'
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2010/09/24
+    - 'Michelle Lin, MD'
+created: 2010/09/24
+updates:
+    - 2010/09/24
+categories:
+    - Orthopedics
+drugs: 
 
 ---
+
 
 # Fractures, C1 and C2 Spine
 

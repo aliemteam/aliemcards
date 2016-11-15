@@ -1,16 +1,18 @@
 ---
 
-title: Shock and RUSH Exam
-collection:
-  - Ultrasound
-  - Radiology
-tags:
+title: 'Shock and RUSH Exam'
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2009/12/22
+    - 'Michelle Lin, MD'
+created: 2009/12/22
+updates:
+    - 2009/12/22
+categories:
+    - Ultrasound
+    - Radiology
+drugs: 
 
 ---
+
 
 # Shock and RUSH Exam
 

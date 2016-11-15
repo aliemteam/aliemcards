@@ -1,16 +1,18 @@
 ---
 
-title: Does Your Dyspneic Patient Have CHF?
-collection:
-  - Cardiovascular
-  - EBM
-tags:
+title: 'Does Your Dyspneic Patient Have CHF?'
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2012/08/24
+    - 'Michelle Lin, MD'
+created: 2012/08/24
+updates:
+    - 2012/08/24
+categories:
+    - Cardiovascular
+    - EBM
+drugs: 
 
 ---
+
 
 # Does your dyspneic patient have CHF?
 

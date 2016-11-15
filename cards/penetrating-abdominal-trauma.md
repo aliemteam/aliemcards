@@ -1,15 +1,17 @@
 ---
 
-title: Penetrating Abdominal Trauma - Observe vs Laparotomy
-collection:
-  - Trauma
-tags:
+title: 'Penetrating Abdominal Trauma - Observe vs Laparotomy'
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2010/07/09
+    - 'Michelle Lin, MD'
+created: 2010/07/09
+updates:
+    - 2010/07/09
+categories:
+    - Trauma
+drugs: 
 
 ---
+
 
 # Penetrating Abdominal Trauma: Observe versus Laparotomy
 

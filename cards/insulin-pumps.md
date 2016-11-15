@@ -1,15 +1,17 @@
 ---
 
-title: Insulin Pumps
-collection:
-  - Endocrinology
-tags: insulin
+title: 'Insulin Pumps'
 authors:
-  - Josh Joseph, MD
-updated:
-  - 2013/12/11
+    - 'Josh Joseph, MD'
+created: 2013/12/11
+updates:
+    - 2013/12/11
+categories:
+    - Endocrinology
+drugs: insulin
 
 ---
+
 
 # Insulin Pumps: Understanding them and their complications
 

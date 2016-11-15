@@ -1,16 +1,18 @@
 ---
 
-title: Intimate Partner Violence
-collection:
-  - Trauma
-tags:
+title: 'Intimate Partner Violence'
 authors:
-  - Trevor Wilson
-  - Beth Kaplan, MD
-updated:
-  - 2013/07/31
+    - 'Trevor Wilson'
+    - 'Beth Kaplan, MD'
+created: 2013/07/31
+updates:
+    - 2013/07/31
+categories:
+    - Trauma
+drugs: 
 
 ---
+
 
  Intimate Partner Violence
 

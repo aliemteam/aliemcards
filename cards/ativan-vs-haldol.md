@@ -1,14 +1,17 @@
 ---
-title: Chemical Sedation - Haldol vs Ativan vs Versed
-collection:
-  - Pharmacology
-tags: haldol, midazolam, lorazepam
+
+title: 'Chemical Sedation - Haldol vs Ativan vs Versed'
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2011/03/25
+    - 'Michelle Lin, MD'
+created: 2011/03/25
+updates:
+    - 2011/03/25
+categories:
+    - Pharmacology
+drugs: 'haldol, midazolam, lorazepam'
 
 ---
+
 
 # Chemical Sedation: Haldol vs. Ativan vs. Versed
 

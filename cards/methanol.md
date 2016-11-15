@@ -1,15 +1,17 @@
 ---
 
-title: Toxic Alcohol Ingestion - Methanol
-collection:
-  - Toxicology
-tags: fomipezole, ethanol, folic acid
+title: 'Toxic Alcohol Ingestion - Methanol'
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2012/06/15
+    - 'Michelle Lin, MD'
+created: 2012/06/15
+updates:
+    - 2012/06/15
+categories:
+    - Toxicology
+drugs: 'fomipezole, ethanol, folic acid'
 
 ---
+
 
 # Toxic Alcohol Ingestion: Methanol
 

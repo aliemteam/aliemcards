@@ -1,16 +1,18 @@
 ---
 
 title: Croup
-collection:
-  - Pediatrics
-  - ENT
-tags: dexamethasone, racemic epinephrine
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2010/08/20
+    - 'Michelle Lin, MD'
+created: 2010/08/20
+updates:
+    - 2010/08/20
+categories:
+    - Pediatrics
+    - ENT
+drugs: 'dexamethasone, racemic epinephrine'
 
 ---
+
 
 # Croup
 

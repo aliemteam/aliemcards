@@ -1,15 +1,17 @@
 ---
 
-title: C3-C7 Spine Fractures
-collection:
-  - Orthopedics
-tags:
+title: 'C3-C7 Spine Fractures'
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2010/10/01
+    - 'Michelle Lin, MD'
+created: 2010/10/01
+updates:
+    - 2010/10/01
+categories:
+    - Orthopedics
+drugs: 
 
 ---
+
 
 # Fractures, C3-C7 Spine
 

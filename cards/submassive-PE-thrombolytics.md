@@ -1,16 +1,18 @@
 ---
 
-title: Thrombolytics for Submassive PE
-collection:
-  - Critical Care
-  - Pulmonology
-tags: tPA, tenecteplase, alteplase, heparin
+title: 'Thrombolytics for Submassive PE'
 authors:
-  - Hans Rosenberg, MD
-updated:
-  - 2011/07/29
+    - 'Hans Rosenberg, MD'
+created: 2011/07/29
+updates:
+    - 2011/07/29
+categories:
+    - 'Critical Care'
+    - Pulmonology
+drugs: 'tPA, tenecteplase, alteplase, heparin'
 
 ---
+
 
 # Thrombolytics for Submassive PE
 

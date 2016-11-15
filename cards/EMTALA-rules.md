@@ -1,15 +1,17 @@
 ---
 
-title: EMTALA Transfer Rules
-collection:
-  - EMS
-tags:
+title: 'EMTALA Transfer Rules'
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2012/09/14
+    - 'Michelle Lin, MD'
+created: 2012/09/14
+updates:
+    - 2012/09/14
+categories:
+    - EMS
+drugs: 
 
 ---
+
 
 # EMTALA Transfer Rules
 

@@ -1,16 +1,18 @@
 ---
 
-title: Ventilator Setting for Obstructive Lung Disease
-collection:
-  - Pulmonology
-  - Critical Care
-tags:
+title: 'Ventilator Setting for Obstructive Lung Disease'
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2011/10/21
+    - 'Michelle Lin, MD'
+created: 2011/10/21
+updates:
+    - 2011/10/21
+categories:
+    - Pulmonology
+    - 'Critical Care'
+drugs: 
 
 ---
+
 
 # Ventilator Setting for Obstructive Lung Disease
 

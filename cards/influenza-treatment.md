@@ -1,15 +1,17 @@
 ---
 
-title: Influenza - to treat or not to treat?
-collection:
-  - Infectious Disease
-tags: Amantadine, Rimantidine, Oseltamivir, Zanamivir
+title: 'Influenza - to treat or not to treat?'
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2011/10/28
+    - 'Michelle Lin, MD'
+created: 2011/10/28
+updates:
+    - 2011/10/28
+categories:
+    - 'Infectious Disease'
+drugs: 'Amantadine, Rimantidine, Oseltamivir, Zanamivir'
 
 ---
+
 
 # Influenza: To treat or not to treat?
 

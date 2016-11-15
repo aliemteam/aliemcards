@@ -8,8 +8,10 @@ const taxonomySchema = new Schema({
 
 const Category = mongoose.model('Category', taxonomySchema);
 const Tag = mongoose.model('Tag', taxonomySchema);
+const Drug = mongoose.model('Drug', taxonomySchema);
 
 module.exports = {
   category: Category,
   tag: Tag,
+  drug: Drug,
 };

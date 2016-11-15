@@ -1,16 +1,18 @@
 ---
 
-title: TIMI Risk Score for Unstable Angina and NSTEMI
-collection:
-  - Cardiovascular
-  - EBM
-tags:
+title: 'TIMI Risk Score for Unstable Angina and NSTEMI'
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2010/08/27
+    - 'Michelle Lin, MD'
+created: 2010/08/27
+updates:
+    - 2010/08/27
+categories:
+    - Cardiovascular
+    - EBM
+drugs: 
 
 ---
+
 
 # TIMI Risk Score for UA and Non-STEMI
 

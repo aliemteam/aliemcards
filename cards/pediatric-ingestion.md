@@ -1,16 +1,18 @@
 ---
 
-title: Pediatric Ingestion Dose Thresholds for ED Referral
-collection:
-  - Pediatrics
-  - Toxicology
-tags: acetaminophen, aripiprazole, clozapine, olanzapine, quetiapine, risperidone, ziprasidone, acebutolol, atenolol, carvedilol, labetalol, metoprolol, nadolol, propranolol, sotalol, timolol, amlodipine, diltiazem, felodipine, isradipine, nifedipine, verapamil, camphor, dextromethorphan, diphenhydramine, dimenhydrinate, ethylene glycol, iron, mercury, methylphenidate, salicylate, aspirin, citalopram, escitalopram, fluoxetine, fluvoxamine, paroxetine, sertraline, desipramine, nortriptyline, trimipramine, protriptyline, valproic acid
+title: 'Pediatric Ingestion Dose Thresholds for ED Referral'
 authors:
-  - Bryan D. Hayes, PharmD
-updated:
-  - 2014/07/09
+    - 'Bryan D. Hayes, PharmD'
+created: 2014/07/09
+updates:
+    - 2014/07/09
+categories:
+    - Pediatrics
+    - Toxicology
+drugs: 'acetaminophen, aripiprazole, clozapine, olanzapine, quetiapine, risperidone, ziprasidone, acebutolol, atenolol, carvedilol, labetalol, metoprolol, nadolol, propranolol, sotalol, timolol, amlodipine, diltiazem, felodipine, isradipine, nifedipine, verapamil, camphor, dextromethorphan, diphenhydramine, dimenhydrinate, ethylene glycol, iron, mercury, methylphenidate, salicylate, aspirin, citalopram, escitalopram, fluoxetine, fluvoxamine, paroxetine, sertraline, desipramine, nortriptyline, trimipramine, protriptyline, valproic acid'
 
 ---
+
 
 # Pediatric Ingestion Dose Thresholds for ED Referral
 

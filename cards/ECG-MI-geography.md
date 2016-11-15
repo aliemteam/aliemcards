@@ -1,16 +1,18 @@
 ---
 
-title: ECG Geography for AMI
-collection:
-  - Cardiovascular
-  - ECG
-tags:
+title: 'ECG Geography for AMI'
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2011/04/08
+    - 'Michelle Lin, MD'
+created: 2011/04/08
+updates:
+    - 2011/04/08
+categories:
+    - Cardiovascular
+    - ECG
+drugs: 
 
 ---
+
 
 # ECG: Geography for AMI
 

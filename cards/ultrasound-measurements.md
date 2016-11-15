@@ -1,16 +1,18 @@
 ---
 
-title: Ultrasound Measurement Cheat Sheet
-collection:
-  - Radiology
-  - Ultrasound
-tags:
+title: 'Ultrasound Measurement Cheat Sheet'
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2015/10/15
+    - 'Michelle Lin, MD'
+created: 2015/10/15
+updates:
+    - 2015/10/15
+categories:
+    - Radiology
+    - Ultrasound
+drugs: 
 
 ---
+
 
 # Ultrasound Measurement Cheat Sheet
 

@@ -1,16 +1,18 @@
 ---
 
-title: Chest Pain Risk Stratification for ACS
-collection:
-  - Cardiovascular
-  - EBM
-tags:
+title: 'Chest Pain Risk Stratification for ACS'
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2010/01/09
+    - 'Michelle Lin, MD'
+created: 2010/01/09
+updates:
+    - 2010/01/09
+categories:
+    - Cardiovascular
+    - EBM
+drugs: 
 
 ---
+
 
 
 

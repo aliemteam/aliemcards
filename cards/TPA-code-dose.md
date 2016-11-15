@@ -1,15 +1,17 @@
 ---
 
-title: tPA Code Dose
-collection:
-  - Critical Care
-tags: TPA
+title: 'tPA Code Dose'
 authors:
-  - Bryan D. Hayes, PharmD
-updated:
-  - 2013/05/14
+    - 'Bryan D. Hayes, PharmD'
+created: 2013/05/14
+updates:
+    - 2013/05/14
+categories:
+    - 'Critical Care'
+drugs: TPA
 
 ---
+
 
 # tPA: Code Dose of tPA
 

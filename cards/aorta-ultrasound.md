@@ -1,17 +1,19 @@
 ---
 
-title: Focused Abdominal Aorta Ultrasound
-collection:
-  - Ultrasound
-  - Radiology
-  - Cardiovascular
-tags:
+title: 'Focused Abdominal Aorta Ultrasound'
 authors:
-  - Michelle Lin, MD
-updated:
-  - 2014/09/13
+    - 'Michelle Lin, MD'
+created: 2014/09/13
+updates:
+    - 2014/09/13
+categories:
+    - Ultrasound
+    - Radiology
+    - Cardiovascular
+drugs: 
 
 ---
+
 
 # Focused Abdominal Aorta Ultrasound
 
