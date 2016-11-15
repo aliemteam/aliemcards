@@ -7,6 +7,7 @@ class Category extends React.Component {
 
   constructor(props) {
     super(props);
+    this.getCategory = this.getCategory.bind(this);
     this.state = {
       category: {
         cards: [],
@@ -15,6 +16,14 @@ class Category extends React.Component {
   }
 
   componentDidMount() {
+    this.getCategory();
+  }
+
+  componentDidUpdate(prevProps) {
+    if (this.props.params.catslug !== prevProps.params.catslug) this.getCategory();
+  }
+
+  getCategory() {
     axios.get(`/api/categories/${this.props.params.catslug}`)
       .then(res => {
         if (res.data.status === 'success') {

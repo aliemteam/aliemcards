@@ -28,7 +28,7 @@ ReactDOM.render((
 
       <Route name="Categories" path="/categories" component={Main}>
         <IndexRoute component={Categories} />
-        <Route name="Category" path=":catslug">
+        <Route name="Category" path=":catslug" addHandlerKey>
           <IndexRoute component={Category} />
           <Route name="CatCard" path=":slug" component={Card} />
         </Route>

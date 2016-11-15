@@ -118,7 +118,7 @@
 	      _react2.default.createElement(_reactRouter.IndexRoute, { component: _categories2.default }),
 	      _react2.default.createElement(
 	        _reactRouter.Route,
-	        { name: 'Category', path: ':catslug' },
+	        { name: 'Category', path: ':catslug', addHandlerKey: true },
 	        _react2.default.createElement(_reactRouter.IndexRoute, { component: _category2.default }),
 	        _react2.default.createElement(_reactRouter.Route, { name: 'CatCard', path: ':slug', component: _card2.default })
 	      )
@@ -30047,6 +30047,7 @@
 
 	    var _this = _possibleConstructorReturn(this, (Category.__proto__ || Object.getPrototypeOf(Category)).call(this, props));
 
+	    _this.getCategory = _this.getCategory.bind(_this);
 	    _this.state = {
 	      category: {
 	        cards: []
@@ -30058,6 +30059,16 @@
 	  _createClass(Category, [{
 	    key: 'componentDidMount',
 	    value: function componentDidMount() {
+	      this.getCategory();
+	    }
+	  }, {
+	    key: 'componentDidUpdate',
+	    value: function componentDidUpdate(prevProps) {
+	      if (this.props.params.catslug !== prevProps.params.catslug) this.getCategory();
+	    }
+	  }, {
+	    key: 'getCategory',
+	    value: function getCategory() {
 	      var _this2 = this;
 
 	      _axios2.default.get('/api/categories/' + this.props.params.catslug).then(function (res) {
