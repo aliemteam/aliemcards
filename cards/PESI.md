@@ -4,14 +4,14 @@ title: 'PESI Score for Pulmonary Embolism'
 authors:
     - 'Michelle Lin, MD'
 created: 2012/11/17
-updates:
-    - 2012/11/17
+updates: null
 categories:
     - Pulmonology
     - 'Critical Care'
 drugs: 'enoxaparin, warfarin'
 
 ---
+
 
 
 # PESI Score for Pulmonary Embolism

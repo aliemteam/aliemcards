@@ -4,15 +4,15 @@ title: 'Focused Abdominal Aorta Ultrasound'
 authors:
     - 'Michelle Lin, MD'
 created: 2014/09/13
-updates:
-    - 2014/09/13
+updates: null
 categories:
     - Ultrasound
     - Radiology
     - Cardiovascular
-drugs: 
+drugs: null
 
 ---
+
 
 
 # Focused Abdominal Aorta Ultrasound

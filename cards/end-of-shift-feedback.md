@@ -4,13 +4,13 @@ title: 'End-of-Shift Feedback'
 authors:
     - 'Michelle Lin, MD'
 created: 2011/12/09
-updates:
-    - 2011/12/09
+updates: null
 categories:
     - Education
-drugs: 
+drugs: null
 
 ---
+
 
 
 # End-of-Shift Feedback in the Emergency Department

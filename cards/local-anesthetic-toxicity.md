@@ -4,13 +4,13 @@ title: 'Local Anesthetic Toxicity'
 authors:
     - 'David Murphy'
 created: 2014/06/13
-updates:
-    - 2014/06/13
+updates: null
 categories:
     - Toxicology
 drugs: 'bupivacaine, lidocaine, epinephrine, intralipid'
 
 ---
+
 
 
 # Local Anesthetic Toxicity

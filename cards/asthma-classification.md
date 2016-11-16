@@ -4,14 +4,14 @@ title: 'Asthma Classification'
 authors:
     - 'Michelle Lin, MD'
 created: 2011/04/29
-updates:
-    - 2011/04/29
+updates: null
 categories:
     - Pulmonology
     - Allergy-Immunology
-drugs: 
+drugs: null
 
 ---
+
 
 
 # Asthma Classification

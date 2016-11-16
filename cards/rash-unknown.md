@@ -4,13 +4,13 @@ title: 'An Approach to the Unknown Rash'
 authors:
     - 'Michelle Lin, MD'
 created: 2011/08/26
-updates:
-    - 2011/08/26
+updates: null
 categories:
     - Dermatology
-drugs: 
+drugs: null
 
 ---
+
 
 
 # Rashes: An Approach to the Unknown Rash

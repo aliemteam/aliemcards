@@ -4,14 +4,14 @@ title: 'Upper GI Bleed'
 authors:
     - 'Michelle Lin, MD'
 created: 2011/06/17
-updates:
-    - 2011/06/17
+updates: null
 categories:
     - Gastroenterology
     - EBM
 drugs: 'aspirin, warfarin, Octreotide'
 
 ---
+
 
 
 # Upper GI Bleed

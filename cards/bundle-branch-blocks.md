@@ -4,13 +4,13 @@ title: 'Bundle Branch Blocks 101'
 authors:
     - 'Salim Rezaie, MD'
 created: 2013/08/29
-updates:
-    - 2013/08/29
+updates: null
 categories:
     - Cardiovascular
-drugs: 
+drugs: null
 
 ---
+
 
 
 # Bundle Branch Blocks (BBBs) 101

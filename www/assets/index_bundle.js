@@ -27577,6 +27577,10 @@
 
 	var _topbar2 = _interopRequireDefault(_topbar);
 
+	var _cardList = __webpack_require__(582);
+
+	var _cardList2 = _interopRequireDefault(_cardList);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -27594,7 +27598,8 @@
 	    var _this = _possibleConstructorReturn(this, (Home.__proto__ || Object.getPrototypeOf(Home)).call(this, props));
 
 	    _this.state = {
-	      newest: []
+	      newest: [],
+	      updated: []
 	    };
 	    return _this;
 	  }
@@ -27607,6 +27612,14 @@
 	      _axios2.default.get('/api/recent').then(function (res) {
 	        if (res.data.status === 'success') {
 	          _this2.setState({ newest: res.data.data });
+	        }
+	      }).catch(function (error) {
+	        return console.log(error);
+	      });
+	      _axios2.default.get('/api/updated').then(function (res) {
+	        if (res.data.status === 'success') {
+	          console.log(res.data.data);
+	          _this2.setState({ updated: res.data.data });
 	        }
 	      }).catch(function (error) {
 	        return console.log(error);
@@ -27633,32 +27646,15 @@
 	              null,
 	              'New Cards'
 	            ),
+	            _react2.default.createElement(_cardList2.default, { cards: this.state.newest }),
 	            _react2.default.createElement(
-	              'ul',
-	              { className: 'cards-list' },
-	              this.state.newest.map(function (card) {
-	                return _react2.default.createElement(
-	                  'li',
-	                  { key: card.slug },
-	                  _react2.default.createElement(
-	                    'a',
-	                    { href: '/cards/' + card.slug },
-	                    card.title
-	                  ),
-	                  _react2.default.createElement(
-	                    'span',
-	                    { className: 'metadata' },
-	                    card.categories.map(function (cat) {
-	                      return _react2.default.createElement(
-	                        'a',
-	                        { href: '/categories/' + cat },
-	                        cat
-	                      );
-	                    })
-	                  )
-	                );
-	              })
-	            )
+	              'h1',
+	              null,
+	              'Updated Cards'
+	            ),
+	            _react2.default.createElement(_cardList2.default, { cards: this.state.updated.filter(function (card) {
+	                return card.updates !== null;
+	              }) })
 	          )
 	        )
 	      );
@@ -29251,7 +29247,7 @@
 	    _react2.default.createElement(
 	      'form',
 	      { className: 'container' },
-	      _react2.default.createElement('input', { type: 'text', onChange: changeHandler, onBlur: blurHandler, placeholder: 'Search' }),
+	      _react2.default.createElement('input', { type: 'text', onChange: changeHandler, onBlur: blurHandler, placeholder: 'Search', autofocus: true }),
 	      _react2.default.createElement(
 	        'button',
 	        { type: 'submit' },
@@ -29719,6 +29715,10 @@
 
 	var _reactRouter = __webpack_require__(178);
 
+	var _cardList = __webpack_require__(582);
+
+	var _cardList2 = _interopRequireDefault(_cardList);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -29827,32 +29827,7 @@
 	            })
 	          )
 	        ),
-	        _react2.default.createElement(
-	          'ul',
-	          { className: 'cards-list' },
-	          this.state.filterCards.map(function (card) {
-	            return _react2.default.createElement(
-	              'li',
-	              { key: card.slug },
-	              _react2.default.createElement(
-	                _reactRouter.Link,
-	                { to: '/cards/' + card.slug },
-	                card.title
-	              ),
-	              _react2.default.createElement(
-	                'span',
-	                { className: 'metadata' },
-	                card.categories.map(function (cat) {
-	                  return _react2.default.createElement(
-	                    _reactRouter.Link,
-	                    { to: '/categories/' + cat },
-	                    cat
-	                  );
-	                })
-	              )
-	            );
-	          })
-	        )
+	        _react2.default.createElement(_cardList2.default, { cards: this.state.filterCards })
 	      );
 	    }
 	  }]);
@@ -29935,7 +29910,13 @@
 	  }, {
 	    key: 'render',
 	    value: function render() {
-	      var updated = new Date(this.state.card.updates[0]).toLocaleDateString('en-US');
+	      var lastUpdate = new Date('1900/01/01').toLocaleDateString('en-US');
+	      if (this.state.card.updates !== null) {
+	        lastUpdate = new Date(this.state.card.updates[0]).toLocaleDateString('en-US');
+	      } else {
+	        lastUpdate = new Date(this.state.card.created).toLocaleDateString('en-US');
+	      }
+
 	      return _react2.default.createElement(
 	        'div',
 	        null,
@@ -29961,7 +29942,7 @@
 	              'Updated:'
 	            ),
 	            ' ',
-	            updated
+	            lastUpdate
 	          )
 	        ),
 	        _react2.default.createElement('div', { className: 'cardHtml', dangerouslySetInnerHTML: this.getContent() })
@@ -30031,6 +30012,10 @@
 
 	var _reactRouter = __webpack_require__(178);
 
+	var _cardList = __webpack_require__(582);
+
+	var _cardList2 = _interopRequireDefault(_cardList);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -30082,8 +30067,6 @@
 	  }, {
 	    key: 'render',
 	    value: function render() {
-	      var _this3 = this;
-
 	      return _react2.default.createElement(
 	        'div',
 	        null,
@@ -30092,32 +30075,7 @@
 	          null,
 	          this.state.category.title
 	        ),
-	        _react2.default.createElement(
-	          'ul',
-	          { className: 'cards-list' },
-	          this.state.category.cards.map(function (card) {
-	            return _react2.default.createElement(
-	              'li',
-	              { key: card.slug },
-	              _react2.default.createElement(
-	                _reactRouter.Link,
-	                { to: '/categories/' + _this3.state.category.slug + '/' + card.slug },
-	                card.title
-	              ),
-	              _react2.default.createElement(
-	                'span',
-	                { className: 'metadata' },
-	                card.categories.map(function (cat) {
-	                  return _react2.default.createElement(
-	                    _reactRouter.Link,
-	                    { to: '/categories/' + cat },
-	                    cat
-	                  );
-	                })
-	              )
-	            );
-	          })
-	        )
+	        _react2.default.createElement(_cardList2.default, { cards: this.state.category.cards })
 	      );
 	    }
 	  }]);
@@ -38255,6 +38213,62 @@
 	    return String(it).replace(regExp, replacer);
 	  };
 	};
+
+/***/ },
+/* 582 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _reactRouter = __webpack_require__(178);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	var CardList = function CardList(_ref) {
+	  var cards = _ref.cards;
+	  return _react2.default.createElement(
+	    'ul',
+	    { className: 'cards-list' },
+	    cards.map(function (card) {
+	      return _react2.default.createElement(
+	        'li',
+	        { key: card.slug },
+	        _react2.default.createElement(
+	          _reactRouter.Link,
+	          { to: '/cards/' + card.slug },
+	          card.title
+	        ),
+	        _react2.default.createElement(
+	          'span',
+	          { className: 'metadata' },
+	          card.categories.map(function (cat) {
+	            return _react2.default.createElement(
+	              _reactRouter.Link,
+	              { to: '/categories/' + cat },
+	              cat
+	            );
+	          })
+	        )
+	      );
+	    })
+	  );
+	};
+
+	CardList.propTypes = {
+	  cards: _react2.default.PropTypes.array
+	};
+
+	CardList.defaultProps = {};
+
+	exports.default = CardList;
 
 /***/ }
 /******/ ]);

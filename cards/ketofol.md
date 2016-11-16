@@ -4,13 +4,13 @@ title: Ketofol
 authors:
     - 'Salim Rezaie, MD'
 created: 2013/03/20
-updates:
-    - 2013/03/20
+updates: null
 categories:
     - Pharmacology
 drugs: 'ketofol, propofol, ketamine'
 
 ---
+
 
 
 # Ketofol for Procedural Sedation

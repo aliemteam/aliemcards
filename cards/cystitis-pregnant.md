@@ -4,14 +4,14 @@ title: 'Cystitis and Pyelonephritis in Women'
 authors:
     - 'Michelle Lin, MD'
 created: 2011/09/02
-updates:
-    - 2011/09/02
+updates: null
 categories:
     - 'Infectious Disease'
     - Genitourinary
 drugs: 'Nitrofurantoin, sulfamethoxazole, fosfomycin, pivmecillinam, ofloxacin, ciprofloxacin, levofloxacin, amoxicillin-clavulanate, cefdinir, cefaclor, cefpodoxime-proxetil, Trimethoprim-sulfamethoxazole'
 
 ---
+
 
 
 

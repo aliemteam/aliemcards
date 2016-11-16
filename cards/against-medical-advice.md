@@ -4,13 +4,13 @@ title: 'Against Medical Advice (AMA)'
 authors:
     - 'Matthew DeLaney, MD'
 created: 2014/01/13
-updates:
-    - 2014/01/13
+updates: null
 categories:
     - 'Education and Policy'
-drugs: 
+drugs: null
 
 ---
+
 
 
 # Against Medical Advice (AMA)

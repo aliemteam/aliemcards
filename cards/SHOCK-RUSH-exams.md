@@ -4,14 +4,14 @@ title: 'Shock and RUSH Exam'
 authors:
     - 'Michelle Lin, MD'
 created: 2009/12/22
-updates:
-    - 2009/12/22
+updates: null
 categories:
     - Ultrasound
     - Radiology
-drugs: 
+drugs: null
 
 ---
+
 
 
 # Shock and RUSH Exam

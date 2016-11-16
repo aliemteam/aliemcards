@@ -4,13 +4,13 @@ title: 'Red Eye'
 authors:
     - 'Michelle Lin, MD'
 created: 2010/01/22
-updates:
-    - 2010/01/22
+updates: null
 categories:
     - Ophthalmology
 drugs: 'trifluridine, vidarabine, acyclovir, erythromycin, Azithromycin, timolol, prednisolone, apraclonidine, acetazolamide'
 
 ---
+
 
 
 # Red Eye

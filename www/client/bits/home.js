@@ -3,6 +3,7 @@ import axios from 'axios';
 
 import Search from './search';
 import TopBar from './topbar';
+import CardList from './card-list';
 
 
 class Home extends React.Component {
@@ -11,6 +12,7 @@ class Home extends React.Component {
     super(props);
     this.state = {
       newest: [],
+      updated: [],
     };
   }
 
@@ -19,6 +21,14 @@ class Home extends React.Component {
       .then(res => {
         if (res.data.status === 'success') {
           this.setState({ newest: res.data.data });
+        }
+      })
+      .catch((error) => console.log(error));
+    axios.get('/api/updated')
+      .then(res => {
+        if (res.data.status === 'success') {
+          console.log(res.data.data);
+          this.setState({ updated: res.data.data });
         }
       })
       .catch((error) => console.log(error));
@@ -34,18 +44,9 @@ class Home extends React.Component {
           <Search hero />
           <div className="home container content">
             <h1>New Cards</h1>
-            <ul className="cards-list">
-              {this.state.newest.map((card) =>
-                <li key={card.slug}>
-                  <a href={`/cards/${card.slug}`}>{card.title}</a>
-                  <span className="metadata">
-                    {card.categories.map((cat) =>
-                      <a href={`/categories/${cat}`}>{cat}</a>
-                    )}
-                  </span>
-                </li>
-              )}
-            </ul>
+            <CardList cards={this.state.newest} />
+            <h1>Updated Cards</h1>
+            <CardList cards={this.state.updated.filter(card => card.updates !== null)} />
           </div>
         </div>
       </div>

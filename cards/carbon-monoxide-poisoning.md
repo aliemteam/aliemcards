@@ -4,13 +4,13 @@ title: 'Carbon Monoxide Poisoning'
 authors:
     - 'Dan Repplinger, MD'
 created: 2013/12/23
-updates:
-    - 2013/12/23
+updates: null
 categories:
     - Toxicology
-drugs: 
+drugs: null
 
 ---
+
 
 
 # Carbon Monoxide Poisoning

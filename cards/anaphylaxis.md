@@ -4,13 +4,13 @@ title: Anaphylaxis
 authors:
     - 'Michelle Lin, MD'
 created: 2012/02/24
-updates:
-    - 2012/02/24
+updates: null
 categories:
     - Allergy-Immunology
 drugs: 'epinepherine, diphenhydramine, ranitidine, glucagon, methylprednisolone'
 
 ---
+
 
 
 # Anaphylaxis

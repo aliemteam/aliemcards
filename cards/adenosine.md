@@ -4,8 +4,7 @@ title: 'Adenosine 6-12-12 Approach'
 authors:
     - 'Brian Hayes, PharmD'
 created: 2012/12/06
-updates:
-    - 2012/12/06
+updates: null
 categories:
     - Cardiovascular
     - Pharmacology
@@ -13,6 +12,7 @@ categories:
 drugs: adenosine
 
 ---
+
 
 
 # Adenosine: 6-12-12 adenosine approach

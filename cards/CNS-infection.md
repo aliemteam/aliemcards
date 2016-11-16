@@ -4,13 +4,13 @@ title: 'CNS Infection'
 authors:
     - 'Michelle Lin, MD'
 created: 2009/12/29
-updates:
-    - 2009/12/29
+updates: null
 categories:
     - 'Infectious Disease'
-drugs: 
+drugs: null
 
 ---
+
 
 
 # CNS Infection

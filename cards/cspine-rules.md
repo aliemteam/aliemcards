@@ -4,14 +4,14 @@ title: 'Cervical Spine Rules'
 authors:
     - 'Michelle Lin, MD'
 created: 2010/12/10
-updates:
-    - 2010/12/10
+updates: null
 categories:
     - Trauma
     - Orthopedics
-drugs: 
+drugs: null
 
 ---
+
 
 
 

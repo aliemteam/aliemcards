@@ -1,6 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 import { Link } from 'react-router';
+import CardList from './card-list';
 
 
 class Cards extends React.Component {
@@ -73,18 +74,7 @@ class Cards extends React.Component {
             )}
           </select>
         </form>
-        <ul className="cards-list">
-          {this.state.filterCards.map((card) =>
-            <li key={card.slug}>
-              <Link to={`/cards/${card.slug}`}>{card.title}</Link>
-              <span className="metadata">
-                {card.categories.map((cat) =>
-                  <Link to={`/categories/${cat}`}>{cat}</Link>
-                )}
-              </span>
-            </li>
-          )}
-        </ul>
+        <CardList cards={this.state.filterCards} />
       </div>
     );
   }

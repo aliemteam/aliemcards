@@ -5,14 +5,14 @@ authors:
     - 'Michelle Reina, MD'
     - 'Rob Bryant MD'
 created: 2013/05/30
-updates:
-    - 2013/05/30
+updates: null
 categories:
     - Pediatrics
     - 'Critical Care'
-drugs: 
+drugs: null
 
 ---
+
 
 
 # Pediatric Assessment Triangle

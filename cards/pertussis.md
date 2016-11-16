@@ -4,14 +4,14 @@ title: Pertussis
 authors:
     - 'Michelle Lin, MD'
 created: 2010/09/03
-updates:
-    - 2010/09/03
+updates: null
 categories:
     - 'Infectious Disease'
     - EBM
 drugs: Azithromycin
 
 ---
+
 
 
 # Pertussis

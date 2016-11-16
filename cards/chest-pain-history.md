@@ -4,14 +4,14 @@ title: 'Chest Pain History'
 authors:
     - 'Salim Rezaie, MD'
 created: 2013/03/28
-updates:
-    - 2013/03/28
+updates: null
 categories:
     - Cardiovascular
     - EBM
-drugs: 
+drugs: null
 
 ---
+
 
 
 # Chest Pain: Critical Elements of a Patient History

@@ -6,14 +6,14 @@ authors:
     - 'Mike Mallon, MD'
     - 'Mike Stone, MD'
 created: 2015/02/11
-updates:
-    - 2015/02/11
+updates: null
 categories:
     - Cardiovascular
     - Ultrasound
-drugs: 
+drugs: null
 
 ---
+
 
 
 # Ultrasound: Focused Echocardiography

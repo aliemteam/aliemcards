@@ -4,14 +4,14 @@ title: 'CPR Hands-on vs Hands-off Defibrillation'
 authors:
     - 'Salim Rezaie, MD'
 created: 2013/10/28
-updates:
-    - 2013/10/28
+updates: null
 categories:
     - Cardiovascular
     - 'Critical Care'
-drugs: 
+drugs: null
 
 ---
+
 
 
 

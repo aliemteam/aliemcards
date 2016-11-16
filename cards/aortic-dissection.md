@@ -4,14 +4,14 @@ title: 'Aortic Dissection'
 authors:
     - 'Michelle Lin, MD'
 created: 2011/05/20
-updates:
-    - 2011/05/20
+updates: null
 categories:
     - Cardiovascular
     - 'Critical Care'
-drugs: 
+drugs: null
 
 ---
+
 
 
 

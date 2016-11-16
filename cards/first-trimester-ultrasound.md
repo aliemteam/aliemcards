@@ -6,15 +6,15 @@ authors:
     - 'Mike Mallin, MD'
     - 'Mike Stone, MD'
 created: 2015/02/25
-updates:
-    - 2015/02/25
+updates: null
 categories:
     - Radiology
     - Ultrasound
     - OBGYN
-drugs: 
+drugs: null
 
 ---
+
 
 
 # Ultrasound: Focused 1st Trimester Pregnancy (Transabdominal Exam)

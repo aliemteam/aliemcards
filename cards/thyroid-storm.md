@@ -4,14 +4,14 @@ title: 'Thyroid Storm - Treatment Strategies'
 authors:
     - 'Nadia Awad, PharmD'
 created: 2013/11/11
-updates:
-    - 2013/11/11
+updates: null
 categories:
     - Endocrinology
     - 'Critical Care'
 drugs: 'propylthiouriacil, methimazole, propranolol, hydrocortisone, esmolol, cholestyramine'
 
 ---
+
 
 
 # Thyroid Storm: Treatment Strategies

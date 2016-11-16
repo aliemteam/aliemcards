@@ -30,13 +30,19 @@ class Card extends React.Component {
   }
 
   render() {
-    const updated = new Date(this.state.card.updates[0]).toLocaleDateString('en-US');
+    var lastUpdate =  new Date('1900/01/01').toLocaleDateString('en-US');
+    if (this.state.card.updates !== null) {
+      lastUpdate = new Date(this.state.card.updates[0]).toLocaleDateString('en-US');
+    } else {
+      lastUpdate = new Date(this.state.card.created).toLocaleDateString('en-US');
+    }
+
     return (
       <div>
         <h1>{this.state.card.title}</h1>
         <ul className="cardMeta">
           <li><AuthorList authorArray={this.state.card.authors} /></li>
-          <li><b>Updated:</b> {updated}</li>
+          <li><b>Updated:</b> {lastUpdate}</li>
         </ul>
         <div className="cardHtml" dangerouslySetInnerHTML={this.getContent()} />
       </div>

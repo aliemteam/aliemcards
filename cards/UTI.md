@@ -4,14 +4,14 @@ title: 'Urinary Tract Infection'
 authors:
     - 'Michelle Lin, MD'
 created: 2010/02/11
-updates:
-    - 2010/02/11
+updates: null
 categories:
     - Genitourinary
     - 'Infectious Disease'
-drugs: 
+drugs: null
 
 ---
+
 
 
 # Urinary Tract Infection (UTI)

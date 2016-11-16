@@ -4,13 +4,13 @@ title: 'Bayes Nomogram'
 authors:
     - 'Michelle Lin, MD'
 created: 2012/05/17
-updates:
-    - 2012/05/17
+updates: null
 categories:
     - EBM
-drugs: 
+drugs: null
 
 ---
+
 
 
 # Bayes Nomogram

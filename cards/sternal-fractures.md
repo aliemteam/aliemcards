@@ -4,13 +4,13 @@ title: 'Sternal Fractures'
 authors:
     - 'Salim Rezaie, MD'
 created: 2014/01/17
-updates:
-    - 2014/01/17
+updates: null
 categories:
     - Trauma
-drugs: 
+drugs: null
 
 ---
+
 
 
 # Sternal Fractures

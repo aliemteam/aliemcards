@@ -4,13 +4,13 @@ title: 'Ectopic Pregnancy and Methotrexate'
 authors:
     - 'Michelle Lin, MD'
 created: 2011/11/11
-updates:
-    - 2011/11/11
+updates: null
 categories:
     - OBGYN
 drugs: Methotrexate
 
 ---
+
 
 
 # Ectopic Pregnancy and Methotrexate

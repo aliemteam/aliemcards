@@ -4,13 +4,13 @@ title: 'Subarachnoid Hemorrhage'
 authors:
     - 'Michelle Lin, MD'
 created: 2010/12/17
-updates:
-    - 2010/12/17
+updates: null
 categories:
     - Neurology
-drugs: 
+drugs: null
 
 ---
+
 
 
 # Subarachnoid Hemorrhage

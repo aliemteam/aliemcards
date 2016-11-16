@@ -4,13 +4,13 @@ title: 'Persistent Tachycardia'
 authors:
     - 'Michelle Lin, MD'
 created: 2011/08/19
-updates:
-    - 2011/08/19
+updates: null
 categories:
     - Cardiovascular
-drugs: 
+drugs: null
 
 ---
+
 
 
 # Tachycardia: Approach to Persistent Tachycardia

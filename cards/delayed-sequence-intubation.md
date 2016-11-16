@@ -4,14 +4,14 @@ title: 'Delayed Sequence Intubation'
 authors:
     - 'Michelle Lin, MD'
 created: 2012/08/31
-updates:
-    - 2012/08/31
+updates: null
 categories:
     - 'Critical Care'
     - Procedures
 drugs: ketamine
 
 ---
+
 
 
 # Delayed Sequence Intubation (DSI)

@@ -4,13 +4,13 @@ title: 'Chest Pain - Accelerated Diagnostic Protocol'
 authors:
     - 'Salim Rezaie, MD'
 created: 2013/04/04
-updates:
-    - 2013/04/04
+updates: null
 categories:
     - Cardiovascular
-drugs: 
+drugs: null
 
 ---
+
 
 
 # Chest Pain: Can we do 2-hour rule outs? Acclerated Diagnostic Protocol (ADP)

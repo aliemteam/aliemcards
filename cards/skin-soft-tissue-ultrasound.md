@@ -6,14 +6,14 @@ authors:
     - 'Patricia Henwood, MD'
     - 'Mike Stone, MD'
 created: 2015/01/07
-updates:
-    - 2015/01/07
+updates: null
 categories:
     - Ultrasound
     - Radiology
-drugs: 
+drugs: null
 
 ---
+
 
 
 # Ultrasound: Skin and Soft Tissue

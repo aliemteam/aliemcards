@@ -4,14 +4,14 @@ title: 'CT Coronary in the ED'
 authors:
     - 'Salim Rezaie, MD'
 created: 2013/04/11
-updates:
-    - 2013/04/11
+updates: null
 categories:
     - Cardiovascular
     - EBM
-drugs: 
+drugs: null
 
 ---
+
 
 
 

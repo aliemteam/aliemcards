@@ -4,14 +4,14 @@ title: 'Chest Pain Risk Stratification for ACS'
 authors:
     - 'Michelle Lin, MD'
 created: 2010/01/09
-updates:
-    - 2010/01/09
+updates: null
 categories:
     - Cardiovascular
     - EBM
-drugs: 
+drugs: null
 
 ---
+
 
 
 

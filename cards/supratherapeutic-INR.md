@@ -4,13 +4,13 @@ title: 'Supratherapeutic INR'
 authors:
     - 'Michelle Lin, MD'
 created: 2012/08/10
-updates:
-    - 2012/08/10
+updates: null
 categories:
     - 'Hematology and Oncology'
 drugs: 'coumadin, vitamin K, PCC, FFP, aspirin, clopidogrel,'
 
 ---
+
 
 
 # Overanticoagulation and Supratherapeutic INR

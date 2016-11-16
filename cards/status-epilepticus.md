@@ -4,14 +4,14 @@ title: 'Seizures and Status Epilepticus'
 authors:
     - 'Michelle Lin, MD'
 created: 2011/01/21
-updates:
-    - 2011/01/21
+updates: null
 categories:
     - Neurology
     - 'Critical Care'
 drugs: 'phenytoin, fosphenytoin, Midazolam, lorazepam, Propofol, Pentobarbital, Thiamine, Ceftriaxone, vancomycin, pyridoxine'
 
 ---
+
 
 
 # Seizures and Status Epilepticus

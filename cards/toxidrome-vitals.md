@@ -4,13 +4,13 @@ title: 'Toxidromes by Vital Signs'
 authors:
     - 'Michelle Lin, MD'
 created: 2010/11/19
-updates:
-    - 2010/11/19
+updates: null
 categories:
     - Toxicology
 drugs: 'propranolol, propoxyphene, physostigmine, clonidine, digoxin, theophylline, clonidine, aminophylline,'
 
 ---
+
 
 
 # Toxidromes by Vital Signs

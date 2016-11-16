@@ -4,13 +4,13 @@ title: 'Serotonin Syndrome'
 authors:
     - 'Michelle Lin, MD'
 created: 2012/01/06
-updates:
-    - 2012/01/06
+updates: null
 categories:
     - Toxicology
 drugs: 'Cyclobenzaprine, Fentanyl, Meperidine, Tramadol, Buspirone, Lithium, Metoclopramide, Ondansetron, Carbamazepine, valproic acid, cocaine, Dextromethorphan, Linezolid, cyproheptadine'
 
 ---
+
 
 
 # Serotonin Syndrome

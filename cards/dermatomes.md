@@ -4,13 +4,13 @@ title: 'Dermatomes and Myotomal Maps'
 authors:
     - 'Michelle Lin, MD'
 created: 2013/05/26
-updates:
-    - 2013/05/26
+updates: null
 categories:
     - Orthopedics
-drugs: 
+drugs: null
 
 ---
+
 
 
 # Dermatomes and Myotomal Maps

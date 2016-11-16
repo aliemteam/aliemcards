@@ -4,13 +4,13 @@ title: 'Geriatric Procedural Sedation'
 authors:
     - 'Christina Shenvi, MD PhD'
 created: 2013/10/31
-updates:
-    - 2013/10/31
+updates: null
 categories:
     - Pharmacology
 drugs: 'diazepam, midazolam, propofol, ketamine, etomidate, ketofol'
 
 ---
+
 
 
 # Geriatric Procedural Sedation

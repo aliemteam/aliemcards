@@ -4,15 +4,15 @@ title: 'Beta Agonist Therapy and Lactic Acidosis in Asthma'
 authors:
     - 'Mac Walter, MD'
 created: 2013/12/18
-updates:
-    - 2013/12/18
+updates: null
 categories:
     - Pulmonology
     - Pharmacology
     - Toxicology
-drugs: 
+drugs: null
 
 ---
+
 
 
 # Beta Agonist Therapy and Lactic Acidosis in Asthma

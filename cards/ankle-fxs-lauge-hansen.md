@@ -4,13 +4,13 @@ title: 'Ankle Fractures: Lauge-Hansen Classification'
 authors:
     - 'Michelle Lin, MD'
 created: 2010/02/18
-updates:
-    - 2010/02/18
+updates: null
 categories:
     - Orthopedics
-drugs: 
+drugs: null
 
 ---
+
 
 
 # Ankle Fractures: Lauge-Hansen Classification

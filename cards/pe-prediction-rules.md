@@ -4,14 +4,14 @@ title: 'Pulmonary Embolism Clinical Prediction Rules'
 authors:
     - 'Michelle Lin, MD'
 created: 2011/06/03
-updates:
-    - 2011/06/03
+updates: null
 categories:
     - Pulmonology
     - EBM
-drugs: 
+drugs: null
 
 ---
+
 
 
 # Pulmonary Embolism (PE): Clinical Prediction Rules

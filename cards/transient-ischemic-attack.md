@@ -4,13 +4,13 @@ title: 'Transient Ichemic Attack (TIA)'
 authors:
     - 'Michelle Lin, MD'
 created: 2010/01/05
-updates:
-    - 2010/01/05
+updates: null
 categories:
     - Neurology
-drugs: 
+drugs: null
 
 ---
+
 
 
 

@@ -4,13 +4,13 @@ title: 'ABG versus VBG'
 authors:
     - 'Michelle Lin, MD'
 created: 2013/01/31
-updates:
-    - 2013/01/31
+updates: null
 categories:
     - Pulmonology
-drugs: 
+drugs: null
 
 ---
+
 
 
 # ABG versus VBG

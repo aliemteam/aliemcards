@@ -4,14 +4,14 @@ title: 'Ventilator Setting for Lung Protection'
 authors:
     - 'Michelle Lin, MD'
 created: 2011/10/14
-updates:
-    - 2011/10/14
+updates: null
 categories:
     - Pulmonology
     - 'Critical Care'
-drugs: 
+drugs: null
 
 ---
+
 
 
 # Ventilator Setting for Lung Protection

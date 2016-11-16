@@ -4,14 +4,14 @@ title: 'ATLS - Palpable Pulses are Inaccurate'
 authors:
     - 'Salim Rezaie, MD'
 created: 2013/03/13
-updates:
-    - 2013/03/13
+updates: null
 categories:
     - Surgery
     - Trauma
-drugs: 
+drugs: null
 
 ---
+
 
 
 

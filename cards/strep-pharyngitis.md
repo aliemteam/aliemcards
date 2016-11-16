@@ -4,8 +4,7 @@ title: 'Streptococcal Pharyngitis'
 authors:
     - 'Michelle Lin, MD'
 created: 2010/07/30
-updates:
-    - 2010/07/30
+updates: null
 categories:
     - ENT
     - 'Infectious Disease'
@@ -13,6 +12,7 @@ categories:
 drugs: 'penicillin, amoxicillin,'
 
 ---
+
 
 
 # Streptococcal Pharyngitis

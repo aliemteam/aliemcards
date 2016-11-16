@@ -4,13 +4,13 @@ title: 'Ectopic Pregnancy - Making the Diagnosis'
 authors:
     - 'Javier Benitez, MD'
 created: 2013/05/09
-updates:
-    - 2013/05/09
+updates: null
 categories:
     - OBGYN
-drugs: 
+drugs: null
 
 ---
+
 
 
 # Ectopic Pregnancy: Making the Diagnosis

@@ -4,13 +4,13 @@ title: Hyperthyroidism
 authors:
     - 'Terrance Lee, MD'
 created: 2013/10/07
-updates:
-    - 2013/10/07
+updates: null
 categories:
     - Endocrinology
-drugs: 
+drugs: null
 
 ---
+
 
 
 # Diagnosing Hyperthyroidism

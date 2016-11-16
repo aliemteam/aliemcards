@@ -4,14 +4,14 @@ title: 'ECG Geography for AMI'
 authors:
     - 'Michelle Lin, MD'
 created: 2011/04/08
-updates:
-    - 2011/04/08
+updates: null
 categories:
     - Cardiovascular
     - ECG
-drugs: 
+drugs: null
 
 ---
+
 
 
 # ECG: Geography for AMI

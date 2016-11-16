@@ -4,13 +4,13 @@ title: Angioedema
 authors:
     - 'Michelle Lin, MD'
 created: 2010/03/26
-updates:
-    - 2010/03/26
+updates: null
 categories:
     - Allergy-Immunology
 drugs: 'ACE inhibitor'
 
 ---
+
 
 
 # Angioedema

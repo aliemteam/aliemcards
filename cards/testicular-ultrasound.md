@@ -5,15 +5,15 @@ authors:
     - 'Matthew Dawson, MD'
     - 'Mike Stone, MD'
 created: 2015/01/21
-updates:
-    - 2015/01/21
+updates: null
 categories:
     - Genitourinary
     - Radiology
     - Ultrasound
-drugs: 
+drugs: null
 
 ---
+
 
 
 # Ultrasound: Testicular Assessment

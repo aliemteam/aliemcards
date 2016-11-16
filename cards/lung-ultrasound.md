@@ -6,15 +6,15 @@ authors:
     - 'Clare Heslop, MD'
     - 'Mike Stone, MD'
 created: 2015/02/04
-updates:
-    - 2015/02/04
+updates: null
 categories:
     - Ultrasound
     - Radiology
     - Pulmonology
-drugs: 
+drugs: null
 
 ---
+
 
 
 # Ultrasound: Focused Lung Assessment

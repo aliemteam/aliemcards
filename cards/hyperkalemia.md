@@ -4,8 +4,7 @@ title: Hyperkalemia
 authors:
     - 'Michelle Lin, MD'
 created: 2010/03/12
-updates:
-    - 2010/03/12
+updates: null
 categories:
     - Endocrinology
     - Metabolic
@@ -13,6 +12,7 @@ categories:
 drugs: 'insulin, albuterol, furosemide, sodium bicarbonate, Kayexalate, calcium gluconate'
 
 ---
+
 
 
 # Hyperkalemia

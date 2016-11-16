@@ -4,13 +4,13 @@ title: 'Neutropenic Fever and Cancer'
 authors:
     - 'Michelle Lin, MD'
 created: 2011/10/07
-updates:
-    - 2011/10/07
+updates: null
 categories:
     - 'Hematology and Oncology'
 drugs: 'ciprofloxacin, vancomycin, cefipime, pipercillin-tazobactam, amoxicillin-clavulanate, aztreonam'
 
 ---
+
 
 
 # Neutropenic Fever and Cancer

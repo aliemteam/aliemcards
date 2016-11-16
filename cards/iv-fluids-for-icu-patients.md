@@ -4,13 +4,13 @@ title: 'IV Fluid Formulations for ICU Patients'
 authors:
     - 'Michelle Lin, MD'
 created: 2012/01/03
-updates:
-    - 2012/01/03
+updates: null
 categories:
     - 'Critical Care'
-drugs: 
+drugs: null
 
 ---
+
 
 
 # Intravenous Fluid Formulations and Chloride-Restrictive IV Fluids for ICU Patients

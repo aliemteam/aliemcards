@@ -4,8 +4,7 @@ title: 'Bicarbonate - Completely Useless?'
 authors:
     - 'Andrew Grock, MD'
 created: 2013/12/04
-updates:
-    - 2013/12/04
+updates: null
 categories:
     - Toxicology
     - Pharmacology
@@ -13,6 +12,7 @@ categories:
 drugs: 'sodium bicarbonate'
 
 ---
+
 
 
 # Bicarbonate: Completely Useless?

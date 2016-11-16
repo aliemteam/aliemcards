@@ -5,15 +5,15 @@ authors:
     - 'John Eicken, MD'
     - 'Mike Stone, MD'
 created: 2015/01/01
-updates:
-    - 2015/01/01
+updates: null
 categories:
     - Radiology
     - Ultrasound
     - Gastroenterology
-drugs: 
+drugs: null
 
 ---
+
 
 
 # Ultrasound: Focused Biliary Assessment

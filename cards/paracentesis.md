@@ -4,13 +4,13 @@ title: 'Paracentesis for Ascites'
 authors:
     - 'Michelle Lin, MD'
 created: 2010/06/25
-updates:
-    - 2010/06/25
+updates: null
 categories:
     - Gastroenterology
-drugs: 
+drugs: null
 
 ---
+
 
 
 # Paracentesis for Ascites

@@ -4,13 +4,13 @@ title: 'Pediatric Fever Without a Source - Infant'
 authors:
     - 'Michelle Lin, MD'
 created: 2012/02/09
-updates:
-    - 2012/02/09
+updates: null
 categories:
     - Pediatrics
 drugs: ceftriaxone
 
 ---
+
 
 
 # Pediatric Fever Without a Source: 29 Days - 3 Months

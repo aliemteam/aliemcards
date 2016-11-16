@@ -4,13 +4,13 @@ title: Hypothermia
 authors:
     - 'Michelle Lin, MD'
 created: 2011/02/04
-updates:
-    - 2011/02/04
+updates: null
 categories:
     - Environmental
-drugs: 
+drugs: null
 
 ---
+
 
 
 # Hypothermia, Accidental

@@ -4,14 +4,14 @@ title: 'Pertussis Treatment Algorithm'
 authors:
     - 'Michelle Lin, MD'
 created: 2013/05/26
-updates:
-    - 2013/05/26
+updates: null
 categories:
     - Pediatrics
     - 'Infectious Disease'
 drugs: 'Azithromycin, Clarithromycin, Erythromycin'
 
 ---
+
 
 
 # Pertussis: Treatment Algorithm if Suspected in Pediatric Patients

@@ -4,13 +4,13 @@ title: 'Cardiac Tamponade'
 authors:
     - 'Michelle Lin, MD'
 created: 2011/07/08
-updates:
-    - 2011/07/08
+updates: null
 categories:
     - Cardiovascular
-drugs: 
+drugs: null
 
 ---
+
 
 
 # Cardiac Tamponade

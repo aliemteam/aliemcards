@@ -4,13 +4,13 @@ title: 'Post-Exposure Prophylaxis, non-occupational contact'
 authors:
     - 'Michelle Lin, MD'
 created: 2011/04/01
-updates:
-    - 2011/04/01
+updates: null
 categories:
     - 'Infectious Disease'
-drugs: 
+drugs: null
 
 ---
+
 
 
 # Post-Exposure Prophylaxis (PEP): Non-Occupational Contact

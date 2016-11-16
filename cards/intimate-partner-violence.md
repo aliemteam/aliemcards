@@ -5,13 +5,13 @@ authors:
     - 'Trevor Wilson'
     - 'Beth Kaplan, MD'
 created: 2013/07/31
-updates:
-    - 2013/07/31
+updates: null
 categories:
     - Trauma
-drugs: 
+drugs: null
 
 ---
+
 
 
  Intimate Partner Violence

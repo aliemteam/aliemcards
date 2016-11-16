@@ -4,13 +4,13 @@ title: 'Atrial Fibrillation and Anticoagulation'
 authors:
     - 'Michelle Lin, MD'
 created: 2010/04/09
-updates:
-    - 2010/04/09
+updates: null
 categories:
     - Cardiovascular
 drugs: 'aspirin, warfarin'
 
 ---
+
 
 
 # Atrial Fibrillation and Anticoagulation

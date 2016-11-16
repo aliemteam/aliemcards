@@ -4,15 +4,15 @@ title: 'ECG Electrolyte Imbalance'
 authors:
     - 'Michelle Lin, MD'
 created: 2012/09/21
-updates:
-    - 2012/09/21
+updates: null
 categories:
     - Cardiovascular
     - ECG
     - Endocrine
-drugs: 
+drugs: null
 
 ---
+
 
 
 # ECG: Electrolyte Imbalance

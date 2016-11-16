@@ -4,13 +4,13 @@ title: 'Blunt Cardiac Injury'
 authors:
     - 'Michelle Lin, MD'
 created: 2012/06/29
-updates:
-    - 2012/06/29
+updates: null
 categories:
     - Trauma
-drugs: 
+drugs: null
 
 ---
+
 
 
 # Blunt Cardiac Injury

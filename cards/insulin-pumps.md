@@ -4,13 +4,13 @@ title: 'Insulin Pumps'
 authors:
     - 'Josh Joseph, MD'
 created: 2013/12/11
-updates:
-    - 2013/12/11
+updates: null
 categories:
     - Endocrinology
 drugs: insulin
 
 ---
+
 
 
 # Insulin Pumps: Understanding them and their complications

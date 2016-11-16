@@ -4,13 +4,13 @@ title: 'Dental Infections'
 authors:
     - 'Michelle Lin, MD'
 created: 2011/04/22
-updates:
-    - 2011/04/22
+updates: null
 categories:
     - ENT
-drugs: 
+drugs: null
 
 ---
+
 
 
 # Dental Infections

@@ -4,13 +4,13 @@ title: 'Subarachnoid Hemorrhage, Nontraumatic'
 authors:
     - 'Michelle Lin, MD'
 created: 2010/03/05
-updates:
-    - 2010/03/05
+updates: null
 categories:
     - Neurology
-drugs: 
+drugs: null
 
 ---
+
 
 
 # Subarachnoid Hemorrhage, Nontraumatic: High Risk Characteristics

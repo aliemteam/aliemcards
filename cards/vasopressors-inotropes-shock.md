@@ -4,14 +4,14 @@ title: 'Vasopressors and Inotropes in Shock'
 authors:
     - 'Michelle Lin, MD'
 created: 2010/04/30
-updates:
-    - 2010/04/30
+updates: null
 categories:
     - Cardiovascular
     - 'Critical Care'
 drugs: 'epinephrine, Phenylephrine, norepinephrine, dopamine, dobutamine'
 
 ---
+
 
 
 # Vasopressors and Inotropes in Shock

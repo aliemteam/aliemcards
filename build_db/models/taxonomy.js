@@ -4,6 +4,7 @@ const Schema = mongoose.Schema;
 const taxonomySchema = new Schema({
   title: { type: String, required: true, unique: true },
   slug: { type: String },
+  cards: { type: Array },
 });
 
 const Category = mongoose.model('Category', taxonomySchema);

@@ -4,14 +4,14 @@ title: 'Legionnaire''s Disease'
 authors:
     - 'Michelle Lin, MD'
 created: 2011/09/16
-updates:
-    - 2011/09/16
+updates: null
 categories:
     - 'Infectious Disease'
     - Pulmonology
-drugs: 
+drugs: null
 
 ---
+
 
 
 # Legionnaire's Disease

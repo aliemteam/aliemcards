@@ -4,14 +4,14 @@ title: 'Diverticulitis Outpatient Treatment'
 authors:
     - 'Michelle Lin, MD'
 created: 2013/05/26
-updates:
-    - 2013/05/26
+updates: null
 categories:
     - Gastroenterology
     - EBM
-drugs: 
+drugs: null
 
 ---
+
 
 
 

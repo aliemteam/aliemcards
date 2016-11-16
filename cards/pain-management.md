@@ -5,13 +5,13 @@ authors:
     - 'Dr. Nick Koch'
     - 'Dr. Sergey Motov'
 created: 2015/10/23
-updates:
-    - 2015/10/23
+updates: null
 categories:
     - Pharmacology
 drugs: 'acetaminophen, Ibuprofen, Naproxen, Ketorolac, Indomethacin, lidocaine, lidoderm, Bupivacaine, Triamcinolone, Gabapentin, Pregabalin, Ketamine, Oxycodone, Hydrocodone, Hydromorphone, Morphine, Fentanyl, naloxone'
 
 ---
+
 
 
 # Initial ED Pain Management Options in ED

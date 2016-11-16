@@ -6,15 +6,15 @@ authors:
     - 'Joshua Rempell, MD'
     - 'Mike Stone, MD'
 created: 2015/02/18
-updates:
-    - 2015/02/18
+updates: null
 categories:
     - Radiology
     - Ultrasound
     - Cardiovascular
-drugs: 
+drugs: null
 
 ---
+
 
 
 

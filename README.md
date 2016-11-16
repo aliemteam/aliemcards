@@ -33,8 +33,7 @@ Within the tick marks are three key-value pairs:
 - **title**: the title of the card, in single quotes
 - **authors**: a list of authors. Each author is on Eer/his own indented line, beginning with a hyphen, in single quotes.
 - **created**: the date the card was created, formatted `YYYY/MM/DD`.
-- **updates**: a list of dates in reverse chronological order, formatted `YYYY/MM/DD`. List format same as **authors**. The last, or only date for cards without revisions, will be the date the card was created.
-
+- **updates**: a list of dates in reverse chronological order, formatted `YYYY/MM/DD`. List format same as **authors**. Do not include the date the card was created.
 - **categories**: a list of categories to which each card belongs. Cards can belong to more than one category. Each category is on its own indented line, beginning with a hyphen, use single quotes around names with spaces or special characters.
 - **drugs**: a comma-separated list of drugs.
 

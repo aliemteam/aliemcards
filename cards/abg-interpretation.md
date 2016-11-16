@@ -4,13 +4,13 @@ title: 'ABG Interpretation'
 authors:
     - 'Michelle Lin, MD'
 created: 2010/04/02
-updates:
-    - 2010/04/02
+updates: null
 categories:
     - Pulmonology
-drugs: 
+drugs: null
 
 ---
+
 
 
 # ABG Interpretation

@@ -4,14 +4,14 @@ title: 'CPR - Mechanical vs Manual'
 authors:
     - 'Sean Kivlehan, MD MPH'
 created: 2013/12/10
-updates:
-    - 2013/12/10
+updates: null
 categories:
     - Cardiovascular
     - 'Critical Care'
-drugs: 
+drugs: null
 
 ---
+
 
 
 # CPR: Mechanical vs Manual

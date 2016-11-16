@@ -4,13 +4,13 @@ title: 'SVT and Troponin'
 authors:
     - 'Salim Rezaie, MD'
 created: 2013/08/14
-updates:
-    - 2013/08/14
+updates: null
 categories:
     - Cardiovascular
-drugs: 
+drugs: null
 
 ---
+
 
 
 # Supraventricular Tachycardia (SVT): Are Troponins Necessary?

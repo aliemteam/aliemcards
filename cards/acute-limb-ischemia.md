@@ -4,13 +4,13 @@ title: 'Acute Limb Ischemia'
 authors:
     - 'Michelle Lin, MD'
 created: 2010/08/13
-updates:
-    - 2010/08/13
+updates: null
 categories:
     - Cardiovascular
 drugs: 'aspirin, heparin'
 
 ---
+
 
 
 # Acute Limb Ischemia

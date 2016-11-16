@@ -3,15 +3,16 @@
 title: 'Burn Wounds'
 authors:
     - 'Michelle Lin, MD'
+    - 'Chris Rose, MD'
 created: 2010/07/02
 updates:
     - 2016/04/22
-    - 2010/07/02
 categories:
     - Trauma
-drugs: 
+drugs: null
 
 ---
+
 
 
 # Burn Wounds
