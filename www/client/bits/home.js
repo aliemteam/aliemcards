@@ -43,10 +43,16 @@ class Home extends React.Component {
           />
           <Search hero />
           <div className="home container content">
-            <h1>New Cards</h1>
-            <CardList cards={this.state.newest} />
-            <h1>Updated Cards</h1>
-            <CardList cards={this.state.updated.filter(card => card.updates !== null)} />
+            <div className="row">
+              <div className="one-half column">
+                <h1>New Cards</h1>
+                <CardList cards={this.state.newest} />
+              </div>
+              <div className="one-half column">
+                <h1>Updated Cards</h1>
+                <CardList cards={this.state.updated.filter(card => card.updates !== null)} />
+              </div>
+            </div>
           </div>
         </div>
       </div>
