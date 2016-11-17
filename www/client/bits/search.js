@@ -10,7 +10,6 @@ class Search extends React.Component {
       cards: [],
     };
     this.onChange = this.onChange.bind(this);
-    this.onBlur = this.onBlur.bind(this);
     this.handleSearch = this.handleSearch.bind(this);
   }
 
