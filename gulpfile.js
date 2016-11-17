@@ -4,18 +4,15 @@ const debug = require('gulp-debug');
 const through = require('through2');
 const fm = require('gulp-front-matter');
 const marked = require('marked');
-const crypto = require('crypto');
 const slug = require('slug');
 const YAML = require('yamljs');
+const sequence = require('run-sequence');
 
 // Get environemental variables
 require('dotenv').config();
 const mongoose = require('mongoose');
 const Card = require('./build_db/models/card');
-const Drug = require('./build_db/models/taxonomy').drug;
 const Category = require('./build_db/models/taxonomy').category;
-
-mongoose.connect(process.env.MLAB_URI);
 
 marked.setOptions({
   renderer: new marked.Renderer(),
@@ -28,123 +25,122 @@ marked.setOptions({
   smartypants: false,
 });
 
-// Create checksum hash of string or buffer
-// https://blog.tompawlak.org/calculate-checksum-hash-nodejs-javascript
-const checksum = function checksum(str, algorithm, encoding) {
-  return crypto
-      .createHash(algorithm || 'md5')
-      .update(str, 'utf8')
-      .digest(encoding || 'hex');
+
+// ///////////////////////////////////////////////
+// cards
+// ///////////////////////////////////////////////
+
+// make new Card object based on markdown filename, YAML metadata, and contents
+const buildCardObject = function(filename, meta, contents) {
+  return {
+    title: meta.title,
+    slug: filename.split('.')[0].toLowerCase(),
+    drugs: (meta.drugs) ? meta.drugs.split(', ') : null,
+    categories: meta.categories.map((cat) => slug(cat, { lower: true })),
+    authors: meta.authors,
+    created: meta.created,
+    updates: meta.updates,
+    content: marked(contents.toString()),
+  };
 };
 
-// ////////////////////////////////////
-// MLAB DATABASE BUILD build_db
-// gulp build_db
-// ////////////////////////////////////
+// make new Card document based on directory of markdown files
+// wrap in Promise to control async operations
+const cardsToMongo = function(glob) {
+  return new Promise((resolve, reject) => {
+    gulp.src(glob)
+    .pipe(fm({ property: 'meta', remove: true }))
+    .pipe(through.obj(function(file, enc, done) {
+      const card = new Card(buildCardObject(file.relative, file.meta, file.contents));
+      this.push(card);
+      card.save().then(() => done());
+    }))
+    // through2 has to send stream somewhere in order to emit 'end' event
+    // github.com/rvagg/through2/issues/31
+    .on('data', (card) => gutil.log(gutil.colors.green(`Saved ${card.title}`)))
+    .on('end', resolve)
+    .on('error', reject);
+  });
+};
 
-gulp.task('build_cards', () => {
-  // empty Card collection
-  Card.find()
-  .remove({})
+// Gulp it
+gulp.task('cards', function() {
+  mongoose.connect(process.env.MLAB_URI);
+  return Card.find()
+  .remove({}) // empty Card collection
   .exec()
-  .catch((err) => { gutil.log(gutil.colors.magenta(err)); });
-
-  // start Gulp file handling
-  return gulp.src('./cards/*.md')
-  // .pipe(debug({ title: 'build_db:' }))
-
-  // add hash to file object
-  .pipe(through.obj(function(file, enc, callback) {
-    const refile = file;
-    refile.hash = checksum(file.contents);
-    this.push(refile);
-    callback();
-  }))
-
-  // extract frontmatter into meta property
-  .pipe(fm({ property: 'meta', remove: true }))
-
-  // Process card, add to dbase if new or updated
-  .pipe(through.obj(function(file, enc, callback) {
-    const card = new Card({
-      title: file.meta.title,
-      slug: file.relative.split('.')[0].toLowerCase(), // filename minus .md extension
-      drugs: (file.meta.drugs) ? file.meta.drugs.split(', ') : null,
-      categories: file.meta.categories.map((cat) => slug(cat, { lower: true })),
-      authors: file.meta.authors,
-      created: file.meta.created,
-      updates: file.meta.updates,
-      content: marked(file.contents.toString()),
-      hash: file.hash,
-    });
-
-    card.save()
-    .then((saved) => gutil.log(gutil.colors.green(`Saved ${saved.title}`)))
-    .catch((err) => gutil.log(gutil.colors.magenta(err)));
-
-    callback();
-  }));
+  .then(() => cardsToMongo('./cards/*.md'))
+  .then(() => mongoose.connection.close())
+  .catch((err) => gutil.log(gutil.colors.magenta(err)));
 });
 
 // ///////////////////////////////////////////////
-// build_cats
+// cats
 // ///////////////////////////////////////////////
 
-gulp.task('build_cats', () => {
-  // delete existing to update with current data
-  Category.find()
-  .remove({})
-  .exec()
-  .catch((err) => { gutil.log(gutil.colors.magenta(err)); });
+const buildUniqueCatArray = function(files) {
+  const categories = [];
 
-  // start Gulp file handling
-  return gulp.src('./cards/*.md')
+  files.forEach((file) => {
+    const filecats = file.meta.categories;
+    const cardSlug = file.relative.split('.')[0].toLowerCase();
 
-  // extract frontmatter into meta property
-  .pipe(fm({ property: 'meta', remove: true }))
+    // only add categories to running array if they are unique
+    filecats.forEach((cat) => {
+      const catSlug = slug(cat, { lower: true });
+      const foundCat = categories.find((e) => e.slug === catSlug);
+      if (foundCat) {
+        foundCat.cards.push(cardSlug);
+      } else {
+        categories.push({ title: cat, slug: catSlug, cards: [cardSlug] });
+      }
+    });
+  });
 
-  // buffer all cards into one array
-  .pipe(gutil.buffer())
-  .pipe(through.obj((files, enc, callback) => {
-    // create master array of categories
-    const categories = [];
+  return categories;
+};
 
-    files.forEach((file) => {
-      const filecats = file.meta.categories;
-      const cardSlug = file.relative.split('.')[0].toLowerCase();
+const saveCat = function(cat) {
+  return new Category(cat)
+    .save()
+    .then((saved) => gutil.log(gutil.colors.blue(`Category ${saved.title}`)));
+};
 
-      // only add categories to running array if they are unique
-      filecats.forEach((cat) => {
-        const catSlug = slug(cat, { lower: true });
-        const foundCat = categories.find((e) => e.slug === catSlug);
-        if (foundCat) {
-          foundCat.cards.push(cardSlug);
-        } else {
-          categories.push({ title: cat, slug: catSlug, cards: [cardSlug] });
-        }
+const categoriesToMongo = function(glob) {
+  return new Promise((resolve, reject) => {
+    gulp.src(glob)
+    .pipe(fm({ property: 'meta', remove: true })) // get frontmatter
+    .pipe(gutil.buffer()) // buffer all cards into single array
+    .pipe(through.obj(function(files, enc, done) {
+      const categories = buildUniqueCatArray(files);
+      const promises = Promise.all(categories.map(saveCat));
+      promises.then(() => {
+        this.push(categories);
+        done();
       });
-    });
+    }))
+    .on('data', () => gutil.log(gutil.colors.magenta('Promise All Complete')))
+    .on('end', resolve)
+    .on('error', reject);
+  });
+};
 
-    // save to dbase
-    categories.forEach((cat) => {
-      const newCat = new Category(cat);
-      newCat.save().then((saved) => gutil.log(gutil.colors.blue(`Category ${saved.title}`)))
-      .catch((err) => gutil.log(gutil.colors.magenta(err)));
-    });
-    callback();
-  }));
+gulp.task('cats', () => {
+  mongoose.connect(process.env.MLAB_URI);
+  return Category.find()
+  .remove({}) // empty Category collection
+  .exec()
+  .then(() => categoriesToMongo('./cards/*.md'))
+  .then(() => mongoose.connection.close())
+  .catch((err) => gutil.log(gutil.colors.magenta(err)));
 });
 
+
 // ////////////////////////////////////
-// MLAB DATABASE BUILD build_db
-// gulp build_db
+// DEFAULT TASK
 // ////////////////////////////////////
 
-gulp.task('build_db', ['build_cards', 'build_cats'], () => {
-  // ??? Not sure when to close connection!
-  // Can't figure out how to wait for promises from prior task to resovle
-  // mongoose.connection.close();
-});
+gulp.task('default', (callback) => sequence('cards', 'cats', callback));
 
 // ///////////////////////////////////////////////
 // Convert YAML

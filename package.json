@@ -24,6 +24,7 @@
     "react-dom": "^15.0.2",
     "react-router": "^2.4.1",
     "react-tap-event-plugin": "^1.0.0",
+    "run-sequence": "^1.2.2",
     "slug": "^0.9.1",
     "through2": "^2.0.1",
     "yamljs": "^0.2.8"
