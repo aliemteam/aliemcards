@@ -18,11 +18,6 @@ class Search extends React.Component {
     this.handleSearch(e.target.value);
   }
 
-  onBlur(x) {
-    x.target.value = '';
-    this.handleSearch('');
-  }
-
   handleSearch(query) {
     if (query.length > 2) {
       axios.get(`/api/search/${query}`)
@@ -46,26 +41,26 @@ class Search extends React.Component {
         />
       );
     }
-    return <SearchBar changeHandler={this.onChange} blurHandler={this.onBlur} cards={this.state.cards} />;
+    return <SearchBar changeHandler={this.onChange} cards={this.state.cards} />;
   }
 }
 
-const SearchBar = ({ changeHandler, blurHandler, cards }) =>
+const SearchBar = ({ changeHandler, cards }) =>
   <div className="searchBox">
     <form className="container">
-      <input type="text" onChange={changeHandler} onBlur={blurHandler} placeholder="Search" autofocus />
+      <input type="text" onChange={changeHandler} placeholder="Search" autofocus />
       <button type="submit"><i className="material-icons">search</i></button>
     </form>
     {cards[0] ? <Results cards={cards} /> : null}
   </div>;
 
-const SearchHero = ({ changeHandler, blurHandler, cards }) =>
+const SearchHero = ({ changeHandler, cards }) =>
   <div className="searchHero">
     <div className="heroText">
       <p>A Point-of-Care reference library<br />by Michelle Lin, and the <b>ALiEM Team</b></p>
       <p>Formerly known as <i>Paucis Verbis Cards</i></p>
     </div>
-    <SearchBar changeHandler={changeHandler} blurHandler={blurHandler} cards={cards} />
+    <SearchBar changeHandler={changeHandler} cards={cards} />
   </div>;
 
 const Results = ({ cards }) =>

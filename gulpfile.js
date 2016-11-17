@@ -30,7 +30,6 @@ marked.setOptions({
 // cards
 // ///////////////////////////////////////////////
 
-// make new Card object based on markdown filename, YAML metadata, and contents
 const buildCardObject = function(filename, meta, contents) {
   return {
     title: meta.title,
@@ -44,7 +43,7 @@ const buildCardObject = function(filename, meta, contents) {
   };
 };
 
-// make new Card document based on directory of markdown files
+// make new Card documents based on directory of markdown files
 // wrap in Promise to control async operations
 const cardsToMongo = function(glob) {
   return new Promise((resolve, reject) => {
@@ -63,7 +62,6 @@ const cardsToMongo = function(glob) {
   });
 };
 
-// Gulp it
 gulp.task('cards', function() {
   mongoose.connect(process.env.MLAB_URI);
   return Card.find()
@@ -137,13 +135,16 @@ gulp.task('cats', () => {
 
 
 // ////////////////////////////////////
-// DEFAULT TASK
+// default
+// - run-sequence used to run each task in order
+// - tasks can also be run individually
 // ////////////////////////////////////
 
 gulp.task('default', (callback) => sequence('cards', 'cats', callback));
 
 // ///////////////////////////////////////////////
-// Convert YAML
+// new_yaml
+// Utility function to modify cards
 // ///////////////////////////////////////////////
 
 // Task to convert old frontmatter to new format
