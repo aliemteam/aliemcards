@@ -7,6 +7,7 @@ created: 2012/02/24
 updates: null
 categories:
     - Allergy-Immunology
+    - AAAA
 drugs: 'epinepherine, diphenhydramine, ranitidine, glucagon, methylprednisolone'
 
 ---
