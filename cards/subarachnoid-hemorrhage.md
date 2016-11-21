@@ -67,6 +67,7 @@ Definitive Tx: Microvascular aneurysm clipping or endovascular coil embolization
 ## Grading Scales
 
 **Hunt-Hess Scale** (subjective and poor inter-rater variability) 
+
 |  Grade  | Description                                                             |
 |---------|-------------------------------------------------------------------------|
 | 0       | Unruptured                                                              |
@@ -79,6 +80,7 @@ Definitive Tx: Microvascular aneurysm clipping or endovascular coil embolization
 
 Add one grade for <span class="aglmd-moreinfo ui-moreinfo" data-iid="53aa2488d35d3ae92e001f74">serious system disease</span> or severe vasospasm on arteriography**
 World Federation of Neurosurgical Societies** (WFNS) 
+
 |  WFNS Grade    | Glasgow Coma Score  |  Major Focal Deficit |
 |----------------|---------------------|----------------------|
 | 0 (unruptured) | -----               | ------               |

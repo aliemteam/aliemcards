@@ -44,4 +44,4 @@ These numbers assume that the toxic levels are:
 
 ## References
 
-*Williams DJ, Walker JD. A nomogram for calculating maximum dose of local anaesthetic. Anaesthesia 2014. PMID 24820093*
+- Williams DJ, Walker JD. A nomogram for calculating maximum dose of local anaesthetic. Anaesthesia 2014. PMID 24820093

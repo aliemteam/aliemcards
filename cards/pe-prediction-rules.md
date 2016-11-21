@@ -48,6 +48,7 @@ If all 8 present: Only 1% risk for venous thromboembolism (VTE) at 45 days. 
 | Malignancy with treatment within 6 months,  or palliative                               | +1   |
 
 [Wells et al. Thromb Haemost](http://www.ncbi.nlm.nih.gov/pubmed/10744147) & [Wells et al. Ann Intern Med](http://www.ncbi.nlm.nih.gov/pubmed/11453709)
+
 | Total \# Wells points | Risk for PE at 3 months |
 |-----------------------|-------------------------|
 | &lt; 2                | 1.3%                    |
@@ -67,9 +68,9 @@ If all 8 present: Only 1% risk for venous thromboembolism (VTE) at 45 days. 
 | Active malignancy (solid or hematologic, 1 currently active or considered cured &lt; 1 year)  | +1  |
 | Unilateral lower-limb pain                          | +1  |
 | Hemoptysis                                          | +1  |
-| Heart rate ≥ 75 bpm                                 | +1  |
-| Pain on lower-limb deep venous palpation            
- + unilateral edema                                   | +1  |
+| Heart rate ≥ 75 bpm                                 | +1  |           
+| Unilateral edema                                   | +1  |
+| Pain on lower-limb deep venous palpation            | +4 |
 
 | Total \# of points | Incidence of PE |
 |--------------------|-----------------|

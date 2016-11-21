@@ -53,18 +53,18 @@ NP swab for culture (more specific) AND PCR (more sensitive)
 
 ## 5. Medications for Treatment or Post-Exposure Prophylaxis (PEP)
 
--   Age &lt; 1 month: <span class="drug>Azithromycin</span> 10 mg/kg/day x 5 days
--   Age 1-5 months: <span class="drug>Azithromycin</span> 10 mg/kg/day x 5 days (preferred), OR
+-   Age &lt; 1 month: <span class="drug"">Azithromycin</span> 10 mg/kg/day x 5 days
+-   Age 1-5 months: <span class="drug">Azithromycin</span> 10 mg/kg/day x 5 days (preferred), OR
     -   <span class=
-  "drug>Erythromycin</span>: 40-50 mg/kd/day QID x 14 days
+  "drug">Erythromycin</span>: 40-50 mg/kd/day QID x 14 days
     -   <span class=
-  "drug>Clarithromycin</span>: 15 mg/kg/day BID x 7 days
+  "drug">Clarithromycin</span>: 15 mg/kg/day BID x 7 days
     -   <span class=
-  "drug>TMP/SMZ</span>: 8 mg/kg/day of TMP BID x 14 days
--   Age &gt; 5 months: <span class="drug>Azithromycin</span> 10 mg/kg (max 500 mg) on day 1, then 5 mg/kg/day (max 250 mg) days 2-5, OR
--   <span class="drug>Erythromycin</span>: 40-50 mg/kg/day (max 2 g/day) QID x 14 days
--   <span class="drug>Clarithromcin</span>: 15 mg/kg/day (max 1 g/day) BID x 7 days
--   <span class="drug>TMP</span>/SMZ: 8 mg/kg/day of TMP (max 320 mg) BID x 14 days
+  "drug">TMP/SMZ</span>: 8 mg/kg/day of TMP BID x 14 days
+-   Age &gt; 5 months: <span class="drug">Azithromycin</span> 10 mg/kg (max 500 mg) on day 1, then 5 mg/kg/day (max 250 mg) days 2-5, OR
+-   <span class="drug">Erythromycin</span>: 40-50 mg/kg/day (max 2 g/day) QID x 14 days
+-   <span class="drug">Clarithromcin</span>: 15 mg/kg/day (max 1 g/day) BID x 7 days
+-   <span class="drug">TMP</span>/SMZ: 8 mg/kg/day of TMP (max 320 mg) BID x 14 days
 
 **Note**: Report all patients treated to Deptartment of Public Health, empirically or test +
 

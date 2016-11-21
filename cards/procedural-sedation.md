@@ -88,6 +88,7 @@ Select sedative AND analgesic if both are required. Match duration of procedure
 | <span class="drug">Ketofol</span> 0.5 mg/kg<br>1:1 ratio of <br>ketamine:propofol| CV stable, amnesia, analgesia | |
 
 **ANALGESIC medications**
+
 | **Medication / Initial IV dose**  | **Advantage**  | **Side Effects **  |
 |--------------------------|----------------|-----------------------------|
 | <span class="drug">Fentanyl</span> 1-2 mcg/kg      | Short duration | decreased respiratory rate  |
@@ -95,6 +96,7 @@ Select sedative AND analgesic if both are required. Match duration of procedure
 | <span class="drug">Morphine</span> 0.1-0.2 mg/kg   |                | decreased respiratory rate and blood pressure |
 
 **DISSOCIATIVE medications**
+
 | **Medication / Initial IV dose** | **Advantage**             |
 |----------------------------------|---------------------------|
 | <span class="drug">Ketamine</span> 1-2 mg/kg               |                           |
