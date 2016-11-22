@@ -17,7 +17,7 @@ drugs: null
 
 # Abdominal Pain - Diagnostic Studies
 
-**Imaging:**
+## Imaging
 
 **Plain abdominal radiography**
 
