@@ -41,11 +41,11 @@ Categories.propTypes = {
 Categories.defaultProps = {};
 
 const Results = ({ cats }) =>
-  <div className="taxonomy-list">
+  <ul className="cards-list">
     {cats.map((cat) =>
-      <Link to={`/categories/${cat.slug}`}><h2>{cat.title}</h2></Link>
+      <li><Link to={`/categories/${cat.slug}`}>{cat.title}</Link></li>
     )}
-  </div>;
+  </ul>;
 
 Results.propTypes = {
   cats: React.PropTypes.array,

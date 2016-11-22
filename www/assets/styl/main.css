@@ -831,6 +831,9 @@ select {
     background-color: #f2f2f2;
     padding: 0.5rem 1rem;
   }
+  .backButton {
+    display: none;
+  }
   .breadcrumbs {
     display: block;
   }

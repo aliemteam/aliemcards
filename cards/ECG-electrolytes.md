@@ -8,7 +8,7 @@ updates: null
 categories:
     - Cardiovascular
     - ECG
-    - Endocrine
+    - Endocrinology
 drugs: null
 
 ---

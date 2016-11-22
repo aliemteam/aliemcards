@@ -7,7 +7,6 @@ created: 2009/12/29
 updates: null
 categories:
     - 'Infectious Disease'
-    - AAAA
 drugs: null
 
 ---
