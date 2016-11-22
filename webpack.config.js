@@ -26,15 +26,15 @@ module.exports = {
   resolve: {
     extensions: ['', '.js', '.json'],
   },
-  plugins: [
-    new webpack.optimize.UglifyJsPlugin({
-      compress: {
-        warnings: true,
-        dead_code: true,
-        unused: true,
-        drop_debugger: true,
-        drop_console: true,
-      },
-    }),
-  ],
+  // plugins: [
+  //   new webpack.optimize.UglifyJsPlugin({
+  //     compress: {
+  //       warnings: true,
+  //       dead_code: true,
+  //       unused: true,
+  //       drop_debugger: true,
+  //       drop_console: true,
+  //     },
+  //   }),
+  // ],
 };
