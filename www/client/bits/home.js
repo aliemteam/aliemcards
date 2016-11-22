@@ -4,6 +4,7 @@ import axios from 'axios';
 import Search from './search';
 import TopBar from './topbar';
 import CardList from './card-list';
+import Footer from './footer';
 
 
 class Home extends React.Component {
@@ -54,6 +55,7 @@ class Home extends React.Component {
               </div>
             </div>
           </div>
+          <Footer />
         </div>
       </div>
     );
