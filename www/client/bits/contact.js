@@ -6,10 +6,15 @@ class Contact extends React.Component {
     super(props);
   }
 
+  clickHander(e) {
+    console.log('clicker');
+  }
+
   render() {
     return (
       <div>
         <h1>Contact Us</h1>
+        <a href="#" onClick={this.clickHandler}>test click</a>
       </div>
     );
   }
