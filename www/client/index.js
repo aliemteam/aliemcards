@@ -12,7 +12,7 @@ import Card from './bits/card';
 import Category from './bits/category';
 import Categories from './bits/categories';
 import About from './bits/about';
-import Contact from './bits/contact';
+import Contact from './bits/contactform';
 
 injectTapEventPlugin();
 

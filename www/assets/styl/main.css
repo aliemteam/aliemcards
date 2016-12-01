@@ -790,6 +790,19 @@ li {
 .contact #company {
   display: none;
 }
+.invalidError {
+  background-color: #ffbfbf;
+  color: #f33;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 2px;
+}
+.invalidShow {
+  display: block;
+}
+.invalidHide {
+  display: none;
+}
 html {
   height: 100%;
 }

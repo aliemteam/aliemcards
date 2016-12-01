@@ -94,9 +94,9 @@
 
 	var _about2 = _interopRequireDefault(_about);
 
-	var _contact = __webpack_require__(579);
+	var _contactform = __webpack_require__(580);
 
-	var _contact2 = _interopRequireDefault(_contact);
+	var _contactform2 = _interopRequireDefault(_contactform);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -131,7 +131,7 @@
 	      _reactRouter.Route,
 	      { name: 'Pages', path: '/pages', component: _main2.default },
 	      _react2.default.createElement(_reactRouter.Route, { name: 'About', path: 'about', component: _about2.default }),
-	      _react2.default.createElement(_reactRouter.Route, { name: 'Contact', path: 'contact', component: _contact2.default })
+	      _react2.default.createElement(_reactRouter.Route, { name: 'Contact', path: 'contact', component: _contactform2.default })
 	    ),
 	    _react2.default.createElement(_reactRouter.Route, { name: 'Not Found', path: '*', component: _notFound2.default })
 	  )
@@ -38379,7 +38379,8 @@
 	exports.default = About;
 
 /***/ },
-/* 579 */
+/* 579 */,
+/* 580 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -38394,7 +38395,13 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
+	var _axios = __webpack_require__(539);
+
+	var _axios2 = _interopRequireDefault(_axios);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -38408,29 +38415,108 @@
 	  function Contact(props) {
 	    _classCallCheck(this, Contact);
 
-	    return _possibleConstructorReturn(this, (Contact.__proto__ || Object.getPrototypeOf(Contact)).call(this, props));
+	    var _this = _possibleConstructorReturn(this, (Contact.__proto__ || Object.getPrototypeOf(Contact)).call(this, props));
+
+	    _this.changeHandler = _this.changeHandler.bind(_this);
+	    _this.sendHandler = _this.sendHandler.bind(_this);
+	    _this.state = {
+	      formValues: {
+	        name: '',
+	        email: '',
+	        message: ''
+	      },
+	      formInvalid: false
+	    };
+	    return _this;
 	  }
 
 	  _createClass(Contact, [{
-	    key: 'clickHander',
-	    value: function clickHander(e) {
-	      console.log('clicker');
+	    key: 'sendHandler',
+	    value: function sendHandler(e) {
+	      e.preventDefault();
+	      var form = this.state.formValues;
+	      var emptyField = Object.keys(form).some(function (key) {
+	        return form[key] === '';
+	      });
+	      if (emptyField) {
+	        this.setState({ formInvalid: 'All fields required' });
+	        return;
+	      }
+	      var emailRegex = /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+	      var validEmail = form.email.match(emailRegex);
+	      if (!validEmail) {
+	        this.setState({ formInvalid: 'Valid Email Required' });
+	        return;
+	      }
+	      if (!this.state.formInvalid) {
+	        console.log(this.state.formValues);
+	        _axios2.default.post('/contacthandler', this.state.formValues).then(function (res) {
+	          console.log(res);
+	        }).catch(function (error) {
+	          console.log(error);
+	        });
+	      }
+	    }
+	  }, {
+	    key: 'changeHandler',
+	    value: function changeHandler(e) {
+	      var _this2 = this;
+
+	      var newFormValues = Object.assign(this.state.formValues, _defineProperty({}, e.target.name, e.target.value));
+	      this.setState({ formValues: newFormValues, formInvalid: false }, function () {
+	        return console.log(_this2.state);
+	      });
 	    }
 	  }, {
 	    key: 'render',
 	    value: function render() {
 	      return _react2.default.createElement(
 	        'div',
-	        null,
+	        { className: 'contact' },
 	        _react2.default.createElement(
 	          'h1',
 	          null,
-	          'Contact Us'
+	          'ContactForm'
 	        ),
 	        _react2.default.createElement(
-	          'a',
-	          { href: '#', onClick: this.clickHandler },
-	          'test click'
+	          'div',
+	          { className: this.state.formInvalid ? "invalidError invalidShow" : "invalidError invalidHide" },
+	          'Invalid Submission: ',
+	          this.state.formInvalid
+	        ),
+	        _react2.default.createElement(
+	          'h3',
+	          null,
+	          'All fields required.'
+	        ),
+	        _react2.default.createElement(
+	          'form',
+	          null,
+	          _react2.default.createElement(
+	            'label',
+	            { htmlFor: 'name' },
+	            'Name:'
+	          ),
+	          _react2.default.createElement('input', { type: 'text', name: 'name', onChange: this.changeHandler }),
+	          _react2.default.createElement(
+	            'label',
+	            { htmlFor: 'email' },
+	            'Email:'
+	          ),
+	          _react2.default.createElement('input', { type: 'email', name: 'email', onChange: this.changeHandler }),
+	          _react2.default.createElement(
+	            'label',
+	            { htmlFor: 'message' },
+	            'Message:'
+	          ),
+	          _react2.default.createElement('textarea', { name: 'message', onChange: this.changeHandler }),
+	          _react2.default.createElement('input', { type: 'text', name: 'company', id: 'company' }),
+	          _react2.default.createElement('br', null),
+	          _react2.default.createElement(
+	            'button',
+	            { type: 'submit', onClick: this.sendHandler },
+	            'Send'
+	          )
 	        )
 	      );
 	    }
