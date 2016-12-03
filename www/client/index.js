@@ -1,7 +1,6 @@
 import 'babel-polyfill';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import injectTapEventPlugin from 'react-tap-event-plugin';
 import { IndexRoute, Router, Route, browserHistory } from 'react-router';
 
 import NotFound from './bits/not-found';
@@ -14,7 +13,7 @@ import Categories from './bits/categories';
 import About from './bits/about';
 import Contact from './bits/contactform';
 
-injectTapEventPlugin();
+require('dotenv').config();
 
 ReactDOM.render((
   <Router history={browserHistory}>
