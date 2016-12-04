@@ -46,8 +46,8 @@ app.get('*', (req, res) => {
 // run it
 // use OpenShift environmental variables, or set development defaults
 const serverPort = process.env.OPENSHIFT_NODEJS_PORT || 3000;
-const serverIpAddress = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1';
+const serverIpAddress = process.env.OPENSHIFT_NODEJS_IP || 'localhost';
 
 app.listen(serverPort, serverIpAddress, () => {
-  console.log('Example app listening on port 3000!');
+  console.log(`Example app listening on port ${serverPort}!`);
 });
