@@ -13,8 +13,6 @@ import Categories from './bits/categories';
 import About from './bits/about';
 import Contact from './bits/contactform';
 
-require('dotenv').config();
-
 ReactDOM.render((
   <Router history={browserHistory}>
     <Route name="Home" path="/">

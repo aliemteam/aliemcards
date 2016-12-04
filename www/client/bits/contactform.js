@@ -12,7 +12,7 @@ class Contact extends React.Component {
         name: '',
         email: '',
         message: '',
-        company: '',
+        company: 'bot',
       },
       formInvalid: false,
     };
@@ -32,18 +32,13 @@ class Contact extends React.Component {
       this.setState({ formInvalid: 'Valid Email Required' });
       return;
     }
-    if (form.company) {
+    if (form.company != 'bot') {
       console.log('No bots allowed!');
       return;
     }
     if (!this.state.formInvalid) {
       console.log(this.state.formValues);
-      axios({
-        method: 'post',
-        url: 'https://aliem-slackbot.herokuapp.com/aliemcards/messages/contact-form',
-        data: this.state.formValues,
-        headers: { ALIEM_API_KEY: process.env.ALIEM_API_KEY },
-      })
+      axios.post('/contacthandler', { data: this.state.formValues })
       .then((res) => { console.log(res); })
       .catch((error) => { console.log(error); });
     }
@@ -57,7 +52,7 @@ class Contact extends React.Component {
   render() {
     return (
       <div className="contact">
-        <h1>ContactForm</h1>
+        <h1>Contact Form</h1>
         <div className={this.state.formInvalid ? "invalidError invalidShow" : "invalidError invalidHide"}>
           Invalid Submission: {this.state.formInvalid}
         </div>

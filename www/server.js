@@ -4,6 +4,7 @@ const compression = require('compression');
 const path = require('path');
 const bodyParser = require('body-parser');
 const api = require('./routes/api');
+const axios = require('axios');
 
 
 // gzip everything
@@ -19,8 +20,21 @@ app.use('/', express.static(path.join(__dirname, 'assets')));
 app.use('/api', api);
 
 app.post('/contacthandler', (req, res) => {
-  console.log(req.body);
-  res.send({ status: 'success', data: 'some' });
+  console.log(req.body.data);
+  axios({
+    method: 'post',
+    url: 'https://aliem-slackbot.herokuapp.com/aliemcards/messages/contact-form',
+    data: req.body,
+    headers: { ALIEM_API_KEY: process.env.ALIEM_API_KEY },
+  })
+  .then((resp) => {
+    console.log(resp);
+    res.send({ status: 'success', data: 'sent' });
+  })
+  .catch((error) => {
+    console.log(error);
+    res.send({ status: 'error', data: 'not sent' });
+  });
 });
 
 // all other routes get served this

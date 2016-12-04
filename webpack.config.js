@@ -16,7 +16,7 @@ module.exports = {
       {
         test: /\.js$/,
         include: path.resolve(__dirname, 'www', 'client'),
-        loader: 'babel',
+        loader: 'babel-loader',
         query: {
           presets: ['es2015', 'react'],
         },
@@ -24,7 +24,7 @@ module.exports = {
     ],
   },
   resolve: {
-    extensions: ['', '.js', '.json'],
+    extensions: ['*', '.js', '.json'],
   },
   // plugins: [
   //   new webpack.optimize.UglifyJsPlugin({
