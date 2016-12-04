@@ -25,13 +25,12 @@ marked.setOptions({
   smartypants: false,
 });
 
+/**
+ * Cards
+ */
 
-// ///////////////////////////////////////////////
-// cards
-// ///////////////////////////////////////////////
-
-const buildCardObject = function(filename, meta, contents) {
-  return {
+const buildCardObject = (filename, meta, contents) => (
+  {
     title: meta.title,
     slug: filename.split('.')[0].toLowerCase(),
     drugs: (meta.drugs) ? meta.drugs.split(', ') : null,
@@ -40,16 +39,16 @@ const buildCardObject = function(filename, meta, contents) {
     created: meta.created,
     updates: meta.updates,
     content: marked(contents.toString()),
-  };
-};
+  }
+);
 
 // make new Card documents based on directory of markdown files
 // wrap in Promise to control async operations
-const cardsToMongo = function(glob) {
-  return new Promise((resolve, reject) => {
+const cardsToMongo = (glob) => (
+  new Promise((resolve, reject) => {
     gulp.src(glob)
     .pipe(fm({ property: 'meta', remove: true }))
-    .pipe(through.obj(function(file, enc, done) {
+    .pipe(through.obj((file, enc, done) => {
       const card = new Card(buildCardObject(file.relative, file.meta, file.contents));
       this.push(card);
       card.save().then(() => done());
@@ -59,24 +58,24 @@ const cardsToMongo = function(glob) {
     .on('data', (card) => gutil.log(gutil.colors.green(`Saved ${card.title}`)))
     .on('end', resolve)
     .on('error', reject);
-  });
-};
+  })
+);
 
-gulp.task('cards', function() {
+gulp.task('cards', () => {
   mongoose.connect(process.env.MLAB_URI);
   return Card.find()
-  .remove({}) // empty Card collection
-  .exec()
-  .then(() => cardsToMongo('./cards/*.md'))
-  .then(() => mongoose.connection.close())
-  .catch((err) => gutil.log(gutil.colors.magenta(err)));
+    .remove({}) // empty Card collection
+    .exec()
+    .then(() => cardsToMongo('./cards/*.md'))
+    .then(() => mongoose.connection.close())
+    .catch((err) => gutil.log(gutil.colors.magenta(err)));
 });
 
-// ///////////////////////////////////////////////
-// cats
-// ///////////////////////////////////////////////
+/**
+ * Categories
+ */
 
-const buildUniqueCatArray = function(files) {
+const buildUniqueCatArray = (files) => {
   const categories = [];
 
   files.forEach((file) => {
@@ -98,18 +97,18 @@ const buildUniqueCatArray = function(files) {
   return categories;
 };
 
-const saveCat = function(cat) {
-  return new Category(cat)
+const saveCat = (cat) => (
+  new Category(cat)
     .save()
-    .then((saved) => gutil.log(gutil.colors.blue(`Category ${saved.title}`)));
-};
+    .then((saved) => gutil.log(gutil.colors.blue(`Category ${saved.title}`)))
+);
 
-const categoriesToMongo = function(glob) {
-  return new Promise((resolve, reject) => {
+const categoriesToMongo = (glob) => (
+  new Promise((resolve, reject) => {
     gulp.src(glob)
     .pipe(fm({ property: 'meta', remove: true })) // get frontmatter
     .pipe(gutil.buffer()) // buffer all cards into single array
-    .pipe(through.obj(function(files, enc, done) {
+    .pipe(through.obj((files, enc, done) => {
       const categories = buildUniqueCatArray(files);
       const promises = Promise.all(categories.map(saveCat));
       promises.then(() => {
@@ -120,39 +119,29 @@ const categoriesToMongo = function(glob) {
     .on('data', () => gutil.log(gutil.colors.magenta('Promise All Complete')))
     .on('end', resolve)
     .on('error', reject);
-  });
-};
+  })
+);
 
 gulp.task('cats', () => {
   mongoose.connect(process.env.MLAB_URI);
   return Category.find()
-  .remove({}) // empty Category collection
-  .exec()
-  .then(() => categoriesToMongo('./cards/*.md'))
-  .then(() => mongoose.connection.close())
-  .catch((err) => gutil.log(gutil.colors.magenta(err)));
+    .remove({}) // empty Category collection
+    .exec()
+    .then(() => categoriesToMongo('./cards/*.md'))
+    .then(() => mongoose.connection.close())
+    .catch((err) => gutil.log(gutil.colors.magenta(err)));
 });
-
-
-// ////////////////////////////////////
-// default
-// - run-sequence used to run each task in order
-// - tasks can also be run individually
-// ////////////////////////////////////
 
 gulp.task('default', (callback) => sequence('cards', 'cats', callback));
 
-// ///////////////////////////////////////////////
-// new_yaml
-// Utility function to modify cards
-// ///////////////////////////////////////////////
-
-// Task to convert old frontmatter to new format
+/**
+ * `new_yaml`: Utility function to modify cards
+ */
 gulp.task('new_yaml', () =>
   gulp.src('./oldcards/*.md')
   .pipe(debug({ title: 'build_db:' }))
   .pipe(fm({ property: 'meta', remove: true }))
-  .pipe(through.obj(function (file, enc, callback) {
+  .pipe(through.obj((file, enc, callback) => {
     const title = file.meta.title;
     const categories = file.meta.categories;
     const drugs = file.meta.drugs;
@@ -171,8 +160,8 @@ gulp.task('new_yaml', () =>
       drugs,
     };
 
-    const rebuildString = fmblock + YAML.stringify(frontmatter) + '\n' + fmblock + content;
-    file.contents = new Buffer(rebuildString);
+    const rebuildString = `${fmblock}${YAML.stringify(frontmatter)}\n${fmblock}${content}`;
+    file.contents = new Buffer(rebuildString); // eslint-disable-line
     this.push(file);
     callback();
   }))

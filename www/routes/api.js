@@ -10,7 +10,7 @@ require('dotenv').config();
 
 // ExpressJS Config
 const express = require('express');
-const router = express.Router();
+const router = express.Router(); // eslint-disable-line
 
 // MongooseJS Config
 // first variable is the OpenShift custom variable, second is the dev default

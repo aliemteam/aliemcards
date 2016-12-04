@@ -3,6 +3,14 @@
   "version": "0.1.0",
   "description": "ALiEM Cards deployment scripts and website code.",
   "main": "./www/server.js",
+  "author": "Jeremy Voros",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./www/server.js",
+    "dev": "nodemon ./www/server.js",
+    "build": "webpack --config webpack.config.js --watch --progress --colors"
+  },
   "dependencies": {
     "axios": "^0.15.0",
     "body-parser": "^1.15.2",
@@ -50,12 +58,6 @@
     "webpack": "^1.12.14",
     "webpack-dev-server": "^1.14.1"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./www/server.js",
-    "dev": "nodemon ./www/server.js",
-    "build": "webpack --config webpack.config.js --watch --progress --colors"
-  },
   "eslintConfig": {
     "env": {
       "node": true,
@@ -68,7 +70,5 @@
       "no-console": 0,
       "react/jsx-no-bind": 0
     }
-  },
-  "author": "Jeremy Voros",
-  "license": "ISC"
+  }
 }
