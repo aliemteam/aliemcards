@@ -1,10 +1,10 @@
 import React from 'react';
 import axios from 'axios';
 
-import Search from './search';
-import TopBar from './topbar';
-import CardList from './card-list';
-import Footer from './footer';
+import Search from '../partials/search';
+import TopBar from '../partials/topbar';
+import CardList from '../cards/card-list';
+import Footer from '../partials/footer';
 
 
 class Home extends React.Component {

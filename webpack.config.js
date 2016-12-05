@@ -2,20 +2,23 @@ const path = require('path');
 const webpack = require('webpack');
 
 module.exports = {
-  context: path.resolve(__dirname, 'www', 'client'),
+  context: path.resolve(__dirname, 'app', 'client'),
   // devtool: 'eval-source-map',
   entry: {
     javascript: './index.js',
   },
   output: {
-    path: path.resolve(__dirname, 'www', 'assets'),
+    path: path.resolve(__dirname, 'app', 'client', 'assets'),
     filename: 'index_bundle.js',
+  },
+  devServer: {
+    contentBase: path.resolve(__dirname, 'app', 'client', 'assets'),
+    hot: true,
   },
   module: {
     loaders: [
       {
         test: /\.js$/,
-        include: path.resolve(__dirname, 'www', 'client'),
         loader: 'babel-loader',
         query: {
           presets: ['es2015', 'react'],

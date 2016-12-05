@@ -8,7 +8,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./app/server/server.js",
-    "dev": "webpack-dev-server --open",
+    "dev": "nodemon ./app/server/server.js",
     "build": "webpack --config webpack.config.js --watch --progress --colors"
   },
   "dependencies": {
@@ -52,6 +52,7 @@
     "eslint-plugin-react": "^5.1.1",
     "extract-text-webpack-plugin": "^2.0.0-beta.4",
     "json-loader": "^0.5.4",
+    "nodemon": "^1.11.0",
     "style-loader": "^0.13.1",
     "stylus": "^0.54.5",
     "stylus-loader": "^2.1.0",

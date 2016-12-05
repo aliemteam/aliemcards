@@ -3,15 +3,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { IndexRoute, Router, Route, browserHistory } from 'react-router';
 
-import NotFound from './bits/not-found';
-import Home from './bits/home';
+import NotFound from './pages/not-found';
+import Home from './pages/home';
 import Main from './partials/main';
-import Cards from './bits/cards';
-import Card from './bits/card';
-import Category from './bits/category';
-import Categories from './bits/categories';
-import About from './bits/about';
-import Contact from './bits/contactform';
+import Cards from './cards/cards';
+import Card from './cards/card';
+import Category from './categories/category';
+import Categories from './categories/categories';
+import About from './pages/about';
+import Contact from './pages/contactform';
 
 ReactDOM.render((
   <Router history={browserHistory}>
