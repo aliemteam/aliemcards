@@ -10,17 +10,17 @@ require('dotenv').config();
 
 // ExpressJS Config
 const express = require('express');
-const router = express.Router();
+const router = express.Router(); // eslint-disable-line
 
 // MongooseJS Config
-// first variable is the OpenShift custom variable, second is the dev default
-const mlaburi = process.env.MLAB_CONNECT_STRING || process.env.MLAB_URI;
+// .env constants, work for dev and on OpenShift
+const mlaburi = process.env.MLAB_CONNECT_STRING;
 
 
 const mongoose = require('mongoose');
-const Card = require('../../build_db/models/card');
-const Tag = require('../../build_db/models/taxonomy').tag;
-const Category = require('../../build_db/models/taxonomy').category;
+const Card = require('../../db_schema/models/card');
+const Tag = require('../../db_schema/models/taxonomy').tag;
+const Category = require('../../db_schema/models/taxonomy').category;
 
 mongoose.connect(mlaburi);
 

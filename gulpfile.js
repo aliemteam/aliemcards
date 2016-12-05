@@ -1,3 +1,10 @@
+/**
+ *
+ * ALIEM Cards Build File
+ * Gulp build process to upload cards to an mLab mongo database
+ *
+ */
+
 const gulp = require('gulp');
 const gutil = require('gulp-util');
 const debug = require('gulp-debug');
@@ -11,8 +18,8 @@ const sequence = require('run-sequence');
 // Get environemental variables
 require('dotenv').config();
 const mongoose = require('mongoose');
-const Card = require('./build_db/models/card');
-const Category = require('./build_db/models/taxonomy').category;
+const Card = require('./db_schema/models/card');
+const Category = require('./db_schema/models/taxonomy').category;
 
 marked.setOptions({
   renderer: new marked.Renderer(),
@@ -63,7 +70,7 @@ const cardsToMongo = function(glob) {
 };
 
 gulp.task('cards', function() {
-  mongoose.connect(process.env.MLAB_URI);
+  mongoose.connect(process.env.MLAB_CONNECT_STRING);
   return Card.find()
   .remove({}) // empty Card collection
   .exec()

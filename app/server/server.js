@@ -3,7 +3,7 @@ const app = express();
 const compression = require('compression');
 const path = require('path');
 const bodyParser = require('body-parser');
-const api = require('./routes/api');
+const api = require('./api');
 const axios = require('axios');
 
 
@@ -14,7 +14,7 @@ app.use(compression());
 app.use(bodyParser.json());
 
 // serve static files
-app.use('/', express.static(path.join(__dirname, 'assets')));
+app.use('/', express.static(path.join(__dirname, '..', 'client', 'assets')));
 
 // import api routes
 app.use('/api', api);
@@ -40,7 +40,7 @@ app.post('/contacthandler', (req, res) => {
 // all other routes get served this
 app.get('*', (req, res) => {
   res.set('X-UA-Compatible', 'IE=edge');
-  res.sendFile(path.join(__dirname, 'client', 'index.html'));
+  res.sendFile(path.join(__dirname, '..', 'client', 'index.html'));
 });
 
 // run it

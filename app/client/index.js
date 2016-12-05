@@ -5,7 +5,7 @@ import { IndexRoute, Router, Route, browserHistory } from 'react-router';
 
 import NotFound from './bits/not-found';
 import Home from './bits/home';
-import Main from './bits/main';
+import Main from './partials/main';
 import Cards from './bits/cards';
 import Card from './bits/card';
 import Category from './bits/category';

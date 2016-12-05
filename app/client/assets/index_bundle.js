@@ -17773,8 +17773,6 @@ var Contact = function (_React$Component) {
   return Contact;
 }(_react2.default.Component);
 
-;
-
 Contact.propTypes = {};
 
 Contact.defaultProps = {};
