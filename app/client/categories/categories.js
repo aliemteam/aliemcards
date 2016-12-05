@@ -1,7 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 import { Link } from 'react-router';
-import Loader from './loader';
+import Loader from '../partials/loader';
 
 class Categories extends React.Component {
 

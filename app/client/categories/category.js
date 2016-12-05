@@ -1,7 +1,6 @@
 import React from 'react';
 import axios from 'axios';
-import { Link } from 'react-router';
-import CardList from './card-list';
+import CardList from '../cards/card-list';
 
 
 class Category extends React.Component {

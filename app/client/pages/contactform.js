@@ -71,8 +71,7 @@ class Contact extends React.Component {
       </div>
     );
   }
-
-};
+}
 
 Contact.propTypes = {
 
