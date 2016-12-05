@@ -2,7 +2,7 @@
   "name": "ALiEMCards",
   "version": "0.1.0",
   "description": "ALiEM Cards deployment scripts and website code.",
-  "main": "./app/server.js",
+  "main": "./app/server/server.js",
   "author": "Jeremy Voros",
   "license": "ISC",
   "scripts": {
@@ -50,13 +50,13 @@
     "eslint-plugin-import": "^1.8.1",
     "eslint-plugin-jsx-a11y": "^1.2.2",
     "eslint-plugin-react": "^5.1.1",
+    "extract-text-webpack-plugin": "^2.0.0-beta.4",
     "json-loader": "^0.5.4",
-    "nodemon": "^1.10.2",
     "style-loader": "^0.13.1",
     "stylus": "^0.54.5",
     "stylus-loader": "^2.1.0",
-    "webpack": "^1.12.14",
-    "webpack-dev-server": "^1.14.1"
+    "webpack": "^2.1.0-beta.27",
+    "webpack-dev-server": "^1.16.2"
   },
   "eslintConfig": {
     "env": {
