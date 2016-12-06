@@ -60,11 +60,11 @@ drugs: adenosine
 
 ### Adding Cards to Database
 
-The cards are processed using [Gulp](http://gulpjs.com). There is a `gulpfile.js` in the main directory contains the code to run this task. It is run from the command line via `gulp`.
+The cards are processed using [Gulp](http://gulpjs.com). There is a `gulpfile.js` in the main directory contains the code to run this task. It is run from the command line via `npm run gulp`. [Torus](http://torus.sh) is needed for database access secrets.
 
 The gulp task runs through each markdown file, processes the frontmatter and then uploads new cards, and updates changed cards in a [Mongo database](https://www.mongodb.com). The database is hosted on [MLab](https://mlab.com)'s free tier.
 
-Communication from the script to the database is via the [Mongoose](http://mongoosejs.com) ORM. The necessary `Schema` files for both `gulpfile.js` build and then `api.js` server are in the `db_schema` folder.
+Communication from the script to the database is via the [Mongoose](http://mongoosejs.com) ORM. The necessary `Schema` files for both `gulpfile.js` build and then `api.js` server are in the `/app/server/models` folder.
 
 Configuration and authentication information is stored in a `.env` file that is not uploaded to the GitHub repository for security reasons. Using the [dotenv](https://www.npmjs.com/package/dotenv) package these variables are available throughout the app. These details also need to be added to OpenShift as custom environmental variables - more below.
 
