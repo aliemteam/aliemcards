@@ -8,7 +8,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./app/server/server.js",
-    "dev": "nodemon ./app/server/server.js",
+    "dev": "torus run nodemon ./app/server/server.js",
     "build": "webpack --config webpack.config.js --watch --progress --colors"
   },
   "dependencies": {
