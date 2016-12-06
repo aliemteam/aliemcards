@@ -9,7 +9,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./app/server/server.js",
     "dev": "torus run nodemon ./app/server/server.js",
-    "build": "webpack --config webpack.config.js --watch --progress --colors"
+    "build": "webpack --config webpack.config.js --watch --progress --colors",
+    "gulp": "torus run gulp"
   },
   "dependencies": {
     "axios": "^0.15.0",

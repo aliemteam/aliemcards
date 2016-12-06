@@ -10,8 +10,6 @@ const sequence = require('run-sequence');
 const mongoose = require('mongoose');
 const { Card, Category } = require('./app/server/models/');
 
-process.exit(0);
-
 marked.setOptions({
   renderer: new marked.Renderer(),
   gfm: true,
@@ -48,8 +46,7 @@ const cardsToMongo = glob => (
     .pipe(fm({ property: 'meta', remove: true }))
     .pipe(through.obj((file, enc, done) => {
       const card = new Card(buildCardObject(file.relative, file.meta, file.contents));
-      this.push(card);
-      card.save().then(() => done());
+      card.save().then(() => done(null, card));
     }))
     // through2 has to send stream somewhere in order to emit 'end' event
     // github.com/rvagg/through2/issues/31
@@ -110,8 +107,7 @@ const categoriesToMongo = glob => (
       const categories = buildUniqueCatArray(files);
       const promises = Promise.all(categories.map(saveCat));
       promises.then(() => {
-        this.push(categories);
-        done();
+        done(null, categories);
       });
     }))
     .on('data', () => gutil.log(gutil.colors.magenta('Promise All Complete')))
@@ -161,8 +157,7 @@ gulp.task('new_yaml', () => (
 
       const rebuildString = `${fmblock}${YAML.stringify(frontmatter)}\n${fmblock}${content}`;
       file.contents = new Buffer(rebuildString); // eslint-disable-line
-      this.push(file);
-      callback();
+      callback(null, file);
     }))
     .pipe(gulp.dest('./cards'))
 ));
