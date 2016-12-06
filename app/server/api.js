@@ -1,39 +1,18 @@
-/**
-* ALiEM Cards API v 0.2.0
-*
-* JSON response based on JSend standards: http://labs.omniti.com/labs/jsend
-* http://stackoverflow.com/questions/12806386/standard-json-api-response-format
-*
-**/
-// Get environemental variables
-require('dotenv').config();
-
-// ExpressJS Config
 const express = require('express');
+const mongoose = require('mongoose');
+const { Card, Category, Tag } = require('./models/');
+
 const router = express.Router(); // eslint-disable-line
 
-// MongooseJS Config
-// .env constants, work for dev and on OpenShift
-const mlaburi = process.env.MLAB_CONNECT_STRING;
+const MLAB_CONNECT_STRING = process.env.MLAB_CONNECT_STRING;
+mongoose.connect(MLAB_CONNECT_STRING);
 
-
-const mongoose = require('mongoose');
-const Card = require('../../db_schema/models/card');
-const Tag = require('../../db_schema/models/taxonomy').tag;
-const Category = require('../../db_schema/models/taxonomy').category;
-
-mongoose.connect(mlaburi);
-
-// RESPONSE HELPER
-const apires = (s, d) => ({ status: s, data: d });
-
-// INDEX
+// Response Helper
+const response = (s, d) => ({ status: s, data: d });
 
 router.get('/', (req, res) => {
   res.send('Here is the api');
 });
-
-// CARDS
 
 router.get('/cards', (req, res) => {
   Card.find()
@@ -41,10 +20,10 @@ router.get('/cards', (req, res) => {
   .sort({ title: 1 })
   .exec()
   .then((cards) => {
-    res.json(apires('success', cards));
+    res.json(response('success', cards));
   })
   .catch((error) => {
-    res.json(apires('fail', `database error: ${error}`));
+    res.json(response('fail', `database error: ${error}`));
   });
 });
 
@@ -53,61 +32,57 @@ router.get('/cards/:slug', (req, res) => {
   Card.findOne({ slug: searchSlug }).exec()
   .then((card) => {
     if (card) {
-      res.json(apires('success', card));
+      res.json(response('success', card));
     } else {
-      res.json(apires('fail', 'card not found'));
+      res.json(response('fail', 'card not found'));
     }
   })
   .catch((error) => {
-    res.json(apires('fail', `database error: ${error}`));
+    res.json(response('fail', `database error: ${error}`));
   });
 });
-
-// CATEGORIES
 
 router.get('/categories', (req, res) => {
   Category.find().sort({ title: 1 })
   .exec()
   .then((cats) => {
-    res.json(apires('success', cats));
+    res.json(response('success', cats));
   })
   .catch((error) => {
-    res.json(apires('fail', `database error: ${error}`));
+    res.json(response('fail', `database error: ${error}`));
   });
 });
 
 router.get('/categories/:slug', (req, res) => {
-  const searchSlug = req.params.slug;
+  const slug = req.params.slug;
   const category = {};
-  Category.findOne({ slug: searchSlug })
+  Category.findOne({ slug })
   .exec()
-  .then((cat) => {
-    category.title = cat.title;
-    category.slug = cat.slug;
-    return Card.find({ categories: cat.slug })
+  .then((data) => {
+    category.title = data.title;
+    category.slug = data.slug;
+    return Card.find({ categories: data.slug })
       .sort({ slug: 1 })
       .select('slug title categories')
       .exec();
   })
   .then((cards) => {
     category.cards = cards;
-    res.json(apires('success', category));
+    res.json(response('success', category));
   })
   .catch((error) => {
-    res.json(apires('fail', `database error: ${error}`));
+    res.json(response('fail', `database error: ${error}`));
   });
 });
-
-// TAGS
 
 router.get('/tags', (req, res) => {
   Tag.find().sort({ title: 1 })
   .exec()
   .then((tags) => {
-    res.json(apires('success', tags));
+    res.json(response('success', tags));
   })
   .catch((error) => {
-    res.json(apires('fail', `database error: ${error}`));
+    res.json(response('fail', `database error: ${error}`));
   });
 });
 
@@ -116,24 +91,22 @@ router.get('/tags/:slug', (req, res) => {
   const tag = {};
   Tag.findOne({ slug: searchSlug })
   .exec()
-  .then((foundtag) => {
-    tag.title = foundtag.title;
-    tag.slug = foundtag.slug;
-    return Card.find({ tags: foundtag.title })
+  .then((data) => {
+    tag.title = data.title;
+    tag.slug = data.slug;
+    return Card.find({ tags: data.title })
       .sort({ title: 1 })
       .select('slug title categories')
       .exec();
   })
   .then((cards) => {
     tag.cards = cards;
-    res.json(apires('success', tag));
+    res.json(response('success', tag));
   })
   .catch((error) => {
-    res.json(apires('fail', `database error: ${error}`));
+    res.json(response('fail', `database error: ${error}`));
   });
 });
-
-// SEARCH
 
 router.get('/search/:query', (req, res) => {
   const query = new RegExp(req.params.query, 'i');
@@ -142,14 +115,12 @@ router.get('/search/:query', (req, res) => {
   Card.find({ content: query })
   .exec()
   .then((cards) => {
-    res.json(apires('success', cards));
+    res.json(response('success', cards));
   })
   .catch((error) => {
-    res.json(apires('fail', `database error: ${error}`));
+    res.json(response('fail', `database error: ${error}`));
   });
 });
-
-// NEWEST
 
 router.get('/recent', (req, res) => {
   Card.find()
@@ -158,14 +129,12 @@ router.get('/recent', (req, res) => {
   .select('slug title categories')
   .exec()
   .then((cards) => {
-    res.json(apires('success', cards));
+    res.json(response('success', cards));
   })
   .catch((error) => {
-    res.json(apires('fail', `database error: ${error}`));
+    res.json(response('fail', `database error: ${error}`));
   });
 });
-
-// UPDATED
 
 router.get('/updated', (req, res) => {
   Card.find()
@@ -174,10 +143,10 @@ router.get('/updated', (req, res) => {
   .select('slug title categories updates')
   .exec()
   .then((cards) => {
-    res.json(apires('success', cards));
+    res.json(response('success', cards));
   })
   .catch((error) => {
-    res.json(apires('fail', `database error: ${error}`));
+    res.json(response('fail', `database error: ${error}`));
   });
 });
 
