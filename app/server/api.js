@@ -10,6 +10,16 @@ mongoose.connect(MLAB_CONNECT_STRING);
 // Response Helper
 const response = (s, d) => ({ status: s, data: d });
 
+// Auth middleware
+// router.use((req, res, next) => {
+//   console.log(JSON.stringify(req.headers));
+//   if (req.get('ALIEM_CARDS_KEY') !== process.env.ALIEM_CARDS_KEY) {
+//     res.status(401).send('=> ERROR: "aliem_api_key" header not set or invalid');
+//     return;
+//   }
+//   next();
+// });
+
 router.get('/', (req, res) => {
   res.send('Here is the api');
 });
