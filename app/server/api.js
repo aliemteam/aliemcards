@@ -20,6 +20,13 @@ const response = (s, d) => ({ status: s, data: d });
 //   next();
 // });
 
+// Auth middleware by domain/IP
+
+router.use((req, res, next) => {
+  console.log(`req.hostname: ${req.hostname}; req.ip: ${req.ip}`);
+  next();
+});
+
 router.get('/', (req, res) => {
   res.send('Here is the api');
 });
