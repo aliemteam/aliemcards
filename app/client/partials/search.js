@@ -47,7 +47,7 @@ class Search extends React.Component {
 const SearchBar = ({ changeHandler, cards }) =>
   <div className="searchBox">
     <form className="container">
-      <input type="text" onChange={changeHandler} placeholder="Search" autofocus />
+      <input type="text" onChange={changeHandler} placeholder="Search" />
       <button type="submit"><i className="material-icons">search</i></button>
     </form>
     {cards[0] ? <Results cards={cards} /> : null}

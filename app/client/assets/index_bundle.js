@@ -7969,7 +7969,7 @@ var SearchBar = function SearchBar(_ref) {
     _react2.default.createElement(
       'form',
       { className: 'container' },
-      _react2.default.createElement('input', { type: 'text', onChange: changeHandler, placeholder: 'Search', autofocus: true }),
+      _react2.default.createElement('input', { type: 'text', onChange: changeHandler, placeholder: 'Search' }),
       _react2.default.createElement(
         'button',
         { type: 'submit' },

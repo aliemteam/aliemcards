@@ -638,8 +638,7 @@ li {
   width: 100%;
   outline: none;
   color: #706d6e;
-}
-.searchBox input:focus {
+  border-radius: 2px;
   border: none;
   outline: none;
 }
