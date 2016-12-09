@@ -39,8 +39,13 @@ class Contact extends React.Component {
     if (!this.state.formInvalid) {
       console.log(this.state.formValues);
       axios.post('/contacthandler', { data: this.state.formValues })
-      .then((res) => { console.log(res); })
-      .catch((error) => { console.log(error); });
+      .then((res) => {
+        this.context.router.push('/pages/contacted');
+      })
+      .catch((error) => {
+        console.log(error);
+        this.setState({ formInvalid: 'There was an error with your request' });
+      });
     }
   }
 
@@ -73,12 +78,12 @@ class Contact extends React.Component {
   }
 }
 
-Contact.propTypes = {
+Contact.propTypes = {};
 
-};
+Contact.defaultProps = {};
 
-Contact.defaultProps = {
-
-};
+Contact.contextTypes = {
+    router: React.PropTypes.object
+  };
 
 export default Contact;

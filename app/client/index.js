@@ -12,6 +12,7 @@ import Category from './categories/category';
 import Categories from './categories/categories';
 import About from './pages/about';
 import Contact from './pages/contactform';
+import Contacted from './pages/contacted';
 
 ReactDOM.render((
   <Router history={browserHistory}>
@@ -35,6 +36,7 @@ ReactDOM.render((
       <Route name="Pages" path="/pages" component={Main}>
         <Route name="About" path="about" component={About} />
         <Route name="Contact" path="contact" component={Contact} />
+        <Route name="Contacted" path="contacted" component={Contacted} />
       </Route>
 
       <Route name="Not Found" path="*" component={NotFound} />
