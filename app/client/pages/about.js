@@ -1,6 +1,6 @@
 import React from 'react';
 
-const About = () =>
+export default () =>
   <div className="content">
     <h1>About</h1>
     <h2>Paucis Verbis Cards</h2>
@@ -14,5 +14,3 @@ const About = () =>
     <h2>Help us improve this resource</h2>
     <p>Please <a href="">let us know</a> how you use these cards. What would make them more useful? Found an error? Help us fix it!</p>
   </div>;
-
-export default About;

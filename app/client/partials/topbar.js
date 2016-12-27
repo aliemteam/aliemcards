@@ -37,6 +37,4 @@ TopBar.propTypes = {
   title: React.PropTypes.string,
 };
 
-TopBar.defaultProps = {};
-
 export default TopBar;

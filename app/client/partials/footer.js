@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router';
 
-const Footer = () =>
+export default () =>
   <div className="foot">
     <div className="container">
       <div className="cc row">
@@ -15,5 +15,3 @@ const Footer = () =>
       </ul>
     </div>
   </div>;
-
-export default Footer;

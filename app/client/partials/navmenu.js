@@ -14,6 +14,4 @@ NavMenu.propTypes = {
   showNav: React.PropTypes.bool,
 };
 
-NavMenu.defaultProps = {};
-
 export default NavMenu;

@@ -1,5 +1,5 @@
 import React from 'react';
-import axios from 'axios';
+import { post } from 'axios';
 import { Link } from 'react-router';
 
 class Search extends React.Component {
@@ -7,77 +7,75 @@ class Search extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
+      query: '',
       cards: [],
     };
-    this.onChange = this.onChange.bind(this);
-    this.handleSearch = this.handleSearch.bind(this);
+    this.handleChange = this.handleChange.bind(this);
   }
 
-  onChange(e) {
-    this.handleSearch(e.target.value);
-  }
-
-  handleSearch(query) {
-    if (query.length > 2) {
-      axios.get(`/api/search/${query}`)
-      .then(res => {
-        if (res.data.status === 'success') {
-          this.setState({ cards: res.data.data });
+  handleChange(e) {
+    const input = e.currentTarget.value;
+    post('/graphql', {
+      query: `query searchForCard($input: String){
+        search(input: $input) {
+          id
+          title
         }
-      });
-    } else {
-      this.setState({ cards: [] });
-    }
+      }`,
+      variables: { input },
+    })
+    .then(res => {
+      if (res.status !== 200) throw res.status;
+      console.log(res);
+      const { search: cards } = res.data.data;
+      this.setState({ cards, query: input });
+    })
+    .catch(err => console.error(`Error: API response status code = ${err}`));
   }
 
   render() {
-    if (this.props.hero) {
-      return (
-        <SearchHero
-          changeHandler={this.onChange}
-          blurHandler={this.onBlur}
-          cards={this.state.cards}
-        />
-      );
-    }
-    return <SearchBar changeHandler={this.onChange} cards={this.state.cards} />;
+    return (
+      <div className="search">
+        { this.props.hero &&
+          <div className="search__splash-text">
+            <p>A Point-of-Care reference library<br />
+            by Michelle Lin, and the <strong>ALiEM Team</strong></p>
+            <p>Formerly known as <em>Paucis Verbis Cards</em></p>
+          </div>
+        }
+        <div className="search__input">
+          <input type="text" onChange={this.handleChange} placeholder="Search" />
+        </div>
+        { this.state.cards.length > 0 &&
+          <Results cards={this.state.cards} />
+        }
+      </div>
+    );
   }
 }
 
-const SearchBar = ({ changeHandler, cards }) =>
-  <div className="searchBox">
-    <form className="container">
-      <input type="text" onChange={changeHandler} placeholder="Search" />
-      <button type="submit"><i className="material-icons">search</i></button>
-    </form>
-    {cards[0] ? <Results cards={cards} /> : null}
-  </div>;
-
-const SearchHero = ({ changeHandler, cards }) =>
-  <div className="searchHero">
-    <div className="heroText">
-      <p>A Point-of-Care reference library<br />by Michelle Lin, and the <b>ALiEM Team</b></p>
-      <p>Formerly known as <i>Paucis Verbis Cards</i></p>
-    </div>
-    <SearchBar changeHandler={changeHandler} cards={cards} />
-  </div>;
-
-const Results = ({ cards }) =>
-  <div className="container">
-    <ul className="searchList">
-      {cards.map((card) =>
-        <li><Link to={`/cards/${card.slug}`}>{card.title}</Link></li>
-      )}
-    </ul>
-  </div>;
-
 Search.propTypes = {
-  params: React.PropTypes.object,
   hero: React.PropTypes.bool,
 };
-
 Search.defaultProps = {
   hero: false,
+};
+
+const Results = ({ cards }) => (
+  <div className="container">
+    <ul className="searchList">
+      {cards.map((card) => (
+        <li><Link to={`/cards/${card.id}`}>{card.title}</Link></li>
+      ))}
+    </ul>
+  </div>
+);
+
+Results.propTypes = {
+  cards: React.PropTypes.arrayOf(React.PropTypes.shape({
+    id: React.PropTypes.string.isRequired,
+    title: React.PropTypes.string.isRequired,
+  })).isRequired,
 };
 
 export default Search;

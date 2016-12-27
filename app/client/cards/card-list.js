@@ -3,12 +3,12 @@ import { Link } from 'react-router';
 
 const CardList = ({ cards }) =>
   <ul className="cards-list">
-    {cards.map((card) =>
-      <li key={card.slug}>
-        <Link to={`/cards/${card.slug}`}>{card.title}</Link>
+    {cards.map(card =>
+      <li key={card.id}>
+        <Link to={`/cards/${card.id}`}>{card.title}</Link>
         <span className="metadata">
-          {card.categories.map((cat) =>
-            <Link to={`/categories/${cat}`}>{cat}</Link>
+          {card.categories.map(category =>
+            <Link key={category} to={`/categories/${category}`}>{category}</Link>
           )}
         </span>
       </li>
@@ -16,9 +16,11 @@ const CardList = ({ cards }) =>
   </ul>;
 
 CardList.propTypes = {
-  cards: React.PropTypes.array,
+  cards: React.PropTypes.arrayOf(React.PropTypes.shape({
+    id: React.PropTypes.string,
+    title: React.PropTypes.string,
+    categories: React.PropTypes.arrayOf(React.PropTypes.string),
+  })),
 };
-
-CardList.defaultProps = {};
 
 export default CardList;

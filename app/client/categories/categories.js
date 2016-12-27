@@ -1,9 +1,9 @@
 import React from 'react';
-import axios from 'axios';
+import { post } from 'axios';
 import { Link } from 'react-router';
 import Loader from '../partials/loader';
 
-class Categories extends React.Component {
+export default class Categories extends React.Component {
 
   constructor(props) {
     super(props);
@@ -14,13 +14,17 @@ class Categories extends React.Component {
   }
 
   componentDidMount() {
-    axios.get('/api/categories')
-      .then(res => {
-        if (res.data.status === 'success') {
-          this.setState({ categories: res.data.data, loading: false });
-        }
-      })
-      .catch((error) => console.log(error));
+    post('/graphql', {
+      query: `query {
+        categories
+      }`,
+    })
+    .then(res => {
+      if (res.status !== 200) throw res.status;
+      const { categories } = res.data.data;
+      this.setState({ categories, loading: false });
+    })
+    .catch(err => console.error(`Error: API response status code = ${err}`));
   }
 
   render() {
@@ -28,27 +32,25 @@ class Categories extends React.Component {
       <div>
         <h1>Categories</h1>
         <Loader visible={this.state.loading} />
-        <Results cats={this.state.categories} />
+        <Results categories={this.state.categories} />
       </div>
     );
   }
 }
 
-Categories.propTypes = {
-  categories: React.PropTypes.object,
-};
-
-Categories.defaultProps = {};
-
-const Results = ({ cats }) =>
+const Results = ({ categories }) =>
   <ul className="cards-list">
-    {cats.map((cat) =>
-      <li><Link to={`/categories/${cat.slug}`}>{cat.title}</Link></li>
-    )}
+    {categories.map(category => {
+      const title = category
+        .split('-')
+        .map(c => c[0].toUpperCase() + c.slice(1))
+        .join(' ');
+      return (
+        <li key={category}><Link to={`/categories/${category}`}>{title}</Link></li>
+      );
+    })}
   </ul>;
 
 Results.propTypes = {
-  cats: React.PropTypes.array,
+  categories: React.PropTypes.arrayOf(String),
 };
-
-export default Categories;

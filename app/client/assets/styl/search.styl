@@ -4,64 +4,23 @@
 searchbox-height = 6rem
 button-width = 5rem
 
-.searchHero
-  position: relative
-  width: 100%
-  background-color: aliem-green
+.search
+  background: aliem-green
+  display: flex
+  flex-direction: column
+  padding: 10px
+
+.search__splash-text
   color: white
+  font-size: 2.3rem
   text-align: center
-  padding: 1rem
 
-@media (min-width: 750px)
-  .searchHero
-    padding: 5rem
-
-    .searchBox
-      width: 75%
-      margin: 0 auto
-
-  .heroText
-    font-size: 2.3rem
-
-.searchBox
-  position: relative
-  width: 100%
-  color: white
-  background-color: aliem-green
-  padding: 1rem
+.search__input
   text-align: center
-  overflow: visible
-
-  form
-    margin: 1rem auto 0 auto
-
+  line-height: initial
   input
-    display: block
-    float: left
-    margin: 0
-    padding-right: button-width
-    height: searchbox-height - 2rem
-    font-size: 2rem
+    max-width: 700px
     width: 100%
-    outline: none
-    color: dark-shade
-    border-radius: 2px
-    border: none
-    outline: none
-
-  button
-    border: 0
-    color: white
-    background-color: aliem-green-shade
-    font-size: 2rem
-    padding: 0.5rem
-    height: 4rem
-    width: button-width
-    margin-left: -5rem
-    border-top-left-radius: 0
-    border-bottom-left-radius: 0
-    border-top-right-radius: 2px
-    border-bottom-right-radius: 2px
 
 .searchList
   position: relative
@@ -70,10 +29,6 @@ button-width = 5rem
   width: 85%
   margin: 1em
   padding: 2rem 0
-  // background-color: light-shade
-  // border: 0px solid aliem-green-shade
-  // text-align: left
-  // box-shadow: 0 0 1.3rem rgba(0, 0, 0, 0.3)
 
   li
     list-style: none
@@ -95,7 +50,6 @@ button-width = 5rem
       border-radius: 2px
 
 @media (min-width: 750px)
-
   .search-list
     margin: 2rem auto
     padding: 3rem

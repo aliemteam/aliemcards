@@ -1,87 +1,79 @@
 import React from 'react';
-import axios from 'axios';
-import { Link } from 'react-router';
+import { post } from 'axios';
 import CardList from './card-list';
 
 
-class Cards extends React.Component {
+export default class Cards extends React.Component {
 
   constructor(props) {
     super(props);
-    this.onSearchChange = this.onSearchChange.bind(this);
-    this.onSelectChange = this.onSelectChange.bind(this);
-    this.filterCards = this.filterCards.bind(this);
+    this.handleChange = this.handleChange.bind(this);
     this.state = {
+      categoryFilter: '',
       cards: [],
       categories: [],
-      filterCards: [],
     };
   }
 
   componentDidMount() {
-    axios.get('/api/cards')
-      .then(res => {
-        if (res.data.status === 'success') {
-          this.setState({ cards: res.data.data, filterCards: res.data.data });
+    post('/graphql', {
+      query: `query {
+        cards {
+          id
+          title
+          categories
         }
-      });
+        categories
+      }`,
+    })
+    .then(res => {
+      if (res.status !== 200) throw res.status;
+      const { cards, categories } = res.data.data;
+      this.setState({ cards, categories, categoryFilter: '' });
+    })
+    .catch(err => console.error(`Error: API response status code = ${err}`));
+  }
 
-    axios.get('/api/categories')
-      .then(res => {
-        if (res.data.status === 'success') {
-          this.setState({ categories: res.data.data, loading: false });
+  handleChange(e) {
+    const category = e.currentTarget.value;
+    post('/graphql', {
+      query: `query cardsByCategory($category: String) {
+        cards(category: $category) {
+          id
+          title
+          categories
         }
-      })
-      .catch((error) => console.log(error));
-  }
-
-  onSearchChange(e) {
-    this.setState({ filterCards: this.filterCards(e.target.value) });
-  }
-
-  onSelectChange(e) {
-    this.setState({ filterCards: this.selectFilterCards(e.target.value) });
-  }
-
-  filterCards(value) {
-    const inputValue = value.trim().toLowerCase();
-    const inputLength = inputValue.length;
-
-    return inputLength === 0 ? this.state.cards : this.state.cards.filter((card) => {
-      if (typeof(card.title) === 'string'
-        && card.title.toString().toLowerCase().search(inputValue) > -1)
-      {
-        return true;
-      }
-      return false;
-    });
-  }
-
-  selectFilterCards(cat) {
-    if (cat === '') return this.state.cards;
-    return this.state.cards.filter((card) => card.categories.includes(cat));
+      }`,
+      variables: { category },
+    })
+    .then(res => {
+      if (res.status !== 200) throw res.status;
+      const { cards } = res.data.data;
+      this.setState({ cards, categoryFilter: category });
+    })
+    .catch(err => console.error(`Error: API response status code = ${err}`));
   }
 
   render() {
     return (
       <div>
         <h1>Cards</h1>
-        <form>
-          <select name="category" onChange={this.onSelectChange}>
-            <option value="">Filter by Category:</option>
-            {this.state.categories.map((cat) =>
-              <option value={cat.slug}>{cat.title}</option>
-            )}
-          </select>
-        </form>
-        <CardList cards={this.state.filterCards} />
+        <select value={this.state.categoryFilter} onChange={this.handleChange}>
+          <option value="">Filter by Category:</option>
+          {this.state.categories.map(category => {
+            const title = category
+              .split('-')
+              .map(c => c[0].toUpperCase() + c.slice(1))
+              .join(' ');
+            return (
+              <option key={category} value={category}>{title}</option>
+            );
+          })}
+        </select>
+        <CardList cards={this.state.cards} />
       </div>
     );
   }
 }
 
 Cards.propTypes = {};
-
-Cards.defaultProps = {};
-
-export default Cards;

@@ -1,5 +1,5 @@
 import React from 'react';
-import axios from 'axios';
+import { post } from 'axios';
 
 import Search from '../partials/search';
 import TopBar from '../partials/topbar';
@@ -7,7 +7,7 @@ import CardList from '../cards/card-list';
 import Footer from '../partials/footer';
 
 
-class Home extends React.Component {
+export default class Home extends React.Component {
 
   constructor(props) {
     super(props);
@@ -18,21 +18,29 @@ class Home extends React.Component {
   }
 
   componentDidMount() {
-    axios.get('/api/recent')
-      .then(res => {
-        if (res.data.status === 'success') {
-          this.setState({ newest: res.data.data });
+    post('/graphql', {
+      query: `
+        query {
+          recentlyAdded {
+            ...cardFragment
+          }
+          recentlyUpdated {
+            ...cardFragment
+          }
         }
-      })
-      .catch((error) => console.log(error));
-    axios.get('/api/updated')
-      .then(res => {
-        if (res.data.status === 'success') {
-          console.log(res.data.data);
-          this.setState({ updated: res.data.data });
+
+        fragment cardFragment on Card {
+          id
+          title
+          categories
         }
-      })
-      .catch((error) => console.log(error));
+      `,
+    })
+    .then(res => {
+      if (res.status !== 200) throw res.status;
+      const { recentlyAdded, recentlyUpdated } = res.data.data;
+      this.setState({ newest: recentlyAdded, updated: recentlyUpdated });
+    });
   }
 
   render() {
@@ -61,5 +69,3 @@ class Home extends React.Component {
     );
   }
 }
-
-export default Home;

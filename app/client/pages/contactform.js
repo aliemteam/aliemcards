@@ -68,7 +68,7 @@ class Contact extends React.Component {
           <label htmlFor="email">Email:</label>
           <input type="email" name="email" onChange={this.changeHandler} />
           <label htmlFor="message">Message:</label>
-          <textarea name="message" onChange={this.changeHandler}></textarea>
+          <textarea name="message" onChange={this.changeHandler} />
           <input type="text" name="company" id="company" />
           <br />
           <button type="submit" onClick={this.sendHandler}>Send</button>
@@ -80,10 +80,8 @@ class Contact extends React.Component {
 
 Contact.propTypes = {};
 
-Contact.defaultProps = {};
-
 Contact.contextTypes = {
-    router: React.PropTypes.object
-  };
+  router: React.PropTypes.object,
+};
 
 export default Contact;

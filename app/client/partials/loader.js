@@ -5,4 +5,8 @@ const Loader = ({ visible }) =>
     <i className="material-icons">autorenew</i>
   </div>;
 
+Loader.propTypes = {
+  visible: React.PropTypes.bool,
+};
+
 export default Loader;

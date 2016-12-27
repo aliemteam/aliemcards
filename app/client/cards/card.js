@@ -1,48 +1,76 @@
 import React from 'react';
-import axios from 'axios';
+import { post } from 'axios';
+import marked from 'marked';
 
-class Card extends React.Component {
+marked.setOptions({
+  renderer: new marked.Renderer(),
+  gfm: true,
+  tables: true,
+  breaks: false,
+  pedantic: false,
+  sanitize: false,
+  smartLists: true,
+  smartypants: false,
+});
+
+export default class Card extends React.Component {
 
   constructor(props) {
     super(props);
     this.state = {
-      card: {
-        created: '',
-        updates: [''],
-        title: '',
-      },
+      authors: [],
+      categories: [],
+      content: '',
+      created: null,
+      drugs: null,
+      id: '',
+      title: '',
+      updates: [],
+      lastUpdate: '',
     };
   }
 
   componentDidMount() {
-    axios.get(`/api/cards/${this.props.params.slug}`)
-      .then(res => {
-        if (res.data.status === 'success') {
-          this.setState({ card: res.data.data });
+    console.log(this.props);
+    post('/graphql', {
+      query: `query getCardById($id: ID!) {
+        card(id: $id) {
+          id
+          title
+          authors
+          created
+          updates
+          content
         }
-      })
-      .catch((error) => console.log(error));
+      }`,
+      variables: { id: this.props.params.id },
+    })
+    .then(res => {
+      if (res.status !== 200) throw res.status;
+      const { card } = res.data.data;
+      const lastUpdate = card.updates
+        ? new Date(card.updates[0]).toLocaleDateString('en-US')
+        : new Date(card.created).toLocaleDateString('en-US');
+      this.setState({
+        ...card,
+        lastUpdate,
+      });
+    })
+    .catch(err => console.error(`Error: API response status code = ${err}`));
   }
   getContent() {
     return {
-      __html: this.state.card.content,
+      __html: marked(this.state.content),
     };
   }
 
   render() {
-    var lastUpdate =  new Date('1900/01/01').toLocaleDateString('en-US');
-    if (this.state.card.updates !== null) {
-      lastUpdate = new Date(this.state.card.updates[0]).toLocaleDateString('en-US');
-    } else {
-      lastUpdate = new Date(this.state.card.created).toLocaleDateString('en-US');
-    }
-
     return (
       <div>
-        <h1>{this.state.card.title}</h1>
+        <h1>{this.state.title}</h1>
         <ul className="cardMeta">
-          <li><AuthorList authorArray={this.state.card.authors} /></li>
-          <li><b>Updated:</b> {lastUpdate}</li>
+          <li><AuthorList authorArray={this.state.authors} /></li>
+          <li><strong>Updated:</strong> {this.state.lastUpdate}</li>
         </ul>
         <div className="cardHtml" dangerouslySetInnerHTML={this.getContent()} />
       </div>
@@ -51,22 +79,20 @@ class Card extends React.Component {
 }
 
 Card.propTypes = {
-  card: React.PropTypes.object,
-  params: React.PropTypes.object,
+  params: React.PropTypes.shape({
+    id: React.PropTypes.string,
+  }),
 };
-
-export default Card;
 
 const AuthorList = ({ authorArray }) =>
   <span>
-    <b>{authorArray.length > 1 ? 'Authors' : 'Author'}: </b>
-    {authorArray.map((author) => <span className="author">{author}</span>)}
+    <strong>{authorArray.length > 1 ? 'Authors' : 'Author'}: </strong>
+    {authorArray.map(author => <span key={author} className="author">{author}</span>)}
   </span>;
 
 AuthorList.propTypes = {
-  authorArray: React.PropTypes.array,
+  authorArray: React.PropTypes.arrayOf(String),
 };
-
 AuthorList.defaultProps = {
   authorArray: [],
 };

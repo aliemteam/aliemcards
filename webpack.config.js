@@ -18,7 +18,7 @@ module.exports = {
   module: {
     loaders: [
       {
-        test: /\.js$/,
+        test: /\.jsx?$/,
         loader: 'babel-loader',
         query: {
           presets: ['es2015', 'react'],
@@ -27,7 +27,7 @@ module.exports = {
     ],
   },
   resolve: {
-    extensions: ['*', '.js', '.json'],
+    extensions: ['*', '.js', '.jsx', '.json'],
   },
   // plugins: [
   //   new webpack.optimize.UglifyJsPlugin({

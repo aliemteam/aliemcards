@@ -21,15 +21,15 @@ ReactDOM.render((
 
       <Route name="Cards" path="/cards" component={Main}>
         <IndexRoute component={Cards} />
-        <Route name="Card" path=":slug" component={Card} />
+        <Route name="Card" path=":id" component={Card} />
       </Route>
-      <Route name="Card" path="/cards/:slug" component={Card} />
+      <Route name="Card" path="/cards/:id" component={Card} />
 
       <Route name="Categories" path="/categories" component={Main}>
         <IndexRoute component={Categories} />
-        <Route name="Category" path=":catslug" addHandlerKey>
+        <Route name="Category" path=":category" addHandlerKey>
           <IndexRoute component={Category} />
-          <Route name="CatCard" path=":slug" component={Card} />
+          <Route name="CatCard" path=":id" component={Card} />
         </Route>
       </Route>
 
