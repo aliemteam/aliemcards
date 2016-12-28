@@ -2,33 +2,31 @@ const path = require('path');
 const webpack = require('webpack');
 
 module.exports = {
-  context: path.resolve(__dirname, 'app', 'client'),
-  // devtool: 'eval-source-map',
-  entry: {
-    javascript: './index.js',
-  },
+  devtool: 'cheap-module-eval-source-map',
+  entry: [
+    'webpack-hot-middleware/client',
+    './app/client/index',
+  ],
   output: {
-    path: path.resolve(__dirname, 'app', 'client', 'assets'),
-    filename: 'index_bundle.js',
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'bundle.js',
+    publicPath: '/static/',
   },
-  devServer: {
-    contentBase: path.resolve(__dirname, 'app', 'client', 'assets'),
-    hot: true,
-  },
+  plugins: [
+    new webpack.HotModuleReplacementPlugin(),
+  ],
   module: {
     loaders: [
       {
         test: /\.jsx?$/,
-        loader: 'babel-loader',
-        query: {
-          presets: ['es2015', 'react'],
-        },
+        loaders: ['react-hot-loader', 'babel-loader'],
+        include: path.resolve(__dirname, 'app'),
       },
     ],
   },
-  resolve: {
-    extensions: ['*', '.js', '.jsx', '.json'],
-  },
+  // resolve: {
+  //   extensions: ['*', '.js', '.jsx', '.json'],
+  // },
   // plugins: [
   //   new webpack.optimize.UglifyJsPlugin({
   //     compress: {

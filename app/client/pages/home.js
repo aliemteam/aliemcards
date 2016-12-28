@@ -40,7 +40,8 @@ export default class Home extends React.Component {
       if (res.status !== 200) throw res.status;
       const { recentlyAdded, recentlyUpdated } = res.data.data;
       this.setState({ newest: recentlyAdded, updated: recentlyUpdated });
-    });
+    })
+    .catch(err => console.error(`Error: API response status code = ${err}`));
   }
 
   render() {
