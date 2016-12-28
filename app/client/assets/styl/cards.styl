@@ -2,48 +2,47 @@
 -----------------------------------------*/
 
 .cardHtml
-  h1:first-of-type
-    display: none
+    h1:first-of-type
+        display: none
 
 .cardMeta
-  list-style: none
-  padding: 0
+    list-style: none
+    padding: 0
 
-  li
-    display: block
-    font-size: 1.4rem
-    color: dark-shade
-    background-color: light-shade
-    margin: 0 1rem 0 0
-    padding: 1rem
+    li
+        display: block
+        font-size: 1.4rem
+        color: dark-shade
+        background-color: light-shade
+        margin: 0 1rem 0 0
+        padding: 1rem
 
 .author::after
-  content: ", "
+    content: ", "
 
 .author:last-of-type::after
-  content: ""
+    content: ""
 
 #references
-  background-color: light-shade
-  border-bottom: 0
-  border-top-left-radius: 2px
-  border-top-right-radius: 2px
-  margin-bottom: -1rem
-  color: dark-shade
-  padding: 0.5em 1em
-  font-size: 2.5rem
+    background-color: light-shade
+    border-bottom: 0
+    border-top-left-radius: 2px
+    border-top-right-radius: 2px
+    margin-bottom: -1rem
+    color: dark-shade
+    padding: 0.5em 1em
+    font-size: 2.5rem
 
 #references + ul
-  background-color: light-shade
-  border-bottom-left-radius: 2px
-  border-bottom-right-radius: 2px
-  padding: 1.5em
+    background-color: light-shade
+    border-bottom-left-radius: 2px
+    border-bottom-right-radius: 2px
+    padding: 1.5em
 
-  a
-    text-decoration: none
+    a
+        text-decoration: none
 
 @media (min-width: 750px)
-  .cardMeta
-    li
-      display: inline
-      white-space: nowrap
+    .cardMeta li
+        display: inline
+        white-space: nowrap
