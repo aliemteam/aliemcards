@@ -1,6 +1,6 @@
 import React from 'react';
 import { post } from 'axios';
-import Link from 'react-router/lib/Link';
+import { Link } from 'react-router';
 
 class Search extends React.Component {
 

@@ -1,11 +1,10 @@
 import React from 'react';
-import browserHistory from 'react-router/lib/browserHistory';
-import IndexRoute from 'react-router/lib/IndexRoute';
-import Router from 'react-router/lib/Router';
-import Route from 'react-router/lib/Route';
+// import Breadcrumbs from 'react-breadcrumbs';
+import { BrowserRouter, Match, Miss } from 'react-router';
 
-import Index from './pages/Main';
 import Home from './pages/Home';
+import Header from './components/Header';
+import Footer from './components/Footer';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import FourOhFour from './pages/404';
@@ -16,17 +15,30 @@ import Categories from './categories/Categories';
 
 import './assets/css/main';
 
+const App = (props) => (
+  <div className="main">
+    <Header {...props} />
+    <div className="content container">
+      {/* <Breadcrumbs
+        routes={routes}
+        params={params}
+        separator=" / "
+      /> */}
+      <Match exactly name="Home" pattern="/" component={Home} />
+      <Match name="Cards" exactly pattern="/cards" component={Cards} />
+      <Match name="Card" pattern="/cards/:id" component={Card} />
+      <Match name="Categories" exactly pattern="/categories" component={Categories} />
+      <Match name="Category" pattern="/categories/:category" component={Category} />
+      <Match name="About" pattern="/about" component={About} />
+      <Match name="Contact" pattern="/contact" component={Contact} />
+      <Miss component={FourOhFour} />
+    </div>
+    <Footer />
+  </div>
+);
+
 export default () => (
-  <Router history={browserHistory}>
-    <Route name="Home" path="/" component={Index}>
-      <IndexRoute component={Home} />
-      <Route name="Cards" path="cards" component={Cards} />
-      <Route name="Card" path="cards/:id" component={Card} />
-      <Route name="Categories" path="categories" component={Categories} />
-      <Route name="Category" path="categories/:category" component={Category} />
-      <Route name="About" path="about" component={About} />
-      <Route name="Contact" path="contact" component={Contact} />
-      <Route name="404" path="*" component={FourOhFour} />
-    </Route>
-  </Router>
+  <BrowserRouter>
+    <Match pattern="/" component={App} />
+  </BrowserRouter>
 );

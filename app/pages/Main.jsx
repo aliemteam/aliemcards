@@ -1,6 +1,6 @@
 import React, { PropTypes } from 'react';
-import browserHistory from 'react-router/lib/browserHistory';
-import Link from 'react-router/lib/Link';
+// import browserHistory from 'react-router/lib/browserHistory';
+import { Link } from 'react-router';
 import Breadcrumbs from 'react-breadcrumbs';
 
 import Search from '../components/Search';
@@ -13,6 +13,7 @@ export default class Main extends React.Component {
     this.state = {
       navDrawerOpen: false,
     };
+    console.log(this.props);
   }
 
   handleClick(e) {
@@ -41,7 +42,7 @@ export default class Main extends React.Component {
         </div>
         <Search hero={location.pathname === '/'} />
         <div className="content container">
-          <button className="backButton" onClick={browserHistory.goBack}>&lt; Back</button>
+          {/* <button className="backButton" onClick={browserHistory.goBack}>&lt; Back</button> */}
           <Breadcrumbs
             routes={routes}
             params={params}
