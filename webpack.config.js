@@ -1,6 +1,6 @@
 const { join } = require('path');
 const webpack = require('webpack');
-const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+// const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 const isProduction = process.env.NODE_ENV === 'production';
 
@@ -31,11 +31,11 @@ const plugins = isProduction
     },
     screw_ie8: true,
   }),
-  new BundleAnalyzerPlugin({
-    analyzerMode: 'server',
-    analyzerPort: 8888,
-    openAnalyzer: true,
-  }),
+  // new BundleAnalyzerPlugin({
+  //   analyzerMode: 'server',
+  //   analyzerPort: 8888,
+  //   openAnalyzer: true,
+  // }),
 ]
 : // Development plugins
 [
@@ -50,9 +50,6 @@ module.exports = {
     bundle: isProduction ? ['babel-polyfill', './app/index'] : ['webpack-hot-middleware/client', 'babel-polyfill', './app/index'],
     vendor: ['react', 'react-dom'],
   },
-  // entry: isProduction
-  //   ? ['babel-polyfill', './app/index']
-  //   : ['webpack-hot-middleware/client', 'babel-polyfill', './app/index'],
   output: {
     path: join(__dirname, 'dist'),
     // filename: 'bundle.js',

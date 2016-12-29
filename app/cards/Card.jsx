@@ -1,3 +1,4 @@
+/* eslint-disable react/no-danger */
 import React from 'react';
 import { post } from 'axios';
 import marked from 'marked';

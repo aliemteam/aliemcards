@@ -8,12 +8,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "gulp __build && node ./index.js",
-    "build": "gulp __build && NODE_ENV=production webpack",
+    "lint": "eslint -f codeframe \"app/**/*.{js,jsx}\" \"server/schema.js\" \"index.js\"",
+    "build": "npm run lint && gulp __build && NODE_ENV=production webpack",
     "gulp": "torus run gulp"
   },
   "dependencies": {
     "axios": "^0.15.0",
     "babel-polyfill": "^6.20.0",
+    "body-parser": "^1.15.2",
     "compression": "^1.6.2",
     "express": "^4.14.0",
     "express-graphql": "^0.6.1",

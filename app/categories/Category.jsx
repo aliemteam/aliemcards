@@ -1,7 +1,7 @@
 import React from 'react';
 import { post } from 'axios';
-import CardList from '../cards/card-list';
 
+import CardList from '../cards/CardList';
 
 export default class Category extends React.Component {
 

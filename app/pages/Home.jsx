@@ -1,10 +1,7 @@
 import React from 'react';
 import { post } from 'axios';
 
-import Search from '../partials/search';
-import TopBar from '../partials/topbar';
-import CardList from '../cards/card-list';
-import Footer from '../partials/footer';
+import CardList from '../cards/CardList';
 
 
 export default class Home extends React.Component {
@@ -46,25 +43,14 @@ export default class Home extends React.Component {
 
   render() {
     return (
-      <div>
-        <div className="main">
-          <TopBar
-            title="ALiEM Cards"
-          />
-          <Search hero />
-          <div className="home container content">
-            <div className="row">
-              <div className="one-half column">
-                <h1>New Cards</h1>
-                <CardList cards={this.state.newest} />
-              </div>
-              <div className="one-half column">
-                <h1>Updated Cards</h1>
-                <CardList cards={this.state.updated.filter(card => card.updates !== null)} />
-              </div>
-            </div>
-          </div>
-          <Footer />
+      <div className="row">
+        <div className="one-half column">
+          <h1>New Cards</h1>
+          <CardList cards={this.state.newest} />
+        </div>
+        <div className="one-half column">
+          <h1>Updated Cards</h1>
+          <CardList cards={this.state.updated.filter(card => card.updates !== null)} />
         </div>
       </div>
     );

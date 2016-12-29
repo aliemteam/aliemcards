@@ -1,7 +1,8 @@
 import React from 'react';
 import { post } from 'axios';
-import { Link } from 'react-router';
-import Loader from '../partials/loader';
+import Link from 'react-router/lib/Link';
+
+import Spinner from '../components/Spinner';
 
 export default class Categories extends React.Component {
 
@@ -31,7 +32,7 @@ export default class Categories extends React.Component {
     return (
       <div>
         <h1>Categories</h1>
-        <Loader visible={this.state.loading} />
+        <Spinner visible={this.state.loading} />
         <Results categories={this.state.categories} />
       </div>
     );

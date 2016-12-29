@@ -1,5 +1,6 @@
 /* eslint-disable global-require */
 const express = require('express');
+const bodyParser = require('body-parser');
 const compression = require('compression');
 const { join } = require('path');
 const webpack = require('webpack');
@@ -13,6 +14,7 @@ const app = express();
 const compiler = webpack(config);
 
 app.use(compression());
+app.use(bodyParser.json());
 
 if (isDevelopment) {
   app.use(require('webpack-dev-middleware')(compiler, {
@@ -22,13 +24,18 @@ if (isDevelopment) {
   app.use(require('webpack-hot-middleware')(compiler));
 }
 
+app.use('/', express.static(join(__dirname, 'dist')));
+
 app.use('/graphql', graphqlHTTP({
   schema,
   rootValue,
   graphiql: isDevelopment,
 }));
 
-app.use('/', express.static(join(__dirname, 'dist')));
+app.post('/contact', (req, res) => {
+  console.log(req);
+  res.sendStatus(200);
+});
 
 app.use('*', express.static(join(__dirname, 'dist')));
 

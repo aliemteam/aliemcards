@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Loader = ({ visible }) =>
-  <div className={visible ? 'loader' : 'loader loader-hide'}>
+  <div className={visible ? 'spinner' : 'spinner spinner-hide'}>
     <i className="material-icons">autorenew</i>
   </div>;
 
