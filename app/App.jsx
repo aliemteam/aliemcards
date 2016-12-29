@@ -19,18 +19,14 @@ const App = (props) => (
   <div className="main">
     <Header {...props} />
     <div className="content container">
-      {/* <Breadcrumbs
-        routes={routes}
-        params={params}
-        separator=" / "
-      /> */}
-      <Match exactly name="Home" pattern="/" component={Home} />
-      <Match name="Cards" exactly pattern="/cards" component={Cards} />
-      <Match name="Card" pattern="/cards/:id" component={Card} />
-      <Match name="Categories" exactly pattern="/categories" component={Categories} />
-      <Match name="Category" pattern="/categories/:category" component={Category} />
-      <Match name="About" pattern="/about" component={About} />
-      <Match name="Contact" pattern="/contact" component={Contact} />
+      {/* <Breadcrumbs routes={routes} params={params} separator=" / " /> */}
+      <Match exactly pattern="/" component={Home} />
+      <Match exactly pattern="/cards" component={Cards} />
+      <Match pattern="/cards/:id" component={Card} />
+      <Match exactly pattern="/categories" component={Categories} />
+      <Match pattern="/categories/:category" component={Category} />
+      <Match pattern="/about" component={About} />
+      <Match pattern="/contact" component={Contact} />
       <Miss component={FourOhFour} />
     </div>
     <Footer />
