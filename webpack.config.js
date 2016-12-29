@@ -52,9 +52,8 @@ module.exports = {
   },
   output: {
     path: join(__dirname, 'dist'),
-    // filename: 'bundle.js',
     filename: '[name].js',
-    publicPath: '/static/',
+    publicPath: '/',
   },
   resolve: {
     extensions: ['*', '.js', '.jsx', '.styl'],

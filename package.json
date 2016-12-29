@@ -8,9 +8,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "gulp __build && node ./index.js",
+    "start:production": "NODE_ENV=production node ./index.js",
     "lint": "eslint -f codeframe \"app/**/*.{js,jsx}\" \"server/schema.js\" \"index.js\"",
-    "build": "npm run lint && gulp __build && NODE_ENV=production webpack",
-    "gulp": "torus run gulp"
+    "build": "npm run lint && gulp __build && NODE_ENV=production webpack"
   },
   "dependencies": {
     "axios": "^0.15.0",
