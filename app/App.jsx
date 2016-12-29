@@ -2,18 +2,36 @@ import React from 'react';
 // import Breadcrumbs from 'react-breadcrumbs';
 import { BrowserRouter, Match, Miss } from 'react-router';
 
-import Home from './pages/Home';
+import lazyLoad from './utils/LazyLoad';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import About from './pages/About';
-import Contact from './pages/Contact';
-import FourOhFour from './pages/404';
-import Cards from './cards/Cards';
-import Card from './cards/Card';
-import Category from './categories/Category';
-import Categories from './categories/Categories';
 
 import './assets/css/main';
+
+const Home = lazyLoad(() =>
+  System.import('./pages/Home').then(module => module.default)
+);
+const Cards = lazyLoad(() =>
+  System.import('./cards/Cards').then(module => module.default)
+);
+const Card = lazyLoad(() =>
+  System.import('./cards/Card').then(module => module.default)
+);
+const Categories = lazyLoad(() =>
+  System.import('./categories/Categories').then(module => module.default)
+);
+const Category = lazyLoad(() =>
+  System.import('./categories/Category').then(module => module.default)
+);
+const About = lazyLoad(() =>
+  System.import('./pages/About').then(module => module.default)
+);
+const Contact = lazyLoad(() =>
+  System.import('./pages/Contact').then(module => module.default)
+);
+const FourOhFour = lazyLoad(() =>
+  System.import('./pages/404').then(module => module.default)
+);
 
 const App = (props) => (
   <div className="main">

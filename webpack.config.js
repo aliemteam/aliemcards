@@ -5,7 +5,7 @@ const webpack = require('webpack');
 const isProduction = process.env.NODE_ENV === 'production';
 
 const sharedPlugins = [
-  new webpack.NoErrorsPlugin(),
+  new webpack.optimize.OccurrenceOrderPlugin(),
   new webpack.DefinePlugin({
     __DEV__: JSON.stringify(!isProduction),
   }),
@@ -24,13 +24,14 @@ const plugins = isProduction
     debug: false,
   }),
   new webpack.optimize.UglifyJsPlugin({
-    compress: {
-      warnings: false,
-      unused: true,
-      dead_code: true,
-    },
     screw_ie8: true,
   }),
+  new webpack.DefinePlugin({
+    'process.env': {
+      NODE_ENV: JSON.stringify('production'),
+    },
+  }),
+  new webpack.optimize.AggressiveMergingPlugin(),
   // new BundleAnalyzerPlugin({
   //   analyzerMode: 'server',
   //   analyzerPort: 8888,
@@ -40,12 +41,12 @@ const plugins = isProduction
 : // Development plugins
 [
   ...sharedPlugins,
-  new webpack.optimize.OccurrenceOrderPlugin(),
+  new webpack.NoErrorsPlugin(),
   new webpack.HotModuleReplacementPlugin(),
 ];
 
 module.exports = {
-  devtool: 'cheap-module-source-map',
+  devtool: !isProduction ? 'eval-cheap-source-map' : false,
   entry: {
     bundle: isProduction ? ['babel-polyfill', './app/index'] : ['webpack-hot-middleware/client', 'babel-polyfill', './app/index'],
     vendor: ['react', 'react-dom'],
@@ -58,6 +59,7 @@ module.exports = {
   resolve: {
     extensions: ['*', '.js', '.jsx', '.styl'],
   },
+  performance: { hints: false },
   plugins,
   module: {
     loaders: [

@@ -11,10 +11,10 @@ const { rootValue, schema } = require('./server/schema');
 
 const isDevelopment = process.env.NODE_ENV !== 'production';
 const app = express();
+const jsonParser = bodyParser.json();
 const compiler = webpack(config);
 
-app.use(compression());
-app.use(bodyParser.json());
+app.use(compression({ threshold: 0 }));
 
 if (isDevelopment) {
   app.use(require('webpack-dev-middleware')(compiler, {
@@ -32,7 +32,7 @@ app.use('/graphql', graphqlHTTP({
   graphiql: isDevelopment,
 }));
 
-app.post('/contact', (req, res) => {
+app.post('/contact', jsonParser, (req, res) => {
   console.log(req);
   res.sendStatus(200);
 });
