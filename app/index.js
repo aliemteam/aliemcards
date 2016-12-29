@@ -1,4 +1,3 @@
-import 'babel-polyfill';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { IndexRoute, Router, Route, browserHistory } from 'react-router';
@@ -13,6 +12,8 @@ import Categories from './categories/categories';
 import About from './pages/about';
 import Contact from './pages/contactform';
 import Contacted from './pages/contacted';
+
+import './assets/css/main';
 
 ReactDOM.render((
   <Router history={browserHistory}>

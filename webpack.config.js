@@ -1,41 +1,86 @@
-const path = require('path');
+const { join } = require('path');
 const webpack = require('webpack');
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+
+const isProduction = process.env.NODE_ENV === 'production';
+
+const sharedPlugins = [
+  new webpack.NoErrorsPlugin(),
+  new webpack.DefinePlugin({
+    __DEV__: JSON.stringify(!isProduction),
+  }),
+  new webpack.optimize.CommonsChunkPlugin({
+    minChunks: Infinity,
+    names: ['vendor', 'manifest'],
+  }),
+];
+
+const plugins = isProduction
+? // Production plugins
+[
+  ...sharedPlugins,
+  new webpack.LoaderOptionsPlugin({
+    minimize: true,
+    debug: false,
+  }),
+  new webpack.optimize.UglifyJsPlugin({
+    compress: {
+      warnings: false,
+      unused: true,
+      dead_code: true,
+    },
+    screw_ie8: true,
+  }),
+  new BundleAnalyzerPlugin({
+    analyzerMode: 'server',
+    analyzerPort: 8888,
+    openAnalyzer: true,
+  }),
+]
+: // Development plugins
+[
+  ...sharedPlugins,
+  new webpack.optimize.OccurrenceOrderPlugin(),
+  new webpack.HotModuleReplacementPlugin(),
+];
 
 module.exports = {
-  devtool: 'cheap-module-eval-source-map',
-  entry: [
-    'webpack-hot-middleware/client',
-    './app/client/index',
-  ],
+  devtool: 'cheap-module-source-map',
+  entry: {
+    bundle: isProduction ? ['babel-polyfill', './app/index'] : ['webpack-hot-middleware/client', 'babel-polyfill', './app/index'],
+    vendor: ['react', 'react-dom'],
+  },
+  // entry: isProduction
+  //   ? ['babel-polyfill', './app/index']
+  //   : ['webpack-hot-middleware/client', 'babel-polyfill', './app/index'],
   output: {
-    path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js',
+    path: join(__dirname, 'dist'),
+    // filename: 'bundle.js',
+    filename: '[name].js',
     publicPath: '/static/',
   },
-  plugins: [
-    new webpack.HotModuleReplacementPlugin(),
-  ],
+  resolve: {
+    extensions: ['*', '.js', '.jsx', '.styl'],
+  },
+  plugins,
   module: {
     loaders: [
       {
         test: /\.jsx?$/,
-        loaders: ['react-hot-loader', 'babel-loader'],
-        include: path.resolve(__dirname, 'app'),
+        loaders: isProduction
+          ? ['babel-loader']
+          : ['react-hot-loader', 'babel-loader'],
+        include: join(__dirname, 'app'),
+      },
+      {
+        test: /\.styl$/,
+        use: [
+          'style-loader',
+          'css-loader',
+          'stylus-loader',
+        ],
+        include: join(__dirname, 'app'),
       },
     ],
   },
-  // resolve: {
-  //   extensions: ['*', '.js', '.jsx', '.json'],
-  // },
-  // plugins: [
-  //   new webpack.optimize.UglifyJsPlugin({
-  //     compress: {
-  //       warnings: true,
-  //       dead_code: true,
-  //       unused: true,
-  //       drop_debugger: true,
-  //       drop_console: true,
-  //     },
-  //   }),
-  // ],
 };

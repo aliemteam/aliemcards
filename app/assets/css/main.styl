@@ -1,22 +1,24 @@
-@import "skeleton"
-@import "grid"
-@import "colors"
-@import "typography"
-@import "lists"
-@import "header"
-@import "navmenu"
-@import "breadcrumbs"
-@import "cards"
-@import "search"
-@import "footer"
-@import "images"
-@import "loader"
-@import "contact"
+@require 'normalize'
+@require 'skeleton'
+@require 'grid'
+@require 'colors'
+@require 'typography'
+@require 'lists'
+@require 'header'
+@require 'navmenu'
+@require 'breadcrumbs'
+@require 'cards'
+@require 'search'
+@require 'footer'
+@require 'images'
+@require 'loader'
+@require 'contact'
 
 html
     height: 100%
 
 body
+    margin: 0
     position: relative
     min-height: 100%
 
@@ -64,7 +66,7 @@ body
 
 select
     cursor: pointer
-    background: url(/images/down-caret.svg) no-repeat 95% 50%
+    background: url(/assets/images/down-caret.svg) no-repeat 95% 50%
     background-size: 1.6rem
     -webkit-appearance: none
     -moz-appearance: none

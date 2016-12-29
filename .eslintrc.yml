@@ -4,3 +4,15 @@ rules:
   import/no-unresolved: 0
   no-console: 0
   react/jsx-no-bind: 0
+  import/no-extraneous-dependencies:
+    - error
+    - devDependencies: true
+      optionalDependencies: false
+      peerDependencies: false
+  comma-dangle:
+    - error
+    - arrays: always-multiline
+      objects: always-multiline
+      imports: never
+      exports: never
+      functions: ignore

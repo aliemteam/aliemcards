@@ -31,7 +31,6 @@ export default class Card extends React.Component {
   }
 
   componentDidMount() {
-    console.log(this.props);
     post('/graphql', {
       query: `query getCardById($id: ID!) {
         card(id: $id) {

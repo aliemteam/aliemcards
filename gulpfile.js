@@ -1,12 +1,16 @@
 const gulp = require('gulp');
-const debug = require('gulp-debug');
-const through = require('through2');
-const fm = require('gulp-front-matter');
+const del = require('del');
+const stylus = require('gulp-stylus');
+const poststylus = require('poststylus');
+const autoprefixer = require('autoprefixer');
 const slug = require('slug');
-const YAML = require('yamljs');
-const sequence = require('run-sequence');
 const fs = require('fs');
-const FM = require('front-matter');
+const frontmatter = require('front-matter');
+const imagemin = require('gulp-imagemin');
+
+
+// Utility tasks
+gulp.task('clean', () => del(['dist/**/*', 'npm-debug.log']));
 
 /**
  * Cards
@@ -36,53 +40,41 @@ gulp.task('cards', () => (
     const cards = [];
     for (const file of files) { // eslint-disable-line
       const f = fs.readFileSync(`./cards/${file}`, { encoding: 'utf8' });
-      const parsed = FM(f);
+      const parsed = frontmatter(f);
       cards.push(buildCardObject(file, parsed.attributes, parsed.body));
     }
     res(cards);
   }))
   .then((cardObj) => {
     const json = JSON.stringify(cardObj).replace(/\u2028/g, '\\u2028').replace(/\u2029/g, '\\u2029');
-    fs.writeFile('./app/server/data.js', `module.exports = ${json};`, (err) => {
+    fs.writeFile('./server/data.js', `module.exports = ${json};`, (err) => {
       if (err) throw err;
-      console.log('Done');
     });
   })
   .catch(err => console.error(err))
 ));
 
-gulp.task('default', ['cards']);
+gulp.task('static', () => (
+  gulp
+    .src([
+      './app/index.html',
+      './app/assets/images/*',
+    ], { base: './app' })
+    .pipe(imagemin())
+    .pipe(gulp.dest('./dist'))
+));
 
-/**
- * `new_yaml`: Utility function to modify cards
- */
-gulp.task('new_yaml', () => (
-  gulp.src('./oldcards/*.md')
-    .pipe(debug({ title: 'build_db:' }))
-    .pipe(fm({ property: 'meta', remove: true }))
-    .pipe(through.obj((file, enc, callback) => {
-      // const title = file.meta.title;
-      // const categories = file.meta.categories;
-      // const drugs = file.meta.drugs;
-      // const authors = file.meta.authors;
-      const { title, categories, drugs, authors } = file.meta;
-      const created = file.meta.updates.pop();
-      const updates = (file.meta.updates.length > 0) ? file.meta.updates : null;
-      const fmblock = '---\n\n';
-      const content = file.contents.toString();
-
-      const frontmatter = {
-        title,
-        authors,
-        created,
-        updates,
-        categories,
-        drugs,
-      };
-
-      const rebuildString = `${fmblock}${YAML.stringify(frontmatter)}\n${fmblock}${content}`;
-      file.contents = new Buffer(rebuildString); // eslint-disable-line
-      callback(null, file);
+gulp.task('styles', () => (
+  gulp
+    .src(['./app/assets/css/print.styl'], { base: './app' })
+    .pipe(stylus({
+      use: [poststylus([autoprefixer({ browsers: ['last 2 versions'] })])],
+      compress: true,
     }))
-    .pipe(gulp.dest('./cards'))
+    .pipe(gulp.dest('dist'))
+));
+
+gulp.task('__build', gulp.series(
+  'clean',
+  gulp.parallel('cards', 'static', 'styles')
 ));

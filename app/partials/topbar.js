@@ -24,7 +24,7 @@ class TopBar extends React.Component {
         <div id="header">
           <a onClick={this.toggleNavTap} id="navtoggle" ><i className="material-icons">menu</i></a>
           <a href="/">
-            <img src="/images/aliem-cards-logo-horizontal.svg" alt={this.props.title} />
+            <img src="/assets/images/aliem-cards-logo-horizontal.svg" alt={this.props.title} />
           </a>
         </div>
         <NavMenu showNav={this.state.navDrawerOpen} />
