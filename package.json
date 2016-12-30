@@ -8,7 +8,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "gulp __build && node ./index.js",
-    "start:production": "NODE_ENV=production node ./index.js",
+    "production": "NODE_ENV=production node ./index.js",
     "lint": "eslint -f codeframe \"app/**/*.{js,jsx}\" \"server/schema.js\" \"index.js\"",
     "build": "npm run lint && gulp __build && NODE_ENV=production webpack"
   },
@@ -54,6 +54,7 @@
     "style-loader": "^0.13.1",
     "stylus": "^0.54.5",
     "stylus-loader": "^2.4.0",
+    "svg-react-loader": "next",
     "webpack": "beta",
     "webpack-bundle-analyzer": "^2.2.1",
     "webpack-dev-middleware": "^1.9.0",

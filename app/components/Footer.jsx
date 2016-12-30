@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router';
+import CreativeCommonsIcon from 'svg-react-loader?name=CreativeCommonsIcon!../assets/images/by-nc-nd.svg'; // eslint-disable-line
+
 
 export default () => (
   <div className="foot">
@@ -7,7 +9,7 @@ export default () => (
       <div className="cc row">
         <div className="two columns">
           <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/">
-            <img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-nc-nd/3.0/88x31.png" />
+            <CreativeCommonsIcon />
           </a>
         </div>
         <div className="ten columns">

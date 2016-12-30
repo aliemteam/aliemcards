@@ -1,5 +1,6 @@
 import React, { Component, PropTypes } from 'react';
 import { Link } from 'react-router';
+import Logo from 'svg-react-loader?name=Logo!../assets/images/logo.svg'; // eslint-disable-line
 
 import Search from './Search';
 
@@ -25,7 +26,7 @@ export default class Header extends Component {
             <i className="material-icons">menu</i>
           </button>
           <Link to="/">
-            <img src="/assets/images/aliem-cards-logo-horizontal.svg" alt="ALiEM Cards" />
+            <Logo />
           </Link>
         </div>
         <div id="navmenu" className={this.state.navDrawerOpen ? 'navopen' : 'navclosed'}>
