@@ -1,5 +1,6 @@
 const { join } = require('path');
 const webpack = require('webpack');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 // const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 const isProduction = process.env.NODE_ENV === 'production';
@@ -12,6 +13,10 @@ const sharedPlugins = [
   new webpack.optimize.CommonsChunkPlugin({
     minChunks: Infinity,
     names: ['vendor', 'manifest'],
+  }),
+  new HtmlWebpackPlugin({
+    template: './app/index.html',
+    hash: true,
   }),
 ];
 

@@ -10,7 +10,7 @@ const imagemin = require('gulp-imagemin');
 
 
 // Utility tasks
-gulp.task('clean', () => del(['dist/**/*', 'npm-debug.log']));
+gulp.task('clean', () => del(['dist/**/*', 'npm-debug.log', '!dist/index.html']));
 
 /**
  * Cards
@@ -57,8 +57,9 @@ gulp.task('cards', () => (
 gulp.task('static', () => (
   gulp
     .src([
-      './app/index.html',
+      // './app/index.html',
       './app/assets/images/*',
+      './app/assets/manifest.json',
     ], { base: './app' })
     .pipe(imagemin())
     .pipe(gulp.dest('./dist'))

@@ -1,5 +1,4 @@
 import React from 'react';
-// import Breadcrumbs from 'react-breadcrumbs';
 import { BrowserRouter, Match, Miss } from 'react-router';
 
 import lazyLoad from './utils/LazyLoad';
@@ -37,7 +36,6 @@ const App = (props) => (
   <div className="main">
     <Header {...props} />
     <div className="content container">
-      {/* <Breadcrumbs routes={routes} params={params} separator=" / " /> */}
       <Match exactly pattern="/" component={Home} />
       <Match exactly pattern="/cards" component={Cards} />
       <Match pattern="/cards/:id" component={Card} />
