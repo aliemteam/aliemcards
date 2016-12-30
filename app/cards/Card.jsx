@@ -1,5 +1,5 @@
 /* eslint-disable react/no-danger */
-import React from 'react';
+import React, { PureComponent, PropTypes } from 'react';
 import { post } from 'axios';
 import marked from 'marked';
 
@@ -14,8 +14,7 @@ marked.setOptions({
   smartypants: false,
 });
 
-export default class Card extends React.Component {
-
+export default class Card extends PureComponent {
   constructor(props) {
     super(props);
     this.state = {
@@ -79,19 +78,20 @@ export default class Card extends React.Component {
 }
 
 Card.propTypes = {
-  params: React.PropTypes.shape({
-    id: React.PropTypes.string,
+  params: PropTypes.shape({
+    id: PropTypes.string,
   }),
 };
 
-const AuthorList = ({ authorArray }) =>
+const AuthorList = ({ authorArray }) => (
   <span>
     <strong>{authorArray.length > 1 ? 'Authors' : 'Author'}: </strong>
     {authorArray.map(author => <span key={author} className="author">{author}</span>)}
-  </span>;
+  </span>
+);
 
 AuthorList.propTypes = {
-  authorArray: React.PropTypes.arrayOf(String),
+  authorArray: PropTypes.arrayOf(String),
 };
 AuthorList.defaultProps = {
   authorArray: [],

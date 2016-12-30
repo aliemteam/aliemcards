@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { PureComponent, PropTypes } from 'react';
 import { post } from 'axios';
 import { Link } from 'react-router';
 
 import Spinner from '../components/Spinner';
 
-export default class Categories extends React.Component {
+export default class Categories extends PureComponent {
 
   constructor(props) {
     super(props);
@@ -53,5 +53,5 @@ const Results = ({ categories }) =>
   </ul>;
 
 Results.propTypes = {
-  categories: React.PropTypes.arrayOf(String),
+  categories: PropTypes.arrayOf(String),
 };

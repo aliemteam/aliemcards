@@ -1,10 +1,9 @@
-import React from 'react';
+import React, { PureComponent } from 'react';
 import { post } from 'axios';
 import CardList from './CardList';
 
 
-export default class Cards extends React.Component {
-
+export default class Cards extends PureComponent {
   constructor(props) {
     super(props);
     this.handleChange = this.handleChange.bind(this);
@@ -49,7 +48,7 @@ export default class Cards extends React.Component {
     .then(res => {
       if (res.status !== 200) throw res.status;
       const { cards } = res.data.data;
-      this.setState({ cards, categoryFilter: category });
+      this.setState({ ...this.state, cards, categoryFilter: category });
     })
     .catch(err => console.error(`Error: API response status code = ${err}`));
   }
@@ -75,5 +74,3 @@ export default class Cards extends React.Component {
     );
   }
 }
-
-Cards.propTypes = {};

@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { PureComponent, PropTypes } from 'react';
 import { post } from 'axios';
 
 import CardList from '../cards/CardList';
 
-export default class Category extends React.Component {
+export default class Category extends PureComponent {
 
   constructor(props) {
     super(props);
@@ -58,7 +58,7 @@ export default class Category extends React.Component {
 }
 
 Category.propTypes = {
-  params: React.PropTypes.shape({
-    category: React.PropTypes.string,
+  params: PropTypes.shape({
+    category: PropTypes.string,
   }),
 };

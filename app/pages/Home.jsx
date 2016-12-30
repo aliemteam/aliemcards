@@ -1,11 +1,9 @@
-import React from 'react';
+import React, { PureComponent } from 'react';
 import { post } from 'axios';
 
 import CardList from '../cards/CardList';
 
-
-export default class Home extends React.Component {
-
+export default class Home extends PureComponent {
   constructor(props) {
     super(props);
     this.state = {

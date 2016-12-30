@@ -1,7 +1,6 @@
-import React from 'react';
+import React, { PureComponent } from 'react';
 
-export default getComponent => class AsyncComponent extends React.Component {
-
+export default getComponent => class AsyncComponent extends PureComponent {
   constructor(props) {
     super(props);
     this.state = {

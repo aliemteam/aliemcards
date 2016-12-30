@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router';
 import CreativeCommonsIcon from 'svg-react-loader?name=CreativeCommonsIcon!../assets/images/by-nc-nd.svg'; // eslint-disable-line
 
-
 export default () => (
   <div className="foot">
     <div className="container">

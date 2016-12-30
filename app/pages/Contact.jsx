@@ -1,8 +1,7 @@
-import React from 'react';
+import React, { PureComponent } from 'react';
 import { post } from 'axios';
 
-class Contact extends React.Component {
-
+export default class Contact extends PureComponent {
   constructor(props) {
     super(props);
     this.changeHandler = this.changeHandler.bind(this);
@@ -21,7 +20,7 @@ class Contact extends React.Component {
     post('/contact', { data: { name, email, message } })
     .then(res => {
       if (res.status !== 200) throw res.statusText;
-      this.setState({ sent: true });
+      this.setState({ ...this.state, sent: true });
     })
     .catch(err => {
       console.error(`Error: ${err}`);
@@ -29,7 +28,7 @@ class Contact extends React.Component {
   }
 
   changeHandler(e) {
-    this.setState({ [e.currentTarget.id]: e.currentTarget.value });
+    this.setState({ ...this.state, [e.currentTarget.id]: e.currentTarget.value });
   }
 
   render() {
@@ -61,11 +60,3 @@ class Contact extends React.Component {
     );
   }
 }
-
-Contact.propTypes = {};
-
-Contact.contextTypes = {
-  router: React.PropTypes.object,
-};
-
-export default Contact;

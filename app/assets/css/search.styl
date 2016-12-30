@@ -1,14 +1,12 @@
 /* Search
 -----------------------------------------------------*/
 
-searchbox-height = 6rem
-button-width = 5rem
-
 .search
-    background: aliem-green
+    background: $primary
     display: flex
     flex-direction: column
-    padding: 10px
+    align-items: center
+    padding: 15px
 
 .search__splash-text
     color: white
@@ -16,36 +14,32 @@ button-width = 5rem
     text-align: center
 
 .search__input
-    text-align: center
-    line-height: initial
+    max-width: 700px
+    width: 100%
     input
-        max-width: 700px
         width: 100%
+        margin: 0
 
-.searchList
-    position: relative
-    top: -2rem
-    left: 2rem
-    width: 85%
-    margin: 1em
-    padding: 2rem 0
-    li
-        list-style: none
-        margin-bottom: 1rem
-        background-color: white
-        text-align: left
-        font-weight: bold
-        border-radius: 2px
-        a
-            display: block
-            padding: 1rem 2rem
-            color: aliem-green
-            text-decoration: none
-            &:hover
-                background-color: light-shade
-                color: aliem-green-shade
-                border-radius: 2px
-@media (min-width: 750px)
-    .search-list
-        margin: 2rem auto
-        padding: 3rem
+.search__results
+    max-width: 700px
+    width: 100%
+    ul
+        padding: 0
+        margin: 0
+
+.search__result
+    list-style: none
+    margin: 1rem 0
+    background-color: white
+    text-align: left
+    font-weight: bold
+    border-radius: 2px
+    a
+        display: block
+        padding: 1rem 2rem
+        color: $primary
+        text-decoration: none
+        &:hover
+            background-color: $light-gray
+            color: $primary-shade
+            border-radius: 2px
