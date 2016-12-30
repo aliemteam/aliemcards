@@ -1,0 +1,33 @@
+/* Header
+-----------------------------------------*/
+
+header-height = 6rem
+
+#header
+    position: relative
+    width: 100%
+    height: header-height
+    padding: 1rem
+    background-color: $light-gray
+    color: $dark-gray
+
+    img
+        height: 3.5rem
+
+    h1
+        display: inline-block
+        font-size: 3rem
+        font-weight: 700
+        padding: 0 0 0 0.5em
+        margin: 0
+        border: 0
+
+    a
+        text-decoration: none
+        color: $dark-gray
+
+has-header()
+    padding-top: header-height
+
+.has-header
+    has-header()

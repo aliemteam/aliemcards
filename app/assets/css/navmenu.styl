@@ -1,0 +1,69 @@
+/* Nav Drawer
+-----------------------------------------------------*/
+
+#navmenu
+    position: absolute
+    z-index: 10
+    top: header-height
+    width: 100%
+    background-color: $light-gray
+    text-align: center
+
+    ul
+        list-style: none
+
+    li
+        margin: 0
+        padding: 0
+
+    a
+        color: $dark-gray
+        text-decoration: none
+        display: block
+        padding: 1rem 0
+        &:hover
+            background-color: white
+            color: $primary
+
+
+/* Nav Toggle
+-----------------------------------------------------*/
+#navtoggle
+    float: right
+    padding: 0.5em
+    cursor: pointer
+
+.navopen
+    opacity: 1
+    visibility: visible
+    transition: opacity 0.5s linear
+
+.navclosed
+    opacity: 0
+    visibility: hidden
+    transition: visibility 0s 0.5s, opacity 0.5s linear
+
+
+/* Media Queries
+-----------------------------------------------------*/
+@media (min-width: 750px)
+    #navtoggle
+        display: none
+    #navmenu
+        top: 1.5rem
+        right: 0
+        width: 50%
+        background-color: transparent
+        text-align: right
+        padding-right: 2rem
+        li
+            display: inline
+        a
+            display: inline-block
+            padding: 0.5rem 2rem
+            &:hover
+                background-color: transparent
+    .navopen,
+    .navclosed
+        visibility: visible
+        opacity: 1

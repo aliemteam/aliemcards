@@ -1,0 +1,100 @@
+@require 'normalize'
+@require 'skeleton'
+@require 'grid'
+@require 'colors'
+@require 'typography'
+@require 'lists'
+@require 'header'
+@require 'navmenu'
+@require 'breadcrumbs'
+@require 'cards'
+@require 'search'
+@require 'footer'
+@require 'images'
+@require 'loader'
+@require 'contact'
+
+html
+    height: 100%
+
+body
+    margin: 0
+    position: relative
+    min-height: 100%
+
+.main
+    height: 100%
+
+.content
+    position: relative
+    margin-top: 2rem
+
+.drug
+    color: #F06292
+    font-weight: bold
+
+.taxonomy-list
+    a
+        text-decoration: none
+        color: $dark-gray
+        &:hover
+            color: $primary
+
+.cards-list
+    font-size: 2rem
+
+    li
+        list-style: none
+        color: $dark-gray
+        margin: 0 0 0 0
+        padding: 1rem 0
+        border-bottom: 1px solid $light-gray
+        display: block
+        a
+            color: $dark-gray
+            text-decoration: none
+            &:hover
+              color: $primary
+        .metadata
+            display: none
+            font-weight: bold
+            font-size: 1rem
+
+.breadcrumbs
+    display: none
+
+select
+    cursor: pointer
+    background: url(/assets/images/down-caret.svg) no-repeat 95% 50%
+    background-size: 1.6rem
+    -webkit-appearance: none
+    -moz-appearance: none
+    appearance: none
+
+.home h1
+    font-size: 3rem
+
+@media (min-width: 750px)
+    .cards-list
+        li
+            .metadata
+                display: inline
+                margin-left: 2rem
+                a
+                    margin-right: 1rem
+                    background-color: $light-gray
+                    padding: 0.5rem 1rem
+    .backButton
+        display: none
+    .breadcrumbs
+        display: block
+
+/* Normalize
+-----------------------------------------*/
+
+div,
+section,
+article,
+ul,
+table
+    box-sizing: border-box

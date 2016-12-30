@@ -1,0 +1,45 @@
+/* Search
+-----------------------------------------------------*/
+
+.search
+    background: $primary
+    display: flex
+    flex-direction: column
+    align-items: center
+    padding: 15px
+
+.search__splash-text
+    color: white
+    font-size: 2.3rem
+    text-align: center
+
+.search__input
+    max-width: 700px
+    width: 100%
+    input
+        width: 100%
+        margin: 0
+
+.search__results
+    max-width: 700px
+    width: 100%
+    ul
+        padding: 0
+        margin: 0
+
+.search__result
+    list-style: none
+    margin: 1rem 0
+    background-color: white
+    text-align: left
+    font-weight: bold
+    border-radius: 2px
+    a
+        display: block
+        padding: 1rem 2rem
+        color: $primary
+        text-decoration: none
+        &:hover
+            background-color: $light-gray
+            color: $primary-shade
+            border-radius: 2px
