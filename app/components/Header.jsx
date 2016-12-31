@@ -1,10 +1,10 @@
-import React, { Component, PropTypes } from 'react';
+import React, { PureComponent, PropTypes } from 'react';
 import { Link } from 'react-router';
 import Logo from 'svg-react-loader?name=Logo!../assets/images/logo.svg'; // eslint-disable-line
 
 import Search from './Search';
 
-export default class Header extends Component {
+export default class Header extends PureComponent {
   constructor(props) {
     super(props);
     this.state = {

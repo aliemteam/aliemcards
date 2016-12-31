@@ -58,7 +58,6 @@ gulp.task('cards', () => (
 gulp.task('static', () => (
   gulp
     .src([
-      // './app/index.html',
       './app/assets/images/*',
       './app/assets/manifest.json',
     ], { base: './app' })

@@ -76,7 +76,7 @@ Search.defaultProps = {
 const Results = ({ cards, onClick }) => (
   <div className="search__results">
     <ul>
-      {cards.map((card) => (
+      {cards.map(card => (
         <li className="search__result" key={card.id}>
           <Link to={`/cards/${card.id}`} onClick={onClick}>{card.title}</Link>
         </li>

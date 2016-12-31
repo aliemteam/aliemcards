@@ -1,6 +1,7 @@
 const { join } = require('path');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const OfflinePlugin = require('offline-plugin');
 // const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 const isProduction = process.env.NODE_ENV === 'production';
@@ -37,6 +38,7 @@ const plugins = isProduction
     },
   }),
   new webpack.optimize.AggressiveMergingPlugin(),
+  new OfflinePlugin(),
   // new BundleAnalyzerPlugin({
   //   analyzerMode: 'server',
   //   analyzerPort: 8888,

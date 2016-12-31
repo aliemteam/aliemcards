@@ -32,7 +32,7 @@ const FourOhFour = lazyLoad(() =>
   System.import('./pages/404').then(module => module.default)
 );
 
-const App = (props) => (
+const App = props => (
   <div className="row row--stacked main">
     <Header {...props} />
     <div className="content">
