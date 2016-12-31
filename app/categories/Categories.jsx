@@ -2,8 +2,6 @@ import React, { PureComponent, PropTypes } from 'react';
 import { post } from 'axios';
 import { Link } from 'react-router';
 
-import Spinner from '../components/Spinner';
-
 export default class Categories extends PureComponent {
 
   constructor(props) {
@@ -32,7 +30,6 @@ export default class Categories extends PureComponent {
     return (
       <div>
         <h1>Categories</h1>
-        <Spinner visible={this.state.loading} />
         <Results categories={this.state.categories} />
       </div>
     );
@@ -40,17 +37,19 @@ export default class Categories extends PureComponent {
 }
 
 const Results = ({ categories }) =>
-  <ul className="cards-list">
+  <div className="card-list">
     {categories.map(category => {
       const title = category
         .split('-')
         .map(c => c[0].toUpperCase() + c.slice(1))
         .join(' ');
       return (
-        <li key={category}><Link to={`/categories/${category}`}>{title}</Link></li>
+        <div key={category} className="card-list__item">
+          <Link to={`/categories/${category}`} className="card-list__item-title">{title}</Link>
+        </div>
       );
     })}
-  </ul>;
+  </div>;
 
 Results.propTypes = {
   categories: PropTypes.arrayOf(String),

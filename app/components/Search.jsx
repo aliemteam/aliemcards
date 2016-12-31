@@ -39,11 +39,15 @@ export default class Search extends PureComponent {
   render() {
     return (
       <div className="search">
-        { this.props.hero &&
+        { this.props.splashText &&
           <div className="search__splash-text">
-            <p>A Point-of-Care reference library<br />
-            by Michelle Lin, and the <strong>ALiEM Team</strong></p>
-            <p>Formerly known as <em>Paucis Verbis Cards</em></p>
+            <div>
+              A Point-of-Care Reference Library
+              by Michelle Lin, and the <strong>ALiEM Team</strong>
+            </div>
+            <div>
+              Formerly known as <em>Paucis Verbis Cards</em>
+            </div>
           </div>
         }
         <div className="search__input">
@@ -63,10 +67,10 @@ export default class Search extends PureComponent {
 }
 
 Search.propTypes = {
-  hero: PropTypes.bool,
+  splashText: PropTypes.bool,
 };
 Search.defaultProps = {
-  hero: false,
+  splashText: false,
 };
 
 const Results = ({ cards, onClick }) => (

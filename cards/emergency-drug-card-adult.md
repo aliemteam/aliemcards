@@ -128,7 +128,7 @@ drugs: 'etomidate, lidocaine, rocuronium, succinylcholine, vecuronium, amiodaron
     <td>**Hyperkalemia:** 1-3 grams IV push over 3-5 minutes </td>
   </tr>
   <tr>
-    <td>Magnesium Sulfate</td>
+    <td><span class="drug">Magnesium Sulfate</span></td>
     <td>
       **Asthma:** 2 g IV over 15-30 min<br>
       **Pre-eclampsia:** 4-6 gm IV over 15-20 min, followed by infusion of 1-2 gm/hr IV<br>

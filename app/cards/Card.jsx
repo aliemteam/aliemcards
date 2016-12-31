@@ -31,6 +31,17 @@ export default class Card extends PureComponent {
   }
 
   componentDidMount() {
+    this.getCard(this.props.params.id);
+  }
+
+  componentWillReceiveProps(nextProps) {
+    if (nextProps.params.id === this.props.params.id) {
+      return;
+    }
+    this.getCard(nextProps.params.id);
+  }
+
+  getCard(cardId) {
     post('/graphql', {
       query: `query getCardById($id: ID!) {
         card(id: $id) {
@@ -42,7 +53,7 @@ export default class Card extends PureComponent {
           content
         }
       }`,
-      variables: { id: this.props.params.id },
+      variables: { id: cardId },
     })
     .then(res => {
       if (res.status !== 200) throw res.status;
@@ -57,6 +68,7 @@ export default class Card extends PureComponent {
     })
     .catch(err => console.error(`Error: API response status code = ${err}`));
   }
+
   getContent() {
     return {
       __html: marked(this.state.content),
@@ -67,11 +79,16 @@ export default class Card extends PureComponent {
     return (
       <div>
         <h1>{this.state.title}</h1>
-        <ul className="cardMeta">
-          <li><AuthorList authorArray={this.state.authors} /></li>
-          <li><strong>Updated:</strong> {this.state.lastUpdate}</li>
-        </ul>
-        <div className="cardHtml" dangerouslySetInnerHTML={this.getContent()} />
+        <div className="card">
+          <div className="card__meta">
+            <div>
+              <strong>{this.state.authors.length > 1 ? 'Authors' : 'Author'}: </strong>
+              {this.state.authors.join(', ')}
+            </div>
+            <div><strong>Updated:</strong> {this.state.lastUpdate}</div>
+          </div>
+          <div className="card__content" dangerouslySetInnerHTML={this.getContent()} />
+        </div>
       </div>
     );
   }
@@ -81,18 +98,4 @@ Card.propTypes = {
   params: PropTypes.shape({
     id: PropTypes.string,
   }),
-};
-
-const AuthorList = ({ authorArray }) => (
-  <span>
-    <strong>{authorArray.length > 1 ? 'Authors' : 'Author'}: </strong>
-    {authorArray.map(author => <span key={author} className="author">{author}</span>)}
-  </span>
-);
-
-AuthorList.propTypes = {
-  authorArray: PropTypes.arrayOf(String),
-};
-AuthorList.defaultProps = {
-  authorArray: [],
 };

@@ -33,9 +33,9 @@ const FourOhFour = lazyLoad(() =>
 );
 
 const App = (props) => (
-  <div className="main">
+  <div className="row row--stacked main">
     <Header {...props} />
-    <div className="content container">
+    <div className="content">
       <Match exactly pattern="/" component={Home} />
       <Match exactly pattern="/cards" component={Cards} />
       <Match pattern="/cards/:id" component={Card} />

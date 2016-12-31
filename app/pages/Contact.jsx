@@ -38,14 +38,23 @@ export default class Contact extends PureComponent {
           <div className="contact">
             <h1>Contact Form</h1>
             <form onSubmit={this.sendHandler}>
-              <label htmlFor="name">Name:</label>
-              <input type="text" id="name" onChange={this.changeHandler} required />
-              <label htmlFor="email">Email:</label>
-              <input type="email" id="email" onChange={this.changeHandler} required />
-              <label htmlFor="message">Message:</label>
-              <textarea id="message" onChange={this.changeHandler} required />
-              <br />
-              <button type="submit">Send</button>
+              <div className="row">
+                <div className="column column--50 contact__field">
+                  <label htmlFor="name">Name:</label>
+                  <input type="text" id="name" onChange={this.changeHandler} required />
+                </div>
+                <div className="column column--50 contact__field">
+                  <label htmlFor="email">Email:</label>
+                  <input type="email" id="email" onChange={this.changeHandler} required />
+                </div>
+              </div>
+              <div className="row row--stacked contact__message">
+                <label htmlFor="message">Message:</label>
+                <textarea id="message" onChange={this.changeHandler} required />
+                <div>
+                  <button type="submit">Send</button>
+                </div>
+              </div>
             </form>
           </div>
         }

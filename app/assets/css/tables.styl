@@ -1,0 +1,33 @@
+@require 'variables'
+
+table
+    border-collapse: collapse
+    border-spacing: 0
+    width: 100%
+    margin-bottom: 1.5em
+    border: none
+    box-shadow: $shadow-2dp
+    thead>tr>td,
+    tbody>tr>th
+        background-color: $primary
+        text-align: left
+        font-weight: bold
+        color: white
+    tr
+        &:nth-child(odd)
+            background-color: $tertiary
+        td, th
+            padding: 0.8em
+            vertical-align: top
+    tfoot
+        font-size: 0.8em
+        tr
+            background-color: white !important
+            border-top: solid $border-color 1px
+        td
+            text-align: justify
+            padding: 0 .8em
+            color: $font-gray
+        p
+            margin: 10px 0 !important
+            line-height: 1.5em

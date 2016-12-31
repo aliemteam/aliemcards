@@ -11,6 +11,7 @@ export default class Cards extends PureComponent {
       categoryFilter: '',
       cards: [],
       categories: [],
+      loading: true,
     };
   }
 
@@ -28,7 +29,7 @@ export default class Cards extends PureComponent {
     .then(res => {
       if (res.status !== 200) throw res.status;
       const { cards, categories } = res.data.data;
-      this.setState({ cards, categories, categoryFilter: '' });
+      this.setState({ cards, categories, categoryFilter: '', loading: false });
     })
     .catch(err => console.error(`Error: API response status code = ${err}`));
   }
@@ -57,18 +58,20 @@ export default class Cards extends PureComponent {
     return (
       <div>
         <h1>Cards</h1>
-        <select value={this.state.categoryFilter} onChange={this.handleChange}>
-          <option value="">Filter by Category:</option>
-          {this.state.categories.map(category => {
-            const title = category
-              .split('-')
-              .map(c => c[0].toUpperCase() + c.slice(1))
-              .join(' ');
-            return (
-              <option key={category} value={category}>{title}</option>
-            );
-          })}
-        </select>
+        { !this.state.loading &&
+          <select value={this.state.categoryFilter} onChange={this.handleChange}>
+            <option value="">Filter by Category:</option>
+            {this.state.categories.map(category => {
+              const title = category
+                .split('-')
+                .map(c => c[0].toUpperCase() + c.slice(1))
+                .join(' ');
+              return (
+                <option key={category} value={category}>{title}</option>
+              );
+            })}
+          </select>
+        }
         <CardList cards={this.state.cards} />
       </div>
     );

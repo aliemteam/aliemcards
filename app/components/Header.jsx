@@ -1,10 +1,10 @@
-import React, { PureComponent, PropTypes } from 'react';
+import React, { Component, PropTypes } from 'react';
 import { Link } from 'react-router';
 import Logo from 'svg-react-loader?name=Logo!../assets/images/logo.svg'; // eslint-disable-line
 
 import Search from './Search';
 
-export default class Header extends PureComponent {
+export default class Header extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -20,23 +20,29 @@ export default class Header extends PureComponent {
 
   render() {
     return (
-      <div>
-        <div id="header">
-          <button onClick={this.handleClick} id="navtoggle">
-            <i className="material-icons">menu</i>
-          </button>
-          <Link to="/">
-            <Logo />
-          </Link>
+      <div className="row row--stacked">
+        <div className="header">
+          <div className="header__logo">
+            <Link to="/">
+              <Logo />
+            </Link>
+          </div>
+          <div className="header__nav-button">
+            <button onClick={this.handleClick}>
+              <i className="material-icons">
+                {this.state.navDrawerOpen ? 'close' : 'menu'}
+              </i>
+            </button>
+          </div>
+          <nav className={this.state.navDrawerOpen ? 'header__nav header__nav--open' : 'header__nav header__nav--closed'}>
+            <ul>
+              <li><Link to="/cards">Cards</Link></li>
+              <li><Link to="/categories">Categories</Link></li>
+              <li><Link to="/about">About</Link></li>
+            </ul>
+          </nav>
         </div>
-        <div id="navmenu" className={this.state.navDrawerOpen ? 'navopen' : 'navclosed'}>
-          <ul>
-            <li><Link to="/cards">Cards</Link></li>
-            <li><Link to="/categories">Categories</Link></li>
-            <li><Link to="/about">About</Link></li>
-          </ul>
-        </div>
-        <Search hero={this.props.location.pathname === '/'} />
+        <Search splashText={this.props.location.pathname === '/'} />
       </div>
     );
   }

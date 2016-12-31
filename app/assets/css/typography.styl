@@ -1,67 +1,64 @@
-/* Typography
------------------------------------------------------*/
+@require 'variables'
 
-body
-    font-size: 1.6em
-    line-height: 1.6
+html
+    font-size: 100%
+
+body,
+button,
+select,
+textarea
+    color: $font-primary
+    font-family: 'Open Sans', 'Helvetica Neue', helvetica, arial, sans-serif
+    font-size: 16px
     font-weight: 400
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif
-    color: #222
+    line-height: 1.7
 
-h1, h2, h3, h4, h5, h6
-    margin-top: 0
-    margin-bottom: 2rem
-    font-weight: 700
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+    color: $font-primary
+    margin: 0 0 0.75em
+    clear: both
+    line-height: 1.4
 
 h1
-    font-size: 3.0rem
-    line-height: 1.2
-    letter-spacing: -.1rem
+    font-size: 2rem
     padding: 1rem
+    font-weight: 600
     background-color: $light-gray
     border-radius: 2px
     border-bottom: 5px solid $primary
 
 h2
-    font-size: 2.6rem
-    line-height: 1.25
-    letter-spacing: -.1rem
+    font-size: 1.75rem
+    font-weight: 600
+    padding-bottom: 10px
     border-bottom: 1px solid $dark-gray
 
 h3
-    font-size: 2.4rem
-    line-height: 1.3
-    letter-spacing: -.1rem
+    font-size: 1.25rem
 
 h4
-    font-size: 2.4rem
-    line-height: 1.35
-    letter-spacing: -.08rem
+    font-size: 1.125rem
 
 h5
-    font-size: 1.8rem
-    line-height: 1.5
-    letter-spacing: -.05rem
+    font-size: 1rem
 
 h6
-    font-size: 1.5rem
-    line-height: 1.6
-    letter-spacing: 0
+    font-size: 0.9375rem
 
-/* Larger than mobile */
-@media (min-width: 750px)
-    h1
-        font-size: 4.0rem
-    h2
-        font-size: 3.2rem
-    h3
-        font-size: 2.8rem
-    h4
-        font-size: 2.8rem
-    h5
-        font-size: 2.4rem
-    h6
-        font-size: 1.5rem
+strong
+    font-weight: 600
 
-p
-    margin-top: 0
+a
+    text-decoration: none
+    color: $primary
+    &:hover
+        color: $primary-shade
+
+::selection
+    background: $primary
+    color: white
