@@ -1,33 +1,64 @@
-/* Header
------------------------------------------*/
+@require 'variables'
 
-header-height = 6rem
+.header
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    padding: 10px
+    background: $light-gray
 
-#header
-    position: relative
+.header__logo
+    flex: auto
+    width: 50%
+
+.header__nav-button
+    display: flex
+    button
+        line-height: 1
+        i
+            color: $dark-gray
+            font-size: 30px
+
+.header__nav
+    flex: auto
+    z-index: 10
     width: 100%
-    height: header-height
-    padding: 1rem
-    background-color: $light-gray
-    color: $dark-gray
-
-    img
-        height: 3.5rem
-
-    h1
-        display: inline-block
-        font-size: 3rem
-        font-weight: 700
-        padding: 0 0 0 0.5em
+    text-align: center
+    ul
+        list-style: none
+        padding: 0
         margin: 0
-        border: 0
-
+    li
+        margin: 0
+        padding: 0
     a
-        text-decoration: none
         color: $dark-gray
+        text-decoration: none
+        display: block
+        padding: 10px 0
+        &:hover
+            background-color: white
+            color: $primary
 
-has-header()
-    padding-top: header-height
+.header__nav--open
+    display: initial
 
-.has-header
-    has-header()
+.header__nav--closed
+    display: none
+
+@media (min-width: 750px)
+    .header__nav-button
+        display: none
+    .header__nav
+        width: 50%
+        text-align: right
+        li
+            display: inline
+        a
+            display: inline-block
+            padding: 8px 32px
+            &:hover
+                background-color: transparent
+    .header__nav--open,
+    .header__nav--closed
+        display: initial

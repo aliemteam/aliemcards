@@ -32,10 +32,10 @@ const FourOhFour = lazyLoad(() =>
   System.import('./pages/404').then(module => module.default)
 );
 
-const App = (props) => (
-  <div className="main">
+const App = props => (
+  <div className="row row--stacked main">
     <Header {...props} />
-    <div className="content container">
+    <div className="content">
       <Match exactly pattern="/" component={Home} />
       <Match exactly pattern="/cards" component={Cards} />
       <Match pattern="/cards/:id" component={Card} />

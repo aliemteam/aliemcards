@@ -1,48 +1,62 @@
-/* Cards
------------------------------------------*/
+@require 'variables'
 
-.cardHtml
-    h1:first-of-type
-        display: none
+// Card List
+.card-list
+    font-size: 20px
 
-.cardMeta
-    list-style: none
-    padding: 0
+.card-list__item
+    padding: 10px
+    border-bottom: 1px solid $light-gray
 
-    li
-        display: block
-        font-size: 1.4rem
+.card-list__item-title,
+.card-list__item-meta
+    color: $dark-gray
+    &:hover
+        color: $primary
+
+.card-list__item-meta
+    background: $light-gray
+    font-size: 10px
+    font-weight: bold
+    padding: 5px 10px
+    margin: 5px
+    vertical-align: middle
+
+
+// Cards
+.card__meta
+    display: flex
+    font-size: 0.9em
+    margin: $block-margins
+    & > div
         color: $dark-gray
-        background-color: $light-gray
-        margin: 0 1rem 0 0
-        padding: 1rem
+        background: $light-gray
+        padding: 10px
+        margin: 0 5px
+        &:first-of-type
+            margin-left: 0
+        &:last-of-type
+            margin-right: 0
 
-.author::after
-    content: ", "
+.drug
+    color: $drug-color
+    font-weight: bold
 
-.author:last-of-type::after
-    content: ""
+.taxonomy-list
+    a
+        text-decoration: none
+        color: $dark-gray
+        &:hover
+            color: $primary
 
 #references
     background-color: $light-gray
-    border-bottom: 0
-    border-top-left-radius: 2px
-    border-top-right-radius: 2px
-    margin-bottom: -1rem
+    border: 0
+    margin: 0
+    border-radius: 2px 2px 0 0
     color: $dark-gray
-    padding: 0.5em 1em
-    font-size: 2.5rem
-
-#references + ul
-    background-color: $light-gray
-    border-bottom-left-radius: 2px
-    border-bottom-right-radius: 2px
-    padding: 1.5em
-
-    a
-        text-decoration: none
-
-@media (min-width: 750px)
-    .cardMeta li
-        display: inline
-        white-space: nowrap
+    padding: $padding-size $padding-size 0 $padding-size
+    & + ul
+        background-color: $light-gray
+        border-radius: 0 0 2px 2px
+        padding: $padding-size

@@ -2,18 +2,16 @@ import React from 'react';
 import { Link } from 'react-router';
 
 const CardList = ({ cards }) =>
-  <ul className="cards-list">
+  <div className="card-list">
     {cards.map(card =>
-      <li key={card.id}>
-        <Link to={`/cards/${card.id}`}>{card.title}</Link>
-        <span className="metadata">
-          {card.categories.map(category =>
-            <Link key={category} to={`/categories/${category}`}>{category}</Link>
-          )}
-        </span>
-      </li>
+      <div key={card.id} className="card-list__item">
+        <Link to={`/cards/${card.id}`} className="card-list__item-title">{card.title}</Link>{' '}
+        {card.categories.map(category =>
+          <Link to={`/categories/${category}`} key={category} className="card-list__item-meta">{category}</Link>
+        )}
+      </div>
     )}
-  </ul>;
+  </div>;
 
 CardList.propTypes = {
   cards: React.PropTypes.arrayOf(React.PropTypes.shape({

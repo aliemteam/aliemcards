@@ -41,7 +41,8 @@ gulp.task('cards', () => (
     for (const file of files) { // eslint-disable-line
       const f = fs.readFileSync(`./cards/${file}`, { encoding: 'utf8' });
       const parsed = frontmatter(f);
-      cards.push(buildCardObject(file, parsed.attributes, parsed.body));
+      const body = parsed.body.replace(/^#(?!#).+/m, ''); // remove titles from body
+      cards.push(buildCardObject(file, parsed.attributes, body));
     }
     res(cards);
   }))
@@ -57,7 +58,6 @@ gulp.task('cards', () => (
 gulp.task('static', () => (
   gulp
     .src([
-      // './app/index.html',
       './app/assets/images/*',
       './app/assets/manifest.json',
     ], { base: './app' })

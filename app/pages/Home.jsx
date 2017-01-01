@@ -41,12 +41,12 @@ export default class Home extends PureComponent {
 
   render() {
     return (
-      <div className="row">
-        <div className="one-half column">
+      <div className="row row--wrap">
+        <div className="column column--50">
           <h1>New Cards</h1>
           <CardList cards={this.state.newest} />
         </div>
-        <div className="one-half column">
+        <div className="column column--50">
           <h1>Updated Cards</h1>
           <CardList cards={this.state.updated.filter(card => card.updates !== null)} />
         </div>

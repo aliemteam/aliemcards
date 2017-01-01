@@ -1,31 +1,34 @@
-/* Footer
------------------------------------------------------*/
+@require 'variables'
 
-.foot
-    width: 100%
-    color: $dark-gray
-    margin-top: 10rem
-    font-size: 1.2rem
-    img
-        display: inline
-        margin-right: 1rem
-    .cc
-        border: 1px solid $light-gray
-        padding: 2rem
+.footer
+    font-size: 12px
+    line-height: 1em
     a
-        text-decoration: none
-        color: $dark-gray
         font-weight: bold
-    .footerLinks
-        margin-top: 2rem
-        text-align: center
-        padding: 0
-        a
-            color: $primary
-        li
-            display: inline-block
-            margin: 0
-            padding: 0 1rem
-            border-right: 1px solid $light-gray
-            &:last-of-type
-                border: 0
+
+.footer__cc
+    border: 1px solid $light-gray
+    padding: 2rem
+    max-width: $container-max-width
+    margin-left: auto
+    margin-right: auto
+    align-items: center
+
+.footer__cc-image
+    width: 20%
+    display: flex
+    align-items: center
+    justify-content: center
+
+.footer__cc-text
+    width: 80%
+    line-height: 1.4em
+    color: $dark-gray
+    a
+        color: $dark-gray
+
+.footer__links
+    max-width: 300px
+    margin-left: auto
+    margin-right: auto
+    justify-content: space-between
