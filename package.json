@@ -6,7 +6,7 @@
   "author": "Jeremy Voros",
   "license": "ISC",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --coverage && npm run lint",
     "start": "gulp __build && node ./index.js",
     "prod": "NODE_ENV=production node ./index.js",
     "lint": "eslint -f codeframe \"app/**/*.{js,jsx}\" \"server/schema.js\" \"index.js\" && stylint app/assets/css",
@@ -25,7 +25,6 @@
     "helmet": "^3.3.0",
     "marked": "^0.3.6",
     "react": "^15.0.2",
-    "react-breadcrumbs": "^1.4.1",
     "react-dom": "^15.0.2",
     "react-router": "next",
     "slug": "^0.9.1"
@@ -39,6 +38,7 @@
     "babel-preset-stage-0": "^6.16.0",
     "css-loader": "^0.26.1",
     "del": "^2.2.2",
+    "enzyme": "^2.7.0",
     "eslint": "^3.9.1",
     "eslint-config-airbnb": "latest",
     "eslint-plugin-import": "^2.1.0",
@@ -51,6 +51,7 @@
     "jest": "^18.1.0",
     "offline-plugin": "^4.5.3",
     "poststylus": "^0.2.3",
+    "react-addons-test-utils": "^15.4.1",
     "react-hot-loader": "^1.3.1",
     "style-loader": "^0.13.1",
     "stylint": "^1.5.9",
@@ -61,5 +62,21 @@
     "webpack-bundle-analyzer": "^2.2.1",
     "webpack-dev-middleware": "^1.9.0",
     "webpack-hot-middleware": "^2.14.0"
+  },
+  "jest": {
+    "testRegex": "(/__tests__/.*\\.(js|jsx))$",
+    "moduleFileExtensions": [
+      "js",
+      "jsx",
+      "json"
+    ],
+    "verbose": true,
+    "collectCoverageFrom": [
+      "app/**/*.{js,jsx}",
+      "!**/__tests__/**",
+      "!app/**/index.{ts,tsx}",
+      "!app/utils/**"
+    ],
+    "coverageDirectory": "tmp/coverage"
   }
 }

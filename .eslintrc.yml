@@ -1,4 +1,10 @@
 extends: airbnb
+globals:
+  __DEV__: true
+env:
+  node: true
+  jest: true
+  jasmine: true
 rules:
   arrow-parens:
     - error
