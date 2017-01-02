@@ -3,17 +3,6 @@ import React, { PureComponent, PropTypes } from 'react';
 import { post } from 'axios';
 import marked from 'marked';
 
-marked.setOptions({
-  renderer: new marked.Renderer(),
-  gfm: true,
-  tables: true,
-  breaks: false,
-  pedantic: false,
-  sanitize: false,
-  smartLists: true,
-  smartypants: false,
-});
-
 export default class Card extends PureComponent {
   constructor(props) {
     super(props);
@@ -77,7 +66,7 @@ export default class Card extends PureComponent {
 
   render() {
     return (
-      <div>
+      <article role="article">
         <h1>{this.state.title}</h1>
         <div className="card">
           <div className="card__meta">
@@ -89,7 +78,7 @@ export default class Card extends PureComponent {
           </div>
           <div className="card__content" dangerouslySetInnerHTML={this.getContent()} />
         </div>
-      </div>
+      </article>
     );
   }
 }

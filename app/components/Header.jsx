@@ -21,7 +21,7 @@ export default class Header extends PureComponent {
   render() {
     return (
       <div className="row row--stacked">
-        <div className="header">
+        <div className="header" role="banner">
           <div className="header__logo">
             <Link to="/">
               <Logo />
@@ -34,7 +34,10 @@ export default class Header extends PureComponent {
               </i>
             </button>
           </div>
-          <nav className={this.state.navDrawerOpen ? 'header__nav header__nav--open' : 'header__nav header__nav--closed'}>
+          <nav
+            className={this.state.navDrawerOpen ? 'header__nav header__nav--open' : 'header__nav header__nav--closed'}
+            role="navigation"
+          >
             <ul>
               <li><Link to="/cards">Cards</Link></li>
               <li><Link to="/categories">Categories</Link></li>
