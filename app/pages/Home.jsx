@@ -27,7 +27,10 @@ export default class Home extends PureComponent {
         fragment cardFragment on Card {
           id
           title
-          categories
+          categories {
+            id
+            name
+          }
         }
       `,
     })
@@ -44,11 +47,15 @@ export default class Home extends PureComponent {
       <div className="row row--wrap">
         <div className="column column--50">
           <h1>New Cards</h1>
-          <CardList cards={this.state.newest} />
+          {this.state.newest.length > 0 &&
+            <CardList cards={this.state.newest} />
+          }
         </div>
         <div className="column column--50">
           <h1>Updated Cards</h1>
-          <CardList cards={this.state.updated.filter(card => card.updates !== null)} />
+          {this.state.updated.length > 0 &&
+            <CardList cards={this.state.updated.filter(card => card.updates !== null)} />
+          }
         </div>
       </div>
     );

@@ -3,7 +3,6 @@ const del = require('del');
 const stylus = require('gulp-stylus');
 const poststylus = require('poststylus');
 const autoprefixer = require('autoprefixer');
-const slug = require('slug');
 const fs = require('fs');
 const frontmatter = require('front-matter');
 const imagemin = require('gulp-imagemin');
@@ -16,18 +15,16 @@ gulp.task('clean', () => del(['dist/**/*', 'npm-debug.log', '!dist/index.html'])
  * Cards
  */
 
-const buildCardObject = (filename, meta, contents) => (
-  {
-    title: meta.title,
-    id: filename.slice(0, -3).toLowerCase(),
-    drugs: (meta.drugs) ? meta.drugs.split(', ') : null,
-    categories: meta.categories.map(cat => slug(cat, { lower: true })),
-    authors: meta.authors,
-    created: +new Date(meta.created),
-    updates: meta.updates ? meta.updates.map(u => +new Date(u)) : null,
-    content: contents.toString(),
-  }
-);
+const buildCardObject = (filename, meta, contents) => ({
+  title: meta.title,
+  id: filename.slice(0, -3).toLowerCase(),
+  drugs: (meta.drugs) ? meta.drugs.split(', ') : null,
+  categories: meta.categories,
+  authors: meta.authors,
+  created: +new Date(meta.created),
+  updates: meta.updates ? meta.updates.map(u => +new Date(u)) : null,
+  content: contents.toString(),
+});
 
 gulp.task('cards', () => (
   new Promise((res, rej) => {
@@ -36,19 +33,20 @@ gulp.task('cards', () => (
       res(files);
     });
   })
-  .then(files => new Promise((res) => {
+  .then(files => new Promise(res => {
     const cards = [];
     for (const file of files) { // eslint-disable-line
       const f = fs.readFileSync(`./cards/${file}`, { encoding: 'utf8' });
       const parsed = frontmatter(f);
       const body = parsed.body.replace(/^#(?!#).+/m, ''); // remove titles from body
+      console.log(parsed.attributes);
       cards.push(buildCardObject(file, parsed.attributes, body));
     }
     res(cards);
   }))
-  .then((cardObj) => {
+  .then(cardObj => {
     const json = JSON.stringify(cardObj).replace(/\u2028/g, '\\u2028').replace(/\u2029/g, '\\u2029');
-    fs.writeFile('./server/data.js', `module.exports = ${json};`, (err) => {
+    fs.writeFile('./server/data.js', `module.exports = ${json};`, err => {
       if (err) throw err;
     });
   })

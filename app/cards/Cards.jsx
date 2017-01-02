@@ -21,9 +21,15 @@ export default class Cards extends PureComponent {
         cards {
           id
           title
-          categories
+          categories {
+            id
+            name
+          }
         }
-        categories
+        categories {
+          id
+          name
+        }
       }`,
     })
     .then(res => {
@@ -41,7 +47,10 @@ export default class Cards extends PureComponent {
         cards(category: $category) {
           id
           title
-          categories
+          categories {
+            id
+            name
+          }
         }
       }`,
       variables: { category },
@@ -61,15 +70,9 @@ export default class Cards extends PureComponent {
         { !this.state.loading &&
           <select value={this.state.categoryFilter} onChange={this.handleChange}>
             <option value="">Filter by Category:</option>
-            {this.state.categories.map(category => {
-              const title = category
-                .split('-')
-                .map(c => c[0].toUpperCase() + c.slice(1))
-                .join(' ');
-              return (
-                <option key={category} value={category}>{title}</option>
-              );
-            })}
+            {this.state.categories.map(category => (
+              <option key={category.id} value={category.id}>{category.name}</option>
+            ))}
           </select>
         }
         <CardList cards={this.state.cards} />

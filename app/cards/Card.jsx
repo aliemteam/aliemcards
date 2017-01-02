@@ -43,7 +43,7 @@ export default class Card extends PureComponent {
 
   getCard(cardId) {
     post('/graphql', {
-      query: `query getCardById($id: ID!) {
+      query: `query getCardById($id: String!) {
         card(id: $id) {
           id
           title

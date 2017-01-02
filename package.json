@@ -26,8 +26,7 @@
     "marked": "^0.3.6",
     "react": "^15.0.2",
     "react-dom": "^15.0.2",
-    "react-router": "next",
-    "slug": "^0.9.1"
+    "react-router": "next"
   },
   "devDependencies": {
     "autoprefixer": "^6.6.0",
