@@ -7,28 +7,18 @@ const {
   GraphQLSchema,
   GraphQLFloat,
 } = require('graphql');
-let cards = require('./data');
+const {
+  cards,
+  categories,
+} = require('./data');
 
-
-const categories = Array.from(
-  new Set(cards
-    .map(card => card.categories)
-    .reduce((prev, curr) => [...prev, ...curr])
-  )
-)
-.map(category => ({
-  id: category.replace(/[^a-zA-Z0-9-_]/g, '-').replace(/-(?=-)/g, '').toLowerCase(),
-  name: category,
-}));
-
-cards = cards.map(
-  card => Object.assign({}, card, {
-    categories: card.categories.map(
-      category => category.replace(/[^a-zA-Z0-9-_]/g, '-').replace(/-(?=-)/g, '').toLowerCase()
-    ),
-  })
-);
-
+/**
+ * categoryType has the following shape:
+ *   type Category {
+ *     id: String!
+ *     name: String
+ *   }
+ */
 const categoryType = new GraphQLObjectType({
   name: 'Category',
   description: 'A single category',
@@ -44,6 +34,19 @@ const categoryType = new GraphQLObjectType({
   }),
 });
 
+/**
+ * cardType has the following shape:
+ *   type Card {
+ *     id: String!
+ *     title: String
+ *     authors: [String]
+ *     created: Float
+ *     updates: [Float]
+ *     categories: [Category]
+ *     drugs: [String]
+ *     content: String
+ *   }
+ */
 const cardType = new GraphQLObjectType({
   name: 'Card',
   description: 'Data representing a single card',
@@ -84,6 +87,17 @@ const cardType = new GraphQLObjectType({
   }),
 });
 
+/**
+ * queryType has the following shape:
+ *   type Query {
+ *     cards(category: String, drug: String): [Card]
+ *     card(id: String!): Card
+ *     categories(): [Category]
+ *     recentlyAdded(n: Int): [Card]
+ *     recentlyUpdated(n: Int): [Card]
+ *     search(input: String): [Card]
+ *   }
+ */
 const queryType = new GraphQLObjectType({
   name: 'Query',
   fields: () => ({

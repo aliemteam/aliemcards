@@ -6,6 +6,7 @@ env:
   jest: true
   jasmine: true
 rules:
+  global-require: 0
   arrow-parens:
     - error
     - as-needed
