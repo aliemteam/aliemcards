@@ -49,7 +49,7 @@ const categoryType = new GraphQLObjectType({
  */
 const cardType = new GraphQLObjectType({
   name: 'Card',
-  description: 'Data representing a single card',
+  description: 'Data representing a single card.',
   fields: () => ({
     id: {
       type: new GraphQLNonNull(GraphQLString),
@@ -106,11 +106,11 @@ const queryType = new GraphQLObjectType({
       args: {
         category: {
           type: GraphQLString,
-          description: '(optional) Return cards that contain this category',
+          description: '(optional) Return cards that contain this category.',
         },
         drug: {
           type: GraphQLString,
-          description: '(optional) Return cards that contain this drug',
+          description: '(optional) Return cards that contain this drug.',
         },
       },
       resolve: (root, { category, drug }) => {
@@ -127,7 +127,7 @@ const queryType = new GraphQLObjectType({
       args: {
         id: {
           type: new GraphQLNonNull(GraphQLString),
-          description: 'Returns a single card that matches id',
+          description: 'Returns a single card that matches id.',
         },
       },
       resolve: (root, { id }) => cards.find(card => card.id === id),
@@ -176,7 +176,7 @@ const queryType = new GraphQLObjectType({
       args: {
         input: {
           type: GraphQLString,
-          description: 'A string used to find cards',
+          description: 'A string used to find cards.',
         },
       },
       resolve: (root, { input }) => {

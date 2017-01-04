@@ -80,7 +80,7 @@ function createCategoryId(category) {
 function buildCardObject(filename, meta, contents) {
   return {
     title: meta.title,
-    id: filename.slice(0, -3).toLowerCase(),
+    id: filename.slice(0, -3),
     drugs: (meta.drugs) ? meta.drugs.split(', ') : null,
     categories: meta.categories.map(createCategoryId),
     authors: meta.authors,
