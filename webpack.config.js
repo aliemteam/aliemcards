@@ -2,6 +2,7 @@ const { join } = require('path');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const OfflinePlugin = require('offline-plugin');
+const autoprefixer = require('autoprefixer-stylus');
 // const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 const isProduction = process.env.NODE_ENV === 'production';
@@ -18,6 +19,14 @@ const sharedPlugins = [
   new HtmlWebpackPlugin({
     template: './app/index.html',
     hash: true,
+  }),
+  new webpack.LoaderOptionsPlugin({
+    test: /\.styl$/,
+    stylus: {
+      default: {
+        use: [autoprefixer({ browsers: ['last 2 versions'] })],
+      },
+    },
   }),
 ];
 
@@ -69,22 +78,26 @@ module.exports = {
   performance: { hints: false },
   plugins,
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.jsx?$/,
-        loaders: isProduction
-          ? ['babel-loader']
-          : ['react-hot-loader', 'babel-loader'],
-        include: join(__dirname, 'app'),
+        include: [
+          join(__dirname, 'app'),
+        ],
+        use: isProduction
+        ? ['babel-loader']
+        : ['react-hot-loader', 'babel-loader'],
       },
       {
         test: /\.styl$/,
+        include: [
+          join(__dirname, 'app'),
+        ],
         use: [
           'style-loader',
           'css-loader',
           'stylus-loader',
         ],
-        include: join(__dirname, 'app'),
       },
     ],
   },

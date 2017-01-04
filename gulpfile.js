@@ -2,8 +2,7 @@
 const gulp = require('gulp');
 const del = require('del');
 const stylus = require('gulp-stylus');
-const poststylus = require('poststylus');
-const autoprefixer = require('autoprefixer');
+const autoprefixer = require('autoprefixer-stylus');
 const { readdir, readFileSync, writeFile } = require('fs');
 const frontmatter = require('front-matter');
 const imagemin = require('gulp-imagemin');
@@ -60,7 +59,7 @@ gulp.task('styles', () => (
   gulp
     .src(['./app/assets/css/print.styl'], { base: './app' })
     .pipe(stylus({
-      use: [poststylus([autoprefixer({ browsers: ['last 2 versions'] })])],
+      use: [autoprefixer({ browsers: ['last 2 versions'] })],
       compress: true,
     }))
     .pipe(gulp.dest('dist'))
