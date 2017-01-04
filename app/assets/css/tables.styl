@@ -8,11 +8,14 @@ table
     border: none
     box-shadow: $shadow-2dp
     thead>tr>td,
+    thead>tr>th,
     tbody>tr>th
         background-color: $primary
         text-align: left
         font-weight: bold
         color: white
+        & strong
+            font-weight: bold
     tr
         &:nth-child(odd)
             background-color: $tertiary

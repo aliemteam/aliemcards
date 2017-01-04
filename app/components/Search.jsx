@@ -50,11 +50,12 @@ export default class Search extends PureComponent {
             </div>
           </div>
         }
-        <div className="search__input">
+        <div className="search__input" role="search">
           <input
             type="text"
             onChange={this.handleChange}
             placeholder="Search"
+            aria-label="Search for cards"
             value={this.state.query}
           />
         </div>

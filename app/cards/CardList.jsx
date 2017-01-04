@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { PropTypes } from 'react';
 import { Link } from 'react-router';
 
 const CardList = ({ cards }) =>
@@ -7,17 +7,20 @@ const CardList = ({ cards }) =>
       <div key={card.id} className="card-list__item">
         <Link to={`/cards/${card.id}`} className="card-list__item-title">{card.title}</Link>{' '}
         {card.categories.map(category =>
-          <Link to={`/categories/${category}`} key={category} className="card-list__item-meta">{category}</Link>
+          <Link to={`/categories/${category.id}`} key={`${card.id}-${category.id}`} className="card-list__item-meta">{category.name.toLowerCase()}</Link>
         )}
       </div>
     )}
   </div>;
 
 CardList.propTypes = {
-  cards: React.PropTypes.arrayOf(React.PropTypes.shape({
-    id: React.PropTypes.string,
-    title: React.PropTypes.string,
-    categories: React.PropTypes.arrayOf(React.PropTypes.string),
+  cards: PropTypes.arrayOf(PropTypes.shape({
+    id: PropTypes.string,
+    title: PropTypes.string,
+    categories: PropTypes.arrayOf(PropTypes.shape({
+      id: PropTypes.string,
+      name: PropTypes.string,
+    })),
   })),
 };
 

@@ -28,7 +28,10 @@ export default class Category extends PureComponent {
         cards(category: $category) {
           id
           title
-          categories
+          categories {
+            id
+            name
+          }
         }
       }`,
       variables: { category: this.props.params.category },
@@ -38,10 +41,7 @@ export default class Category extends PureComponent {
       const { cards } = res.data.data;
       this.setState({
         cards,
-        title: this.props.params.category
-          .split('-')
-          .map(c => c[0].toUpperCase() + c.slice(1))
-          .join(' '),
+        title: cards[0].categories[0].name,
       });
     })
     .catch(err => console.error(`Error: API response status code = ${err}`));

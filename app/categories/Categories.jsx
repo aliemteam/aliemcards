@@ -15,7 +15,10 @@ export default class Categories extends PureComponent {
   componentDidMount() {
     post('/graphql', {
       query: `query {
-        categories
+        categories {
+          id
+          name
+        }
       }`,
     })
     .then(res => {
@@ -38,19 +41,17 @@ export default class Categories extends PureComponent {
 
 const Results = ({ categories }) =>
   <div className="card-list">
-    {categories.map(category => {
-      const title = category
-        .split('-')
-        .map(c => c[0].toUpperCase() + c.slice(1))
-        .join(' ');
-      return (
-        <div key={category} className="card-list__item">
-          <Link to={`/categories/${category}`} className="card-list__item-title">{title}</Link>
-        </div>
-      );
-    })}
+    {categories.map(category => (
+      <div key={category.id} className="card-list__item">
+        <Link to={`/categories/${category.id}`} className="card-list__item-title">{category.name}</Link>
+      </div>
+      )
+    )}
   </div>;
 
 Results.propTypes = {
-  categories: PropTypes.arrayOf(String),
+  categories: PropTypes.arrayOf(PropTypes.shape({
+    id: PropTypes.string,
+    name: PropTypes.string,
+  })),
 };

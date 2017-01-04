@@ -18,8 +18,8 @@ export default () => (
     </p>
     <h2>Now ALiEM Cards</h2>
     <p>
-      As the <a href="http://www.aliem.com">ALiEM</a> blog has grown, so have
-      the PV Cards. What began as a handful of personal notes, are now a key
+      As the <a href="http://www.aliem.com" target="_blank" rel="noopener noreferrer">ALiEM</a> blog
+      has grown, so have the PV Cards. What began as a handful of personal notes, are now a key
       FOAMed point-of-care resource.
     </p>
     <p>

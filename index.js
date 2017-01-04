@@ -8,7 +8,7 @@ const { join } = require('path');
 const webpack = require('webpack');
 
 const config = require('./webpack.config');
-const { rootValue, schema } = require('./server/schema');
+const { schema } = require('./server/schema');
 
 const isDevelopment = process.env.NODE_ENV !== 'production';
 const app = express();
@@ -30,7 +30,6 @@ app.use(express.static(join(__dirname, 'dist'), { maxAge: 31557600000 })); // 1 
 
 app.use('/graphql', graphqlHTTP({
   schema,
-  rootValue,
   graphiql: isDevelopment,
 }));
 
