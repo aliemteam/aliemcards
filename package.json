@@ -10,7 +10,8 @@
     "start": "gulp __build && node ./index.js",
     "prod": "NODE_ENV=production node ./index.js",
     "lint": "eslint -f codeframe \"app/**/*.{js,jsx}\" \"server/schema.js\" \"index.js\" && stylint app/assets/css",
-    "build": "npm run lint && gulp __build && NODE_ENV=production webpack"
+    "build": "npm run lint && gulp __build && NODE_ENV=production webpack",
+    "image-fix": "gulp --gulpfile gulp-image-fix.js"
   },
   "dependencies": {
     "axios": "^0.15.0",
@@ -45,6 +46,7 @@
     "eslint-plugin-jsx-a11y": "^2.2.3",
     "eslint-plugin-react": "^6.6.0",
     "gulp": "gulpjs/gulp#4.0",
+    "gulp-download": "^0.0.1",
     "gulp-imagemin": "^3.1.1",
     "gulp-stylus": "^2.6.0",
     "html-webpack-plugin": "^2.25.0",
