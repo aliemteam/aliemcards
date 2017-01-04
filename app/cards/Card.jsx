@@ -82,7 +82,7 @@ export default class Card extends PureComponent {
         <div className="card">
           <div className="card__meta">
             <div>
-              <strong>{this.state.authors.length > 1 ? 'Authors' : 'Author'}: </strong>
+              <strong>{this.state.authors.length > 1 ? 'Authors: ' : 'Author: '}</strong>
               {this.state.authors.join(', ')}
             </div>
             <div><strong>Updated:</strong> {this.state.lastUpdate}</div>
