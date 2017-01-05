@@ -1,11 +1,13 @@
 /* eslint-disable no-use-before-define */
 const gulp = require('gulp');
+const gutil = require('gulp-util');
 const del = require('del');
 const { readdir, readFileSync, writeFile } = require('fs');
+const through = require('through2');
 const download = require('gulp-download');
 
 // Utility tasks
-gulp.task('clean', () => del(['cards-test/**/*']));
+gulp.task('clean', () => del(['cards-image-fix/**/*']));
 
 gulp.task('setup', () => (
   // make temp copy to test file manipulations
@@ -16,21 +18,29 @@ gulp.task('setup', () => (
 
 // Image fix
 gulp.task('image-fix', () => (
-  readdirPromise('./cards-image-fix')
-  .then(files => new Promise(res => {
-    const urls = [];
-    let count = 0;
-    for (const file of files) { // eslint-disable-line
-      const filename = file.slice(0, -3);
-      const content = readFileSync(`./cards/${file}`, { encoding: 'utf8' });
-      const images = content.match(/(https?:\/\/.*\.(?:png|jpg))/gi);
-      count = images != null ? count + images.length : count;
-      urls[filename] = images;
+  gulp.src('./cards-image-fix/**.md')
+  .pipe(through.obj((file, enc, callback) => {
+    const filename = file.relative.slice(0, -3);
+    let content = file.contents.toString();
+    let images = content.match(/(https?:\/\/.*\.(?:png|jpg))/gi);
+
+    gutil.log(gutil.colors.cyan(file.relative));
+
+    if (images != null) {
+      images = images.map((url, index) => ({
+        file: `${filename}-${index}.png`,
+        url,
+      }));
+
+      images.forEach(image => {
+        gutil.log(image.file);
+        content = content.replace(image.url, image.file);
+      });
     }
-    res({ count, urls });
+    file.contents = new Buffer(content); // eslint-disable-line
+    callback(null, file);
   }))
-  .then(data => console.log(data.urls))
-  .catch(err => console.error(err))
+  .pipe(gulp.dest('./cards-image-fix'))
 ));
 
 gulp.task('default', gulp.series(
@@ -38,20 +48,3 @@ gulp.task('default', gulp.series(
   'setup',
   'image-fix'
 ));
-
-// Utility functions
-
-function readdirPromise(path) {
-  return new Promise((res, rej) => {
-    readdir(path, (err, files) => {
-      if (err) rej(err);
-      res(files.filter(file => file.indexOf('.md') > -1)); //get just .md files
-    });
-  });
-}
-
-function fiximagesPromise(content) {
-  return new Promise((res, rej) => {
-    const images = content.match(/(https?:\/\/.*\.(?:png|jpg))/gi);
-  });
-}

@@ -60,6 +60,7 @@
     "stylus": "^0.54.5",
     "stylus-loader": "^2.4.0",
     "svg-react-loader": "next",
+    "through2": "^2.0.3",
     "webpack": "beta",
     "webpack-bundle-analyzer": "^2.2.1",
     "webpack-dev-middleware": "^1.9.0",
