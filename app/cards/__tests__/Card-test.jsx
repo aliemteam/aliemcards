@@ -26,7 +26,7 @@ describe('<Card />', () => {
           card: {
             id: 'test-card-id',
             title: 'Test Card',
-            authors: ['John Doe'],
+            authors: [{ id: '0', name: 'John Doe' }],
             created: 1262062800000,
             updates: null,
             content: '## Hello World',
@@ -49,7 +49,11 @@ describe('<Card />', () => {
     expect(cardContent).toBe('<div class="card__content"><h2 id="hello-world">Hello World</h2>\n</div>');
   });
   it('should render appropriately with multiple authors', async () => {
-    MOCK_RESPONSE.data.data.card.authors = ['John Doe', 'Jane Doe', 'Bob Smith'];
+    MOCK_RESPONSE.data.data.card.authors = [
+      { id: '0', name: 'John Doe' },
+      { id: '1', name: 'Jane Doe' },
+      { id: '2', name: 'Bob Smith' },
+    ];
     spyOn(axios, 'post').and.callFake(() => new Promise(res => res(MOCK_RESPONSE)));
     const { component } = await setup();
     const authorString = component.find('.card__meta').children().first().text();
