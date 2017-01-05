@@ -3,6 +3,15 @@ import { post } from 'axios';
 import { Link } from 'react-router';
 
 export default class Search extends PureComponent {
+
+  static propTypes = {
+    splashText: PropTypes.bool,
+  }
+
+  static defaultProps = {
+    splashText: false,
+  }
+
   constructor(props) {
     super(props);
     this.state = {
@@ -66,13 +75,6 @@ export default class Search extends PureComponent {
     );
   }
 }
-
-Search.propTypes = {
-  splashText: PropTypes.bool,
-};
-Search.defaultProps = {
-  splashText: false,
-};
 
 const Results = ({ cards, onClick }) => (
   <div className="search__results">

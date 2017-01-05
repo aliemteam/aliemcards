@@ -5,6 +5,13 @@ import Logo from 'svg-react-loader?name=Logo!../assets/images/logo.svg'; // esli
 import Search from './Search';
 
 export default class Header extends PureComponent {
+
+  static propTypes = {
+    location: PropTypes.shape({
+      pathname: PropTypes.string,
+    }),
+  }
+
   constructor(props) {
     super(props);
     this.state = {
@@ -50,9 +57,3 @@ export default class Header extends PureComponent {
     );
   }
 }
-
-Header.propTypes = {
-  location: PropTypes.shape({
-    pathname: PropTypes.string,
-  }),
-};

@@ -6,8 +6,7 @@ const autoprefixer = require('autoprefixer-stylus');
 const { readdir, readFileSync, writeFile } = require('fs');
 const frontmatter = require('front-matter');
 const imagemin = require('gulp-imagemin');
-const { exec } = require('child_process');
-
+const { normalize } = require('./server/utils/normalize.js');
 
 // Utility tasks
 gulp.task('clean', () => del(['dist/**/*', 'npm-debug.log', '!dist/index.html']));
@@ -17,30 +16,18 @@ gulp.task('cards', () => (
   readdirPromise('./cards')
   .then(files => new Promise(res => {
     let cards = [];
-    let categories = new Set();
     for (const file of files) { // eslint-disable-line
       const f = readFileSync(`./cards/${file}`, { encoding: 'utf8' });
       const parsed = frontmatter(f);
       const body = parsed.body.replace(/^#(?!#).+/m, ''); // remove titles from body
-      categories = new Set([...categories, ...parsed.attributes.categories]);
       cards = [...cards, buildCardObject(file, parsed.attributes, body)];
     }
-    categories = [...categories].map(category => ({
-      id: createCategoryId(category),
-      name: category,
-    }));
-    res({ cards, categories });
+    res(cards);
   }))
-  .then(data => {
-    const cardJson = JSON.stringify(data.cards).replace(/\u2028/g, '\\u2028').replace(/\u2029/g, '\\u2029');
-    const categoryJson = JSON.stringify(data.categories).replace(/\u2028/g, '\\u2028').replace(/\u2029/g, '\\u2029');
-    return execPromise('mkdir -p ./server/data')
-    .then(writeFilePromise('./server/data/cards.js', `module.exports = ${cardJson};`))
-    .then(writeFilePromise('./server/data/categories.js', `module.exports = ${categoryJson};`))
-    .then(writeFilePromise('./server/data/index.js',
-    'module.exports = {\n  cards: require(\'./cards.js\'),\n  categories: require(\'./categories.js\'),\n};\n'
-    ));
-  })
+  .then(normalize)
+  .then(json => writeFilePromise('./server/data.json',
+    JSON.stringify(json).replace(/\u2028/g, '\\u2028').replace(/\u2029/g, '\\u2029')
+  ))
   .catch(err => console.error(err))
 ));
 
@@ -71,17 +58,14 @@ gulp.task('__build', gulp.series(
 ));
 
 
-// Utility functions
-function createCategoryId(category) {
-  return category.replace(/[^a-zA-Z0-9-_]/g, '-').replace(/-(?=-)/g, '').toLowerCase();
-}
+// Utility functions -------------------------------------------------------------------------------
 
 function buildCardObject(filename, meta, contents) {
   return {
     title: meta.title,
     id: filename.slice(0, -3),
     drugs: (meta.drugs) ? meta.drugs.split(', ') : null,
-    categories: meta.categories.map(createCategoryId),
+    categories: meta.categories, //
     authors: meta.authors,
     created: +new Date(meta.created),
     updates: meta.updates ? meta.updates.map(u => +new Date(u)) : null,
@@ -94,15 +78,6 @@ function readdirPromise(path) {
     readdir(path, (err, files) => {
       if (err) rej(err);
       res(files);
-    });
-  });
-}
-
-function execPromise(cmd) {
-  return new Promise((res, rej) => {
-    exec(cmd, (err, stdout, stderr) => {
-      if (err) rej(err);
-      res({ stdout, stderr });
     });
   });
 }

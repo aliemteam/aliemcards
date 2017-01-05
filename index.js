@@ -9,6 +9,7 @@ const webpack = require('webpack');
 
 const config = require('./webpack.config');
 const { schema } = require('./server/schema');
+const data = require('./server/data.json');
 
 const isDevelopment = process.env.NODE_ENV !== 'production';
 const app = express();
@@ -31,6 +32,7 @@ app.use(express.static(join(__dirname, 'dist'), { maxAge: 31557600000 })); // 1 
 app.use('/graphql', graphqlHTTP({
   schema,
   graphiql: isDevelopment,
+  context: data,
 }));
 
 app.post('/contact', jsonParser, (req, res) => {

@@ -1,98 +1,25 @@
 const {
-  GraphQLObjectType,
-  GraphQLNonNull,
-  GraphQLString,
   GraphQLInt,
   GraphQLList,
+  GraphQLNonNull,
+  GraphQLObjectType,
   GraphQLSchema,
-  GraphQLFloat,
+  GraphQLString,
 } = require('graphql');
 const {
-  cards,
-  categories,
-} = require('./data');
-
-/**
- * categoryType has the following shape:
- *   type Category {
- *     id: String!
- *     name: String
- *   }
- */
-const categoryType = new GraphQLObjectType({
-  name: 'Category',
-  description: 'A single category',
-  fields: () => ({
-    id: {
-      type: new GraphQLNonNull(GraphQLString),
-      description: 'The ID of the category.',
-    },
-    name: {
-      type: GraphQLString,
-      description: 'The category name.',
-    },
-  }),
-});
-
-/**
- * cardType has the following shape:
- *   type Card {
- *     id: String!
- *     title: String
- *     authors: [String]
- *     created: Float
- *     updates: [Float]
- *     categories: [Category]
- *     drugs: [String]
- *     content: String
- *   }
- */
-const cardType = new GraphQLObjectType({
-  name: 'Card',
-  description: 'Data representing a single card.',
-  fields: () => ({
-    id: {
-      type: new GraphQLNonNull(GraphQLString),
-      description: 'The ID of the card.',
-    },
-    title: {
-      type: GraphQLString,
-      description: 'The title of the card.',
-    },
-    authors: {
-      type: new GraphQLList(GraphQLString),
-      description: 'Array of author names.',
-    },
-    created: {
-      type: GraphQLFloat,
-      description: 'Integer JS timestamp representation of the Date the card was created.',
-    },
-    updates: {
-      type: new GraphQLList(GraphQLFloat),
-      description: 'Array of integer JS timestamps.',
-    },
-    categories: {
-      type: new GraphQLList(categoryType),
-      description: 'Array of categories that pertain to the card.',
-      resolve: card => card.categories.map(c => categories.find(cat => cat.id === c)),
-    },
-    drugs: {
-      type: new GraphQLList(GraphQLString),
-      description: 'Array of drug names that pertain to the card.',
-    },
-    content: {
-      type: GraphQLString,
-      description: 'Markdown string of the card\'s content.',
-    },
-  }),
-});
+  authorType,
+  cardType,
+  categoryType,
+} = require('./types/');
 
 /**
  * queryType has the following shape:
  *   type Query {
+ *     authors(): [Author]
+ *     author(id: String!): Author
  *     cards(category: String, drug: String): [Card]
  *     card(id: String!): Card
- *     categories(): [Category]
+ *     categories(): [Category],
  *     recentlyAdded(n: Int): [Card]
  *     recentlyUpdated(n: Int): [Card]
  *     search(input: String): [Card]
@@ -101,6 +28,20 @@ const cardType = new GraphQLObjectType({
 const queryType = new GraphQLObjectType({
   name: 'Query',
   fields: () => ({
+    authors: {
+      type: new GraphQLList(authorType),
+      resolve: (root, args, context) => Object.values(context.entities.authors),
+    },
+    author: {
+      type: authorType,
+      args: {
+        id: {
+          type: new GraphQLNonNull(GraphQLString),
+          description: 'The id of the author of interest.',
+        },
+      },
+      resolve: (root, { id }, context) => context.entities.authors[id],
+    },
     cards: {
       type: new GraphQLList(cardType),
       args: {
@@ -113,7 +54,8 @@ const queryType = new GraphQLObjectType({
           description: '(optional) Return cards that contain this drug.',
         },
       },
-      resolve: (root, { category, drug }) => {
+      resolve: (root, { category, drug }, context) => {
+        const cards = Object.values(context.entities.cards);
         if (!category && !drug) return cards;
         if (!category && drug) return cards.filter(c => c.drugs.indexOf(drug) !== -1);
         if (category && !drug) return cards.filter(c => c.categories.indexOf(category) !== -1);
@@ -130,11 +72,11 @@ const queryType = new GraphQLObjectType({
           description: 'Returns a single card that matches id.',
         },
       },
-      resolve: (root, { id }) => cards.find(card => card.id === id),
+      resolve: (root, { id }, context) => context.entities.cards[id],
     },
     categories: {
       type: new GraphQLList(categoryType),
-      resolve: root => categories, // eslint-disable-line
+      resolve: (root, args, context) => Object.values(context.entities.categories),
     },
     recentlyAdded: {
       type: new GraphQLList(cardType),
@@ -144,8 +86,8 @@ const queryType = new GraphQLObjectType({
           description: '(Optional) Number of cards to return. Default 5.',
         },
       },
-      resolve: (root, { n }) => (
-        [...cards].sort((a, b) => {
+      resolve: (root, { n }, context) => (
+        Object.values(context.entities.cards).sort((a, b) => {
           if (a.created < b.created) return 1;
           if (a.created > b.created) return -1;
           return 0;
@@ -161,8 +103,9 @@ const queryType = new GraphQLObjectType({
           description: '(Optional) Number of cards to return. Default 5.',
         },
       },
-      resolve: (root, { n }) => (
-        cards.filter(card => card.updates)
+      resolve: (root, { n }, context) => (
+        Object.values(context.entities.cards)
+        .filter(card => card.updates)
         .sort((a, b) => {
           if (a.updates[0] < b.updates[0]) return 1;
           if (a.updates[0] > b.updates[0]) return -1;
@@ -179,10 +122,12 @@ const queryType = new GraphQLObjectType({
           description: 'A string used to find cards.',
         },
       },
-      resolve: (root, { input }) => {
+      resolve: (root, { input }, context) => {
         if (!input) return [];
         const re = new RegExp(` ${input}`, 'gi');
-        return cards.filter(card => re.test(card.content)).slice(0, 5);
+        return Object.values(context.entities.cards)
+        .filter(card => re.test(card.content))
+        .slice(0, 5);
       },
     },
   }),
