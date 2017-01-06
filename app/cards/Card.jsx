@@ -4,6 +4,13 @@ import { post } from 'axios';
 import marked from 'marked';
 
 export default class Card extends PureComponent {
+
+  static propTypes = {
+    params: PropTypes.shape({
+      id: PropTypes.string,
+    }),
+  }
+
   constructor(props) {
     super(props);
     this.state = {
@@ -36,7 +43,9 @@ export default class Card extends PureComponent {
         card(id: $id) {
           id
           title
-          authors
+          authors {
+            name
+          }
           created
           updates
           content
@@ -72,7 +81,7 @@ export default class Card extends PureComponent {
           <div className="card__meta">
             <div>
               <strong>{this.state.authors.length > 1 ? 'Authors: ' : 'Author: '}</strong>
-              {this.state.authors.join(', ')}
+              {this.state.authors.map(author => author.name).join(', ')}
             </div>
             <div><strong>Updated:</strong> {this.state.lastUpdate}</div>
           </div>
@@ -82,9 +91,3 @@ export default class Card extends PureComponent {
     );
   }
 }
-
-Card.propTypes = {
-  params: PropTypes.shape({
-    id: PropTypes.string,
-  }),
-};

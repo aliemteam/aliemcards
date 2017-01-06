@@ -5,6 +5,12 @@ import CardList from '../cards/CardList';
 
 export default class Category extends PureComponent {
 
+  static propTypes = {
+    params: PropTypes.shape({
+      category: PropTypes.string,
+    }),
+  }
+
   constructor(props) {
     super(props);
     this.getCategory = this.getCategory.bind(this);
@@ -56,9 +62,3 @@ export default class Category extends PureComponent {
     );
   }
 }
-
-Category.propTypes = {
-  params: PropTypes.shape({
-    category: PropTypes.string,
-  }),
-};
