@@ -40,7 +40,7 @@ app.post('/contact', jsonParser, (req, res) => {
   res.sendStatus(200);
 });
 
-app.use('*', (req, res) => {
+app.get('*', (req, res) => {
   res.sendFile(join(__dirname, 'dist', 'index.html'), { maxAge: 31557600000 }); // 1 year
 });
 

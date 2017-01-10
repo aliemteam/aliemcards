@@ -3,7 +3,7 @@ const gulp = require('gulp');
 const del = require('del');
 const stylus = require('gulp-stylus');
 const autoprefixer = require('autoprefixer-stylus');
-const { readdir, readFileSync, writeFile, statSync } = require('fs');
+const { readdir, readFileSync, writeFile } = require('fs');
 const frontmatter = require('front-matter');
 const imagemin = require('gulp-imagemin');
 const { normalize } = require('./server/utils/normalize.js');
@@ -13,18 +13,17 @@ gulp.task('clean', () => del(['dist/**/*', 'npm-debug.log', '!dist/index.html'])
 
 // Cards
 gulp.task('cards', () => (
-  readdirPromise('./cards-image-fix')
-  .then(files => files.filter(file => statSync(`./cards-image-fix/${file}`).isDirectory()))
-  .then(dirs => {
+  readdirPromise('./cards')
+  .then(files => new Promise(res => {
     let cards = [];
-    for (const dir of dirs) { // eslint-disable-line
-      const f = readFileSync(`./cards-image-fix/${dir}/card.md`, { encoding: 'utf8' });
+    for (const file of files) { // eslint-disable-line
+      const f = readFileSync(`./cards/${file}`, { encoding: 'utf8' });
       const parsed = frontmatter(f);
       const body = parsed.body.replace(/^#(?!#).+/m, ''); // remove titles from body
-      cards = [...cards, buildCardObject(dir, parsed.attributes, body)];
+      cards = [...cards, buildCardObject(file, parsed.attributes, body)];
     }
-    return cards;
-  })
+    res(cards);
+  }))
   .then(normalize)
   .then(json => writeFilePromise('./server/data.json',
     JSON.stringify(json).replace(/\u2028/g, '\\u2028').replace(/\u2029/g, '\\u2029')
@@ -64,7 +63,7 @@ gulp.task('__build', gulp.series(
 function buildCardObject(filename, meta, contents) {
   return {
     title: meta.title,
-    id: filename,
+    id: filename.slice(0, -3),
     drugs: (meta.drugs) ? meta.drugs.split(', ') : null,
     categories: meta.categories, //
     authors: meta.authors,
