@@ -13,12 +13,12 @@ gulp.task('clean', () => del(['dist/**/*', 'npm-debug.log', '!dist/index.html'])
 
 // Cards
 gulp.task('cards', () => (
-  readdirPromise('./cards-image-fix')
-  .then(files => files.filter(file => statSync(`./cards-image-fix/${file}`).isDirectory()))
+  readdirPromise('./cards')
+  .then(files => files.filter(file => statSync(`./cards/${file}`).isDirectory()))
   .then(dirs => {
     let cards = [];
     for (const dir of dirs) { // eslint-disable-line
-      const f = readFileSync(`./cards-image-fix/${dir}/card.md`, { encoding: 'utf8' });
+      const f = readFileSync(`./cards/${dir}/card.md`, { encoding: 'utf8' });
       const parsed = frontmatter(f);
       const body = parsed.body.replace(/^#(?!#).+/m, ''); // remove titles from body
       cards = [...cards, buildCardObject(dir, parsed.attributes, body)];
