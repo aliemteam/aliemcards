@@ -8,6 +8,8 @@ const frontmatter = require('front-matter');
 const imagemin = require('gulp-imagemin');
 const { normalize } = require('./server/utils/normalize.js');
 
+const cfurl = 'http://d249u3bk3sqm2p.cloudfront.net';
+
 // Utility tasks
 gulp.task('clean', () => del(['dist/**/*', 'npm-debug.log', '!dist/index.html']));
 
@@ -20,7 +22,8 @@ gulp.task('cards', () => (
     for (const dir of dirs) { // eslint-disable-line
       const f = readFileSync(`./cards/${dir}/card.md`, { encoding: 'utf8' });
       const parsed = frontmatter(f);
-      const body = parsed.body.replace(/^#(?!#).+/m, ''); // remove titles from body
+      let body = parsed.body.replace(/^#(?!#).+/m, ''); // remove titles from body
+      body = body.replace(/(\w*(?:-|_)*\w*\.(?:png|jpg|jpeg|gif))/gi, `${cfurl}/${dir}/$&`);
       cards = [...cards, buildCardObject(dir, parsed.attributes, body)];
     }
     return cards;
