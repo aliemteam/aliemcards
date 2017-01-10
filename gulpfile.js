@@ -23,6 +23,7 @@ gulp.task('cards', () => (
       const f = readFileSync(`./cards/${dir}/card.md`, { encoding: 'utf8' });
       const parsed = frontmatter(f);
       let body = parsed.body.replace(/^#(?!#).+/m, ''); // remove titles from body
+      // prepend cloudfront urls and card directory to image references
       body = body.replace(/(\w*(?:-|_)*\w*\.(?:png|jpg|jpeg|gif))/gi, `${cfurl}/${dir}/$&`);
       cards = [...cards, buildCardObject(dir, parsed.attributes, body)];
     }
