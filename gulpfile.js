@@ -3,10 +3,12 @@ const gulp = require('gulp');
 const del = require('del');
 const stylus = require('gulp-stylus');
 const autoprefixer = require('autoprefixer-stylus');
-const { readdir, readFileSync, writeFile } = require('fs');
+const { readdir, readFileSync, writeFile, statSync } = require('fs');
 const frontmatter = require('front-matter');
 const imagemin = require('gulp-imagemin');
 const { normalize } = require('./server/utils/normalize.js');
+
+const cfurl = 'http://d249u3bk3sqm2p.cloudfront.net';
 
 // Utility tasks
 gulp.task('clean', () => del(['dist/**/*', 'npm-debug.log', '!dist/index.html']));
@@ -14,16 +16,19 @@ gulp.task('clean', () => del(['dist/**/*', 'npm-debug.log', '!dist/index.html'])
 // Cards
 gulp.task('cards', () => (
   readdirPromise('./cards')
-  .then(files => new Promise(res => {
+  .then(files => files.filter(file => statSync(`./cards/${file}`).isDirectory()))
+  .then(dirs => {
     let cards = [];
-    for (const file of files) { // eslint-disable-line
-      const f = readFileSync(`./cards/${file}`, { encoding: 'utf8' });
+    for (const dir of dirs) { // eslint-disable-line
+      const f = readFileSync(`./cards/${dir}/card.md`, { encoding: 'utf8' });
       const parsed = frontmatter(f);
-      const body = parsed.body.replace(/^#(?!#).+/m, ''); // remove titles from body
-      cards = [...cards, buildCardObject(file, parsed.attributes, body)];
+      let body = parsed.body.replace(/^#(?!#).+/m, ''); // remove titles from body
+      // prepend cloudfront urls and card directory to image references
+      body = body.replace(/(\w*(?:-|_)*\w*\.(?:png|jpg|jpeg|gif))/gi, `${cfurl}/${dir}/$&`);
+      cards = [...cards, buildCardObject(dir, parsed.attributes, body)];
     }
-    res(cards);
-  }))
+    return cards;
+  })
   .then(normalize)
   .then(json => writeFilePromise('./server/data.json',
     JSON.stringify(json).replace(/\u2028/g, '\\u2028').replace(/\u2029/g, '\\u2029')
@@ -63,7 +68,7 @@ gulp.task('__build', gulp.series(
 function buildCardObject(filename, meta, contents) {
   return {
     title: meta.title,
-    id: filename.slice(0, -3),
+    id: filename,
     drugs: (meta.drugs) ? meta.drugs.split(', ') : null,
     categories: meta.categories, //
     authors: meta.authors,
