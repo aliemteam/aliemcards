@@ -1,9 +1,9 @@
 import React, { PureComponent } from 'react';
 import { post } from 'axios';
-import CardList from './CardList';
+import CardList from '../cards/CardList';
 
 
-export default class Cards extends PureComponent {
+export default class NeverUpdated extends PureComponent {
   constructor(props) {
     super(props);
     this.handleChange = this.handleChange.bind(this);
