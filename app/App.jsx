@@ -4,15 +4,19 @@ import { BrowserRouter, Match, Miss } from 'react-router';
 import lazyLoad from './utils/LazyLoad';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import EditorTools from './cards/EditorTools';
 
 import './assets/css/main';
 
 const Home = lazyLoad(() =>
   System.import('./pages/Home').then(module => module.default)
 );
-const CardsContainer = lazyLoad(() =>
-  System.import('./cards/CardsContainer').then(module => module.default)
+const Cards = lazyLoad(() =>
+  System.import('./cards/Cards').then(module => module.default)
 );
+// const EditorTools = lazyLoad(() =>
+//   System.import('./cards/EditorTools').then(module => module.default)
+// );
 const Card = lazyLoad(() =>
   System.import('./cards/Card').then(module => module.default)
 );
@@ -37,8 +41,9 @@ const App = props => (
     <Header {...props} />
     <main className="content" role="main">
       <Match exactly pattern="/" component={Home} />
-      <Match exactly pattern="/cards" component={CardsContainer} />
+      <Match exactly pattern="/cards" component={Cards} />
       <Match pattern="/cards/:id" component={Card} />
+      <Match exactly pattern="/editortools" component={EditorTools} />
       <Match exactly pattern="/categories" component={Categories} />
       <Match pattern="/categories/:category" component={Category} />
       <Match pattern="/about" component={About} />

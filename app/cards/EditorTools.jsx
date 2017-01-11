@@ -19,9 +19,10 @@ export default class Cards extends PureComponent {
   componentDidMount() {
     post('/graphql', {
       query: `query {
-        cards {
+        neverUpdated {
           id
           title
+          created
           categories {
             id
             name
@@ -35,7 +36,8 @@ export default class Cards extends PureComponent {
     })
     .then(res => {
       if (res.status !== 200) throw res.status;
-      const { cards, categories } = res.data.data;
+      const { categories } = res.data.data;
+      const cards = res.data.data.neverUpdated;
       this.setState({ cards, categories, categoryFilter: '', loading: false, filterCards: cards });
     })
     .catch(err => console.error(`Error: API response status code = ${err}`));
@@ -56,7 +58,7 @@ export default class Cards extends PureComponent {
   render() {
     return (
       <div>
-        <h1>Cards</h1>
+        <h1>Never Updated - chronological</h1>
         { !this.state.loading &&
           <select value={this.state.categoryFilter} onChange={this.handleChange}>
             <option value="">Filter by Category:</option>
@@ -65,7 +67,7 @@ export default class Cards extends PureComponent {
             ))}
           </select>
         }
-        <CardList cards={this.state.filterCards} />
+        <CardList editortools cards={this.state.filterCards} />
       </div>
     );
   }
