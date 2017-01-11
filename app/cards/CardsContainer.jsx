@@ -6,7 +6,6 @@ import Cards from './Cards';
 export default class CardsContainer extends PureComponent {
   constructor(props) {
     super(props);
-    this.handleChange = this.handleChange.bind(this);
     this.state = {
       cards: [],
       categories: [],
@@ -41,7 +40,7 @@ export default class CardsContainer extends PureComponent {
   render() {
     return (
       <Cards
-        title="Cardssssss"
+        title="Cards"
         cards={this.state.cards}
         categories={this.state.categories}
       />

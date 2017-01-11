@@ -9,15 +9,18 @@ export default class Cards extends PureComponent {
     this.state = {
       categoryFilter: '',
       filterCards: this.props.cards,
-
     };
   }
 
   handleChange(e) {
     const category = e.currentTarget.value;
-    const filterCards = this.state.cards
-      .filter(card => card.categories.filter(cat => cat.id === category));
-    this.setState({ filterCards });
+    if (category === '') {
+      this.setState({ filterCards: this.props.cards, categoryFilter: '' });
+    } else {
+      const filterCards = this.props.cards
+      .filter(card => card.categories.findIndex(c => c.id === category) !== -1);
+      this.setState({ filterCards, categoryFilter: category });
+    }
   }
 
   render() {
@@ -32,7 +35,7 @@ export default class Cards extends PureComponent {
             ))}
           </select>
         }
-        <CardList cards={this.props.cards} />
+        <CardList cards={this.state.filterCards} />
       </div>
     );
   }
