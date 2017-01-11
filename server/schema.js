@@ -19,9 +19,11 @@ const {
  *     author(id: String!): Author
  *     cards(category: String, drug: String): [Card]
  *     card(id: String!): Card
- *     categories(): [Category],
+ *     categories(): [Category]
  *     recentlyAdded(n: Int): [Card]
  *     recentlyUpdated(n: Int): [Card]
+ *     neverUpdated(n: Int): [Card]
+ *     oldestUpdates(n: Int): [Card]
  *     search(input: String): [Card]
  *   }
  */
@@ -76,7 +78,14 @@ const queryType = new GraphQLObjectType({
     },
     categories: {
       type: new GraphQLList(categoryType),
-      resolve: (root, args, context) => Object.values(context.entities.categories),
+      resolve: (root, args, context) => (
+        Object.values(context.entities.categories)
+        .sort((a, b) => {
+          if (a.id < b.id) return -1;
+          if (a.id > b.id) return 1;
+          return 0;
+        })
+      ),
     },
     recentlyAdded: {
       type: new GraphQLList(cardType),
@@ -113,6 +122,44 @@ const queryType = new GraphQLObjectType({
         })
         .slice(0, n || 5)
       ),
+    },
+    neverUpdated: {
+      type: new GraphQLList(cardType),
+      args: {
+        n: {
+          type: GraphQLInt,
+          description: '(Optional) Number of cards to return, Defaults to no limit',
+        },
+      },
+      resolve: (root, { n }, context) => {
+        const cards = Object.values(context.entities.cards)
+        .filter(card => !card.updates)
+        .sort((a, b) => {
+          if (a.created < b.created) return -1;
+          if (a.created > b.created) return 1;
+          return 0;
+        });
+        return n ? cards.slice(0, n) : cards;
+      },
+    },
+    oldestUpdates: {
+      type: new GraphQLList(cardType),
+      args: {
+        n: {
+          type: GraphQLInt,
+          description: '(Optional) Number of cards to return, Defaults to no limit',
+        },
+      },
+      resolve: (root, { n }, context) => {
+        const cards = Object.values(context.entities.cards)
+        .filter(card => card.updates)
+        .sort((a, b) => {
+          if (a.updates[0] < b.updates[0]) return -1;
+          if (a.updates[0] > b.updates[0]) return 1;
+          return 0;
+        });
+        return n ? cards.slice(0, n) : cards;
+      },
     },
     search: {
       type: new GraphQLList(cardType),

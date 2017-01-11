@@ -8,6 +8,7 @@
   "scripts": {
     "test": "jest --coverage && npm run lint",
     "start": "gulp __build && ./awsbuild.sh && node ./index.js",
+    "demon": "nodemon ./index.js",
     "prod": "NODE_ENV=production node ./index.js",
     "lint": "eslint -f codeframe \"app/**/*.{js,jsx}\" \"server/schema.js\" \"index.js\" && stylint app/assets/css",
     "build": "npm run lint && gulp __build && ./awsbuild.sh && NODE_ENV=production webpack "
@@ -51,6 +52,7 @@
     "gulp-util": "^3.0.8",
     "html-webpack-plugin": "^2.26.0",
     "jest": "^18.1.0",
+    "nodemon": "^1.11.0",
     "normalizr": "^3.0.2",
     "offline-plugin": "^4.5.3",
     "react-addons-test-utils": "^15.4.1",
