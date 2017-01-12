@@ -5,6 +5,9 @@
   "main": "./index.js",
   "author": "Jeremy Voros",
   "license": "ISC",
+  "engines": {
+    "node": "7.2.0"
+  },
   "scripts": {
     "test": "jest --coverage && npm run lint",
     "start": "gulp __build && ./awsbuild.sh && node ./index.js",
