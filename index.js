@@ -44,6 +44,10 @@ app.get('*', (req, res) => {
   res.sendFile(join(__dirname, 'dist', 'index.html'), { maxAge: 31557600000 }); // 1 year
 });
 
-app.listen(3000, () => {
-  console.log('listening on port 3000');
+// OpenShift Defaults
+const port = process.env.OPENSHIFT_NODEJS_PORT || 3000;
+const ip = process.env.OPENSHIFT_NODEJS_IP || 'localhost';
+
+app.listen(port, ip, () => {
+  console.log(`Listening on ${ip} port ${port}`);
 });
