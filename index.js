@@ -44,10 +44,9 @@ app.get('*', (req, res) => {
   res.sendFile(join(__dirname, 'dist', 'index.html'), { maxAge: 31557600000 }); // 1 year
 });
 
-// OpenShift Defaults
-const port = process.env.OPENSHIFT_NODEJS_PORT || 3000;
-const ip = process.env.OPENSHIFT_NODEJS_IP || 'localhost';
+// Heroku Defaults
+const port = process.env.PORT || 3000;
 
-app.listen(port, ip, () => {
-  console.log(`Listening on ${ip} port ${port}`);
+app.listen(port, () => {
+  console.log(`Listening on ${port}`);
 });
