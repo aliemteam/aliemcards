@@ -15,7 +15,8 @@
     "prod": "NODE_ENV=production node ./index.js",
     "lint": "eslint -f codeframe \"app/**/*.{js,jsx}\" \"server/schema.js\" \"index.js\" && stylint app/assets/css",
     "build": "npm run lint && gulp __build && ./awsbuild.sh && NODE_ENV=production webpack ",
-    "heroku": "npm run lint && gulp __build && NODE_ENV=production webpack && node ./index.js"
+    "heroku": "npm run lint && gulp __build && NODE_ENV=production webpack && node ./index.js",
+    "deploy": "./herokudeploy.sh"
   },
   "dependencies": {
     "axios": "^0.15.0",

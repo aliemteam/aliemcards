@@ -31,7 +31,7 @@ app.use(express.static(join(__dirname, 'dist'), { maxAge: 31557600000 })); // 1 
 
 app.use('/graphql', graphqlHTTP({
   schema,
-  graphiql: true,
+  graphiql: isDevelopment,
   context: data,
 }));
 
