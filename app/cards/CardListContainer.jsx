@@ -1,9 +1,9 @@
-import React, { PureComponent } from 'react';
+import React, { PureComponent, PropTypes } from 'react';
 import { post } from 'axios';
-import CardList from '../cards/CardList';
+import CardList from './CardList';
 
 
-export default class NeverUpdated extends PureComponent {
+export default class CardListContainer extends PureComponent {
   constructor(props) {
     super(props);
     this.handleChange = this.handleChange.bind(this);
@@ -18,10 +18,9 @@ export default class NeverUpdated extends PureComponent {
   componentDidMount() {
     post('/graphql', {
       query: `query {
-        neverUpdated {
+        cards {
           id
           title
-          created
           categories {
             id
             name
@@ -35,9 +34,8 @@ export default class NeverUpdated extends PureComponent {
     })
     .then(res => {
       if (res.status !== 200) throw res.status;
-      const { categories } = res.data.data;
-      const cards = res.data.data.neverUpdated;
-      this.setState({ cards, categories, categoryFilter: '', loading: false, filterCards: cards });
+      const { cards, categories } = res.data.data;
+      this.setState({ cards, categories, categoryFilter: '', loading: false });
     })
     .catch(err => console.error(`Error: API response status code = ${err}`));
   }
@@ -58,17 +56,19 @@ export default class NeverUpdated extends PureComponent {
     }
 
     return (
-      <div>
-        <h1>Never Updated - chronological</h1>
-        <CardList
-          cards={filterCards}
-          categories={this.state.categories}
-          filter
-          filterhandler={this.handleChange}
-          filtervalue={this.state.categoryFilter}
-          editortools
-        />
-      </div>
+      <CardList
+        cards={filterCards}
+        categories={this.state.categories}
+        filter={this.props.filter}
+        filterhandler={this.handleChange}
+        filtervalue={this.state.categoryFilter}
+        editortools={this.props.editortools}
+      />
     );
   }
 }
+
+CardListContainer.propTypes = {
+  editortools: PropTypes.bool,
+  filter: PropTypes.bool,
+};

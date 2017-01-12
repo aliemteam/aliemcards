@@ -1,72 +1,8 @@
-import React, { PureComponent } from 'react';
-import { post } from 'axios';
-import CardList from './CardList';
+import React from 'react';
+import CardListContainer from './CardListContainer';
 
-
-export default class Cards extends PureComponent {
-  constructor(props) {
-    super(props);
-    this.handleChange = this.handleChange.bind(this);
-    this.state = {
-      categoryFilter: '',
-      cards: [],
-      filterCards: [],
-      categories: [],
-      loading: true,
-    };
-  }
-
-  componentDidMount() {
-    post('/graphql', {
-      query: `query {
-        cards {
-          id
-          title
-          categories {
-            id
-            name
-          }
-        }
-        categories {
-          id
-          name
-        }
-      }`,
-    })
-    .then(res => {
-      if (res.status !== 200) throw res.status;
-      const { cards, categories } = res.data.data;
-      this.setState({ cards, categories, categoryFilter: '', loading: false, filterCards: cards });
-    })
-    .catch(err => console.error(`Error: API response status code = ${err}`));
-  }
-
-  handleChange(e) {
-    const category = e.currentTarget.value;
-    this.setState({ categoryFilter: category });
-    if (category) {
-      const filterCards = this.state.cards
-        .filter(card => card.categories.findIndex(c => c.id === category) !== -1);
-      this.setState({ filterCards });
-    } else {
-      this.setState({ filterCards: this.state.cards });
-    }
-  }
-
-  render() {
-    return (
-      <div>
-        <h1>Cards</h1>
-        { !this.state.loading &&
-          <select value={this.state.categoryFilter} onChange={this.handleChange}>
-            <option value="">Filter by Category:</option>
-            {this.state.categories.map(category => (
-              <option key={category.id} value={category.id}>{category.name}</option>
-            ))}
-          </select>
-        }
-        <CardList cards={this.state.filterCards} />
-      </div>
-    );
-  }
-}
+export default () =>
+  <div>
+    <h1>Cards</h1>
+    <CardListContainer filter />
+  </div>;
