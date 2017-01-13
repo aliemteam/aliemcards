@@ -16,7 +16,7 @@
     "lint": "eslint -f codeframe \"app/**/*.{js,jsx}\" \"server/schema.js\" \"index.js\" && stylint app/assets/css",
     "s3": "torus run aws s3 sync ./cards s3://aliemcards --acl public-read --exclude \".*\" --exclude \"*/.*\" --exclude \"*/*.md\" --delete",
     "build": "gulp __build && npm run s3 && NODE_ENV=production webpack",
-    "heroku": "rm -rf ./node_modules && npm install && npm run build && npm run prod"
+    "heroku": "npm run build && npm run prod"
   },
   "dependencies": {
     "autoprefixer-stylus": "^0.13.0",
