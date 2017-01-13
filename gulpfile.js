@@ -8,7 +8,7 @@ const frontmatter = require('front-matter');
 const image = require('gulp-image');
 const { normalize } = require('./server/utils/normalize.js');
 
-const cfurl = 'http://d249u3bk3sqm2p.cloudfront.net';
+const cfurl = 'https://d249u3bk3sqm2p.cloudfront.net';
 
 // Utility tasks
 gulp.task('clean', () => del(['dist/**/*', 'npm-debug.log', '!dist/index.html']));
