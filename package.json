@@ -14,7 +14,7 @@
     "start": "npm run build && NODE_ENV=production node ./index.js",
     "lint": "eslint -f codeframe \"app/**/*.{js,jsx}\" \"server/schema.js\" \"index.js\" && stylint app/assets/css",
     "s3": "aws s3 sync ./cards s3://aliemcards --acl public-read --exclude \".*\" --exclude \"*/.*\" --exclude \"*/*.md\" --delete; fi",
-    "build": "gulp __build && npm run s3 && NODE_ENV=production webpack"
+    "build": "gulp __build && NODE_ENV=production webpack"
   },
   "dependencies": {
     "autoprefixer-stylus": "^0.13.0",
