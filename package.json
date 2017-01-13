@@ -11,12 +11,12 @@
   "scripts": {
     "test": "jest --coverage && npm run lint",
     "dev": "gulp __build && node ./index.js",
+    "start": "npm run build && npm run prod",
     "demon": "nodemon ./index.js",
     "prod": "NODE_ENV=production node ./index.js",
     "lint": "eslint -f codeframe \"app/**/*.{js,jsx}\" \"server/schema.js\" \"index.js\" && stylint app/assets/css",
     "s3": "torus run aws s3 sync ./cards s3://aliemcards --acl public-read --exclude \".*\" --exclude \"*/.*\" --exclude \"*/*.md\" --delete",
-    "build": "gulp __build && npm run s3 && NODE_ENV=production webpack",
-    "heroku": "npm run build && npm run prod"
+    "build": "gulp __build && npm run s3 && NODE_ENV=production webpack"
   },
   "dependencies": {
     "autoprefixer-stylus": "^0.13.0",
