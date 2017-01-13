@@ -8,7 +8,7 @@ export default class Category extends PureComponent {
   static propTypes = {
     params: PropTypes.shape({
       category: PropTypes.string,
-    }),
+    }).isRequired,
   }
 
   constructor(props) {

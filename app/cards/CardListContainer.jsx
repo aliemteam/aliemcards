@@ -4,6 +4,17 @@ import CardList from './CardList';
 
 
 export default class CardListContainer extends PureComponent {
+
+  static propTypes = {
+    editortools: PropTypes.bool,
+    filter: PropTypes.bool,
+  }
+
+  static defaultProps = {
+    editortools: false,
+    filter: false,
+  }
+
   constructor(props) {
     super(props);
     this.handleChange = this.handleChange.bind(this);
@@ -67,8 +78,3 @@ export default class CardListContainer extends PureComponent {
     );
   }
 }
-
-CardListContainer.propTypes = {
-  editortools: PropTypes.bool,
-  filter: PropTypes.bool,
-};

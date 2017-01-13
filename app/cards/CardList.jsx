@@ -34,15 +34,23 @@ CardList.propTypes = {
       id: PropTypes.string,
       name: PropTypes.string,
     })),
-  })),
+  })).isRequired,
   categories: PropTypes.arrayOf(PropTypes.shape({
     id: PropTypes.string,
     name: PropTypes.string,
   })),
   editortools: PropTypes.bool,
   filter: PropTypes.bool,
-  filtervalue: PropTypes.string,
   filterhandler: PropTypes.func,
+  filtervalue: PropTypes.string,
+};
+
+CardList.defaultProps = {
+  categories: [],
+  editortools: false,
+  filter: false,
+  filterhandler: undefined,
+  filtervalue: '',
 };
 
 export default CardList;
