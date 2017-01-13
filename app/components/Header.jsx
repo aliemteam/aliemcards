@@ -9,7 +9,7 @@ export default class Header extends PureComponent {
   static propTypes = {
     location: PropTypes.shape({
       pathname: PropTypes.string,
-    }),
+    }).isRequired,
   }
 
   constructor(props) {

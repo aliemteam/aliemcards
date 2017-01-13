@@ -8,7 +8,7 @@ export default class Card extends PureComponent {
   static propTypes = {
     params: PropTypes.shape({
       id: PropTypes.string,
-    }),
+    }).isRequired,
   }
 
   constructor(props) {
