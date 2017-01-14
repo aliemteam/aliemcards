@@ -27,7 +27,7 @@ export default class Header extends PureComponent {
 
   render() {
     return (
-      <div className="row row--stacked">
+      <div>
         <div className="header" role="banner">
           <div className="header__logo">
             <Link to="/">
