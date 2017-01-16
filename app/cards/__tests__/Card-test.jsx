@@ -45,7 +45,7 @@ describe('<Card />', () => {
 
     expect(title).toBe('Test Card');
     expect(authorString).toBe('Author: John Doe');
-    expect(updatedString).toBe('Updated: 12/29/2009');
+    expect(updatedString).toBe('Updated: 12/28/2009');
     expect(cardContent).toBe('<div class="card__content"><h2 id="hello-world">Hello World</h2>\n</div>');
   });
   it('should render appropriately with multiple authors', async () => {
