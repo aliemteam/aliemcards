@@ -3,87 +3,68 @@ jest.mock('axios');
 
 import React from 'react';
 import { mount } from 'enzyme';
+import { post } from 'axios';
 import Category from '../Category';
-import axios from 'axios';
 
-
-const setup = () => {
-  const component = mount(
-    <Category params={{ category: 'cat-one' }} />
-  );
-  return {
-    component,
-  };
-};
-
-describe('<Category />', () => {
-  let MOCK_RESPONSE;
-  beforeEach(() => {
-    MOCK_RESPONSE = {
-      status: 200,
-      data: {
-        data: {
-          category: {
+const MOCK_RESPONSES = [
+  {
+    cards: [
+      {
+        id: 'test-card-1',
+        title: 'Test Card 1',
+        categories: [
+          {
             id: 'cat-one',
             name: 'Category One',
           },
-          cards: [
-            {
-              id: 'test-card-one',
-              title: 'Test Card 1',
-              categories: [
-                { id: 'cat-two', name: 'Category Two' },
-                { id: 'cat-one', name: 'Category One' },
-              ],
-            },
-            {
-              id: 'test-card-two',
-              title: 'Test Card 2',
-              categories: [
-                { id: 'cat-one', name: 'Category One' },
-                { id: 'cat-three', name: 'Category Three' },
-              ],
-            },
-          ],
-        },
-      },
-    };
+        ],
+      }],
+    category: {
+      id: 'cat-one',
+      name: 'Category One',
+    },
+  },
+];
+
+const selectMockData = x =>
+  new Promise(res => res({ status: 200, data: { data: MOCK_RESPONSES[x] } }));
+
+const setup = () => {
+  const component = mount(
+    <Category params={{ category: 'test-category-id' }} />
+  );
+  return component;
+};
+
+describe('<Category />', () => {
+  let mocking;
+
+  beforeEach(() => {
+    mocking = false;
   });
-  it('should render title with initial category', async () => {
-    spyOn(axios, 'post').and.callFake(() => new Promise(res => res(MOCK_RESPONSE)));
-    const { component } = await setup();
-    const title = component.find('h1').text();
-    expect(title).toBe('Category One');
-  });
-  it('should render new title with change of category', async () => {
-    let called = false;
-    const SECOND_RESPONSE = {
-      status: 200,
-      data: {
-        data: {
-          cards: [...MOCK_RESPONSE.data.data.cards],
-          category: {
-            id: 'cat-five',
-            name: 'Category Five',
-          },
-        },
-      },
-    };
-    spyOn(axios, 'post').and.callFake(() => {
-      if (!called) {
-        called = true;
-        return new Promise(res => res(MOCK_RESPONSE));
-      }
-      return new Promise(res => res(SECOND_RESPONSE));
+  afterEach(() => { mocking = false; });
+
+  it('should mock axios', async () => {
+    post.mockImplementation(() => {
+      mocking = true;
+      return selectMockData(0);
     });
-    const { component } = await setup();
+    mount(<Category params={{ category: 'ebm' }} />);
+    expect(mocking).toBe(true);
+  });
+
+  it('should have a proper title', async () => {
+    post.mockImplementation(() => selectMockData(0));
+    const component = await setup();
     const title = component.find('h1').text();
     expect(title).toBe('Category One');
-    // component.setProps({ params: { category: 'cat-five' } });
-    // component.setProps({ params: { category: 'cat-five' } }, () => {
-    //   process.nextTick(() => {
-    //     expect(component.find('h1').text()).toBe('Category Five');
-    //   });
-    // });
   });
+
+  it('should have a single CardList component', async () => {
+    post.mockImplementation(() => selectMockData(0));
+    const component = await setup();
+    console.log(component.debug());
+    expect(component.find('.card-list')).to.have.length(1);
+  });
+
 });

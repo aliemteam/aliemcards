@@ -49,11 +49,14 @@ export default class Category extends PureComponent {
     .then(res => {
       if (res.status !== 200) throw res.status;
       const { cards, category } = res.data.data;
-      console.log(cards);
-      this.setState({
-        cards,
-        category,
-      });
+      try {
+        this.setState({
+          cards,
+          category,
+        });
+      } catch (e) {
+        console.log(e);
+      }
     })
     .catch(err => console.error(`Error: API response status code = ${err}`));
   }

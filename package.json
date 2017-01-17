@@ -50,6 +50,7 @@
     "helmet": "^3.3.0",
     "html-webpack-plugin": "^2.26.0",
     "jest": "^18.1.0",
+    "jest-cli": "^18.1.0",
     "markdown-it": "^8.2.2",
     "marked": "^0.3.6",
     "normalizr": "^3.1.0",
@@ -83,6 +84,14 @@
       "!app/**/index.{ts,tsx}",
       "!app/utils/**"
     ],
-    "coverageDirectory": "tmp/coverage"
+    "coverageDirectory": "tmp/coverage",
+    "transform": {
+      ".*": "./node_modules/babel-jest"
+    },
+    "unmockedModulePathPatterns": [
+      "./node_modules/react",
+      "./node_modules/react-dom",
+      "./node_modules/react-addons-test-utils"
+    ]
   }
 }
