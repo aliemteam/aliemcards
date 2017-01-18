@@ -41,11 +41,14 @@ describe('<Card />', () => {
     const title = component.find('h1').props().children;
     const authorString = component.find('.card__meta').children().first().text();
     const updatedString = component.find('.card__meta').children().last().text();
+    const updatedYear = updatedString.split(' ')[1].split('/')[2];
+    const updatedMonth = updatedString.split(' ')[1].split('/')[0];
     const cardContent = component.find('.card__content').html();
 
     expect(title).toBe('Test Card');
     expect(authorString).toBe('Author: John Doe');
-    expect(updatedString).toBe('Updated: 12/28/2009');
+    expect(updatedYear).toBe('2009');
+    expect(updatedMonth).toBe('12');
     expect(cardContent).toBe('<div class="card__content"><h2 id="hello-world">Hello World</h2>\n</div>');
   });
   it('should render appropriately with multiple authors', async () => {
