@@ -44,8 +44,7 @@ export default class Search extends PureComponent {
   }
 
   handleChange(e) {
-    const query = e.currentTarget.value;
-    this.setState({ query });
+    this.setState({ query: e.currentTarget.value });
     this.postSearch();
   }
 
