@@ -1,3 +1,5 @@
+const Fuse = require('fuse.js');
+
 const {
   GraphQLInt,
   GraphQLList,
@@ -171,10 +173,20 @@ const queryType = new GraphQLObjectType({
       },
       resolve: (root, { input }, context) => {
         if (!input) return [];
-        const re = new RegExp(` ${input}`, 'gi');
-        return Object.values(context.entities.cards)
-        .filter(card => re.test(card.content))
-        .slice(0, 5);
+        const fuse = new Fuse(Object.values(context.entities.cards), {
+          caseSensitive: false,
+          includeScore: false,
+          shouldSort: true,
+          tokenize: true,
+          threshold: 0.2,
+          location: 0,
+          distance: 0,
+          maxPatternLength: 32,
+          minMatchCharLength: 3,
+          keys: [{ name: 'title', weight: 0.8 }, { name: 'content', weight: 0.2 }],
+        });
+        const result = fuse.search(input).slice(0, 8);
+        return result.map(r => ({ id: r.id, title: r.title }));
       },
     },
   }),

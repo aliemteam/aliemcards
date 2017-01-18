@@ -1,6 +1,7 @@
 import React, { PureComponent, PropTypes } from 'react';
 import { post } from 'axios';
 import { Link } from 'react-router';
+import debounce from 'lodash/debounce';
 
 export default class Search extends PureComponent {
 
@@ -20,10 +21,11 @@ export default class Search extends PureComponent {
     };
     this.handleChange = this.handleChange.bind(this);
     this.handleClick = this.handleClick.bind(this);
+    this.postSearch = debounce(this.postSearch.bind(this), 500);
   }
 
-  handleChange(e) {
-    const input = e.currentTarget.value;
+  postSearch() {
+    console.log(this.state.query);
     post('/graphql', {
       query: `query searchForCard($input: String){
         search(input: $input) {
@@ -31,14 +33,20 @@ export default class Search extends PureComponent {
           title
         }
       }`,
-      variables: { input },
+      variables: { input: this.state.query },
     })
     .then(res => {
       if (res.status !== 200) throw res.status;
       const { search: cards } = res.data.data;
-      this.setState({ cards, query: input });
+      this.setState({ cards });
     })
     .catch(err => console.error(`Error: API response status code = ${err}`));
+  }
+
+  handleChange(e) {
+    const query = e.currentTarget.value;
+    this.setState({ query });
+    this.postSearch();
   }
 
   handleClick() {
