@@ -29,7 +29,7 @@ export default class Category extends PureComponent {
   }
 
   getCategory() {
-    post('/graphql', {
+    return post('/graphql', {
       query: `query CategoryAndCards($category: String!){
         cards(category: $category) {
           id
@@ -49,16 +49,14 @@ export default class Category extends PureComponent {
     .then(res => {
       if (res.status !== 200) throw res.status;
       const { cards, category } = res.data.data;
-      try {
-        this.setState({
-          cards,
-          category,
-        });
-      } catch (e) {
-        console.log(e);
-      }
+      this.setState({
+        cards,
+        category,
+      });
     })
-    .catch(err => console.error(`Error: API response status code = ${err}`));
+    .catch(err => {
+      console.error(`Error: API response status code = ${err}`);
+    });
   }
 
   render() {
