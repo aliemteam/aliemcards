@@ -16,7 +16,7 @@ export default class Category extends PureComponent {
     this.getCategory = this.getCategory.bind(this);
     this.state = {
       cards: [],
-      title: '',
+      category: {},
     };
   }
 
@@ -29,8 +29,8 @@ export default class Category extends PureComponent {
   }
 
   getCategory() {
-    post('/graphql', {
-      query: `query getCategoryCards($category: String) {
+    return post('/graphql', {
+      query: `query CategoryAndCards($category: String!){
         cards(category: $category) {
           id
           title
@@ -39,24 +39,30 @@ export default class Category extends PureComponent {
             name
           }
         }
+        category (id: $category) {
+          id
+          name
+        }
       }`,
       variables: { category: this.props.params.category },
     })
     .then(res => {
       if (res.status !== 200) throw res.status;
-      const { cards } = res.data.data;
+      const { cards, category } = res.data.data;
       this.setState({
         cards,
-        title: cards[0].categories[0].name,
+        category,
       });
     })
-    .catch(err => console.error(`Error: API response status code = ${err}`));
+    .catch(err => {
+      console.error(`Error: API response status code = ${err}`);
+    });
   }
 
   render() {
     return (
       <div>
-        <h1>{this.state.title}</h1>
+        <h1>{this.state.category.name}</h1>
         <CardList cards={this.state.cards} />
       </div>
     );
