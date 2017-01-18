@@ -93,34 +93,34 @@ describe('<Category />', () => {
   });
 
   it('should refetch from API when category param changes', async () => {
-    spyOn(Category.prototype, 'getCategory').and.callThrough();
+    const catSpy = spyOn(Category.prototype, 'getCategory').and.callThrough();
     post
       .mockReturnValueOnce(selectMockData(1))
       .mockReturnValueOnce(selectMockData(2));
     const component = await setup();
     component.setProps({ params: { category: 'cat-two' } });
-    expect(Category.prototype.getCategory).toHaveBeenCalledTimes(2);
+    expect(catSpy).toHaveBeenCalledTimes(2);
   });
 
   it('should NOT refetch from API if new props match old props', async () => {
-    spyOn(Category.prototype, 'getCategory').and.callThrough();
+    const catSpy = spyOn(Category.prototype, 'getCategory').and.callThrough();
     post.mockReturnValueOnce(selectMockData(1));
     const component = await setup();
     component.setProps({ params: { category: 'test-category-id' } });
-    expect(Category.prototype.getCategory).toHaveBeenCalledTimes(1);
+    expect(catSpy).toHaveBeenCalledTimes(1);
   });
 
   it('should catch axios promise rejections', async () => {
-    spyOn(console, 'error').and.callThrough();
+    const consoleSpy = spyOn(console, 'error').and.callThrough();
     post.mockReturnValueOnce(Promise.reject('rejected'));
     setup();
-    process.nextTick(() => { expect(console.error).toHaveBeenCalled(); });
+    process.nextTick(() => { expect(consoleSpy).toHaveBeenCalled(); });
   });
 
   it('should handle API error codes', async () => {
-    spyOn(console, 'error').and.callThrough();
+    const consoleSpy = spyOn(console, 'error').and.callThrough();
     post.mockReturnValueOnce(Promise.resolve({ status: 500 }));
     setup();
-    process.nextTick(() => { expect(console.error).toHaveBeenCalled(); });
+    process.nextTick(() => { expect(consoleSpy).toHaveBeenCalled(); });
   });
 });
