@@ -5,10 +5,10 @@ const stylus = require('gulp-stylus');
 const autoprefixer = require('autoprefixer-stylus');
 const { readdir, readFileSync, writeFile, statSync } = require('fs');
 const frontmatter = require('front-matter');
-const imagemin = require('gulp-imagemin');
+const image = require('gulp-image');
 const { normalize } = require('./server/utils/normalize.js');
 
-const cfurl = 'http://d249u3bk3sqm2p.cloudfront.net';
+const cfurl = 'https://d249u3bk3sqm2p.cloudfront.net';
 
 // Utility tasks
 gulp.task('clean', () => del(['dist/**/*', 'npm-debug.log', '!dist/index.html']));
@@ -43,7 +43,7 @@ gulp.task('static', () => (
       './app/assets/images/*',
       './app/assets/manifest.json',
     ], { base: './app' })
-    .pipe(imagemin())
+    .pipe(image())
     .pipe(gulp.dest('./dist'))
 ));
 
