@@ -12,6 +12,29 @@ export default class Search extends PureComponent {
     splashText: false,
   }
 
+  static timer;
+
+  static postSearch(query) {
+    return new Promise((resolve, reject) => {
+      Search.timer = setTimeout(() => {
+        post('/graphql', {
+          query: `query searchForCard($input: String){
+            search(input: $input) {
+              id
+              title
+            }
+          }`,
+          variables: { input: query },
+        })
+        .then(res => {
+          if (res.status !== 200) reject(res.status);
+          const { search: cards } = res.data.data;
+          resolve({ cards });
+        });
+      }, 500);
+    });
+  }
+
   constructor(props) {
     super(props);
     this.state = {
@@ -23,22 +46,15 @@ export default class Search extends PureComponent {
   }
 
   handleChange(e) {
-    const input = e.currentTarget.value;
-    post('/graphql', {
-      query: `query searchForCard($input: String){
-        search(input: $input) {
-          id
-          title
-        }
-      }`,
-      variables: { input },
-    })
-    .then(res => {
-      if (res.status !== 200) throw res.status;
-      const { search: cards } = res.data.data;
-      this.setState({ cards, query: input });
-    })
-    .catch(err => console.error(`Error: API response status code = ${err}`));
+    clearTimeout(Search.timer);
+    const query = e.currentTarget.value;
+    const cards = query === '' ? [] : this.state.cards;
+
+    if (query !== '') {
+      Search.postSearch(query).then(this.setState.bind(this));
+    }
+
+    this.setState({ query, cards });
   }
 
   handleClick() {
