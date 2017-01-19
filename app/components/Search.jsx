@@ -1,7 +1,6 @@
 import React, { PureComponent, PropTypes } from 'react';
 import { post } from 'axios';
 import { Link } from 'react-router';
-import debounce from 'lodash/debounce';
 
 export default class Search extends PureComponent {
 
@@ -13,6 +12,29 @@ export default class Search extends PureComponent {
     splashText: false,
   }
 
+  static timer;
+
+  static postSearch(query) {
+    return new Promise((resolve, reject) => {
+      Search.timer = setTimeout(() => {
+        post('/graphql', {
+          query: `query searchForCard($input: String){
+            search(input: $input) {
+              id
+              title
+            }
+          }`,
+          variables: { input: query },
+        })
+        .then(res => {
+          if (res.status !== 200) reject(res.status);
+          const { search: cards } = res.data.data;
+          resolve({ cards });
+        });
+      }, 500);
+    });
+  }
+
   constructor(props) {
     super(props);
     this.state = {
@@ -21,31 +43,18 @@ export default class Search extends PureComponent {
     };
     this.handleChange = this.handleChange.bind(this);
     this.handleClick = this.handleClick.bind(this);
-    this.postSearch = debounce(this.postSearch.bind(this), 500);
-  }
-
-  postSearch() {
-    console.log(this.state.query);
-    post('/graphql', {
-      query: `query searchForCard($input: String){
-        search(input: $input) {
-          id
-          title
-        }
-      }`,
-      variables: { input: this.state.query },
-    })
-    .then(res => {
-      if (res.status !== 200) throw res.status;
-      const { search: cards } = res.data.data;
-      this.setState({ cards });
-    })
-    .catch(err => console.error(`Error: API response status code = ${err}`));
   }
 
   handleChange(e) {
-    this.setState({ query: e.currentTarget.value });
-    this.postSearch();
+    clearTimeout(Search.timer);
+    const query = e.currentTarget.value;
+    const cards = query === '' ? [] : this.state.cards;
+
+    if (query !== '') {
+      Search.postSearch(query).then(this.setState.bind(this));
+    }
+
+    this.setState({ query, cards });
   }
 
   handleClick() {
