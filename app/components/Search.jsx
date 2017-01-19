@@ -1,7 +1,6 @@
 import React, { PureComponent, PropTypes } from 'react';
 import { post } from 'axios';
 import { Link } from 'react-router';
-import Spinner from './Spinner';
 
 export default class Search extends PureComponent {
 
@@ -84,8 +83,11 @@ export default class Search extends PureComponent {
             aria-label="Search for cards"
             value={this.state.query}
           />
+          { this.state.query !== '' && this.state.cards.length === 0 &&
+          <img className="search__loader" src="/assets/images/loader.svg" alt="loader" />
+          }
         </div>
-        { this.state.query !== '' &&
+        { this.state.cards.length > 0 &&
           <Results cards={this.state.cards} onClick={this.handleClick} />
         }
       </div>
@@ -95,10 +97,6 @@ export default class Search extends PureComponent {
 
 const Results = ({ cards, onClick }) => (
   <div className="search__results">
-    { cards.length === 0 &&
-      <Spinner />
-    }
-    { cards.length > 0 &&
     <ul>
       {cards.map(card => (
         <li className="search__result" key={card.id}>
@@ -106,7 +104,6 @@ const Results = ({ cards, onClick }) => (
         </li>
       ))}
     </ul>
-    }
   </div>
 );
 
