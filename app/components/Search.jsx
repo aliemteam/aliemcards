@@ -29,7 +29,7 @@ export default class Search extends PureComponent {
         .then(res => {
           if (res.status !== 200) reject(res.status);
           const { search: cards } = res.data.data;
-          resolve({ cards });
+          resolve({ cards, loading: false });
         });
       }, 500);
     });
@@ -53,10 +53,7 @@ export default class Search extends PureComponent {
     const cards = query === '' ? [] : this.state.cards;
 
     if (query !== '') {
-      Search.postSearch(query)
-      .then(res => {
-        this.setState({ ...res, loading: false }).bind(this);
-      });
+      Search.postSearch(query).then(this.setState.bind(this));
     }
     this.setState({ query, cards, loading });
   }
