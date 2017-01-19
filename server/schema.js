@@ -89,6 +89,16 @@ const queryType = new GraphQLObjectType({
         })
       ),
     },
+    category: {
+      type: categoryType,
+      args: {
+        id: {
+          type: new GraphQLNonNull(GraphQLString),
+          description: 'Returns a single category that matches id.',
+        },
+      },
+      resolve: (root, { id }, context) => context.entities.categories[id],
+    },
     recentlyAdded: {
       type: new GraphQLList(cardType),
       args: {
