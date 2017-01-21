@@ -43,7 +43,7 @@ gulp.task('static', () => (
       './app/assets/images/*',
       './app/assets/manifest.json',
     ], { base: './app' })
-    .pipe(image())
+    .pipe(image({ pngquant: false }))
     .pipe(gulp.dest('./dist'))
 ));
 

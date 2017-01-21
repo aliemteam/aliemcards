@@ -57,7 +57,7 @@ const plugins = isProduction
 : // Development plugins
 [
   ...sharedPlugins,
-  new webpack.NoErrorsPlugin(),
+  new webpack.NoEmitOnErrorsPlugin(),
   new webpack.HotModuleReplacementPlugin(),
 ];
 
