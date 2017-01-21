@@ -1,11 +1,18 @@
 import React from 'react';
 import { BrowserRouter, Match, Miss } from 'react-router';
+import WebFont from 'webfontloader';
 
 import lazyLoad from './utils/LazyLoad';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
 import './assets/css/main';
+
+WebFont.load({
+  google: {
+    families: ['Open Sans'],
+  },
+});
 
 const Home = lazyLoad(() =>
   System.import('./pages/Home').then(module => module.default)
