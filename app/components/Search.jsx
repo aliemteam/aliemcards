@@ -29,7 +29,7 @@ export default class Search extends PureComponent {
         .then(res => {
           if (res.status !== 200) reject(res.status);
           const { search: cards } = res.data.data;
-          resolve({ cards });
+          resolve({ cards, loading: false });
         });
       }, 500);
     });
@@ -40,6 +40,7 @@ export default class Search extends PureComponent {
     this.state = {
       query: '',
       cards: [],
+      loading: false,
     };
     this.handleChange = this.handleChange.bind(this);
     this.handleClick = this.handleClick.bind(this);
@@ -48,17 +49,17 @@ export default class Search extends PureComponent {
   handleChange(e) {
     clearTimeout(Search.timer);
     const query = e.currentTarget.value;
+    const loading = query !== '';
     const cards = query === '' ? [] : this.state.cards;
 
     if (query !== '') {
       Search.postSearch(query).then(this.setState.bind(this));
     }
-
-    this.setState({ query, cards });
+    this.setState({ query, cards, loading });
   }
 
   handleClick() {
-    this.setState({ query: '', cards: [] });
+    this.setState({ query: '', cards: [], loading: false });
   }
 
   render() {
@@ -83,6 +84,9 @@ export default class Search extends PureComponent {
             aria-label="Search for cards"
             value={this.state.query}
           />
+          { this.state.loading === true &&
+          <img className="search__loader" src="/assets/images/loader.svg" alt="loader" />
+          }
         </div>
         { this.state.cards.length > 0 &&
           <Results cards={this.state.cards} onClick={this.handleClick} />
