@@ -13,7 +13,7 @@ drugs: null
 
 # Demo ALiEM Card
 
-This is a demonstration card. Feel free to edit it as much as you would like. Try things out. Nothing to break here.
+This is a demonstration card. Feel free to edit it as much as you would like. Try things out.
 
 It includes *italic* and **bold** text. You can do ***bold and italic*** too.
 
