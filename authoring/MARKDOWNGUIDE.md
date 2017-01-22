@@ -56,3 +56,31 @@ Common formatting used in the cards include:
 # Tables
 Tables are formatted using [Github-flavored Markdown](https://help.github.com/articles/organizing-information-with-tables/). Tables that cannot be easily and clearly formatted using this method should be avoided.
 
+# Images
+Images are formatted using standard Markdown. Images files should be included in the same folder as the card file, as detailed in the Technical Guide. This makes links simple.
+
+```
+![](image-1.png)
+```
+
+# Some HTML Tags Required
+
+Markdown is used because it can be easily turned into HTML. Therefore HTML can be included in a Markdown document. 
+
+Some HTML is required throughout the cards.
+
+Don't be scared. This will be easy.
+
+## Drug Names
+A simple `<span></span>` tag is required around drug names.
+
+```
+<span class="drug">epinephrine</span>
+```
+
+## Videos
+Videos can be embedded using the HTML tags provided by [YouTube](http://www.youtube.com) or [Vimeo](http://www.vimeo.com).
+
+```
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mkKpv-xAJJA" frameborder="0" allowfullscreen></iframe>
+```
