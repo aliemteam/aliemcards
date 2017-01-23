@@ -10,79 +10,7 @@ This repository contains the original markdown source for all the ALIEM Cards as
 2. [Website Build Details](#aliem-cards-website)
 3. [API Documentation](#api-documentation)
 
-## Build a Card
 
-Within the `cards` folder, each card lives in its own folder. The name of the folder is the unique identifier for that card. Consider merely naming the file based on the title of the card in most cases.
-
-Each card folder name must:
-
-1. be unique
-2. contain no spaces ( `-` can be used)
-3. be descriptive
-
-Within each card folder there must be a file named `card.md`. This is the actual text of the card.
-
-Any image files, videos or other resources relevant to the card can be placed in this folder. File names must contain no spaces either.
-
-A simple example structure:
-
-```
-cards
-  |
-  ├── unique-card-title
-  |    |
-  |    ├──- card.md
-  |    |
-  |    ├──- image-1.png
-  |    |
-  |    └─── image-2.gif
-  |
-  └─── a-different-card-title
-       |
-       ├──- card.md
-       |
-       └───  image-1.jpg
-```
-
-
-### Card File
-
-Cards are formatted in [Github-Flavored Markdown](https://guides.github.com/features/mastering-markdown/). They include [YAML](http://www.yaml.org) front matter, similar to [Jekyll](https://jekyllrb.com/docs/frontmatter/).
-
-
-#### Front Matter
-
-The front matter is a simple [YAML](http://www.yaml.org) block beginning and ending with three tick marks: `---`.
-
-Within the tick marks are three key-value pairs:
-
-- **title**: the title of the card, in single quotes
-- **authors**: a list of authors. Each author is on Eer/his own indented line, beginning with a hyphen, in single quotes.
-- **created**: the date the card was created, formatted `YYYY/MM/DD`.
-- **updates**: a list of dates in reverse chronological order, formatted `YYYY/MM/DD`. List format same as **authors**. Do not include the date the card was created.
-- **categories**: a list of categories to which each card belongs. Cards can belong to more than one category. Each category is on its own indented line, beginning with a hyphen, use single quotes around names with spaces or special characters.
-- **drugs**: a comma-separated list of drugs.
-
-
-**Sample YAML Front Matter**
-
-```
----
-
-title: 'Adenosine 6-12-12 Approach'
-authors:
-    - 'Brian Hayes, PharmD'
-created: 2012/12/06
-updates:
-    - 2012/12/06
-categories:
-    - Cardiovascular
-    - Pharmacology
-    - 'Critical Care'
-drugs: adenosine
-
----
-```
 
 ### Building the Site and Data Store
 
