@@ -39,7 +39,7 @@ This section has a table. A simple one.
 |-------------|-----------------|
 | John        | Rhythm Guitar   |
 | Paul        | Bass            |
-| George      | Lead Guitar     |
+| George      | Guitar     |
 | Ringo       | Drums           |
 
 
