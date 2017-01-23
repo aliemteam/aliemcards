@@ -4,12 +4,13 @@ const graphqlHTTP = require('express-graphql');
 const helmet = require('helmet');
 const bodyParser = require('body-parser');
 const compression = require('compression');
-const { join } = require('path');
 const webpack = require('webpack');
+const { join } = require('path');
+const { post } = require('axios');
 
 const config = require('./webpack.config');
-const { schema } = require('./server/schema');
 const data = require('./server/data.json');
+const { schema } = require('./server/schema');
 
 const isDevelopment = process.env.NODE_ENV !== 'production';
 const app = express();
@@ -36,8 +37,13 @@ app.use('/graphql', graphqlHTTP({
 }));
 
 app.post('/contact', jsonParser, (req, res) => {
-  console.log(req);
-  res.sendStatus(200);
+  post('https://aliem-slackbot.now.sh/aliemcards/messages/contact-form', req.body, {
+    headers: {
+      ALIEM_API_KEY: process.env.ALIEM_API_KEY,
+    },
+  })
+  .then(() => res.sendStatus(200))
+  .catch(e => res.status(502).send(e.message));
 });
 
 app.get('*', (req, res) => {
