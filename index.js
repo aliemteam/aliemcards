@@ -5,21 +5,22 @@ const helmet = require('helmet');
 const bodyParser = require('body-parser');
 const compression = require('compression');
 const { join } = require('path');
-const webpack = require('webpack');
+const { post } = require('axios');
 
-const config = require('./webpack.config');
-const { schema } = require('./server/schema');
 const data = require('./server/data.json');
+const { schema } = require('./server/schema');
 
 const isDevelopment = process.env.NODE_ENV !== 'production';
 const app = express();
 const jsonParser = bodyParser.json();
-const compiler = webpack(config);
 
 app.use(compression({ threshold: 0 }));
 app.use(helmet());
 
 if (isDevelopment) {
+  const webpack = require('webpack');
+  const config = require('./webpack.config');
+  const compiler = webpack(config);
   app.use(require('webpack-dev-middleware')(compiler, {
     publicPath: config.output.publicPath,
     historyApiFallback: true,
@@ -36,8 +37,13 @@ app.use('/graphql', graphqlHTTP({
 }));
 
 app.post('/contact', jsonParser, (req, res) => {
-  console.log(req);
-  res.sendStatus(200);
+  post('https://aliem-slackbot.now.sh/aliemcards/messages/contact-form', req.body, {
+    headers: {
+      ALIEM_API_KEY: process.env.ALIEM_API_KEY,
+    },
+  })
+  .then(() => res.sendStatus(200))
+  .catch(e => res.status(502).send(e.message));
 });
 
 app.get('*', (req, res) => {
