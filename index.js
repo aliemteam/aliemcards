@@ -4,23 +4,23 @@ const graphqlHTTP = require('express-graphql');
 const helmet = require('helmet');
 const bodyParser = require('body-parser');
 const compression = require('compression');
-const webpack = require('webpack');
 const { join } = require('path');
 const { post } = require('axios');
 
-const config = require('./webpack.config');
 const data = require('./server/data.json');
 const { schema } = require('./server/schema');
 
 const isDevelopment = process.env.NODE_ENV !== 'production';
 const app = express();
 const jsonParser = bodyParser.json();
-const compiler = webpack(config);
 
 app.use(compression({ threshold: 0 }));
 app.use(helmet());
 
 if (isDevelopment) {
+  const webpack = require('webpack');
+  const config = require('./webpack.config');
+  const compiler = webpack(config);
   app.use(require('webpack-dev-middleware')(compiler, {
     publicPath: config.output.publicPath,
     historyApiFallback: true,
