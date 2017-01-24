@@ -35,10 +35,16 @@ export default class Header extends PureComponent {
             </Link>
           </div>
           <div className="header__nav-button">
-            <button onClick={this.handleClick}>
-              <i className="material-icons">
-                {this.state.navDrawerOpen ? 'close' : 'menu'}
-              </i>
+            <button
+              className={this.state.navDrawerOpen ?
+              'hamburger hamburger--squeeze is-active' :
+              'hamburger hamburger--squeeze'}
+              type="button"
+              onClick={this.handleClick}
+            >
+              <span className="hamburger-box">
+                <span className="hamburger-inner" />
+              </span>
             </button>
           </div>
           <nav
