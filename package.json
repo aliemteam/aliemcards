@@ -13,7 +13,7 @@
     "s3": "aws s3 sync ./cards s3://aliemcards --acl public-read --exclude \".*\" --exclude \"*/.*\" --exclude \"*/*.md\" --delete; fi",
     "build": "gulp __build && NODE_ENV=production webpack",
     "now-build": "echo Build Skipped",
-    "deploy": "npm run build && torus run ./deploy"
+    "deploy": "torus run ./deploy"
   },
   "dependencies": {
     "axios": "^0.15.0",

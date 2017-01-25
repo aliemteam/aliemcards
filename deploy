@@ -2,6 +2,8 @@
 
 now="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/node_modules/.bin/now"
 
+npm run build || { echo 'Build step failed.' ; exit 1; }
+
 # Grab the deploy ID from the running site
 existing_id=$($now -t "$NOW_TOKEN" ls aliemcards | tail -n 2 | head -n 1 | awk '{print $1}')
 
