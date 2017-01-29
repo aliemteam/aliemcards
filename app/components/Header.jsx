@@ -1,7 +1,6 @@
 import React, { PureComponent, PropTypes } from 'react';
 import { Link } from 'react-router';
-import Logo from 'svg-react-loader?name=Logo!../assets/images/logo.svg'; // eslint-disable-line
-
+import { Logo } from '../utils/Shims';
 import Search from './Search';
 
 export default class Header extends PureComponent {
@@ -20,8 +19,7 @@ export default class Header extends PureComponent {
     this.handleClick = this.handleClick.bind(this);
   }
 
-  handleClick(e) {
-    e.preventDefault();
+  handleClick() {
     this.setState({ navDrawerOpen: !this.state.navDrawerOpen });
   }
 
@@ -37,18 +35,17 @@ export default class Header extends PureComponent {
           <div className="header__nav-button">
             <button
               className={this.state.navDrawerOpen ?
-              'hamburger hamburger--squeeze is-active' :
-              'hamburger hamburger--squeeze'}
-              type="button"
+              'hamburger hamburger__squeeze hamburger__squeeze--active' :
+              'hamburger hamburger__squeeze'}
               onClick={this.handleClick}
             >
-              <span className="hamburger-box">
-                <span className="hamburger-inner" />
+              <span className="hamburger__box">
+                <span className="hamburger__inner" />
               </span>
             </button>
           </div>
           <nav
-            className={this.state.navDrawerOpen ? 'header__nav header__nav--open' : 'header__nav header__nav--closed'}
+            className={this.state.navDrawerOpen ? 'header__nav header__nav--open' : 'header__nav'}
             role="navigation"
           >
             <ul>

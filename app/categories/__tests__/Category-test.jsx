@@ -1,11 +1,10 @@
-/* eslint-disable import/first */
-jest.mock('axios');
-jest.mock('react-router');
-
 import React from 'react';
 import { mount } from 'enzyme';
 import { post } from 'axios';
 import Category from '../Category';
+
+jest.mock('react-router');
+jest.mock('axios');
 
 const MOCK_RESPONSES = {
   1: {

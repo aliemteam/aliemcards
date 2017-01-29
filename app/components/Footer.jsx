@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router';
-import CreativeCommonsIcon from 'svg-react-loader?name=CreativeCommonsIcon!../assets/images/by-nc-nd.svg'; // eslint-disable-line
+import { CCIcon } from '../utils/Shims';
 
 export default () => (
   <div className="footer" role="contentinfo">
     <div className="row footer__cc">
       <div className="footer__cc-image">
         <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/">
-          <CreativeCommonsIcon />
+          <CCIcon />
         </a>
       </div>
       <div className="footer__cc-text">

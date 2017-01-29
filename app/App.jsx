@@ -38,12 +38,6 @@ const Contact = lazyLoad(() =>
 const FourOhFour = lazyLoad(() =>
   System.import('./pages/404').then(module => module.default)
 );
-const EditorTools = lazyLoad(() =>
-  System.import('./editors/EditorTools').then(module => module.default)
-);
-const NeverUpdated = lazyLoad(() =>
-  System.import('./editors/NeverUpdated').then(module => module.default)
-);
 
 const App = props => (
   <div className="row row--stacked main">
@@ -56,8 +50,6 @@ const App = props => (
       <Match pattern="/categories/:category" component={Category} />
       <Match pattern="/about" component={About} />
       <Match pattern="/contact" component={Contact} />
-      <Match exactly pattern="/editortools" component={EditorTools} />
-      <Match exactly pattern="/editortools/neverupdated" component={NeverUpdated} />
       <Miss component={FourOhFour} />
     </main>
     <Footer />
