@@ -22,4 +22,4 @@ deployment_id=$($now -t "$NOW_TOKEN" ls aliemcards | head -n 5 | tail -n 1 | awk
 $now -C -t "$NOW_TOKEN" ln "$deployment_id" aliemcards
 
 # Remove the old version
-$now rm -y "$existing_id"
+$now -t "$NOW_TOKEN" rm -y "$existing_id"
