@@ -1,11 +1,10 @@
-/* eslint-disable import/first */
-jest.mock('axios');
-
 import React from 'react';
 import { mount } from 'enzyme';
-import Card from '../Card';
 import axios from 'axios';
+import Card from '../Card';
 
+jest.mock('axios');
+jest.mock('../CardList');
 
 const setup = () => {
   const component = mount(

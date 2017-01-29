@@ -20,10 +20,12 @@
             font-size: 30px
 
 .header__nav
+    display: none
     flex: auto
     z-index: 10
     width: 100%
     text-align: center
+    font-size: 1.5rem
     ul
         list-style: none
         padding: 0
@@ -43,15 +45,13 @@
 .header__nav--open
     display: initial
 
-.header__nav--closed
-    display: none
-
 @media (min-width: 750px)
     .header__nav-button
         display: none
     .header__nav
         width: 50%
         text-align: right
+        font-size: inherit
         li
             display: inline
         a

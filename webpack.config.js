@@ -11,6 +11,7 @@ const sharedPlugins = [
   new webpack.optimize.OccurrenceOrderPlugin(),
   new webpack.DefinePlugin({
     __DEV__: JSON.stringify(!isProduction),
+    __TEST__: JSON.stringify(false),
   }),
   new webpack.optimize.CommonsChunkPlugin({
     minChunks: Infinity,

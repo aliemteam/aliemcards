@@ -1,0 +1,9 @@
+exports[`<Spinner /> should render correctly 1`] = `
+<div
+  className="spinner">
+  <i
+    className="material-icons">
+    autorenew
+  </i>
+</div>
+`;
