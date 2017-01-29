@@ -45,7 +45,7 @@ export default class Header extends PureComponent {
             </button>
           </div>
           <nav
-            className={this.state.navDrawerOpen ? 'header__nav header__nav--open' : 'header__nav'}
+            className={this.state.navDrawerOpen ? 'header__nav header__nav--open' : 'header__nav header__nav--closed'}
             role="navigation"
           >
             <ul>
