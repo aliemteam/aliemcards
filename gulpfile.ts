@@ -20,7 +20,7 @@ gulp.task('cards', () => (
   readdirPromise('./cards')
   .then(files => files.filter(file => statSync(`./cards/${file}`).isDirectory()))
   .then(dirs => {
-    let cards: any[] = [];
+    let cards: SingleCardJSON[] = [];
     for (const dir of dirs) {
       const f = readFileSync(`./cards/${dir}/card.md`, { encoding: 'utf8' });
       const parsed = frontmatter(f);
