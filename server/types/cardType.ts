@@ -1,26 +1,26 @@
-const {
-  GraphQLObjectType,
+import {
   GraphQLFloat,
-  GraphQLNonNull,
-  GraphQLString,
   GraphQLList,
-} = require('graphql');
-const categoryType = require('./categoryType.js');
+  GraphQLNonNull,
+  GraphQLObjectType,
+  GraphQLString,
+} from 'graphql';
+import { RootContext, SingleCardJSON } from '../schema';
+import { Author } from './authorType';
+import { Category, categoryType } from './categoryType';
 
-/**
- * cardType has the following shape:
- *   type Card {
- *     id: String!
- *     title: String
- *     authors: [String]
- *     created: Float
- *     updates: [Float]
- *     categories: [Category]
- *     drugs: [String]
- *     content: String
- *   }
- */
-module.exports = new GraphQLObjectType({
+export interface Card {
+  id: string;
+  title: string;
+  authors: Author[];
+  created: number;
+  updates: number[]|null;
+  categories: Category[];
+  drugs: string[]|null;
+  content: string;
+};
+
+export const cardType = new GraphQLObjectType(<RootContext>{
   name: 'Card',
   description: 'Data representing a single card.',
   fields: () => ({
@@ -33,9 +33,9 @@ module.exports = new GraphQLObjectType({
       description: 'The title of the card.',
     },
     authors: {
-      type: new GraphQLList(require('./authorType.js')),
-      description: 'Array of author names.',
-      resolve: (card, args, context) => card.authors.map(id => context.entities.authors[id]),
+      type: new GraphQLList(require('./authorType.js').authorType),
+      description: 'Array of authors',
+      resolve: (card: SingleCardJSON, _args, context) => card.authors.map(id => context.entities.authors[id]),
     },
     created: {
       type: GraphQLFloat,
@@ -47,8 +47,8 @@ module.exports = new GraphQLObjectType({
     },
     categories: {
       type: new GraphQLList(categoryType),
-      description: 'Array of categories that pertain to the card.',
-      resolve: (card, args, context) => card.categories.map(id => context.entities.categories[id]),
+      description: 'Array of categories.',
+      resolve: (card: SingleCardJSON, _args, context) => card.categories.map(id => context.entities.categories[id]),
     },
     drugs: {
       type: new GraphQLList(GraphQLString),
