@@ -17,6 +17,7 @@ drugs: null
 # Asthma Classification
 
 # NEEDS CHART IMAGES PLACED HERE!!!
+# DELETE CARD 
 
 -   **Step 1:** Short-acting beta agonist PRN
 -   **Step 2**: Low-dose inhaled corticosteroid
