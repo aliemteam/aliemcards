@@ -15,49 +15,6 @@ drugs: 'aspirin, warfarin'
 
 # Atrial Fibrillation and Anticoagulation
 
--   Anticoagulation goal with <span class="drug">warfarin</span>: INR 2-3
--   If age &lt; 60 years and zero risk factors: No anticoagulation b/c low risk for CVA 
-
-**Deciding on whether to anticoagulate with aspirin or warfarin:**
-
-## Weak Risk Factors
-
-- Female gender    
-- Age 65-74         
-- CAD               
-- Thyrotoxicosis
-
-**Treatment**
-
-- <span class="drug">warfarin</span> or <span class="drug">warfarin</span>
-
-## Moderate Risk Factors
-
-- Age &gt; 75            
-- HTN                     
-- Heart failure           
-- LVEF ≤ 35%              
-- DM  
-
-**Treatment**
-
-- 1 Risk factor: <span class="drug">aspirin</span> or <span class="drug">warfarin</span>
-- &gt; 1 Risk factor: <span class="drug">warfarin</span>
-
-## High Risk Factors
-
-- Prior CVA        
-- Prior TIA         
-- Embolism          
-- Mitral stenosis   
-- Mech heart valve
-
-**Treatment**
-
-- <span class="drug">warfarin</span>
-
-([AHA/ACC/ESC 2006 guidelines](http://circ.ahajournals.org/content/114/7/e257.full))
-
 ## Background
 
 **Atrial Fibrillation** (AF) = **5x** risk for CVA and increases with age 
@@ -82,7 +39,53 @@ drugs: 'aspirin, warfarin'
 -   **S2** = prior Stroke or TIA (2 pts)
 
 ![](image-1.png)
+
 ([Gage et al., JAMA, 2001](https://www.ncbi.nlm.nih.gov/pubmed/?term=11401607))
+
+
+##Deciding on whether to anticoagulate with aspirin or warfarin: ([AHA/ACC/ESC 2006 guidelines](http://circ.ahajournals.org/content/114/7/e257.full))
+
+### WEAK RISK FACTORS
+
+- Female gender    
+- Age 65-74 years        
+- Coronary artery disease               
+- Thyrotoxicosis
+
+**Treatment**
+
+- <span class="drug">Aspirin</span> or <span class="drug">warfarin</span>
+
+### MODERATE RISK FACTORS
+
+- Age &gt; 75 years          
+- Hypertension                     
+- Heart failure           
+- LV ejection fracture ≤35%              
+- Diabetes mellitus 
+
+**Treatment**
+
+- 1 risk factor: <span class="drug">aspirin</span> or <span class="drug">warfarin</span>
+- &gt; 1 risk factor: <span class="drug">warfarin</span>
+
+### HIGH RISK FACTORS
+
+- Prior CVA        
+- Prior TIA         
+- Embolism          
+- Mitral stenosis   
+- Mech heart valve
+
+**Treatment**
+
+- <span class="drug">Warfarin</span>
+
+##Notes
+
+-   Anticoagulation goal with <span class="drug">warfarin</span>: INR 2-3
+-   If age &lt;60 years AND zero risk factors: No anticoagulation because low risk for CVA 
+
 
 ## References
 
