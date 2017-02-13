@@ -30,7 +30,13 @@ drugs: 'epinepherine, diphenhydramine, ranitidine, glucagon, methylprednisolone'
 -   Peanuts
 -   Shellfish
 
-**Organ involvement**: Skin 80-90%, Resp 70%, GI 45%, CV 45%, CNS 15%
+**Organ involvement**: 
+
+-   Skin 80-90%
+-   Respiratory 70%
+-   Gastrointestinal 45%
+-   Cardiovascular 45%
+-   Central nervous system 15%
 
 **Biphasic anaphylaxis pattern**: 2nd flare may occur despite trigger removed (typically within 72 hours of onset)
 
@@ -66,7 +72,7 @@ drugs: 'epinepherine, diphenhydramine, ranitidine, glucagon, methylprednisolone'
     -   **IM injection into lateral thigh** - quickest absorption centrally
 -   IV fluids 2 liters
 -   H1 antagonist (eg. <span class="drug">diphenhydramine</span>)
--   H2 antagonist ( eg. <span class="drug">ranitidine</span>)
+-   H2 antagonist (eg. <span class="drug">ranitidine</span>)
 -   Glucocorticoids (eg. <span class="drug">Methylprednisolone</span>; may blunt biphasic response)
 -   <span class="drug">Albuterol</span> (beta-agonist) nebulizer for wheezing/lower airway obstruction
 -   Consider: <span class="drug">Glucagon</span> 3.5-5 mg IV if refractory to epinephrine and on beta-blockers
