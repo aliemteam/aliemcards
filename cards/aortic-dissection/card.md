@@ -44,7 +44,8 @@ International Registry for Aortic Dissection (IRAD):
 
 | **Factor** | **Incidence %** |
 |------------|-----------------|
-| Pain, any... | 95.5% |
+| Pain, | |
+| - any | 95.5% |
 | - abrupt onset | 84.8% |
 | - chest | 72.7% |
 | - anterior chest | 60.9% |
@@ -75,7 +76,7 @@ International Registry for Aortic Dissection (IRAD):
 | **Factor** | **Incidence %** |
 |------------|-----------------|
 | Normal | 12.4% |
-| Widening mediastinum orabnormal aortic contour | 78.7% |
+| Widening mediastinum or abnormal aortic contour | 78.7% |
 | Pleural effusion | 19.2% |
 
 ## EKG Findings
@@ -83,8 +84,8 @@ International Registry for Aortic Dissection (IRAD):
 | **Factor** | **Incidence %** |
 |------------|-----------------|
 | Normal | 31.3% |
-| Nonspecific ST-Twave changes | 41.4% |
-| Left ventricularhypertrophy | 26.1% |
+| Nonspecific ST-T wave changes | 41.4% |
+| Left ventricular hypertrophy | 26.1% |
 | Ischemia | 15.1% |
 
 ## Overall hospital mortality: 26.4%
