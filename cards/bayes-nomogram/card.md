@@ -1,6 +1,6 @@
 ---
 
-title: 'Bayes Nomogram'
+title: 'Fagan Nomogram'
 authors:
     - 'Michelle Lin, MD'
 created: 2012/05/17
@@ -13,7 +13,7 @@ drugs: null
 
 
 
-# Bayes Nomogram
+# Fagan Nomogram
 
 Draw a line connecting your pre-test probability and your likelihood ratio. This provides you with your post-test probability.
 
