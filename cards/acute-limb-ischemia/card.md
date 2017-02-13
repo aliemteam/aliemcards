@@ -19,9 +19,9 @@ drugs: 'aspirin, heparin'
 -   Golden Window = **6 hours **
 -   Etiologies: 
 
-*Most common:* thromboembolic cause
+**Most common:** Thromboembolic cause
 
-*Less common causes:*
+**Less common causes:**
 
 -   Vascular dissection
 -   Compartment syndrome
@@ -38,11 +38,11 @@ drugs: 'aspirin, heparin'
 -   **Neurological:** Check for sensory and motor loss
 -   **Vascular:** Grade peripheral pulses
 
-  - 0 = no Doppler signal
-  - 1 = reduced
-  - 2 = normal
-  - 3 = increased
-  - 4 = bounding
+  - 0 = No Doppler signal
+  - 1 = Reduced
+  - 2 = Normal
+  - 3 = Increased
+  - 4 = Bounding
 
 -  Rutherford Classification scheme for ALI ([Rutherford et al](https://www.ncbi.nlm.nih.gov/pubmed/?term=9308598))
 
@@ -51,29 +51,29 @@ drugs: 'aspirin, heparin'
 
 | **Class** | **Category** | **Prognosis** |  **Sensory Loss** |  **Muscle Weakness** | **Arterial Dopper Signal** | ** Venous Doppler Signal**
 |---|---|---|---|---|---|---|
-| **I** | Viable, No immediate limb threat | None | None | Audible | Audible |
+| **I** | Viable, No immediate limb threat | None | None | Audible | Audible | |
 | **IIA** | Threatened: Marginal | Salvageable if treated promptly | Min-none | None | +/- Audible | Audible |
 | **IIB** | Threatened: Immediate | Salvageable if treated immed. | More than just toes | Mild-mod | Rarely audible | Audible |
-| **III** | Irreversible Limb loss or permanent damage | Profound | Profound | None | None |
+| **III** | Irreversible Limb loss or permanent damage | Profound | Profound | None | None | |
 
--   ABI
--   EKG
+-   Ankle brachial index (ABI)
+-   Electrocardiogram
 -   CBC 
 -   Type and screen
 -   Basic metabolic panel
 -   PT/PTT
--   Creatine kinase (CK)
+-   Creatine kinase
 -   Troponin
 
 ## Imaging
 
 -   **First line imaging** = Digital subtraction angiography (DSA)
--   U/S, CTA, MRA – not well studied in ALI and loss of time-to-intervention
+-   Ultrasound, CT angiography, MR angiography – not well studied in ALI and loss of time-to-intervention
 -   No imaging if unstable patient --&gt; go straight to amputation
 
 ## ED treatment
 
--   <span class="drug">**ASA**</span>
+-   <span class="drug">**Aspirin**</span>
 -   <span class="drug">Unfractionated heparin</span> (consider no bolus and lower infusion due to risk of hemorrhage)
 -   Position extremity in dependent position
 -   Avoid extremes of temperature
