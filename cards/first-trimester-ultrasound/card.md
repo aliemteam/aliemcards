@@ -33,9 +33,13 @@ drugs: null
 1.  **Yolk sac:** Round fluid-filled structure within the gestational sac, located in the endometrium
 2.  **Fetal pole:** Small mass located near the yolk sac
 
-![](image-1.png)Figure 1: Normal early IUP showing **yolk sac** and **fetal pole**
+![](image-1.png)
 
-![](image-2.png)Figure 2: Close-up image of a normal early IUP showing a **yolk sac** within a gestational sac
+Figure 1: Normal early IUP showing **yolk sac** and **fetal pole**
+
+![](image-2.png)
+
+Figure 2: Close-up image of a normal early IUP showing a **yolk sac** within a gestational sac
 
 ## Normal Reference Measurements
 
@@ -56,30 +60,40 @@ drugs: null
 -   An ectopic pregnancy in the tube or ovary often has a “ring of fire” with color Doppler imaging. However, most ectopic pregnancies are not visible with transabdominal ultrasound.
 -   **Free intraperitoneal fluid** in Morison’s pouch is a **sign of a ruptured ectopic** that will likely require operative intervention.
 
-![](image-3.png)Figure 3: **Empty fluid-filled sac** within the endometrium. Given the absence of contents, you cannot differentiate gestational vs pseudogestational sac.
-This is **not** diagnostic of an IUP.
+![](image-3.png)
+
+Figure 3: **Empty fluid-filled sac** within the endometrium. Given the absence of contents, you cannot differentiate gestational vs pseudogestational sac. This is **not** diagnostic of an IUP.
 
 ## Struggling with the Exam?
 
 **Can’t visualize the uterus?**
-Perform the ultrasound before the patient urinates. If unable to visualize key structures, proceed to a transvaginal ultrasound.
+
+- Perform the ultrasound before the patient urinates. If unable to visualize key structures, proceed to a transvaginal ultrasound.
 
 **Can’t find a yolk sac or fetal pole?**
 
-1.  **There may not be an IUP**. The patient may have an ectopic pregnancy or a OOcompleted abortion.
-2.  **It may be too early** to visualize an IUP with transabdominal scanning. IUPs are difficult to visualize before 6-6.5 weeks gestational age. This may require a transvaginal ultrasound instead, which can visualize earlier IUPs.
+  1.  **There may not be an IUP**. The patient may have an ectopic pregnancy or a OOcompleted abortion.
+  2.  **It may be too early** to visualize an IUP with transabdominal scanning. IUPs are difficult to visualize before 6-6.5 weeks gestational age. This may require a transvaginal ultrasound instead, which can visualize earlier IUPs.
 
 ## Common Errors
 
-Only using close-up, zoomed view to evaluate for intrauterine pregnancy. Be sure to get a “big picture” view of the pelvis to identify all relevant structures prior to using the zoom function.
+- Only using close-up, zoomed view to evaluate for intrauterine pregnancy. Be sure to get a “big picture” view of the pelvis to identify all relevant structures prior to using the zoom function.
 
-**Mistaking a pseudogestational sac for an IUP**: A pseudogestational sac is a small fluid collection from an endometrial reaction to hormones produced by the ectopic pregnancy. This will appear within the endometrial cavity and can be seen in up to 20% of ectopic pregnancies. You **MUST** visualize at least a yolk sac within a gestational sac (located in the endometrium) before an IUP can be confirmed.
+**Mistaking a pseudogestational sac for an IUP**: 
 
-**Interstitial (cornual) pregnancy**: Although most ectopic pregnancies occur in the fallopian tubes, 3% of ectopic pregnancies implant on the edge of the uterus. This form of ectopic pregnancy can be identified by noting an eccentric location of the gestational sac within the endometrium, often with &lt;8 mm of surrounding myometrium.
+- A pseudogestational sac is a small fluid collection from an endometrial reaction to hormones produced by the ectopic pregnancy. This will appear within the endometrial cavity and can be seen in up to 20% of ectopic pregnancies. You **MUST** visualize at least a yolk sac within a gestational sac (located in the endometrium) before an IUP can be confirmed.
 
-Assuming an IUP rules-out an ectopic pregnancy for those undergoing assisted reproductive therapies (ART) such as in-vitro fertilization. The risk of a heterotopic pregnancy is too high.
+**Interstitial (cornual) pregnancy**: 
 
-Using pulsed wave or color Doppler on the fetus to confirm fetal heart rate or viability. Both pulse wave and color Doppler inflict unnecessary thermal energy to the developing fetus. M-Mode is sufficient for measuring fetal heart rate.
+- Although most ectopic pregnancies occur in the fallopian tubes, 3% of ectopic pregnancies implant on the edge of the uterus. This form of ectopic pregnancy can be identified by noting an eccentric location of the gestational sac within the endometrium, often with &lt;8 mm of surrounding myometrium.
+
+**Assuming an IUP rules-out an ectopic pregnancy for those undergoing assisted reproductive therapies (ART) such as in-vitro fertilization.** 
+
+- The risk of a heterotopic pregnancy is too high.
+
+**Using pulsed wave or color Doppler on the fetus to confirm fetal heart rate or viability.** 
+
+- Both pulse wave and color Doppler inflict unnecessary thermal energy to the developing fetus. M-Mode is sufficient for measuring fetal heart rate.
 
 ## References
 
