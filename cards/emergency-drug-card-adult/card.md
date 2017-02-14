@@ -52,7 +52,7 @@ drugs: 'etomidate, lidocaine, rocuronium, succinylcholine, vecuronium, amiodaron
   <tr>
     <td><span class="drug">Amiodarone</span></td>
     <td>
-      <b>Bolus:</b> 1 mcg/kg IV
+      <b>Bolus:</b> 1 mcg/kg IV<br>
       <b>Infusion:</b> 25-150 mcg/hr IV, titrate to goal
     </td>
   </tr>
