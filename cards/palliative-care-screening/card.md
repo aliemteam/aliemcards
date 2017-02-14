@@ -16,13 +16,15 @@ drugs: null
 
 # Palliative Care Screening Tool
 
+[George N et al, 2015](https://www.ncbi.nlm.nih.gov/pubmed/26171710)
+
 ## What is Palliative Care?
 
 Palliative Care focuses on improving the care and quality of life for patients with advanced illness by decreasing suffering. It can be delivered concurrently with curative care. Early identification of patients who are likely to benefit is key.
 
 ## Determine if YOUR patient could benefit from Palliative Care consultation.
 
-**STEP 1: Determine if your patient has at least 1 life-limiting illness:**
+**STEP 1:** Determine if your patient has at least 1 life-limiting illness:
 
 1.  **Advanced Dementia or CNS Disease** (e.g. CVA, ALS, Parkinson's): assistance needed for most self-care (e.g. ambulation, toileting) and/or minimally verbal
 2.  **Advanced Cancer**: metastatic or locally aggressive disease
@@ -33,7 +35,7 @@ Palliative Care focuses on improving the care and quality of life for patients w
 7.  **Septic Shock**: requires ICU admission AND has significant pre-existing comorbid illness
 8.  **High Chance of Accelerated Death**: provider discretion – e.g.: Hip fracture in age &gt;80, major trauma in elderly (multiple rib fractures, intracranial hemorrhage), advanced AIDS
 
-**STEP 2 (Consultation): Consider a Palliative Care consultation if your patient has at least 1 life-limiting illness (above) AND 1 or more of the following:**
+**STEP 2 (Consultation):** Consider a Palliative Care consultation if your patient has at least 1 life-limiting illness (above) AND 1 or more of the following:
 
 1.  **Frequent visits**: 2 or more ED visits or hospitalizations in the past 6 months
 2.  **Uncontrolled symptoms**: Visit prompted by uncontrolled symptom (e.g. pain, dyspnea, depression, fatigue)
@@ -43,22 +45,9 @@ Palliative Care focuses on improving the care and quality of life for patients w
 
 ## Symptom Control: Improve quality of life in the ED
 
-**Symptom**
-
-**Interventions to Consider**
-
-Agitation
-
-Haloperidol
-
-Anxiety
-
-Lorazepam or diazepam
-
-Dyspnea
-
-Supplemental O2 and/or morphine for comfort
-
-Pain
-
-Standing morphine or fentanyl, or use of opioid drips
+| **Symptom** | **Interventions to Consider** |
+| --- | --- |
+| Agitation | Haloperidol |
+| Anxiety | Lorazepam or diazepam |
+| Dyspnea | Supplemental O2 and/or morphine for comfort | 
+| Pain |Standing morphine or fentanyl, or use of opioid drips |
