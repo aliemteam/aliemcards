@@ -91,4 +91,3 @@ drugs: 'aspirin, heparin'
 ## References
 
 -   [Rutherford RB, Baker JD, Ernst C, Johnston KW, Porter JM, Ahn S, Jones DN. Recommended standards for reports dealing with lower extremity ischemia: revised version.J Vasc Surg. 1997 Sep;26(3):517-38.](https://www.ncbi.nlm.nih.gov/pubmed/?term=9308598)
-
