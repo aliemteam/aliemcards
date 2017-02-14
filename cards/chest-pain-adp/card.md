@@ -11,7 +11,7 @@ drugs: null
 
 ---
 
-
+DELETE
 
 # Chest Pain: Can we do 2-hour rule outs? Acclerated Diagnostic Protocol (ADP)
 
