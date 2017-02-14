@@ -18,7 +18,7 @@ drugs: 'etomidate, lidocaine, rocuronium, succinylcholine, vecuronium, amiodaron
 
 # Emergency Drug Card (Adult)
 
-## RSI
+## Rapid Sequence Induction
 
 <table>
   <tr>
