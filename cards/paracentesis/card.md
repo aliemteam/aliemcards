@@ -15,6 +15,8 @@ drugs: null
 
 # Spontaneous Bacterial Peritonitis and Paracentesis
 
+[JAMA Rational Clinical Examination Series 2009]((http://www.ncbi.nlm.nih.gov/pubmed/?term=18926597))
+
 **Bottom line:** It appears safe to perform paracentesis without checking coagulation labs
 
 -   2 prospective studies
