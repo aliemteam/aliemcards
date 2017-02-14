@@ -18,7 +18,7 @@ drugs: 'adenosine, amiodarone, atronie, calcium chloride, dextrose, epinephrine,
 
 # Emergency Drug Card (Pediatric)
 
-## PALS
+## Pediatric Advanced Life Support
 
 <table>
   <tr>
@@ -63,7 +63,7 @@ drugs: 'adenosine, amiodarone, atronie, calcium chloride, dextrose, epinephrine,
   </tr>
 </table>
 
-## RSI
+## Rapid Sequence Induction
 
 <table>
     <tr>
