@@ -12,7 +12,7 @@ drugs: null
 
 ---
 
-
+DELETE
 
 # ECG: Geography for AMI
 
