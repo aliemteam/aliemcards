@@ -35,7 +35,7 @@ drugs: null
 <td>Urgent closed reduction needed if:<br />
 </td>
 <td><ul>
-<li>&gt; 10°, 20°, 30°, 40°angulation for 2nd-5th MCs, respectively, OR<br />
+<li>&gt; 10°, 20°, 30°, 40° angulation for 2nd-5th MCs, respectively, OR<br />
 </li>
 <li>ANY rotational deformity (note scissoring with composite flexion) <br />
 </li>
