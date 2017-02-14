@@ -12,6 +12,7 @@ drugs: null
 ---
 
 
+DELETE
 
 # Carbon Monoxide Poisoning
 
