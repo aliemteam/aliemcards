@@ -23,8 +23,8 @@ Undesired tissue reactivity is greater with:
 
 ## Absorbable Sutures
 
-| Type                | Effective Support | Complete Absorption | **Comments**                  |
-|---------------------|-------------------|---------------------|-------------------------------|
+| **Type**                | **Effective Support** | **Complete Absorption** | **Comments**                  |
+|---------------------|:----------------:|:--------------------:|-------------------------------|
 | Surgical Gut        | 8-9 days          | 30 days             | Rarely used; high tissue reactivity         |
 | Chromic Gut         | 10-21 days        | &gt; 90 days        | Gut treated with chromium to decrease tissue reactivity and slow absorption |
 | Fast Absorbing Gut  | 5-7 days          | 14-28 days          | Gut treated with heat to speed absorption               |
@@ -33,16 +33,16 @@ Undesired tissue reactivity is greater with:
 
 ## Non-Absorbable Sutures
 
-| Type                    | Tensile strength  | Tissue reactivity | Comments           |
-|-------------------------|-------------------|-------------------|------------------------|
+| **Type**                    | **Tensile Strength**  | **Tissue Reactivity** | **Comments**           |
+|-------------------------|:-----------------:|:-----------------:|------------------------|
 | Silk                    | Low               | High              | Multifilament, pliable |
 | Nylon (Ethilon)         | High              | Low               | Monofilament, stiff    |
 | Polypropylene (Prolene) | Moderate          | Very low          | Monofilament, less knot security because slippery (may need  extra throw in knot) |
 
 ## Suture Removal Timeframes
 
-| **Body part**       | **\# of days after suturing** |
-|---------------------|-------------------------------|
+| **Body Part**       | **# of Days After Suturing** |
+|---------------------|:------------------------------:|
 | Face                | 3-5                           |
 | Scalp               | 7                             |
 | Chest, extremities  | 7-10                          |
