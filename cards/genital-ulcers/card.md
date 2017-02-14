@@ -44,7 +44,7 @@ From “The Practitioner’s Handbook for the Management of STDs” (4th ed, 200
     <th>LGV</th>
   </tr>
   <tr>
-    <td>**Primary lesion**</td>
+    <td><b>Primary lesion</b></td>
     <td>Vesicle, papule,ulcers, typically bilateral</td>
     <td>Grouped vesicles, papules, ulcers, typically unilateral  </td>
     <td>Ulcer, papule</td>
@@ -52,7 +52,7 @@ From “The Practitioner’s Handbook for the Management of STDs” (4th ed, 200
     <td>Papule, pustule, ulcer</td>
   </tr>
   <tr>
-    <td>**Border**</td>
+    <td><b>Border</b></td>
     <td>Erythematous,"punched out"  </td>
     <td>Erythematous,"punched out"</td>
     <td>Sharply demarcated </td>
@@ -60,7 +60,7 @@ From “The Practitioner’s Handbook for the Management of STDs” (4th ed, 200
     <td>Variable</td>
   </tr>
   <tr>
-    <td>**Depth**</td>
+    <td><b>Depth</b></td>
     <td>Superficial</td>
     <td>Superficial</td>
     <td>Superficial</td>
@@ -68,7 +68,7 @@ From “The Practitioner’s Handbook for the Management of STDs” (4th ed, 200
     <td>Superficial</td>
   </tr>
   <tr>
-    <td>**Base**</td>
+    <td><b>Base</b></td>
     <td>Red and smooth</td>
     <td>Red and smooth</td>
     <td>Red and smooth</td>
@@ -76,7 +76,7 @@ From “The Practitioner’s Handbook for the Management of STDs” (4th ed, 200
     <td>Variable</td>
   </tr>
   <tr>
-    <td>**Secretion**</td>
+    <td><b>Secretion</b></td>
     <td>Serous</td>
     <td>Serous</td>
     <td>Serous</td>
@@ -84,7 +84,7 @@ From “The Practitioner’s Handbook for the Management of STDs” (4th ed, 200
     <td>Variable</td>
   </tr>
   <tr>
-    <td>**Number of Lesions**</td>
+    <td><b>Number of Lesions</b></td>
     <td>Bilateral, multiple, extensive lesion may coalesce</td>
     <td>Usually unilateral; labia, penis, scrotum, buttocks, perianal</td>
     <td>Vulva, penis, anal perianal, oral</td>
@@ -92,7 +92,7 @@ From “The Practitioner’s Handbook for the Management of STDs” (4th ed, 200
     <td>Urethra, cervix, rectum</td>
   </tr>
   <tr>
-    <td>**Induration**</td>
+    <td><b>Induration</b></td>
     <td>None</td>
     <td>None</td>
     <td>Firm</td>
@@ -100,7 +100,7 @@ From “The Practitioner’s Handbook for the Management of STDs” (4th ed, 200
     <td>None</td>
   </tr>
   <tr>
-    <td>**Pain**</td>
+    <td><b>Pain</b></td>
     <td>Common</td>
     <td>Common, less severe</td>
     <td>Rare</td>
@@ -108,7 +108,7 @@ From “The Practitioner’s Handbook for the Management of STDs” (4th ed, 200
     <td>Variable</td>
   </tr>
   <tr>
-    <td>**Itching**</td>
+    <td><b>Itching</b></td>
     <td>Common</td>
     <td>Common</td>
     <td>Rare</td>
@@ -116,7 +116,7 @@ From “The Practitioner’s Handbook for the Management of STDs” (4th ed, 200
     <td>Rare</td>
   </tr>
   <tr>
-    <td>**Lymph Nodes**</td>
+    <td><b>Lymph Nodes</b></td>
     <td>Tender, firm, bilateral inguinal adenopathy</td>
     <td>Lymphadenopathy, uncommon, unilateral</td>
     <td>Nontender, firm, enlarged</td>
@@ -124,7 +124,7 @@ From “The Practitioner’s Handbook for the Management of STDs” (4th ed, 200
     <td>Inguinal and femoral lymphadenopathy: tender, may suppurate</td>
   </tr>
   <tr>
-    <td>**Incubation Period**</td>
+    <td><b>Incubation Period</b></td>
     <td>2-14 days</td>
     <td>Recurrence within 6-9 months of primary infection </td>
     <td>10-90 days</td>
@@ -132,7 +132,7 @@ From “The Practitioner’s Handbook for the Management of STDs” (4th ed, 200
     <td>3-21 days</td>
   </tr>
   <tr>
-    <td>**Time Course**</td>
+    <td><b>Time Course</b></td>
     <td>21 days</td>
     <td>7-10 days</td>
     <td>2-3 weeks</td>
@@ -140,7 +140,7 @@ From “The Practitioner’s Handbook for the Management of STDs” (4th ed, 200
     <td>1-2 weeks</td>
   </tr>
   <tr>
-    <td>**Diagnostic Test**</td>
+    <td><b>Diagnostic Test</b></td>
     <td>Viral culture</td>
     <td>Viral culture is most sensitive, especially once vesicles rupture and ulcerate. If lesions are granulating, HSV cultures may be negative and HSV serology is useful to confirm etiology.</td>
     <td>Darkfield microscopy, FTA-ABS, VDRL, RPR and DFA-TP</td>
@@ -148,6 +148,7 @@ From “The Practitioner’s Handbook for the Management of STDs” (4th ed, 200
     <td>Isolation of *Chlamydia trachomatis* from urethra, cervix, rectum or lymph node aspirate; complement fixation serology ≥ 1/64</td>
   </tr>
 </table>
+
 
 ## References
 
