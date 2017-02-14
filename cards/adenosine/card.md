@@ -19,7 +19,7 @@ drugs: adenosine,
 
 The ACLS-recommended dosing strategy of 6 mg, 12 mg, and 12 mg for <span class="drug">adenosine</span> may not be appropriate in every situation. There are a few instances when lower or higher dosing should be considered.
 
-*Caveat: *All recommendations are data-based, but many factors affect successful conversion of paroxysmal supraventricular tachycardia (PSVT) including proper line placement and administration technique.
+*Caveat:* All recommendations are data-based, but many factors affect successful conversion of paroxysmal supraventricular tachycardia (PSVT) including proper line placement and administration technique.
 
 ## Option 1: Starting at higher dose
 
