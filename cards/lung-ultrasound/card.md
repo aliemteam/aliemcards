@@ -29,13 +29,15 @@ drugs: null
 **Windows:** Transducer orientation is longitudinal with directional indicator oriented towards the patient’s head. The area of interest is the pleura visualized between the ribs. There are many accepted scanning approaches, and two commonly used in the ED:
 
 1.  **Three views in each hemithorax:**
-    1.  **Anterior:** 2nd or 3rd interspace at the mid-clavicular line.
-    2.  **Anterolateral:** Anterior and mid- axillary lines along the 3rd to 5th interspace.
-    3.  **Posterolateral:** posterior axillary line, looking into the lower thorax and upper abdominal quadrants at the level of the diaphragm.
+    - **Anterior:** 2nd or 3rd interspace at the mid-clavicular line.
+    - **Anterolateral:** Anterior and mid- axillary lines along the 3rd to 5th interspace.
+    - **Posterolateral:** Posterior axillary line, looking into the lower thorax and upper abdominal quadrants at the level of the diaphragm.
 
-2.  **Eight lung zones**, or 4 sections, in each hemithorax \[Volpicelli\]:
+2.  **8 lung zones**, or 4 sections, in each hemithorax [Volpicelli]:
 
-![](image-1.png)Figure 1: Transducer positions for the 8 lung zones
+![](image-1.png)
+
+Figure 1: Transducer positions for the 8 lung zones
 
 ## Lung Sliding
 
@@ -49,7 +51,9 @@ Absent lung sliding is a ***pathologic finding*** found in pneumothorax, contral
 -   Arise from the pleural line, are hyperechoic and parallel to pleural surface at equal intervals.
 -   Seen with normal lung aeration and in some cases of pneumothorax
 
-![](image-2.png)Figure 2: **A-lines **are visualized as hyperechoic, horizontal artifacts at regular intervals deep to the **pleural line.** Note the ribs **(r)** in the near field.
+![](image-2.png)
+
+Figure 2: **A-lines **are visualized as hyperechoic, horizontal artifacts at regular intervals deep to the **pleural line.** Note the ribs **(r)** in the near field.
 
 ## B-Lines
 
@@ -57,7 +61,9 @@ Absent lung sliding is a ***pathologic finding*** found in pneumothorax, contral
 -   Arise from the pleural line, extend off the screen without fading, are hyperechoic and laser-like, move with respiration, and erase the normal A-line pattern.
 -   More than 3 B-lines in an interspace is considered ***pathologic***, although many experts agree that any anterior B-lines are pathologic.
 
-![](image-3.png)Figure 3: **B-lines **are visualized as hyperechoic vertical artifacts arising from the **pleural line** and extending off the screen without fading, erasing the A-line pattern.
+![](image-3.png)
+
+Figure 3: **B-lines **are visualized as hyperechoic vertical artifacts arising from the **pleural line** and extending off the screen without fading, erasing the A-line pattern.
 
 ## Comet Tails
 
@@ -80,31 +86,41 @@ Absent lung sliding is a ***pathologic finding*** found in pneumothorax, contral
 
 ## Pleural Effusion
 
-![](image-4.png)Figure 4: **Pleural effusion** visualized as an anechoic fluid collection
+![](image-4.png)
 
-located cephalad to the (arrows).
+Figure 4: **Pleural effusion** visualized as an anechoic fluid collection located cephalad to the (arrows).
 
 ## Pneumonia
 
-![](image-5.png)Figure 5: A lobar consolidation located cephalad to the **diaphragm.** The branching, **hyperechoic air bronchograms** define this consolidation.
+![](image-5.png)
+
+Figure 5: A lobar consolidation located cephalad to the **diaphragm.** The branching, **hyperechoic air bronchograms** define this consolidation.
 
 ## Struggling with the Exam?
 
-Do ***not*** move quickly. Hold the probe STILL during the respiratory cycle to see lung sliding and lung artifacts. Compare the same region of each hemithorax sequentially instead of the entire hemithorax at once.
+- Do ***not*** move quickly. Hold the probe STILL during the respiratory cycle to see lung sliding and lung artifacts. Compare the same region of each hemithorax sequentially instead of the entire hemithorax at once.
 
 **Can’t decide if there is lung sliding?**
-To optimize visualization of the pleural line, decrease the depth and decrease the overall gain.
+
+- To optimize visualization of the pleural line, decrease the depth and decrease the overall gain.
 
 **Can’t see A-lines or B-lines?**
-Turn *off* artifact-reduction settings, or use a lung preset if available. Keep the transducer perpendicular to the patient’s chest in all zones scanned. Use a low-frequency transducer set to its lowest operating frequency.
+
+- Turn *off* artifact-reduction settings, or use a lung preset if available. Keep the transducer perpendicular to the patient’s chest in all zones scanned. Use a low-frequency transducer set to its lowest operating frequency.
 
 ## Common Errors:
 
-**Unable to identify A-lines:** Remember to turn *off* artifact-reduction settings, or use a lung preset if available. Keep the transducer perpendicular to the patient’s chest in all zones scanned.
+**Unable to identify A-lines:** 
 
-**Quantification of B-lines:** A single B-line in dependent interspaces may be a normal finding in a healthy patient, but &gt;3 B-lines in a single interspace indicates lung pathology.
+- Remember to turn *off* artifact-reduction settings, or use a lung preset if available. Keep the transducer perpendicular to the patient’s chest in all zones scanned.
 
-**Absence of lung sliding** is 100% sensitive for pneumothorax, but is ***not specific*** to pneumothorax. Other possibilities may be failure to ventilate, contralateral mainstem intubation, dense consolidation from pneumonia, severe pulmonary fibrosis, or pleural inflammatory changes.
+**Quantification of B-lines:** 
+
+- A single B-line in dependent interspaces may be a normal finding in a healthy patient, but &gt;3 B-lines in a single interspace indicates lung pathology.
+
+**Absence of lung sliding** is 100% sensitive for pneumothorax, but is ***not specific*** to pneumothorax. 
+
+- Other possibilities may be failure to ventilate, contralateral mainstem intubation, dense consolidation from pneumonia, severe pulmonary fibrosis, or pleural inflammatory changes.
 
 ## References
 
