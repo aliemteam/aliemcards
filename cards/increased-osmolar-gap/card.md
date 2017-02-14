@@ -15,25 +15,29 @@ drugs: null
 
 # Approach to Increased Osmolar Gap
 
-Serum osmolality: Contributed by ions and low-molecular-weight solutes
+## Background and Calculations
+
+**Serum osmolality:** Contributed by ions and low-molecular-weight solutes
 
 ![](image-1.png)
 
-**Osmolal gap = calculated osmolality – measured osmolality**
+**Osmolal gap = Calculated osmolality – Measured osmolality**
 
--   (normal is -10 to +10 mOsm/kg of H2O)
+- Normal OG = -10 to +10 mOsm/kg of H2O
 
-**Osmolal gap**
+## Osmolal gap
 
-Most common cause = Ethanol 
-
--   Gap calculation includes ethanol correction factor (4.6)
-
-Screens for toxic alcohols with decreasing sensitivity (increasing molecular weight): Methanol, ethanol, isopropanol, ethylene glycol, propylene glycol, diethylene glycol
-
-Gap ≥ 20 suggests ethanol or toxic alcohol exposure
-
--   Although case reports of DKA causing osmolal gap ≥ 20
+- Most common cause: Ethanol 
+- Osmolal ap calculation includes ethanol correction factor (4.6)
+- Osmoloal gap screens for toxic alcohols with decreasing sensitivity: 
+  - Methanol
+  - Ethanol
+  - Isopropanol
+  - Ethylene glycol
+  - Propylene glycol
+  - Diethylene glycol
+- A gap ≥ 20 suggests ethanol or toxic alcohol exposure
+  - Although case reports of diabetic ketoacidosis causing osmolal gap ≥ 20
 
 **Toxic alcohols**
 
@@ -46,26 +50,21 @@ Gap ≥ 20 suggests ethanol or toxic alcohol exposure
 </colgroup>
 <thead>
 <tr class="header">
-<th> Causes for High anion gap metabolic acidosis + High osmolal gap</th>
+<th> <b>Causes for High anion gap metabolic acidosis + High osmolal gap</b></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Acute kidney injury<br />
-
 Intoxication, salicylates<br />
-
 Intoxication, toxic alcohol<br />
-
 <ul>
 <li>Methanol</li>
 <li>Ethylene glycol</li>
 <li>Diethylene glycol</li>
 <li>Propylene glycol</li>
-<li>Isopropanol glycol</li>
-</ul>
+<li>Isopropanol glycol</li></ul>
 Ketoacidosis, alcoholic or diabetic<br />
-
 Lactic acidosis<br />
 </td>
 </tr>
@@ -74,10 +73,11 @@ Lactic acidosis<br />
 
 **Caution**
 
--   Toxic alcohols may not cause significant osmolal gap because 
--   High molecular weight toxic alcohols (eg. propylene glycol, diethylene glycol) do not affect the osmolality as much
--   Wide range of normal osmolal gap (can be as low as -10)
--   Only the parent alcohol (not the metabolites) causes osmolal gap
+Toxic alcohols may not cause significant osmolal gap because:
+
+1. High molecular weight toxic alcohols (eg. propylene glycol, diethylene glycol) do not affect the osmolality as much
+2. Wide range of normal osmolal gap (can be as low as -10)
+3. Only the parent alcohol (not the metabolites) causes osmolal gap
 
 **Tip: **Consider toxic alcohols for cases of high anion gap metabolic acidosis even with normal osmolal gap
 
