@@ -41,6 +41,8 @@ Found in antifreeze, coolants, deicing solutions, ink in stamp pads and ballpoin
 2. Hypocalcemia
 3. Oxalate crystals in urine
 
+**Common Signs and Symptoms**
+
 -   **Neurologic** – Nausea and vomiting, inebriation with euphoria, nystagmus, ataxia, myoclonic jerks… then CNS depression, hypotonia, seizures, coma
 -   **Cardiopulmonary** – Hyperventilation from respiratory compensation of acidosis, hypoxia from heart failure, multiorgan failure, ARDS
 -    **Renal** – Flank pain, acute tubular necrosis, renal failure
