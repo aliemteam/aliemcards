@@ -18,7 +18,7 @@ drugs: 'fomipezole, ethanol, folic acid'
 General concepts for all 3 toxic alcohols:
 
 -   Parent compounds (not metabolites) cause high osmolal gap
--   When NAD depleted, pyruvate converts to lactate --&gt; causes lactic acidosis
+-   When NAD depleted, pyruvate converts to lactate - which then causes lactic acidosis
 -   See metabolism of alcohols diagram below
 
 ## Methanol: Factoids
@@ -57,13 +57,13 @@ Solvent found in cleaning and printing solutions, adhesives, stains, paint remov
 </tbody>
 </table>
 
--   **CNS:** Headache, lethargy, confusion, Parkinsonian extrapyramidal sx
+-   **CNS:** Headache, lethargy, confusion, Parkinsonian extrapyramidal symptoms
 -   **Ocular:** Blurry vision, central scotoma, impaired pupillary response, photophobia, retinal edema (permanent damage in 25-33% of patients)
 -   **GI:** Vomiting, abdominal pain, pancreatitis
 
 ## Methanol: Stages of Presentation
 
-|                              |                                                  |
+| **Stage**                   |   **Clinical findings**                        |
 |------------------------------|--------------------------------------------------|
 | Early                        | Mild euphoria, inebriation, drowsiness           |
 | Latent (lasting 6-30 hours)  | Normal sensorium but blurred vision              |
@@ -71,11 +71,12 @@ Solvent found in cleaning and printing solutions, adhesives, stains, paint remov
 
 ## Methanol: Management
 
--   Goal: Prevent further formation of (<span class="drug"fomipezole</span>) & eliminate toxic metabolites (dialysis)
--   <span class="drug"Folic</span> or folinic acid supplementation to enhance formate metabolism
--   Antidote = <span class="drug"Fomipezole</span> inhibits alcohol dehydrogenase (alternative = <span class="drug"ethanol</span>)
+**Goal:** Prevent further formation of formic acid (using **<span class="drug">fomepizole</span>**) and eliminate toxic metabolites (through dialysis) 
 
-|                  |                                     |
+-  **<span class="drug">Folic</span>** or folinic acid supplementation to enhance formate metabolism
+-  **Antidote:** **<span class="drug">Fomipezole</span>** inhibits alcohol dehydrogenase (alternative = **<span class="drug">ethanol</span>**)
+
+|  **Fomipezole**     |    **Dosing**              |
 |------------------|-------------------------------------|
 | Loading dose     | 15 mg/kg IV                         |
 | Maintenance dose | 10 mg/kg IV every 12 hours x 2 days |
