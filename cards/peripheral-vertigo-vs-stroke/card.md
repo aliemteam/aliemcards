@@ -19,25 +19,25 @@ drugs: null
 
 **Acute Vestibular Syndrome (AVS) Symptoms:**
 
--   Acute dizziness with N/V
+-   Acute dizziness with nausea/vomiting
 -   Unsteady gait
 -   Nystagmus
--   Intolerance to head motion, and lasts ≥ 24 hrs
+-   Intolerance to head motion, and lasts ≥24 hrs
 -   No focal neurologic signs
 
-**Most common causes:**
+**Most Common Causes:**
 
 -   Vestibular neuritis (labyrinthitis)
 -   Vertebrobasilar CVA 
 
-**Central causes:**
+**Central Causes:**
 
 - Vertebrobasilar CVA (83%)
-- multiple sclerosis (11%)
-- other (6%) 
+- Multiple sclerosis (11%)
+- Other (6%) 
 
 > Over 50% of vertebrobasilar CVA’s have no focal neuro deficit.
-> Excludes benign positional vertigo and Meniere’s (&lt; 24 hrs of continuous sx)
+> Excludes benign positional vertigo and Meniere’s (&lt;24hrs of continuous symptoms)
 
 ## Which Bedside Tests Help Differentiate Peripheral from Central Causes of AVS? 
 
@@ -54,10 +54,14 @@ drugs: null
 **Helpful**
 
 **Multiple episodes of dizziness**: Predictive of central cause (CVA)
-**Headache or neck pain**: Predictive of central cause (CVA, vertebral artery dissection) with positive LR = 3.2. 
--   Absence of pain not as predictive
 
-**Any neurologic signs**, esp. truncal ataxia (unable to sit upright with arms crossed) and severe gait instability – Strongly predictive of central cause
+**Headache or neck pain**: Predictive of central cause (CVA, vertebral artery dissection)
+- Positive LR = 3.2
+- Absence of pain not predictive
+
+**Any neurologic signs**, especially truncal ataxia (unable to sit upright with arms crossed) and severe gait instability 
+– Strongly predictive of central cause
+
 **Horizontal head impulse test** (vestibular-ocular reflex)
 -   If abnormal, suggests peripheral vestibular cause
 -   If normal, predictive of central cause (positive LR 18.4, negative LR 0.16)
@@ -67,13 +71,12 @@ drugs: null
 -   If abnormal, predictive of central cause (specificity 92%, sens 38%) 
 
 **Vertical ocular misalignment on alternate cover test**
--   If abnormal skew deviation, predictive of central cause (specificity 98%, sens 30%)
+-   If abnormal skew deviation, predictive of central cause (sensitivity 30%, specificity 98%)
 
 **Diffusion-weighted MRI**
 -   Good but not perfect (sensitivity 83% for ischemic CVA)
 
 ## Composite HINTS Exam
-
  
 **HINTS** = **H**ead **I**mpulse test, **N**ystagmus, **T**est of **S**kew exam
 
@@ -81,12 +84,11 @@ Abnormal findings summarized using **INFARCTs** acronym:
 -   **I**mpulse **N**ormal 
 -   **F**ast-phase **A**lternating 
 -   **R**efixation on **C**over **T**est 
--   If any 1 of 3 abnormal, sensitivity 100% and specificity 96% for central cause ([Kattah et al. Stroke, 2009](https://www.ncbi.nlm.nih.gov/pubmed/?term=19762709))
+-   If any 1 of 3 abnormal, sensitivity 100% and specificity 96% for central cause after HINT training ([Kattah et al. Stroke, 2009](https://www.ncbi.nlm.nih.gov/pubmed/?term=19762709))
 
 HINTS test seems as good as diffusion-weighted MRI to r/o CVA in AVS. 
-*Video courtesy of Dr. Scott Weingart (EMCrit.org) featuring Dr. David Newman-Toker*
 
-## Bayes Nomogram
+## Fagan Nomogram
 
 ![](image-1.png) 
 
