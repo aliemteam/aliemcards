@@ -71,18 +71,18 @@ and reliable clinical exam <br />
 
 ## Complications From Laparotomy
 
-Overall incidence = 2.5-41%
+Overall incidence of complications: 2.5-41%
 
--   Bowel obstruction
--   Pneumothorax
+-   Acute myocardial infarction
 -   Aspiration pneumonia
--   DVT
--   UTI
--   Pancreatitis
+-   Bowel obstruction
+-   Deep venous thrombosis
 -   Ileus
--   Wound infection
--   AMI
+-   Pancreatitis
+-   Pneumothorax
+-   Urinary tract infection
 -   Visceral injury
+-   Wound infection
 -   Longer hospital stay
 -   Death 
 
