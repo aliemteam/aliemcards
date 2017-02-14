@@ -16,39 +16,39 @@ drugs: null
 
 # Pediatric Blunt Head Trauma (PECARN Study)
 
-Fact: Risk of CT-documented TBI in children GCS &lt; 14 = 20% 
+Risk of CT-documented TBI in children GCS &lt;14 = 20% 
 
-Study details
-- Derivation (n = 33,785) and validation (n = 8,627) of clinical decision rule for deciding&nbsp;who NOT to get head CT’s for blunt head trauma.
-- Enrolled age &lt; 18 yr within 24 hrs of head trauma and GCS 14-15
-- Patients from 25 enrolling Emergency Departments&nbsp;
+## PECARN Study
+- Derivation (n = 33,785) and validation (n = 8,627) of clinical decision rule for deciding who NOT to get head CTs for blunt head trauma
+- Enrolled age &lt;18 yr within 24 hrs of head trauma and GCS 14-15
+- Patients from 25 enrolling Emergency Departments
 
-Pre-defined “clinically important traumatic brain injury” (ciTBI) as:
+**“Clinically important traumatic brain injury” (ciTBI)** predefined as:
 
 -   Death from TBI
--   Intubation &gt; 24 hours duration
+-   Intubation &gt;24 hours duration
 -   Neurosurgical intervention
--   Hospital admission ≥ 2 nights
+-   Hospital admission ≥2 nights
 
-## PATIENT Age &lt; 2 Years 
+## PATIENT AGE &lt;2 Years 
 
 ![](image-1.png)
 
-Severe Injury Mechanism
+**Severe Injury Mechanism**
 - MVC with patient ejection, death of another passenger, or rollover
-- Pedestrian or bicyclist without helmet struck by a motorized vehicle&nbsp;
-- Fall &gt; 3 ft (age &lt; 2 yr) or &gt; 5 ft (age ≥ 2 yr)
-- Head struck by a high-impact object&nbsp;
+- Pedestrian or bicyclist without helmet struck by a motorized vehicle
+- **FALL &gt;3 ft**
+- Head struck by a high-impact object
 
-## PATIENT Age ≥ 2 years
+## PATIENT AGE ≥2 years
 
 ![](image-2.png)
 
-Severe Injury Mechanism
+**Severe Injury Mechanism**
 - MVC with patient ejection, death of another passenger, or rollover
-- Pedestrian or bicyclist without helmet struck by a motorized vehicle&nbsp;
-- Fall &gt; 3 ft (age &lt; 2 yr) or &gt; 5 ft (age ≥ 2 yr)
-- Head struck by a high-impact object&nbsp;
+- Pedestrian or bicyclist without helmet struck by a motorized vehicle
+- **FALL &gt;5 ft**
+- Head struck by a high-impact object
 
 ## References
 
