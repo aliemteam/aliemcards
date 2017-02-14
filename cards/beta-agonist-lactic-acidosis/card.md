@@ -13,7 +13,7 @@ drugs: null
 
 ---
 
-
+DELETE
 
 # Beta Agonist Therapy and Lactic Acidosis in Asthma
 
