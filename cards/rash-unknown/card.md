@@ -19,7 +19,7 @@ drugs: null
 
 1.  Accurately describe the rash (eg. macule or nodule, vesicle or bulla)
 2.  Quickly "profile" the rash to see if it fits any classic pattern by patient age, rash distribution, or presence of hypotension
-3.  If you are still stumped, use an algorithm based on the rash type
+3.  Apply an algorithm based on the rash type
 
 ## Rash Descriptors
 
@@ -28,64 +28,58 @@ drugs: null
 | **Lesion**   | Single small diseased area                           |
 | **Rash**     | Eruption of skin; more than single lesion            |
 | **Macule**   | Circumscribed area of change without elevation       |
-| **Papule**   | Solid raised lesion &lt; 1 cm                        |
-| **Nodule**   | Solid raised ≥ 1 cm                                  |
-| **Plaque**   | Circumscribed elevated confluence of papules ≥ 1 cm  |
+| **Papule**   | Solid raised lesion &lt;1 cm                        |
+| **Nodule**   | Solid raised ≥1 cm                                  |
+| **Plaque**   | Circumscribed elevated confluence of papules ≥1 cm  |
 | **Pustule**  | Circumscribed area containing pus                    |
-| **Vesicle**  | Circumscribed fluid-filled area &lt; 1 cm            |
-| **Bulla**    | Circumscribed fluid-filled area ≥ 1 cm               |
-| **Petechia** | Small red/brown macule ≤ 1 cm that does not blanch   |
+| **Vesicle**  | Circumscribed fluid-filled area &lt;1 cm            |
+| **Bulla**    | Circumscribed fluid-filled area ≥1 cm               |
+| **Petechia** | Small red/brown macule ≤1 cm that does not blanch   |
 
 ## Quick Profiling of Rash
 
 ### Patient Age
 
-0-5 years:
+**0-5 years:**
   - Meningococcemia        
   - Kawasaki disease        
   - Viral exanthema  
 
-&gt; 65 years:
+**&gt; 65 years:**
   - Pemphigus vulgaris
   - Sepsis
   - Menigococcemia
-  - TEN, SJS, TSS  
+  - Toxic epidermal necrolysis
+  - Stevens Johnson syndrome
+  - Toxic shock syndrome  
 
 ### Rash
 
 Diffuse Erythema:
-  - Staph SSS
-  - Staph/strep TSS,
+  - Staph scalded skin syndrome
+  - Staph/strep toxic shock syndrome
   - Necrotizing fasciitis
 
 Mucosal Lesions
-  - EM major
-  - TEN/SJS
+  - Erythema ultiforme major
+  - Toxic epidermal necrolysis/Stevens Johnson syndrome
   - Pemphigus vulgaris
 
 Petechiae/Purpura
   - Menigococcemia
   - Necrotizing fasciitis
   - Vasculitis
-  - DIC
-  - RMSF
+  - Disseminated intravascular coagulopathy 
+  - Rocky Mountain Spotted Fever
 
 ### Symptoms
 
 Hypotension
   - Meningococcemia
-  - TSS
-  - RMSF
-  - TEN
-  - SJS
-
-**Abbreviations:**
--   TEN: Toxic epidermal necrolysis 
--   SJS: Stevens-Johnson syndrome 
--   TSS: Toxic shock syndrome 
--   SSS: Scalded skin syndrome
--   DIC: Disseminated intravascular coagulopathy 
--   RMSF: Rocky Mountain spotted fever 
+  - Toxic shock syndrome
+  - Rocky Mountain Spotted Fever
+  - Toxic epidermal necrolysis
+  - Stevens Johnson syndrome
 
 ## Erythematous Rash
 
