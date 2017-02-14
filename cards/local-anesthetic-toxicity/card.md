@@ -30,7 +30,7 @@ drugs: 'bupivacaine, lidocaine, epinephrine, intralipid'
 
 ![](image-1.png)
 
-**Dosing of 20% INTRAVENOUS LIPID for local anesthetic toxicity**
+## Dosing of 20% INTRAVENOUS LIPID for local anesthetic toxicity**
 
 -   Draw a **vertical line** downward from patient´s IBW. Intersection of this line with the 3 other axes indicate weight-based initial bolus volume, infusion rate, and total maximum dose of **<span class="drug">intralipid (20%)</span>**.
 
