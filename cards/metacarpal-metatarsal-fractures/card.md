@@ -128,7 +128,7 @@ Most are nonoperative, especially 3rd and 4th MC because of inter-MC ligaments
 
 ## Splinting
 
-| **Digit               |  Splint                | Position **                            |
+| **Digit**               |  **Splint**            | **Position**                            |
 |----------------------|------------------------|--------------------------------------|
 | Thumb                | Thumb splica           | Wrist extension 20°, thumb ABduction |
 | Index, middle finger | Radial gutter or volar | Wrist extension in 20°, MCP flexion in 90°, keep IPs free         |
