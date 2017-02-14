@@ -7,7 +7,7 @@ created: 2012/01/06
 updates: null
 categories:
     - Toxicology
-drugs: 'Cyclobenzaprine, Fentanyl, Meperidine, Tramadol, Buspirone, Lithium, Metoclopramide, Ondansetron, Carbamazepine, valproic acid, cocaine, Dextromethorphan, Linezolid, cyproheptadine'
+drugs: 'cyclobenzaprine, fentanyl, meperidine, tramadol, buspirone, lithium, metoclopramide, ondansetron, carbamazepine, valproic acid, cocaine, dextromethorphan, linezolid, cyproheptadine'
 
 ---
 
@@ -54,7 +54,6 @@ drugs: 'Cyclobenzaprine, Fentanyl, Meperidine, Tramadol, Buspirone, Lithium, Met
 - <span class="drug">L-tryptophan</span>
 - <span class="drug">5-hydroxytryptophan</span>
 
-
 **Tip:** Be especially aware of adding drug that inhibits cytochrome P450 2D6 +/- 3A4 (eg. erythromycin) to someone on SSRI.
 
 **Treatment:** Usually supportive (benzodiazepines), although can give <span class="drug">cyproheptadine</span> (serotonin 2A antagonist) 
@@ -62,12 +61,12 @@ drugs: 'Cyclobenzaprine, Fentanyl, Meperidine, Tramadol, Buspirone, Lithium, Met
 ## Hunter's decision Rule 
 
 ![](image-1.png)
+
 (Sensitivity 84%, Specificity 97%)
 
 ## Sternbach's criteria
 
-**Need 3 of 10 symptoms:** 
-(Sensitivity 75%, specificity 96%)
+**Need 3 of 10 symptoms:** (Sensitivity 75%, specificity 96%)
 
 -   Agitation or restlessness
 -   Diaphoresis
@@ -87,6 +86,7 @@ drugs: 'Cyclobenzaprine, Fentanyl, Meperidine, Tramadol, Buspirone, Lithium, Met
 -   Malignant hyperthermia 
 
 ![](image-2.png)
+
 Table adapted from [Boyer EW, Shannon M. NEJM 2005](http://www.ncbi.nlm.nih.gov/pubmed/15784664)
 
 ## References
