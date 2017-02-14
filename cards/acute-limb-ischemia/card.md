@@ -4,7 +4,8 @@ title: 'Acute Limb Ischemia'
 authors:
     - 'Michelle Lin, MD'
 created: 2010/08/13
-updates: null
+updates:
+    - 2017/02/13
 categories:
     - Cardiovascular
 drugs: 'aspirin, heparin'
@@ -68,7 +69,7 @@ drugs: 'aspirin, heparin'
 ## Imaging
 
 -   **First line imaging** - Digital subtraction angiography (DSA)
--   Ultrasound, CT angiography, MR angiography – Wot well studied in ALI and loss of time-to-intervention
+-   Ultrasound, CT angiography, MR angiography – Not well studied in ALI and loss of time-to-intervention
 -   No imaging if unstable patient - Go straight to amputation
 
 ## ED treatment
