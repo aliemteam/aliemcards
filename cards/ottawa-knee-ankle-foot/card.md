@@ -20,7 +20,7 @@ Plain film x-rays are indicated if presence of traumatized extremity and any of 
 
 ## Ottawa Knee Rules
 
-1.  Patient age ≥ 55 years
+1.  Patient age ≥55 years
 2.  Isolated tenderness of the patella
 3.  Tenderness at the head of the fibula
 4.  Inability to flex knee to 90 degrees
@@ -33,10 +33,10 @@ Plain film x-rays are indicated if presence of traumatized extremity and any of 
 
 ## Ottawa Ankle Rules
 
-(Study excluded patients &lt; 18 years old)
+Exclusion criteria: Patients &lt;18 years old)
 
-1.  Most distal 6 cm of fibula (LM): Tenderness at or along posterior edge
-2.  Most distal 6 cm of tibia (MM): Tenderness at or along posterior edge 
+1.  Most distal 6 cm of fibula (lateral malleolus): Tenderness at or along posterior edge
+2.  Most distal 6 cm of tibia (medial malleolus): Tenderness at or along posterior edge 
 3.  Inability to walk 4 steps both immediately and in the ED 
 
 ## Ottawa Foot Rules
@@ -49,19 +49,19 @@ Plain film x-rays are indicated if presence of traumatized extremity and any of 
 
 [Mayer D. BMJ (2009)](http://www.ncbi.nlm.nih.gov/pubmed/?term=19666680) statistics:
 
--   Sensitivity 97.8%
--   Specificity 31.5%
+-   Sensitivity = 97.8%
+-   Specificity = 31.5%
 -   Negative LR = 0.07  
 
 
 ## Pearls
 
-Variable validation data for pediatric patients for ankle and foot rules.
-OK to use knee rules in pediatrics ([Bulloch et al. Ann Emerg Med, 2003](http://www.ncbi.nlm.nih.gov/pubmed/?term=12827123)) 
--   Mean age in study = 11.8 years +/- 3.1 years
--   Inclusion age range = 2-16 years old
+**Pediatric patients:** Variable validation data for Ottawa ankle and foot rules.
 
-Ligaments are stronger than growth plates. 
+- General rule: Ligaments are stronger than growth plates in children. 
+- OK to use knee rules in pediatrics based on ([Bulloch et al. Ann Emerg Med, 2003](http://www.ncbi.nlm.nih.gov/pubmed/?term=12827123)) 
+  -   Mean age in study = 11.8 years +/- 3.1 years
+  -   Inclusion age range = 2-16 years old
 
 ## References
 
