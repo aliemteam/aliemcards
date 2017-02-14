@@ -8,7 +8,7 @@ updates: null
 categories:
     - 'Critical Care'
     - Procedures
-drugs: 'lidocaine, fentanyl, etomidate, propofol, thiopental, ketamine, midazolam, succinylcholine, rRocuronium, vecuronium'
+drugs: 'lidocaine, fentanyl, etomidate, propofol, thiopental, ketamine, midazolam, succinylcholine, rocuronium, vecuronium'
 
 ---
 
