@@ -2,7 +2,9 @@
 
 title: 'Focused Assessment with Sonography in Trauma (FAST)'
 authors:
-    - 'Michelle Lin, MD'
+    - 'Wilma Chan, MD'
+    - 'John Eicken, MD' 
+    - 'Mike Stone, MD'
 created: 2014/09/14
 updates: null
 categories:
@@ -25,7 +27,9 @@ drugs: null
 
 **Windows**:4 windows are obtained to perform a complete FAST exam (Fig 1)
 
-![](image-1.png)Figure 1: Transducer positions and directional indicator orientation (white dot) for the abdominal and cardiac views in the FAST exam
+![](image-1.png)
+
+Figure 1: Transducer positions and directional indicator orientation (white dot) for the abdominal and cardiac views in the FAST exam
 
 ## Normal Reference Measurements
 
@@ -43,7 +47,9 @@ A meta-analysis of 62 studies including FAST exams of &gt;18,000 patients reveal
 -   FAST is **POSITIVE** if anechoic free fluid identified in the hepatorenal recess—the potential space between liver and kidney (Fig 2).
 -   Fluid cephalad to the diaphragm is in the thoracic cavity, and should raise concern for hemothorax in trauma.
 
-![](image-2.png)Figure 2: Positive FAST in the RUQ view demonstrating echogenic clot in Morison’s pouch with adjacent anechoic free fluid (\*).
+![](image-2.png)
+
+Figure 2: Positive FAST in the RUQ view demonstrating echogenic clot in Morison’s pouch with adjacent anechoic free fluid (\*).
 
 ## Left Upper Quadrant (LUQ) View
 
@@ -76,17 +82,18 @@ Figure 3: Positive FAST in LUQ view demonstrating large amount of complex free f
 
 ## Struggling with the Exam?
 
--   **Can’t find the spleen or left kidney?**
-    -   The left kidney is often located more superior and posterior compared to the right kidney. Try placing the probe more posterior towards the left flank.
+**Can’t find the spleen or left kidney?**
 
--   **Can’t find the bladder?**
-    -   Make sure you’re as close to the symphysis pubis as possible (don’t be shy!), and aiming the transducer towards the patient’s feet. Visualization of the bladder is improved prior to emptying of the bladder. Try FAST prior to insertion of a foley catheter or prior to the patient emptying their bladder.
+-   The left kidney is often located more superior and posterior compared to the right kidney. Try placing the probe more posterior towards the left flank.
 
--   **Rib shadows obstructing view in RUQ and LUQ views?** 
-    -   Try rotating the transducer obliquely parallel to the ribs in order to fit between an intercostal space. A phased array transducer’s smaller footprint can reduce or eliminate rib shadows.
+**Can’t find the bladder?**
+-   Make sure you’re as close to the symphysis pubis as possible (don’t be shy!), and aiming the transducer towards the patient’s feet. Visualization of the bladder is improved prior to emptying of the bladder. Try FAST prior to insertion of a foley catheter or prior to the patient emptying their bladder.
 
--   **Can’t see the entire heart on the subxiphoid view?**
-    -   Try moving the probe more to the patient’s right to use the liver as an acoustic window. You can also try increasing the depth of the image.
+**Rib shadows obstructing view in RUQ and LUQ views?** 
+-   Try rotating the transducer obliquely parallel to the ribs in order to fit between an intercostal space. A phased array transducer’s smaller footprint can reduce or eliminate rib shadows.
+
+**Can’t see the entire heart on the subxiphoid view?**
+-   Try moving the probe more to the patient’s right to use the liver as an acoustic window. You can also try increasing the depth of the image.
 
 ## Common Errors: Failure to...
 
