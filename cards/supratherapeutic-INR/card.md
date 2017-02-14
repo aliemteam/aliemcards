@@ -18,7 +18,7 @@ drugs: 'coumadin, vitamin K, PCC, FFP, aspirin, clopidogrel'
 **ACCP treatment guidelines for managing supratherapeutic INR (2012, 9th ed)**
 
 | **INR**     | **Therapeutic Intervention**  |
-|-------------|-------------------------------|
+|:----------:|-------------------------------|
 | ≤10        | ***If no bleeding:*** Hold <span class="drug">coumadin</span>. Restart when INR is therapeutic  |
 | &gt;10     | ***If no bleeding:*** Hold <span class="drug">coumadin</span>. Give oral <span class="drug">vitamin K</span> (2.5 mg) |
 | Major bleed | Hold <span class="drug">coumadin</span>. Give <span class="drug">vitamin K</span> (5-10 mg slow IVP), 4-factor <span class="drug">PCC</span> (<span class="drug">FFP</span> not of added benefit with 4-factor <span class="drug">PCC</span>) |
@@ -48,8 +48,8 @@ drugs: 'coumadin, vitamin K, PCC, FFP, aspirin, clopidogrel'
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Risk factor/explanation</strong></th>
-<th><strong>OR</strong></th>
+<th><strong>Risk Factor / Explanation</strong></th>
+<th><strong>Odds Ratio</strong></th>
 </tr>
 </thead>
 <tbody>
