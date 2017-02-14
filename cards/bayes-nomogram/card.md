@@ -4,7 +4,8 @@ title: 'Fagan Nomogram'
 authors:
     - 'Michelle Lin, MD'
 created: 2012/05/17
-updates: null
+updates:
+    - 2017/02/13
 categories:
     - EBM
 drugs: null
