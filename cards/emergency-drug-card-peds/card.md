@@ -9,7 +9,7 @@ created: 2013/09/11
 updates: null
 categories:
     - Pharmacology
-    - 'Critical Care'
+    - Critical Care
 drugs: 'adenosine, amiodarone, atronie, calcium chloride, dextrose, epinephrine, Magnesium, procainamide, sodium bicarbonate, etomidate, lidocaine, rocuronium, succinylcholine, vecuronium, Haloperidol, dobutamine, dopamine, norepinephrine, phenylephrine, vasopressin, Diazepam, Fosphenytoin, Levetiracetam, Lorazepam, Midazolam, Phenobarbital, Nitroglycerin, Nitroprusside, Dexamethasone, Diphenhydramine, Famotidine, Methylprednisolone, Ranitidine, fentanyl, ketamine, propofol, morphine, N-acetylcysteine, Flumazenil, Fomepizole, Naloxone, Alprostadil, prostaglandin, factor VIII, heparin, Ondansetron'
 
 ---
@@ -27,12 +27,12 @@ drugs: 'adenosine, amiodarone, atronie, calcium chloride, dextrose, epinephrine,
   </tr>
   <tr>
     <td><span class="drug">Amiodarone</span></td>
-    <td>**Cardiac Arrest (pulseless)**: 5 mg/kg IV/IO (max 300 mg), repeat twice to a max of 15 mg/kg/day<br>
-      **Wide complex tachycardia (stable)**: 5 mg/kg IV over 20-60 minutes (max 300 mg), may repeat to a max of 15 mg/kg/day</td>
+    <td>Cardiac Arrest (pulseless): 5 mg/kg IV/IO (max 300 mg), repeat twice to a max of 15 mg/kg/day<br>
+      Wide complex tachycardia (stable): 5 mg/kg IV over 20-60 minutes (max 300 mg), may repeat to a max of 15 mg/kg/day</td>
   </tr>
   <tr>
     <td><span class="drug">Atropine</span></td>
-    <td>**Pediatric bradycardia with pulse and poor perfusion**: 0.02 mg/kg (max dose 0.5 mg); May repeat once.</td>
+    <td>Pediatric bradycardia with pulse and poor perfusion: 0.02 mg/kg (max dose 0.5 mg); May repeat once.</td>
   </tr>
   <tr>
     <td><span class="drug">Calcium Chloride 10%</span></td>
@@ -49,21 +49,21 @@ drugs: 'adenosine, amiodarone, atronie, calcium chloride, dextrose, epinephrine,
   </tr>
   <tr>
     <td><span class="drug">Magnesium Sulfate</span></td>
-    <td>**Pulseless VT with torsades de pointes**: 25-50 mg/kg (max 2 g) IV/IO<br>
-        **Torsades de pointes with a pulse**: 25-50 mg/kg IV, push slowly<br>
-        **Asthma**: 25-50 mg/kg IV over 10-20 minutes (max single dose 2 g)</td>
+    <td>Pulseless VT with torsades de pointes: 25-50 mg/kg (max 2 g) IV/IO<br>
+        Torsades de pointes with a pulse: 25-50 mg/kg IV, push slowly<br>
+        Asthma: 25-50 mg/kg IV over 10-20 minutes (max single dose 2 g)</td>
   </tr>
   <tr>
     <td><span class="drug">Procainamide</span></td>
-    <td>**Pediatric tachycardia with a pulse and poor perfusion**: 15 mg/kg IV/IO over 30-60 minutes<br> Infusion: 20-80 mcg/kg/min</td>
+    <td>Pediatric tachycardia with a pulse and poor perfusion: 15 mg/kg IV/IO over 30-60 minutes<br> Infusion: 20-80 mcg/kg/min</td>
   </tr>
   <tr>
     <td><span class="drug">Sodium Bicarbonate</span></td>
-    <td>1 mEq/kg slow IV/IO (Use 4.2% concentration if < 5 kg)</td>
+    <td>1 mEq/kg slow IV/IO (Use 4.2% concentration if <5 kg)</td>
   </tr>
 </table>
 
-## RSI
+## RAPID SEQUENCE INTUBATION
 
 <table>
     <tr>
@@ -80,9 +80,9 @@ drugs: 'adenosine, amiodarone, atronie, calcium chloride, dextrose, epinephrine,
     </tr>
     <tr>
       <td><span class="drug">Succinylcholine</span></td>
-      <td>**Infants**: 2 mg/kg IV push over 10-30 sec; onset 30-60 sec (Consider <span class="drug">atropine</span>)<br>      
-          **Children**: 1-1.5 mg/kg IV push over 10-30 sec (Consider <span class="drug">atropine</span>)<br>
-          **IM**: 3-4 mg/kg (max 150 mg); onset 1-4 min</td>
+      <td>Infants: 2 mg/kg IV push over 10-30 sec; onset 30-60 sec (Consider <span class="drug">atropine</span>)<br>      
+          Children: 1-1.5 mg/kg IV push over 10-30 sec (Consider <span class="drug">atropine</span>)<br>
+          IM: 3-4 mg/kg (max 150 mg); onset 1-4 min</td>
     </tr>
     <tr>
       <td><span class="drug">Vecuronium</span></td>
@@ -124,8 +124,8 @@ drugs: 'adenosine, amiodarone, atronie, calcium chloride, dextrose, epinephrine,
 
   <tr>
     <td><span class="drug">Phenylephrine</span></td>
-    <td>**Bolus**: 5-20 mcg/kg/dose IV every 10-15 min<br>
-        **Infusion**: 0.1-0.5 mcg/kg/min IV</td>
+    <td><b>Bolus</b>: 5-20 mcg/kg/dose IV every 10-15 min<br>
+    <b>Infusion</b>: 0.1-0.5 mcg/kg/min IV</td>
   </tr>
 
   <tr>
@@ -192,8 +192,8 @@ drugs: 'adenosine, amiodarone, atronie, calcium chloride, dextrose, epinephrine,
   </tr>
   <tr>
     <td><span class="drug">Epinephrine</span></td>
-    <td>**IM**: 0.01 mg/kg every 5-15 minutes as needed (1:1,000 concentration)<br>
-        **Continuous infusion**: 0.1-1 mcg/kg/min IV</td>
+    <td>IM: 0.01 mg/kg every 5-15 minutes as needed (1:1,000 concentration)<br>
+        Continuous infusion: 0.1-1 mcg/kg/min IV</td>
   </tr>
   <tr>
     <td><span class="drug">Famotidine</span></td>
@@ -205,8 +205,8 @@ drugs: 'adenosine, amiodarone, atronie, calcium chloride, dextrose, epinephrine,
   </tr>
   <tr>
     <td><span class="drug">Ranitidine</span></td>
-    <td>**Oral**: 2 mg/kg PO (max 150 mg)<br>
-        **IV**: 0.5-1 mg/kg IV (max 50 mg)</td>
+    <td>Oral: 2 mg/kg PO (max 150 mg)<br>
+        IV: 0.5-1 mg/kg IV (max 50 mg)</td>
   </tr>
 
 </table>
@@ -217,14 +217,14 @@ drugs: 'adenosine, amiodarone, atronie, calcium chloride, dextrose, epinephrine,
 <table>
   <tr>
     <td><span class="drug">Fentanyl</span></td>
-    <td>**IV**: 1 mcg/kg IV <br>
-        **Intranasal**: 1-2 mcg/kg (max 100 mcg) using the 50 mcg/ml concentration (no more than 1 ml/nare)</td>
+    <td>IV: 1 mcg/kg IV <br>
+        Intranasal: 1-2 mcg/kg (max 100 mcg) using the 50 mcg/ml concentration (no more than 1 ml/nare)</td>
   </tr>
   <tr>
     <td><span class="drug">Ketamine</span></td>
-    <td>**Procedural sedation**: 0.5-2 mg/kg IV push over 1 min, may repeat with ½ of dose every 5-10 min PRN<br>
-        **IM**: 3-8 mg/kg IM<br>
-        **PO**: 6-10 mg/kg (mix with cola, give 30 min. prior to procedure)</td>
+    <td>Procedural sedation: 0.5-2 mg/kg IV push over 1 min, may repeat with ½ of dose every 5-10 min PRN<br>
+        IM: 3-8 mg/kg IM<br>
+        PO: 6-10 mg/kg (mix with cola, give 30 min. prior to procedure)</td>
   </tr>
   <tr>
     <td><span class="drug">Lorazepam</span></td>
@@ -232,8 +232,8 @@ drugs: 'adenosine, amiodarone, atronie, calcium chloride, dextrose, epinephrine,
   </tr>
   <tr>
     <td><span class="drug">Midazolam</span></td>
-    <td>**IV**: 0.1 mg/kg IV<br>
-        **Intranasal**: 0.4 mg/kg (max 10 mg) using the 5 mg/ml concentration</td>
+    <td>IV: 0.1 mg/kg IV<br>
+        Intranasal: 0.4 mg/kg (max 10 mg) using the 5 mg/ml concentration</td>
   </tr>
   <tr>
     <td><span class="drug">Morphine</span></td>
@@ -241,7 +241,7 @@ drugs: 'adenosine, amiodarone, atronie, calcium chloride, dextrose, epinephrine,
   </tr>
   <tr>
     <td><span class="drug">Propofol</span></td>
-    <td>**Bolus (Procedural sedation)**: 0.5-1 mg/kg IV push, may repeat with 0.5 mg/kg every 3-5 min PRN</td>
+    <td><b>Bolus (Procedural sedation)</b>: 0.5-1 mg/kg IV push, may repeat with 0.5 mg/kg every 3-5 min PRN</td>
   </tr>
 
 </table>
@@ -251,14 +251,14 @@ drugs: 'adenosine, amiodarone, atronie, calcium chloride, dextrose, epinephrine,
 <table>
   <tr>
     <td><span class="drug">N-acetylcysteine</span></td>
-    <td>**1st dose**: 150 mg/kg IV over 1 hour<br>
-        **2nd dose**: 50 mg/kg IV over 4 hour<br>
-        **3rd dose**: 100 mg/kg IV over 16 hour</td>
+    <td>1st dose: 150 mg/kg IV over 1 hour<br>
+        2nd dose: 50 mg/kg IV over 4 hour<br>
+        3rd dose: 100 mg/kg IV over 16 hour</td>
   </tr>
   <tr>
     <td><span class="drug">Dextrose</span></td>
-    <td>**Infants ≤ 6 months**: 0.25-0.5 g/kg/dose slow IV push (1-2 ml/kg/dose of D25 or 2.5-5ml/kg/dose of D10)<br>
-        **Infants > 6 months and children**: 0.5-1 g/kg/dose slow IV push (2-4 ml/kg/dose of D25, 5-10 ml/kg/dose D10)</td>
+    <td>Infants ≤ 6 months: 0.25-0.5 g/kg/dose slow IV push (1-2 ml/kg/dose of D25 or 2.5-5ml/kg/dose of D10)<br>
+        Infants > 6 months and children: 0.5-1 g/kg/dose slow IV push (2-4 ml/kg/dose of D25, 5-10 ml/kg/dose D10)</td>
   </tr>
   <tr>
     <td><span class="drug">Flumazenil</span></td>
@@ -271,8 +271,8 @@ drugs: 'adenosine, amiodarone, atronie, calcium chloride, dextrose, epinephrine,
   </tr>
   <tr>
     <td><span class="drug">Naloxone</span></td>
-    <td>**Total reversal required**: 0.1 mg/kg IV/IO/IM/SC/IN every 2 min PRN (max 2 mg)<br>
-        **Infusion**: 0.002-0.16 mg/kg/hr IV</td>
+    <td>Total reversal required: 0.1 mg/kg IV/IO/IM/SC/IN every 2 min PRN (max 2 mg)<br>
+        Infusion: 0.002-0.16 mg/kg/hr IV</td>
   </tr>
 
 </table>
@@ -287,9 +287,9 @@ drugs: 'adenosine, amiodarone, atronie, calcium chloride, dextrose, epinephrine,
   </tr>
   <tr>
     <td><span class="drug">Factor VIII</span></td>
-    <td>**Minor bleeding**: 10-15 IU/kg IV push over 3-5 min<br>
-        **Moderate bleeding**: 10-30 IU/kg IV push over 3-5 min<br>
-        **Life-threatening bleeding**: 30-50 IU/kg IV push over 3-5 min</td>
+    <td>Minor bleeding: 10-15 IU/kg IV push over 3-5 min<br>
+        Moderate bleeding: 10-30 IU/kg IV push over 3-5 min<br>
+        Life-threatening bleeding: 30-50 IU/kg IV push over 3-5 min</td>
   </tr>
   <tr>
     <td><span class="drug">Heparin</span> unfractionated</td>
