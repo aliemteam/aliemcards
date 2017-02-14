@@ -7,7 +7,7 @@ created: 2012/11/17
 updates: null
 categories:
     - Pulmonology
-    - 'Critical Care'
+    - Critical Care
 drugs: 'enoxaparin, warfarin'
 
 ---
@@ -16,56 +16,61 @@ drugs: 'enoxaparin, warfarin'
 
 # PESI Score for Pulmonary Embolism
 
-**Pulmonary Embolism Severity Index (PESI) score**
+## Pulmonary Embolism Severity Index (PESI) score calculation
 
-|  Finding                            |  Points         |
+|  **Finding**                            |  **Points**         |
 |-------------------------------------|-----------------|
 | Age                                 | +1 per year     |
 | Male gender                         | +10             |
 | Cancer (history of or active)       | +30             |
 | Heart failure                       | +10             |
 | Chronic lung disease                | +10             |
-| Pulse ≥ 110 beats per min           | +20             |
-| SBP &lt; 100 mmHg                   | +30             |
-| RR ≥ 30 breaths per min             | +20             |
-| Temperature &lt; 36C                | +20             |
+| Pulse ≥110 beats per min           | +20             |
+| SBP &lt;100 mmHg                   | +30             |
+| RR ≥30 breaths per min             | +20             |
+| Temperature &lt;36C                | +20             |
 | Altered mental status               | +60             |
-| Arterial oxygen saturation &lt; 90% | +20             |                            
+| Arterial oxygen saturation &lt;90% | +20             |                            
 
 
-| Class       | Point Total   |
-|-------------|---------------|
-| Class I     | &lt; 66       |
-| Class II    | 66-85         |
-| Class III   | 86-105        |
-| Class IV    | 106-125       |
-| Class V     | &gt; 125      |
+| **Class**       | **Point Total**   |
+|:-------------:|:---------------:|
+| I     | &lt;66       |
+| II    | 66-85         |
+| III   | 86-105        |
+| IV    | 106-125       |
+| V     | &gt;125      |
 
 
 ## Outpatient Treatment of Pulmonary Embolism (OTPE) trial
 
-*Study design:* Randomized, prospective, non-inferiority clinical trial of 19 ED’s (n = 344 patients) in Switzerland, France, Belgium, and USA looking at morbidity/mortality of PESI class I and II patients
-*Exclusion criteria from study:*
--   Arterial hypoxemia (O2 saturation &lt; 90% on room air, or paO2 &lt; 60 mmHg)
--   SBP &lt; 100 mmHg
--   CP necessitating parental opioids
+**Study design:** Randomized, prospective, non-inferiority clinical trial of 19 ED’s (n = 344 patients) in Switzerland, France, Belgium, and USA looking at morbidity/mortality of PESI class I and II patients
+
+**Exclusion criteria from study:**
+-   Arterial hypoxemia (O2 saturation &lt;90% on room air, or paO2 &lt;60 mmHg)
+-   SBP &lt;100 mmHg
+-   Chest pain necessitating parental opioids
 -   Active bleeding
--   High risk of bleeding defined as: CVA during preceding 10 days, GI bleeding in preceding 14 days, or platelets &lt; 75K 
--   Severe renal failure (CrCl &lt; 30 mL per min)
--   Extreme obesity (body mass &gt; 150 kg)
+-   High risk of bleeding defined as: CVA during preceding 10 days, GI bleeding in preceding 14 days, or platelets &lt;75K 
+-   Severe renal failure (CrCl &lt;30 mL per min)
+-   Extreme obesity (body mass &gt;150 kg)
 -   History of heparin-induced thrombocytopenia or allergy to heparins
--   Therapeutic oral anticoagulation at time of PE diagnosis (INR ≥ 2)
+-   Therapeutic oral anticoagulation at time of PE diagnosis (INR ≥2)
 -   Any barriers to treatment adherence (current EtOH abuse, illicit drug use, psychosis, dementia, homelessness)
--   Pregnancy, Imprisonment, Diagnosis of PE &gt; 23 hrs before time of screening
+-   Pregnancy
+-   Imprisonment
+-    Diagnosis of PE &gt;23 hrs before time of screening
 
-|                                            |  Outpatient  | Inpatient    |
-|--------------------------------------------|--------------|--------------|
-| Recurrent venous thromboembolism ≤ 90 days | 0.6% (1/171) | 0% (0/168)   |
-| Death ≤ 90 days                            | 0.6% (1/171) | 0.6% (1/168) |
-| Major bleeding ≤ 14 days                   | 1.2% (2/171) | 0% (0/168)   |
-| Major bleeding ≤ 90 days                   | 1.8% (1/171) | 0% (0/168)   |
+| **Complications**                    |  **Outpatient**  | **Inpatient**    |
+|--------------------------------------------|:--------------:|:--------------:|
+| Recurrent venous thromboembolism at ≤90 days | 0.6% (1/171) | 0% (0/168)   |
+| Death at ≤90 days                            | 0.6% (1/171) | 0.6% (1/168) |
+| Major bleeding at ≤14 days                   | 1.2% (2/171) | 0% (0/168)   |
+| Major bleeding at ≤90 days                   | 1.8% (1/171) | 0% (0/168)   |
 
-**Outpatient treatment **= **<span class="drug">enoxaparin</span>** 1 mg/kg SQ BID to bridge into PO **<span class="drug">warfarin</span>** (target INR = 2)
+**Outpatient treatment:** 
+
+**<span class="drug">Enoxaparin</span>** 1 mg/kg SQ BID to bridge into PO **<span class="drug">Warfarin</span>** (target INR=2)
 
 **CONCLUSION**: PE patients with PESI class I or II seem safe to manage as outpatients (be aware of exclusion criteria from study)
 
