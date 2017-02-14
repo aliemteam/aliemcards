@@ -2,6 +2,10 @@
 
 title: 'Fever Without a Source - neonate'
 authors:
+    - 'Hemal Kanzaria, MD'
+    - 'Christine Cho, MD'
+    - 'Andi Marmor, MD'
+    - 'Ellen Laves, MD'
     - 'Michelle Lin, MD'
 created: 2012/02/02
 updates: null
@@ -43,12 +47,14 @@ History and physical are not reliable to rule-out serious bacterial infection (S
 
 **Pathogens:**
 
--   E. coli
--   Group B Strep
--   HSV 
--   Listeria
--   Salmonella
--   Staph aureus
+-   More common: 
+  - E. coli
+  - Group B Strep
+  - HSV 
+-  Less common:
+  - Listeria
+  - Salmonella
+  - Staph aureus
 
 ## Workup
 
@@ -56,8 +62,8 @@ History and physical are not reliable to rule-out serious bacterial infection (S
 2.  Blood cultures
 3.  Catheterized urinalysis and urine culture (or via suprapubic tap)
 4.  CSF studies (cell count, glucose, protein, gram stain, culture, extra tube to hold for potential other studies)
-5.  *Consider:* Stool culture (if diarrhea)
-6.  *Consider:* CXR and rapid viral testing (if respiratory sx or increased work of breathing, although viral testing should not change sepsis workup)
+5.  ***Consider:*** Stool culture (if diarrhea)
+6.  ***Consider:*** CXR and rapid viral testing (if respiratory sx or increased work of breathing, although viral testing should not change sepsis workup)
 
 ## Treatment
 
