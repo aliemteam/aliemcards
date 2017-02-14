@@ -9,7 +9,7 @@ created: 2013/09/11
 updates: null
 categories:
     - Pharmacology
-    - 'Critical Care'
+    - Critical Care
 drugs: 'etomidate, lidocaine, rocuronium, succinylcholine, vecuronium, amiodarone, diltiazem, esmolol, labetalol, nicardipine, procainamide, fentanyl, ketamine, propofol, dobutamine, dopamine, epinephrine, norepinephrine, phenylephrine, vasopressin'
 
 ---
@@ -18,7 +18,7 @@ drugs: 'etomidate, lidocaine, rocuronium, succinylcholine, vecuronium, amiodaron
 
 # Emergency Drug Card (Adult)
 
-## RSI
+## Rapid Sequence Intubation
 
 <table>
   <tr>
@@ -36,8 +36,8 @@ drugs: 'etomidate, lidocaine, rocuronium, succinylcholine, vecuronium, amiodaron
   <tr>
     <td><span class="drug">Succinylcholine</span></td>
     <td>
-      **IV:** 1-1.5 mg/kg (~100 mg) IV push over 10-30 sec; onset 30-60 sec<br>
-      **IM:** 3-4 mg/kg (max 150 mg); onset 1-4 min
+    IV: 1-1.5 mg/kg (~100 mg) IV push over 10-30 sec; onset 30-60 sec<br>
+    IM: 3-4 mg/kg (max 150 mg); onset 1-4 min
     </td>
   </tr>
   <tr>
@@ -52,43 +52,43 @@ drugs: 'etomidate, lidocaine, rocuronium, succinylcholine, vecuronium, amiodaron
   <tr>
     <td><span class="drug">Amiodarone</span></td>
     <td>
-      **Bolus:** 1 mcg/kg IV<br>
-      **Infusion:** 25-150 mcg/hr IV, titrate to goal
+      <b>Bolus:</b> 1 mcg/kg IV<br>
+      <b>Infusion:</b> 25-150 mcg/hr IV, titrate to goal
     </td>
   </tr>
   <tr>
     <td><span class="drug">Diltiazem</span></td>
     <td>
-      **Bolus:** 0.25 mg/kg (~20mg) IV bolus over 2 min, may repeat in 15 min, 0.35 mg/kg (~25mg) IV over 2 min<br>
-      **Infusion:** 5-15 mg/hr IV
+      <b>Bolus:</b> 0.25 mg/kg (~20mg) IV bolus over 2 min, may repeat in 15 min, 0.35 mg/kg (~25mg) IV over 2 min<br>
+      <b>Infusion:</b> 5-15 mg/hr IV
     </td>
   </tr>
   <tr>
     <td><span class="drug">Esmolol</span></td>
     <td>
-      **Bolus:** 500 mcg/kg IV push over 1 min<br>
-      **Infusion:** 50-300 mcg/kg/min IV
+      <b>Bolus:</b> 500 mcg/kg IV push over 1 min<br>
+      <b>Infusion:</b> 50-300 mcg/kg/min IV
     </td>
   </tr>
   <tr>
     <td><span class="drug">Labetalol</span></td>
     <td>
-      **Bolus:** 20 mg IV push over 2 min; may administer 40-80 mg at 10 min intervals; MAX 300mg cumulative<br>
-      **Infusion:** 2 mg/min IV, titrate to response; usual effective dose 50-200 mg; MAX 300 mg cumulative
+     <b>Bolus:</b> 20 mg IV push over 2 min; may administer 40-80 mg at 10 min intervals; MAX 300mg cumulative<br>
+     <b>Infusion:</b> 2 mg/min IV, titrate to response; usual effective dose 50-200 mg; MAX 300 mg cumulative
     </td>
   </tr>
   <tr>
     <td><span class="drug">Nicardipine</span></td>
     <td>
-      **Infusion:** 2.5-15 mg/hr IV, increase by 2.5 mg/hr every 5-15 min
+      <b>Infusion:</b> 2.5-15 mg/hr IV, increase by 2.5 mg/hr every 5-15 min
     </td>
   </tr>
   <tr>
     <td><span class="drug">Procainamide</span></td>
     <td>
-      **ACLS:** 20-50 mg/min IV until arrhythmia resolved, hypotension occurs, or QRS prolonged by 50% or total cumulative dose of 17mg/kg is given<br>
-      **Loading Dose:** 1 gm (or 17 mg/kg) IV over 30 min<br>
-      **Infusion:** 1-4 mg/min IV
+      ACLS: 20-50 mg/min IV until arrhythmia resolved, hypotension occurs, or QRS prolonged by 50% or total cumulative dose of 17mg/kg is given<br>
+      <b>Loading Dose:</b> 1 gm (or 17 mg/kg) IV over 30 min<br>
+      <b>Infusion:</b> 1-4 mg/min IV
     </td>
   </tr>
 </table>
@@ -99,23 +99,23 @@ drugs: 'etomidate, lidocaine, rocuronium, succinylcholine, vecuronium, amiodaron
   <tr>
     <td><span class="drug">Fentanyl</span></td>
     <td>
-      **Bolus:** 1 mcg/kg IV<br>
-      **Infusion:** 25-150 mcg/hr IV, titrate to goal</td>
+      <b>Bolus:</b> 1 mcg/kg IV<br>
+      <b>Infusion:</b> 25-150 mcg/hr IV, titrate to goal</td>
   </tr>
   <tr>
     <td><span class="drug">Ketamine</span></td>
     <td>
-      **IV:** 0.5-2 mg/kg IV push over 1 min, may repeat with ½ of dose every 5-10 min PRN<br>
-      **IM:** 3-8 mg/kg IM<br>
-      **PO:** 6-10 mg/kg (mix with cola, give 30 min prior to procedure)<br>
-      **Infusion:** 2-80 mcg/kg/min IV
+      IV: 0.5-2 mg/kg IV push over 1 min, may repeat with ½ of dose every 5-10 min PRN<br>
+      IM: 3-8 mg/kg IM<br>
+      PO: 6-10 mg/kg (mix with cola, give 30 min prior to procedure)<br>
+      <b>Infusion:</b> 2-80 mcg/kg/min IV
     </td>
   </tr>
   <tr>
     <td><span class="drug">Propofol</span></td>
     <td>
-      **Bolus:** (Procedural sedation) 0.5-1 mg/kg IV push, may repeat with 0.5 mg/kg every 3-5 min PRN<br>
-      **Infusion** (Sedation) 10-80 mcg/kg/min IV
+      <b>Bolus:</b>  (Procedural sedation) 0.5-1 mg/kg IV push, may repeat with 0.5 mg/kg every 3-5 min PRN<br>
+      <b>Infusion:</b> (Sedation) 10-80 mcg/kg/min IV
     </td>
   </tr>
 </table>
@@ -125,14 +125,14 @@ drugs: 'etomidate, lidocaine, rocuronium, succinylcholine, vecuronium, amiodaron
 <table>
   <tr>
     <td><span class="drug">Calcium Gluconate</span></td>
-    <td>**Hyperkalemia:** 1-3 grams IV push over 3-5 minutes </td>
+    <td>Hyperkalemia: 1-3 grams IV push over 3-5 minutes </td>
   </tr>
   <tr>
     <td><span class="drug">Magnesium Sulfate</span></td>
     <td>
-      **Asthma:** 2 g IV over 15-30 min<br>
-      **Pre-eclampsia:** 4-6 gm IV over 15-20 min, followed by infusion of 1-2 gm/hr IV<br>
-      **ACLS/torsades de pointes:** pulseless 1-2 gm IV push over 1 min, with pulse give dose over 15 min
+      Asthma: 2 g IV over 15-30 min<br>
+      Pre-eclampsia: 4-6 gm IV over 15-20 min, followed by infusion of 1-2 gm/hr IV<br>
+      ACLS/torsades de pointes: Pulseless 1-2 gm IV push over 1 min, with pulse give dose over 15 min
     </td>
   </tr>
 </table>
@@ -151,9 +151,9 @@ drugs: 'etomidate, lidocaine, rocuronium, succinylcholine, vecuronium, amiodaron
   <tr>
     <td><span class="drug">Epinephrine</span></td>
     <td>
-      **ACLS:** 1 mg IV push every 3-5 min<br>
-      **ETT:** 2-2.5 mg diluted in 10 ml of NS<br>
-      **Infusion:** 0.02-0.5 mcg/kg/min IV</td>
+      ACLS: 1 mg IV push every 3-5 min<br>
+      ETT: 2-2.5 mg diluted in 10 ml of NS<br>
+      <b>Infusion</b>: 0.02-0.5 mcg/kg/min IV</td>
   </tr>
   <tr>
     <td><span class="drug">Norepinephrine</span></td>
@@ -166,8 +166,8 @@ drugs: 'etomidate, lidocaine, rocuronium, succinylcholine, vecuronium, amiodaron
   <tr>
     <td><span class="drug">Vasopressin</span></td>
     <td>
-      **ACLS:** 40 Units IV push x1<br>
-      **Infusion:** sepsis 0.01-0.04 units/min IV (0.6-2.4 units/hr)</td>
+      ACLS: 40 Units IV push x1<br>
+      <b>Infusion:</b> sepsis 0.01-0.04 units/min IV (0.6-2.4 units/hr)</td>
   </tr>
 </table>
 
@@ -195,8 +195,8 @@ drugs: 'etomidate, lidocaine, rocuronium, succinylcholine, vecuronium, amiodaron
         <li>Draw up into a 10 ml syringe and label 100 mcg/ml</li>
         <li>THROW away the 100 ml NS bag</li>
       </ol>
-        **Dose**: 50-200 mcg (0.5-2ml) every 2-5 min<br>
-        **Duration**: 2-5min
+        Dose: 50-200 mcg (0.5-2ml) every 2-5 min<br>
+        Duration: 2-5min
     </td>
   </tr>
 </table>
@@ -207,9 +207,9 @@ drugs: 'etomidate, lidocaine, rocuronium, succinylcholine, vecuronium, amiodaron
   <tr>
     <td><span class="drug">N-acetylcysteine</span></td>
     <td>
-      **1st dose**: 150 mg/kg IV over 1 hour<br>
-      **2nd dose**: 50 mg/kg IV over 4 hours<br>
-      **3rd dose**: 100 mg/kg IV over 16 hours
+      1st dose: 150 mg/kg IV over 1 hour<br>
+      2nd dose: 50 mg/kg IV over 4 hours<br>
+      3rd dose: 100 mg/kg IV over 16 hours
     </td>
   </tr>
   <tr>
@@ -218,26 +218,26 @@ drugs: 'etomidate, lidocaine, rocuronium, succinylcholine, vecuronium, amiodaron
   </tr>
   <tr>
     <td><span class="drug">Fomepizole</span></td>
-    <td>**Loading dose**: 15 mg/kg IV over 30 min</td>
+    <td>Loading dose: 15 mg/kg IV over 30 min</td>
   </tr>
   <tr>
     <td><span class="drug">Lipid Emulsion</span></td>
     <td>
-      **Bolus**: 1.5 ml/kg IV push over 1 min (may be repeated 1 to 2 times if persistent asystole)<br>
-      **Infusion**: 0.25-0.5 ml/kg/min IV for 30-60 min
+    <b>Bolus</b>: 1.5 ml/kg IV push over 1 min (may be repeated 1 to 2 times if persistent asystole)<br>
+    <b>Infusion</b>: 0.25-0.5 ml/kg/min IV for 30-60 min
     </td>
   </tr>
   <tr>
     <td><span class="drug">Naloxone</span></td>
     <td>
-      **Bolus**: 0.04-2 mg IV/IO/IM/SC/IN every 2 minutes to effect<br>
-      **IV Infusion**: 2/3 effective bolus dose per hour
+      <b>Bolus</b>: 0.04-2 mg IV/IO/IM/SC/IN every 2 minutes to effect<br>
+      <b>Infusion</b>: 2/3 effective bolus dose per hour
     </td>
   </tr>
   <tr>
     <td><span class="drug">Digoxin Immune Fab</span></td>
     <td>
-      Cardiac glycoside OD:(life threatening arrhythmias or hyperkalemia)
+      Cardiac glycoside overdose:(life threatening arrhythmias or hyperkalemia)
       <ul>
         <li>Empiric dosing (unknown level and severe toxicity): 10-20 vials</li>
         <li>Acute ingestion, known quantity: vials = (0.8) x mg of digoxin ingested / (0.5)</li>
@@ -307,15 +307,15 @@ drugs: 'etomidate, lidocaine, rocuronium, succinylcholine, vecuronium, amiodaron
     <td><span class="drug">Alteplase (rtPA)</span></td>
     <td>
 
-        **Stroke**: 0.9 mg/kg (not to exceed 90 mg), give 10% of dose as IV bolus followed by 90% over 1 hour<br>
-        **PE (acute massive with pulses)**: 100 mg IV infusion over 2 hours<br>
-        **PE (cardiac arrest only)**: 50 mg IV push, repeat with 50 mg IV push in 15 minutes if no ROSC<br>
+        Stroke: 0.9 mg/kg (not to exceed 90 mg), give 10% of dose as IV bolus followed by 90% over 1 hour<br>
+        PE (acute massive with pulses): 100 mg IV infusion over 2 hours<br>
+        PE (cardiac arrest only): 50 mg IV push, repeat with 50 mg IV push in 15 minutes if no ROSC<br>
     </td>
   </tr>
   <tr>
     <td><span class="drug">Desmopressin (DDAVP)</span></td>
     <td>
-      **Reversal of platelet dysfunction in patients on aspirin**: 0.3 mcg/kg IV<br>
+      Reversal of platelet dysfunction in patients on aspirin: 0.3 mcg/kg IV<br>
       Dilute in 50 ml NS and give over 15-30 minutes.
     </td>
   </tr>
@@ -326,14 +326,14 @@ drugs: 'etomidate, lidocaine, rocuronium, succinylcholine, vecuronium, amiodaron
   <tr>
     <td><span class="drug">Heparin</span> (unfractionated)</td>
     <td>
-      **VTE**: Bolus 80 U/kg IV, infusion 18 U/kg/h IV<br>
-      **ACS**: Bolus 60 U/kg IV (max 4000 U), infusion 12 U/kg/h (max 1000 U/h)</td>
+      Venous thromboembolism: Bolus 80 U/kg IV, infusion 18 U/kg/h IV<br>
+      ACS: Bolus 60 U/kg IV (max 4000 U), infusion 12 U/kg/h (max 1000 U/h)</td>
   </tr>
   <tr>
     <td><span class="drug">Octreotide</span></td>
     <td>
-      **Bolus:** 25-50 mcg IV push over 3 min<br>
-      **Infusion**: 25-50 mcg/hr IV
+    <b>Bolus:</b> 25-50 mcg IV push over 3 min<br>
+    <b>Infusion:</b> 25-50 mcg/hr IV
     </td>
   </tr>
   <tr>

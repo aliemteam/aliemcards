@@ -18,17 +18,19 @@ drugs: null
 The Emergency Medical Treatment and Labor Act (EMTALA) is a federal law that requires anyone coming to an ED be stabilized and treated, regardless of their insurance status or ability to pay
 
 -   Known as “anti-dumping law”
--   Goal = ensure “adequate first response to a medical crisis for all patients”
+-   Goal: Ensure “adequate first response to a medical crisis for all patients”
 
 ## Rules for the transferring ED
 
 Medically screen patients to determine whether a medical emergency exists (regardless of insurance). This goes beyond a triage assessment.
 Stabilize patients with medical emergencies to reasonably ensure that no deterioration will result from patient's transfer.
 Restrict transfer of non-stabilized patients to 2 circumstances:
+
 1.  Patient requests a transfer in writing after being informed of the risks involved and the hospital’s duty to treat under EMTALA, or
 2.  A physician certifies that the medical benefits expected from transfer outweigh the risks involved in the transfer (e.g. need higher level of care)
 
 **Pregnancy:** When having contractions, an emergency medical condition exists when:
+
 -   Inadequate time for safe transfer to another hospital before delivery, or
 -   Transfer may pose a threat to the health/safety of patient or unborn child
 
