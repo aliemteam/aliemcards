@@ -24,8 +24,7 @@ drugs: null
 
 ![](image-1.png)
 
-**
-Hawkin's Test**
+**Hawkin's Test**
 1.  Position arm in throwing position and flex forward 30 degrees.
 2.  Examiner internally rotates humerus.
 
@@ -72,8 +71,10 @@ Patient has pain when externally rotates shoulder against resistance (with elbow
 1.  Position patient's arm in 90 degree abduction and elbow flexion
 2.  Examiner pushes humerus into glenohumeral joint while internally and externally rotating arm
 
-![](image-6.png) **
-O'Brien Test**
+![](image-6.png) 
+
+**O'Brien Test**
+
 1.  Position patient's shoulder in 90 degree flexion, elbow extended, and 14 degrees adducted (medial to sagittal plane)
 2.  Point thumb down
 3.  Examiner stand behind pateint and applies downward force
