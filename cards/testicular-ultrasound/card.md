@@ -36,14 +36,18 @@ drugs: null
 -   Always compare flow relative to unaffected testicle.
 -   Decreased or absent flow in the affected testicle suggests **torsion**
 
-![](image-1.png)Figure 1: Left testicular torsion - midline transverse view demonstrating absent flow
+![](image-1.png)
+
+Figure 1: Left testicular torsion - midline transverse view demonstrating absent flow
 
 ## Color and Flow Comparison (cont’d)
 
 -   Increased flow in the affected testicle or epididymis suggests orchitis and/or epididymitis (or a recently detorsed testicle if clinically consistent). 
 -   Isolated orchitis is rare, **epididymitis** most common diagnosis.
 
-![](image-2.png)Figure 2: Acute epididymitis - longitudinal view demonstrating increased color flow in the body of the epididymis
+![](image-2.png)
+
+Figure 2: Acute epididymitis - longitudinal view demonstrating increased color flow in the body of the epididymis
 
 ## Advanced Assessment
 
@@ -54,5 +58,4 @@ Torsion cannot be excluded with ultrasound, although a normal comprehensive spec
 ## References
 
 - Blaivas M, Sierzenski P. *Acad Emerg Med*, 2001. PMID: [11136158](http://www.ncbi.nlm.nih.gov/pubmed/11136158)
-
-Blaivas M, et al. *Acad Emerg Med*, 2001. PMID: [11136159](http://www.ncbi.nlm.nih.gov/pubmed/11136159)
+- Blaivas M, et al. *Acad Emerg Med*, 2001. PMID: [11136159](http://www.ncbi.nlm.nih.gov/pubmed/11136159)
