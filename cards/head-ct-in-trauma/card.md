@@ -122,7 +122,7 @@ GCS 15 and loss of consciousness in the setting of trauma and:
 
 - MVC with patient ejection, death of another passenger
 - Pedestrian or bicyclist without helmet struck by a motorized vehicle
-- Fall >3 ft (age5 ft (age ≥2 yr)
+- Fall >3 ft (age &lt;2 years) or >5 ft (age ≥2 yr)
 - Head struck by a high-impact object
 
 ## References
