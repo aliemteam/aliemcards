@@ -14,35 +14,38 @@ drugs: 'acetaminophen, aripiprazole, clozapine, olanzapine, quetiapine, risperid
 
 
 
-# Pediatric Ingestion Dose Thresholds for ED Referral
+# Pediatric Ingestion Dose Thresholds for Emergency Department Referral
 
-*Clinical Toxicology* has published guidelines for out-of-hospital management of 16 distinct overdoses and their dose thresholds, above which, pediatric patients should be referred to the Emergency Department for evaluation. *Clinical Toxicology* is the official journal of the American Academy of Clinical Toxicology (AACT, [@AACTinfo](https://twitter.com/AACTinfo)), the American Association of Poison Control Centers (AAPCC, [@AAPCC](https://twitter.com/AAPCC)), and the European Association of Poisons Centres and Clinical Toxicologists (EAPCCT). AACT has a link to each guideline on its [website](http://www.clintox.org/guidelines.cfm). There are two caveats to be aware of regarding these guidelines.
+*Clinical Toxicology* has published guidelines for out-of-hospital management of 16 distinct overdoses and their dose thresholds, above which, pediatric patients should be referred to the Emergency Department for evaluation. *Clinical Toxicology* is the official journal of the American Academy of Clinical Toxicology (AACT, [@AACTinfo](https://twitter.com/AACTinfo)), the American Association of Poison Control Centers (AAPCC, [@AAPCC](https://twitter.com/AAPCC)), and the European Association of Poisons Centres and Clinical Toxicologists (EAPCCT). 
+
+**There are 2 caveats to be aware of regarding these guidelines.**
 
 1.  They were developed between 2005 and 2007. New medications have been approved since that time and there may be more recent data available.
 2.  As with any poisoning, dose is only one factor when determining disposition. Consideration should also be given to intent, underlying medical conditions, co-ingestion of other medications, presence of symptoms, and drug formulation.
 
-This PV Card summarizes the **pediatric ingestion dose thresholds** for referral to an ED.
+This ALiEM Card summarizes the **pediatric ingestion dose thresholds** for referral to an Emergency Department.
 
-| Acronym | Meaning                             |
-|---------|-------------------------------------|
+| **Acronym** | **Meaning**                             |
+|:---------:|-------------------------------------|
 | RSTI    | repeated supratherapeutic ingestion |
 | IR      | immediate release                   |
 | SR      | sustained release                   |
 | MR      | modified release                    |
 
-*NOTE: Whenever two values are noted, the lesser one should be utilized.*
-*NOTE: Symptomatic patients always warrant ED evaluation.**
+***NOTE: Whenever 2 values are noted, the lesser one should be utilized.***
+
+***NOTE: Symptomatic patients always warrant ED evaluation.***
 
 ## Acetaminophen
 
-**Age &lt; 6 years (acute & RSTI)**
+**Age &lt;6 years (Acute & RSTI)**
 
 - &ge; 200 mg/kg
 - &ge; 200mg/kg over 24 hours, or
 - &ge; 150 mg/kg per 24 hours x 2 days, or
 - &ge; 100 mg/kg per 24 hours x 3 days
 
-**Age &gt; 6 years (acute & RSTI)**
+**Age &gt;6 years (Acute & RSTI)**
 
 - &ge; 10 g or &ge; 200 mg/kg
 - &ge; 10 g or &ge; 200 mg/kg over 24 hour, or
@@ -50,9 +53,9 @@ This PV Card summarizes the **pediatric ingestion dose thresholds** for referr
 
 ## Atypical Antipsychotics
 
-**Age &lt; 12 years**
+**Age &lt;12 years**
 
-| Drug        | Dose        |
+| **Drug**        | **Dose**        |
 |-------------|-------------|
 | Ariprazole  | &gt; 15 mg  |
 | Clozapine   | &gt; 50 mg  |
@@ -61,9 +64,9 @@ This PV Card summarizes the **pediatric ingestion dose thresholds** for referr
 | Risperidone | &gt; 1 mg   |
 | Ziprasidone | &gt; 80 mg  |
 
-**Age &gt; 12 years**
+**Age &gt;12 years**
 
-| Drug        | Dose          |
+| **Drug**        | **Dose**          |
 |-------------|---------------|
 | Ariprazole  | &gt; 50 mg    |
 | Clozapine   | &gt; 62.5 mg  |
@@ -75,13 +78,13 @@ This PV Card summarizes the **pediatric ingestion dose thresholds** for referr
 
 ## Anticoagulant Rodenticides
 
-&ge; 1 mg
+&ge;1 mg
 
 ## Beta Blockers
 
-*Ingestion of any excess beta blocker in combination with a calcium channel blocker warrants referral to an ED.*
+***Ingestion of any excess beta blocker in combination with a calcium channel blocker warrants referral to an ED.***
 
-| Drug          | Dose            |
+| **Drug**          | **Dose**            |
 |---------------|-----------------|
 | Acebutolol    | &gt; 12 mg/kg   |
 | Atenolol      | &gt; 2 mg/kg    |
@@ -97,9 +100,9 @@ This PV Card summarizes the **pediatric ingestion dose thresholds** for referr
 
 ## Calcium Channel Blockers
 
-*Ingestion of any excess beta blocker in combination with a calcium channel blocker warrants referral to an ED.*
+***Ingestion of any excess beta blocker in combination with a calcium channel blocker warrants referral to an ED.***
 
-| Drug          | Dose                          |
+| **Drug**          | **Dose**                          |
 |---------------|-------------------------------|
 | Amlodipine    | &ge; 0.3 mg/kg or &ge; 30 mg  |
 | Diltiazem     | &ge; 1 mg/kg                  |
@@ -111,39 +114,39 @@ This PV Card summarizes the **pediatric ingestion dose thresholds** for referr
 
 ## Camphor
 
-&gt; 30mg/kg
+&gt;30 mg/kg
 
 ## Dextromethorphan
 
-&gt; 7.5 mg/kg
+&gt;7.5 mg/kg
 
 ## Diphenhydramine & Dimenhydrinate
 
-Age &lt; 6 years: &gt; 7.5 mg/kg
-Age &ge; 6 years: &gt; 7.5 mg/kg or 300 mg
+Age &lt;6 years: &gt;7.5 mg/kg
+Age &ge;6 years: &gt;7.5 mg/kg or 300 mg
 
-## Ethylene glycol
+## Ethylene Glycol
 
 More than witnessed taste/lick or unknown amount
 
 ## Iron (Elemental)
 
-&ge; 40 mg/kg of adult ferrous sulfate formulation
+&ge;40 mg/kg of adult ferrous sulfate formulation
 
 ## Mercury (Elemental)
 
-&gt; 1 household fever thermometer
+&gt;1 household fever thermometer
 
 ## Methylphenidate
 
-| Drug            | Dose                    |
+| **Drug**            | **Dose**                    |
 |-----------------|-------------------------|
-| IR or chewed MR | &gt; 2 mg/kg or 60 mg   |
-| MR (intact)     | &gt; 4 mg/kg or 120 mg  |
+| IR or chewed MR | &gt;2 mg/kg or 60 mg   |
+| MR (intact)     | &gt;4 mg/kg or 120 mg  |
 
 ## Salicylate
 
-**Aspirin equivalent**: &gt; 150 mg/kg or 6.5 g
+**Aspirin equivalent**: &gt;150 mg/kg or 6.5 g
 
 **Oil of Wintergreen**:
 
@@ -152,7 +155,7 @@ More than witnessed taste/lick or unknown amount
 
 ## Selective Serotonin Reuptake Inhibitors
 
-| Drug          | Dose          |
+| **Drug**          | **Dose**          |
 |---------------|---------------|
 | Citalopram    | &gt; 100 mg   |
 | Escitalopram  | &gt; 50 mg    |
@@ -163,7 +166,7 @@ More than witnessed taste/lick or unknown amount
 
 ## Tricyclic Antidepressants (TCA)
 
-| Drug          | Dose            |
+| **Drug**          | **Dose**            |
 |---------------|-----------------|
 | Desipramine   | &gt; 2.5 mg/kg  |
 | Nortriptyline | &gt; 2.5 mg/kg  |
@@ -173,4 +176,24 @@ More than witnessed taste/lick or unknown amount
 
 ## Valproic Acid
 
-&ge; 50 mg/kg
+&ge;50 mg/kg
+
+
+## References
+
+1. Wax P, Erdman A, Chyka P, et al. beta-blocker ingestion: an evidence-based consensus guideline for out-of-hospital management. Clin Toxicol (Phila). 2005;43(3):131-146. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/15906457)
+2.	Caravati E, Erdman A, Christianson G, et al. Ethylene glycol exposure: an evidence-based consensus guideline for out-of-hospital management. Clin Toxicol (Phila). 2005;43(5):327-345. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/16235508)
+3.	Manoguerra A, Erdman A, Booze L, et al. Iron ingestion: an evidence-based consensus guideline for out-of-hospital management. Clin Toxicol (Phila). 2005;43(6):553-570. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/16255338)
+4.	Olson K, Erdman A, Woolf A, et al. Calcium channel blocker ingestion: an evidence-based consensus guideline for out-of-hospital management. Clin Toxicol (Phila). 2005;43(7):797-822. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/16440509)
+5.	Dart R, Erdman A, Olson K, et al. Acetaminophen poisoning: an evidence-based consensus guideline for out-of-hospital management. Clin Toxicol (Phila). 2006;44(1):1-18. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/16496488)
+6.	Scharman E, Erdman A, Wax P, et al. Diphenhydramine and dimenhydrinate poisoning: an evidence-based consensus guideline for out-of-hospital management. Clin Toxicol (Phila). 2006;44(3):205-223. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/16749537)
+7.	Manoguerra A, Erdman A, Wax P, et al. Camphor Poisoning: an evidence-based practice guideline for out-of-hospital management. Clin Toxicol (Phila). 2006;44(4):357-370. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/16809137)
+8.	Caravati E, Erdman A, Scharman E, et al. Long-acting anticoagulant rodenticide poisoning: an evidence-based consensus guideline for out-of-hospital management. Clin Toxicol (Phila). 2007;45(1):1-22. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/17357377)
+9.	Chyka P, Erdman A, Christianson G, et al. Salicylate poisoning: an evidence-based consensus guideline for out-of-hospital management. Clin Toxicol (Phila). 2007;45(2):95-131. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/17364628)
+10.	Woolf A, Erdman A, Nelson L, et al. Tricyclic antidepressant poisoning: an evidence-based consensus guideline for out-of-hospital management. Clin Toxicol (Phila). 2007;45(3):203-233. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/17453872)
+11.	Nelson L, Erdman A, Booze L, et al. Selective serotonin reuptake inhibitor poisoning: An evidence-based consensus guideline for out-of-hospital management. Clin Toxicol (Phila). 2007;45(4):315-332. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/17486478)
+12.	Chyka P, Erdman A, Manoguerra A, et al. Dextromethorphan poisoning: an evidence-based consensus guideline for out-of-hospital management. Clin Toxicol (Phila). 2007;45(6):662-677. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/17849242)
+13.	Scharman E, Erdman A, Cobaugh D, et al. Methylphenidate poisoning: an evidence-based consensus guideline for out-of-hospital management. Clin Toxicol (Phila). 2007;45(7):737-752. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/18058301)
+14.	Cobaugh D, Erdman A, Booze L, et al. Atypical antipsychotic medication poisoning: an evidence-based consensus guideline for out-of-hospital management. Clin Toxicol (Phila). 2007;45(8):918-942. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/18163235)
+15.	Caravati E, Erdman A, Christianson G, et al. Elemental mercury exposure: an evidence-based consensus guideline for out-of-hospital management. Clin Toxicol (Phila). 2008;46(1):1-21. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/18167033)
+16.	Manoguerra A, Erdman A, Woolf A, et al. Valproic acid poisoning: an evidence-based consensus guideline for out-of-hospital management. Clin Toxicol (Phila). 2008;46(7):661-676. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/18608263)
