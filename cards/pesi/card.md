@@ -63,10 +63,10 @@ drugs: 'enoxaparin, warfarin'
 
 | **Complications**                    |  **Outpatient**  | **Inpatient**    |
 |--------------------------------------------|:--------------:|:--------------:|
-| Recurrent venous thromboembolism at ≤90 days | 0.6% (1/171) | 0% (0/168)   |
-| Death at ≤90 days                            | 0.6% (1/171) | 0.6% (1/168) |
 | Major bleeding at ≤14 days                   | 1.2% (2/171) | 0% (0/168)   |
 | Major bleeding at ≤90 days                   | 1.8% (1/171) | 0% (0/168)   |
+| Recurrent venous thromboembolism at ≤90 days | 0.6% (1/171) | 0% (0/168)   |
+| Death at ≤90 days                            | 0.6% (1/171) | 0.6% (1/168) |
 
 **Outpatient treatment:** 
 
