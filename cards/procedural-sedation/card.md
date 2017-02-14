@@ -66,7 +66,7 @@ drugs: 'propofol, etomidate, ketamine, ketofol, Dexamedetomidine, lorazepam, dia
 Assemble appropriate staffing and equipment (**SOAPME**): 
 
 -   **S**uction
--   **O**xygen,
+-   **O**xygen
 -   **A**irway adjuncts
 -   **P**ersonnel
 -   **M**edications
@@ -83,17 +83,17 @@ Select sedative AND analgesic if both are required. Match duration of procedure
 | <span class="drug">Midazolam</span> 0.05 mg/kg   | Shortest benzodiazepine       | |
 | <span class="drug">Lorazepam</span> 0.05 mg/kg   | Short benzodiazepine          | |
 | <span class="drug">Diazepam</span> 0.1 mg/kg     | Muscle relaxation             | |
-| <span class="drug">Etomidate</span> 0.15 mg/kg   | Short duration                | myoclonus  |
-| <span class="drug">Propofol</span>   1-2 mg/kg   | Short duration                | transient hypotension |
+| <span class="drug">Etomidate</span> 0.15 mg/kg   | Short duration                | Myoclonus  |
+| <span class="drug">Propofol</span>   1-2 mg/kg   | Short duration                | Transient hypotension |
 | <span class="drug">Ketofol</span> 0.5 mg/kg<br>1:1 ratio of <br>ketamine:propofol| CV stable, amnesia, analgesia | |
 
 **ANALGESIC medications**
 
-| **Medication / Initial IV dose**  | **Advantage**  | **Side Effects **  |
+| **Medication / Initial IV dose**  | **Advantage**  | **Side Effects**  |
 |--------------------------|----------------|-----------------------------|
-| <span class="drug">Fentanyl</span> 1-2 mcg/kg      | Short duration | decreased respiratory rate  |
-| <span class="drug">Hydromorphone</span> 0.02 mg/kg |                | decreased respiratory rate and blood pressure |
-| <span class="drug">Morphine</span> 0.1-0.2 mg/kg   |                | decreased respiratory rate and blood pressure |
+| <span class="drug">Fentanyl</span> 1-2 mcg/kg      | Short duration | Decreased respiratory rate  |
+| <span class="drug">Hydromorphone</span> 0.02 mg/kg |                | Decreased respiratory rate and blood pressure |
+| <span class="drug">Morphine</span> 0.1-0.2 mg/kg   |                | Decreased respiratory rate and blood pressure |
 
 **DISSOCIATIVE medications**
 
