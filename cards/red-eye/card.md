@@ -38,8 +38,8 @@ drugs: 'trifluridine, vidarabine, acyclovir, erythromycin, azithromycin, timolol
 ![](image-2.png)
 
 -   Adenovirus
--   Symptoms: Eye pain, decreased visual acuity
--   Findings: Corneal subepithelial infiltrates (1-2 mm gray-white crumb-like defects)
+-   **Symptoms:** Eye pain, decreased visual acuity
+-   **Findings:** Corneal subepithelial infiltrates (1-2 mm gray-white crumb-like defects)
 
 ### Viral: HSV conjunctivitis
 
