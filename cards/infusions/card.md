@@ -14,12 +14,12 @@ drugs: 'amiodarone, Diltiazem, Dobutamine, Dopamine, Epinephrine, Esmolol, fenta
 
 
 
-# Continuous Infusions
+# Continuous Infusions: Dosing Recommendations
 
 **Usual dose range for adults**
 
 | **Medication**  | **Dose**  | **Units (comments)**                                  |
-|-----------------|-----------|-------------------------------------------------------|
+|-----------------|:-----------:|-------------------------------------------------------|
 | Amiodarone      | 0.5-1     | mg/min (loading dose: 150 mg over 10 min)             |
 | Diltiazem       | 5-15      | mg/hr, or indication dependent dose                   |
 | Dobutamine      | 0.5-20    | mcg/kg/min                                            |
@@ -46,6 +46,3 @@ drugs: 'amiodarone, Diltiazem, Dobutamine, Dopamine, Epinephrine, Esmolol, fenta
 
 Based on 2012 card on Continuous Infusions from the UCSF Critical Care Units as part of a campaign for Safe Medication Prescriptions
 
-## References
-
--   [Selected medications from UCSF Adult Critical Care’s campaign for Safe Medication Prescriptions](http://academiclifeinem.blogspot.com/2012/03/paucis-verbis-continuous-infusions.html)
