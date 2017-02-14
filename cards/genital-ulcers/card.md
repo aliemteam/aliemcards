@@ -21,30 +21,15 @@ drugs: null
 
 ## Differential diagnosis of genital ulcers
 
-<table>
-  <tr>
-    <th>Infectious (more common)</th>
-    <th>Non-infectious (less common)</th>
-  </tr>
-  <tr>
-    <td>
-      Genital herpes simple virus (HSV)<br>
-      Syphilis<br>
-      Chancroid<br>
-      Lymphogranuloma venereum<br>
-      Granuloma inguinale (donovanosis)<br>
-      Fungal infection (eg. candida)<br>
-      Secondary bacterial infection
-    </td>
-    <td>
-      Behcet syndrome<br>
-      Fixed drug eruption<br>
-      Psoriasis<br>
-      Sexual trauma<br>
-      Wegener granulomatosis
-    </td>
-  </tr>
-</table>
+| **Infectious (more common)** | **Non-infectious (less common)** |
+| --- | --- |
+| Genital herpes simple virus (HSV) | Behcet syndrome |
+| Syphilis  | Fixed drug eruption | 
+| Chancroid | Psoriasis | 
+| Lymphogranuloma venereum | Sexual trauma | 
+| Granuloma inguinale (donovanosis) | Wegener granulomatosis |
+| Fungal infection (eg. candida) | |
+| Secondary bacterial infection | | 
 
 [National Coalition of STD Director Fact Sheets](http://www.ncsddc.org/publications)
 From “The Practitioner’s Handbook for the Management of STDs” (4th ed, 2007):
@@ -163,9 +148,6 @@ From “The Practitioner’s Handbook for the Management of STDs” (4th ed, 200
     <td>Isolation of *Chlamydia trachomatis* from urethra, cervix, rectum or lymph node aspirate; complement fixation serology ≥ 1/64</td>
   </tr>
 </table>
-## Images 
-
-From *American Family Physician* article![](image-1.png)
 
 ## References
 
