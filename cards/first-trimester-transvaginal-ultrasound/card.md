@@ -32,23 +32,31 @@ drugs: null
 
 **Directional indicator:** Pointed to patient’s right side
 
-![](image-1.png)Figure 1: Appropriate transducer orientation for the coronal transvaginal exam
+![](image-1.png)
 
-![](image-2.png)Figure 2: Ectopic pregnancy on transvaginal ultrasound, coronal view. Shown is a **yolk sac** **within an extra-uterine gestational sac** (black arrow) adjacent to an empty **endometrium (e)**, outside of the **uterus**.
+Figure 1: Appropriate transducer orientation for the coronal transvaginal exam
+
+![](image-2.png)
+
+Figure 2: Ectopic pregnancy on transvaginal ultrasound, coronal view. Shown is a **yolk sac** **within an extra-uterine gestational sac** (black arrow) adjacent to an empty **endometrium (e)**, outside of the **uterus**.
 
 ## 2.  Sagittal / longitudinal view
 
 **Directional indicator**: Pointed to anterior of patient (towards the ceiling)
 
-![](image-3.png)Figure 3: Appropriate transducer orientation for the sagittal transvaginal exam
+![](image-3.png)
 
-![](image-4.png)Figure 4: Intrauterine pregnancy on transvaginal ultrasound, sagittal view. Shown is a **gestational sac** containing a **yolk sac** and within the **endometrium.**
+Figure 3: Appropriate transducer orientation for the sagittal transvaginal exam
+
+![](image-4.png)
+
+Figure 4: Intrauterine pregnancy on transvaginal ultrasound, sagittal view. Shown is a **gestational sac** containing a **yolk sac** and within the **endometrium.**
 
 Both of these windows include a complete sweep through the uterus in each direction looking for a gestational sac and yolk sac or fetal pole within the endometrium.
 
 ## Interpretation and Tips
 
-An IUP for point-of-care purposes is defined as a yolk sac or fetal pole within a gestational sac within the endometrium. This indirectly excludes an ectopic pregnancy in an appropriate clinical setting.
+An IUP for point-of-care purposes is defined as a **yolk sac or fetal pole within a gestational sac within the endometrium**. This indirectly excludes an ectopic pregnancy in an appropriate clinical setting.
 
 Consider measuring the distance between the gestational sac and the edge of uterus. If this endomyometrial mantle thickness is &lt;8 mm, then consider the possibility of an interstitial ectopic pregnancy.
 
@@ -56,17 +64,29 @@ An ectopic pregnancy will occasionally be seen as an extrauterine mass. However,
 
 ## Pitfalls
 
-**Inserting the transducer too deeply.** The transducer should be inserted to the cervix, using it as a window. If you continue to push once at the cervix, the transducer will frequently slide into the posterior fornix and only bowel/rectum will be seen.
+**Inserting the transducer too deeply.** 
 
-Scanning with a full bladder. While the transabdominal approach is enhanced by a full bladder, the patient should empty their bladder prior to transvaginal scanning to improve visualization.
+- The transducer should be inserted to the cervix, using it as a window. If you continue to push once at the cervix, the transducer will frequently slide into the posterior fornix and only bowel/rectum will be seen.
 
-**Calling a gestational sac an IUP.** At least a yolk sac is needed. A pseudogestational sac with an ectopic pregnancy is possible.
+**Scanning with a full bladder.** 
 
-Relying on the quantitative beta-HCG and “discriminatory zone” for decision-making. Over 40% of ectopic pregnancies will have beta-HCG levels below the discriminatory zone.
+- While the transabdominal approach is enhanced by a full bladder, the patient should empty their bladder prior to transvaginal scanning to improve visualization.
 
-**Considering an “inconclusive scan” negative for ectopic**. Ectopic pregnancies are almost always ruled-out by finding an IUP. Absence of an extrauterine mass does not exclude ectopic pregnancy.
+**Calling a gestational sac an IUP.** 
 
-**Failure to recognize specific high-risk populations.** Patients undergoing assisted reproductive therapy have a much higher (1-3%) incidence of heterotopic pregnancy. Identification of an IUP does not exclude a co-existing ectopic in this group.
+- At least a yolk sac is needed. A pseudogestational sac with an ectopic pregnancy is possible.
+
+**Relying on the quantitative beta-HCG and “discriminatory zone” for decision-making.** 
+
+- Over 40% of ectopic pregnancies will have beta-HCG levels below the discriminatory zone.
+
+**Considering an “inconclusive scan” negative for ectopic**. 
+
+- Ectopic pregnancies are almost always ruled-out by finding an IUP. Absence of an extrauterine mass does not exclude ectopic pregnancy.
+
+**Failure to recognize specific high-risk populations.** 
+
+- Patients undergoing assisted reproductive therapy have a much higher (1-3%) incidence of heterotopic pregnancy. Identification of an IUP does not exclude a co-existing ectopic in this group.
 
 ## References
 
