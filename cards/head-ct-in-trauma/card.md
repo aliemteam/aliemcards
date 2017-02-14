@@ -17,18 +17,18 @@ drugs: null
 
 # Head CT in Trauma - Clinical Decision Rules
 
-## Canadian CT Head RULES (CCHR)
+## Canadian CT Head Rules (CCHR)
 
 ***Inclusion criteria:*** GCS 13-15, age ≥ 16 years, no coagulopathy, no obvious open skull fracture
 
 **CT indicated if any of following:**
 
 -   **High risk features** predictive for neurosurgical intervention:
-    -   GCS &lt; 15 at 2 hours after injury
+    -   GCS &lt;15 at 2 hours after injury
     -   Suspected open or depressed skull fracture
     -   Signs of basal skull fracture
     -   At least 2 episodes of vomiting
-    -   Age ≥ 65 years old
+    -   Age ≥65 years old
 -   **Medium risk features** for brain injury detection on CT:
     -   Amnesia before impact of ≥ 30 minutes
     -   Dangerous mechanism (pedestrian vs. auto, an occupant ejected from motor vehicle, or a fall from an elevation of ≥ 3 feet or 5 stairs)
@@ -42,8 +42,8 @@ drugs: null
 GCS 15 and loss of consciousness in the setting of trauma and:
 -   Headache
 -   Vomiting
--   Age &gt; 60 years,
--   Drugs/ EtOH
+-   Age &gt; 60 years
+-   Drugs or alcohol
 -   Short term memory deficit
 -   Visible trauma above clavicles
 -   Seizure  
@@ -54,8 +54,8 @@ GCS 15 and loss of consciousness in the setting of trauma and:
 
 **CT indicated if any of following**:    
 
--   Age  ≥ 65 years old
--   Evidence of significant skull fx 
+-   Age ≥65 years old
+-   Evidence of significant skull fracture 
 -   Scalp hematoma
 -   Neurologic deficit
 -   Altered level of alertness
@@ -97,19 +97,18 @@ GCS 15 and loss of consciousness in the setting of trauma and:
 
 **PECARN** =  Pediatric Emergency Care Applied Research Network ([Kuppermann et al. Lancet 2009](http://www.ncbi.nlm.nih.gov/pubmed/19758692))
 
-***Fact***: Risk of CT-documented TBI in children GCS &lt; 14 = 20%
+***Fact***: Risk of CT-documented TBI in children GCS &lt;14 = 20%
 
-<span class="aglmd-moreinfo ui-moreinfo" data-iid="53aa2472d35d3ae92e0016b4">Study details</span>
+**Study details**
 
 -   Pre-defined “clinically important traumatic brain injury” (ciTBI) as:
-
-|                                |                               |
-|--------------------------------|-------------------------------|
-| Death from TBI                 | Neurosurgical intervention    |
-| Intubation &gt; 24hrs duration | Hospital admission ≥ 2 nights |
+  - Death from TBI 
+  - Intubation &gt; 24hrs duration
+  - Neurosurgical intervention
+  - Hospital admission ≥ 2 nights
 
 -    CT’s obtained in 37% (derivation) and 35% (validation) of enrolled patients
--    Discharged patients’ caregiver called at day \#7 and \#90 for f/u
+-    Discharged patients’ caregiver called at day #7 and #90 for followup
 
 ## Age &lt; 2 years old
 
