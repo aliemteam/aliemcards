@@ -28,23 +28,32 @@ drugs: null
 
 
 **MODERATE HYPOTHERMIA** 28-32.2°C (82.4-90°F)
-|                           |                         |
-|---------------------------|------------------------ |
-| Atrial dysrhythmias       | Diminished gag reflex   |
-| Hypotension, bradycardia  | LOSS of shivering       |
-| Lethargy                  | Hyporeflexia            |
-| Mydriasis                 | J wave on EKG!          |
+
+| Clinical Findings |
+| --- |
+| Atrial dysrhythmias  |
+| J wave on ECG          |
+| Hypotension, bradycardia  | 
+| Lethargy                  |
+| Mydriasis                 |
+| Diminished gag reflex   |
+| Loss of shivering       |
+| Hyporeflexia            |
 
 [](image-1.png) 
 
 **SEVERE HYPOTHERMIA** &lt;28°C (&lt;82.4°F)
 
-|                     |                           |
-|---------------------|---------------------------|
-| Apnea               | Oliguria                  |       
-| Coma                | Pulmonary edema           |
-| No activity on EEG  | Ventricular dysrhythmias  |
-| Fixed pupils        | Asystole                  |
+| Clinical Findings |
+| --- |
+| Apnea               |       
+| Coma                 | 
+| No activity on EEG   | 
+| Fixed pupils         | 
+| Oliguria                  | 
+| Pulmonary edema           |
+| Ventricular dysrhythmias  |
+| Asystole                  |
 
 **Tip:**
 
