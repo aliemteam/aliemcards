@@ -2,7 +2,7 @@
 
 title: 'End-of-Shift Feedback'
 authors:
-    - 'Michelle Lin, MD'
+    - 'David Thompson, MD'
 created: 2011/12/09
 updates: null
 categories:
