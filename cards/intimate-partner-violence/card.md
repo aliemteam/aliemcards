@@ -2,7 +2,7 @@
 
 title: 'Intimate Partner Violence'
 authors:
-    - 'Trevor Wilson'
+    - 'Trevor Wilson, MD'
     - 'Beth Kaplan, MD'
 created: 2013/07/31
 updates: null
@@ -14,14 +14,17 @@ drugs: null
 
 
 
- Intimate Partner Violence
+# Intimate Partner Violence
 
 **Definition:** Physical,sexual, or psychological harm by a current or former partner or spouse. Occurs among heterosexual and same-sex couples.
+
 **Epidemiology:** Lifetime estimates for IPV in women= 22-39%.
+
 **Sequelae:** Untreated IPV results in many physical and psychological morbidities. 
+
 **Pearl:** Physicians should screen, document,intervene, and provide resources.
 
-## Screen
+## Screening
 
 -   USPSTF B recommendation for screening women of child-bearing age: high certainty that the net benefit is moderate. Costs and potential harms of screening appear to be outweighed by potential for early intervention with screening.
 -   Interview patient alone. Frame: “*Because violence is so common, we’re routinely asking our patients about their safety in their relationships*.”
@@ -29,7 +32,7 @@ drugs: null
 
 **SAFE Questions**
 
-|                    |                                                                                   |
+| Topic .   |    Question                                                              |
 |--------------------|-----------------------------------------------------------------------------------|
 | **S**tress/Safety  | *Do you feel safe in your relationship?*                                           |
 | **A**fraid/Abused  | *Have you ever been in a relationship where you were threatened, hurt, or afraid?* |
@@ -43,7 +46,9 @@ Convey constructive messages:
 -   *“I am concerned about your safety and health. There is help. I’d like you to speak with an advocate/counselor.”*
 
 Assess immediate safety for patient in ED.
+
 Involve social work. Provide list of shelters, resources, and hotline.
+
 Define safety plan for discharge.
 
 ## Resources
