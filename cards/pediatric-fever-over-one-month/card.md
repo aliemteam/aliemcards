@@ -144,7 +144,7 @@ Generally accepted workup includes:
 
 - Options for management:
 
-  1.  No antibiotics and close follow-up in 24 hrs
-  2.  **<span class="drug">Ceftriaxone</span>** IV/IM after LP with close follow-up in 24 hrs
+  - No antibiotics and close follow-up in 24 hrs
+  - **<span class="drug">Ceftriaxone</span>** IV/IM after LP with close follow-up in 24 hrs
 
 **High risk infant:** Admit to hospital for **<span class="drug">ceftriaxone</span> IV/IM** and closer observation
