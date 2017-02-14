@@ -4,7 +4,8 @@ title: 'Bell''s Palsy Treatment'
 authors:
     - 'Michelle Lin, MD'
 created: 2013/02/21
-updates: null
+updates:
+    - 2017/02/13
 categories:
     - Neurology
 drugs: 'Valacylovir, Acyclovir, Prednisone'
