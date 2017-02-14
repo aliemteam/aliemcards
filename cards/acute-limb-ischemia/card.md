@@ -11,8 +11,6 @@ categories:
 drugs: 'aspirin, heparin'
 
 ---
-TEST TEST
-
 
 # Acute Limb Ischemia
 
