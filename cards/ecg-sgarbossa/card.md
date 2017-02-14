@@ -16,17 +16,20 @@ drugs: null
 
 # ECG: Sgarbossa Criteria for LBBB and AMI
 
-It is difficult to determine if a patient with a left bundle branch block (LBBB) has an acute myocardial infarction (AMI) because ST segments are "appropriately discordant" with the terminal portion of the QRS. In a Left Bundle Branch Block (LBBB), the major, terminal portion of the QRS complex will normally be “appropriately discordant” with the ST segment.
+It is difficult to determine if a patient with a left bundle branch block (LBBB) has an acute myocardial infarction (AMI) because ST segments are "appropriately discordant" with the terminal portion of the QRS. 
 
--   Be aware that Sgarbossa are not perfect in screening for AMI
--   Use as another data point in risk-stratifying these complex patients with LBBB
--   Sgarbossa criteria applies also for LBBB pattern seen in pacemaker patients
+- The major, terminal portion of the QRS complex will normally be “appropriately discordant” with the ST segment.
+
+
 
 
 ## Sgarbossa criteria
 
 -   For detecting an AMI in the setting of a LBBB
 -   Derived from the [GUSTO-1 trial](http://www.nejm.org/doi/full/10.1056/NEJM199602223340801)
+-   Sgarbossa criteria are NOT perfect in screening for AMI
+-   Use as another data point in risk-stratifying these complex patients with LBBB
+-   Sgarbossa criteria applies also for LBBB pattern seen in pacemaker patients
 
 <table>
   <tr>
@@ -72,19 +75,19 @@ It is difficult to determine if a patient with a left bundle branch block (LBBB)
 
 ## Modified Sgarbossa Rule (updated 01/01/2013)
 
-[Smith SW et al. Ann Emerg Med 2012](http://www.ncbi.nlm.nih.gov/pubmed?term=22939607) <span class="aglmd-moreinfo ui-moreinfo" data-iid="53aa247bd35d3ae92e0019ac">Study details</span>
+[Smith SW et al. Ann Emerg Med 2012](http://www.ncbi.nlm.nih.gov/pubmed?term=22939607) 
 
 **Rule:**
 -   **Ratio of ST-elevation / S-wave &lt; -0.25 is indicative of acute MI**
 -   The modified Sgarbossa Rule uses proportions to identify acute AMI in the setting of ST-elevations in LBBB (helpful in low-voltage EKG)
 
-|                         | **Sens** | **Spec** | **+ LR** | **- LR** |
-|-------------------------|----------|----------|----------|----------|
+|                         | **Sensitivity** | **Specificity** | **(+) LR** | **(-) LR** |
+|-------------------------|:----------:|:----------:|:----------:|:----------:|
 | Modified Sgarbossa rule | 91%      | 90%      | 9.0      | 0.1      |
 
 ![](image-4.png)
 
-## \*Bayes nomogram
+## Fagan nomogram
 
 ![](image-5.png)
 
