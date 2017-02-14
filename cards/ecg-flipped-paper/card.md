@@ -12,7 +12,7 @@ drugs: null
 
 ---
 
-
+DELETE
 
 # ECG: Posterior Myocardial Infarction: How Accurate is the Flipped ECG Trick?
 
