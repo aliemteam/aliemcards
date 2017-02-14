@@ -12,7 +12,7 @@ drugs: null
 
 ---
 
-
+DELETE
 
 
 
@@ -22,27 +22,27 @@ U.S. national average for missed cardiac ischemia = 2-4%
 
 ***Missed AMI:*** Highest overall cost to insurers of all missed diagnoses in ED
 
-***Dilemma:*** "Low-risk" patients per risk factors and presentation may not be low-risk enough to d/c patient home. In contrast, not ALL low-risk patients need testing and admission.
+***Dilemma:*** "Low-risk" patients per risk factors and presentation may not be low-risk enough to discharge patient home. In contrast, not ALL low-risk patients need testing and admission.
 
 ## Profile of the "missed AMI" patient
 
-Younger age (&lt; 55 years old)
-Women
-Nonwhite race
-Atypical symptoms
-Most common presenting sx: Dyspnea &gt;&gt; diaphoresis, nausea, or syncope
-Most common patient profile for having NO chest pain in ACS presentation: 
--   Elderly
--   Female
--   Hypertension
--   DM
--   History of CHF
+- Younger age (&lt; 55 years old)
+- Women
+- Nonwhite race
+- Atypical symptoms
+- Most common presenting symptoms: Dyspnea &gt;&gt; diaphoresis, nausea, or syncope
+- Most common patient profile for having NO chest pain in ACS presentation: 
+  -   Elderly
+  -   Female
+  -   Hypertension
+  -   DM
+  -   History of CHF
 
 [Global Registry of Coronary Events](http://www.outcomes-umassmed.org/grace/)
-Failure to see signs of ischemia on initial EKG
-Failure to obtain EKG
-Physician inexperience 
-Lower volume EDs
+- Failure to see signs of ischemia on initial EKG
+- Failure to obtain EKG
+- Physician inexperience 
+- Lower volume EDs
 
 ## TIMI Risk Score for UA/Non-STEMI 
 
