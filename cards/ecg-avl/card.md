@@ -12,6 +12,7 @@ drugs: null
 
 ---
 
+DELETE
 
 
 # ECG: Reciprocal Changes in Lead aVL
