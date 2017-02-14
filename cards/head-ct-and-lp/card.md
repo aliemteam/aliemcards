@@ -39,32 +39,36 @@ If **ZERO** high risk features, it is safe to do LP without a Head CT:
 | Arm or leg drift                                           |
 | Abnormal language / speech                                 |
 
-**Study specifics by Hasbun et al.**
+## ([Hasbun et al. NEMJ, 2001](https://www.ncbi.nlm.nih.gov/pubmed/?term=11742046))**
 
-**([Hasbun et al. NEMJ, 2001](https://www.ncbi.nlm.nih.gov/pubmed/?term=11742046))**
-
-**Design: **Prospective observational single-site study (n = 301)
+**Design:** Prospective observational single-site study (n = 301)
 
 **Observed results**: 
 
--   Got a CT (235/301) --&gt; 56/235 (24%) had abnormal CT --&gt; 11/56 had mass effect
+- 235/301 underwent head CT
+  - 56/235 (24%) had abnormal CT
+    - 11/56 had mass effect
 
 **Validation arm: Applying the “high risk” criteria back to the enrollment group:**
 
-Got a CT (235/301) --&gt; 96/235 (41%) had no “high risk” features --&gt; 93/96 (97%) had normal CT --&gt; 3/96 (3%) had 2 non-herniations and 1 mild herniation on CT--&gt; All 3 patients got LP without complications.
+- 235/301 underwent head  
+  - 96/235 (41%) had no “high risk” features 
+    - 93/96 (97%) had a normal CT
+      - 3/96 (3%) had 2 non-herniations and 1 mild herniation on CT
+      - All 3 patients underwent LP without complications.
 
-**Results tracking saved time:**
+**Results: Time savings for who did not undergo CT imaging (CT-)**
 
 -   Time to antibiotics (3.8 hr for CT+ vs 2.9 hr for CT-) 
 -   Time to LP (5.3 hr for CT+ vs 3.0 hr for CT-)
 
 **Limitations**
 
--   Study requires validation on separate population (different from derivation group) 
+-   Study requires validation on a separate population, different from the derivation group 
 
 **Conclusion**
 
--   If no abnormal “high risk” clinical features, you can do LP without a CT for meningitis (NPV = 97%) 
+-   If there are no abnormal “high risk” clinical features, you can safely perform a LP without a CT to assess for meningitis (NPV = 97%) 
 -   Skipping the head CT prior to LP decreases time-to-antibiotics and time-to-LP 
 
 ## References
