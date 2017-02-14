@@ -2,7 +2,7 @@
 
 title: 'DVT of the Leg - ACCP Guidelines'
 authors:
-    - 'Michelle Lin, MD'
+    - 'Jason West, MD'
 created: 2013/01/24
 updates: null
 categories:
@@ -18,11 +18,11 @@ drugs: null
 
 **Wells Clinical Prediction Criteria for DVT (Determine pretest probability)**
 
-|                                                    |     |
+| **Risk Factor**                                      | Points |
 |----------------------------------------------------|-----|
 | Active malignancy                                  | +1  |
-| Major surgery within 4 weeks or bedridden &gt; 3 days   | +1  |
-| Asymmetric calf swelling &gt; 3 cm in affected leg | +1  |
+| Major surgery within 4 weeks or bedridden &gt;3 days   | +1  |
+| Asymmetric calf swelling &gt;3 cm in affected leg | +1  |
 | Collateral, non-varicose superficial veins         | +1  |
 | Entire leg swelling                                | +1  |
 | Localized tenderness along deep venous system      | +1  |
@@ -39,15 +39,17 @@ drugs: null
 
 ## Wells Score 1-2 (Moderate pretest probability, 17%)  
 
-***Two options:*** start with D-dimer or ultrasound 
+***Two options:*** Start with D-dimer or ultrasound 
 
 ***Note:*** If significant comorbidities exist that may cause D-Dimer elevation, start with ultrasound as initial test. If ultrasound is unfeasible (excessive tissue or leg casting), use venography.
 
 ![](image-2.png)
 
+*WHERE IS IMAGE-2? IMAGE-3 is the second half of IMAGE-2*
+
 ## Wells score &gt; 2 (High pretest probability, 53%) 
 
-Do NOT begin with D-Dimer. Follow Option \#2 from Moderate Pretest Probability.
+Do NOT begin with D-Dimer. Follow Option #2 from Moderate Pretest Probability.
 
 ![](image-3.png)
 
