@@ -23,7 +23,7 @@ drugs: null
 
 **Transducer:** High frequency linear transducer. If available, the *ophthalmologic, superficial*, or *small parts* preset should be selected on the machine.
 
-**Pt Position:** With the patient’s eye closed, apply a bio-occlusive dressing (e.g. Tegaderm) over the closed eyelid to serve as a barrier. Apply a generous amount of gel over the dressing.
+**Patient Position:** With the patient’s eye closed, apply a bio-occlusive dressing (e.g. Tegaderm) over the closed eyelid to serve as a barrier. Apply a generous amount of gel over the dressing.
 
 **Windows:** Visualize the eye in 2 planes:
 
@@ -34,7 +34,9 @@ drugs: null
 
 ## Normal Eye
 
-![](image-1.png)Figure 1: Normal eye
+![](image-1.png)
+
+Figure 1: Normal eye
 
 -   **Anterior chamber** (a): Located between hyperechoic cornea anteriorly and **iris** posteriorly
 -   **Lens** (L): Biconvex hyperechoic structure posterior to the anterior chamber (a).
@@ -58,31 +60,41 @@ drugs: null
 
 ## Retinal Detachment
 
-![](image-2.png)Figure 2: The detached **retina** appears as a thick, hyperechoic band in the vitreous chamber, anchored posteriorly to the **optic disc**.
+![](image-2.png)
+
+Figure 2: The detached **retina** appears as a thick, hyperechoic band in the vitreous chamber, anchored posteriorly to the **optic disc**.
 
 ## Vitreous Hemorrhage
 
-![](image-3.png)Figure 3: Vitreous hemorrhage - area of **hemorrhage** is visible as faint echogenic material causing a heterogeneous appearance to the chamber.
-Note the higher gain setting used.
+![](image-3.png)
+
+Figure 3: Vitreous hemorrhage - area of **hemorrhage** is visible as faint echogenic material causing a heterogeneous appearance to the chamber. Note the higher gain setting used.
 
 ## Lens Dislocation
 
-![](image-4.png)Figure 4: Lens dislocation - The **lens** is seen floating en face in the vitreous chamber.
+![](image-4.png)
+
+Figure 4: Lens dislocation - The **lens** is seen floating en face in the vitreous chamber.
 
 ## Globe Rupture
 
-![](image-5.png)Figure 5: Globe rupture – irregular globe contour with collapsed anterior chamber. Echogenic material fills the vitreous chamber.
+![](image-5.png)
+
+Figure 5: Globe rupture – irregular globe contour with collapsed anterior chamber. Echogenic material fills the vitreous chamber.
 
 ## Struggling with the Exam?
 
 **Can’t visualize the eye adequately?**
-Increase the amount of gel on the bioocclusive dressing, as this ‘evens out’ the surface of the eye for the transducer.
+
+- Increase the amount of gel on the bioocclusive dressing, as this ‘evens out’ the surface of the eye for the transducer.
 
 **Unsure if there is pathology in the vitreous chamber?**
-In order to adequately assess the vitreous chamber for detachment or hemorrhage, the eye should be examined with both moderate AND high gain settings. Evaluate in a fixed forward gaze AND while the patient performs extraocular movements (kinetic echography).
+
+- In order to adequately assess the vitreous chamber for detachment or hemorrhage, the eye should be examined with both moderate AND high gain settings. Evaluate in a fixed forward gaze AND while the patient performs extraocular movements (kinetic echography).
 
 **Is it ever unsafe to perform the exam?**
-Ocular ultrasound is contraindicated if there are obvious signs of open ocular trauma or globe rupture. Discontinue the examination if there are sonographic findings of globe rupture or retrobulbar hematoma.
+
+- Ocular ultrasound is contraindicated if there are obvious signs of open ocular trauma or globe rupture. Discontinue the examination if there are sonographic findings of globe rupture or retrobulbar hematoma.
 
 ## Pearls
 
