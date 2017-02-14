@@ -54,7 +54,7 @@ drugs: 'Methotrexate'
 
 -  Day 1: **<span class="drug">Methotrexate</span>** 50 mg/m2 IM
 
-**Follow up with obstetrician to:**
+**Follow up with obstetrician:**
 -   Days 4 and 7: Measure beta-hCG
 -   Between Days 4 and 7: Check for 15% beta-hCG decrease
 -   Measure beta-hCG weekly until non-pregnant level
