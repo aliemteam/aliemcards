@@ -26,63 +26,68 @@ drugs: null
 
 ## Acute myocardial infarction
 
-**ST Elevation &gt; 1.5 mm in aVR**
+**ST Elevation &gt;1.5 mm in aVR**
 
 ![](image-1.png)
 -   Suggests left main coronary artery (LMCA), left anterior descending (LAD), or 3-vessel coronary disease
 -   LMCA occlusion has a high mortality and often refractory to thrombolytics.
--   *aVR ST elevation in ACS patients:* Independent predictor of recurrent ischemic events in-hospital, heart failure, and death. 
+-   **aVR ST elevation in ACS patients:** Independent predictor of recurrent ischemic events in-hospital, heart failure, and death 
 
 ## Pericarditis
 
 **PR elevation in aVR**
 
 ![](image-2.png)
+
 Suggests subepicardial atrial injury from pericardial inflammation
-*Multilead ST elevation:* Differential diagnosis includes ACS vs pericarditis 
--   Concurrent PR elevation in aVR suggests pericarditis instead of ACS. 
+
+**Multilead ST elevation:** 
+
+- Differential diagnosis includes ACS vs pericarditis 
+- Concurrent PR elevation in aVR suggests pericarditis instead of ACS. 
 
 ## Tricyclic antidepressant (TCA) & TCA-like overdose
 
 **Prominent R wave in aVR**
 
 ![](image-3.png)
+
 -   Classic ECG findings of TCA overdose:
     -   Sinus tachycardia
     -   Widened QRS and QTc interval
-    -   RAD 130-170 degrees
+    -   Right axis deviation 130-170 degrees
     -   Prominent terminal R wave in aVR
 -   Predictor of arrhythmia ([Buckley et al. Crit Care, 2003](http://www.ncbi.nlm.nih.gov/pubmed/12974977)):
-    -   R/S ratio in aVR &gt; 0.7 (PPV = 46%, NPV = 95%)
+    -   R/S ratio in aVR &gt;0.7 (PPV 46%, NPV 95%)
 
-## AVRT in WPW
+## AVRT in Wolff-Parkinson-White (WPW)
 
-**Atroventricular reentry tachycardia (AVRT)**
+**Atroventricular reentry tachycardia**
 
 -   ST elevation in aVR in narrow complex tachycardia
--   Narrow complex tachycardia ddx
-    -   AVNRT
-    -   AVRT
+-   Narrow complex tachycardia ddx:
+    -   AV node reentry tachycardia 
+    -   AV reentry tachycardia
     -   Atrial tachycardia
--   ST elevation in aVR suggestive more of AVRT in WPW (sens 71%, spec 70%)
+-   ST elevation in aVR suggestive more of AVRT in WPW (sensitivity 71%, specificity 70%)
 
 ## Vereckei criteria: VT versus SVT in wide complex tachycardia
 
 **Vereckei criteria:** 
 
--   Only looks at aVR lead. Asks 4 questions. More sensitive and specific to detect ventricular tachycardia (VT) than Brugada criteria.
--   **Criteria looks ONLY at lead aVR** (if answer is yes, then VT):
+- Asks 4 questions. 
+- More sensitive and specific to detect ventricular tachycardia (VT) than Brugada criteria.
+- **Criteria looks ONLY at lead aVR** (if answer is yes, then VT):
 
 1.  Is there an initial R wave?
-2.  Is there a r or q wave &gt; 40 msec? (&gt;1 small box width)
+2.  Is there a r or q wave &gt;40 msec? (&gt;1 small box width)
 3.  Is there a notch on the descending limb of a negative QRS complex?
-4.  Measure the voltage change in the first (vi) and last 40 msec (vt). Is vi / vt &lt; 1?
+4.  Measure the voltage change in the first (vi) and last 40 msec (vt). Is vi / vt &lt;1?
 
 ![](image-4.png)
 
-|         |       |       |     |     |
-|---------|-------|-------|-----|-----|
-|         | Sens. | Spec. | PPV | NPV |
+| Criteria | Sensitivity      | Specificity       | PPV    | NPV    |
+|---------|:-------:|:-------:|:-----:|:-----:|
 | Brugada | 89%   | 73%   | 92% | 67% |
 | Verecki | 97%   | 75%   | 93% | 87% |
 
