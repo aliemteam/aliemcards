@@ -13,6 +13,7 @@ drugs: null
 ---
 
 
+DELETE
 
 # CPR: Mechanical vs Manual
 
