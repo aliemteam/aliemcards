@@ -83,13 +83,13 @@ drugs: null
 | Extension   | No          |
 
 - Small triangular avulsion of anteroinferior vertebral body, at insertion point of anterior longitudinal ligament
-O- ccurs most frequently at C2 level, but can occur in lower cervical spine
-- Complication: central cord syndrome due to ligamentum flavum buckling during hyperextension
+- Occurs most frequently at C2 level, but can occur in lower cervical spine
+- Complication: Central cord syndrome due to ligamentum flavum buckling during hyperextension
 - Requires CT differentiation from very unstable flexion teardrop fracture
 
 ![](image-1.png)
 
-ALL = Anterior Longitudinal Ligament
+(ALL = Anterior Longitudinal Ligament)
 
 ## References
 
