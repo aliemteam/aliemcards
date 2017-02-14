@@ -56,7 +56,7 @@ drugs: null
 
  5-20% of all ankle fractures
 
--   Assoc with syndesmosis instability
+-   Associated with syndesmosis instability
 -   *Stage 1*: Transverse MM fx (or deltoid ligament tear) 
 -   *Stage 2*: ATFL or PTFL tear
 -   *Stage 3*: Transverse fibula fx at or above ankle mortise
@@ -69,13 +69,13 @@ drugs: null
 7-19% of all ankle fractures 
 
 -   Maisonneuve fx is a type of PER injury
--   Assoc with syndesmosis instability
+-   Associated with syndesmosis instability
 -   *Stage 1*: Transverse MM fx (or deltoid ligament tear) 
 -   *Stage 2*: ATFL tear
 -   *Stage 3*: Spiral oblique fibula fx above ankle mortise 
 -   *Stage 4*: PM fx or PTFL tear
--   To diagnose deltoid ligament instability, use “gravity stress” view (lateral portion ofankle rests on xray table to increase medial mortise)
--   Operative repair depends on talar stability under tibial plafond. A 1 mm lateral talarshift causes loss of joint surface contact by 42% --&gt; chronic arthritis complications 
+-   To diagnose deltoid ligament instability, use “gravity stress” view (lateral portion of ankle rests on xray table to increase medial mortise)
+-   Operative repair depends on talar stability under tibial plafond. A 1 mm lateral talar shift causes loss of joint surface contact by 42% --&gt; chronic arthritis complications 
 
 ![](image-5.png)
 
