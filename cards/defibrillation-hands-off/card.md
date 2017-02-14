@@ -13,7 +13,7 @@ drugs: null
 ---
 
 
-
+DELETE
 
 # CPR: Hands-on or Hands-off Defibrillation?
 
