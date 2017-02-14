@@ -18,11 +18,11 @@ drugs: null
 
 # Causes of Elevated Lactate
 
--   High lactate levels associated with worse prognosis in medical and trauma patients
-  -   Level &gt;2 mmol/L is abnormal
-  -   Level &gt;4 mmol/L suggests tissue hypoperfusion
+## High lactate levels associated with worse prognosis in medical and trauma patients
+-   Level &gt;2 mmol/L is abnormal
+-   Level &gt;4 mmol/L suggests tissue hypoperfusion
 
-**Causes for elevation in lactate that is NOT related to shock:**
+## Causes for elevation in lactate that is NOT related to shock
 <table>
 <colgroup>
 <col width="50%" />
