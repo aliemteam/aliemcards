@@ -3,12 +3,12 @@
 title: 'Pediatric Assessment Triangle'
 authors:
     - 'Michelle Reina, MD'
-    - 'Rob Bryant MD'
+    - 'Rob Bryant, MD'
 created: 2013/05/30
 updates: null
 categories:
     - Pediatrics
-    - 'Critical Care'
+    - Critical Care
 drugs: null
 
 ---
@@ -53,12 +53,12 @@ The PAT functions as a rapid, initial assessment to determine “sick” or “n
 | Presentation                   | Appearance   |  Work of breathing      |  Circulation           | Management                                                                                                                                                                      |
 |--------------------------------|--------------|---------------|------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Stable                         | Normal       | Normal        | Normal                 | Specific therapy based on possible etiologies                                                                                                                                   |
-| Respiratory distress           | Normal       | **Abnormal**  | Normal                 | Position of comfort, O2/suction, specific therapy (e.g. albuterol, diphenhydramine, epinephrine), labs/x-rays                                                                   |
-| Respiratory failure            | **Abnormal** | **Abnormal ** | Normal or **Abnormal** | Position head/open airway, BVM, FB removal, advanced airway, labs/x-rays                                                                                                        |
-| Shock (compensated)                   | Normal       | Normal        | **Abnormal**           | O2, peripheral IV, fluid resuscitation, specific therapy based on etiology (antibiotics, surgery, antidysrhythmics), labs/x-rays                                                |
-| Shock (decompensated/hypotensive)                    | **Abnormal** | Normal or **Abnormal**   | **Abnormal**           | O2, vascular access, fluid resuscitation, specific therapy based on etiology (antibiotics, vasopressors, blood products, surgery, antidysrhythmics, cardioversion), labs/x-rays |
-| CNS/Metabolic dysfunction      | **Abnormal** | Normal        | Normal                 | O2, POC glucose, consider other etiologies, labs/x-rays                                                                                                                         |
-| Cardiopulmonary failure/arrest | **Abnormal** | **Abnormal**  | **Abnormal**           | Position head/open airway, BMV with 100% O2, CPR, specific therapy based on etiology (defibrillation, epinephrine, amiodarone), labs/x-rays                                     |
+| Respiratory distress           | Normal       | **ABNORMAL**  | Normal                 | Position of comfort, O2/suction, specific therapy (e.g. albuterol, diphenhydramine, epinephrine), labs/x-rays                                                                   |
+| Respiratory failure            | **ABNORMAL** | **ABNORMAL ** | Normal or **ABNORMAL** | Position head/open airway, BVM, FB removal, advanced airway, labs/x-rays                                                                                                        |
+| Shock (compensated)                   | Normal       | Normal        | **ABNORMAL**           | O2, peripheral IV, fluid resuscitation, specific therapy based on etiology (antibiotics, surgery, antidysrhythmics), labs/x-rays                                                |
+| Shock (decompensated/hypotensive)                    | **ABNORMAL** | Normal or **ABNORMAL**   | **ABNORMAL**           | O2, vascular access, fluid resuscitation, specific therapy based on etiology (antibiotics, vasopressors, blood products, surgery, antidysrhythmics, cardioversion), labs/x-rays |
+| CNS/Metabolic dysfunction      | **ABNORMAL** | Normal        | Normal                 | O2, POC glucose, consider other etiologies, labs/x-rays                                                                                                                         |
+| Cardiopulmonary failure/arrest | **ABNORMAL** | **ABNORMAL**  | **ABNORMAL**           | Position head/open airway, BMV with 100% O2, CPR, specific therapy based on etiology (defibrillation, epinephrine, amiodarone), labs/x-rays                                     |
 
 ## References
 
