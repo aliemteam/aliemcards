@@ -7,7 +7,7 @@ created: 2012/01/20
 updates: null
 categories:
     - Orthopedics
-drugs: null
+drugs: 'penicillins'
 
 ---
 
@@ -31,12 +31,12 @@ drugs: null
 
 -   Start systemic antibiotics ASAP and target gram-positive organisms (eg. **first generation cephalosporins**)
 -   Add **antibiotics for gram-negative coverage** for Type III open fractures
--   Add **high-dose penicillin**, if fecal or potential clostridial contamination (e.g. farm-related injuries)
--   Fluoroquinolones provide no added benefit compared to the cephalosporin + aminoglycoside combination. Fluoroquinolones may impair fracture healing and result in higher infection rates in type III open fractures. 
+-   Add **<span class="drug">high-dose penicillin</span>**, if fecal or potential clostridial contamination (e.g. farm-related injuries)
+-   **Fluoroquinolones** provide no added benefit compared to the **cephalosporin + aminoglycoside** combination. Fluoroquinolones may impair fracture healing and result in higher infection rates in type III open fractures. 
 
 ## Level II Recommendations
 
--   *Type III fractures*: Continue antibiotics x 72 hours post-injury, or not &gt;24 hours after soft tissue coverage achieved
+-   **Type III fractures**: Continue antibiotics x 72 hours post-injury, or not &gt;24 hours after soft tissue coverage achieved
 -   Once-daily aminoglycoside dosing is safe and effective for type II and III fractures 
 
 ## References
