@@ -7,38 +7,38 @@ created: 2012/08/10
 updates: null
 categories:
     - 'Hematology and Oncology'
-drugs: 'coumadin, vitamin K, PCC, FFP, aspirin, clopidogrel,'
+drugs: 'coumadin, vitamin K, PCC, FFP, aspirin, clopidogrel'
 
 ---
 
 
 
-# Overanticoagulation and Supratherapeutic INR
+# Overanticoagulation and Supratherapeutic INR from Warfarin
 
 **ACCP treatment guidelines for managing supratherapeutic INR (2012, 9th ed)**
 
-| **INR**     | **Therapeutic intervention**  |
+| **INR**     | **Therapeutic Intervention**  |
 |-------------|-------------------------------|
-| ≤ 10        | *If no bleeding:* Hold <span class="drug">coumadin</span>. Restart when INR is therapeutic  |
-| &gt; 10     | *If no bleeding*: Hold <span class="drug">coumadin</span>. Give oral <span class="drug">vitamin K</span> (2.5 mg) |
-| Major bleed | Hold <span class="drug">coumadin</span>. Give <span class="drug">vitamin K</span> (5-10 mg slow IVP), 4-factor <span class="drug">PCC</span> (<span class="drug">FFP</span> not of added benefit with <span class="drug">PCC</span>) |
+| ≤10        | ***If no bleeding:*** Hold <span class="drug">coumadin</span>. Restart when INR is therapeutic  |
+| &gt;10     | ***If no bleeding:*** Hold <span class="drug">coumadin</span>. Give oral <span class="drug">vitamin K</span> (2.5 mg) |
+| Major bleed | Hold <span class="drug">coumadin</span>. Give <span class="drug">vitamin K</span> (5-10 mg slow IVP), 4-factor <span class="drug">PCC</span> (<span class="drug">FFP</span> not of added benefit with 4-factor <span class="drug">PCC</span>) |
 
 **Higher bleeding risk associated with coumadin**
 
--   *NSAIDS:* non-selective and COX-2 selective
--   *Antiplatelet agents*: <span class="drug">aspirin</span>, <span class="drug">clopidogrel</span>
--   ***Clotrimoxazole***
--   *Antibiotics* (especially fluoroquinolones)
+-   NSAIDS: non-selective and COX-2 selective
+-   Antiplatelet agents: <span class="drug">aspirin</span>, <span class="drug">clopidogrel</span>
+-   <span class="drug">Clotrimoxazole</span>
+-   Antibiotics (especially <span class="drug">fluoroquinolones</span>)
 
 **Pearl**
 
 -   Risk of intracranial hemorrhage doubles for every 1-point increase in INR
 
-## Causes for supratherapeutic INR &gt; 6
+## Causes for supratherapeutic INR &gt;6
 
 [Hylek et al. JAMA 1998 study](https://www.ncbi.nlm.nih.gov/pubmed/9496982)
 
--   Retrospective case-control study of patients with INR &gt; 6
+-   Retrospective case-control study of patients with INR &gt;6
 -   Enrolled 93 cases, 196 controls
 
 <table>
@@ -59,11 +59,10 @@ drugs: 'coumadin, vitamin K, PCC, FFP, aspirin, clopidogrel,'
 </tr>
 <tr class="even">
 <td><strong></strong>
-<p><span class="drug">Acetaminophen</span> intake  4.5-9.1 g/wk<br />
-  &gt; 9.1 g/wk</p></td>
-<td><br />
-6.8<br />
-10</td>
+<p><span class="drug">Acetaminophen intake</span><br/> • 4.5-9.1 g/wk<br />
+• &gt; 9.1 g/wk</p></td>
+<td>6.8<br />
+10<br /></td>
 </tr>
 <tr class="odd">
 <td>New medication</td>
