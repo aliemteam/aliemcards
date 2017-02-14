@@ -93,41 +93,8 @@ GCS 15 and loss of consciousness in the setting of trauma and:
 
 ([Stein et al. Ann Emerg Med, 2009](http://138.5.157.71/emergency_medicine/documents/head_ct_decision_rules.pdf))
 
-## PECARN: Pediatrics head trauma
-
-**PECARN** =  Pediatric Emergency Care Applied Research Network ([Kuppermann et al. Lancet 2009](http://www.ncbi.nlm.nih.gov/pubmed/19758692))
-
-***Fact***: Risk of CT-documented TBI in children GCS &lt;14 = 20%
-
-**Study details**
-
--   Pre-defined “clinically important traumatic brain injury” (ciTBI) as:
-  - Death from TBI 
-  - Intubation &gt; 24hrs duration
-  - Neurosurgical intervention
-  - Hospital admission ≥ 2 nights
-
--    CT’s obtained in 37% (derivation) and 35% (validation) of enrolled patients
--    Discharged patients’ caregiver called at day #7 and #90 for followup
-
-## Age &lt; 2 years old
-
-![](image-1.png)
-
-## Age ≥ 2 years old
-
-![](image-2.png)
-
-**Severe mechanism of mechanism**
-
-- MVC with patient ejection, death of another passenger
-- Pedestrian or bicyclist without helmet struck by a motorized vehicle
-- Fall >3 ft (age &lt;2 years) or >5 ft (age ≥2 yr)
-- Head struck by a high-impact object
-
 ## References
 
--   [Kuppermann N, Holmes JF, Dayan PS, Hoyle JD Jr, Atabaki SM, Holubkov R, Nadel FM, Monroe D, Stanley RM, Borgialli DA, Badawy MK, Schunk JE, Quayle KS, Mahajan P, Lichenstein R, Lillis KA, Tunik MG, Jacobs ES, Callahan JM, Gorelick MH, Glass TF, Lee LK, Bachman MC, Cooper A, Powell EC, Gerardi MJ, Melville KA, Muizelaar JP, Wisner DH, Zuspan SJ, Dean JM, Wootton-Gorges SL; Pediatric Emergency Care Applied Research Network (PECARN). Identification of children at very low risk of clinically-important brain injuries after head trauma: a prospective cohort study. Lancet. 2009 Oct 3;374(9696):1160-70.](http://www.ncbi.nlm.nih.gov/pubmed/19758692)
 -   [Mower WR, Hoffman JR, Herbert M, Wolfson AB, Pollack CV Jr, Zucker MI; NEXUS II Investigators.Developing a decision instrument to guide computed tomographic imaging of blunt head injury patients. J Trauma. 2005 Oct;59(4):954-9.](http://www.ncbi.nlm.nih.gov/pubmed/?term=Developing+a+decision+instrument+to+guide+computed+tomographic+imaging+of+blunt+head+injury+patients.)
 -   [Stiell IG, Clement CM, Rowe BH, Schull MJ, Brison R, Cass D, Eisenhauer MA, McKnight RD, Bandiera G, Holroyd B, Lee JS, Dreyer J, Worthington JR, Reardon M, Greenberg G, Lesiuk H, MacPhail I, Wells GA.Comparison of the Canadian CT Head Rule and the New Orleans Criteria in patients with minor head injury. JAMA. 2005 Sep 28;294(12):1511-8.](http://www.ncbi.nlm.nih.gov/pubmed/16189364)
 -   [Smits M, Dippel DW, de Haan GG, Dekker HM, Vos PE, Kool DR, Nederkoorn PJ, Hofman PA, Twijnstra A, Tanghe HL, Hunink MG.External validation of the Canadian CT Head Rule and the New Orleans Criteria for CT scanning in patients with minor head injury. JAMA. 2005 Sep 28;294(12):1519-25.](http://www.ncbi.nlm.nih.gov/pubmed/16189365)
