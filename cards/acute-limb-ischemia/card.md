@@ -4,7 +4,7 @@ title: 'Acute Limb Ischemia'
 authors:
     - 'Michelle Lin, MD'
 created: 2010/08/13
-updates:
+updates: 
     - 2017/02/13
 categories:
     - Cardiovascular
@@ -12,15 +12,13 @@ drugs: 'aspirin, heparin'
 
 ---
 
-
-
 # Acute Limb Ischemia
 
 -   True vascular emergency
 -   Golden Window = **6 hours **
 -   Etiologies: 
 
-**Most common:** thromboembolic cause
+**Most common:** Thromboembolic cause
 
 **Less common causes:**
 
@@ -57,8 +55,8 @@ drugs: 'aspirin, heparin'
 | **IIB** | Threatened: Immediate | Salvageable if treated immed. | More than just toes | Mild-mod | Rarely audible | Audible |
 | **III** | Irreversible Limb loss or permanent damage | Profound | Profound | None | None | |
 
--   Ankle brachial index
--   ECG
+-   Ankle brachial index (ABI)
+-   Electrocardiogram
 -   CBC 
 -   Type and screen
 -   Basic metabolic panel
@@ -68,9 +66,9 @@ drugs: 'aspirin, heparin'
 
 ## Imaging
 
--   **First line imaging** - Digital subtraction angiography (DSA)
--   Ultrasound, CT angiography, MR angiography – Not well studied in ALI and loss of time-to-intervention
--   No imaging if unstable patient - Go straight to amputation
+-   **First line imaging** = Digital subtraction angiography (DSA)
+-   Ultrasound, CT angiography, MR angiography – not well studied in ALI and loss of time-to-intervention
+-   No imaging if unstable patient --&gt; go straight to amputation
 
 ## ED treatment
 
