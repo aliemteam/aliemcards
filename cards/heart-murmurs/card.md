@@ -2,7 +2,7 @@
 
 title: 'Murmurs Needing Echocardiography Evaluation'
 authors:
-    - 'Michelle Lin, MD'
+    - 'Amy Kinard, RN'
 created: 2010/09/17
 updates: null
 categories:
@@ -21,8 +21,8 @@ drugs: null
 
 ## Grading of a Murmur
 
-|     |                                                              |
-|-----|--------------------------------------------------------------|
+| **Grade**  |  **Quality and Volume of Murmur**     |
+|:-----:|--------------------------------------------------------------|
 | I   | Faintest murmur that can be heard (with difficulty)          |
 | II  | Murmur also a faint murmur but can be identified immediately |
 | III | Murmur moderately loud                                       |
@@ -45,9 +45,7 @@ Echo can be useful for:
 1.  The evaluation of asymptomatic patients with (murmurs + other abnormal cardiac physical findings) or (murmurs + abnormal EKG or CXR)
 2.  Patients whose symptoms and/or signs are likely non-cardiac in origin but in whom a cardiac basis cannot be excluded by standard evaluation
 
-<!-- -->
-
-##     Class III (Benefit ≥ Risk)
+## Class III (Benefit ≥ Risk)
 
 Echo is NOT recommended for:
 
