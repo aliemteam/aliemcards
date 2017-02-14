@@ -16,7 +16,7 @@ drugs: null
 
 # Legionnaire's Disease
 
-Pneumonia caused by any Legionella species
+Pneumonia caused by any *Legionella* species
 
 **Background**
 
@@ -32,21 +32,22 @@ Pneumonia caused by any Legionella species
 ## Clinical Presentation
 
 Acute presentation of severe community acquired pneumonia (CAP) 
-Classic CXR: Rapidly progressive asymmetrical patchy infiltrates
--   When see this CXR, DDx includes: 
-    1.  Strep pneumoniae in patients with impaired splenic function 
+
+**Classic CXR:** Rapidly progressive asymmetrical patchy infiltrates
+-  The DDx for such a CXR finding includes: 
+    1.  *Strep pneumoniae* in patients with impaired splenic function 
     2.  Legionella
     3.  Zoonotic atypical pathogens (Q fever, tularemia, adenovirus)
 
 Extrapulmonary organ involvement:
--   **CNS:** Mental confusion, encephalopathic, HA
+-   **CNS:** Mental confusion, encephalopathic, headache
 -   **Cardiac:** Relative bradycardia
 -   **GI:** Loose stools/watery diarrhea
 -   **Renal:** Microscopic hematuria, renal insufficiency 
 
-| Temperature    | Appropriate HR | Relative Bradycardia |
+| Temperature    | Appropriate HR (bpm) | Relative Bradycardia (bpm)|
 |----------------|----------------|----------------------|
-| 102°F (38.9°C) | 110 bpm        | &lt; 100 bpm         |
+| 102°F (38.9°C) | 110        | &lt; 100         |
 | 103°F (39.4°C) | 120            | &lt; 110             |
 | 104°F (40.0°C) | 130            | &lt; 120             |
 | 105°F (40.6°C) | 140            | &lt; 130             |
@@ -64,7 +65,7 @@ Extrapulmonary organ involvement:
 
 ## Legionella Diagnostic Triad
 
-| Entry Criteria (Need all 3)            | Key Clinical Feature  | Key Lab Features (Any 3)                 |
+| **Entry Criteria (Need all 3)**            | **Key Clinical Feature**  | **Key Lab Features (Any 3)**                 |
 |------------------------|-----------------------|------------------------|
 | Signs/sx of CAP        | Fever &gt; 102F with  unexplained  relative bradycardia   | Hypophophatemia        |
 | New infiltrate on CXR  |                       | Ferritin&gt; 2x normal |
@@ -80,8 +81,8 @@ Extrapulmonary organ involvement:
 ## Antibiotic Treatment
 
 -   **Macrolides:** First-line agent, although a growing resistance
--   Other Abx: Doxycycline, quinolones 
--   Duration of treatment = 2 weeks
+-   Other antibiotics: Doxycycline, fluoroquinolones 
+-   Duration of treatment: 2 weeks
 
 ## References
 
