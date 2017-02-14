@@ -64,17 +64,21 @@ Early literature suggests that there is a small sub-population who fare well wit
 
 [Etzioni study](https://www.ncbi.nlm.nih.gov/pubmed/?term=￼￼19906059):
 
-Retrospective study of outpatient diverticulitis patients
-*Diverticulitis diagnosis:* By clinical exam, labs, and CT
-*Inclusion criteria*: Outpatient diverticulitis patients
-*Exclusion criteria*: Prior dx of diverticulitis, colorectal cancer, inflammatory bowel dzStudy group: n=693 outpatient diverticulitis patients
-*Result*: 554 (94%) were successfully treated as outpatient.
-*Predictors of treatment failure*:
--   Female: OR = 3.08 \[1.31-7.28\]
--   Free fluid on CT: OR = 3.19 \[1.45-7.05\]
--   WBC, perforation, abscess, phlegmon were not predictive (OR crossed 1.0)
+- Retrospective study of outpatient diverticulitis patients
+- *Diverticulitis diagnosis:* By clinical exam, labs, and CT
+- *Inclusion criteria*: Outpatient diverticulitis patients
+- *Exclusion criteria*: Prior dx of diverticulitis, colorectal cancer, inflammatory bowel dzStudy group: n=693 outpatient diverticulitis patients
+- *Result*: 554 (94%) were successfully treated as outpatient.
+- *Predictors of treatment failure*:
+  -   Female: OR = 3.08 [1.31-7.28]
+  -   Free fluid on CT: OR = 3.19 [1.45-7.05]
+  -   WBC, perforation, abscess, phlegmon were not predictive (OR crossed 1.0)
 
-**Word of caution:** This only provides guidelines, based on the limited evidence out there. Stilluse your **common sense**. Still consider admitting patients who are elderly(&gt;80 years old) or have evidence of any perforation on CT. If on the fence,admit the patient.
+**Words of caution:** 
+- This only provides guidelines, based on the limited evidence out there. 
+- Still use your **common sense**. 
+- Still consider admitting patients who are elderly (&gt;80 years old) or have evidence of any perforation on CT. 
+- If on the fence,admit the patient.
 
 ## References
 
