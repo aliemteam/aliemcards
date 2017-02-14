@@ -32,10 +32,10 @@ drugs: null
 </colgroup>
 <tbody>
 <tr class="odd">
-<td>Closed reduction needed if:<br />
+<td>Urgent closed reduction needed if:<br />
 </td>
 <td><ul>
-<li>&gt; 10°, 20°, 30°, 40°angulation for 2nd-5th MCs, respectively OR<br />
+<li>&gt; 10°, 20°, 30°, 40°angulation for 2nd-5th MCs, respectively, OR<br />
 </li>
 <li>ANY rotational deformity (note scissoring with composite flexion) <br />
 </li>
@@ -55,7 +55,7 @@ Most are nonoperative, especially 3rd and 4th MC because of inter-MC ligaments
 </colgroup>
 <tbody>
 <tr class="odd">
-<td>Closed reduction needed if<br />
+<td>Urgent closed reduction needed if<br />
 </td>
 <td><ul>
 <li>&gt; 10°, 10°, 20°, 20° angulation for 2nd-5th MCs, respectively, OR<br />
@@ -120,7 +120,7 @@ Most are nonoperative, especially 3rd and 4th MC because of inter-MC ligaments
 <li>Typically will need fixation<br />
 </li>
 </ul>
-<em>PEARL:</em> 4th and 5th MC base fractures are frequently fx-dislocations.Check lateral xray to ensure the carpo-MC joint is reduced<br />
+<em>PEARL:</em> 4th and 5th MC base fractures are frequently fx-dislocations. Check lateral xray to ensure the carpo-MC joint is reduced.<br />
 </td>
 </tr>
 </tbody>
@@ -128,7 +128,7 @@ Most are nonoperative, especially 3rd and 4th MC because of inter-MC ligaments
 
 ## Splinting
 
-|  Digit               |  Splint                | Position                             |
+| **Digit               |  Splint                | Position **                            |
 |----------------------|------------------------|--------------------------------------|
 | Thumb                | Thumb splica           | Wrist extension 20°, thumb ABduction |
 | Index, middle finger | Radial gutter or volar | Wrist extension in 20°, MCP flexion in 90°, keep IPs free         |
