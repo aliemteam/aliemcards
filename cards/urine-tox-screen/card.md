@@ -4,7 +4,7 @@ title: 'Urine Toxicology Screen'
 authors:
     - 'Michelle Lin, MD'
 created: 2010/07/22
-updates: null
+updates: 2-17/02/14
 categories:
     - Toxicology
 drugs: 'amantadine, buproprion, chlorpromazine, desipramine, fluoxetine, labetalol, Methylphenidate, Phentermine, Phenylephrine, Phenylpropanolamine, Promethazine, Pseudoephedrine, Ranitidine, Thioridazine, trazodone, oxaprozin, sertraline, Dextromethorphan, Diphenhydramine, Quinine, Rifampin, Verapamil, Ibuprofen, Imipramine, Ketamine, Meperidine, Venlafaxine, Dronabinol, Pantoprazole, oxazepam, diazepam, chlordiazepoxide, alprazolam, clonazepam, lorazepam, morphine, codeine, hydrocodone, hydromorphone, oxycodone, oxymorphone, buprenorphine, fentanyl, methadone, tramadol,'
@@ -86,6 +86,7 @@ Up to 8 days (heavy use)</p></td>
 <p>Ibuprofen</p>
 <p>Imipramine</p>
 <p>Ketamine</p>
+<p>lamitrogine</p> 
 <p>Meperidine</p>
 <p>Thioridazine</p>
 <p>Tramadol</p>
@@ -152,3 +153,4 @@ A negative result doesn't rule out opioid ingestion, and a positive result only 
 ## References
 
 -   [Standridge JB, Adams SM, Zotos AP. Urine drug screening: a valuable office procedure. Am Fam Physician. 2010 Mar 1;81(5):635-40.](http://www.ncbi.nlm.nih.gov/pubmed/20187600)
+-   [Geraci, M.J., Peele, J., McCoy, S.L. et al. Int J Emerg Med. 2010 Nov 3: 327. doi:10.1007/s12245-010-0235-3
