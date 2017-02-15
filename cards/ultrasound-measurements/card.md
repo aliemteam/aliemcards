@@ -22,7 +22,7 @@ drugs: null
 
 | **Item**  | **Normal**  |
 |-------|---------|
-| Diameter | < 3 cm (outer-to-outer) |
+| Diameter | &lt;3 cm (outer-to-outer) |
 | Common iliac artery diameter | &le;6 mm |
 
 ### Bladder
@@ -85,4 +85,4 @@ drugs: null
 ***Structures should be measured by assessing the luminal diameter of the structure, which is inner-to-inner wall except for:***
 
 1. **Aorta** - which requires taking any thrombus or plaque into account
-2. **Biparietal diameter of fetus** - which is measured outer to inner wall of the skull.
+2. **Biparietal diameter of fetus** - which is measured outer to inner wall of the skull
