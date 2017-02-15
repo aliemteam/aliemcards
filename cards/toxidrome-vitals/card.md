@@ -7,7 +7,7 @@ created: 2010/11/19
 updates: null
 categories:
     - Toxicology
-drugs: 'propranolol, propoxyphene, physostigmine, clonidine, digoxin, theophylline, clonidine, aminophylline,'
+drugs: 'propranolol, propoxyphene, physostigmine, clonidine, digoxin, theophylline, clonidine, aminophylline'
 
 ---
 
@@ -65,7 +65,7 @@ drugs: 'propranolol, propoxyphene, physostigmine, clonidine, digoxin, theophylli
 
 ## Hypertension
 
-**CT  SCAN**
+**CT SCAN**
 
 -   **C**ocaine
 -   **T**hyroid supplements
@@ -91,10 +91,6 @@ drugs: 'propranolol, propoxyphene, physostigmine, clonidine, digoxin, theophylli
 -   **L**iquor (alcohols)
 -   **O**pioids
 -   **W**eed (marijuana) 
-
-## Educational videos
-
--   [4 videos by Dr. Rahul Patwari to build your foundation of knowledge in toxicology](http://academiclifeinem.com/patwari-academy-videos-toxicology/)
 
 ## References
 
