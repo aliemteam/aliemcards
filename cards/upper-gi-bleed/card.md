@@ -8,7 +8,7 @@ updates: null
 categories:
     - Gastroenterology
     - EBM
-drugs: 'aspirin, warfarin, octreotide'
+drugs: null
 
 ---
 
