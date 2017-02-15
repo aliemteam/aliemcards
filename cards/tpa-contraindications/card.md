@@ -1,6 +1,6 @@
 ---
 
-title: 'Contraindications for Thrombolytics'
+title: '2013 AHA Guidelines: Contraindications for Thrombolytics'
 authors:
     - 'Michelle Lin, MD'
 created: 2010/09/10
@@ -13,16 +13,17 @@ drugs: TPA
 
 
 
-# Stroke: Contraindications for Thrombolytics
+# Stroke: 2013 AHA Guidelines on Contraindications for Thrombolytics
 
 **INCLUSION CRITERIA**
 
 1.  Diagnosis of ischemic stroke causing measurable neurologic deficit
-2.  Age ≥ 18 years
+2.  Age ≥18 years
 
 ## 0-3 hours from symptom onset
 
 ### Absolute Exclusion Criteria
+
 -   Significant head trauma or prior stroke in previous 3 months
 -   Symptoms suggest subarachnoid hemorrhage
 -   Arterial puncture at noncompressible site in previous 7 days
@@ -45,14 +46,15 @@ drugs: TPA
 -   Recent GI or urinary tract hemorrhage within previous 21 days
 -   Recent acute MI within previous 3 months
 
-## 3-4.5 hours from symptom Onset
+## 3-4.5 hours from symptom onset
 
 ### Absolute Exclusion Criteria
-*List is same as for 0-3 hour time frame above* **PLUS** *any of the following*:
--   Age &gt; 80 years
--   Severe stroke (NIHSS &gt; 25)
+
+***List is same as for 0-3 hour time frame above PLUS any of the following***:
+-   Age &gt;80 years
+-   Severe stroke (NIHSS &gt;25)
 -   Taking oral anticoagulant regardless of INR
--   History of both diabetes AND prior ischemic stroke
+-   History of both diabetes mellitus AND prior ischemic stroke
 
 ## References
 
