@@ -16,16 +16,16 @@ drugs: null
 
 # Cholecystitis - Diagnostic tests
 
-**Meta-analysis of 17 studies which evaluated role of history, physical, and lab tests in working up cholecystitis**
-
+**JAMA Clinical Rational Examination Series:**
+Meta-analysis of 17 studies which evaluated role of history, physical, and lab tests in working up cholecystitis
 
 ## History and Physical Exam
 
-| **Finding** | **+LR** | **-LR** |
-|-------------|----------|----------|
+| **Finding** | **(+) LR** | **(-) LR** |
+|-------------|:----------:|:----------:|
 | Anorexia | 1.1-1.7 | 0.5-0.9 |
 | Emesis | 1.1-2.1 | 0.3-0.9 |
-| Fever (&gt; 35C) | 1.0-2.3 | 0.8-1.0 |
+| Fever (&gt;35C) | 1.0-2.3 | 0.8-1.0 |
 | Guarding | 1.1-2.8 | 0.5-1.0 |
 | Murphy sign | 0.8-8.6 | 0.2-1.0 |
 | Nausea | 1.0-1.2 | 0.6-1.0 |
@@ -39,18 +39,18 @@ drugs: null
 
 ## Laboratory tests
 
-| **Finding** | **+LR** | **-LR** |
-|-------------|----------|----------|
-| Alkaline phosphatase (AP) &gt; 120 U/L | 0.4-1.6 | 0.6-2.0 |
-| ALT &gt; 40 U/L or AST &gt; 48 U/L | 0.5-2.0 | 0.8-1.4 |
-| Total bilirubin &gt; 2 mg/dL | 0.7-2.3 | 0.7-1.2 |
-| All 3 elevated:<br>Total bili, AST, AP | 1.0-2.8 | 0.8-0.9 |
-| Any 1 elevated <br>Total bili, AST, AP | 1.0-1.5 | 0.6-0.9 |
-| WBC &gt; 10K | 1.2-1.9 | 0.5-1.8 |
-| WBC &gt; 10K and fever (&gt; 35C) | 0.9-2.8 | 0.8-1.0 |
-| WBC ≤ 10K and no fever (≤ 35C) | 0.4-0.7 | 1.4-1.8 |
+| **Finding** | **(+) LR** | **(-) LR** |
+|-------------|:----------:|:----------:|
+| Alkaline phosphatase (AP) &gt;120 U/L | 0.4-1.6 | 0.6-2.0 |
+| ALT &gt;40 U/L or AST &gt;48 U/L | 0.5-2.0 | 0.8-1.4 |
+| Total bilirubin &gt;2 mg/dL | 0.7-2.3 | 0.7-1.2 |
+| All 3 elevated: Total bili, AST, AP | 1.0-2.8 | 0.8-0.9 |
+| Any 1 elevated: Total bili, AST, AP | 1.0-1.5 | 0.6-0.9 |
+| WBC &gt;10K | 1.2-1.9 | 0.5-1.8 |
+| WBC &gt;10K and fever (&gt;35C) | 0.9-2.8 | 0.8-1.0 |
+| WBC ≤10K and no fever (≤35C) | 0.4-0.7 | 1.4-1.8 |
 
-\* See Bayes nomogram
+Use the Fagan nomogram
 
 **Note:**
 
@@ -68,9 +68,10 @@ Have a **low threshold** to perform a RUQ abdominal bedside ultrasonography for 
 -   Thickened gallbladder wall 
 -   Gallstones
 
-## Bayes nomogram
+## Fagan nomogram
 
 ![](image-1.png)
+
 Draw a connecting your pre-test probability and your likelihood ratio. This provides you with your post-test probability.
 
 ## References
