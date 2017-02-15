@@ -31,44 +31,28 @@ It is difficult to determine if a patient with a left bundle branch block (LBBB)
 -   Use as another data point in risk-stratifying these complex patients with LBBB
 -   Sgarbossa criteria applies also for LBBB pattern seen in pacemaker patients
 
-<table>
-  <tr>
-    <th>Sgarbossa Criteria</th>
-    <th>Example</th>
-  </tr>
-  <tr>
-    <td>
-      ST elevation ≥ 1 mm concordant with QRS complex
-      <ul>
-        <li>Most predictive of AMI</li>
-        <li>+ LR: 9.54 (3.1-17.3)</li>
-        <li>- LR: 0.3 (0.22-0.39)</li>
-      </ul>
-    </td>
-    <td>![](image-1.png)</td>
-  </tr>
-  <tr>
-    <td>
-      ST depression ≥ 1 mm in lead V1, V2, V3
-      <ul>
-        <li>+ LR: 6.58 (2.6-16.1)</li>
-        <li>- LR: 0.78 (0.7-0.87)</li>
-      </ul>
-    </td>
-    <td>![](image-2.png)</td>
-  </tr>
-  <tr>
-    <td>
-      ST elevation ≥ 5 mm where discordant with QRS complex
-      <ul>
-        <li>May not be significant as the +LR crosses 1.0</li>
-        <li>+ LR: 3.42 (0.18-6.5)</li>
-        <li>- LR: 0.8 (0.72-0.9)</li>
-      </ul>
-    </td>
-    <td>![](image-3.png)</td>
-  </tr>
-</table>
+## 1. ST elevation ≥ 1 mm concordant with QRS complex
+
+  - Most predictive of AMI
+  - \+ LR: 9.54 (3.1-17.3)
+  - \- LR: 0.3 (0.22-0.39)
+
+![](image-1.png)
+
+## 2. ST depression ≥ 1 mm in lead V1, V2, V3
+
+  - \+ LR: 6.58 (2.6-16.1)
+  - \- LR: 0.78 (0.7-0.87)
+
+![](image-2.png)
+
+## 3. ST elevation ≥ 5 mm where discordant with QRS complex
+
+  - May not be significant as the +LR crosses 1.0
+  - \+ LR: 3.42 (0.18-6.5)
+  - \- LR: 0.8 (0.72-0.9)
+
+![](image-3.png)
 
 
 *ECG tracings courtesy of [ems12lead.blogpost.com](http://ems12lead.blogpost.com)*
