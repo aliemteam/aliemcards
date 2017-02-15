@@ -4,8 +4,8 @@ title: 'Urine Toxicology Screen'
 authors:
     - 'Michelle Lin, MD'
 created: 2010/07/22
-updates: 2-17/02/14
-categories:
+updates: 2017/02/14
+cateories:
     - Toxicology
 drugs: 'amantadine, buproprion, chlorpromazine, desipramine, fluoxetine, labetalol, Methylphenidate, Phentermine, Phenylephrine, Phenylpropanolamine, Promethazine, Pseudoephedrine, Ranitidine, Thioridazine, trazodone, oxaprozin, sertraline, Dextromethorphan, Diphenhydramine, Quinine, Rifampin, Verapamil, Ibuprofen, Imipramine, Ketamine, Meperidine, Venlafaxine, Dronabinol, Pantoprazole, oxazepam, diazepam, chlordiazepoxide, alprazolam, clonazepam, lorazepam, morphine, codeine, hydrocodone, hydromorphone, oxycodone, oxymorphone, buprenorphine, fentanyl, methadone, tramadol,'
 
