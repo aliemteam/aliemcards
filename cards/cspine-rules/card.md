@@ -20,13 +20,12 @@ drugs: null
 
 The National Emergency X-radiography Utilization Study (NEXUS) and Canadian C-spine Rules (CCR) are both validated studies which both quote a high sensitivity (over 99%) in detecting clinically significant cervical spine fractures. Both studies primarily used plain films in evaluating their patients.
 
-|                 |             |             |
-|-----------------|-------------|-------------|
-|                 | Sensitivity | Specificity |
-| **NEXUS study** | 99.6%       | 12.6%       |
-| **CCR study**   | 99.4%       | 45.1%       |
+| Study          | Sensitivity     | Specificity       |            
+|-----------------|:-------------:|:-------------:|
+| **NEXUS** | 99.6%       | 12.6%       |
+| **Canadian C-spine Rules**   | 99.4%       | 45.1%       |
 
-## Nexus study 
+## NEXUS study 
 
 A patient's neck can be clinically cleared safely without radiographic imaging if all five low-risk conditions are met:
 
@@ -34,7 +33,7 @@ A patient's neck can be clinically cleared safely without radiographic imaging i
 2.  No focal neurologic deficit
 3.  Normal level of alertness
 4.  No evidence of intoxication
-5.  No clinically apparent, painful <span class="aglmd-moreinfo ui-moreinfo" data-iid="53aa2472d35d3ae92e0016b1">distracting injury</span>
+5.  No clinically apparent, painful distracting injury
 
 ## Canadian C-spine Rules (CCR)
 
@@ -45,9 +44,7 @@ The basic approach in the flow-chart: 
 3.  If there are no high-risk findings, check to see if the patient qualifies as a low-risk candidate where you might be able to clinically clear the c-spine without imaging.
 4.  If the patient is neither high or low risk, then the patient is moderate risk and requires imaging.
 
-***NOTE: ***Where the flowcharts says "obtain plain films" (as was done in the CCR study), today physicians often go to CT imaging instead of plain films because of the lower sensitivity of plain films.
-
-![](image-1.png)
+![](image-2.png)
 
 ## References
 
