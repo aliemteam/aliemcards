@@ -2,7 +2,7 @@
 
 title: 'ECG Electrolyte Imbalance'
 authors:
-    - 'Michelle Lin, MD'
+    - 'Steve Field, MD'
 created: 2012/09/21
 updates: null
 categories:
@@ -19,31 +19,31 @@ drugs: null
 
 ![](image-1.png)
 
-Image from [Life in the Fast Lane](image-2.gif)
+Image courtesy of [Life in the Fast Lane](image-2.gif)
 
 **PR Interval**
 
 | Short | Prolonged |
 |-------|-----------|
-| pre-excitation, e.g. Wolff-Parkinson-White | High K <br>Low Ca |
+| Pre-excitation, e.g. Wolff-Parkinson-White | High K, Low Ca |
 
 **QRS Duration**
 
 | Narrow | Wide |
 |-------|-----------|
-| Low K <br> Low Ca <br>Normal | High K <br>High Ca |
+| Low K, Low Ca, Normal | High K, High Ca |
 
 **QTc Interval**
 
 | Short | Prolonged |
 |-------|-----------|
-| High Ca | Low K <br>Low Ca |
+| High Ca | Low K, Low Ca |
 
 **ST Segment**
 
 | Depressed | Elevated |
 |-------|-----------|
-| Low K <br>High Ca | High K |
+| Low K, High Ca | High K |
 
 **T Wave**   
 
@@ -55,13 +55,13 @@ Image from [Life in the Fast Lane](image-2.gif)
 
 | Absent | Present |
 |-------|-----------|
-| Normal | Low K <br>Low Ca |
+| Normal | Low K, Low Ca |
 
 **Heart Rate**   
 
 | Slow | Fast |
 |-------|-----------|
-| High K | Low K |                                                                        
+| High K, High Ca | Low K, Low Ca |                                                                        
 
 ## Electrolyte Imbalances
 
@@ -122,7 +122,7 @@ Image from [Life in the Fast Lane](image-2.gif)
 </tbody>
 </table>
 
-**Magnesium derangements:**
+**Magnesium Derangements:**
 
 -   Nonspecific ECG findings
 -   Often co-exists with Ca derangements

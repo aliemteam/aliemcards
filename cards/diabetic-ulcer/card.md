@@ -27,13 +27,18 @@ drugs: null
 
 ## Physical Exam of DM leg ulcer
 
-**Ulcer type:** Difficult to distinguish ulcer secondary to DM vs vascular insufficiency
+**Ulcer type:** Difficult to distinguish ulcer secondary to diabetic vs vascular insufficiency
+
+**Classic ulcer location and appearance**:
+
 -   **Venous ulcer**: Above medial/lateral malleoli, irregular borders
 -   **Arterial ulcer**: Affects toes or shins, pale/punched out borders, painful
--   **DM ulcer**: Areas of increased pressure (plantar foot, shoe friction areas)
+-   **Diabetic ulcer**: Areas of increased pressure (plantar foot, shoe friction areas)
 
 **Probe-to-Bone test:** Using a sterile, blunt, stainless steel probe, push against ulcerbase to see if can contact hard, gritty structure (bone)
+
 **Measure ulcer area**: Multiply greatest width by greatest length of ulcer
+
 **Wagner grading scale of ulcers**
 
 -   Grade 0 – No open lesions; may have evidence of healed lesions/deformitities
@@ -47,21 +52,23 @@ drugs: null
 
 ## Bottom Line
 
--   Best positive predictors of osteomyelitis of DM leg ulcer are: 
+**Best positive predictors of osteomyelitis of diabetic leg ulcer are:** 
 
 1.  Probe-to-bone test
-2.  Ulcer area &gt; 2 cm2
-3.  ESR &gt; 70 mm/hr
+2.  Ulcer area &gt;2 cm2
+3.  ESR &gt;70 mm/hr
 
--   Best negative predictor is MRI foot (sensitivity 90%, specificity 83%)
+**Best negative predictor is MRI foot**
+- Sensitivity 90%
+- Specificity 83%
 
-| **Finding**                          | **+LR\*** | **-LR\*** |
-|--------------------------------------|-----------|-----------|
+| **Finding**                          | **(+) LR** | **(-) LR** |
+|--------------------------------------|:-----------:|:-----------:|
 | Erythema, swelling, purulence        | 1.5       | 0.84      |
 | Positive probe-to-bone test          | **6.4**   | 0.39      |
-| Ulcer area (LxW) &gt; 2 cm2          | **7.2**   | 0.48      |
+| Ulcer area (LxW) &gt;2 cm2          | **7.2**   | 0.48      |
 | Clinical gestalt+/- Wagner grade     | 5.5       | 0.54      |
-| ESR &gt; 70 mm/h                     | **11**    | 0.34      |
+| ESR &gt;70 mm/h                     | **11**    | 0.34      |
 | Plain film evidence of osteomyelitis | 2.3       | 0.63      |
 | MRI foot                             | 3.8       | **0.14**  |
 
@@ -69,9 +76,10 @@ drugs: null
 -   Serum WBC and soft tissue swab culture = not diagnostic
 -   Soft tissue culture: Identified same pathogens as bone culture only 19-36% isolates. Not reliably predictive. 
 
-## Bayes Nomogram
+## Fagan Nomogram
 
 ![](image-1.png)
+
 Draw a connecting your pre-test probability and your likelihood ratio. This provides you with your post-test probability.
 
 ## References
