@@ -2,7 +2,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import About from '../About';
 
-jest.mock('react-router');
+jest.mock('react-router-dom');
 
 describe('<About />', () => {
   it('should render correctly', () => {

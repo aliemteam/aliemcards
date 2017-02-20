@@ -3,7 +3,7 @@ import { mount } from 'enzyme';
 import { post } from 'axios';
 import Category from '../Category';
 
-jest.mock('react-router');
+jest.mock('react-router-dom');
 jest.mock('axios');
 
 const MOCK_RESPONSES = {

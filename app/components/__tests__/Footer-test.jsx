@@ -2,7 +2,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import Footer from '../Footer';
 
-jest.mock('react-router');
+jest.mock('react-router-dom');
 
 describe('<Footer />', () => {
   it('should render correctly', () => {

@@ -1,5 +1,9 @@
 import React from 'react';
-import { BrowserRouter, Match, Miss } from 'react-router';
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch
+} from 'react-router-dom';
 import WebFont from 'webfontloader';
 
 import lazyLoad from './utils/LazyLoad';
@@ -43,21 +47,23 @@ const App = props => (
   <div className="row row--stacked main">
     <Header {...props} />
     <main className="content" role="main">
-      <Match exactly pattern="/" component={Home} />
-      <Match exactly pattern="/cards" component={Cards} />
-      <Match pattern="/cards/:id" component={Card} />
-      <Match exactly pattern="/categories" component={Categories} />
-      <Match pattern="/categories/:category" component={Category} />
-      <Match pattern="/about" component={About} />
-      <Match pattern="/contact" component={Contact} />
-      <Miss component={FourOhFour} />
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/cards" component={Cards} />
+        <Route path="/cards/:id" component={Card} />
+        <Route exact path="/categories" component={Categories} />
+        <Route path="/categories/:category" component={Category} />
+        <Route path="/about" component={About} />
+        <Route path="/contact" component={Contact} />
+        <Route component={FourOhFour} />
+      </Switch>
     </main>
     <Footer />
   </div>
 );
 
 export default () => (
-  <BrowserRouter>
-    <Match pattern="/" component={App} />
-  </BrowserRouter>
+  <Router>
+    <Route path="/" component={App} />
+  </Router>
 );

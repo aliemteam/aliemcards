@@ -6,8 +6,8 @@ import marked from 'marked';
 export default class Card extends PureComponent {
 
   static propTypes = {
-    params: PropTypes.shape({
-      id: PropTypes.string,
+    match: PropTypes.shape({
+      params: { id: PropTypes.string },
     }).isRequired,
   }
 
@@ -27,14 +27,14 @@ export default class Card extends PureComponent {
   }
 
   componentDidMount() {
-    this.getCard(this.props.params.id);
+    this.getCard(this.props.match.params.id);
   }
 
   componentWillReceiveProps(nextProps) {
-    if (nextProps.params.id === this.props.params.id) {
+    if (nextProps.match.params.id === this.props.match.params.id) {
       return;
     }
-    this.getCard(nextProps.params.id);
+    this.getCard(nextProps.match.params.id);
   }
 
   getCard(cardId) {
