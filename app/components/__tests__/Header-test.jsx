@@ -2,7 +2,7 @@ import React from 'react';
 import { mount } from 'enzyme';
 import Header from '../Header';
 
-jest.mock('react-router');
+jest.mock('react-router-dom');
 
 const setup = () => {
   const component = mount(

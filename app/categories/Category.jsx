@@ -6,8 +6,8 @@ import CardList from '../cards/CardList';
 export default class Category extends PureComponent {
 
   static propTypes = {
-    params: PropTypes.shape({
-      category: PropTypes.string,
+    match: PropTypes.shape({
+      params: PropTypes.shape({ category: PropTypes.string }),
     }).isRequired,
   }
 
@@ -25,7 +25,7 @@ export default class Category extends PureComponent {
   }
 
   componentDidUpdate(prevProps) {
-    if (this.props.params.category !== prevProps.params.category) this.getCategory();
+    if (this.props.match.params.category !== prevProps.match.params.category) this.getCategory();
   }
 
   getCategory() {
@@ -44,7 +44,7 @@ export default class Category extends PureComponent {
           name
         }
       }`,
-      variables: { category: this.props.params.category },
+      variables: { category: this.props.match.params.category },
     })
     .then(res => {
       if (res.status !== 200) throw res.status;
