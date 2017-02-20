@@ -27,8 +27,6 @@ if (isDevelopment) {
   app.use(require('webpack-hot-middleware')(compiler));
 }
 
-// app.use(express.static(join(__dirname, 'dist'), { maxAge: 31557600000 })); // 1 year
-
 app.use('/graphql', graphqlHTTP({
   schema,
   graphiql: isDevelopment,
@@ -45,10 +43,10 @@ app.post('/contact', jsonParser, (req, res) => {
   .catch((e: Error) => res.status(502).send(e.message));
 });
 
-app.use(express.static(join(__dirname, 'dist'), { maxAge: 31557600000 })); // 1 year
+app.use(express.static(join(__dirname, 'app'), { maxAge: 31557600000 })); // 1 year
 
-// app.get('*', (_, res) => {
-//   res.sendFile(join(__dirname, 'app', 'index.html'), { maxAge: 31557600000 }); // 1 year
-// });
+app.get('*', (_, res) => {
+  res.sendFile(join(__dirname, 'app', 'index.html'), { maxAge: 31557600000 }); // 1 year
+});
 
 app.listen(process.env.PORT || 3000);
