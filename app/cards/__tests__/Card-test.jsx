@@ -8,7 +8,7 @@ jest.mock('../CardList');
 
 const setup = () => {
   const component = mount(
-    <Card params={{ id: 'test-card-id' }} />
+    <Card match={{ params: { id: 'test-card-id' } }} />
   );
   return {
     component,
