@@ -7,7 +7,7 @@ export default class Category extends PureComponent {
 
   static propTypes = {
     match: PropTypes.shape({
-      params: { category: PropTypes.string },
+      params: PropTypes.shape({ category: PropTypes.string }),
     }).isRequired,
   }
 
@@ -25,7 +25,7 @@ export default class Category extends PureComponent {
   }
 
   componentDidUpdate(prevProps) {
-    if (this.props.match.params.category !== prevProps.params.category) this.getCategory();
+    if (this.props.match.params.category !== prevProps.match.params.category) this.getCategory();
   }
 
   getCategory() {
