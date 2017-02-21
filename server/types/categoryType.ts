@@ -1,17 +1,16 @@
-const {
+import {
   GraphQLNonNull,
   GraphQLObjectType,
   GraphQLString,
-} = require('graphql');
+} from 'graphql';
+import { RootContext } from '../schema';
 
-/**
- * categoryType has the following shape:
- *   type Category {
- *     id: String!
- *     name: String
- *   }
- */
-module.exports = new GraphQLObjectType({
+export interface Category {
+  id: string;
+  name: string;
+}
+
+export const categoryType = new GraphQLObjectType(<RootContext>{
   name: 'Category',
   description: 'A single category',
   fields: () => ({
