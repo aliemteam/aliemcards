@@ -47,10 +47,6 @@
   dependencies:
     "@types/node" "*"
 
-"@types/fuse@^2.5.1":
-  version "2.5.1"
-  resolved "https://registry.yarnpkg.com/@types/fuse/-/fuse-2.5.1.tgz#d154acf6a6c19e0920b9f41a6f0632eb26578075"
-
 "@types/graphql@^0.8.6":
   version "0.8.6"
   resolved "https://registry.yarnpkg.com/@types/graphql/-/graphql-0.8.6.tgz#b34fb880493ba835b0c067024ee70130d6f9bb68"
@@ -3451,9 +3447,9 @@ function.prototype.name@^1.0.0:
     function-bind "^1.1.0"
     is-callable "^1.1.2"
 
-fuse.js@2.5.0:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/fuse.js/-/fuse.js-2.5.0.tgz#98295c2ac1684edbba22250d7049cb6f033e95ce"
+fuse.js@^2.6.2:
+  version "2.6.2"
+  resolved "https://registry.yarnpkg.com/fuse.js/-/fuse.js-2.6.2.tgz#d5d994fda96f543b5a51df38b72cec9cc60d9dea"
 
 gauge@~2.7.1:
   version "2.7.3"
