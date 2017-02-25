@@ -19,7 +19,11 @@ $now -C \
 deployment_id=$($now -t "$NOW_TOKEN" ls aliemcards | head -n 5 | tail -n 1 | awk '{print $1}')
 
 # Move the URL symbolic link to the new deploy
-$now -C -t "$NOW_TOKEN" ln "$deployment_id" aliemcards
+$now -C \
+     -t "$NOW_TOKEN" \
+     ln set "$deployment_id" aliemcards
 
 # Remove the old version
-$now -t "$NOW_TOKEN" rm -y "$existing_id"
+if [ "$existing_id" != '>' ]; then
+  $now -t "$NOW_TOKEN" rm -y "$existing_id"
+fi

@@ -2,7 +2,7 @@
   "name": "aliemcards",
   "version": "0.2.0",
   "description": "ALiEM Cards deployment scripts and website code.",
-  "main": "./index.js",
+  "main": "./dist/index.js",
   "author": "Jeremy Voros",
   "license": "ISC",
   "scripts": {
