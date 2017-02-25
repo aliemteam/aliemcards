@@ -18,7 +18,6 @@ export default class Card extends PureComponent {
       categories: [],
       content: '',
       created: null,
-      drugs: null,
       id: '',
       title: '',
       updates: [],
