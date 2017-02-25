@@ -31,8 +31,7 @@
     "typescript": "next"
   },
   "devDependencies": {
-    "@types/axios": "^0.9.35",
-    "@types/body-parser": "^0.0.33",
+    "@types/body-parser": "^0.0.34",
     "@types/compression": "^0.0.33",
     "@types/express": "^4.0.35",
     "@types/express-graphql": "^0.0.33",
@@ -61,7 +60,7 @@
     "gulp-stylus": "^2.6.0",
     "gulp-util": "^3.0.8",
     "html-webpack-plugin": "^2.28.0",
-    "jest": "^18.1.0",
+    "jest": "^19.0.2",
     "marked": "^0.3.6",
     "now": "^4.5.6",
     "offline-plugin": "^4.6.1",

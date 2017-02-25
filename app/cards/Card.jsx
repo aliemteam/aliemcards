@@ -7,7 +7,7 @@ export default class Card extends PureComponent {
 
   static propTypes = {
     match: PropTypes.shape({
-      params: { id: PropTypes.string },
+      params: PropTypes.shape({ id: PropTypes.string }),
     }).isRequired,
   }
 
