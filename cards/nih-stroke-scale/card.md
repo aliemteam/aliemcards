@@ -4,7 +4,8 @@ title: 'NIH Stroke Scale'
 authors:
     - 'Michelle Lin, MD'
 created: 2010/02/06
-updates: 2017/02/24
+updates: 
+  - 2017/02/24
 categories:
     - Neurology
 drugs: null
@@ -29,7 +30,7 @@ drugs: null
   </tr>
   <tr>
     <td>1a. Level of consciousness<br>
-    accessed while taking history</td><br>
+    assessed while taking history</td><br>
     <td>   
       <ul>
         <li>0 = Alert; keenly responsive</li>
