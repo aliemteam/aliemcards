@@ -4,8 +4,8 @@ title: 'NIH Stroke Scale'
 authors:
     - 'Michelle Lin, MD'
 created: 2010/02/06
-updates: 
-  - 2017/02/24
+updates: null
++updates: 2017/02/24
 categories:
     - Neurology
 
