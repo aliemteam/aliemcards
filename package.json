@@ -9,7 +9,7 @@
     "test": "jest --coverage && npm run lint",
     "dev": "gulp __build && node ./dist/index.js",
     "deploy": "torus run ./deploy",
-    "start": "NODE_ENV=production node ./dist/index.js",
+    "start": "node ./dist/index.js",
     "lint": "npm run lint:tslint && npm run lint:eslint && npm run lint:stylint",
     "lint:tslint": "tslint -e \"node_modules/**/*\" \"**/*.+(ts|tsx)\" -c \"./tslint.json\" -t codeFrame",
     "lint:eslint": "eslint -f codeframe \"app/**/*.{js,jsx}\" \"server/schema.js\" \"index.js\"",
@@ -17,6 +17,13 @@
     "s3": "aws s3 sync ./cards s3://aliemcards --acl public-read --exclude \".*\" --exclude \"*/.*\" --exclude \"*/*.md\" --delete; fi",
     "now-build": "echo build step skipped",
     "build": "gulp __build && NODE_ENV=production webpack"
+  },
+  "now": {
+    "name": "aliemcards",
+    "alias": "aliemcards",
+    "env": {
+      "NODE_ENV": "production"
+    }
   },
   "dependencies": {
     "axios": "^0.15.0",
