@@ -11,4 +11,4 @@ $now -C \
     "$(pwd)"
 
 # Move the URL symbolic link to the new deploy
-$now "-C -t $NOW_TOKEN alias"
+$now -C -t "$NOW_TOKEN" alias
