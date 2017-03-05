@@ -19,8 +19,8 @@
     "build": "gulp __build && NODE_ENV=production webpack"
   },
   "now": {
-    "name": "aliemcards",
     "alias": "aliemcards",
+    "name": "aliemcards",
     "env": {
       "NODE_ENV": "production"
     }
