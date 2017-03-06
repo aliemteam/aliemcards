@@ -2,12 +2,12 @@
 
 title: 'Delayed Sequence Intubation'
 authors:
-    - 'Michelle Lin, MD'
+    - Michelle Lin, MD
 created: 2012/08/31
--updates: null
-+updates: 2017/03/02
+updates:  
+    - 2017/03/02
 categories:
-    - 'Critical Care'
+    - critical care
     - Procedures
 drugs: ketamine
 
