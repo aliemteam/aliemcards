@@ -80,7 +80,7 @@
     "style-loader": "^0.13.1",
     "stylint": "^1.5.9",
     "stylus": "^0.54.5",
-    "stylus-loader": "^2.5.0",
+    "stylus-loader": "^3.0.1",
     "svg-react-loader": "next",
     "ts-node": "^2.0.0",
     "tslint": "^4.4.2",
