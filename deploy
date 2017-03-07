@@ -2,24 +2,15 @@
 
 now="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/node_modules/.bin/now"
 
-npm run build || { echo 'Build step failed.' ; exit 1; }
+npm run build || { echo 'Build step failed.'; exit 1; }
 
-# Grab the deploy ID from the running site
-existing_id=$($now -t "$NOW_TOKEN" ls aliemcards | tail -n 2 | head -n 1 | awk '{print $1}')
+$now -t "$NOW_TOKEN" rm -y aliemcards
 
 # Deploy changes to a fresh URL
 $now -C \
     -t "$NOW_TOKEN" \
-    -n aliemcards \
-    -e NODE_ENV='production' \
     -e ALIEM_API_KEY="$ALIEM_API_KEY" \
     "$(pwd)"
 
-# Get the deploy ID of the fresh deploy
-deployment_id=$($now -t "$NOW_TOKEN" ls aliemcards | head -n 5 | tail -n 1 | awk '{print $1}')
-
 # Move the URL symbolic link to the new deploy
-$now -C -t "$NOW_TOKEN" ln "$deployment_id" aliemcards
-
-# Remove the old version
-$now -t "$NOW_TOKEN" rm -y "$existing_id"
+$now -C -t "$NOW_TOKEN" alias

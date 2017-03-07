@@ -30,7 +30,6 @@ export interface SingleCardJSON {
   categories: Array<keyof CategoryJSON>;
   content: string;
   created: number;
-  drugs: string[]|null;
   id: string;
   title: string;
   updates: number[]|null;
@@ -91,23 +90,13 @@ const queryType = new GraphQLObjectType(<RootContext>{
           type: GraphQLString,
           description: '(optional) Return cards that contain this category.',
         },
-        drug: {
-          type: GraphQLString,
-          description: '(optional) Return cards that contain this drug.',
-        },
       },
-      resolve: (_root, { category, drug }, context) => {
+      resolve: (_root, { category }, context) => {
         const cards = Object.values(context.entities.cards);
-        if (!category && !drug) { return cards; }
-        if (!category && drug) {
-          return cards.filter(c => c.drugs && c.drugs.indexOf(drug) !== -1);
-        }
-        if (category && !drug) {
+        if (category) {
           return cards.filter(c => c.categories.indexOf(category) !== -1);
         }
-        return cards.filter(c => (
-          (c.categories.indexOf(category) !== -1) && (c.drugs && c.drugs.indexOf(drug) !== -1)
-        ));
+        return cards;
       },
     },
     card: {

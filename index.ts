@@ -1,4 +1,4 @@
-import * as axios from 'axios';
+import axios from 'axios';
 import * as bodyParser from 'body-parser';
 import * as compression from 'compression';
 import * as express from 'express';
