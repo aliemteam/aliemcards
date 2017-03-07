@@ -80,7 +80,6 @@ interface CardMeta {
   authors: string[];
   categories: string[];
   created: string;
-  drugs: string|null; // FIXME: This should be an array
   title: string;
   updates: string[]|null;
 }
@@ -89,7 +88,6 @@ function buildCardObject(filename: string, meta: CardMeta, content: string): Sin
   return {
     title: meta.title,
     id: filename,
-    drugs: (meta.drugs) ? meta.drugs.split(', ') : null,
     categories: meta.categories,
     authors: meta.authors,
     created: +new Date(meta.created),

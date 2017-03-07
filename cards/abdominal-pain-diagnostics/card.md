@@ -4,12 +4,13 @@ title: 'Abdominal Pain - Diagnostic Studies'
 authors:
     - 'Michelle Lin, MD'
 created: 2011/07/22
-updates: null
+updates:
+    - 2017/02/21
 categories:
     - Gastroenterology
     - Surgery
     - EBM
-drugs: null
+pubmed: (Diagnosis/Broad[filter]) AND (Imaging and laboratory testing in acute abdominal pain.) 
 
 ---
 
@@ -71,7 +72,7 @@ Lactate is useful adjunct to risk stratify for mortality ([Shapiro et al. (2005)
 **Nephrolithiasis**:
 -   **Microscopic hematuria:** sens 89%, spec 29%
 -   **First line imaging**: CT – sens and spec 98-100%
--   If hx of nephrolithiasis, use U/S (assuming low-risk for alternative dx)
+-   If hx of nephrolithiasis, consider renal ultrasound if at low-risk for alternative diagnosis
 
 **Pancreatitis**: Lipase (sens 90%, spec 93%) is better than Amylase (sens 79%, spec 93%). Unlike level of elevated enzymes, CT correlates with severity.
 
@@ -86,3 +87,4 @@ Lactate is useful adjunct to risk stratify for mortality ([Shapiro et al. (2005)
 
 -   [Shapiro NI, Howell MD, Talmor D, Nathanson LA, Lisbon A, Wolfe RE, Weiss JW.Serum lactate as a predictor of mortality in emergency department patients with infection. Ann Emerg Med. 2005 May;45(5):524-8.](https://www.ncbi.nlm.nih.gov/pubmed/15855951)
 -   [Panebianco NL, Jahnes K, Mills AM. Imaging and Laboratory Testing in Acute Abdominal Pain. Emerg Med Clin N Am. 2011;29:175-93.](https://www.ncbi.nlm.nih.gov/pubmed/?term=21515175)
+- [Ultrasonography vs. CT for suspected Nephrolithiasis. New England Journal of Medicine. 2014;371(26):2529–2531. doi:10.1056/nejmc1412853.](https://www.ncbi.nlm.nih.gov/pubmed/?term=25229916)
