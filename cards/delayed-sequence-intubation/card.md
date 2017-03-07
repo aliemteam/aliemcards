@@ -22,7 +22,7 @@ categories:
 
 -   Agitated due to EtOH, head injury, or psychosis, but with normal lungs
 -   Agitated, but with lungs capable of being oxygenated on non-rebreather (NRB) mask: hypoxic due to COPD, pneumonia, ARDS
--   Agitated, but require non invasive positive pressure ventilation (NIPPV) to preoxygenate
+-   Agitated, but require non-invasive positive pressure ventilation (NIPPV) to preoxygenate
 -   Unobtainable or unacceptable vital signs due to any of the above
 -   Need to perform a procedure that the patient is not tolerating prior to intubation (e.g. NGT placement prior to intubation of GI bleeder)
 
