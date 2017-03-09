@@ -1,13 +1,13 @@
 ---
 
-title: 'Urine Toxicology Screen'
+title: Urine Toxicology Screen
 authors:
-    - 'Michelle Lin, MD'
+    - Michelle Lin, MD
 created: 2010/07/22
-updates: null
-categories:
+updates: 
+    - 2017/02/14
+cateories:
     - Toxicology
-drugs: 'amantadine, buproprion, chlorpromazine, desipramine, fluoxetine, labetalol, Methylphenidate, Phentermine, Phenylephrine, Phenylpropanolamine, Promethazine, Pseudoephedrine, Ranitidine, Thioridazine, trazodone, oxaprozin, sertraline, Dextromethorphan, Diphenhydramine, Quinine, Rifampin, Verapamil, Ibuprofen, Imipramine, Ketamine, Meperidine, Venlafaxine, Dronabinol, Pantoprazole, oxazepam, diazepam, chlordiazepoxide, alprazolam, clonazepam, lorazepam, morphine, codeine, hydrocodone, hydromorphone, oxycodone, oxymorphone, buprenorphine, fentanyl, methadone, tramadol'
 
 ---
 
@@ -21,7 +21,7 @@ drugs: 'amantadine, buproprion, chlorpromazine, desipramine, fluoxetine, labetal
 | Benzodiazepines | Oxaprozin, Sertraline | **3 days** for short acting (e.g. lorazepam) and up to **30 days** for long acting (e.g. diazepam) |
 | Cocaine | Topical anesthetics which have cocaine | **2-3 days** (occasional user), up to **8 days** (heavy user) | 
 | Opiates | Dextromethorphan, Diphenhydramine, Fluoroquinolones, Poppy seed, Quinine, Rifampin, Verapamil | **1-3 days** |
-| Phenycyclidine | Dextromethorphan, Diphenhydramine, Ibuprofen, Imipramine, Ketamine, Meperidine, Thioridazine, Tramadol, Venlafaxine | **7-14 days** |
+| Phenycyclidine | Dextromethorphan, Diphenhydramine, Ibuprofen, Imipramine, Ketamine, Lamotrigine, Meperidine, Thioridazine, Tramadol, Venlafaxine | **7-14 days** |
 | Marijuana (tetrahydrocannabinol) | Dronabinol, NSAID, Pantoprazole and other proton pump inhibitors | **3-5 days** with 1x use, **5-7 days** with 4x/wk use, **10-15 days** with daily use, **&gt;30 days** with long term and heavy use |
 
 **Pearl**:  MDMA (Ecstacy) may not be positive on amphetamine drug screen, unless specifically screen for MDMA. 
@@ -65,3 +65,4 @@ A negative result doesn't rule out opioid ingestion, and a positive result only 
 ## References
 
 -   [Standridge JB, Adams SM, Zotos AP. Urine drug screening: a valuable office procedure. Am Fam Physician. 2010 Mar 1;81(5):635-40.](http://www.ncbi.nlm.nih.gov/pubmed/20187600)
+-   [Geraci, M.J., Peele, J., McCoy, S.L. et al. Int J Emerg Med. 2010 Nov 3: 327. doi:10.1007/s12245-010-0235-3
