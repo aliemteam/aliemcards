@@ -7,6 +7,7 @@ created: 2012/06/29
 updates: null
 categories:
     - Trauma
+    - Cardiovascular
 drugs: null
 
 ---
@@ -16,11 +17,13 @@ drugs: null
 # Blunt Cardiac Injury
 
 *Definition:* Encompasses wide spectrum of clinical injuries, ranging from asymptomatic myocardial bruise to cardiac rupture/death 
-**No gold standard** 
+
+No gold standard 
+
 **Pearls:**
 
 -   Causes 20% of all deaths due to motor vehicle collisions
--   Most commonly injured chamber = right ventricle (most anterior in chest) 
+-   Most commonly injured chamber: Right ventricle (most anterior in chest) 
 
 **Clinical tips:**
 

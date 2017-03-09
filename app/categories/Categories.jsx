@@ -1,6 +1,6 @@
 import React, { PureComponent, PropTypes } from 'react';
 import { post } from 'axios';
-import { Link } from 'react-router';
+import { Link } from 'react-router-dom';
 
 export default class Categories extends PureComponent {
 

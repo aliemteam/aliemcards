@@ -69,7 +69,7 @@ module.exports = {
     vendor: ['react', 'react-dom'],
   },
   output: {
-    path: join(__dirname, 'dist'),
+    path: join(__dirname, 'dist/app'),
     filename: '[name].js',
     publicPath: '/',
   },

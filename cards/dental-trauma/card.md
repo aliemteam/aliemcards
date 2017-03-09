@@ -2,12 +2,12 @@
 
 title: 'Dental Trauma'
 authors:
-    - 'Michelle Lin, MD'
+    - 'Hans Rosenberg, MD'
 created: 2011/04/15
 updates: null
 categories:
     - ENT
-drugs: null
+drugs: 'pencillin V, clindamycin'
 
 ---
 
@@ -18,29 +18,39 @@ drugs: null
 **DENTITION**
 
 -   32 teeth (each quadrant: 2 incisors, 1 canine, 2 premolars, 3 molars)
--   Numbering: 1--&gt; 32 starting in R maxilla and ending in R mandible
+-   Numbering: 1 to 32 starting in R maxilla and ending in R mandible
 
 ## Tooth Anatomy
 
--   *Pulp* - central portion, neurovascular supply
--   *Dentin* - surrounds pulp, majority of tooth
--   *Enamel* - white visible portion of tooth
--   *Periodontium* - attachment apparatus (gingiva,periodontal ligament, alveolar bone)
+-   *Pulp*: Central portion, neurovascular supply
+-   *Dentin*: Surrounds pulp, majority of tooth
+-   *Enamel*: White visible portion of tooth
+-   *Periodontium*: Attachment apparatus (gingiva, periodontal ligament, alveolar bone)
 
 ## General Approach to Dental Trauma
 
-Airway --&gt; assess risk of aspiration --&gt; if loose/displaced tooth - do not manipulate
-Hemorrhage control - gauze and direct pressure
+**Airway:** 
+- Assess risk of aspiration
+- If loose/displaced tooth, do not manipulate the tooth
+
+**Hemorrhage control:** 
+- Apply gauze and direct pressure
+
 **Avulsed tooth**
 1.  Handle by crown only to avoid damage of periodontal ligament.
 2.  Gently rise tooth with saline, but do not wipe root and ligament.
 3.  Replace tooth and ask patient to bite on gauze (if not at aspiration risk)
 4.  If unable to place in transport medium: Hank's balance solution, saline, milk
 
-ID all fracture fragments: May have been aspirated, lodged in mucosal tissue, intruded into alveolar bone
-Consider radiographs: CXR, Panorex
-Complicated fractures/avulsions may require Td and Abx (Pen V, clindamycin)
-Videos from [thedentalbox.com](http://thedentalbox.com/videos.html)
+**Identify all fracture fragments:** 
+- May have been aspirated, lodged in mucosal tissue, intruded into alveolar bone
+
+**Consider radiographs:** CXR and panorex
+
+**Medications:**
+- Complicated fractures/avulsions may require Td and antibiotics (**<span drug="class">penicillin V</span>**, **<span drug="class">clindamycin</span>**)
+
+Procedural videos from [thedentalbox.com](http://thedentalbox.com/videos.html)
 
 ## Fractures
 
@@ -48,7 +58,7 @@ Videos from [thedentalbox.com](http://thedentalbox.com/videos.html)
 
 -   Through enamel
 -   Pulp necrosis risk = 0-3%
--   Tx: smooth sharp edges with emery board if causing pain 
+-   Treatment: Smooth sharp edges with emery board if causing pain 
 -   F/U with dentist PRN
 
 **Ellis Class II**
@@ -56,32 +66,35 @@ Videos from [thedentalbox.com](http://thedentalbox.com/videos.html)
 -   Through enamel and dentin (yellow/pink appearance) 
 -   Pulp necrosis risk = 1-7%
 -   Painful and temperature sensitive
--   Tx: Cover tooth with CaOH (eg. Dycal®) after drying tooth with gauze 
--   Tx: Soft food diet
--   F/U with Dentist 24-48 hrs.
+-   Treatment:  
+  - Cover tooth with CaOH (eg. Dycal®) after drying tooth with gauze 
+  - Soft food diet
+-   F/U with dentist 24-48 hrs
 
 **Ellis Class III** 
 
 -   Involving pulp (pink appearance, blood often visible) 
 -   Pulp necrosis risk = 10-30%
 -   Severe pain, temperature sensitive
--   Tx: Dental emergency - contact on call Dentist (If not immediatelyavailable, same Tx as Ellis II except liquid diet)
+-   Treatment: Dental emergency - contact on call dentist (If not immediatelyavailable, same treatment as Ellis II except liquid diet)
 
 **Alveolar Fracture**
 
 -   Fx of underlying alveolar bone with tooth involvement
 -   Associated with high impact trauma
--   ED goal: Diagnose and preserve tissue, repair mucosal tissue 
--   Tx: Dental emergency - contact on call dentist/oral surgeon 
+-   Emergency Department goal: Diagnose and preserve tissue, repair mucosal tissue 
+-   Treatment: Dental emergency - contact on call dentist/oral surgeon 
 
 ## Avulsion
 
 Tooth is complete displaced from periodontal ligament
-Tx: Dental emergency - contact on call Dentist
+Treatment: Dental emergency - contact on call dentist
 If PRIMAY DENTITION, do not replace because of risk of ankylosis. F/U with dentist in 1-2 weeks.
 If ADULT DENTITION, "time is tooth" - Periodontal ligament necrosis in 60-90 minutes if not in transport medium, loss of viability
--   Suction socket with Frasier tip suction --&gt; irrigate with saline --&gt; implant tooth using firm pressure
--   Splint (eg. Coe-Pak): apply as a bridge to teeth and gingiva
+- Suction socket with Frasier tip suction
+- Irrigate with saline
+- Implant tooth using firm pressure
+- Apply splint (eg. Coe-Pak): Apply as a bridge to teeth and gingiva
 
 ## References
 

@@ -36,7 +36,7 @@ drugs: null
 | After electrical cardioversion        | Friedreich ataxia                     |
 | Arrhythmogenic RV dysplasia           | Early repolarization, esp in athletes |
 | Atypical right BBB                    | Hypothermia                           |
-| Acute MI, esp RV infarct              | Pericardial effusion                  |
+| Acute MI, especiall RV infarct        | Pericardial effusion                  |
 | Acute myopericarditis                 | Pulmonary embolism                    |
 | Compression of RV outflow tract       | Left ventricular hypertrophy          |
 | Disorder of central/auton nerv system | Mediastinal tumor                     |
@@ -47,10 +47,10 @@ drugs: null
 
 **Indications for implantable cardiac defibrillator**
 
-**Brugada Type 1 *PLUS one of following:***
+**Brugada Type 1 PLUS one of following:**
 -   Aborted sudden cardiac death
 -   Syncope, seizure, or noctural agonal respirations without alternative cause
--   Family hx of sudden cardiac death (likely from Brugada) AND positive EPS study 
+-   Family hx of sudden cardiac death (likely from Brugada) AND positive electrophysiology (EPS) study 
 -   A positive EPS study
 
 Otherwise, close followup with cardiologist.

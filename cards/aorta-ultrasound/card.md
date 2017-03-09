@@ -1,8 +1,10 @@
 ---
 
-title: 'Focused Abdominal Aorta Ultrasound'
+title: 'Ultrasound: Focused Abdominal Aorta Ultrasound'
 authors:
-    - 'Michelle Lin, MD'
+    - 'MVictoria Koskenoja, MD'
+    - 'Heidi Kimberly, MD'
+    - 'Mike Stone, MD'
 created: 2014/09/13
 updates: null
 categories:
@@ -15,13 +17,19 @@ drugs: null
 
 
 
-# Focused Abdominal Aorta Ultrasound
+# Ultrasound: Focused Abdominal Aorta
 
-**Goals         ** Evaluate for abdominal aortic aneurysm (AAA)
+**Goal** 
+Evaluate for abdominal aortic aneurysm (AAA)
 
-**Transducer ** Low-frequency curvilinear (low-frequency phased if curvilinear unavailable)
+**Transducer** 
+Low-frequency curvilinear (low-frequency phased if curvilinear unavailable)
 
-**Windows   ** The goal is to image the entire abdominal aorta from diaphragm (subxiphoid area) to bifurcation into iliac arteries (near the umbilicus).  Images should be obtained in both **transverse** and **longitudinal** planes. The specific areas include:![](image-1.png)Figure 1: Transducer positions for aortic scan. Proximal (A), Mid-aorta (B), Distal (C), and Longitudinal (D)
+**Windows** 
+The goal is to image the entire abdominal aorta from diaphragm (subxiphoid area) to bifurcation into iliac arteries (near the umbilicus). Images should be obtained in both **transverse** and **longitudinal** planes. The specific areas include:
+![](image-1.png)
+
+Figure 1: Transducer positions for aortic scan. Proximal (A), Mid-aorta (B), Distal (C), and Longitudinal (D)
 
 ## Normal Reference Measurements
 
@@ -30,15 +38,15 @@ drugs: null
 
 **Signs of AAA:** Enlarged aorta &gt;3 cm. Most AAA’s are fusiform and are infrarenal. The SMA is a useful landmark as it is in close proximity to the renal arteries, which are often difficult to identify. AAAs often contain a mural thrombus that MUST be included in your measurement of the aneurysm.
 
-Figure 2: Aortic aneurysm (aaa) measuring 6 cm wide with mural thrombus (asterisks).
-
 ![](image-2.png)
+
+Figure 2: Aortic aneurysm (aaa) measuring 6 cm wide with mural thrombus (asterisks).
 
 ## Transverse View
 
 Transducer orientation is transverse with marker towards the patient’s right
 
-1.  Proximal – Midline just below the xiphoid process
+1. Proximal – Midline just below the xiphoid process
 
 2. Mid-Aorta – Midline between xiphoid process and umbilicus
 

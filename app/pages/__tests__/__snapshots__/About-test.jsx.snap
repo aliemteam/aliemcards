@@ -1,6 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
 exports[`<About /> should render correctly 1`] = `
 <div
-  className="content">
+  className="content"
+>
   <h1>
     About
   </h1>
@@ -18,7 +21,8 @@ exports[`<About /> should render correctly 1`] = `
     <a
       href="http://www.aliem.com"
       rel="noopener noreferrer"
-      target="_blank">
+      target="_blank"
+    >
       ALiEM
     </a>
      blog has grown, so have the PV Cards. What began as a handful of personal notes, are now a key FOAMed point-of-care resource.

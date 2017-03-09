@@ -1,5 +1,5 @@
 import React, { PropTypes } from 'react';
-import { Link } from 'react-router';
+import { Link } from 'react-router-dom';
 
 const CardList = ({ cards, categories, filter, filterhandler, filtervalue, editortools }) =>
   <div>

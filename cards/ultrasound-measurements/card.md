@@ -2,7 +2,9 @@
 
 title: 'Ultrasound Measurement Cheat Sheet'
 authors:
-    - 'Michelle Lin, MD'
+    - 'Maria Beylin, MD'
+    - 'Scott Fischette, MD' 
+    - 'Nate Teismann, MD'
 created: 2015/10/15
 updates: null
 categories:
@@ -18,25 +20,23 @@ drugs: null
 
 ### Aorta
 
-| Item  | Normal  |
+| **Item**  | **Normal**  |
 |-------|---------|
-| Diameter | < 3 cm (outer-to-outer) |
-| Common iliac artery diameter | &le; 6 mm |
+| Diameter | &lt;3 cm (outer-to-outer) |
+| Common iliac artery diameter | &le;6 mm |
 
 ### Bladder
 
-| Item  | Normal  |
+| **Item**  | **Normal**  |
 |-------|---------|
-| Post-void residual | < 100-150 mL |
+| Post-void residual | &le;100-150 mL |
 
 ### Cardiac
 
-| Item  | Normal  |
-|-------|---------|
-| EPSS impaired systolic funciton | < 7 mm |
-| Aortic root diameter | & le; 3.9 cm |
-
-*EPSS: E-point septal separation*
+| **Item**  | **Normal**  |
+|-------|---------| 
+| E-point septal separation (EPSS) impaired systolic funciton | &le;7 mm |
+| Aortic root diameter | &le;3.9 cm |
 
 ### DVT
 **Areas for compression**
@@ -53,38 +53,36 @@ drugs: null
 
 ### Gallbladder
 
-| Item  | Normal  |
+| **Item**  | **Normal**  |
 |-------|---------|
-| Wall thickness | &le; 3-4 mm  |
-| CBD diameter  | &le; 4-7 mm (up to 8-9 mm if elderly or post-cholecystectomy) |
-| Gallbladder dimensions on short axis | < 4 x 10 cm |
+| Wall thickness | &le;3-4 mm  |
+| CBD diameter  | &le;4-7 mm (up to 8-9 mm if elderly or post-cholecystectomy) |
+| Gallbladder dimensions on short axis | &lt;4 x 10 cm |
 
 ### Inferior Vena Cava
 
-| Item  | Normal  |
+| **Central Venous Pressure**  | **Normal**  |
 |-------|---------|
-| CVP 0-5 mmHg | &le; 2.1 cm with > 50% collapse |
-| CVP 5-10 mmHg | &le; 2.1 cm with < 50% collapse <br> or <br> > 2.3 cm with > 50% collapse |
-| CVP 10-20 mmHg | > 2.1 cm with < 50% collapse |
+| 0-5 mmHg | &le;2.1 cm with &gt;50% collapse with patient sniffing |
+| 6-10 mmHg | &le;2.1 cm with &lt;50% collapse or &gt;2.1 cm with &gt;50% collapse |
+| 11-20 mmHg | &gt;2.1 cm with &lt;50% collapse |
 
-*CVP: Central venous pressure*
-*Collapse with patient sniffing*
+### Intrauterine Pregnancy - endocavitary probe
 
-### IUP - endocavitary probe
-
-| Item  | Normal  |
+| **Item**  | **Normal**  |
 |-------|---------|
-| Gestational sac | Present at 4-5 weeks EGA  |
+| Gestational sac | Present at 4-5 weeks estimated gestational age (EGA)  |
 | Yolk sac  | Present at ~5.5 weeks EGA |
 | Fetal pole, cardiac activity | Present at ~6 weeks EGA |
 
-### Criteria for nonviable IUP
+### Criteria for nonviable intrauterine pregnancy
 
-| Item  | Normal  |
+| **Item**  | **Ultrasound Finding**  |
 |-------|---------|
-| Crown rump length | &ge; 7 mm and no heart beat |
-| Mean gestational sac diameter | &ge; 25 mm and no embryo |
+| Crown rump length | &ge;7 mm and no heart beat |
+| Mean gestational sac diameter | &ge;25 mm and no embryo |
 
-*EGA: Estimated gestational age*
+***Structures should be measured by assessing the luminal diameter of the structure, which is inner-to-inner wall except for:***
 
-*Structures should be measured by assessing the luminal diameter of the structure, which is inner-to-inner wall except for the (1) aorta which requires taking any thrombus or plaque into account and (2) biparietal diameter which is measured outer to inner wall of the skull.*
+1. **Aorta** - which requires taking any thrombus or plaque into account
+2. **Biparietal diameter of fetus** - which is measured outer to inner wall of the skull

@@ -8,7 +8,7 @@ jest.mock('../CardList');
 
 const setup = () => {
   const component = mount(
-    <Card params={{ id: 'test-card-id' }} />
+    <Card match={{ params: { id: 'test-card-id' } }} />
   );
   return {
     component,
@@ -56,41 +56,11 @@ describe('<Card />', () => {
       { id: '1', name: 'Jane Doe' },
       { id: '2', name: 'Bob Smith' },
     ];
-    spyOn(axios, 'post').and.callFake(() => new Promise(res => res(MOCK_RESPONSE)));
+    axios.post.mockReturnValueOnce(new Promise(res => res(MOCK_RESPONSE)));
     const { component } = await setup();
     const authorString = component.find('.card__meta').children().first().text();
 
     expect(authorString).toBe('Authors: John Doe, Jane Doe, Bob Smith');
-  });
-  it('should re-render when new props are received', async () => {
-    let called = false;
-    const SECOND_RESPONSE = {
-      status: 200,
-      data: {
-        data: {
-          card: {
-            ...MOCK_RESPONSE.data.data.card,
-            title: 'New Card Title',
-          },
-        },
-      },
-    };
-    spyOn(axios, 'post').and.callFake(() => {
-      if (!called) {
-        called = true;
-        return new Promise(res => res(MOCK_RESPONSE));
-      }
-      return new Promise(res => res(SECOND_RESPONSE));
-    });
-    const { component } = await setup();
-    const title = component.find('h1').props().children;
-    expect(title).toBe('Test Card');
-
-    component.setProps({ params: { id: 'new-card-id' } }, () => {
-      process.nextTick(() => {
-        expect(component.find('h1').props().children).toBe('New Card Title');
-      });
-    });
   });
   it('should skip re-rendering if new props match old props', async () => {
     spyOn(axios, 'post').and.callFake(() => new Promise(res => res(MOCK_RESPONSE)));

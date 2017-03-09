@@ -1,18 +1,17 @@
-const {
+import {
   GraphQLList,
   GraphQLNonNull,
   GraphQLObjectType,
   GraphQLString,
-} = require('graphql');
+} from 'graphql';
+import { RootContext } from '../schema';
 
-/**
- * authorType has the following shape:
- *   type Author {
- *     id: String!
- *     name: String
- *   }
- */
-module.exports = new GraphQLObjectType({
+export interface Author {
+  id: string;
+  name: string;
+}
+
+export const authorType = new GraphQLObjectType(<RootContext>{
   name: 'Author',
   description: 'A person who wrote a card.',
   fields: () => ({
@@ -25,10 +24,12 @@ module.exports = new GraphQLObjectType({
       description: 'The author\'s name.',
     },
     cards: {
-      type: new GraphQLList(require('./cardType.js')),
+      type: new GraphQLList(require('./cardType.js').cardType),
       description: 'A list of cards that the author wrote.',
-      resolve: (author, args, context) => Object.values(context.entities.cards)
-        .filter(c => c.authors.indexOf(author.id) !== -1),
+      resolve: (author: Author, _args, context) => (
+        Object.values(context.entities.cards)
+          .filter(c => c.authors.indexOf(author.id) !== -1)
+      ),
     },
   }),
 });
