@@ -1,11 +1,16 @@
-import React, { PureComponent } from 'react';
-import { post } from 'axios';
+import axios from 'axios';
+import * as React from 'react';
 
-export default class Contact extends PureComponent {
+interface State {
+  name: string;
+  email: string;
+  message: string;
+  sent: boolean;
+}
+
+export default class Contact extends React.PureComponent<{}, State> {
   constructor(props) {
     super(props);
-    this.changeHandler = this.changeHandler.bind(this);
-    this.sendHandler = this.sendHandler.bind(this);
     this.state = {
       name: '',
       email: '',
@@ -14,12 +19,12 @@ export default class Contact extends PureComponent {
     };
   }
 
-  sendHandler(e) {
+  sendHandler = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const { name, email, message } = this.state;
-    post('/contact', { data: { name, email, message } })
+    axios.post('/contact', { data: { name, email, message } })
     .then(res => {
-      if (res.status !== 200) throw res.statusText;
+      if (res.status !== 200) { throw res.statusText; }
       this.setState({ ...this.state, sent: true });
     })
     .catch(err => {
@@ -27,7 +32,7 @@ export default class Contact extends PureComponent {
     });
   }
 
-  changeHandler(e) {
+  changeHandler = (e: React.FormEvent<HTMLInputElement|HTMLTextAreaElement>) => {
     this.setState({ ...this.state, [e.currentTarget.id]: e.currentTarget.value });
   }
 

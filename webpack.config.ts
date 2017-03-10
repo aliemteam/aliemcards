@@ -1,14 +1,12 @@
-const { join } = require('path');
-const webpack = require('webpack');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const OfflinePlugin = require('offline-plugin');
-const autoprefixer = require('autoprefixer-stylus');
-// const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+import * as autoprefixer from 'autoprefixer-stylus';
+import * as HtmlWebpackPlugin from 'html-webpack-plugin';
+import * as OfflinePlugin from 'offline-plugin';
+import { join } from 'path';
+import * as webpack from 'webpack';
 
 const isProduction = process.env.NODE_ENV === 'production';
 
 const sharedPlugins = [
-  new webpack.optimize.OccurrenceOrderPlugin(),
   new webpack.DefinePlugin({
     __DEV__: JSON.stringify(!isProduction),
     __TEST__: JSON.stringify(false),
@@ -39,9 +37,7 @@ const plugins = isProduction
     minimize: true,
     debug: false,
   }),
-  new webpack.optimize.UglifyJsPlugin({
-    screw_ie8: true,
-  }),
+  new webpack.optimize.UglifyJsPlugin(),
   new webpack.DefinePlugin({
     'process.env': {
       NODE_ENV: JSON.stringify('production'),
@@ -62,10 +58,19 @@ const plugins = isProduction
   new webpack.HotModuleReplacementPlugin(),
 ];
 
+const tsLoader = {
+  loader: 'ts-loader',
+  options: {
+    configFileName: join(__dirname, 'app/tsconfig.json'),
+  },
+};
+
 module.exports = {
   devtool: !isProduction ? 'eval-cheap-source-map' : false,
   entry: {
-    bundle: isProduction ? ['babel-polyfill', './app/index'] : ['webpack-hot-middleware/client', 'babel-polyfill', './app/index'],
+    bundle: isProduction
+    ? ['babel-polyfill', './app/index']
+    : ['webpack-hot-middleware/client', 'babel-polyfill', './app/index'],
     vendor: ['react', 'react-dom'],
   },
   output: {
@@ -74,20 +79,20 @@ module.exports = {
     publicPath: '/',
   },
   resolve: {
-    extensions: ['*', '.js', '.jsx', '.styl'],
+    extensions: ['*', '.js', '.jsx', '.ts', '.tsx', '.styl'],
   },
   performance: { hints: false },
   plugins,
   module: {
     rules: [
       {
-        test: /\.jsx?$/,
+        test: /\.tsx?$/,
         include: [
           join(__dirname, 'app'),
         ],
         use: isProduction
-        ? ['babel-loader']
-        : ['react-hot-loader', 'babel-loader'],
+        ? ['babel-loader', tsLoader]
+        : ['react-hot-loader', 'babel-loader', tsLoader],
       },
       {
         test: /\.styl$/,

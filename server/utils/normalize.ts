@@ -34,7 +34,7 @@ function createCategoryObj(category: string): Category {
 export const normalize = (cards: SingleCardJSON[]): Context => {
   const mapped = cards.map(card => Object.assign({}, card, {
     authors: card.authors.map(AuthorFactory.create),
-    categories: card.categories.map(createCategoryObj),
+    categories: card.categories ? card.categories.map(createCategoryObj) : [],
   }));
   // const mapped = cards.map(card => ({...card,
   //   authors: card.authors.map(AuthorFactory.create),

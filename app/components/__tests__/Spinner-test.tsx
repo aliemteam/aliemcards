@@ -1,11 +1,11 @@
-import React from 'react';
-import renderer from 'react-test-renderer';
-import FourOhFour from '../404';
+import * as React from 'react';
+import * as renderer from 'react-test-renderer';
+import Spinner from '../Spinner';
 
-describe('<404 />', () => {
+describe('<Spinner />', () => {
   it('should render correctly', () => {
     const component = renderer.create(
-      <FourOhFour />
+      <Spinner />,
     );
     const tree = component.toJSON();
     expect(tree).toMatchSnapshot();

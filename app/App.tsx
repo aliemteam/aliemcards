@@ -1,47 +1,37 @@
-import React from 'react';
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch
-} from 'react-router-dom';
-import WebFont from 'webfontloader';
-
-import lazyLoad from './utils/LazyLoad';
-import Header from './components/Header';
+import * as React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Footer from './components/Footer';
+import Header from './components/Header';
+import lazyLoad from './utils/LazyLoad';
 
 import './assets/css/main';
 
-WebFont.load({
-  google: {
-    families: ['Open Sans'],
-  },
-});
+declare const System;
 
-const Home = lazyLoad(() =>
+const Home = lazyLoad(() => (
   System.import('./pages/Home').then(module => module.default)
-);
-const Cards = lazyLoad(() =>
+));
+const Cards = lazyLoad(() => (
   System.import('./cards/Cards').then(module => module.default)
-);
-const Card = lazyLoad(() =>
+));
+const Card = lazyLoad(() => (
   System.import('./cards/Card').then(module => module.default)
-);
-const Categories = lazyLoad(() =>
+));
+const Categories = lazyLoad(() => (
   System.import('./categories/Categories').then(module => module.default)
-);
-const Category = lazyLoad(() =>
+));
+const Category = lazyLoad(() => (
   System.import('./categories/Category').then(module => module.default)
-);
-const About = lazyLoad(() =>
+));
+const About = lazyLoad(() => (
   System.import('./pages/About').then(module => module.default)
-);
-const Contact = lazyLoad(() =>
+));
+const Contact = lazyLoad(() => (
   System.import('./pages/Contact').then(module => module.default)
-);
-const FourOhFour = lazyLoad(() =>
+));
+const FourOhFour = lazyLoad(() => (
   System.import('./pages/404').then(module => module.default)
-);
+));
 
 const App = props => (
   <div className="row row--stacked main">

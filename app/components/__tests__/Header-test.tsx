@@ -1,12 +1,13 @@
-import React from 'react';
-import { mount } from 'enzyme';
-import Header from '../Header';
-
 jest.mock('react-router-dom');
+jest.mock('../Search');
+
+import { mount } from 'enzyme';
+import * as React from 'react';
+import Header from '../Header';
 
 const setup = () => {
   const component = mount(
-    <Header location={{ pathname: 'testing' }} />
+    <Header location={{ pathname: 'testing' }} />,
   );
   return {
     button: component.find('button'),

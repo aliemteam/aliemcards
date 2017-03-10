@@ -14,6 +14,9 @@
       "check-open-brace",
       "check-whitespace"
     ],
+    "member-access": [
+      false
+    ],
     "only-arrow-functions": [
       true,
       "allow-declarations",
@@ -34,6 +37,7 @@
       true,
       "ban-keywords",
       "check-format",
+      "allow-pascal-case",
       "allow-leading-underscore"
     ],
     "whitespace": [

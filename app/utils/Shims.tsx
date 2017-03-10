@@ -1,21 +1,21 @@
-/* eslint-disable */
-import React from 'react';
+import * as React from 'react';
 
-const logo = () => {
+declare const __TEST__: boolean;
+
+const Thunk: any = () => null;
+
+export const Logo: React.SFC<{}> = () => {
   if (__TEST__) {
-    return null;
+    return <Thunk />;
   }
   const LogoComponent = require('svg-react-loader?name=Logo!../assets/images/logo.svg');
   return <LogoComponent />;
 };
 
-const ccIcon = () => {
+export const CCIcon: React.SFC<{}> = () => {
   if (__TEST__) {
-    return null;
+    return <Thunk />;
   }
   const CCIconComponent = require('svg-react-loader?name=CreativeCommonsIcon!../assets/images/by-nc-nd.svg');
   return <CCIconComponent />;
 };
-
-export const Logo = logo;
-export const CCIcon = ccIcon;

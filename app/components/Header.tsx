@@ -1,25 +1,27 @@
-import React, { PureComponent, PropTypes } from 'react';
+import * as React from 'react';
 import { Link } from 'react-router-dom';
 import { Logo } from '../utils/Shims';
 import Search from './Search';
 
-export default class Header extends PureComponent {
+interface Props {
+  location: {
+    pathname: string;
+  };
+}
 
-  static propTypes = {
-    location: PropTypes.shape({
-      pathname: PropTypes.string,
-    }).isRequired,
-  }
+interface State {
+  navDrawerOpen: boolean;
+}
 
+export default class Header extends React.PureComponent<Props, State> {
   constructor(props) {
     super(props);
     this.state = {
       navDrawerOpen: false,
     };
-    this.handleClick = this.handleClick.bind(this);
   }
 
-  handleClick() {
+  handleClick = () => {
     this.setState({ navDrawerOpen: !this.state.navDrawerOpen });
   }
 

@@ -7,7 +7,7 @@ import * as helmet from 'helmet';
 import { join } from 'path';
 import { schema } from './server/schema';
 
-const data = require('./server/data.json'); // FIXME: wildcard module this so we can "import"
+const data = require('./server/data.json');
 
 const isDevelopment = process.env.NODE_ENV !== 'production';
 const app = express();
@@ -18,7 +18,7 @@ app.use(helmet());
 
 if (isDevelopment) {
   const webpack = require('webpack');
-  const config = require('../webpack.config');
+  const config = require('../webpack.config.ts');
   const compiler = webpack(config);
   app.use(require('webpack-dev-middleware')(compiler, {
     publicPath: config.output.publicPath,

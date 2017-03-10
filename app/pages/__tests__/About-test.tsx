@@ -1,13 +1,13 @@
-import React from 'react';
-import renderer from 'react-test-renderer';
-import Footer from '../Footer';
-
 jest.mock('react-router-dom');
 
-describe('<Footer />', () => {
+import * as React from 'react';
+import * as renderer from 'react-test-renderer';
+import About from '../About';
+
+describe('<About />', () => {
   it('should render correctly', () => {
     const component = renderer.create(
-      <Footer />
+      <About />,
     );
     const tree = component.toJSON();
     expect(tree).toMatchSnapshot();
