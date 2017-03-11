@@ -2,15 +2,23 @@ import {
   GraphQLObjectType,
   GraphQLSchema,
 } from 'graphql';
-import { queries } from './models/';
+import { mutations, queries } from './models/';
 
 const queryType = new GraphQLObjectType({
-  name: 'Query',
+  name: 'RootQuery',
   fields: () => ({
     ...queries,
   }),
 });
 
+const mutationType = new GraphQLObjectType({
+  name: 'RootMutation',
+  fields: () => ({
+    ...mutations,
+  }),
+});
+
 export const schema = new GraphQLSchema({
   query: queryType,
+  mutation: mutationType,
 });

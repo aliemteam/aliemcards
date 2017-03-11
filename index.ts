@@ -1,5 +1,3 @@
-import axios from 'axios';
-import * as bodyParser from 'body-parser';
 import * as compression from 'compression';
 import * as express from 'express';
 import * as graphqlHTTP from 'express-graphql';
@@ -11,7 +9,6 @@ const data = require('./server/data.json');
 
 const isDevelopment = process.env.NODE_ENV !== 'production';
 const app = express();
-const jsonParser = bodyParser.json();
 
 app.use(compression({ threshold: 0 }));
 app.use(helmet());
@@ -33,16 +30,6 @@ app.use('/graphql', graphqlHTTP({
   context: data,
   rootValue: data,
 }));
-
-app.post('/contact', jsonParser, (req, res) => {
-  axios.post('https://aliem-slackbot.now.sh/aliemcards/messages/contact-form', req.body, {
-    headers: {
-      ALIEM_API_KEY: <string>process.env.ALIEM_API_KEY,
-    },
-  })
-  .then(() => res.sendStatus(200))
-  .catch((e: Error) => res.status(502).send(e.message));
-});
 
 app.use(express.static(join(__dirname, 'app'), { maxAge: 31557600000 })); // 1 year
 

@@ -1,4 +1,5 @@
 export { Author, AuthorRaw } from './author/authorType';
+export { APIResponse } from './misc/apiResponseType';
 export { Card } from './card/cardType';
 export { Category } from './category/categoryType';
 
@@ -10,4 +11,10 @@ export const queries = {
   ...authorQuery,
   ...cardQuery,
   ...categoryQuery,
+};
+
+import miscMutation from './misc/miscMutation';
+
+export const mutations = {
+  ...miscMutation,
 };

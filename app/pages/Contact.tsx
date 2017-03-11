@@ -1,5 +1,5 @@
-import axios from 'axios';
 import * as React from 'react';
+import { gql, graphql } from 'react-apollo';
 
 interface State {
   name: string;
@@ -8,13 +8,33 @@ interface State {
   sent: boolean;
 }
 
-export default class Contact extends React.PureComponent<{}, State> {
+interface Props {
+  sendMessage: (name: string, email: string, message: string) => PromiseLike<any>;
+}
+
+const contactUsMessage = gql`
+  mutation contactUsMessage($email: String!, $message: String!, $name: String!) {
+    contactUs(email: $email, message: $message, name: $name) {
+      status
+      statusText
+    }
+  }
+`;
+
+const config = {
+  props: ({ mutate }) => ({
+    sendMessage: (name: string, email: string, message: string) => mutate({ variables: { name, email, message }}),
+  }),
+};
+
+@graphql(contactUsMessage, config)
+export default class Contact extends React.PureComponent<Props, State> {
   constructor(props) {
     super(props);
     this.state = {
-      name: '',
       email: '',
       message: '',
+      name: '',
       sent: false,
     };
   }
@@ -22,13 +42,10 @@ export default class Contact extends React.PureComponent<{}, State> {
   sendHandler = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const { name, email, message } = this.state;
-    axios.post('/contact', { data: { name, email, message } })
-    .then(res => {
-      if (res.status !== 200) { throw res.statusText; }
-      this.setState({ ...this.state, sent: true });
-    })
-    .catch(err => {
-      console.error(`Error: ${err}`);
+    this.props.sendMessage(name, email, message).then(res => {
+      const data = res.data.contactUs;
+      if (data.status !== 200) { throw new Error(data.statusText); }
+      this.setState({ sent: true });
     });
   }
 
