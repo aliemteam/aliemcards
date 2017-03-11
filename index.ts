@@ -31,6 +31,7 @@ app.use('/graphql', graphqlHTTP({
   schema,
   graphiql: isDevelopment,
   context: data,
+  rootValue: data,
 }));
 
 app.post('/contact', jsonParser, (req, res) => {

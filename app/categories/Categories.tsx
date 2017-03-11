@@ -15,7 +15,7 @@ interface Props {
 }
 
 const categoryQuery = gql`
-  {
+  query allCategories {
     categories {
       id
       name

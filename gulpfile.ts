@@ -8,8 +8,8 @@ import * as gulp from 'gulp';
 import * as image from 'gulp-image';
 import * as stylus from 'gulp-stylus';
 
-import { SingleCardJSON } from './server/schema';
 import { normalize } from './server/utils/normalize';
+import { SingleCardJSON } from './server/utils/strongTypes';
 
 const CLOUDFRONT_URL = 'https://d249u3bk3sqm2p.cloudfront.net';
 

@@ -3,18 +3,15 @@ import {
   GraphQLObjectType,
   GraphQLString,
 } from 'graphql';
-import { RootContext } from '../schema';
+import { TypedFields } from '../../utils/strongTypes';
 
 export interface Category {
   id: string;
   name: string;
 }
 
-export const categoryType = new GraphQLObjectType(<RootContext>{
-  name: 'Category',
-  description: 'A single category',
-  fields: () => ({
-    id: {
+const fields = (): TypedFields<Category> => ({
+  id: {
       type: new GraphQLNonNull(GraphQLString),
       description: 'The ID of the category.',
     },
@@ -22,5 +19,10 @@ export const categoryType = new GraphQLObjectType(<RootContext>{
       type: GraphQLString,
       description: 'The category name.',
     },
-  }),
+});
+
+export default new GraphQLObjectType({
+  name: 'Category',
+  description: 'A single category',
+  fields,
 });

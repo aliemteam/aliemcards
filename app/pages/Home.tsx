@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { gql, graphql } from 'react-apollo';
-import { Card } from '../../server/types/';
+import { Card } from '../../server/models/';
 import CardList from '../cards/CardList';
 
 interface Props {
@@ -12,11 +12,11 @@ interface Props {
 }
 
 const homepageCards = gql`
-  query {
-    recentlyAdded {
+  query homepageCards {
+    recentlyAdded: cards(orderBy: created, limit: 5) {
       ...cardFragment
     }
-    recentlyUpdated {
+    recentlyUpdated: cards(orderBy: updated, limit: 5) {
       ...cardFragment
     }
   }

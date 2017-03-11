@@ -16,7 +16,7 @@
     "outDir": "./dist",
     "removeComments": true,
     "strictNullChecks": true,
-    "target": "esnext",
+    "target": "es6",
     "sourceMap": true
   },
   "include": [

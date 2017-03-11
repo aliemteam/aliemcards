@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { gql, graphql } from 'react-apollo';
 import { Link } from 'react-router-dom';
-import { Card } from '../../server/types/';
+import { Card } from '../../server/models/';
 
 interface Props {
   data?: {

@@ -16,7 +16,7 @@ interface State {
 }
 
 const cardsAndCategories = gql`
-  {
+  query cardsAndCategories {
     cards {
       id
       title
@@ -42,7 +42,7 @@ export default class CardListContainer extends React.PureComponent<Props, State>
     };
   }
 
-  handleChange(e) {
+  handleChange = (e: React.FormEvent<HTMLSelectElement>) => {
     const category = e.currentTarget.value;
     this.setState({ categoryFilter: category });
   }
