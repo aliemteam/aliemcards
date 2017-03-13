@@ -36,11 +36,7 @@ const config = {
 
 @graphql(cardDataFromId, config)
 export default class Card extends React.PureComponent<Props, {}> {
-  getContent() {
-    return {
-      __html: marked(this.props.data.card.content),
-    };
-  }
+  getContent = () => ({__html: marked(this.props.data.card.content)});
 
   render() {
     const { card, networkStatus } = this.props.data;
