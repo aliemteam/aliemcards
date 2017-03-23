@@ -3,10 +3,13 @@ title: ABG Interpretation
 authors:
     - Michelle Lin, MD
 created: 2010/04/02
-updates: 
+
+updates:
     - 2017/02/24
 categories:
-    - Pulmonology
+    - Pulmonology   
+googlescholar: abg interpretation steps
+
 ---
 
 # ABG Interpretation
@@ -32,13 +35,16 @@ eg. 7.50/ 29 / 80 / 22 (pH / PaCo2 / PaO2 / \[HCO3-\])
 
 **Differential**
 
-|                                                                                              |                        |
-|----------------------------------------------------------------------------------------------|------------------------|
-| Anxiety                                                                                      | Lung disease           |
-| CNS disease                                                                                  | Mechanical ventilation |
-| Drug use (aspirin, catecholamines, progesterone)                                             | Pregnancy              |
-| Hepatic encephalopathy                                                                       | Sepsis                 |
-| Hypoxia                                                                                      |                        |
+- Anxiety
+- Lung disease
+- CNS disease 
+- Mechanical ventilation
+- Drug use (aspirin, catecholamines, progesterone)
+- Pregnancy
+- Hepatic encephalopathy
+- Sepsis
+- Hypoxia
+
 
 ## Primary respiratory acidosis 
 
@@ -48,26 +54,28 @@ eg. 7.34 / 60 / 80 / 31 = **CHRONIC** because bicarbonate conensation
 
 **Differential**
 
-|                            |                                  |
-|----------------------------|----------------------------------|
-| Acute airway obstruction   | Severe pneumonia or pulm edema   |
-| CNS depression             | Thoracic cage injury-flail chest |
-| Impaired lung motion (PTX) | Ventilator dysfunction           |
-| Neuromuscular disorder     |                                  |
+- Acute airway obstruction
+- Severe pneumonia or pulm edema   |
+- CNS depression            
+- Thoracic cage injury-flail chest
+- Impaired lung motion (PTX)
+- Ventilator dysfunction          
+- Neuromuscular disorder                               
 
 ## Primary metabolic alkalosis
 
 eg. 7.50 / 48 / 80 / 36
 
 **Differential**
-
-|                      |                                   |
-|----------------------|-----------------------------------|
-| **Urine Cl = low**   | **Urine Cl = normal-high**        |
-| Diuretic use in past | Current diuretic use              |
-| NG suction           | Excess alkali administration      |
-| Post-hypercapnia     | Excess mineralocorticoid activity |
-|  Vomiting            |  Refeeding alkalosis              |
+-  **Urine Cl = low**   | **Urine Cl = normal-high**        |
+- Diuretic use in past 
+- Current diuretic use             
+- NG suction           
+- Excess alkali administration     
+- Post-hypercapnia     
+- Excess mineralocorticoid activity
+-  Vomiting            
+-  Refeeding alkalosis             
 
 ## Primary metabolic acidosis 
 
