@@ -16,7 +16,6 @@ export interface Card {
   created: number;
   updates: number[]|null;
   categories: Category[];
-  drugs: string[]|null;
   content: string;
 };
 
@@ -49,10 +48,6 @@ export const cardType = new GraphQLObjectType(<RootContext>{
       type: new GraphQLList(categoryType),
       description: 'Array of categories.',
       resolve: (card: SingleCardJSON, _args, context) => card.categories.map(id => context.entities.categories[id]),
-    },
-    drugs: {
-      type: new GraphQLList(GraphQLString),
-      description: 'Array of drug names that pertain to the card.',
     },
     content: {
       type: GraphQLString,

@@ -1,17 +1,16 @@
 ---
-
-title: 'ABG Interpretation'
+title: ABG Interpretation
 authors:
-    - 'Michelle Lin, MD'
+    - Michelle Lin, MD
 created: 2010/04/02
+
 updates:
     - 2017/02/24
 categories:
     - Pulmonology   
 googlescholar: abg interpretation steps
+
 ---
-
-
 
 # ABG Interpretation
 
@@ -82,12 +81,12 @@ eg. 7.50 / 48 / 80 / 36
 
 eg. 7.20 / 21 / 80 / 8
 
-**Nonanion gap:**
+**Nonanion gap:** CAGE
 
--   GI bicarbonate loss, e.g. diarrhea
--   Renal bicarbonate loss, e.g. RTA, renal failure, carbonic anhydrase inhibitors, aldosterone inhibitors
--   HCl administration
--   Post-hypocapnia
+-   Chloride (HCL) administration 
+-   Acetazolamide/Addisons
+-   GI Loss
+-   Extras – RTA, ingestion of oral acidifying salts, recovery phase of DKA
 
 **Anion gap:** MUDPILES
 
