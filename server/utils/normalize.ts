@@ -36,6 +36,7 @@ export const normalize = (cards: SingleCardJSON[]): RootValue => {
     authors: card.authors.map(AuthorFactory.create),
     categories: card.categories ? card.categories.map(createCategoryObj) : [],
   }));
+
   // const mapped = cards.map(card => ({...card,
   //   authors: card.authors.map(AuthorFactory.create),
   //   categories: card.categories.map(createCategoryObj),
