@@ -1,3 +1,4 @@
+// tslint:disable:no-console
 import * as autoprefixer from 'autoprefixer-stylus';
 import { execFile } from 'child_process';
 import * as del from 'del';
@@ -7,8 +8,8 @@ import * as gulp from 'gulp';
 import * as image from 'gulp-image';
 import * as stylus from 'gulp-stylus';
 
-import { SingleCardJSON } from './server/schema';
 import { normalize } from './server/utils/normalize';
+import { SingleCardJSON } from './server/utils/strongTypes';
 
 const CLOUDFRONT_URL = 'https://d249u3bk3sqm2p.cloudfront.net';
 
@@ -42,7 +43,7 @@ gulp.task('cards', () => (
 gulp.task('typescript', cb => {
   execFile('./node_modules/.bin/tsc', ['-p', __dirname], (err, stdout, stderr) => {
     if (stderr) { console.error(stderr); }
-    if (stdout) { console.log(stdout); } // tslint:disable-line
+    if (stdout) { console.log(stdout); }
     if (err) { throw err; }
     cb();
   });
