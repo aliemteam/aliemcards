@@ -40,7 +40,7 @@ Remember that theophylline may require higher dosing as well, because it is simi
 
 **Transplanted heart:** Lowr dose for patients with heart transplants
 
-***Recommended dosing strategy* **\[[Chang, 2002](http://www.ncbi.nlm.nih.gov/pubmed/11858927); [Neumar, 2010](http://www.ncbi.nlm.nih.gov/pubmed/20956256); [Mc-Intosh-Yellin, 1993](http://www.ncbi.nlm.nih.gov/pubmed/8354807)\]:
+***Recommended dosing strategy***\[[Chang, 2002](http://www.ncbi.nlm.nih.gov/pubmed/11858927); [Neumar, 2010](http://www.ncbi.nlm.nih.gov/pubmed/20956256); [Mc-Intosh-Yellin, 1993](http://www.ncbi.nlm.nih.gov/pubmed/8354807)\]:
 
 -   1st dose: 3 mg (instead of 6)
 -   2nd/3rd doses: 6 mg (instead of 12)

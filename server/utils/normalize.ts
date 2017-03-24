@@ -1,13 +1,13 @@
 import { normalize as normalizr, schema } from 'normalizr';
-import { Context, SingleCardJSON } from '../schema';
-import { Author, Category } from '../types/';
+import { AuthorRaw, Category } from '../models/';
+import { RootValue, SingleCardJSON } from './strongTypes';
 
 /**
  * Tasks a string as input and returns an object with a unique id in the form of
  * { id: Int, name: String (same as name param) }
  */
 class AuthorFactory {
-  public static create(name: string): Author {
+  public static create(name: string): AuthorRaw {
     let id = AuthorFactory.authors.get(name);
     if (typeof id === 'undefined') {
       id = AuthorFactory.authorCount.toString();
@@ -31,11 +31,12 @@ function createCategoryObj(category: string): Category {
   };
 }
 
-export const normalize = (cards: SingleCardJSON[]): Context => {
+export const normalize = (cards: SingleCardJSON[]): RootValue => {
   const mapped = cards.map(card => Object.assign({}, card, {
     authors: card.authors.map(AuthorFactory.create),
-    categories: card.categories.map(createCategoryObj),
+    categories: card.categories ? card.categories.map(createCategoryObj) : [],
   }));
+
   // const mapped = cards.map(card => ({...card,
   //   authors: card.authors.map(AuthorFactory.create),
   //   categories: card.categories.map(createCategoryObj),

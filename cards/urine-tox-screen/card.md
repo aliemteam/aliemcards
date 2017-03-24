@@ -6,7 +6,7 @@ authors:
 created: 2010/07/22
 updates: 
     - 2017/02/14
-cateories:
+categories:
     - Toxicology
 
 ---

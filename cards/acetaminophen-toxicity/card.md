@@ -8,7 +8,6 @@ updates: null
 categories:
     - Toxicology
     - Pharmacology
-drugs: acetaminophen
 
 ---
 
@@ -29,8 +28,8 @@ Note: Use for single time-point ingestion only. Does not predict toxicity in chr
 -   Metabolized through cytochrome P450 system to form toxic NAPQI metabolite, which requires glutathione to detoxify.
 -   Toxic ingestion dose = 150 mg/kg 
 
-**Clinical Stages of Acetaminophen Overdose
-**
+**Clinical Stages of Acetaminophen Overdose**
+
 -   **Stage 1** (&lt; 24 hr): Abd pain, N/V, anorexia, lethargy, diaphoresis; normal labs
 -   **Stage 2** (24-72 hr): RUQ abdominal pain, jaundice, rising AST/ALT/INR values 
 -   **Stage 3** (72-96 hr): Peak hepatotoxicity, renal insufficiency, and death vs. mild symptoms if treated
@@ -42,10 +41,10 @@ Note: Use for single time-point ingestion only. Does not predict toxicity in chr
 
 **Treatment:**
 
-Activated charcoal 
+<span class="drug">Activated charcoal</span>
 1.  Of benefit &lt; 1 hour of ingestion and possible benefit beyond 1 hour
 
-N-acetylcysteine (PO or IV) 
+<span class="drug">N-acetylcysteine</span> (PO or IV) 
 Start within 8-10 hours if:
 1.  Above “possible hepatic toxicity” line
 2.  Estimated single ingestion of acetaminophen &gt; 150 mg/kg
