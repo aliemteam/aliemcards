@@ -1,17 +1,14 @@
 ---
 
-title: 'Local Anesthetic Toxicity'
+title: Local Anesthetic Toxicity
 authors:
-    - 'David Murphy'
+    - David Murphy
 created: 2014/06/13
 updates: null
 categories:
     - Toxicology
-drugs: 'bupivacaine, lidocaine, epinephrine, intralipid'
 
 ---
-
-
 
 # Local Anesthetic Toxicity: Calculating Maximum Safe Dose
 

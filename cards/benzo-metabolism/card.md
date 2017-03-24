@@ -1,19 +1,16 @@
 ---
 
-title: 'Benzodiazepines Metabolism by the Liver'
+title: Benzodiazepines Metabolism by the Liver
 authors:
-    - 'Bryan Hayes, PharmD'
+    - Bryan Hayes, PharmD
 created: 2013/11/13
 updates:
     - 2017/02/13
 categories:
     - Pharmacology
     - Toxicology
-drugs: 'lorazepam, oxazepam, temazepam, clonazepam, midazolam, diazepam'
 
 ---
-
-
 
 # Benzodiazepine Metabolism by the Liver
 

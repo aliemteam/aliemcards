@@ -1,18 +1,15 @@
 ---
 
-title: 'Cholecystitis Diagnostic Test'
+title: Cholecystitis Diagnostic Test
 authors:
-    - 'Michelle Lin, MD'
+    - Michelle Lin, MD
 created: 2011/03/18
 updates: null
 categories:
     - Gastroenterology
     - EBM
-drugs: null
 
 ---
-
-
 
 # Cholecystitis - Diagnostic tests
 

@@ -1,17 +1,14 @@
 ---
 
-title: 'Murmurs Needing Echocardiography Evaluation'
+title: Murmurs Needing Echocardiography Evaluation
 authors:
-    - 'Amy Kinard, RN'
+    - Amy Kinard, RN
 created: 2010/09/17
 updates: null
 categories:
     - Cardiovascular
-drugs: null
 
 ---
-
-
 
 # Murmurs Needing Echocardiography Evaluation
 

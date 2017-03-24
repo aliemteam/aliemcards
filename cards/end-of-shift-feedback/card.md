@@ -1,13 +1,12 @@
 ---
 
-title: 'End-of-Shift Feedback'
+title: End-of-Shift Feedback
 authors:
-    - 'David Thompson, MD'
+    - David Thompson, MD
 created: 2011/12/09
 updates: null
 categories:
-    - 'Education and Policy'
-drugs: null
+    - Education and Policy
 
 ---
 

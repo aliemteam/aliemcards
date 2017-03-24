@@ -7,7 +7,6 @@ created: 2011/02/04
 updates: null
 categories:
     - Environmental
-drugs: null
 
 ---
 

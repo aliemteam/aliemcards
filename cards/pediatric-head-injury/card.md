@@ -1,18 +1,15 @@
 ---
 
-title: 'Pediatric Blunt Head Trauma (PECARN Study)'
+title: Pediatric Blunt Head Trauma (PECARN Study)
 authors:
-    - 'Michelle Lin, MD'
+    - Michelle Lin, MD
 created: 2010/02/04
 updates: null
 categories:
     - Pediatrics
     - Trauma
-drugs: null
 
 ---
-
-
 
 # Pediatric Blunt Head Trauma (PECARN Study)
 

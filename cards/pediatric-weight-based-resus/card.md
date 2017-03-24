@@ -1,18 +1,15 @@
 ---
 
-title: 'Pediatric Weight-Based Resuscitation Reference'
+title: Pediatric Weight-Based Resuscitation Reference
 authors:
-    - 'Michelle Lin, MD'
+    - Michelle Lin, MD
 created: 2010/10/23
 updates: null
 categories:
-    - 'Critical Care'
+    - Critical Care
     - Pediatrics
-drugs: null
 
 ---
-
-
 
 # Pediatric Weight-Based Resuscitation Reference
 

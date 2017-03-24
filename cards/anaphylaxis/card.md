@@ -8,7 +8,6 @@ updates:
     - 2017/02/13
 categories:
     - Allergy-Immunology
-drugs: 'epinepherine, diphenhydramine, ranitidine, glucagon, methylprednisolone'
 
 ---
 

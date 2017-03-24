@@ -1,6 +1,6 @@
 ---
 
-title: 'ACLS 2015 Algorithm for Cardiac Arrest'
+title: ACLS 2015 Algorithm for Cardiac Arrest
 authors:
     - Michelle Lin, MD
     - Jeremy Voros, MD
@@ -12,8 +12,6 @@ categories:
     - Critical Care
 
 ---
-
-
 
 # ACLS 2015 Algorithm for Cardiac Arrest
 

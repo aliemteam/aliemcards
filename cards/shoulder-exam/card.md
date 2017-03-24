@@ -1,17 +1,14 @@
 ---
 
-title: 'Shoulder Exam Provocative Testing'
+title: Shoulder Exam Provocative Testing
 authors:
-    - 'Michelle Lin, MD'
+    - Michelle Lin, MD
 created: 2011/01/28
 updates: null
 categories:
     - Orthopedics
-drugs: null
 
 ---
-
-
 
 # Shoulder Exam Provocative Testing
 

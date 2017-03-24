@@ -1,17 +1,14 @@
 ---
 
-title: 'Dental Infections'
+title: Dental Infections
 authors:
-    - 'Hans Rosenberg, MD'
+    - Hans Rosenberg, MD
 created: 2011/04/22
 updates: null
 categories:
     - ENT
-drugs: 'penicillin, clindamycin, metronidazole, ceftriaxone, chlorhexidine'
 
 ---
-
-
 
 # Dental Infections
 

@@ -1,18 +1,15 @@
 ---
 
-title: 'Continuous Infusions'
+title: Continuous Infusions
 authors:
-    - 'Michelle Lin, MD'
+    - Michelle Lin, MD
 created: 2012/03/09
 updates: null
 categories:
     - Pharmacology
-    - 'Critical Care'
-drugs: 'amiodarone, Diltiazem, Dobutamine, Dopamine, Epinephrine, Esmolol, fentanyl, furosemide, Isoproterenol, ketamine, lidocaine, Lorazepam, midazolam, naloxone, Nicardipine, Nitroglycerin, Nitroprusside, Norepinephrine, Octreotide, Phenylephrine, propofol, Vasopressin, Vecuronium'
+    - Critical Care
 
 ---
-
-
 
 # Continuous Infusions: Dosing Recommendations
 

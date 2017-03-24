@@ -1,20 +1,15 @@
 ---
 
-title: 'Cystitis and Pyelonephritis in Women'
+title: Cystitis and Pyelonephritis in Women
 authors:
-    - 'Michelle Lin, MD'
+    - Michelle Lin, MD
 created: 2011/09/02
 updates: null
 categories:
     - Infectious Disease
     - Genitourinary
-drugs: 'nitrofurantoin, sulfamethoxazole, fosfomycin, pivmecillinam, ofloxacin, ciprofloxacin, levofloxacin, amoxicillin-clavulanate, cefdinir, cefaclor, cefpodoxime-proxetil, trimethoprim-sulfamethoxazole'
 
 ---
-
-
-
-
 
 # Antibiotic Selection for Cystitis and Pyelonephritis in Women
 *2010 Infectious Disease Society of America (IDSA) and European Society for Microbiology and Infectious Diseases (ESMID) guidelines*

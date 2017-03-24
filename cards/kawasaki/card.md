@@ -1,17 +1,14 @@
 ---
 
-title: 'Kawasaki Disease'
+title: Kawasaki Disease
 authors:
-    - 'Michelle Lin, MD'
+    - Michelle Lin, MD
 created: 2012/03/23
 updates: null
 categories:
     - Pediatrics
-drugs: null
 
 ---
-
-
 
 # Kawasaki Disease
 
