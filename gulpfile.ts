@@ -14,7 +14,6 @@ import { SingleCardJSON } from './server/utils/strongTypes';
 const CLOUDFRONT_URL = 'https://d249u3bk3sqm2p.cloudfront.net';
 const REGEX = {
   dateStringFormat: new RegExp('^\d{4}\/\d{2}\/\d{2}$'),
-  hasTitle: new RegExp('^#(?!#).+', 'm'),
   hasReferenceHeading: new RegExp('## References'),
   imageUrl: new RegExp('(\w*(?:-|_)*\w*\.(?:png|jpg|jpeg|gif))', 'gi'),
   markdownH1: new RegExp('^#(?!#).+', 'm'),
@@ -39,7 +38,7 @@ gulp.task('cards', () => (
         }
 
         // Does the card have an H1 title?
-        if (!REGEX.hasTitle.test(parsed.body)) {
+        if (!REGEX.markdownH1.test(parsed.body)) {
           throw new Error(`H1 title not set for ${dir}`);
         }
 
