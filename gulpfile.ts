@@ -13,8 +13,11 @@ import { SingleCardJSON } from './server/utils/strongTypes';
 
 const CLOUDFRONT_URL = 'https://d249u3bk3sqm2p.cloudfront.net';
 const REGEX = {
+  dateStringFormat: new RegExp('^\d{4}\/\d{2}\/\d{2}$'),
   hasTitle: new RegExp('^#(?!#).+', 'm'),
   hasReferenceHeading: new RegExp('## References'),
+  imageUrl: new RegExp('(\w*(?:-|_)*\w*\.(?:png|jpg|jpeg|gif))', 'gi'),
+  markdownH1: new RegExp('^#(?!#).+', 'm'),
 };
 
 // Utility tasks
@@ -49,9 +52,9 @@ gulp.task('cards', () => (
 
         const body = parsed.body
           // remove titles from body
-          .replace(/^#(?!#).+/m, '')
+          .replace(REGEX.markdownH1, '')
           // prepend cloudfront url and directory to images
-          .replace(/(\w*(?:-|_)*\w*\.(?:png|jpg|jpeg|gif))/gi, `${CLOUDFRONT_URL}/${dir}/$&`);
+          .replace(REGEX.imageUrl, `${CLOUDFRONT_URL}/${dir}/$&`);
 
         cards = [...cards, buildCardObject(dir, parsed.attributes, body)];
       }
@@ -187,7 +190,7 @@ function checkCardAttributes(attrs: Partial<CardMeta>, cardName: string): void {
         }
         return;
       case 'created':
-        if (typeof attrs[att] !== 'string' || attrs[att] === '' || !/\d{4}\/\d{2}\/\d{2}/.test(<string>attrs[att])) {
+        if (typeof attrs[att] !== 'string' || attrs[att] === '' || REGEX.dateStringFormat.test(<string>attrs[att])) {
           throw new Error(`Invalid "${att}" property in yaml of ${cardName}`);
         }
         return;
