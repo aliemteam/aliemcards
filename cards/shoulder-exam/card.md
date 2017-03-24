@@ -88,3 +88,5 @@ Patient has pain when externally rotates shoulder against resistance (with elbow
 2.  Have the patient supinate and flex elbow against examiner's resistance (holding at wrist)
 
 ![](image-8.png)
+
+## References

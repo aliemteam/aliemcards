@@ -4,8 +4,8 @@ title: NIH Stroke Scale
 authors:
     - Michelle Lin, MD
 created: 2010/02/06
-updates: null
-+updates: 2017/02/24
+updates: 
+    - 2017/02/24
 categories:
     - Neurology
 
@@ -184,3 +184,7 @@ categories:
 
 
 **Total score = 0-42**
+
+## References
+
+1. ["NINDS Know Stroke Campaign - NIH Stroke Scale". Stroke.nih.gov. N.p., 2017. Web. 24 Mar. 2017.](https://stroke.nih.gov/resources/scale.htm)

@@ -83,3 +83,5 @@ categories:
 
 1. **Aorta** - which requires taking any thrombus or plaque into account
 2. **Biparietal diameter of fetus** - which is measured outer to inner wall of the skull
+
+## References

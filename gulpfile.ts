@@ -144,21 +144,23 @@ function writeFilePromise(path, content) {
 function checkDirectoryShape(contents: string[]): Promise<string[]> {
   const promises: Array<Promise<string>> = [];
   for (const dir of contents) {
-    promises.push(new Promise(res => {
-      fs.stat(`./cards/${dir}`, (err, stats) => {
-        if (err) { throw err; }
-        if (!stats.isDirectory()) {
-          throw new Error('No files should be located in the first level of the "cards" directory');
-        }
-        fs.readdir(`./cards/${dir}`, (errr, files) => {
-          if (errr) { throw errr; }
-          if (files.indexOf('card.md') === -1) {
-            throw new Error(`No card.md file found in directory ${dir}`);
+    if (dir !== '.DS_Store') {
+      promises.push(new Promise(res => {
+        fs.stat(`./cards/${dir}`, (err, stats) => {
+          if (err) { throw err; }
+          if (!stats.isDirectory()) {
+            throw new Error('No files should be located in the first level of the "cards" directory');
           }
-          res(dir);
+          fs.readdir(`./cards/${dir}`, (errr, files) => {
+            if (errr) { throw errr; }
+            if (files.indexOf('card.md') === -1) {
+              throw new Error(`No card.md file found in directory ${dir}`);
+            }
+            res(dir);
+          });
         });
-      });
-    }));
+      }));
+    }
   }
   return Promise.all(promises);
 }

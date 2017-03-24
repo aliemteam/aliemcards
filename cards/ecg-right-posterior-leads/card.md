@@ -50,3 +50,6 @@ Hints of an associated posterior infarct:
 
 1.  Deep T wave inversion in V1 or V2 (in hyperacute stage) 
 2.  Upright T wave waves (in later stage)
+
+## References
+

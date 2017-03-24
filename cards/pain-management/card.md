@@ -65,3 +65,5 @@ categories:
 |                                             | 1-2 mcg/kg IN (no more than 1 mL per nostril)   |
 |                                             | 2-4 mcg/kg nebulized                            |
 | Naloxone                                    | (for opioid-induced pruritus) 0.25-0.5 mcg/kg/hr IV (2 mg naloxone in 100 mL  NS) |
+
+## References

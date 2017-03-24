@@ -13,8 +13,6 @@ categories:
 
 # Palliative Care Screening Tool
 
-[George N et al, 2015](https://www.ncbi.nlm.nih.gov/pubmed/26171710)
-
 ## What is Palliative Care?
 
 Palliative Care focuses on improving the care and quality of life for patients with advanced illness by decreasing suffering. It can be delivered concurrently with curative care. Early identification of patients who are likely to benefit is key.
@@ -48,3 +46,7 @@ Palliative Care focuses on improving the care and quality of life for patients w
 | Anxiety | Lorazepam or diazepam |
 | Dyspnea | Supplemental O2 and/or morphine for comfort | 
 | Pain |Standing morphine or fentanyl, or use of opioid drips |
+
+## References 
+
+1. [George N et al, 2015](https://www.ncbi.nlm.nih.gov/pubmed/26171710)

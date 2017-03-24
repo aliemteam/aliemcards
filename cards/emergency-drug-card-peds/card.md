@@ -305,3 +305,5 @@ categories:
 
 
 *This document presents an evidence-based approach that is appropriate for most patients. It should be adapted to meet the needs of individual patients and situations, and should not replace clinical judgment.*
+
+## References
