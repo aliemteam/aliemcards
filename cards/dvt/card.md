@@ -1,18 +1,15 @@
 ---
 
-title: 'DVT of the Leg - ACCP Guidelines'
+title: DVT of the Leg - ACCP Guidelines
 authors:
-    - 'Jason West, MD'
+    - Jason West, MD
 created: 2013/01/24
 updates: null
 categories:
     - Cardiovascular
     - EBM
-drugs: null
 
 ---
-
-
 
 # Deep Vein Thrombosis (DVT) of Leg: 2012 ACCP Guidelines
 

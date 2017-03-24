@@ -1,17 +1,14 @@
 ---
 
-title: 'Seizure, New Onset'
+title: Seizure, New Onset
 authors:
-    - 'Michelle Lin, MD'
+    - Michelle Lin, MD
 created: 2011/01/13
 updates: null
 categories:
     - Neurology
-drugs: null
 
 ---
-
-
 
 # Seizure, New Onset
 

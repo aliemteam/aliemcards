@@ -1,17 +1,14 @@
 ---
 
-title: 'Paracentesis for Ascites'
+title: Paracentesis for Ascites
 authors:
-    - 'Michelle Lin, MD'
+    - Michelle Lin, MD
 created: 2010/06/25
 updates: null
 categories:
     - Gastroenterology
-drugs: null
 
 ---
-
-
 
 # Spontaneous Bacterial Peritonitis and Paracentesis
 

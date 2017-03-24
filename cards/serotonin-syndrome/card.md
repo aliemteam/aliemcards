@@ -1,17 +1,14 @@
 ---
 
-title: 'Serotonin Syndrome'
+title: Serotonin Syndrome
 authors:
-    - 'Michelle Lin, MD'
+    - Michelle Lin, MD
 created: 2012/01/06
 updates: null
 categories:
     - Toxicology
-drugs: 'cyclobenzaprine, fentanyl, meperidine, tramadol, buspirone, lithium, metoclopramide, ondansetron, carbamazepine, valproic acid, cocaine, dextromethorphan, linezolid, cyproheptadine'
 
 ---
-
-
 
 # Serotonin Syndrome
 

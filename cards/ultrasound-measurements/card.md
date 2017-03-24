@@ -1,20 +1,17 @@
 ---
 
-title: 'Ultrasound Measurement Cheat Sheet'
+title: Ultrasound Measurement Cheat Sheet
 authors:
-    - 'Maria Beylin, MD'
-    - 'Scott Fischette, MD' 
-    - 'Nate Teismann, MD'
+    - Maria Beylin, MD
+    - Scott Fischette, MD 
+    - Nate Teismann, MD
 created: 2015/10/15
 updates: null
 categories:
     - Radiology
     - Ultrasound
-drugs: null
 
 ---
-
-
 
 # Ultrasound Measurement Cheat Sheet
 
@@ -86,3 +83,5 @@ drugs: null
 
 1. **Aorta** - which requires taking any thrombus or plaque into account
 2. **Biparietal diameter of fetus** - which is measured outer to inner wall of the skull
+
+## References

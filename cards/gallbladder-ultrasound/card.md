@@ -1,20 +1,17 @@
 ---
 
-title: 'Focused Biliary Assessment'
+title: Focused Biliary Assessment
 authors:
-    - 'John Eicken, MD'
-    - 'Mike Stone, MD'
+    - John Eicken, MD
+    - Mike Stone, MD
 created: 2015/01/01
 updates: null
 categories:
     - Radiology
     - Ultrasound
     - Gastroenterology
-drugs: null
 
 ---
-
-
 
 # Ultrasound: Focused Biliary Assessment
 

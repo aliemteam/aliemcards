@@ -1,20 +1,15 @@
 ---
 
-title: 'Causes of Elevated Lactate'
+title: Causes of Elevated Lactate
 authors:
-    - 'Michelle Lin, MD'
+    - Michelle Lin, MD
 created: 2009/12/22
 updates: null
 categories:
     - Ultrasound
     - Radiology
-drugs: null
 
 ---
-
-
-
-
 
 # Causes of Elevated Lactate
 

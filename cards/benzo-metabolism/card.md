@@ -1,19 +1,16 @@
 ---
 
-title: 'Benzodiazepines Metabolism by the Liver'
+title: Benzodiazepines Metabolism by the Liver
 authors:
-    - 'Bryan Hayes, PharmD'
+    - Bryan Hayes, PharmD
 created: 2013/11/13
 updates:
     - 2017/02/13
 categories:
     - Pharmacology
     - Toxicology
-drugs: 'lorazepam, oxazepam, temazepam, clonazepam, midazolam, diazepam'
 
 ---
-
-
 
 # Benzodiazepine Metabolism by the Liver
 
@@ -42,3 +39,8 @@ The rest of the benzodiazepines are primarily metabolized via hepatic CYP-mediat
 Some practitioners like to take advantage of the longer duration of action and active metabolites
 
 **Click [here](https://www.aliem.com/2013/all-benzodiazepines-are-metabolized-by-the-liver/) for full ALiEM blog post**
+
+## References
+
+1. Mihic SJ, Harris RA. Chapter 17. Hypnotics and Sedatives. In: Chabner BA, Knollmann BC, eds. Goodman & Gilman’s The Pharmacological Basis of Therapeutics. 12nd ed. New York: McGraw-Hill; 2011. http://www.accesspharmacy.com/content.aspx?aID=16663643. Accessed November 7, 2013.
+2. Lee DC, Ferguson KL. Chapter 74. Sedative-Hypnotics. In: Lee DC, Ferguson KL, eds.Goldfrank’s Toxicologic Emergencies. 9th ed. New York: McGraw-Hill; 2011. http://www.accesspharmacy.com/content.aspx?aID=6520459. Accessed November 7, 2013.
