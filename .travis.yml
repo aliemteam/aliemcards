@@ -6,7 +6,7 @@ branches:
         - master
         - /^greenkeeper-.*$/
 cache: yarn
-test: yarn test && yarn build
+script: yarn test && yarn build
 after_success:
     - bash <(curl -s https://codecov.io/bash)
 deploy:
