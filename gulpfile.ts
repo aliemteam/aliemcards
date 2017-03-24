@@ -169,7 +169,7 @@ function checkCardAttributes(attrs: Partial<CardMeta>, cardName: string): void {
   const keys = [
     'authors', 'categories', 'created', 'title', 'updates',
   ];
-  const attributeKeys = Object.keys(attrs).filter(k => ['pubmed', 'googlescholar'].indexOf(k) === -1);
+  const attributeKeys = Object.keys(attrs);
 
   if (attributeKeys.length < keys.length) {
     throw new Error(`${cardName} is missing yaml attributes`);

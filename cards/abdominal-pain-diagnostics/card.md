@@ -10,7 +10,6 @@ categories:
     - Gastroenterology
     - Surgery
     - EBM
-pubmed: (Diagnosis/Broad[filter]) AND (Imaging and laboratory testing in acute abdominal pain.) 
 
 ---
 
