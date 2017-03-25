@@ -2,17 +2,14 @@
 
 title: Croup
 authors:
-    - 'Michelle Lin, MD'
+    - Michelle Lin, MD
 created: 2010/08/20
 updates: null
 categories:
     - Pediatrics
     - ENT
-drugs: 'dexamethasone, racemic epinephrine'
 
 ---
-
-
 
 # Croup
 

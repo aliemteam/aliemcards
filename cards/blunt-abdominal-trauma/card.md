@@ -1,14 +1,13 @@
 ---
 
-title: 'Blunt Intra-Abdominal Injury'
+title: Blunt Intra-Abdominal Injury
 authors:
-    - 'Michelle Lin, MD'
+    - Michelle Lin, MD
 created: 2012/04/20
 updates: null
 categories:
     - Trauma
     - EBM
-drugs: null
 
 ---
 

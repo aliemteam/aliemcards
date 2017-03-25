@@ -1,22 +1,19 @@
 ---
 
-title: 'Fever Without a Source - neonate'
+title: Fever Without a Source - neonate
 authors:
-    - 'Hemal Kanzaria, MD'
-    - 'Christine Cho, MD'
-    - 'Andi Marmor, MD'
-    - 'Ellen Laves, MD'
-    - 'Michelle Lin, MD'
+    - Hemal Kanzaria, MD
+    - Christine Cho, MD
+    - Andi Marmor, MD
+    - Ellen Laves, MD
+    - Michelle Lin, MD
 created: 2012/02/02
 updates: null
 categories:
     - Pediatrics
-    - 'Infectious Disease'
-drugs: 'Ampicillin, Cefotaxime, Gentamicin'
+    - Infectious Disease
 
 ---
-
-
 
 # Pediatric Fever Without a Source: Birth - 28 Days Old
 

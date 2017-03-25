@@ -1,20 +1,17 @@
 ---
 
-title: 'Skin and Soft Tissue Ultrasound'
+title: Skin and Soft Tissue Ultrasound
 authors:
-    - 'Alissa Genthon, MD'
-    - 'Patricia Henwood, MD'
-    - 'Mike Stone, MD'
+    - Alissa Genthon, MD
+    - Patricia Henwood, MD
+    - Mike Stone, MD
 created: 2015/01/07
 updates: null
 categories:
     - Ultrasound
     - Radiology
-drugs: null
 
 ---
-
-
 
 # Ultrasound: Skin and Soft Tissue
 

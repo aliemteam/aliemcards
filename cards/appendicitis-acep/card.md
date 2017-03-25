@@ -1,18 +1,15 @@
 ---
 
-title: 'Appendicitis ACEP Clinical Policy'
+title: Appendicitis ACEP Clinical Policy
 authors:
-    - 'Michelle Lin, MD'
+    - Michelle Lin, MD
 created: 2010/06/18
 updates: null
 categories:
     - Surgery
     - EBM
-drugs: null
 
 ---
-
-
 
 # Appendicitis: ACEP Clinical Policy
 

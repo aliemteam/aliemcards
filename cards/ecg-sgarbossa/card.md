@@ -1,26 +1,21 @@
 ---
 
-title: 'Sgarbossa Criteria for LBBB and AMI'
+title: Sgarbossa Criteria for LBBB and AMI
 authors:
-    - 'Michelle Lin, MD'
+    - Michelle Lin, MD
 created: 2010/11/05
 updates: null
 categories:
     - Cardiovascular
     - ECG
-drugs: null
 
 ---
-
-
 
 # ECG: Sgarbossa Criteria for LBBB and AMI
 
 It is difficult to determine if a patient with a left bundle branch block (LBBB) has an acute myocardial infarction (AMI) because ST segments are "appropriately discordant" with the terminal portion of the QRS. 
 
 - The major, terminal portion of the QRS complex will normally be “appropriately discordant” with the ST segment.
-
-
 
 
 ## Sgarbossa criteria

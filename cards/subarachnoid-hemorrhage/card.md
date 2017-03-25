@@ -1,17 +1,14 @@
 ---
 
-title: 'Management of Aneurysmal Subarachnoid Hemorrhage'
+title: Management of Aneurysmal Subarachnoid Hemorrhage
 authors:
-    - 'Michelle Lin, MD'
+    - Michelle Lin, MD
 created: 2010/12/17
 updates: null
 categories:
     - Neurology
-drugs: 'nimodipine'
 
 ---
-
-
 
 # Grading and Management of Aneurysmal Subarachnoid Hemorrhage (SAH)
 

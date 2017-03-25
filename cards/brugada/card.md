@@ -1,13 +1,12 @@
 ---
 
-title: 'Brugada Syndrome'
+title: Brugada Syndrome
 authors:
-    - 'Michelle Lin, MD'
+    - Michelle Lin, MD
 created: 2011/05/06
 updates: null
 categories:
     - Cardiovascular
-drugs: null
 
 ---
 
