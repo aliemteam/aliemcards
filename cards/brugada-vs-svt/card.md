@@ -1,13 +1,12 @@
 ---
 
-title: 'Brugada Criteria for SVT with Aberrancy vs VT'
+title: Brugada Criteria for SVT with Aberrancy vs VT
 authors:
-    - 'Michelle Lin, MD'
+    - Michelle Lin, MD
 created: 2013/02/27
 updates: null
 categories:
     - Cardiovascular
-drugs: null
 
 ---
 

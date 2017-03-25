@@ -1,18 +1,15 @@
 ---
 
-title: 'Lead aVR'
+title: Lead aVR
 authors:
-    - 'Michelle Lin, MD'
+    - Michelle Lin, MD
 created: 2011/11/18
 updates: null
 categories:
     - Cardiovascular
     - ECG
-drugs: null
 
 ---
-
-
 
 # ECG: Lead aVR
 

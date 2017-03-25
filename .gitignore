@@ -5,5 +5,3 @@ node_modules
 tmp
 dist
 server/data.json
-.vscode
-

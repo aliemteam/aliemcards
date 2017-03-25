@@ -1,17 +1,14 @@
 ---
 
-title: 'Toxic Alcohol Ingestion - Ethylene Glycol'
+title: Toxic Alcohol Ingestion - Ethylene Glycol
 authors:
-    - 'Michelle Lin, MD'
+    - Michelle Lin, MD
 created: 2012/06/08
 updates: null
 categories:
     - Toxicology
-drugs: fomipezole
 
 ---
-
-
 
 # Toxic Alcohol Ingestion: Ethylene Glycol 
 

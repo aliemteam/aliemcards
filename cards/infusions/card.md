@@ -1,18 +1,15 @@
 ---
 
-title: 'Continuous Infusions'
+title: Continuous Infusions
 authors:
-    - 'Michelle Lin, MD'
+    - Michelle Lin, MD
 created: 2012/03/09
 updates: null
 categories:
     - Pharmacology
-    - 'Critical Care'
-drugs: 'amiodarone, Diltiazem, Dobutamine, Dopamine, Epinephrine, Esmolol, fentanyl, furosemide, Isoproterenol, ketamine, lidocaine, Lorazepam, midazolam, naloxone, Nicardipine, Nitroglycerin, Nitroprusside, Norepinephrine, Octreotide, Phenylephrine, propofol, Vasopressin, Vecuronium'
+    - Critical Care
 
 ---
-
-
 
 # Continuous Infusions: Dosing Recommendations
 
@@ -44,5 +41,8 @@ drugs: 'amiodarone, Diltiazem, Dobutamine, Dopamine, Epinephrine, Esmolol, fenta
 | Vasopressin     | 0.02-0.04 | units/min, or higher if indicated (max 0.2 units/min) |
 | Vecuronium      | 1-5       | mg/hr or higher if indicated                          |
 
-Based on 2012 card on Continuous Infusions from the UCSF Critical Care Units as part of a campaign for Safe Medication Prescriptions
+
+## References 
+
+- Based on 2012 card on Continuous Infusions from the UCSF Critical Care Units as part of a campaign for Safe Medication Prescriptions
 

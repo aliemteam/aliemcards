@@ -1,18 +1,15 @@
 ---
 
-title: 'Ventilator Setting for Lung Protection'
+title: Ventilator Setting for Lung Protection
 authors:
-    - 'Jenny Wilson, MD'
+    - Jenny Wilson, MD
 created: 2011/10/14
 updates: null
 categories:
     - Pulmonology
-    - 'Critical Care'
-drugs: null
+    - Critical Care
 
 ---
-
-
 
 # Ventilator Setting for Lung Protection
 

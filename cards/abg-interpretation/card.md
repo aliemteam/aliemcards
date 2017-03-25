@@ -8,7 +8,6 @@ updates:
     - 2017/02/24
 categories:
     - Pulmonology   
-googlescholar: abg interpretation steps
 
 ---
 

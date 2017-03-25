@@ -1,18 +1,15 @@
 ---
 
-title: 'Blunt Cerebrovascular Injuries'
+title: Blunt Cerebrovascular Injuries
 authors:
-    - 'Michelle Lin, MD'
+    - Michelle Lin, MD
 created: 2011/07/01
 updates: null
 categories:
     - Trauma
     - Neurology
-drugs: 'heparin, aspirin'
 
 ---
-
-
 
 # Blunt Cerebrovascular Injuries (BCVI)
 

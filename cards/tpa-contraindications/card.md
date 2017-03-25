@@ -2,16 +2,13 @@
 
 title: '2013 AHA Guidelines: Contraindications for Thrombolytics'
 authors:
-    - 'Michelle Lin, MD'
+    - Michelle Lin, MD
 created: 2010/09/10
 updates: null
 categories:
     - Neurology
-drugs: TPA
 
 ---
-
-
 
 # Stroke: 2013 AHA Guidelines on Contraindications for Thrombolytics
 

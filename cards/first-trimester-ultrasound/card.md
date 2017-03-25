@@ -1,21 +1,18 @@
 ---
 
-title: 'Focused 1st Trimester Pregnancy Transabdominal Ultrasound'
+title: Focused 1st Trimester Pregnancy Transabdominal Ultrasound
 authors:
-    - 'Matt Lipton, MD'
-    - 'Mike Mallin, MD'
-    - 'Mike Stone, MD'
+    - Matt Lipton, MD
+    - Mike Mallin, MD
+    - Mike Stone, MD
 created: 2015/02/25
 updates: null
 categories:
     - Radiology
     - Ultrasound
     - OBGYN
-drugs: null
 
 ---
-
-
 
 # Ultrasound: Focused 1st Trimester Pregnancy (Transabdominal Exam)
 

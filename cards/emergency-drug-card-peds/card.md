@@ -1,20 +1,17 @@
 ---
 
-title: 'Emergency Drug Card (Pediatric)'
+title: Emergency Drug Card (Pediatric)
 authors:
-    - 'Rob Bryant, MD'
-    - 'Amie Hatch, PharmD, BCPS'
-    - 'Jeremy Bair, PharmD'
+    - Rob Bryant, MD
+    - Amie Hatch, PharmD, BCPS
+    - Jeremy Bair, PharmD
 created: 2013/09/11
 updates: null
 categories:
     - Pharmacology
     - Critical Care
-drugs: 'adenosine, amiodarone, atronie, calcium chloride, dextrose, epinephrine, Magnesium, procainamide, sodium bicarbonate, etomidate, lidocaine, rocuronium, succinylcholine, vecuronium, Haloperidol, dobutamine, dopamine, norepinephrine, phenylephrine, vasopressin, Diazepam, Fosphenytoin, Levetiracetam, Lorazepam, Midazolam, Phenobarbital, Nitroglycerin, Nitroprusside, Dexamethasone, Diphenhydramine, Famotidine, Methylprednisolone, Ranitidine, fentanyl, ketamine, propofol, morphine, N-acetylcysteine, Flumazenil, Fomepizole, Naloxone, Alprostadil, prostaglandin, factor VIII, heparin, Ondansetron'
 
 ---
-
-
 
 # Emergency Drug Card (Pediatric)
 
@@ -308,3 +305,5 @@ drugs: 'adenosine, amiodarone, atronie, calcium chloride, dextrose, epinephrine,
 
 
 *This document presents an evidence-based approach that is appropriate for most patients. It should be adapted to meet the needs of individual patients and situations, and should not replace clinical judgment.*
+
+## References
