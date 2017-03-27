@@ -1,21 +1,18 @@
 ---
 
-title: 'Pediatric Fever Without a Source - Infant'
+title: Pediatric Fever Without a Source - Infant
 authors:
-    - 'Hemal Kanzaria, MD'
-    - 'Christine Cho, MD'
-    - 'Andi Marmor, MD'
-    - 'Ellen Laves, MD'
-    - 'Michelle Lin, MD'
+    - Hemal Kanzaria, MD
+    - Christine Cho, MD
+    - Andi Marmor, MD
+    - Ellen Laves, MD
+    - Michelle Lin, MD
 created: 2012/02/09
 updates: null
 categories:
     - Pediatrics
-drugs: ceftriaxone
 
 ---
-
-
 
 # Pediatric Fever Without a Source: 29 Days - 3 Months
 
@@ -148,3 +145,7 @@ Generally accepted workup includes:
   - **<span class="drug">Ceftriaxone</span>** IV/IM after LP with close follow-up in 24 hrs
 
 **High risk infant:** Admit to hospital for **<span class="drug">ceftriaxone</span> IV/IM** and closer observation
+
+## References
+
+-   [Ishimine P, The evolving approach to the young child who has fever and no obvious source, Emerg Med Clin North Am. 2007 Nov;25(4):1087-115, vii.](http://www.ncbi.nlm.nih.gov/pubmed/17950137)

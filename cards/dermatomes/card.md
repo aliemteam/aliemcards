@@ -1,17 +1,14 @@
 ---
 
-title: 'Dermatomes and Myotomal Maps'
+title: Dermatomes and Myotomal Maps
 authors:
-    - 'Michelle Lin, MD'
+    - Michelle Lin, MD
 created: 2013/05/26
 updates: null
 categories:
     - Orthopedics
-drugs: null
 
 ---
-
-
 
 # Dermatomes and Myotomal Maps
 
@@ -34,3 +31,7 @@ drugs: null
 | L5 | Big toe extension (ext hallucis longus), heel walk (ext digitorum), hip abduction (gluteus medius) |
 | S1 | Ankle plantarflexion and eversion (peroneus longus), toe walk (peroneus brevis), hip extension (gluteus maximus) |
 | S2-S4 | Rectal sphincter tone |
+
+## References
+
+1. ["Dermatomes Anatomy: Overview, Gross Anatomy, Natural Variants". Emedicine.medscape.com. N.p., 2017. Web. 24 Mar. 2017.](http://emedicine.medscape.com/article/1878388-overview)

@@ -1,18 +1,15 @@
 ---
 
-title: 'Intimate Partner Violence'
+title: Intimate Partner Violence
 authors:
-    - 'Trevor Wilson, MD'
-    - 'Beth Kaplan, MD'
+    - Trevor Wilson, MD
+    - Beth Kaplan, MD
 created: 2013/07/31
 updates: null
 categories:
     - Trauma
-drugs: null
 
 ---
-
-
 
 # Intimate Partner Violence
 

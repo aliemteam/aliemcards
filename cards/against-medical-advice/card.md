@@ -1,17 +1,14 @@
 ---
 
-title: 'Against Medical Advice (AMA)'
+title: Against Medical Advice (AMA)
 authors:
-    - 'Matthew DeLaney, MD'
+    - Matthew DeLaney, MD
 created: 2014/01/13
 updates: null
 categories:
-    - 'Education and Policy'
-drugs: null
+    - Education and Policy
 
 ---
-
-
 
 # Against Medical Advice (AMA)
 
@@ -69,7 +66,7 @@ Example: “The patient is not willing to undergo a CT scan. He is unwilling to 
 
 When patients leave AMA, providers should do whatever is possible to limit bad medical outcomes. A commonly held misconception is that providing a patient with prescriptions or paperwork somehow negates their AMA status and places the provider at risk. In reality, refusing to provide any discharge medication or instructions only increases the chance that the patient will have a bad outcome, which significantly increases the provider’s risk. For instance, if a patient with pneumonia is leaving AMA, they should be given appropriate antibiotics, and the provider should offer to set up outpatient follow-up. All questions should be answered. Example: “I am unable to convince the patient to stay, I have asked them to return as soon as possible to complete their evaluation. I have spoken with coverage for their primary care doctor in regards to their abdominal pain. I have answered all their questions.”
 
-# References
+## References
 
 1. Bitterman RA. Against medical advice: When should you take “no” for an answer? Lecture presented at ACEP Scientific Assembly. Chicago, Oct. 30, 2008.
 

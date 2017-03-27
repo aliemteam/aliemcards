@@ -2,20 +2,17 @@
 
 title: 'Ultrasound: Focused Abdominal Aorta Ultrasound'
 authors:
-    - 'MVictoria Koskenoja, MD'
-    - 'Heidi Kimberly, MD'
-    - 'Mike Stone, MD'
+    - Victoria Koskenoja, MD
+    - Heidi Kimberly, MD
+    - Mike Stone, MD
 created: 2014/09/13
 updates: null
 categories:
     - Ultrasound
     - Radiology
     - Cardiovascular
-drugs: null
 
 ---
-
-
 
 # Ultrasound: Focused Abdominal Aorta
 
@@ -86,7 +83,7 @@ Figure 5: Proximal aorta longitudinal view demonstrating the abdominal aorta (re
 
 -   Relying on ultrasound for the diagnosis of aortic dissection. While a dissection flap can be visualized and should prompt immediate action, failure to visualize a flap by ultrasound does not exclude aortic dissection.
 
-# References
+## References
 
 - Tayal VS, et al. *Acad Emerg Med*, 2003. PMID [12896888](http://www.ncbi.nlm.nih.gov/pubmed/12896888);
 - Kuhn et al. *Ann Emerg Med*, 2000. PMID [10969223](http://www.ncbi.nlm.nih.gov/pubmed/10969223);

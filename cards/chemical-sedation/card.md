@@ -1,17 +1,14 @@
 ---
 
-title: 'Chemical Sedation - Haldoperidol vs. Lorazepam vs. Midazolam'
+title: Chemical Sedation - Haldoperidol vs. Lorazepam vs. Midazolam
 authors:
-    - 'Michelle Lin, MD'
+    - Michelle Lin, MD
 created: 2011/03/25
 updates: null
 categories:
     - Pharmacology
-drugs: 'haldol, midazolam, lorazepam'
 
 ---
-
-
 
 # Chemical Sedation: Haldoperidol vs. Lorazepam vs. Midazolam
 

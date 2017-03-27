@@ -1,11 +1,14 @@
 {
-  "compileOnSave": true,
   "compilerOptions": {
-    "allowJs": true,
     "experimentalDecorators": true,
     "jsx": "react",
     "module": "commonjs",
     "moduleResolution": "node",
+    "lib": [
+      "dom",
+      "es2017",
+      "es2017.object"
+    ],
     "noImplicitReturns": true,
     "noImplicitThis": true,
     "noUnusedLocals": true,
@@ -13,9 +16,11 @@
     "outDir": "./dist",
     "removeComments": true,
     "strictNullChecks": true,
-    "target": "esnext"
+    "target": "es6",
+    "sourceMap": true
   },
   "include": [
+    "webpack.config.ts",
     "index.ts",
     "./server/**/*"
   ]

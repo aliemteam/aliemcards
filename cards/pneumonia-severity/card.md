@@ -1,19 +1,16 @@
 ---
 
-title: 'Pneumonia Risk Stratification Tools'
+title: Pneumonia Risk Stratification Tools
 authors:
-    - 'Michelle Lin, MD'
+    - Michelle Lin, MD
 created: 2011/02/25
 updates: null
 categories:
     - Pulmonology
     - Infectious Disease
     - EBM
-drugs: null
 
 ---
-
-
 
 # Pneumonia: Risk Stratification Scoring Tools
 

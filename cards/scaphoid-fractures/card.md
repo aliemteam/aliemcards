@@ -1,18 +1,15 @@
 ---
 
-title: 'Scaphoid Fracture'
+title: Scaphoid Fracture
 authors:
-    - 'Sean Kivlehan, MD MPH'
+    - Sean Kivlehan, MD MPH
 created: 2016/02/01
 updates: null
 categories:
     - Orthopedics
     - EBM
-drugs: null
 
 ---
-
-
 
 # Scaphoid Fracture - Adult
 

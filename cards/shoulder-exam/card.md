@@ -1,17 +1,14 @@
 ---
 
-title: 'Shoulder Exam Provocative Testing'
+title: Shoulder Exam Provocative Testing
 authors:
-    - 'Michelle Lin, MD'
+    - Michelle Lin, MD
 created: 2011/01/28
 updates: null
 categories:
     - Orthopedics
-drugs: null
 
 ---
-
-
 
 # Shoulder Exam Provocative Testing
 
@@ -91,3 +88,5 @@ Patient has pain when externally rotates shoulder against resistance (with elbow
 2.  Have the patient supinate and flex elbow against examiner's resistance (holding at wrist)
 
 ![](image-8.png)
+
+## References

@@ -2,17 +2,14 @@
 
 title: Pertussis
 authors:
-    - 'Michelle Lin, MD'
+    - Michelle Lin, MD
 created: 2010/09/03
 updates: null
 categories:
-    - 'Infectious Disease'
+    - Infectious Disease
     - EBM
-drugs: 'azithromycin, trimethoprim-sulfamethoxazole'
 
 ---
-
-
 
 # Pertussis
 
