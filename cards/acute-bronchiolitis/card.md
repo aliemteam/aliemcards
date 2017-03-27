@@ -9,7 +9,6 @@ categories:
     - Pediatrics
     - Pulmonology
     - Infectious Disease
-pubmed: systematic[sb] AND (bronchiolitis) 
 
 ---
 
