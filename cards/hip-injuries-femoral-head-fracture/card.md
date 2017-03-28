@@ -20,7 +20,7 @@ categories:
 
 - AP pelvis
 - Lateral hip
-- +/- Judet view of hip (45-degree oblique)
+- &plusmn; Judet view of hip (45-degree oblique)
 
 ## Acute Management
 
