@@ -7,10 +7,7 @@ created: 2011/12/09
 updates: null
 categories:
     - Education and Policy
-
 ---
-
-
 
 # End-of-Shift Feedback in the Emergency Department
 
@@ -63,4 +60,3 @@ categories:
 -   Systems-based practice
 
 ## References
-

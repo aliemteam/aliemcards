@@ -8,14 +8,11 @@ updates: null
 categories:
     - Trauma
     - Cardiovascular
-
 ---
-
-
 
 # Blunt Cardiac Injury
 
-*Definition:* Encompasses wide spectrum of clinical injuries, ranging from asymptomatic myocardial bruise to cardiac rupture/death 
+_Definition:_ Encompasses wide spectrum of clinical injuries, ranging from asymptomatic myocardial bruise to cardiac rupture/death 
 
 No gold standard 
 

@@ -10,7 +10,6 @@ updates:
 categories:
     - Cardiovascular
     - Critical Care
-
 ---
 
 # ACLS 2015 Algorithm for Cardiac Arrest
@@ -25,7 +24,8 @@ categories:
 -   Chest compressions should be "hard and fast" -- Depth of at least 2 inches and ≥ 100 compressions with a target PCO<sub>2</sub> on the end-tidal capnography of ≥10 mm Hg.
 -   Use your mobile phone's timer to help alert you every time when 2 minutes is up.
 
-## Additional reversible causes 
+## Additional reversible causes
+
 **(not listed on ACLS AHA guidelines)**
 
 -   Hypoglycemia
@@ -33,28 +33,32 @@ categories:
 
 ## Return of Spontaneous Circulation
 
-- Pulse and blood pressure
-- PETCO<sub>2</sub> abruptly sustained increase (typically &ge; 40 mm Hg)
+-   Pulse and blood pressure
+-   PETCO<sub>2</sub> abruptly sustained increase (typically ≥ 40 mm Hg)
 
 ## Post-Cardiac Arrest Care
 
 **Ventillation & Oxygenation**: 
-- Start at 10 breaths per minute
-- Titrate to target PCO<sub>2</sub> 30-40 mm Hg
-- Titrate FIO<sub>2</sub> to minimum necessary to achieve SpO<sub>2</sub> &ge; 94%
+
+-   Start at 10 breaths per minute
+-   Titrate to target PCO<sub>2</sub> 30-40 mm Hg
+-   Titrate FIO<sub>2</sub> to minimum necessary to achieve SpO<sub>2</sub> ≥ 94%
 
 **Treat Hypotension**
-- IV/IO bolus: 1-2L normal saline or lactate 
-- Vasopressor infusion as needed:
-    - <span class="drug">Epinepherine IV</span> 0.1-0.5 mcg/kg per minute
-    - <span class="drug">Dopamine IV</span> 5-10 mcg/kg per minute
-    - <span class="drug">Norepihephrine IV</span> 0.1-0.5 mcg/kg per minute
+
+-   IV/IO bolus: 1-2L normal saline or lactate 
+-   Vasopressor infusion as needed:
+    -   <span class="drug">Epinepherine IV</span> 0.1-0.5 mcg/kg per minute
+    -   <span class="drug">Dopamine IV</span> 5-10 mcg/kg per minute
+    -   <span class="drug">Norepihephrine IV</span> 0.1-0.5 mcg/kg per minute
 
 **Evaluate Need for Coronary Catheterization**
-- 12-Lead ECG STEMI or high suspicion of acute myocardial infarction? Proceed to coronary reperfusion.
+
+-   12-Lead ECG STEMI or high suspicion of acute myocardial infarction? Proceed to coronary reperfusion.
 
 **Targeted Temperature Management**
-- If no meaningful response to verbal stimuli, maintain a constant temperature between 32°C and 36°C 
+
+-   If no meaningful response to verbal stimuli, maintain a constant temperature between 32°C and 36°C 
 
 ## Patwari Academy video tutorials
 

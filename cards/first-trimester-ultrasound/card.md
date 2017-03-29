@@ -11,7 +11,6 @@ categories:
     - Radiology
     - Ultrasound
     - OBGYN
-
 ---
 
 # Ultrasound: Focused 1st Trimester Pregnancy (Transabdominal Exam)
@@ -65,35 +64,35 @@ Figure 3: **Empty fluid-filled sac** within the endometrium. Given the absence o
 
 **Can’t visualize the uterus?**
 
-- Perform the ultrasound before the patient urinates. If unable to visualize key structures, proceed to a transvaginal ultrasound.
+-   Perform the ultrasound before the patient urinates. If unable to visualize key structures, proceed to a transvaginal ultrasound.
 
 **Can’t find a yolk sac or fetal pole?**
 
-  1.  **There may not be an IUP**. The patient may have an ectopic pregnancy or a OOcompleted abortion.
-  2.  **It may be too early** to visualize an IUP with transabdominal scanning. IUPs are difficult to visualize before 6-6.5 weeks gestational age. This may require a transvaginal ultrasound instead, which can visualize earlier IUPs.
+1.  **There may not be an IUP**. The patient may have an ectopic pregnancy or a OOcompleted abortion.
+2.  **It may be too early** to visualize an IUP with transabdominal scanning. IUPs are difficult to visualize before 6-6.5 weeks gestational age. This may require a transvaginal ultrasound instead, which can visualize earlier IUPs.
 
 ## Common Errors
 
-- Only using close-up, zoomed view to evaluate for intrauterine pregnancy. Be sure to get a “big picture” view of the pelvis to identify all relevant structures prior to using the zoom function.
+-   Only using close-up, zoomed view to evaluate for intrauterine pregnancy. Be sure to get a “big picture” view of the pelvis to identify all relevant structures prior to using the zoom function.
 
 **Mistaking a pseudogestational sac for an IUP**: 
 
-- A pseudogestational sac is a small fluid collection from an endometrial reaction to hormones produced by the ectopic pregnancy. This will appear within the endometrial cavity and can be seen in up to 20% of ectopic pregnancies. You **MUST** visualize at least a yolk sac within a gestational sac (located in the endometrium) before an IUP can be confirmed.
+-   A pseudogestational sac is a small fluid collection from an endometrial reaction to hormones produced by the ectopic pregnancy. This will appear within the endometrial cavity and can be seen in up to 20% of ectopic pregnancies. You **MUST** visualize at least a yolk sac within a gestational sac (located in the endometrium) before an IUP can be confirmed.
 
 **Interstitial (cornual) pregnancy**: 
 
-- Although most ectopic pregnancies occur in the fallopian tubes, 3% of ectopic pregnancies implant on the edge of the uterus. This form of ectopic pregnancy can be identified by noting an eccentric location of the gestational sac within the endometrium, often with &lt;8 mm of surrounding myometrium.
+-   Although most ectopic pregnancies occur in the fallopian tubes, 3% of ectopic pregnancies implant on the edge of the uterus. This form of ectopic pregnancy can be identified by noting an eccentric location of the gestational sac within the endometrium, often with &lt;8 mm of surrounding myometrium.
 
 **Assuming an IUP rules-out an ectopic pregnancy for those undergoing assisted reproductive therapies (ART) such as in-vitro fertilization.** 
 
-- The risk of a heterotopic pregnancy is too high.
+-   The risk of a heterotopic pregnancy is too high.
 
 **Using pulsed wave or color Doppler on the fetus to confirm fetal heart rate or viability.** 
 
-- Both pulse wave and color Doppler inflict unnecessary thermal energy to the developing fetus. M-Mode is sufficient for measuring fetal heart rate.
+-   Both pulse wave and color Doppler inflict unnecessary thermal energy to the developing fetus. M-Mode is sufficient for measuring fetal heart rate.
 
 ## References
 
-- Wang R., et al. *Annals of Emerg Med,* 2011. PMID: [21310509](http://www.ncbi.nlm.nih.gov/pubmed/?term=Use+of+a+%CE%B2-hCG+discriminatory+zone+with+bedside+pelvic+ultrasonography.)
+-   Wang R., et al. _Annals of Emerg Med,_ 2011. PMID: [21310509](http://www.ncbi.nlm.nih.gov/pubmed/?term=Use+of+a+%CE%B2-hCG+discriminatory+zone+with+bedside+pelvic+ultrasonography.)
 
-- Tayal VS, et al. *Acad Emerg Med,* 2004. PMID: [15347539](http://www.ncbi.nlm.nih.gov/pubmed/15347539)
+-   Tayal VS, et al. _Acad Emerg Med,_ 2004. PMID: [15347539](http://www.ncbi.nlm.nih.gov/pubmed/15347539)

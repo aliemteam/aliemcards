@@ -10,7 +10,6 @@ updates: null
 categories:
     - Pharmacology
     - Critical Care
-
 ---
 
 # Emergency Drug Card (Pediatric)
@@ -208,7 +207,6 @@ categories:
 
 </table>
 
-
 ## SEDATION & ANALGESIA
 
 <table>
@@ -301,9 +299,8 @@ categories:
 
 ## ACKNOWLEDGEMENTS
 
-*Prepared by: Amie Hatch, PharmD, BCPS and Jeremy Bair, PharmD, BCPS. Updated AUG 2013.*
+_Prepared by: Amie Hatch, PharmD, BCPS and Jeremy Bair, PharmD, BCPS. Updated AUG 2013._
 
-
-*This document presents an evidence-based approach that is appropriate for most patients. It should be adapted to meet the needs of individual patients and situations, and should not replace clinical judgment.*
+_This document presents an evidence-based approach that is appropriate for most patients. It should be adapted to meet the needs of individual patients and situations, and should not replace clinical judgment._
 
 ## References

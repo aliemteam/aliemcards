@@ -35,9 +35,6 @@ plugins:
     - - error
       - tab-size
 
-  - - remark-lint-list-item-spacing
-    - - error
-
   - - remark-lint-no-auto-link-without-protocol
     - - error
 
@@ -45,9 +42,6 @@ plugins:
     - - error
 
   - - remark-lint-no-consecutive-blank-lines
-    - - error
-
-  - - remark-lint-no-duplicate-headings
     - - error
 
   - - remark-lint-no-emphasis-as-heading
@@ -64,6 +58,7 @@ plugins:
 
   - - remark-lint-no-heading-punctuation
     - - error
+      - '.,;:!'
 
   - - remark-lint-no-inline-padding
     - - error

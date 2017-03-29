@@ -11,7 +11,6 @@ categories:
     - Ultrasound
     - Radiology
     - Cardiovascular
-
 ---
 
 # Ultrasound: Focused Abdominal Aorta
@@ -33,7 +32,7 @@ Figure 1: Transducer positions for aortic scan. Proximal (A), Mid-aorta (B), Dis
 -   Aorta from outer wall to outer wall &lt;3 cm
 -   Iliac vessels at bifurcation, outer wall to outer wall &lt;1.5 cm
 
-**Signs of AAA:** Enlarged aorta &gt;3 cm. Most AAA’s are fusiform and are infrarenal. The SMA is a useful landmark as it is in close proximity to the renal arteries, which are often difficult to identify. AAAs often contain a mural thrombus that MUST be included in your measurement of the aneurysm.
+**Signs of AAA:** Enlarged aorta >3 cm. Most AAA’s are fusiform and are infrarenal. The SMA is a useful landmark as it is in close proximity to the renal arteries, which are often difficult to identify. AAAs often contain a mural thrombus that MUST be included in your measurement of the aneurysm.
 
 ![](image-2.png)
 
@@ -43,11 +42,11 @@ Figure 2: Aortic aneurysm (aaa) measuring 6 cm wide with mural thrombus (asteris
 
 Transducer orientation is transverse with marker towards the patient’s right
 
-1. Proximal – Midline just below the xiphoid process
+1.  Proximal – Midline just below the xiphoid process
 
-2. Mid-Aorta – Midline between xiphoid process and umbilicus
+2.  Mid-Aorta – Midline between xiphoid process and umbilicus
 
-3. Distal - Midline near level of umbilicus
+3.  Distal - Midline near level of umbilicus
 
 ![](image-3.png)
 
@@ -68,10 +67,12 @@ Figure 5: Proximal aorta longitudinal view demonstrating the abdominal aorta (re
 ## Struggling with the Exam?
 
 **Can’t find the aorta?**
-  -   Use plenty of compression to displace bowel gas – it’s remarkable how much pressure patients tolerate and how much it will improve your view. The vertebral shadow can be used as a landmark as the aorta should be just anterior to the vertebrae. Increase the depth setting until the vertebral shadow is seen. You can start in any segment and follow the aorta proximally or distally. You may also roll the patient on his/her left side or use the liver as a window to find the proximal aorta by using a coronal RUQ view (like a FAST view) with increased depth.
+
+-   Use plenty of compression to displace bowel gas – it’s remarkable how much pressure patients tolerate and how much it will improve your view. The vertebral shadow can be used as a landmark as the aorta should be just anterior to the vertebrae. Increase the depth setting until the vertebral shadow is seen. You can start in any segment and follow the aorta proximally or distally. You may also roll the patient on his/her left side or use the liver as a window to find the proximal aorta by using a coronal RUQ view (like a FAST view) with increased depth.
 
 **Not sure if you are scanning proximal vs mid-aortic site?**
-  -   The proximal view should include the celiac trunk and/or the SMA branching from aorta. Both arise anteriorly with the celiac immediately splitting (seagull sign) and the SMA surrounded by bright echogenic fat (Fig 3-4). The mid-aorta does not have these landmarks.
+
+-   The proximal view should include the celiac trunk and/or the SMA branching from aorta. Both arise anteriorly with the celiac immediately splitting (seagull sign) and the SMA surrounded by bright echogenic fat (Fig 3-4). The mid-aorta does not have these landmarks.
 
 ## Common Errors
 
@@ -85,6 +86,6 @@ Figure 5: Proximal aorta longitudinal view demonstrating the abdominal aorta (re
 
 ## References
 
-- Tayal VS, et al. *Acad Emerg Med*, 2003. PMID [12896888](http://www.ncbi.nlm.nih.gov/pubmed/12896888);
-- Kuhn et al. *Ann Emerg Med*, 2000. PMID [10969223](http://www.ncbi.nlm.nih.gov/pubmed/10969223);
-- Taylor RA et al. *Acad Emerg Med*, 2012. PMID [22288871](http://www.ncbi.nlm.nih.gov/pubmed/22288871)
+-   Tayal VS, et al. _Acad Emerg Med_, 2003. PMID [12896888](http://www.ncbi.nlm.nih.gov/pubmed/12896888);
+-   Kuhn et al. _Ann Emerg Med_, 2000. PMID [10969223](http://www.ncbi.nlm.nih.gov/pubmed/10969223);
+-   Taylor RA et al. _Acad Emerg Med_, 2012. PMID [22288871](http://www.ncbi.nlm.nih.gov/pubmed/22288871)

@@ -8,7 +8,6 @@ updates: null
 categories:
     - Pulmonology
     - Critical Care
-
 ---
 
 # Ventilator Setting for Obstructive Lung Disease
@@ -65,18 +64,18 @@ Initial vent settings for patient with predicted body weight = 70 kg (5'9" male;
 -   Goal P(plat) &lt;30 cm H2O
 -   Check after initial settings and at regular intervals thereafter
 -   Technique: Press inspiratory hold button for 0.5 sec and look at pressure gauge 
--   If P(plat) &gt;30 cm H2O, investigate possible air trapping
+-   If P(plat) >30 cm H2O, investigate possible air trapping
 
 **Air-Trapping (Auto-PEEP)**
 
 -   Air trapping (auto-PEEP) = gas trapped in alveoli at end-expiration
--   Suspect auto-PEEP if P(plat) &gt;30 cm H2O, or if hypotension develops
+-   Suspect auto-PEEP if P(plat) >30 cm H2O, or if hypotension develops
 -   First step is to disconnect vent and allow trapped air to escape
 -   Prevent further air trapping by decreasing RR and increasing expiratory time
 
-**![](image-1.png)
+\*\*![](image-1.png)
 
-*[EMcrit.org](http://emcrit.org/podcasts/vent-part-2/)*
+_[EMcrit.org](http://emcrit.org/podcasts/vent-part-2/)_
 
 ## References
 
