@@ -11,7 +11,7 @@
     "dev": "gulp __build && ts-node ./dist/index.js",
     "deploy": "torus run ./deploy",
     "start": "node ./dist/index.js",
-    "lint": "npm run lint:typescript && npm run lint:stylus",
+    "lint": "npm run lint:typescript && npm run lint:stylus && npm run lint:markdown",
     "lint:markdown": "remark ./cards",
     "lint:typescript": "tslint --project . -t codeFrame",
     "lint:stylus": "stylint app/assets/css",
