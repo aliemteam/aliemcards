@@ -81,7 +81,7 @@
     "ts-jest": "^19.0.0",
     "ts-loader": "^2.0.1",
     "ts-node": "^3.0.2",
-    "tslint": "^4.4.2",
+    "tslint": "^5.0.0",
     "webfontloader": "^1.6.27",
     "webpack": "^2.2.1",
     "webpack-bundle-analyzer": "^2.3.0",
