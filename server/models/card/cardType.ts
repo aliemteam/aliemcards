@@ -37,7 +37,7 @@ export interface Card {
   title: string;
   /** List of UNIX timestamps of each time the card was updated. */
   updates: number[] | null;
-};
+}
 
 const fields = (): TypedFields<Card, SingleCardJSON, RootValue> => ({
   authors: {
