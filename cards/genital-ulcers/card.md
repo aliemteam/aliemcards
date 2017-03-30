@@ -8,25 +8,24 @@ updates: null
 categories:
     - Infectious Disease
     - Genitourinary
-
 ---
 
 # Genital Ulcers
 
--   Leading causes in the US: HSV types 1 and 2 (most common) &gt; syphilis &gt; chancroid
+-   Leading causes in the US: HSV types 1 and 2 (most common) > syphilis > chancroid
 -   Note: 10% of chancroid are coinfected with syphilis or HSV
 
 ## Differential diagnosis of genital ulcers
 
-| **Infectious (more common)** | **Non-infectious (less common)** |
-| --- | --- |
-| Genital herpes simple virus (HSV) | Behcet syndrome |
-| Syphilis  | Fixed drug eruption | 
-| Chancroid | Psoriasis | 
-| Lymphogranuloma venereum | Sexual trauma | 
-| Granuloma inguinale (donovanosis) | Wegener granulomatosis |
-| Fungal infection (eg. candida) | |
-| Secondary bacterial infection | | 
+| **Infectious (more common)**      | **Non-infectious (less common)** |
+| --------------------------------- | -------------------------------- |
+| Genital herpes simple virus (HSV) | Behcet syndrome                  |
+| Syphilis                          | Fixed drug eruption              |
+| Chancroid                         | Psoriasis                        |
+| Lymphogranuloma venereum          | Sexual trauma                    |
+| Granuloma inguinale (donovanosis) | Wegener granulomatosis           |
+| Fungal infection (eg. candida)    |                                  |
+| Secondary bacterial infection     |                                  |
 
 [National Coalition of STD Director Fact Sheets](http://www.ncsddc.org/publications)
 From “The Practitioner’s Handbook for the Management of STDs” (4th ed, 2007):
@@ -145,7 +144,6 @@ From “The Practitioner’s Handbook for the Management of STDs” (4th ed, 200
     <td>Isolation of <i>Chlamydia trachomatis</i> from urethra, cervix, rectum or lymph node aspirate; complement fixation serology ≥ 1/64</td>
   </tr>
 </table>
-
 
 ## References
 

@@ -7,10 +7,7 @@ created: 2012/09/14
 updates: null
 categories:
     - EMS
-
 ---
-
-
 
 # EMTALA Transfer Rules
 

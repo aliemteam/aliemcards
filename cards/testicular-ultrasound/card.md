@@ -10,7 +10,6 @@ categories:
     - Genitourinary
     - Radiology
     - Ultrasound
-
 ---
 
 # Ultrasound: Testicular Assessment
@@ -54,5 +53,5 @@ Torsion cannot be excluded with ultrasound, although a normal comprehensive spec
 
 ## References
 
-- Blaivas M, Sierzenski P. *Acad Emerg Med*, 2001. PMID: [11136158](http://www.ncbi.nlm.nih.gov/pubmed/11136158)
-- Blaivas M, et al. *Acad Emerg Med*, 2001. PMID: [11136159](http://www.ncbi.nlm.nih.gov/pubmed/11136159)
+-   Blaivas M, Sierzenski P. _Acad Emerg Med_, 2001. PMID: [11136158](http://www.ncbi.nlm.nih.gov/pubmed/11136158)
+-   Blaivas M, et al. _Acad Emerg Med_, 2001. PMID: [11136159](http://www.ncbi.nlm.nih.gov/pubmed/11136159)

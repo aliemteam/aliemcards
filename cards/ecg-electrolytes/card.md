@@ -9,7 +9,6 @@ categories:
     - Cardiovascular
     - ECG
     - Endocrinology
-
 ---
 
 # ECG: Electrolyte Imbalance
@@ -20,45 +19,45 @@ Image courtesy of [Life in the Fast Lane](image-2.gif)
 
 **PR Interval**
 
-| Short | Prolonged |
-|-------|-----------|
+| Short                                      | Prolonged      |
+| ------------------------------------------ | -------------- |
 | Pre-excitation, e.g. Wolff-Parkinson-White | High K, Low Ca |
 
 **QRS Duration**
 
-| Narrow | Wide |
-|-------|-----------|
+| Narrow                | Wide            |
+| --------------------- | --------------- |
 | Low K, Low Ca, Normal | High K, High Ca |
 
 **QTc Interval**
 
-| Short | Prolonged |
-|-------|-----------|
+| Short   | Prolonged     |
+| ------- | ------------- |
 | High Ca | Low K, Low Ca |
 
 **ST Segment**
 
-| Depressed | Elevated |
-|-------|-----------|
-| Low K, High Ca | High K |
+| Depressed      | Elevated |
+| -------------- | -------- |
+| Low K, High Ca | High K   |
 
 **T Wave**   
 
 | Peak/Tall | Flattened |
-|-------|-----------|
-| High K | Low K |
+| --------- | --------- |
+| High K    | Low K     |
 
 **U Wave**   
 
-| Absent | Present |
-|-------|-----------|
+| Absent | Present       |
+| ------ | ------------- |
 | Normal | Low K, Low Ca |
 
 **Heart Rate**   
 
-| Slow | Fast |
-|-------|-----------|
-| High K, High Ca | Low K, Low Ca |                                                                        
+| Slow            | Fast          |
+| --------------- | ------------- |
+| High K, High Ca | Low K, Low Ca |
 
 ## Electrolyte Imbalances
 

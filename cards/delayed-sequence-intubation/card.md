@@ -53,7 +53,7 @@ categories:
 
 ![](image-1.png)
 
-**Note:** During CPAP or BMV, it may take several minutes (may be as long as 10 minutes) to bring the oxygen saturation &gt; 95%, while increasing PEEP up to 15 cm H2O.
+**Note:** During CPAP or BMV, it may take several minutes (may be as long as 10 minutes) to bring the oxygen saturation > 95%, while increasing PEEP up to 15 cm H2O.
 
 ## References
 
@@ -62,4 +62,3 @@ categories:
 -   [Sehdev RS, Symmons DA, Kindl K. Ketamine for rapid sequence induction in patients with head injury in the emergency department. Emerg Med Australas. 2006 Feb;18(1):37-44.](https://www.ncbi.nlm.nih.gov/pubmed/?term=16454773)
 -   [Bourgoin A, Albanèse J, Wereszczynski N, Charbit M, Vialet R, Martin C.Safety of sedation with ketamine in severe head injury patients: comparison with sufentanil.Crit Care Med. 2003 Mar;31(3):711-7.](https://www.ncbi.nlm.nih.gov/pubmed/?term=12626974)
 -   [Weingart SD, Trueger NS, Wong N, Scofi J, Singh N, Rudolph SS. Delayed Sequence Intubation: A Prospective Observational Study. Ann Emerg Med. 2015 Apr;65(4):349-55. doi: 10.1016/j.annemergmed.2014.09.025. Epub 2014 Oct 23.](https://www.ncbi.nlm.nih.gov/pubmed/25447559) 
-

@@ -8,7 +8,6 @@ updates: null
 categories:
     - Cardiovascular
     - EBM
-
 ---
 
 # Chest Pain: Critical Elements of a Patient History
@@ -17,7 +16,7 @@ categories:
 
 **Clinical factors that INCREASE likelihood of ACS/AMI:**
 
-1.  CP radiating bilaterally &gt; right &gt; left
+1.  CP radiating bilaterally > right > left
 2.  Diaphoresis associated with CP
 3.  N/V associated with CP
 4.  Pain with exertion
@@ -30,38 +29,45 @@ Chest pain that is:
 3.  Sharp, stabbing
 4.  Reproducible with palpation
 
-## Severity of pain is not related to likelihood of AMI at presentation, or composite end points (death, revascularization, or AMI) at 30 days.
+## Severity of pain is not related to likelihood of AMI at presentation, or composite end points (death, revascularization, or AMI) at 30 days
+
 [Edwards et al., 2011]((http://www.ncbi.nlm.nih.gov/pubmed/21802776))
 
 **Objective:** 
-- Determine any correlation between severity of CP and the risk of AMI at presentation, or composite end points (death, revascularization, or acute myocardial infarction) at 30 days
-- Severe CP was defined as 9–10 on a 10-point pain scale. 
+
+-   Determine any correlation between severity of CP and the risk of AMI at presentation, or composite end points (death, revascularization, or acute myocardial infarction) at 30 days
+-   Severe CP was defined as 9–10 on a 10-point pain scale. 
 
 **Results:** (n=3,306)
+
 -   Risk of AMI with Pain Score of 1–8 (82% of patients) = 3.0%
 -   Risk of AMI with Pain Score of 9–10 (18% of patients) = 3.9%
 -   Not statistically significant different
 
 ## Many “atypical” symptoms are more likely to render the diagnosis of ACS than traditional “typical” symptoms 
+
 [Body et al., 2010](http://www.ncbi.nlm.nih.gov/pubmed/20036454)
 
 **Objective:** 
-- Assess the value of individual symptoms for predicting a diagnosis of AMI or the occurrence of adverse events (death, AMI, revascularization via PCI or CABG) within 6 months
+
+-   Assess the value of individual symptoms for predicting a diagnosis of AMI or the occurrence of adverse events (death, AMI, revascularization via PCI or CABG) within 6 months
 
 **Results:** (n=796)
--   Strongest positive predictor of AMI: 
-  - Diaphoresis with CP
--   Other positive predictors of AMI and adverse events
-  - Nausea and vomiting with CP
-  - CP with radiation to both shoulders &gt; right shoulder &gt; left shoulder
-  - Central chest pain
--   Strongest negative predictor of AMI
-  - Pain located in the left anterior chest
--   Other negative predictors of AMI and adverse events
-  - CP described as pain being the same as previous AMI
-  - Presence of CP at rest
 
-## No characteristics of CP alone, or in combination, identify a group of patients that can be safely discharge home without further diagnostic testing.
+-   Strongest positive predictor of AMI: 
+-   Diaphoresis with CP
+-   Other positive predictors of AMI and adverse events
+-   Nausea and vomiting with CP
+-   CP with radiation to both shoulders > right shoulder > left shoulder
+-   Central chest pain
+-   Strongest negative predictor of AMI
+-   Pain located in the left anterior chest
+-   Other negative predictors of AMI and adverse events
+-   CP described as pain being the same as previous AMI
+-   Presence of CP at rest
+
+## No characteristics of CP alone, or in combination, identify a group of patients that can be safely discharge home without further diagnostic testing
+
 [Swap et al., 2006](%20http://www.ncbi.nlm.nih.gov/pubmed/16304077)
 
 **Objective:** In a literature review (1970-2005), identify the elements of a CP history that might be most helpful to the clinician in identifying ACS.
@@ -69,40 +75,43 @@ Chest pain that is:
 **CP characteristics that INCREASE likelihood of ACS/MI:**
 
 | Characteristic                   | # of Patients  |  LR |
-|----------------------------------|:-----------:|:-----:|
-| Radiating to both shoulders/arms | 893       | 4.1 |
-| Radiating to right shoulder      | 770       | 4.7 |
-| Pain precipitated with exertion  | 893       | 2.4 |
-| Pain associated with diaphoresis | 8,426     | 2.0 |
+| -------------------------------- | -------------: | --: |
+| Radiating to both shoulders/arms |            893 | 4.1 |
+| Radiating to right shoulder      |            770 | 4.7 |
+| Pain precipitated with exertion  |            893 | 2.4 |
+| Pain associated with diaphoresis |          8,426 | 2.0 |
 
 **CP characteristics that DECREASE likelihood of ACS/MI:**
 
 |  Characteristic                | # of Patients   | LR  |
-|--------------------------------|:-----------:|:-----:|
-| Pain that is sharp/stabbing    | 1,088     | 0.3 |
-| Pleuritic pain                 | 8,822     | 0.2 |
-| Positional pain                | 8,330     | 0.3 |
-| Pain reproducible by palpation | 8,822     | 0.3 |
+| ------------------------------ | --------------: | --: |
+| Pain that is sharp/stabbing    |           1,088 | 0.3 |
+| Pleuritic pain                 |           8,822 | 0.2 |
+| Positional pain                |           8,330 | 0.3 |
+| Pain reproducible by palpation |           8,822 | 0.3 |
 
 **NOTE:** Beware the chest pain which radiates to the RIGHT shoulder (LR = 4.7).
 
-## Clinical features have a limited role in triage decision-making for ACS/AMI.
+## Clinical features have a limited role in triage decision-making for ACS/AMI
+
 [Goodacre et al., 2002](http://www.ncbi.nlm.nih.gov/pubmed/11874776)
 
 **Study Design:** Prospective, observation cohort study 
 
-** Objective:** Assess the performance of clinical features used in the diagnosis of CP, specifically in patients who were clinically stable and had a non-diagnostic ECG.
+**Objective:** Assess the performance of clinical features used in the diagnosis of CP, specifically in patients who were clinically stable and had a non-diagnostic ECG.
 
 **Results:** (n=893)
+
 -    Predictive of ACS/AMI:
     -   Exertional pain
-    -   Pain radiating to both arms &gt; right arm
+    -   Pain radiating to both arms > right arm
 -    NOT predictive of ACS/AMI: 
     -   Presence of chest wall tenderness
     -   Nausea or vomiting
     -   Diaphoresis
 
 ## History alone can help, but can NOT rule out ACS/AMI! 
+
 [Panju et al., 1998](http://www.ncbi.nlm.nih.gov/pubmed/9786377)
 
 **Objective:** To identify clinical features that would increase or decrease the probability of an AMI, presenting with acute CP through a literature review (1980-1991).
@@ -110,14 +119,14 @@ Chest pain that is:
 **Features that INCREASE the probability of an AMI**
 
 |  Clinical Feature                          | LR  |
-|--------------------------------------------|:-----:|
+| ------------------------------------------ | --: |
 | Chest pain that radiates to both arms      | 7.1 |
 | Chest pain that radiates to right shoulder | 2.9 |
 
 **Features that DECREASE the probability of an AMI**
 
 |  Clinical Feature                    |  LR |
-|--------------------------------------|:-----:|
+| ------------------------------------ | --: |
 | Pleuritic chest pain                 | 0.2 |
 | Chest pain that is sharp or stabbing | 0.3 |
 | Positional chest pain                | 0.3 |

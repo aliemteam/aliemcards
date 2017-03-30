@@ -9,7 +9,6 @@ created: 2016/11/21
 updates: null
 categories:
     - Orthopedics
-
 ---
 
 # Knee Injuries: Patella Dislocation
@@ -18,15 +17,15 @@ categories:
 
 ## X-ray Views
 
-- AP knee
-- Lateral knee: Best to assess for displacement
-- Patella view: (sunrise or Merchant)
+-   AP knee
+-   Lateral knee: Best to assess for displacement
+-   Patella view: (sunrise or Merchant)
 
 ## Acute Management
 
-- Closed reduction
-- Splint in above-knee plaster cast (from distal 2/3s thigh to MTP foot joints), straight leg immobilizer, or hinged knee brace
-- Weight-bearing as tolerated with crutches
+-   Closed reduction
+-   Splint in above-knee plaster cast (from distal 2/3s thigh to MTP foot joints), straight leg immobilizer, or hinged knee brace
+-   Weight-bearing as tolerated with crutches
 
 ## Follow-up Timing
 
@@ -42,12 +41,12 @@ Complications: recurrent dislocations
 
 ## References
 
-1. Schwartz A. Patella Fractures Treatment & Management, Emedicine.com (June 2016).
+1.  Schwartz A. Patella Fractures Treatment & Management, Emedicine.com (June 2016).
 
-2. [Hinton RY, Sharma KM. Acute and recurrent patellar instability in the young athlete. Orthop Clin North Am. 2003 Jul;34(3):385-96.](https://www.ncbi.nlm.nih.gov/pubmed/?term=12974488)
+2.  [Hinton RY, Sharma KM. Acute and recurrent patellar instability in the young athlete. Orthop Clin North Am. 2003 Jul;34(3):385-96.](https://www.ncbi.nlm.nih.gov/pubmed/?term=12974488)
 
-3. [Ji G, et al . Surgical versus Nonsurgical Treatments of Acute Primary Patellar Dislocation with Special Emphasis on the MPFL Injury Patterns. J Knee Surg. 2016 Sep 14. [Epub ahead of print]] (https://www.ncbi.nlm.nih.gov/pubmed/?term=27626368.)
+3.  [Ji G, et al . Surgical versus Nonsurgical Treatments of Acute Primary Patellar Dislocation with Special Emphasis on the MPFL Injury Patterns. J Knee Surg. 2016 Sep 14. \[Epub ahead of print\]](https://www.ncbi.nlm.nih.gov/pubmed/?term=27626368.)
 
-4. [Petri M, et al. Current Concepts for Patellar Dislocation. Arch Trauma Res. 2015 Sep 1;4(3):e29301.](https://www.ncbi.nlm.nih.gov/pubmed/?term=26566512)
+4.  [Petri M, et al. Current Concepts for Patellar Dislocation. Arch Trauma Res. 2015 Sep 1;4(3):e29301.](https://www.ncbi.nlm.nih.gov/pubmed/?term=26566512)
 
-5. [Medina O, et al. Vascular and nerve injury after knee dislocation: a systematic review. Clin Orthop Relat Res. 2014 Sep;472(9):2621-9.](https://www.ncbi.nlm.nih.gov/pubmed/?term=24554457)
+5.  [Medina O, et al. Vascular and nerve injury after knee dislocation: a systematic review. Clin Orthop Relat Res. 2014 Sep;472(9):2621-9.](https://www.ncbi.nlm.nih.gov/pubmed/?term=24554457)

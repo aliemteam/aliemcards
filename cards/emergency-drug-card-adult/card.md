@@ -10,7 +10,6 @@ updates: null
 categories:
     - Pharmacology
     - Critical Care
-
 ---
 
 # Emergency Drug Card (Adult)
@@ -296,7 +295,6 @@ categories:
   </tr>
 </table>
 
-
 ## MISCELLANEOUS
 
 <table>
@@ -308,6 +306,7 @@ categories:
         PE (acute massive with pulses): 100 mg IV infusion over 2 hours<br>
         PE (cardiac arrest only): 50 mg IV push, repeat with 50 mg IV push in 15 minutes if no ROSC<br>
     </td>
+
   </tr>
   <tr>
     <td><span class="drug">Desmopressin (DDAVP)</span></td>
@@ -385,8 +384,8 @@ categories:
 
 ## ACKNOWLEDGEMENTS
 
-*Prepared by: Amie Hatch, PharmD, BCPS and Jeremy Bair, PharmD,BCPS. Updated AUG2013.*
+_Prepared by: Amie Hatch, PharmD, BCPS and Jeremy Bair, PharmD,BCPS. Updated AUG2013._
 
-*This document presents an evidence-based approach that is appropriate for most patients. It should be adapted to meet the needs of individual patients and situations, and should not replace clinical judgment.*
+_This document presents an evidence-based approach that is appropriate for most patients. It should be adapted to meet the needs of individual patients and situations, and should not replace clinical judgment._
 
 ## References
