@@ -7,7 +7,6 @@ created: 2011/04/15
 updates: null
 categories:
     - ENT
-
 ---
 
 # Dental Trauma
@@ -19,33 +18,37 @@ categories:
 
 ## Tooth Anatomy
 
--   *Pulp*: Central portion, neurovascular supply
--   *Dentin*: Surrounds pulp, majority of tooth
--   *Enamel*: White visible portion of tooth
--   *Periodontium*: Attachment apparatus (gingiva, periodontal ligament, alveolar bone)
+-   _Pulp_: Central portion, neurovascular supply
+-   _Dentin_: Surrounds pulp, majority of tooth
+-   _Enamel_: White visible portion of tooth
+-   _Periodontium_: Attachment apparatus (gingiva, periodontal ligament, alveolar bone)
 
 ## General Approach to Dental Trauma
 
 **Airway:** 
-- Assess risk of aspiration
-- If loose/displaced tooth, do not manipulate the tooth
+
+-   Assess risk of aspiration
+-   If loose/displaced tooth, do not manipulate the tooth
 
 **Hemorrhage control:** 
-- Apply gauze and direct pressure
+
+-   Apply gauze and direct pressure
 
 **Avulsed tooth**
-1.  Handle by crown only to avoid damage of periodontal ligament.
-2.  Gently rise tooth with saline, but do not wipe root and ligament.
-3.  Replace tooth and ask patient to bite on gauze (if not at aspiration risk)
-4.  If unable to place in transport medium: Hank's balance solution, saline, milk
+1\.  Handle by crown only to avoid damage of periodontal ligament.
+2\.  Gently rise tooth with saline, but do not wipe root and ligament.
+3\.  Replace tooth and ask patient to bite on gauze (if not at aspiration risk)
+4\.  If unable to place in transport medium: Hank's balance solution, saline, milk
 
 **Identify all fracture fragments:** 
-- May have been aspirated, lodged in mucosal tissue, intruded into alveolar bone
+
+-   May have been aspirated, lodged in mucosal tissue, intruded into alveolar bone
 
 **Consider radiographs:** CXR and panorex
 
 **Medications:**
-- Complicated fractures/avulsions may require Td and antibiotics (**<span drug="class">penicillin V</span>**, **<span drug="class">clindamycin</span>**)
+
+-   Complicated fractures/avulsions may require Td and antibiotics (**<span drug="class">penicillin V</span>**, **<span drug="class">clindamycin</span>**)
 
 Procedural videos from [thedentalbox.com](http://thedentalbox.com/videos.html)
 
@@ -64,8 +67,8 @@ Procedural videos from [thedentalbox.com](http://thedentalbox.com/videos.html)
 -   Pulp necrosis risk = 1-7%
 -   Painful and temperature sensitive
 -   Treatment:  
-  - Cover tooth with CaOH (eg. Dycal®) after drying tooth with gauze 
-  - Soft food diet
+-   Cover tooth with CaOH (eg. Dycal®) after drying tooth with gauze 
+-   Soft food diet
 -   F/U with dentist 24-48 hrs
 
 **Ellis Class III** 
@@ -88,10 +91,11 @@ Tooth is complete displaced from periodontal ligament
 Treatment: Dental emergency - contact on call dentist
 If PRIMAY DENTITION, do not replace because of risk of ankylosis. F/U with dentist in 1-2 weeks.
 If ADULT DENTITION, "time is tooth" - Periodontal ligament necrosis in 60-90 minutes if not in transport medium, loss of viability
-- Suction socket with Frasier tip suction
-- Irrigate with saline
-- Implant tooth using firm pressure
-- Apply splint (eg. Coe-Pak): Apply as a bridge to teeth and gingiva
+
+-   Suction socket with Frasier tip suction
+-   Irrigate with saline
+-   Implant tooth using firm pressure
+-   Apply splint (eg. Coe-Pak): Apply as a bridge to teeth and gingiva
 
 ## References
 

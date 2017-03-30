@@ -9,14 +9,13 @@ categories:
     - Radiology
     - EBM
     - Trauma
-
 ---
 
 # Head CT in Trauma - Clinical Decision Rules
 
 ## Canadian CT Head Rules (CCHR)
 
-***Inclusion criteria:*** GCS 13-15, age ≥ 16 years, no coagulopathy, no obvious open skull fracture
+**_Inclusion criteria:_** GCS 13-15, age ≥ 16 years, no coagulopathy, no obvious open skull fracture
 
 **CT indicated if any of following:**
 
@@ -37,9 +36,10 @@ categories:
 **CT indicated if any of the following**:
 
 GCS 15 and loss of consciousness in the setting of trauma and:
+
 -   Headache
 -   Vomiting
--   Age &gt; 60 years
+-   Age > 60 years
 -   Drugs or alcohol
 -   Short term memory deficit
 -   Visible trauma above clavicles

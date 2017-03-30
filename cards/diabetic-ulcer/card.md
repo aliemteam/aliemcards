@@ -8,7 +8,6 @@ updates: null
 categories:
     - Orthopedics
     - EBM
-
 ---
 
 # Diabetic Leg Ulcer and Osteomyelitis
@@ -20,7 +19,6 @@ categories:
 -   Diagnostic gold standard for osteomyelitis = Bone biopsy and culture
 -   If inadequately treated, increases risk of amputation
 -   Starting pretest probability for osteomyelitis in DM patient with leg ulcer = 15%
-
 
 ## Physical Exam of DM leg ulcer
 
@@ -52,24 +50,26 @@ categories:
 **Best positive predictors of osteomyelitis of diabetic leg ulcer are:** 
 
 1.  Probe-to-bone test
-2.  Ulcer area &gt;2 cm2
-3.  ESR &gt;70 mm/hr
+2.  Ulcer area >2 cm2
+3.  ESR >70 mm/hr
 
 **Best negative predictor is MRI foot**
-- Sensitivity 90%
-- Specificity 83%
+
+-   Sensitivity 90%
+-   Specificity 83%
 
 | **Finding**                          | **(+) LR** | **(-) LR** |
-|--------------------------------------|:-----------:|:-----------:|
-| Erythema, swelling, purulence        | 1.5       | 0.84      |
-| Positive probe-to-bone test          | **6.4**   | 0.39      |
-| Ulcer area (LxW) &gt;2 cm2          | **7.2**   | 0.48      |
-| Clinical gestalt+/- Wagner grade     | 5.5       | 0.54      |
-| ESR &gt;70 mm/h                     | **11**    | 0.34      |
-| Plain film evidence of osteomyelitis | 2.3       | 0.63      |
-| MRI foot                             | 3.8       | **0.14**  |
+| ------------------------------------ | :--------: | :--------: |
+| Erythema, swelling, purulence        |     1.5    |    0.84    |
+| Positive probe-to-bone test          |   **6.4**  |    0.39    |
+| Ulcer area (LxW) >2 cm2              |   **7.2**  |    0.48    |
+| Clinical gestalt+/- Wagner grade     |     5.5    |    0.54    |
+| ESR >70 mm/h                         |   **11**   |    0.34    |
+| Plain film evidence of osteomyelitis |     2.3    |    0.63    |
+| MRI foot                             |     3.8    |  **0.14**  |
 
 **Note:**
+
 -   Serum WBC and soft tissue swab culture = not diagnostic
 -   Soft tissue culture: Identified same pathogens as bone culture only 19-36% isolates. Not reliably predictive. 
 

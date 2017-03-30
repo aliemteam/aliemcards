@@ -8,7 +8,6 @@ updates:
     - 2017/02/13
 categories:
     - Cardiovascular
-
 ---
 
 # Atrial Fibrillation and Anticoagulation
@@ -40,50 +39,48 @@ categories:
 
 ([Gage et al., JAMA, 2001](https://www.ncbi.nlm.nih.gov/pubmed/?term=11401607))
 
-
-##Deciding on whether to anticoagulate with aspirin or warfarin: ([AHA/ACC/ESC 2006 guidelines](http://circ.ahajournals.org/content/114/7/e257.full))
+\##Deciding on whether to anticoagulate with aspirin or warfarin: ([AHA/ACC/ESC 2006 guidelines](http://circ.ahajournals.org/content/114/7/e257.full))
 
 ### WEAK RISK FACTORS
 
-- Female gender    
-- Age 65-74 years        
-- Coronary artery disease               
-- Thyrotoxicosis
+-   Female gender    
+-   Age 65-74 years        
+-   Coronary artery disease               
+-   Thyrotoxicosis
 
 **Treatment**
 
-- <span class="drug">Aspirin</span> or <span class="drug">warfarin</span>
+-   <span class="drug">Aspirin</span> or <span class="drug">warfarin</span>
 
 ### MODERATE RISK FACTORS
 
-- Age &gt; 75 years          
-- Hypertension                     
-- Heart failure           
-- LV ejection fracture ≤35%              
-- Diabetes mellitus 
+-   Age > 75 years          
+-   Hypertension                     
+-   Heart failure           
+-   LV ejection fracture ≤35%              
+-   Diabetes mellitus 
 
 **Treatment**
 
-- 1 risk factor: <span class="drug">aspirin</span> or <span class="drug">warfarin</span>
-- &gt; 1 risk factor: <span class="drug">warfarin</span>
+-   1 risk factor: <span class="drug">aspirin</span> or <span class="drug">warfarin</span>
+-   \> 1 risk factor: <span class="drug">warfarin</span>
 
 ### HIGH RISK FACTORS
 
-- Prior CVA        
-- Prior TIA         
-- Embolism          
-- Mitral stenosis   
-- Mech heart valve
+-   Prior CVA        
+-   Prior TIA         
+-   Embolism          
+-   Mitral stenosis   
+-   Mech heart valve
 
 **Treatment**
 
-- <span class="drug">Warfarin</span>
+-   <span class="drug">Warfarin</span>
 
-##Notes
+\##Notes
 
 -   Anticoagulation goal with <span class="drug">warfarin</span>: INR 2-3
 -   If age &lt;60 years AND zero risk factors: No anticoagulation because low risk for CVA 
-
 
 ## References
 

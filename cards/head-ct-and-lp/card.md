@@ -10,7 +10,6 @@ categories:
     - Procedures
     - EBM
     - Radiology
-
 ---
 
 # Head CT: When unnecessary before LP for meningitis
@@ -19,8 +18,8 @@ categories:
 
 If **ZERO** high risk features, it is safe to do LP without a Head CT:
 
-| **High risk features associated with abnormal CT:**        |
-|------------------------------------------------------------|
+\| **High risk features associated with abnormal CT:**        |
+\|------------------------------------------------------------\|
 | Age ≥ 60 yr                                                |
 | Immunocompromise (HIV, transplant, immunosuppression)      |
 | History of CNS disease (mass lesion, CVA, focal infection) |
@@ -34,23 +33,23 @@ If **ZERO** high risk features, it is safe to do LP without a Head CT:
 | Arm or leg drift                                           |
 | Abnormal language / speech                                 |
 
-## ([Hasbun et al. NEMJ, 2001](https://www.ncbi.nlm.nih.gov/pubmed/?term=11742046))**
+## ([Hasbun et al. NEMJ, 2001](https://www.ncbi.nlm.nih.gov/pubmed/?term=11742046))\*\*
 
 **Design:** Prospective observational single-site study (n = 301)
 
 **Observed results**: 
 
-- 235/301 underwent head CT
-  - 56/235 (24%) had abnormal CT
-    - 11/56 had mass effect
+-   235/301 underwent head CT
+    -   56/235 (24%) had abnormal CT
+        -   11/56 had mass effect
 
 **Validation arm: Applying the “high risk” criteria back to the enrollment group:**
 
-- 235/301 underwent head  
-  - 96/235 (41%) had no “high risk” features 
-    - 93/96 (97%) had a normal CT
-      - 3/96 (3%) had 2 non-herniations and 1 mild herniation on CT
-      - All 3 patients underwent LP without complications.
+-   235/301 underwent head  
+    -   96/235 (41%) had no “high risk” features 
+        -   93/96 (97%) had a normal CT
+            -   3/96 (3%) had 2 non-herniations and 1 mild herniation on CT
+            -   All 3 patients underwent LP without complications.
 
 **Results: Time savings for who did not undergo CT imaging (CT-)**
 

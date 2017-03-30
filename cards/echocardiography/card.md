@@ -10,11 +10,9 @@ updates: null
 categories:
     - Cardiovascular
     - Ultrasound
-
 ---
 
 # Ultrasound: Focused Echocardiography
-
 
 **Goals:** Evaluate for pericardial effusion, general cardiac function, and evidence of right heart strain.
 
@@ -56,7 +54,7 @@ Figure 4: Apical 4 Chamber view demonstrating the right ventricle **(RV)**, righ
 ## 4. Subxiphoid
 
 -   **Anatomic landmarks**: Transducer just below xiphoid process. Slightly to patient’s right.
--   **Initial transducer orientation:** Transducer marker towards patient’s ***left*** with transducer angled towards left shoulder. (Transducer is flipped from FAST view due to flipped screen indicator in cardiac imaging). Flatten transducer on abdomen.
+-   **Initial transducer orientation:** Transducer marker towards patient’s **_left_** with transducer angled towards left shoulder. (Transducer is flipped from FAST view due to flipped screen indicator in cardiac imaging). Flatten transducer on abdomen.
 
 ![](image-5.png)
 
@@ -70,7 +68,7 @@ Anechoic (black) stripe encircling the heart. Pericardial effusion on PSLA will 
 
 **Pericardial tamponade:** 
 
-Pericardial effusion with RV free wall collapse in diastole. IVC should be dilated without respiratory variation in tamponade. RA systolic collapse is an early finding. ***Tip:*** Use M-Mode through mitral valve to help with timing of RV collapse.
+Pericardial effusion with RV free wall collapse in diastole. IVC should be dilated without respiratory variation in tamponade. RA systolic collapse is an early finding. **_Tip:_** Use M-Mode through mitral valve to help with timing of RV collapse.
 
 **Hypovolemia:** 
 
@@ -82,7 +80,7 @@ RV size greater than LV (normal ratio is 0.6:1) when seen in the apical 4-chambe
 
 **Systolic heart failure:** 
 
-Poor ventricular squeeze. Mitral valve does not open widely as seen in parasternal long-axis. ***EPSS***: Using the PSLA measured distance between mitral valve and septum in diastole. Abnormal EPSS &gt;7 mm = poor LV ejection fraction.
+Poor ventricular squeeze. Mitral valve does not open widely as seen in parasternal long-axis. **_EPSS_**: Using the PSLA measured distance between mitral valve and septum in diastole. Abnormal EPSS >7 mm = poor LV ejection fraction.
 
 ## Struggling with the Exam?
 
@@ -90,11 +88,9 @@ Poor ventricular squeeze. Mitral valve does not open widely as seen in parastern
 
 Place the patient in the left lateral decubitus position, which brings the heart closest to the chest wall. Lung artifact is common and asking the patient to exhale can improve your image. Try rib interspaces above and below standard locations.
 
-**Rib shadows obstructing view?**
+**Rib shadows obstructing view?** Try moving the transducer up or down to get between the ribs, then angle the transducer towards the heart once you have a good acoustic window.
 
-Try moving the transducer up or down to get between the ribs, then angle the transducer towards the heart once you have a good acoustic window.
-
-## Common Errors:
+## Common Errors
 
 Pleural effusion can be mistaken for pericardial effusion. To differentiate, locate the descending thoracic aorta in the parasternal long-axis view. Pericardial effusions will track superficial to the descending thoracic aorta. Pleural effusions will track deep.
 
@@ -104,6 +100,6 @@ Anterior fat pad can be mistaken for pericardial effusion, but will have interna
 
 ## References
 
-- Randazzo MR et al. *Acad Emerg Med*, 2003. PMID: [12957982](http://www.ncbi.nlm.nih.gov/pubmed/?term=Randazzo+Acad+Emerg+Med%2C+2003.)
+-   Randazzo MR et al. _Acad Emerg Med_, 2003. PMID: [12957982](http://www.ncbi.nlm.nih.gov/pubmed/?term=Randazzo+Acad+Emerg+Med%2C+2003.)
 
-- Nagdev A, Stone MB. *Resuscitation*, 2011. PMID: [21397379](http://www.ncbi.nlm.nih.gov/pubmed/?term=Nagdev%2C+A.%2C+%26+Stone%2C+M.+B.+Resuscitation%2C+2011.)
+-   Nagdev A, Stone MB. _Resuscitation_, 2011. PMID: [21397379](http://www.ncbi.nlm.nih.gov/pubmed/?term=Nagdev%2C+A.%2C+%26+Stone%2C+M.+B.+Resuscitation%2C+2011.)

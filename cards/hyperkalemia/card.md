@@ -9,7 +9,6 @@ categories:
     - Endocrinology
     - Metabolic
     - Critical Care
-
 ---
 
 # Hyperkalemia
@@ -28,18 +27,21 @@ categories:
 ## Treatment of hyperkalemia
 
 **Mechanism: Cardiac membrane stabilization **
+
 -   **Calcium:** Reduces threshold potential in myocytes; check to be sure not on digoxin
 -   **Hypertonic saline:** Only for severe hyponatremia in setting of hyperkalemia
 
 **Mechanism: K redistribution**
+
 -   **Insulin:** Drives K intracellularly and drops serum K level by 0.6 mmol/L
--   **Beta-agonist:** Drives K intracellularly and 10 mg albuterol drops serum K level by 0.6 mmol/L(20 mg --&gt; K drops by 1 mmol/L); effective in only 60% of patients
+-   **Beta-agonist:** Drives K intracellularly and 10 mg albuterol drops serum K level by 0.6 mmol/L(20 mg --> K drops by 1 mmol/L); effective in only 60% of patients
 
 **Mechanism: K elimination via kidney/gut**
+
 -   **Bicarbonate:** drives K out at distal nephron; best as infusion x 4-6 hrs
 -   **Loop diuretic**
 -   **Exchange resin** (sodium polystyrene sulfonate): Of minimal to no benefit. 
-  - Case reports of colonic necrosis 
+-   Case reports of colonic necrosis 
 
 <table>
   <tr>
