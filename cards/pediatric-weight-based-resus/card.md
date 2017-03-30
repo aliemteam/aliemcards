@@ -8,7 +8,6 @@ updates: null
 categories:
     - Critical Care
     - Pediatrics
-
 ---
 
 # Pediatric Weight-Based Resuscitation Reference
@@ -136,4 +135,3 @@ categories:
 ![](image-31.png)
 
 ## References
-

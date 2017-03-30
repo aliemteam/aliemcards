@@ -8,7 +8,6 @@ updates: null
 categories:
     - Cardiovascular
     - ECG
-
 ---
 
 # ECG: Lead aVR
@@ -23,9 +22,10 @@ categories:
 
 ## Acute myocardial infarction
 
-**ST Elevation &gt;1.5 mm in aVR**
+**ST Elevation >1.5 mm in aVR**
 
 ![](image-1.png)
+
 -   Suggests left main coronary artery (LMCA), left anterior descending (LAD), or 3-vessel coronary disease
 -   LMCA occlusion has a high mortality and often refractory to thrombolytics.
 -   **aVR ST elevation in ACS patients:** Independent predictor of recurrent ischemic events in-hospital, heart failure, and death 
@@ -40,8 +40,8 @@ Suggests subepicardial atrial injury from pericardial inflammation
 
 **Multilead ST elevation:** 
 
-- Differential diagnosis includes ACS vs pericarditis 
-- Concurrent PR elevation in aVR suggests pericarditis instead of ACS. 
+-   Differential diagnosis includes ACS vs pericarditis 
+-   Concurrent PR elevation in aVR suggests pericarditis instead of ACS. 
 
 ## Tricyclic antidepressant (TCA) & TCA-like overdose
 
@@ -55,7 +55,7 @@ Suggests subepicardial atrial injury from pericardial inflammation
     -   Right axis deviation 130-170 degrees
     -   Prominent terminal R wave in aVR
 -   Predictor of arrhythmia ([Buckley et al. Crit Care, 2003](http://www.ncbi.nlm.nih.gov/pubmed/12974977)):
-    -   R/S ratio in aVR &gt;0.7 (PPV 46%, NPV 95%)
+    -   R/S ratio in aVR >0.7 (PPV 46%, NPV 95%)
 
 ## AVRT in Wolff-Parkinson-White (WPW)
 
@@ -72,21 +72,21 @@ Suggests subepicardial atrial injury from pericardial inflammation
 
 **Vereckei criteria:** 
 
-- Asks 4 questions. 
-- More sensitive and specific to detect ventricular tachycardia (VT) than Brugada criteria.
-- **Criteria looks ONLY at lead aVR** (if answer is yes, then VT):
+-   Asks 4 questions. 
+-   More sensitive and specific to detect ventricular tachycardia (VT) than Brugada criteria.
+-   **Criteria looks ONLY at lead aVR** (if answer is yes, then VT):
 
 1.  Is there an initial R wave?
-2.  Is there a r or q wave &gt;40 msec? (&gt;1 small box width)
+2.  Is there a r or q wave >40 msec? (>1 small box width)
 3.  Is there a notch on the descending limb of a negative QRS complex?
 4.  Measure the voltage change in the first (vi) and last 40 msec (vt). Is vi / vt &lt;1?
 
 ![](image-4.png)
 
-| Criteria | Sensitivity      | Specificity       | PPV    | NPV    |
-|---------|:-------:|:-------:|:-----:|:-----:|
-| Brugada | 89%   | 73%   | 92% | 67% |
-| Verecki | 97%   | 75%   | 93% | 87% |
+| Criteria | Sensitivity | Specificity | PPV | NPV |
+| -------- | :---------: | :---------: | :-: | :-: |
+| Brugada  |     89%     |     73%     | 92% | 67% |
+| Verecki  |     97%     |     75%     | 93% | 87% |
 
 ([Vereckei et al, Heart Rhythm 2008](http://www.ncbi.nlm.nih.gov/pubmed/18180024))
 

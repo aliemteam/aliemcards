@@ -11,10 +11,7 @@ categories:
     - Ultrasound
     - Radiology
     - Pulmonology
-
 ---
-
-
 
 # Ultrasound: Focused Lung Assessment
 
@@ -28,11 +25,12 @@ categories:
 **Windows:** Transducer orientation is longitudinal with directional indicator oriented towards the patient’s head. The area of interest is the pleura visualized between the ribs. There are many accepted scanning approaches, and two commonly used in the ED:
 
 1.  **Three views in each hemithorax:**
-    - **Anterior:** 2nd or 3rd interspace at the mid-clavicular line.
-    - **Anterolateral:** Anterior and mid- axillary lines along the 3rd to 5th interspace.
-    - **Posterolateral:** Posterior axillary line, looking into the lower thorax and upper abdominal quadrants at the level of the diaphragm.
 
-2.  **8 lung zones**, or 4 sections, in each hemithorax [Volpicelli]:
+    -   **Anterior:** 2nd or 3rd interspace at the mid-clavicular line.
+    -   **Anterolateral:** Anterior and mid- axillary lines along the 3rd to 5th interspace.
+    -   **Posterolateral:** Posterior axillary line, looking into the lower thorax and upper abdominal quadrants at the level of the diaphragm.
+
+2.  **8 lung zones**, or 4 sections, in each hemithorax [Volpicelli]&#x3A;
 
 ![](image-1.png)
 
@@ -42,7 +40,7 @@ Figure 1: Transducer positions for the 8 lung zones
 
 The visceral and parietal pleura appear as a single hyperechoic line deep to the internal intercostal muscle, and in healthy lungs will "slide" during the respiratory cycle.
 
-Absent lung sliding is a ***pathologic finding*** found in pneumothorax, contralateral mainstem bronchus intubation or esophageal intubation (lung pulse present), pleural adhesions, stiff lungs, and pleurodesis.
+Absent lung sliding is a **_pathologic finding_** found in pneumothorax, contralateral mainstem bronchus intubation or esophageal intubation (lung pulse present), pleural adhesions, stiff lungs, and pleurodesis.
 
 ## A-Lines
 
@@ -58,7 +56,7 @@ Figure 2: **A-lines **are visualized as hyperechoic, horizontal artifacts at r
 
 -   **Vertical** artifacts
 -   Arise from the pleural line, extend off the screen without fading, are hyperechoic and laser-like, move with respiration, and erase the normal A-line pattern.
--   More than 3 B-lines in an interspace is considered ***pathologic***, although many experts agree that any anterior B-lines are pathologic.
+-   More than 3 B-lines in an interspace is considered **_pathologic_**, although many experts agree that any anterior B-lines are pathologic.
 
 ![](image-3.png)
 
@@ -97,32 +95,32 @@ Figure 5: A lobar consolidation located cephalad to the **diaphragm.** The branc
 
 ## Struggling with the Exam?
 
-- Do ***not*** move quickly. Hold the probe STILL during the respiratory cycle to see lung sliding and lung artifacts. Compare the same region of each hemithorax sequentially instead of the entire hemithorax at once.
+-   Do **_not_** move quickly. Hold the probe STILL during the respiratory cycle to see lung sliding and lung artifacts. Compare the same region of each hemithorax sequentially instead of the entire hemithorax at once.
 
 **Can’t decide if there is lung sliding?**
 
-- To optimize visualization of the pleural line, decrease the depth and decrease the overall gain.
+-   To optimize visualization of the pleural line, decrease the depth and decrease the overall gain.
 
 **Can’t see A-lines or B-lines?**
 
-- Turn *off* artifact-reduction settings, or use a lung preset if available. Keep the transducer perpendicular to the patient’s chest in all zones scanned. Use a low-frequency transducer set to its lowest operating frequency.
+-   Turn _off_ artifact-reduction settings, or use a lung preset if available. Keep the transducer perpendicular to the patient’s chest in all zones scanned. Use a low-frequency transducer set to its lowest operating frequency.
 
-## Common Errors:
+## Common Errors
 
 **Unable to identify A-lines:** 
 
-- Remember to turn *off* artifact-reduction settings, or use a lung preset if available. Keep the transducer perpendicular to the patient’s chest in all zones scanned.
+-   Remember to turn _off_ artifact-reduction settings, or use a lung preset if available. Keep the transducer perpendicular to the patient’s chest in all zones scanned.
 
 **Quantification of B-lines:** 
 
-- A single B-line in dependent interspaces may be a normal finding in a healthy patient, but &gt;3 B-lines in a single interspace indicates lung pathology.
+-   A single B-line in dependent interspaces may be a normal finding in a healthy patient, but >3 B-lines in a single interspace indicates lung pathology.
 
-**Absence of lung sliding** is 100% sensitive for pneumothorax, but is ***not specific*** to pneumothorax. 
+**Absence of lung sliding** is 100% sensitive for pneumothorax, but is **_not specific_** to pneumothorax. 
 
-- Other possibilities may be failure to ventilate, contralateral mainstem intubation, dense consolidation from pneumonia, severe pulmonary fibrosis, or pleural inflammatory changes.
+-   Other possibilities may be failure to ventilate, contralateral mainstem intubation, dense consolidation from pneumonia, severe pulmonary fibrosis, or pleural inflammatory changes.
 
 ## References
 
-- Blaivas M, et al. *Acad Emerg Med*, 2005. PMID: [16141018](http://www.ncbi.nlm.nih.gov/pubmed/16141018)
-- Liteplo AS, et al. *Acad Emerg Med*, 2009. PMID: [19183402](http://www.ncbi.nlm.nih.gov/pubmed/19183402)
-- Volpicelli G. *J Ultrasound Med*. 2013. PMID: [23269722](http://www.ncbi.nlm.nih.gov/pubmed/23269722)
+-   Blaivas M, et al. _Acad Emerg Med_, 2005. PMID: [16141018](http://www.ncbi.nlm.nih.gov/pubmed/16141018)
+-   Liteplo AS, et al. _Acad Emerg Med_, 2009. PMID: [19183402](http://www.ncbi.nlm.nih.gov/pubmed/19183402)
+-   Volpicelli G. _J Ultrasound Med_. 2013. PMID: [23269722](http://www.ncbi.nlm.nih.gov/pubmed/23269722)

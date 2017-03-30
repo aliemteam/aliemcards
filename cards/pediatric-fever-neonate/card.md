@@ -12,7 +12,6 @@ updates: null
 categories:
     - Pediatrics
     - Infectious Disease
-
 ---
 
 # Pediatric Fever Without a Source: Birth - 28 Days Old
@@ -29,11 +28,13 @@ History and physical are not reliable to rule-out serious bacterial infection (S
 -   12-28% of febrile neonates have SBI, and a high rate of missed SBIs exist. [(Ishimine, EM Clin N Am 2007)](https://www.ncbi.nlm.nih.gov/pubmed/17950137)
 
 **Common causes for SBI:** 
+
 -   UTIs 20%
 -   Bacteremia 3%
 -   Meningitis 1%
 
 **Other causes for SBI’s:**
+
 -   Bacterial gastroenteritis
 -   Gonococcal keratoconjunctivitis
 -   Omphalitis
@@ -45,13 +46,13 @@ History and physical are not reliable to rule-out serious bacterial infection (S
 **Pathogens:**
 
 -   More common: 
-  - E. coli
-  - Group B Strep
-  - HSV 
--  Less common:
-  - Listeria
-  - Salmonella
-  - Staph aureus
+-   E. coli
+-   Group B Strep
+-   HSV 
+-   Less common:
+-   Listeria
+-   Salmonella
+-   Staph aureus
 
 ## Workup
 
@@ -59,8 +60,8 @@ History and physical are not reliable to rule-out serious bacterial infection (S
 2.  Blood cultures
 3.  Catheterized urinalysis and urine culture (or via suprapubic tap)
 4.  CSF studies (cell count, glucose, protein, gram stain, culture, extra tube to hold for potential other studies)
-5.  ***Consider:*** Stool culture (if diarrhea)
-6.  ***Consider:*** CXR and rapid viral testing (if respiratory sx or increased work of breathing, although viral testing should not change sepsis workup)
+5.  **_Consider:_** Stool culture (if diarrhea)
+6.  **_Consider:_** CXR and rapid viral testing (if respiratory sx or increased work of breathing, although viral testing should not change sepsis workup)
 
 ## Treatment
 
@@ -79,7 +80,7 @@ Add **<span class="drug">Acyclovir</span>,** if any 1 of following:
 -   Elevated liver transaminases, viral hepatitis, or acute liver failure
 -   Conjunctivitis, excessive tearing, or painful eye symptoms
 
-*Note*: Disseminated HSV and HSV encephalitis may not present with rash
+_Note_: Disseminated HSV and HSV encephalitis may not present with rash
 
 ## References
 

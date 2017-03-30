@@ -9,7 +9,6 @@ categories:
     - Neurology
     - ENT
     - EBM
-
 ---
 
 # Acute Vestibular Syndrome vs. Stroke
@@ -29,16 +28,16 @@ categories:
 
 **Central Causes:**
 
-- Vertebrobasilar CVA (83%)
-- Multiple sclerosis (11%)
-- Other (6%) 
+-   Vertebrobasilar CVA (83%)
+-   Multiple sclerosis (11%)
+-   Other (6%) 
 
 > Over 50% of vertebrobasilar CVA’s have no focal neuro deficit.
 > Excludes benign positional vertigo and Meniere’s (&lt;24hrs of continuous symptoms)
 
 ## Which Bedside Tests Help Differentiate Peripheral from Central Causes of AVS? 
 
-**NOT helpful**
+### NOT helpful
 
 -   Differentiating type of dizziness (vertigo, presyncope, unsteadiness)
 -   Onset of dizziness (sudden vs gradual)
@@ -48,36 +47,42 @@ categories:
 -   Patterns and vectors of nystagmus
 -   Noncontrast head CT has sensitivity of only 16% for acute ischemic CVA
 
-**Helpful**
+### Helpful
 
 **Multiple episodes of dizziness**: Predictive of central cause (CVA)
 
 **Headache or neck pain**: Predictive of central cause (CVA, vertebral artery dissection)
-- Positive LR = 3.2
-- Absence of pain not predictive
+
+-   Positive LR = 3.2
+-   Absence of pain not predictive
 
 **Any neurologic signs**, especially truncal ataxia (unable to sit upright with arms crossed) and severe gait instability 
 – Strongly predictive of central cause
 
 **Horizontal head impulse test** (vestibular-ocular reflex)
+
 -   If abnormal, suggests peripheral vestibular cause
 -   If normal, predictive of central cause (positive LR 18.4, negative LR 0.16)
 
 **Gaze-evoked nystagmus** (right-beating nystagmus on right gaze and left-beatingnystagmus on left gaze)
+
 -   Means dysfunction of gaze-holding structures in brainstem andcerebellum
 -   If abnormal, predictive of central cause (specificity 92%, sens 38%) 
 
 **Vertical ocular misalignment on alternate cover test**
+
 -   If abnormal skew deviation, predictive of central cause (sensitivity 30%, specificity 98%)
 
 **Diffusion-weighted MRI**
+
 -   Good but not perfect (sensitivity 83% for ischemic CVA)
 
 ## Composite HINTS Exam
- 
+
 **HINTS** = **H**ead **I**mpulse test, **N**ystagmus, **T**est of **S**kew exam
 
 Abnormal findings summarized using **INFARCTs** acronym:
+
 -   **I**mpulse **N**ormal 
 -   **F**ast-phase **A**lternating 
 -   **R**efixation on **C**over **T**est 

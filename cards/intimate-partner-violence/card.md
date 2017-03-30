@@ -8,7 +8,6 @@ created: 2013/07/31
 updates: null
 categories:
     - Trauma
-
 ---
 
 # Intimate Partner Violence
@@ -24,23 +23,24 @@ categories:
 ## Screening
 
 -   USPSTF B recommendation for screening women of child-bearing age: high certainty that the net benefit is moderate. Costs and potential harms of screening appear to be outweighed by potential for early intervention with screening.
--   Interview patient alone. Frame: “*Because violence is so common, we’re routinely asking our patients about their safety in their relationships*.”
+-   Interview patient alone. Frame: “_Because violence is so common, we’re routinely asking our patients about their safety in their relationships_.”
 -   Increase suspicion of abuse when overly protective partner, history inconsistent with injury, vague complaints, or pregnancy.
 
 **SAFE Questions**
 
-| Topic .   |    Question                                                              |
-|--------------------|-----------------------------------------------------------------------------------|
-| **S**tress/Safety  | *Do you feel safe in your relationship?*                                           |
-| **A**fraid/Abused  | *Have you ever been in a relationship where you were threatened, hurt, or afraid?* |
-| **F**riend/Family  | *Are your friends aware you have been hurt?*                                       |
-| **E**mergency Plan | *Do you have a safe place to go and the resources you need in an emergency?*       |
+| Topic .            |    Question                                                                        |
+| ------------------ | ---------------------------------------------------------------------------------- |
+| **S**tress/Safety  | _Do you feel safe in your relationship?_                                           |
+| **A**fraid/Abused  | _Have you ever been in a relationship where you were threatened, hurt, or afraid?_ |
+| **F**riend/Family  | _Are your friends aware you have been hurt?_                                       |
+| **E**mergency Plan | _Do you have a safe place to go and the resources you need in an emergency?_       |
 
 ## Document
 
 Convey constructive messages:
--   *“Nobody deserves to be treated this way. You are not alone.”*
--   *“I am concerned about your safety and health. There is help. I’d like you to speak with an advocate/counselor.”*
+
+-   _“Nobody deserves to be treated this way. You are not alone.”_
+-   _“I am concerned about your safety and health. There is help. I’d like you to speak with an advocate/counselor.”_
 
 Assess immediate safety for patient in ED.
 

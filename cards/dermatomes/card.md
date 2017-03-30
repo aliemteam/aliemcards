@@ -7,7 +7,6 @@ created: 2013/05/26
 updates: null
 categories:
     - Orthopedics
-
 ---
 
 # Dermatomes and Myotomal Maps
@@ -16,8 +15,8 @@ categories:
 
 ## Testing Motor Function by Level
 
-| **Nerve Level** | ** Motor Function** |
-| *---* | --- |
+\| Nerve Level \|  Motor Function \|
+\| _---_ \| --- \|
 | C1-C4 | Spontaneous breathing |
 | C5 | Shoulder abduction (deltoid) |
 | C6 | Wrist extension (carpi radialis longus and brevis) |
@@ -34,4 +33,4 @@ categories:
 
 ## References
 
-1. ["Dermatomes Anatomy: Overview, Gross Anatomy, Natural Variants". Emedicine.medscape.com. N.p., 2017. Web. 24 Mar. 2017.](http://emedicine.medscape.com/article/1878388-overview)
+1.  ["Dermatomes Anatomy: Overview, Gross Anatomy, Natural Variants". Emedicine.medscape.com. N.p., 2017. Web. 24 Mar. 2017.](http://emedicine.medscape.com/article/1878388-overview)

@@ -39,7 +39,7 @@ categories:
 
 90% of shoulder external rotation uses infraspinatus muscle. 
 
-**Infraspinatus scapular rotation test:**
+### Infraspinatus scapular rotation test
 
 Patient has pain when externally rotates shoulder against resistance (with elbow in 90 degree flexion)
 

@@ -4,10 +4,10 @@ title: '2013 AHA Guidelines: Contraindications for Thrombolytics'
 authors:
     - Michelle Lin, MD
 created: 2010/09/10
-updates: null
+updates:
+    - 2013/05/13
 categories:
     - Neurology
-
 ---
 
 # Stroke: 2013 AHA Guidelines on Contraindications for Thrombolytics
@@ -27,15 +27,16 @@ categories:
 -   History of previous intracranial hemorrhage
 -   Intracranial neoplasm, AV malformation, or aneurysm
 -   Recent intracranial or intraspinal surgery
--   Elevated BP (SBP &gt;185 mmHg or DBP &gt;110 mmHg)
+-   Elevated BP (SBP >185 mmHg or DBP >110 mmHg)
 -   Active internal bleeding
 -   Acute bleeding diathesis (Platelet count &lt;100,000/mm3; Heparin received within 48 hours, resulting in aPTT above upper limit of normal)
--   Current use of anticoagulant with INR &gt;1.7 or PT &gt; 15 sec     
+-   Current use of anticoagulant with INR >1.7 or PT > 15 sec     
 -   Current use of direct thrombin inhibitors or direct factor Xa inhibitors with elevated sensitive lab tests (such as aPTT, INR, platelet, and ecarin clotting time; TT; or appropriate factor Xa activity assays)
 -   Blood glucose &lt;50 mg/dL (2.7 mmol/L)
--   CT shows multilobar infarct (hypodensity &gt;1/3 cerebral hemisphere)
+-   CT shows multilobar infarct (hypodensity >1/3 cerebral hemisphere)
 
 ### Relative Exclusion Criteria
+
 -   Only minor or rapidly improvement stroke symptoms (clearing spontaneously)
 -   Pregnancy
 -   Seizure at onset with postictal residual neurologic impairments
@@ -47,9 +48,10 @@ categories:
 
 ### Absolute Exclusion Criteria
 
-***List is same as for 0-3 hour time frame above PLUS any of the following***:
--   Age &gt;80 years
--   Severe stroke (NIHSS &gt;25)
+**_List is same as for 0-3 hour time frame above PLUS any of the following_**:
+
+-   Age >80 years
+-   Severe stroke (NIHSS >25)
 -   Taking oral anticoagulant regardless of INR
 -   History of both diabetes mellitus AND prior ischemic stroke
 
