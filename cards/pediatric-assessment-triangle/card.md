@@ -9,7 +9,6 @@ updates: null
 categories:
     - Pediatrics
     - Critical Care
-
 ---
 
 # Pediatric Assessment Triangle
@@ -21,7 +20,7 @@ The PAT functions as a rapid, initial assessment to determine “sick” or “n
 ## Appearance: The “Tickles” (TICLS) Mnemonic
 
 |  Characteristic     | Normal features                                                                                                |
-|---------------------|----------------------------------------------------------------------------------------------------------------|
+| ------------------- | -------------------------------------------------------------------------------------------------------------- |
 | **T**one            | Move spontaneously, resists examination, sits or stands (age appropriate)                                      |
 | **I**nteractiveness | Appears alert/engaged with clinician or caregiver, interacts well with people/environment, reaches for objects |
 | **C**onsolability   | Stops crying with holding/comforting by caregiver, has differential response to caregiver vs. examiner         |
@@ -31,7 +30,7 @@ The PAT functions as a rapid, initial assessment to determine “sick” or “n
 ## Work of breathing
 
 |  Characteristic        |  Abnormal features                                                  |
-|------------------------|---------------------------------------------------------------------|
+| ---------------------- | ------------------------------------------------------------------- |
 | Abnormal airway sounds | Snoring, muffled/hoarse speech, stridor, grunting, wheezing         |
 | Abnormal positioning   | Sniffing position, tripoding, prefers seated posture                |
 | Retraction             | Supraclavicular, intercostal, or substernal, head bobbing (infants) |
@@ -40,22 +39,22 @@ The PAT functions as a rapid, initial assessment to determine “sick” or “n
 ## Circulation of skin
 
 | Characteristic  |  Abnormal features                                         |
-|-----------------|------------------------------------------------------------|
+| --------------- | ---------------------------------------------------------- |
 | Pallor          | White/pale skin or mucous membranes                        |
 | Mottling        | Patchy skin discoloration due to variable vasoconstriction |
 | Cyanosis        | Bluish discoloration of skin/mucous membranes              |
 
 ## Relationship of the PAT components to physiological categories and management priorities
 
-| Presentation                   | Appearance   |  Work of breathing      |  Circulation           | Management                                                                                                                                                                      |
-|--------------------------------|--------------|---------------|------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Stable                         | Normal       | Normal        | Normal                 | Specific therapy based on possible etiologies                                                                                                                                   |
-| Respiratory distress           | Normal       | **ABNORMAL**  | Normal                 | Position of comfort, O2/suction, specific therapy (e.g. albuterol, diphenhydramine, epinephrine), labs/x-rays                                                                   |
-| Respiratory failure            | **ABNORMAL** | **ABNORMAL ** | Normal or **ABNORMAL** | Position head/open airway, BVM, FB removal, advanced airway, labs/x-rays                                                                                                        |
-| Shock (compensated)                   | Normal       | Normal        | **ABNORMAL**           | O2, peripheral IV, fluid resuscitation, specific therapy based on etiology (antibiotics, surgery, antidysrhythmics), labs/x-rays                                                |
-| Shock (decompensated/hypotensive)                    | **ABNORMAL** | Normal or **ABNORMAL**   | **ABNORMAL**           | O2, vascular access, fluid resuscitation, specific therapy based on etiology (antibiotics, vasopressors, blood products, surgery, antidysrhythmics, cardioversion), labs/x-rays |
-| CNS/Metabolic dysfunction      | **ABNORMAL** | Normal        | Normal                 | O2, POC glucose, consider other etiologies, labs/x-rays                                                                                                                         |
-| Cardiopulmonary failure/arrest | **ABNORMAL** | **ABNORMAL**  | **ABNORMAL**           | Position head/open airway, BMV with 100% O2, CPR, specific therapy based on etiology (defibrillation, epinephrine, amiodarone), labs/x-rays                                     |
+| Presentation                      | Appearance   |  Work of breathing     |  Circulation           | Management                                                                                                                                                                      |
+| --------------------------------- | ------------ | ---------------------- | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Stable                            | Normal       | Normal                 | Normal                 | Specific therapy based on possible etiologies                                                                                                                                   |
+| Respiratory distress              | Normal       | **ABNORMAL**           | Normal                 | Position of comfort, O2/suction, specific therapy (e.g. albuterol, diphenhydramine, epinephrine), labs/x-rays                                                                   |
+| Respiratory failure               | **ABNORMAL** | **ABNORMAL **          | Normal or **ABNORMAL** | Position head/open airway, BVM, FB removal, advanced airway, labs/x-rays                                                                                                        |
+| Shock (compensated)               | Normal       | Normal                 | **ABNORMAL**           | O2, peripheral IV, fluid resuscitation, specific therapy based on etiology (antibiotics, surgery, antidysrhythmics), labs/x-rays                                                |
+| Shock (decompensated/hypotensive) | **ABNORMAL** | Normal or **ABNORMAL** | **ABNORMAL**           | O2, vascular access, fluid resuscitation, specific therapy based on etiology (antibiotics, vasopressors, blood products, surgery, antidysrhythmics, cardioversion), labs/x-rays |
+| CNS/Metabolic dysfunction         | **ABNORMAL** | Normal                 | Normal                 | O2, POC glucose, consider other etiologies, labs/x-rays                                                                                                                         |
+| Cardiopulmonary failure/arrest    | **ABNORMAL** | **ABNORMAL**           | **ABNORMAL**           | Position head/open airway, BMV with 100% O2, CPR, specific therapy based on etiology (defibrillation, epinephrine, amiodarone), labs/x-rays                                     |
 
 ## References
 

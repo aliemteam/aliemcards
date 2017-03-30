@@ -4,7 +4,7 @@ import { TypedFields } from '../../utils/strongTypes';
 export interface APIResponse {
   status: number;
   statusText: string;
-};
+}
 
 const fields = (): TypedFields<APIResponse> => ({
   status: {

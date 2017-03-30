@@ -8,15 +8,13 @@ updates: null
 categories:
     - Cardiovascular
     - ECG
-
 ---
 
 # ECG: Sgarbossa Criteria for LBBB and AMI
 
 It is difficult to determine if a patient with a left bundle branch block (LBBB) has an acute myocardial infarction (AMI) because ST segments are "appropriately discordant" with the terminal portion of the QRS. 
 
-- The major, terminal portion of the QRS complex will normally be “appropriately discordant” with the ST segment.
-
+-   The major, terminal portion of the QRS complex will normally be “appropriately discordant” with the ST segment.
 
 ## Sgarbossa criteria
 
@@ -28,41 +26,41 @@ It is difficult to determine if a patient with a left bundle branch block (LBBB)
 
 ## 1. ST elevation ≥ 1 mm concordant with QRS complex
 
-  - Most predictive of AMI
-  - \+ LR: 9.54 (3.1-17.3)
-  - \- LR: 0.3 (0.22-0.39)
+-   Most predictive of AMI
+-   \+ LR: 9.54 (3.1-17.3)
+-   \- LR: 0.3 (0.22-0.39)
 
 ![](image-1.png)
 
 ## 2. ST depression ≥ 1 mm in lead V1, V2, V3
 
-  - \+ LR: 6.58 (2.6-16.1)
-  - \- LR: 0.78 (0.7-0.87)
+-   \+ LR: 6.58 (2.6-16.1)
+-   \- LR: 0.78 (0.7-0.87)
 
 ![](image-2.png)
 
 ## 3. ST elevation ≥ 5 mm where discordant with QRS complex
 
-  - May not be significant as the +LR crosses 1.0
-  - \+ LR: 3.42 (0.18-6.5)
-  - \- LR: 0.8 (0.72-0.9)
+-   May not be significant as the +LR crosses 1.0
+-   \+ LR: 3.42 (0.18-6.5)
+-   \- LR: 0.8 (0.72-0.9)
 
 ![](image-3.png)
 
-
-*ECG tracings courtesy of [ems12lead.blogpost.com](http://ems12lead.blogpost.com)*
+_ECG tracings courtesy of [ems12lead.blogpost.com](http://ems12lead.blogpost.com)_
 
 ## Modified Sgarbossa Rule (updated 01/01/2013)
 
 [Smith SW et al. Ann Emerg Med 2012](http://www.ncbi.nlm.nih.gov/pubmed?term=22939607) 
 
 **Rule:**
+
 -   **Ratio of ST-elevation / S-wave &lt; -0.25 is indicative of acute MI**
 -   The modified Sgarbossa Rule uses proportions to identify acute AMI in the setting of ST-elevations in LBBB (helpful in low-voltage EKG)
 
 |                         | **Sensitivity** | **Specificity** | **(+) LR** | **(-) LR** |
-|-------------------------|:----------:|:----------:|:----------:|:----------:|
-| Modified Sgarbossa rule | 91%      | 90%      | 9.0      | 0.1      |
+| ----------------------- | :-------------: | :-------------: | :--------: | :--------: |
+| Modified Sgarbossa rule |       91%       |       90%       |     9.0    |     0.1    |
 
 ![](image-4.png)
 

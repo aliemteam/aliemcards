@@ -8,7 +8,6 @@ updates:
     - 2017/02/24
 categories:
     - Neurology
-
 ---
 
 # Stroke Score, NIH Scale
@@ -182,9 +181,8 @@ categories:
   </tr>
 </table>
 
-
 **Total score = 0-42**
 
 ## References
 
-1. ["NINDS Know Stroke Campaign - NIH Stroke Scale". Stroke.nih.gov. N.p., 2017. Web. 24 Mar. 2017.](https://stroke.nih.gov/resources/scale.htm)
+1.  ["NINDS Know Stroke Campaign - NIH Stroke Scale". Stroke.nih.gov. N.p., 2017. Web. 24 Mar. 2017.](https://stroke.nih.gov/resources/scale.htm)

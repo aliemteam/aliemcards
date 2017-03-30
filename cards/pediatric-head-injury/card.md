@@ -8,7 +8,6 @@ updates: null
 categories:
     - Pediatrics
     - Trauma
-
 ---
 
 # Pediatric Blunt Head Trauma (PECARN Study)
@@ -16,14 +15,15 @@ categories:
 Risk of CT-documented TBI in children GCS &lt;14 = 20% 
 
 ## PECARN Study
-- Derivation (n = 33,785) and validation (n = 8,627) of clinical decision rule for deciding who NOT to get head CTs for blunt head trauma
-- Enrolled age &lt;18 yr within 24 hrs of head trauma and GCS 14-15
-- Patients from 25 enrolling Emergency Departments
+
+-   Derivation (n = 33,785) and validation (n = 8,627) of clinical decision rule for deciding who NOT to get head CTs for blunt head trauma
+-   Enrolled age &lt;18 yr within 24 hrs of head trauma and GCS 14-15
+-   Patients from 25 enrolling Emergency Departments
 
 **“Clinically important traumatic brain injury” (ciTBI)** predefined as:
 
 -   Death from TBI
--   Intubation &gt;24 hours duration
+-   Intubation >24 hours duration
 -   Neurosurgical intervention
 -   Hospital admission ≥2 nights
 
@@ -32,20 +32,22 @@ Risk of CT-documented TBI in children GCS &lt;14 = 20% 
 ![](image-1.png)
 
 **Severe Injury Mechanism**
-- MVC with patient ejection, death of another passenger, or rollover
-- Pedestrian or bicyclist without helmet struck by a motorized vehicle
-- **FALL &gt;3 ft**
-- Head struck by a high-impact object
+
+-   MVC with patient ejection, death of another passenger, or rollover
+-   Pedestrian or bicyclist without helmet struck by a motorized vehicle
+-   **FALL >3 ft**
+-   Head struck by a high-impact object
 
 ## PATIENT AGE ≥2 years
 
 ![](image-2.png)
 
 **Severe Injury Mechanism**
-- MVC with patient ejection, death of another passenger, or rollover
-- Pedestrian or bicyclist without helmet struck by a motorized vehicle
-- **FALL &gt;5 ft**
-- Head struck by a high-impact object
+
+-   MVC with patient ejection, death of another passenger, or rollover
+-   Pedestrian or bicyclist without helmet struck by a motorized vehicle
+-   **FALL >5 ft**
+-   Head struck by a high-impact object
 
 ## References
 

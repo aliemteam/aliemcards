@@ -7,7 +7,6 @@ created: 2012/06/15
 updates: null
 categories:
     - Toxicology
-
 ---
 
 # Toxic Alcohol Ingestion: Methanol
@@ -23,6 +22,7 @@ General concepts for all 3 toxic alcohols:
 Solvent found in cleaning and printing solutions, adhesives, stains, paint removers, antifreeze agent in windshield wiping fluid, camp stove fuel, gasoline additive
 
 **Pharmacology**:
+
 -   Peak serum concentration 30-60 minutes, elimination half-life 12-20 hours
 -   Permanent blindness reported at as little as 0.1 mL/kg (6-10 mL in adults)
 -   Lethal dose = 1-2 mL/kg
@@ -60,8 +60,8 @@ Solvent found in cleaning and printing solutions, adhesives, stains, paint remov
 
 ## Methanol: Stages of Presentation
 
-| **Stage**                   |   **Clinical findings**                        |
-|------------------------------|--------------------------------------------------|
+| **Stage**                    | **Clinical findings**                            |
+| ---------------------------- | ------------------------------------------------ |
 | Early                        | Mild euphoria, inebriation, drowsiness           |
 | Latent (lasting 6-30 hours)  | Normal sensorium but blurred vision              |
 | Late                         | Severe systemic toxicity with worsening acidosis |
@@ -70,11 +70,11 @@ Solvent found in cleaning and printing solutions, adhesives, stains, paint remov
 
 **Goal:** Prevent further formation of formic acid (using **<span class="drug">fomepizole</span>**) and eliminate toxic metabolites (through dialysis) 
 
--  **<span class="drug">Folic</span>** or folinic acid supplementation to enhance formate metabolism
--  **Antidote:** **<span class="drug">Fomipezole</span>** inhibits alcohol dehydrogenase (alternative = **<span class="drug">ethanol</span>**)
+-   **<span class="drug">Folic</span>** or folinic acid supplementation to enhance formate metabolism
+-   **Antidote:** **<span class="drug">Fomipezole</span>** inhibits alcohol dehydrogenase (alternative = **<span class="drug">ethanol</span>**)
 
-|  **Fomipezole**     |    **Dosing**              |
-|------------------|-------------------------------------|
+| **Fomipezole**   | **Dosing**                          |
+| ---------------- | ----------------------------------- |
 | Loading dose     | 15 mg/kg IV                         |
 | Maintenance dose | 10 mg/kg IV every 12 hours x 2 days |
 

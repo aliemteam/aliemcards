@@ -8,17 +8,16 @@ updates: null
 categories:
     - Trauma
     - Orthopedics
-
 ---
 
 # Cervical Spine Rules
 
 The National Emergency X-radiography Utilization Study (NEXUS) and Canadian C-spine Rules (CCR) are both validated studies which both quote a high sensitivity (over 99%) in detecting clinically significant cervical spine fractures. Both studies primarily used plain films in evaluating their patients.
 
-| Study          | Sensitivity     | Specificity       |            
-|-----------------|:-------------:|:-------------:|
-| **NEXUS** | 99.6%       | 12.6%       |
-| **Canadian C-spine Rules**   | 99.4%       | 45.1%       |
+| Study                      | Sensitivity | Specificity |
+| -------------------------- | :---------: | :---------: |
+| **NEXUS**                  |    99.6%    |    12.6%    |
+| **Canadian C-spine Rules** |    99.4%    |    45.1%    |
 
 ## NEXUS study 
 

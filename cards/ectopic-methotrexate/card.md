@@ -7,7 +7,6 @@ created: 2011/11/11
 updates: null
 categories:
     - OBGYN
-
 ---
 
 # Methotrexate for Ectopic Pregnancy
@@ -18,9 +17,10 @@ categories:
 
 -   Dihydrofolate reductase inhibitor
 -   Overall success rate for treating ectopic pregnancy = 71-94%
--   Success rate of single-dose MTX for beta-hCG &gt;5,000 mIU/mL = 85.7% 
+-   Success rate of single-dose MTX for beta-hCG >5,000 mIU/mL = 85.7% 
 
 **Side Effects**
+
 -   Abdominal pain
 -   Nausea/vomiting
 -   Stomatitis    
@@ -36,6 +36,7 @@ categories:
 -   Normal creatinine, liver transaminases, WBC, hematocrit, and platelet counts 
 
 **Contraindications:**
+
 -   Breastfeeding
 -   Overt or lab evidence of immunodeficiency
 -   Alcoholism, alcoholic or chronic liver disease
@@ -44,22 +45,23 @@ categories:
 -   Active pulmonary disease
 -   Peptic ulcer disease
 -   Hepatic, renal, or hematologic dysfunction
--   Gestational sac &gt;3.5 cm on U/S (relative contraindication) 
+-   Gestational sac >3.5 cm on U/S (relative contraindication) 
 -   Embryonic cardiac motion on U/S (relative contraindication) 
 
 ## Single-Dose Regimen
 
--  Day 1: **<span class="drug">Methotrexate</span>** 50 mg/m2 IM
+-   Day 1: **<span class="drug">Methotrexate</span>** 50 mg/m2 IM
 
 **Follow up with obstetrician:**
+
 -   Days 4 and 7: Measure beta-hCG
 -   Between Days 4 and 7: Check for 15% beta-hCG decrease
 -   Measure beta-hCG weekly until non-pregnant level
--   If beta-hCG dose not decrease by &gt;15% as expected, re-dose 50 mg/m2 IM and repeat B-hCG on days 4 and 7 after 2nd dose. 
+-   If beta-hCG dose not decrease by >15% as expected, re-dose 50 mg/m2 IM and repeat B-hCG on days 4 and 7 after 2nd dose. 
 
 ## Alternative Regimens
 
--   **Two-Dose** and **Fixed Multidose** regimens available as proposed by ACOG guidelines - Consider for beta-hCG level &gt;5,000 mIU/mL
+-   **Two-Dose** and **Fixed Multidose** regimens available as proposed by ACOG guidelines - Consider for beta-hCG level >5,000 mIU/mL
 
 ## References
 
