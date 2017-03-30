@@ -7,17 +7,16 @@ created: 2012/08/10
 updates: null
 categories:
     - Hematology and Oncology
-
 ---
 
 # Overanticoagulation and Supratherapeutic INR from Warfarin
 
 **ACCP treatment guidelines for managing supratherapeutic INR (2012, 9th ed)**
 
-| **INR**     | **Therapeutic Intervention**  |
-|:----------:|-------------------------------|
-| ≤10        | ***If no bleeding:*** Hold <span class="drug">coumadin</span>. Restart when INR is therapeutic  |
-| &gt;10     | ***If no bleeding:*** Hold <span class="drug">coumadin</span>. Give oral <span class="drug">vitamin K</span> (2.5 mg) |
+|   **INR**   | **Therapeutic Intervention**                                                                                                                                                                                                                  |
+| :---------: | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|     ≤10     | **_If no bleeding:_** Hold <span class="drug">coumadin</span>. Restart when INR is therapeutic                                                                                                                                                |
+|     >10     | **_If no bleeding:_** Hold <span class="drug">coumadin</span>. Give oral <span class="drug">vitamin K</span> (2.5 mg)                                                                                                                         |
 | Major bleed | Hold <span class="drug">coumadin</span>. Give <span class="drug">vitamin K</span> (5-10 mg slow IVP), 4-factor <span class="drug">PCC</span> (<span class="drug">FFP</span> not of added benefit with 4-factor <span class="drug">PCC</span>) |
 
 **Higher bleeding risk associated with coumadin**
@@ -31,11 +30,11 @@ categories:
 
 -   Risk of intracranial hemorrhage doubles for every 1-point increase in INR
 
-## Causes for supratherapeutic INR &gt;6
+## Causes for supratherapeutic INR >6
 
 [Hylek et al. JAMA 1998 study](https://www.ncbi.nlm.nih.gov/pubmed/9496982)
 
--   Retrospective case-control study of patients with INR &gt;6
+-   Retrospective case-control study of patients with INR >6
 -   Enrolled 93 cases, 196 controls
 
 <table>

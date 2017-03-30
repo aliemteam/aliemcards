@@ -8,7 +8,6 @@ updates: null
 categories:
     - Gastroenterology
     - EBM
-
 ---
 
 # Diverticulitis Outpatient Treatment
@@ -33,48 +32,51 @@ Early literature suggests that there is a small sub-population who fare well wit
 -   Access to followup and social support 
 
 [Mizuki study](https://www.ncbi.nlm.nih.gov/pubmed/?term=￼￼15801924):
+
 -   Prospective observational study of outpatient abx treatment for diverticulitis in Japan 
--   *Diverticulitis diagnosis*: Based on exam, blood tests, and ultrasound (no CT) 
--   *Inclusion criteria*: Age &lt; 80 years, diverticulitis
--   *Exclusion criteria*: “Severe” diverticulitis on ultrasound, uncontrolled DM, heart failure, renal dz, end-stage cancer, antibiotics within past 24 hrs. 
--   *Study group*: n=70 during 1997-2002 period
--   *Method*: Day 4 and Day 7 followup
--   *Result*: 68 of 70 (97%) were successfully treated as outpatient 
+-   _Diverticulitis diagnosis_: Based on exam, blood tests, and ultrasound (no CT) 
+-   _Inclusion criteria_: Age &lt; 80 years, diverticulitis
+-   _Exclusion criteria_: “Severe” diverticulitis on ultrasound, uncontrolled DM, heart failure, renal dz, end-stage cancer, antibiotics within past 24 hrs. 
+-   _Study group_: n=70 during 1997-2002 period
+-   _Method_: Day 4 and Day 7 followup
+-   _Result_: 68 of 70 (97%) were successfully treated as outpatient 
 
 [Ridgway study](https://www.ncbi.nlm.nih.gov/pubmed/?term=￼19016815):
 
 -   Randomized controlled trial of IV vs PO antibiotics (cipro/metronidazole combo) fordiverticulitis in Ireland. All patients admitted to hospital.
--   *Diverticulitis diagnosis*: Purely based on clinical exam (no imaging test).
--   *Inclusion criteria*: Left iliac fossa pain and LLQ abdominal tenderness
--   *Exclusion criteria:* Generalized abdominal tenderness or evidence of perforation 
--   *Study group*: n=79 (41 with PO abx, 38 with IV abx)
--   *Result*: No difference in tenderness and days-to-resolution between groups. 
+-   _Diverticulitis diagnosis_: Purely based on clinical exam (no imaging test).
+-   _Inclusion criteria_: Left iliac fossa pain and LLQ abdominal tenderness
+-   _Exclusion criteria:_ Generalized abdominal tenderness or evidence of perforation 
+-   _Study group_: n=79 (41 with PO abx, 38 with IV abx)
+-   _Result_: No difference in tenderness and days-to-resolution between groups. 
 
 [Alonso study](https://www.ncbi.nlm.nih.gov/pubmed/?term=￼￼19906059):
+
 -   Cohort study with outpatient treatment using PO antibiotics (amox/clavulanic +metronidazole combo). All patients admitted to hospital.
--   *Inclusion criteria*: Diverticulitis diagnosis by clinical exam, labs, and CT imaging 
--   *Exclusion criteria*: Unable to tolerate POs, comorbidities (DM, renal insufficiency,heart failure, COPD, no family support)
--   *Study group*: n=70
--   *Methods*: Follow-up 4-7 days after initial ED visit.
--   *Result*: 68 (97%) were successfully treated as outpatient. 2 (3%) failed outpatient tx because for increased abdominal pain (1) and vomiting (1). 
+-   _Inclusion criteria_: Diverticulitis diagnosis by clinical exam, labs, and CT imaging 
+-   _Exclusion criteria_: Unable to tolerate POs, comorbidities (DM, renal insufficiency,heart failure, COPD, no family support)
+-   _Study group_: n=70
+-   _Methods_: Follow-up 4-7 days after initial ED visit.
+-   _Result_: 68 (97%) were successfully treated as outpatient. 2 (3%) failed outpatient tx because for increased abdominal pain (1) and vomiting (1). 
 
 [Etzioni study](https://www.ncbi.nlm.nih.gov/pubmed/?term=￼￼19906059):
 
-- Retrospective study of outpatient diverticulitis patients
-- *Diverticulitis diagnosis:* By clinical exam, labs, and CT
-- *Inclusion criteria*: Outpatient diverticulitis patients
-- *Exclusion criteria*: Prior dx of diverticulitis, colorectal cancer, inflammatory bowel dzStudy group: n=693 outpatient diverticulitis patients
-- *Result*: 554 (94%) were successfully treated as outpatient.
-- *Predictors of treatment failure*:
-  -   Female: OR = 3.08 [1.31-7.28]
-  -   Free fluid on CT: OR = 3.19 [1.45-7.05]
-  -   WBC, perforation, abscess, phlegmon were not predictive (OR crossed 1.0)
+-   Retrospective study of outpatient diverticulitis patients
+-   _Diverticulitis diagnosis:_ By clinical exam, labs, and CT
+-   _Inclusion criteria_: Outpatient diverticulitis patients
+-   _Exclusion criteria_: Prior dx of diverticulitis, colorectal cancer, inflammatory bowel dzStudy group: n=693 outpatient diverticulitis patients
+-   _Result_: 554 (94%) were successfully treated as outpatient.
+-   _Predictors of treatment failure_:
+    -   Female: OR = 3.08 [1.31-7.28]
+    -   Free fluid on CT: OR = 3.19 [1.45-7.05]
+    -   WBC, perforation, abscess, phlegmon were not predictive (OR crossed 1.0)
 
 **Words of caution:** 
-- This only provides guidelines, based on the limited evidence out there. 
-- Still use your **common sense**. 
-- Still consider admitting patients who are elderly (&gt;80 years old) or have evidence of any perforation on CT. 
-- If on the fence,admit the patient.
+
+-   This only provides guidelines, based on the limited evidence out there. 
+-   Still use your **common sense**. 
+-   Still consider admitting patients who are elderly (>80 years old) or have evidence of any perforation on CT. 
+-   If on the fence,admit the patient.
 
 ## References
 

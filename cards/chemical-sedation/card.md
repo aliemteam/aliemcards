@@ -7,7 +7,6 @@ created: 2011/03/25
 updates: null
 categories:
     - Pharmacology
-
 ---
 
 # Chemical Sedation: Haldoperidol vs. Lorazepam vs. Midazolam
@@ -26,9 +25,9 @@ What single agent best manages violent, agitated patients in the ED, as measured
 **Results**
 
 |                        | Haloperidol (n=42) | Lorazepam (n=27) | Midazolam (n=42) |
-|------------------------|:---------------:|:---------------:|:---------------:|
-| Time to sedation (min) | 28.3 ± 25     | 32.3 ± 20     | 18.3 ± 14     |
-| Time to arousal (min)  | 126.5 ± 85    | 217.2 ± 107   | 81.9 ± 66     |
+| ---------------------- | :----------------: | :--------------: | :--------------: |
+| Time to sedation (min) |      28.3 ± 25     |     32.3 ± 20    |     18.3 ± 14    |
+| Time to arousal (min)  |     126.5 ± 85     |    217.2 ± 107   |     81.9 ± 66    |
 
 There were **no significant differences in vital signs** between groups.
 
@@ -51,8 +50,8 @@ Patients required “rescue drugs”, which were additional sedation medications
 
 **Other IM options: **
 
--   *HAC:* <span class="drug">Haloperidol</span> 5 mg, <span class="drug">Ativan (lorazepam)</span> 2 mg, <span class="drug">Cogentin</span> 1 mg IM all in 1 syringe
--   *B52:* <span class="drug">Haloperidol</span> 5 mg, <span class="drug">Lorazepam</span> 2 mg, <span class="drug">Benedryl (diphenhydramine)</span> 50 mg IM
+-   _HAC:_ <span class="drug">Haloperidol</span> 5 mg, <span class="drug">Ativan (lorazepam)</span> 2 mg, <span class="drug">Cogentin</span> 1 mg IM all in 1 syringe
+-   _B52:_ <span class="drug">Haloperidol</span> 5 mg, <span class="drug">Lorazepam</span> 2 mg, <span class="drug">Benedryl (diphenhydramine)</span> 50 mg IM
 
 ## References
 

@@ -7,7 +7,6 @@ created: 2010/09/17
 updates: null
 categories:
     - Cardiovascular
-
 ---
 
 # Murmurs Needing Echocardiography Evaluation
@@ -18,16 +17,16 @@ categories:
 
 ## Grading of a Murmur
 
-| **Grade**  |  **Quality and Volume of Murmur**     |
-|:-----:|--------------------------------------------------------------|
-| I   | Faintest murmur that can be heard (with difficulty)          |
-| II  | Murmur also a faint murmur but can be identified immediately |
-| III | Murmur moderately loud                                       |
-| IV  | Murmur loud and associated with a palpable thrill            |
-| V   | Murmur very loud but cannot be heard without the stethoscope |
-| VI  | Murmur loudest and can be heard without a stethoscope        |
+| **Grade** | **Quality and Volume of Murmur**                             |
+| :-------: | ------------------------------------------------------------ |
+|     I     | Faintest murmur that can be heard (with difficulty)          |
+|     II    | Murmur also a faint murmur but can be identified immediately |
+|    III    | Murmur moderately loud                                       |
+|     IV    | Murmur loud and associated with a palpable thrill            |
+|     V     | Murmur very loud but cannot be heard without the stethoscope |
+|     VI    | Murmur loudest and can be heard without a stethoscope        |
 
-## Class I (Benefit &gt;&gt;&gt; Risk)
+## Class I (Benefit >>> Risk)
 
 Echo is recommended for:
 
@@ -35,7 +34,7 @@ Echo is recommended for:
 2.  Patients with heart murmurs and symptoms or signs of heart failure, myocardial ischemia/infarction, syncope, thromboembolism, infective endocarditis, or other clinical evidence of structural heart disease
 3.  Asymptomatic patients with grade 3 or louder mid-peaking systolic murmurs
 
-## Class IIa (Benefit &gt;&gt; Risk)
+## Class IIa (Benefit >> Risk)
 
 Echo can be useful for:
 
@@ -46,7 +45,7 @@ Echo can be useful for:
 
 Echo is NOT recommended for:
 
-1. Patients who have a grade 2 or softer mid-systolic murmur identified as innocent or functional by an experienced observer
+1.  Patients who have a grade 2 or softer mid-systolic murmur identified as innocent or functional by an experienced observer
 
 ## References
 

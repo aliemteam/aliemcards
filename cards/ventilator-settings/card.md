@@ -8,7 +8,6 @@ updates: null
 categories:
     - Pulmonology
     - Critical Care
-
 ---
 
 # Ventilator Setting for Lung Protection
@@ -52,7 +51,7 @@ Initial ventilator setting for patient with predicted body wt = 70 kg (5'9" male
 
 -   Based on predicted body weight (kg)
 -   If acute lung injury (ALI) or ARDS present, goal is to bring down to 6 mL/kg
--   Do NOT alter to fix ventilation, but may need to alter if plateau pressure is &gt; 30 cmH2O, see below). Only protects lung by preventing barotrauma.
+-   Do NOT alter to fix ventilation, but may need to alter if plateau pressure is > 30 cmH2O, see below). Only protects lung by preventing barotrauma.
 
 **Inspiratory Flow Rate (IFR)** = 60-80 L/min (PATIENT COMFORT)
 
@@ -75,14 +74,13 @@ Initial ventilator setting for patient with predicted body wt = 70 kg (5'9" male
 
 **Plateau Pressure**
 
-- Goal P(plat) &lt;30 cmH2O
-- Check after initial settings, and at regular intervals thereafter
-- Technique: Press inspiratory hold button for 0.5 sec and look at pressure gauge
-- If P(plat) &gt;30 cmH2O, lower Vt until you acheive your goal
-- May need to go as low as 4 mL/kg of predicted body weight
+-   Goal P(plat) &lt;30 cmH2O
+-   Check after initial settings, and at regular intervals thereafter
+-   Technique: Press inspiratory hold button for 0.5 sec and look at pressure gauge
+-   If P(plat) >30 cmH2O, lower Vt until you acheive your goal
+-   May need to go as low as 4 mL/kg of predicted body weight
 
 ## References
 
-- [NHLBI ARDS Network, "Ventilator Protocol Card"](http://www.ardsnet.org/node/77791)
-- [Ventilation with lower tidal volumes as compared with traditional tidal volumes for acute lung injury and the acute respiratory distress syndrome. The Acute Respiratory Distress Syndrome Network. N Engl J Med. 2000 May 4;342(18):1301-8.](https://www.ncbi.nlm.nih.gov/pubmed/10793162)
-
+-   [NHLBI ARDS Network, "Ventilator Protocol Card"](http://www.ardsnet.org/node/77791)
+-   [Ventilation with lower tidal volumes as compared with traditional tidal volumes for acute lung injury and the acute respiratory distress syndrome. The Acute Respiratory Distress Syndrome Network. N Engl J Med. 2000 May 4;342(18):1301-8.](https://www.ncbi.nlm.nih.gov/pubmed/10793162)
