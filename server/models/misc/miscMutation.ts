@@ -7,7 +7,7 @@ interface ContactUsArgs {
   email: string;
   message: string;
   name: string;
-};
+}
 
 const contactUs: ArgumentField<ContactUsArgs> = {
   description: 'Send a message to the ALiEMCards slack channel.',

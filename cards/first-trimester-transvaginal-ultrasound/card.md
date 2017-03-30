@@ -11,7 +11,6 @@ categories:
     - Ultrasound
     - Radiology
     - OBGYN
-
 ---
 
 # Ultrasound: Focused 1st Trimester Pregnancy (Transvaginal Assesment)
@@ -63,29 +62,29 @@ An ectopic pregnancy will occasionally be seen as an extrauterine mass. However,
 
 **Inserting the transducer too deeply.** 
 
-- The transducer should be inserted to the cervix, using it as a window. If you continue to push once at the cervix, the transducer will frequently slide into the posterior fornix and only bowel/rectum will be seen.
+-   The transducer should be inserted to the cervix, using it as a window. If you continue to push once at the cervix, the transducer will frequently slide into the posterior fornix and only bowel/rectum will be seen.
 
 **Scanning with a full bladder.** 
 
-- While the transabdominal approach is enhanced by a full bladder, the patient should empty their bladder prior to transvaginal scanning to improve visualization.
+-   While the transabdominal approach is enhanced by a full bladder, the patient should empty their bladder prior to transvaginal scanning to improve visualization.
 
 **Calling a gestational sac an IUP.** 
 
-- At least a yolk sac is needed. A pseudogestational sac with an ectopic pregnancy is possible.
+-   At least a yolk sac is needed. A pseudogestational sac with an ectopic pregnancy is possible.
 
 **Relying on the quantitative beta-HCG and “discriminatory zone” for decision-making.** 
 
-- Over 40% of ectopic pregnancies will have beta-HCG levels below the discriminatory zone.
+-   Over 40% of ectopic pregnancies will have beta-HCG levels below the discriminatory zone.
 
 **Considering an “inconclusive scan” negative for ectopic**. 
 
-- Ectopic pregnancies are almost always ruled-out by finding an IUP. Absence of an extrauterine mass does not exclude ectopic pregnancy.
+-   Ectopic pregnancies are almost always ruled-out by finding an IUP. Absence of an extrauterine mass does not exclude ectopic pregnancy.
 
 **Failure to recognize specific high-risk populations.** 
 
-- Patients undergoing assisted reproductive therapy have a much higher (1-3%) incidence of heterotopic pregnancy. Identification of an IUP does not exclude a co-existing ectopic in this group.
+-   Patients undergoing assisted reproductive therapy have a much higher (1-3%) incidence of heterotopic pregnancy. Identification of an IUP does not exclude a co-existing ectopic in this group.
 
 ## References
 
-- Wang R, et al. *Annals of Emerg Med,* 2011. PMID: [21310509](http://www.ncbi.nlm.nih.gov/pubmed/?term=Use+of+a+%CE%B2-hCG+discriminatory+zone+with+bedside+pelvic+ultrasonography.)
-- Tayal, VS, et al. *Acad Emerg Med,* 2004. PMID: [15347539](http://www.ncbi.nlm.nih.gov/pubmed/15347539)
+-   Wang R, et al. _Annals of Emerg Med,_ 2011. PMID: [21310509](http://www.ncbi.nlm.nih.gov/pubmed/?term=Use+of+a+%CE%B2-hCG+discriminatory+zone+with+bedside+pelvic+ultrasonography.)
+-   Tayal, VS, et al. _Acad Emerg Med,_ 2004. PMID: [15347539](http://www.ncbi.nlm.nih.gov/pubmed/15347539)

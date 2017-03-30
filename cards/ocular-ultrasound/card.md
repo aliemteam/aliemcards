@@ -10,15 +10,13 @@ categories:
     - Ultrasound
     - Radiology
     - Ophthalmology
-
 ---
 
 # Ultrasound: Ocular Assessment
 
-
 **Goals:** Evaluate for retinal/vitreous detachment, retinal/vitreous hemorrhage, lens dislocation, ocular foreign body, and globe rupture.
 
-**Transducer:** High frequency linear transducer. If available, the *ophthalmologic, superficial*, or *small parts* preset should be selected on the machine.
+**Transducer:** High frequency linear transducer. If available, the _ophthalmologic, superficial_, or _small parts_ preset should be selected on the machine.
 
 **Patient Position:** With the patient’s eye closed, apply a bio-occlusive dressing (e.g. Tegaderm) over the closed eyelid to serve as a barrier. Apply a generous amount of gel over the dressing.
 
@@ -83,15 +81,15 @@ Figure 5: Globe rupture – irregular globe contour with collapsed anterior cham
 
 **Can’t visualize the eye adequately?**
 
-- Increase the amount of gel on the bioocclusive dressing, as this ‘evens out’ the surface of the eye for the transducer.
+-   Increase the amount of gel on the bioocclusive dressing, as this ‘evens out’ the surface of the eye for the transducer.
 
 **Unsure if there is pathology in the vitreous chamber?**
 
-- In order to adequately assess the vitreous chamber for detachment or hemorrhage, the eye should be examined with both moderate AND high gain settings. Evaluate in a fixed forward gaze AND while the patient performs extraocular movements (kinetic echography).
+-   In order to adequately assess the vitreous chamber for detachment or hemorrhage, the eye should be examined with both moderate AND high gain settings. Evaluate in a fixed forward gaze AND while the patient performs extraocular movements (kinetic echography).
 
 **Is it ever unsafe to perform the exam?**
 
-- Ocular ultrasound is contraindicated if there are obvious signs of open ocular trauma or globe rupture. Discontinue the examination if there are sonographic findings of globe rupture or retrobulbar hematoma.
+-   Ocular ultrasound is contraindicated if there are obvious signs of open ocular trauma or globe rupture. Discontinue the examination if there are sonographic findings of globe rupture or retrobulbar hematoma.
 
 ## Pearls
 
@@ -107,6 +105,6 @@ CT imaging is more sensitive in the detection of radio-opaque foreign bodies, pa
 
 ## References
 
-- Blaivas M, et al. *Acad Emerg Med*, 2002. PMID: [12153883](http://www.ncbi.nlm.nih.gov/pubmed/?term=12153883)
+-   Blaivas M, et al. _Acad Emerg Med_, 2002. PMID: [12153883](http://www.ncbi.nlm.nih.gov/pubmed/?term=12153883)
 
-- Kimberly HH, et al. *Acad Emerg Med*, 2008. PMID: [18275454](http://www.ncbi.nlm.nih.gov/pubmed/18275454)
+-   Kimberly HH, et al. _Acad Emerg Med_, 2008. PMID: [18275454](http://www.ncbi.nlm.nih.gov/pubmed/18275454)

@@ -21,7 +21,7 @@ export interface SingleCardJSON {
 
 interface CardJSON {
   [cardId: string]: SingleCardJSON;
-};
+}
 
 /**
  * The complete shape of `data.json`
@@ -33,7 +33,7 @@ export interface RootValue {
     cards: CardJSON;
   };
   result: Array<keyof CardJSON>;
-};
+}
 
 interface ArgumentConfig extends GraphQLArgumentConfig {
   description: string;

@@ -8,7 +8,6 @@ updates: null
 categories:
     - Critical Care
     - Cardiovascular
-
 ---
 
 # Choosing the Right Vasopressor Agent in Hypotension
@@ -17,15 +16,15 @@ categories:
 
 Side effects of vasoactive medications are related both to the direct mechanism of action of the agent, as well as the compensatory mechanisms precipitated by them. Concerning side effects of inotropes include dysrhythmias and increased myocardial oxygen demand, whereas vasopressors can cause undesired limitations in blood flow to the gut and kidneys.
 
-|  **Agent**               | **Primary Receptor**                 | **Primary Impact**                    | **Potential Side Effect**                                 | **Prototypical Clinical Scenario**                  |
-|----------------------|:--------------------------------------------------:|-----------------------------------|-------------------------------------------------------|-------------------------------------------------|
-| Phenylephrine        | α<sub>1</sub>                                                                                                       | Increased SVR                     | Reflexive decreased HR                                | Neurogenic shock                                |
-| Vasopressin          | V                                                                                                                   | Increased SVR                     | Decreased splanchnic flow                             | Adjunct for septic shock                        |
-| Dobutamine           | β<sub>1</sub>, β<sub>2 </sub>                                                                                       | Increased inotropy                | Transient decreases in SVR (β<sub>2 </sub>agonsim)    | Cardiogenic shock from late-stage heart failure |
-| Dopamine (low-dose)  | D, β<sub>1</sub>                                                                                                    | Increased inotropy and heart rate | Tachydysrhythmias                                     | Cardiogenic shock, particularly if bradycardic  |
-| Epinephrine          | α<sub>1</sub>, α<sub>2, </sub>β<sub>1</sub>, β<sub>2 </sub>                                                         | Increased SVR and inotropy        | Tachydysrhythmias and decreased splanchnic flow       | Anaphylaxis                                     |
-| Norepinephrine       | α1, α2, β1&gt;&gt; β2          | Increased SVR and inotropy        | Decreased splanchnic and renal flow                   | Septic shock                                    |
-| Dopamine (high-dose) | D, α1, β1&gt;&gt; β2 | Increased SVR and inotropy        | Tachydysrhythmias and decreased splanchnic/renal flow | Bradycardic cardiovascular collapse             |
+| **Agent**            |                     **Primary Receptor**                     | **Primary Impact**                | **Potential Side Effect**                             | **Prototypical Clinical Scenario**              |
+| -------------------- | :----------------------------------------------------------: | --------------------------------- | ----------------------------------------------------- | ----------------------------------------------- |
+| Phenylephrine        |                         α<sub>1</sub>                        | Increased SVR                     | Reflexive decreased HR                                | Neurogenic shock                                |
+| Vasopressin          |                               V                              | Increased SVR                     | Decreased splanchnic flow                             | Adjunct for septic shock                        |
+| Dobutamine           |                β<sub>1</sub>, β<sub>2 </sub>                 | Increased inotropy                | Transient decreases in SVR (β<sub>2 </sub>agonsim)    | Cardiogenic shock from late-stage heart failure |
+| Dopamine (low-dose)  |                       D, β<sub>1</sub>                       | Increased inotropy and heart rate | Tachydysrhythmias                                     | Cardiogenic shock, particularly if bradycardic  |
+| Epinephrine          | α<sub>1</sub>, α<sub>2, </sub>β<sub>1</sub>, β<sub>2 </sub>  | Increased SVR and inotropy        | Tachydysrhythmias and decreased splanchnic flow       | Anaphylaxis                                     |
+| Norepinephrine       |                       α1, α2, β1>> β2                        | Increased SVR and inotropy        | Decreased splanchnic and renal flow                   | Septic shock                                    |
+| Dopamine (high-dose) |                        D, α1, β1>> β2                        | Increased SVR and inotropy        | Tachydysrhythmias and decreased splanchnic/renal flow | Bradycardic cardiovascular collapse             |
 
 ## References
 
