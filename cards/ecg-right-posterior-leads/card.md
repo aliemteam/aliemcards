@@ -1,18 +1,14 @@
 ---
 
-title: 'ECG Right and Posterior Leads'
+title: ECG Right and Posterior Leads
 authors:
-    - 'Michelle Lin, MD'
+    - Michelle Lin, MD
 created: 2011/03/11
 updates: null
 categories:
     - Cardiovascular
     - ECG
-drugs: null
-
 ---
-
-
 
 # ECG: Right and Posterior Leads
 
@@ -44,8 +40,9 @@ Hints of an associated RV infarct:
 **Purpose:** To detect posterior infarcts, which are often associated with inferior or lateral wall AMI
 
 **Indications:** 
+
 -   STD in V1-V3, or 
--   R/S amplitude ratio in V1 or V2 is &gt;1 
+-   R/S amplitude ratio in V1 or V2 is >1 
 
 ![](image-4.png)
 
@@ -53,3 +50,5 @@ Hints of an associated posterior infarct:
 
 1.  Deep T wave inversion in V1 or V2 (in hyperacute stage) 
 2.  Upright T wave waves (in later stage)
+
+## References

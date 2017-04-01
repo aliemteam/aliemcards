@@ -2,17 +2,13 @@
 
 title: Croup
 authors:
-    - 'Michelle Lin, MD'
+    - Michelle Lin, MD
 created: 2010/08/20
 updates: null
 categories:
     - Pediatrics
     - ENT
-drugs: 'dexamethasone, racemic epinephrine'
-
 ---
-
-
 
 # Croup
 
@@ -21,108 +17,64 @@ drugs: 'dexamethasone, racemic epinephrine'
 -   **Typical age:** 6 months-5 years
 -   **Cause:** Parainfluenza in 80% cases
 -   **Presentation:** hoarse voice, “barky” cough, low-grade fever, stridor, resp distress 
--   **DDx:** epiglottitis (which does not usually have URI sx and usually more toxic)
--   [Video of child with croup](http://academiclifeinem.blogspot.com/2010/08/paucis-verbis-card-croup.html)
+-   **Differential diagnosis:** epiglottitis (which does not usually have URI sx and usually more toxic)
+-   [Video of child with croup](https://www.youtube.com/watch?v=0lepci-YheI)
 
 ## Westley croup scoring system
 
-Scoring systems not extensively evaluated
+(Scoring systems not extensively evaluated)
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Stridor</strong></th>
-<th>Score</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>None
-<p>Only with agitation/excitement</p>
-<p>At rest with stethoscope</p>
-At rest without stethoscope</td>
-<td>0
-<p>1</p>
-<p>2</p>
-3</td>
-</tr>
-<tr class="even">
-<td><strong>Retraction</strong></td>
-<td> </td>
-</tr>
-<tr class="odd">
-<td>None
-<p>Mild</p>
-<p>Moderate</p>
-Severe</td>
-<td>0
-<p>1</p>
-<p>2</p>
-3</td>
-</tr>
-<tr class="even">
-<td><strong>Air entry</strong></td>
-<td> </td>
-</tr>
-<tr class="odd">
-<td>Normal
-<p>Decreased</p>
-Severely decreased</td>
-<td>0
-<p>1</p>
-2</td>
-</tr>
-<tr class="even">
-<td><strong>Cyanosis</strong></td>
-<td> </td>
-</tr>
-<tr class="odd">
-<td>None
-<p>With agitation</p>
-At rest</td>
-<td>0
-<p>4</p>
-5</td>
-</tr>
-<tr class="even">
-<td><strong>Level of consciousness</strong></td>
-<td> </td>
-</tr>
-<tr class="odd">
-<td>Normal
-<p>Altered mental status</p></td>
-<td>0
-<p>5</p></td>
-</tr>
-</tbody>
-</table>
+| Finding                             | Points |
+| ----------------------------------- | -----: |
+| **STRIDOR**                         |        |
+| • None                              |      0 |
+| • Only with agitation or excitement |      1 |
+| • At rest with stethoscope          |      2 |
+| • At rest without stethoscope       |      3 |
+| **RETRACTION**                      |        |
+| • None                              |      0 |
+| • Mild                              |      1 |
+| • Moderate                          |      2 |
+| • Severe                            |      3 |
+| **AIR ENTRY**                       |        |
+| • Normal                            |      0 |
+| • Decreased                         |      1 |
+| • Severely decreased                |      2 |
+| **CYANOSIS**                        |        |
+| • None                              |      0 |
+| • With agitation                    |      4 |
+| • At rest                           |      5 |
+| **LEVEL OF CONSCIOUSNESS**          |        |
+| • Normal                            |      0 |
+| • Altered mental status             |      5 |
+
+**Severity:**
 
 -   Mild (0-2)
 -   Moderate (3-6)
--   Severe (&gt; 6)
+-   Severe (>6)
 
-**Pearl**: Check for cutaneous hemangiomas --&gt; may be subglottic hemangioma (esp in age &lt; 6 mo)
+**Pearl:**
+Check for cutaneous hemangiomas, because may be subglottic hemangioma (esp in age &lt;6 mo)
 
-**CXR (AP view)**: Not helpful to look for “steeple” sign. Poor specificity and sensitivity
+**CXR (AP view)**: 
+
+-   Not helpful to look for “steeple” sign. 
+-   Poor specificity and sensitivity
 
 ## Treatment 
 
 1.  Keep child calm.
-2.  Supplemental oxygen
-3.  <span class="drug">*Racemic epinephrine:*</span> Reduces airway edema. Use for moderate-severe respiratory distress. Observe 3-4 hours for rebound symptoms. Dose = 0.5 cc/kg (onset &lt; 30 minutes, duration 2 hours)
-4.  <span class="drug">*Dexamethasone:*</span> Reduces severity and duration of croup, even in mild cases ([Bjornson et al., NEJM, 2004](https://www.ncbi.nlm.nih.gov/pubmed/?term=15385657))
+2.  Give supplemental oxygen
+3.  <span class="drug">**Racemic epinephrine:**</span> Reduces airway edema. Use for moderate-severe respiratory distress. Observe 3-4 hours for rebound symptoms. Dose: 0.5 cc/kg (onset &lt;30 minutes, duration 2 hours)
+4.  <span class="drug">**Dexamethasone:**</span> Reduces severity and duration of croup, even in mild cases ([Bjornson et al., NEJM, 2004](https://www.ncbi.nlm.nih.gov/pubmed/?term=15385657))
 
--   -   Dose 0.6 mg/kg po
-    -   Early studies showing low-dose may be just as effective (0.15 mg/kg po)
+-   Dose 0.6 mg/kg po
 
-**NO longer part of treatment:**
+## NO longer part of treatment
 
-1.  *Cool mist:* NO added benefit in moderate-severe croup ([Scholnik, JAMA 2006](https://www.ncbi.nlm.nih.gov/pubmed/?term=16537737))
-2.  *Humidified air:* NO added benefit ([Moore et al., Cochrane, 2006](https://www.ncbi.nlm.nih.gov/pubmed/?term=16855994))
+1.  **Cool mist:** NO added benefit in moderate-severe croup ([Scholnik, JAMA 2006](https://www.ncbi.nlm.nih.gov/pubmed/?term=16537737))
+2.  **Humidified air:** NO added benefit ([Moore et al., Cochrane, 2006](https://www.ncbi.nlm.nih.gov/pubmed/?term=16855994))
 
 ## References
 

@@ -2,20 +2,17 @@
 
 title: Dysphagia
 authors:
-    - 'Michelle Lin, MD'
+    - Michelle Lin, MD
 created: 2010/02/03
 updates: null
 categories:
     - Gastroenterology
-drugs: null
 
 ---
 
-
-
 # Dysphagia
 
-**Oropharyngeal dysphagia**
+## Oropharyngeal Dysphagia
 
 **Symptoms:**
 
@@ -37,7 +34,7 @@ drugs: null
 -   CVA (common cause)
 -   Parkinson's disease
 -   Brain stem tumors 
--   Degenerative disease (ALS, MS, Hungtington's)
+-   Degenerative disease (ALS, multiple sclerosis, Hungtington's)
 -   Post-infectious (polio, syphilis) 
 -   Peripheral neuropathy
 -   Myasthenia gravis
@@ -52,11 +49,11 @@ drugs: null
 ## Approach to dysphagia
 
 1.  Determine first if patienthas oropharyngeal versus esophageal dysphagia. 
-2.  Determine ifmechanical (problem issolid foods only) versus neuromuscular(problem with liquidsand solids) is more likely.
+2.  Determine ifmechanical (problem issolid foods only) versus neuromuscular(problem with liquids and solids) is more likely.
 
 **Tip:**
 
--    Medications can causedysphagia fromesophageal mucosalinjury or reduced loweresophageal sphinctertone.
+-    Medications can causedysphagia fromesophageal mucosalinjury or reduced lower esophageal sphinctertone.
 -    CVA is most commoncause of oropharyngealdysphagia
 
 ## Workup for dysphagia

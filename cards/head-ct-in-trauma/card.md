@@ -1,25 +1,21 @@
 ---
 
-title: 'Head CT in Trauma'
+title: Head CT in Trauma
 authors:
-    - 'Michelle Lin, MD'
+    - Michelle Lin, MD
 created: 2011/05/13
 updates: null
 categories:
     - Radiology
     - EBM
     - Trauma
-drugs: null
-
 ---
-
-
 
 # Head CT in Trauma - Clinical Decision Rules
 
 ## Canadian CT Head Rules (CCHR)
 
-***Inclusion criteria:*** GCS 13-15, age ≥ 16 years, no coagulopathy, no obvious open skull fracture
+**_Inclusion criteria:_** GCS 13-15, age ≥ 16 years, no coagulopathy, no obvious open skull fracture
 
 **CT indicated if any of following:**
 
@@ -40,9 +36,10 @@ drugs: null
 **CT indicated if any of the following**:
 
 GCS 15 and loss of consciousness in the setting of trauma and:
+
 -   Headache
 -   Vomiting
--   Age &gt; 60 years
+-   Age > 60 years
 -   Drugs or alcohol
 -   Short term memory deficit
 -   Visible trauma above clavicles

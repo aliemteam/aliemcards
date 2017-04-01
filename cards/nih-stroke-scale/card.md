@@ -1,17 +1,14 @@
 ---
 
-title: 'NIH Stroke Scale'
+title: NIH Stroke Scale
 authors:
-    - 'Michelle Lin, MD'
+    - Michelle Lin, MD
 created: 2010/02/06
-updates: null
+updates: 
+    - 2017/02/24
 categories:
     - Neurology
-drugs: null
-
 ---
-
-
 
 # Stroke Score, NIH Scale
 
@@ -21,13 +18,16 @@ drugs: null
 -   Score = 15-20 (Moderate to severe stroke)
 -   Score = 21-42 (Severe stroke) 
 
+**TIP** Count out loud and use your fingers to show the patient your count when accessing motor strength in limbs
+
 <table>
   <tr>
     <th colspan="2">National Institute of Health Stroke Scale score </th>
   </tr>
   <tr>
-    <td>1a. Level of consciousness</td>
-    <td>
+    <td>1a. Level of consciousness<br>
+    assessed while taking history</td><br>
+    <td>   
       <ul>
         <li>0 = Alert; keenly responsive</li>
         <li>1 = Not alert, but arousable by minor stimulation</li>
@@ -85,7 +85,8 @@ drugs: null
     </td>
   </tr>
   <tr>
-    <td>4. Facial palsy</td>
+    <td>4. Facial palsy<br> 
+         Use grimmace if obtunded</td>
     <td>
       <ul>
         <li>0 = Normal symmetric movements</li>
@@ -99,7 +100,7 @@ drugs: null
     <td>
       5. Motor arm<br>
       5a. Left arm<br>
-      5b. Right arm
+      5b. Right arm<br>
     </td>
     <td>
       <ul>
@@ -180,5 +181,8 @@ drugs: null
   </tr>
 </table>
 
-
 **Total score = 0-42**
+
+## References
+
+1.  ["NINDS Know Stroke Campaign - NIH Stroke Scale". Stroke.nih.gov. N.p., 2017. Web. 24 Mar. 2017.](https://stroke.nih.gov/resources/scale.htm)

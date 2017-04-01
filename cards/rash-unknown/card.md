@@ -1,17 +1,13 @@
 ---
 
-title: 'An Approach to the Unknown Rash'
+title: An Approach to the Unknown Rash
 authors:
-    - 'Michelle Lin, MD'
+    - Michelle Lin, MD
 created: 2011/08/26
 updates: null
 categories:
     - Dermatology
-drugs: null
-
 ---
-
-
 
 # Rashes: An Approach to the Unknown Rash
 
@@ -23,15 +19,15 @@ drugs: null
 
 ## Rash Descriptors
 
-| Descriptor   | Definition                                           |
-|--------------|------------------------------------------------------|
-| **Lesion**   | Single small diseased area                           |
-| **Rash**     | Eruption of skin; more than single lesion            |
-| **Macule**   | Circumscribed area of change without elevation       |
+| Descriptor   | Definition                                          |
+| ------------ | --------------------------------------------------- |
+| **Lesion**   | Single small diseased area                          |
+| **Rash**     | Eruption of skin; more than single lesion           |
+| **Macule**   | Circumscribed area of change without elevation      |
 | **Papule**   | Solid raised lesion &lt;1 cm                        |
 | **Nodule**   | Solid raised ≥1 cm                                  |
 | **Plaque**   | Circumscribed elevated confluence of papules ≥1 cm  |
-| **Pustule**  | Circumscribed area containing pus                    |
+| **Pustule**  | Circumscribed area containing pus                   |
 | **Vesicle**  | Circumscribed fluid-filled area &lt;1 cm            |
 | **Bulla**    | Circumscribed fluid-filled area ≥1 cm               |
 | **Petechia** | Small red/brown macule ≤1 cm that does not blanch   |
@@ -41,45 +37,51 @@ drugs: null
 ### Patient Age
 
 **0-5 years:**
-  - Meningococcemia        
-  - Kawasaki disease        
-  - Viral exanthema  
 
-**&gt; 65 years:**
-  - Pemphigus vulgaris
-  - Sepsis
-  - Menigococcemia
-  - Toxic epidermal necrolysis
-  - Stevens Johnson syndrome
-  - Toxic shock syndrome  
+-   Meningococcemia        
+-   Kawasaki disease        
+-   Viral exanthema  
+
+**> 65 years:**
+
+-   Pemphigus vulgaris
+-   Sepsis
+-   Menigococcemia
+-   Toxic epidermal necrolysis
+-   Stevens Johnson syndrome
+-   Toxic shock syndrome  
 
 ### Rash
 
 Diffuse Erythema:
-  - Staph scalded skin syndrome
-  - Staph/strep toxic shock syndrome
-  - Necrotizing fasciitis
+
+-   Staph scalded skin syndrome
+-   Staph/strep toxic shock syndrome
+-   Necrotizing fasciitis
 
 Mucosal Lesions
-  - Erythema ultiforme major
-  - Toxic epidermal necrolysis/Stevens Johnson syndrome
-  - Pemphigus vulgaris
+
+-   Erythema ultiforme major
+-   Toxic epidermal necrolysis/Stevens Johnson syndrome
+-   Pemphigus vulgaris
 
 Petechiae/Purpura
-  - Menigococcemia
-  - Necrotizing fasciitis
-  - Vasculitis
-  - Disseminated intravascular coagulopathy 
-  - Rocky Mountain Spotted Fever
+
+-   Menigococcemia
+-   Necrotizing fasciitis
+-   Vasculitis
+-   Disseminated intravascular coagulopathy 
+-   Rocky Mountain Spotted Fever
 
 ### Symptoms
 
 Hypotension
-  - Meningococcemia
-  - Toxic shock syndrome
-  - Rocky Mountain Spotted Fever
-  - Toxic epidermal necrolysis
-  - Stevens Johnson syndrome
+
+-   Meningococcemia
+-   Toxic shock syndrome
+-   Rocky Mountain Spotted Fever
+-   Toxic epidermal necrolysis
+-   Stevens Johnson syndrome
 
 ## Erythematous Rash
 

@@ -1,17 +1,13 @@
 ---
 
-title: 'Red Eye'
+title: Red Eye
 authors:
-    - 'Michelle Lin, MD'
+    - Michelle Lin, MD
 created: 2010/01/22
 updates: null
 categories:
     - Ophthalmology
-drugs: 'trifluridine, vidarabine, acyclovir, erythromycin, azithromycin, timolol, prednisolone, apraclonidine, acetazolamide'
-
 ---
-
-
 
 # Red Eye
 
@@ -30,8 +26,7 @@ drugs: 'trifluridine, vidarabine, acyclovir, erythromycin, azithromycin, timolol
 -   Preauricular lymphadenopathy, global conjunctival injection
 -   Watery discharge
 -   Follicular reaction of inferior tarsal conjunctiva
-- **Treatment:** Cold compresses, artificial tears, topicaldecongestants, +/- topical antibiotics, if not able to discern from bacterial etiology
-
+-   **Treatment:** Cold compresses, artificial tears, topicaldecongestants, +/- topical antibiotics, if not able to discern from bacterial etiology
 
 ### Viral: Epidemic keratoconjunctivitis
 
@@ -46,29 +41,33 @@ drugs: 'trifluridine, vidarabine, acyclovir, erythromycin, azithromycin, timolol
 -   More prevalent in HIV pts. 
 -   Foreign body sensation in eye (unlike typical viral conjunctivitis)
 -   **Treatment**:
-  - If no skin or corneal involvement, topical antivirals (**<span class="drug">trifluridine</span>** or **<span class="drug">vidarabine</span>**) x 10-14 days
-  -   If corneal involvement (dendrites seen), topical **<span class="drug">trifluridine</span>** and oral **<span class="drug">acyclovir</span>** x 7-10 days. NO STEROIDS. 
+-   If no skin or corneal involvement, topical antivirals (**<span class="drug">trifluridine</span>** or **<span class="drug">vidarabine</span>**) x 10-14 days
+-   If corneal involvement (dendrites seen), topical **<span class="drug">trifluridine</span>** and oral **<span class="drug">acyclovir</span>** x 7-10 days. NO STEROIDS. 
 
 ### Viral: HZV ophthalmicus
 
 VZV virus: Reactivation through V1 nerve. 
 
 Findings:
+
 -   Hutchinson sign = Herpes pustules at nose tip and is predictive of ocular involvement 
 -   Dendrites on eye exam
-- **Treatment:** Systemic vs topical antiviral agents, +/- steroids only with ophtho consult
+-   **Treatment:** Systemic vs topical antiviral agents, +/- steroids only with ophtho consult
 
 ### Bacterial 
 
 Often association with morning crusting. Injection more pronounced at fornices. 
 
 **Contact lens wearer**: Pseudomonas risk
+
 -   **Treatment:** Topical fluoroquinolone, cycloplegic
 
 **Gonorrheal conjunctivitis:** Sexually active patients and neonates (from birthcanal), “hyperacute conjunctivitis”, abrupt onset, copious purulent discharge
+
 -   **Treatment:** Topical antibiotics, usually with systemic antibitics because associated with venereal disease
 
 **Inclusion conjunctivitis**
+
 -   Chlamydia: Sexually active patients and neonates,mucopurulent discharge, foreign body sensation
 -   Check for concurrent STI(symptomatic only 1⁄2 patients).
 -   **Treatment:** Topical **<span class="drug">erythromycin</span>** and po **<span class="drug">azithromycin</span>** x 1 
@@ -90,6 +89,7 @@ Often association with morning crusting. Injection more pronounced at fornices.�
 ## Scleritis
 
 ![](image-4.png)
+
 -   **Most common immune cause:** Rheumatoid arthritis
 -   **Most common vasculitis cause:** Wegener’s 
 -   **Symptoms:** Severe eye pain radiating to ear, scalp, face, and jaw. Dull pain. Photophobia. 
@@ -114,10 +114,10 @@ Often association with morning crusting. Injection more pronounced at fornices.�
 -   **Symptoms:** Blurred vision, halos around lights, nausea/vomiting, headache
 -   **Pearl:** Consider in all patients with “migraine HA’s” – check pupil reactivity
 -   **Exam:** Corneal edema, mid-dilated NON-reactive pupil
--   Intraocular pressure &gt;30 mmHg requires prompt treatment
+-   Intraocular pressure >30 mmHg requires prompt treatment
 -   **Treatment:** 
-  - Topicals: **<span class="drug">Timolol</span>**, **<span class="drug">prednisolone</span>**, **<span class="drug">apraclonidine</span>**
-  - Oral: **<span class="drug">Acetazolamide</span>** 
+-   Topicals: **<span class="drug">Timolol</span>**, **<span class="drug">prednisolone</span>**, **<span class="drug">apraclonidine</span>**
+-   Oral: **<span class="drug">Acetazolamide</span>** 
 
 ## References
 

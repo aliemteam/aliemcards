@@ -1,19 +1,16 @@
 ---
 
-title: 'Abdominal Pain - Diagnostic Studies'
+title: Abdominal Pain - Diagnostic Studies
 authors:
-    - 'Michelle Lin, MD'
+    - Michelle Lin, MD
 created: 2011/07/22
-updates: null
+updates:
+    - 2017/02/21
 categories:
     - Gastroenterology
     - Surgery
     - EBM
-drugs: null
-
 ---
-
-
 
 # Abdominal Pain - Diagnostic Studies
 
@@ -41,18 +38,17 @@ Obtain plain film if suspicious for:
 **Ultrasound**
 
 -   Increasing use of bedside U/S for point of care testing in EDs.
--   *Advantage*: can be used for unstable patients, no radiation exposure 
+-   _Advantage_: can be used for unstable patients, no radiation exposure 
 
 ## Lactate
 
 Lactate is useful adjunct to risk stratify for mortality ([Shapiro et al. (2005)](https://www.ncbi.nlm.nih.gov/pubmed/15855951))
 
-
-|                        | 28-day in-hospital mortality | Early death (≤ 3d)       |
-|------------------------|--------------------|-------------|
-| Lactate &lt; 2.5 (low) | 4.9%               | 1.5%        |
-| Lactate 2.5-3.99 (med) | 9.0%               | 4.5%        |
-| Lactate ≥ 4 (high)     | 28.4%              | 22.4%       |
+|                        | 28-day in-hospital mortality | Early death (≤ 3d) |
+| ---------------------- | ---------------------------- | ------------------ |
+| Lactate &lt; 2.5 (low) | 4.9%                         | 1.5%               |
+| Lactate 2.5-3.99 (med) | 9.0%                         | 4.5%               |
+| Lactate ≥ 4 (high)     | 28.4%                        | 22.4%              |
 
 ##  Diseases
 
@@ -65,17 +61,20 @@ Lactate is useful adjunct to risk stratify for mortality ([Shapiro et al. (2005)
 **Ectopic pregnancy**: Discriminatory zone for gestational sac is B-HCG ≥ 6,500 (transabdominal U/S) or B-HCG ≥ 1,500 (transvaginal U/S).
 
 **Mesenteric ischemia** of concern because of subtleties in presentation.
-  -   **Multidetector CT angiography with reformats**: sens 96%, spec 94%
-  -   **MR angiography**: Sensitivity 85-90% (SMA), 75-90% (celiac artery), 25% (IMA) 
+
+-   **Multidetector CT angiography with reformats**: sens 96%, spec 94%
+-   **MR angiography**: Sensitivity 85-90% (SMA), 75-90% (celiac artery), 25% (IMA) 
 
 **Nephrolithiasis**:
+
 -   **Microscopic hematuria:** sens 89%, spec 29%
 -   **First line imaging**: CT – sens and spec 98-100%
--   If hx of nephrolithiasis, use U/S (assuming low-risk for alternative dx)
+-   If hx of nephrolithiasis, consider renal ultrasound if at low-risk for alternative diagnosis
 
 **Pancreatitis**: Lipase (sens 90%, spec 93%) is better than Amylase (sens 79%, spec 93%). Unlike level of elevated enzymes, CT correlates with severity.
 
 **UTI**: Urine dipstick alone is adequately predictive, except for children, elderly, suspected urosepsis.
+
 -   **Nitrites:** Odds Ratio = 6.36
 -   **Leukocyte esterase:** OR = 4.52 
 -   **Blood:** OR = 2.23
@@ -86,3 +85,4 @@ Lactate is useful adjunct to risk stratify for mortality ([Shapiro et al. (2005)
 
 -   [Shapiro NI, Howell MD, Talmor D, Nathanson LA, Lisbon A, Wolfe RE, Weiss JW.Serum lactate as a predictor of mortality in emergency department patients with infection. Ann Emerg Med. 2005 May;45(5):524-8.](https://www.ncbi.nlm.nih.gov/pubmed/15855951)
 -   [Panebianco NL, Jahnes K, Mills AM. Imaging and Laboratory Testing in Acute Abdominal Pain. Emerg Med Clin N Am. 2011;29:175-93.](https://www.ncbi.nlm.nih.gov/pubmed/?term=21515175)
+-   [Ultrasonography vs. CT for suspected Nephrolithiasis. New England Journal of Medicine. 2014;371(26):2529–2531. doi:10.1056/nejmc1412853.](https://www.ncbi.nlm.nih.gov/pubmed/?term=25229916)

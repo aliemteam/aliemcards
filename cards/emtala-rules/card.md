@@ -1,17 +1,13 @@
 ---
 
-title: 'EMTALA Transfer Rules'
+title: EMTALA Transfer Rules
 authors:
-    - 'Michelle Lin, MD'
+    - Michelle Lin, MD
 created: 2012/09/14
 updates: null
 categories:
     - EMS
-drugs: null
-
 ---
-
-
 
 # EMTALA Transfer Rules
 

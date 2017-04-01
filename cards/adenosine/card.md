@@ -1,25 +1,21 @@
 ---
 
-title: 'Adenosine 6-12-12 Approach'
+title: Adenosine 6-12-12 Approach
 authors:
-    - 'Bryan Hayes, PharmD'
+    - Bryan Hayes, PharmD
 created: 2012/12/06
 updates: null
 categories:
     - Cardiovascular
     - Pharmacology
     - Critical Care
-drugs: adenosine, 
-
 ---
-
-
 
 # Adenosine: 6-12-12 adenosine approach
 
 The ACLS-recommended dosing strategy of 6 mg, 12 mg, and 12 mg for <span class="drug">adenosine</span> may not be appropriate in every situation. There are a few instances when lower or higher dosing should be considered.
 
-*Caveat:* All recommendations are data-based, but many factors affect successful conversion of paroxysmal supraventricular tachycardia (PSVT) including proper line placement and administration technique.
+_Caveat:_ All recommendations are data-based, but many factors affect successful conversion of paroxysmal supraventricular tachycardia (PSVT) including proper line placement and administration technique.
 
 ## Option 1: Starting at higher dose
 
@@ -27,7 +23,7 @@ The ACLS-recommended dosing strategy of 6 mg, 12 mg, and 12 mg for <span class="
 
 Remember that theophylline may require higher dosing as well, because it is similar to caffeine (another methylxanthine), but is not prescribed much in the U.S. anymore.
 
-***Recommended dosing strategy*** \[[Cabalag, 2009](http://www.ncbi.nlm.nih.gov/pubmed/20003123)\]:
+**_Recommended dosing strategy_** \[[Cabalag, 2009](http://www.ncbi.nlm.nih.gov/pubmed/20003123)]:
 
 -   1st dose: 12 mg (instead of 6)
 -   2nd/3rd doses: 18 mg (instead of 12)
@@ -40,12 +36,12 @@ Remember that theophylline may require higher dosing as well, because it is simi
 
 **Transplanted heart:** Lowr dose for patients with heart transplants
 
-***Recommended dosing strategy* **\[[Chang, 2002](http://www.ncbi.nlm.nih.gov/pubmed/11858927); [Neumar, 2010](http://www.ncbi.nlm.nih.gov/pubmed/20956256); [Mc-Intosh-Yellin, 1993](http://www.ncbi.nlm.nih.gov/pubmed/8354807)\]:
+**_Recommended dosing strategy_**\[[Chang, 2002](http://www.ncbi.nlm.nih.gov/pubmed/11858927); [Neumar, 2010](http://www.ncbi.nlm.nih.gov/pubmed/20956256); [Mc-Intosh-Yellin, 1993](http://www.ncbi.nlm.nih.gov/pubmed/8354807)]:
 
 -   1st dose: 3 mg (instead of 6)
 -   2nd/3rd doses: 6 mg (instead of 12)
 
-** [ALiEM Blog Post](https://www.aliem.com/2012/is-6-12-12-adenosine-approach-always/) **
+**[ALiEM Blog Post](https://www.aliem.com/2012/is-6-12-12-adenosine-approach-always/)**
 
 ## References
 

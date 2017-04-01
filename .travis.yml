@@ -1,12 +1,12 @@
 language: node_js
 node_js:
-    - "node"
+    - node
 branches:
     only:
         - master
         - /^greenkeeper-.*$/
-        - /^greenkeeper/.*$/
 cache: yarn
+script: yarn test && yarn build
 after_success:
     - bash <(curl -s https://codecov.io/bash)
 deploy:

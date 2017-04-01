@@ -2,23 +2,19 @@
 
 title: Pertussis
 authors:
-    - 'Michelle Lin, MD'
+    - Michelle Lin, MD
 created: 2010/09/03
 updates: null
 categories:
-    - 'Infectious Disease'
+    - Infectious Disease
     - EBM
-drugs: 'azithromycin, trimethoprim-sulfamethoxazole'
-
 ---
-
-
 
 # Pertussis
 
 **Background**
 
--   *Bordetella pertussis* – Gram negative coccobacillus
+-   _Bordetella pertussis_ – Gram negative coccobacillus
 -   Childhood vaccination confers immunity for 5-10 years
 -   Incubation period: 7-10 days 
 
@@ -62,12 +58,11 @@ Cough illness lasting ≥ 2 weeks without other apparent cause with 1 or more of
 -   Antibiotics decrease duration of pertussis course if given in catarrhal stage (but difficult to differentiate from viral URI)
 -   Antibiotics in any stage decreases transmission to others. 
 
-
-| **Finding**     | **Positive LR**   | **Negative LR** |
-|--------------------|---------------|------------------|
-| Paroxysmal cough   | 1.1 (1.1-1.4) | 0.52 (0.14-0.58) |
-| Posttussive emesis | 1.8 (1.7-1.9) | 0.58 (0.49-0.80) |
-| Inspiratory whoop  | 1.9 (1.8-2.4) | 0.78 (0.46-0.87) |
+| **Finding**        | **Positive LR** | **Negative LR**  |
+| ------------------ | --------------- | ---------------- |
+| Paroxysmal cough   | 1.1 (1.1-1.4)   | 0.52 (0.14-0.58) |
+| Posttussive emesis | 1.8 (1.7-1.9)   | 0.58 (0.49-0.80) |
+| Inspiratory whoop  | 1.9 (1.8-2.4)   | 0.78 (0.46-0.87) |
 
 **American Academy of Pediatrics (AAP) recommendation for patients &lt;3 months old:**
 
@@ -82,7 +77,6 @@ Cough illness lasting ≥ 2 weeks without other apparent cause with 1 or more of
 ## Fagan Nomogram
 
 ![](image-1.png)
- 
 
 ## References
 

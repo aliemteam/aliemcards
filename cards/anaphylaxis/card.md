@@ -8,11 +8,7 @@ updates:
     - 2017/02/13
 categories:
     - Allergy-Immunology
-drugs: 'epinepherine, diphenhydramine, ranitidine, glucagon, methylprednisolone'
-
 ---
-
-
 
 # Anaphylaxis
 
@@ -43,26 +39,28 @@ drugs: 'epinepherine, diphenhydramine, ranitidine, glucagon, methylprednisolone'
 
 ## Diagnostic criteria
 
-
 > Highly likely if **1 or 3 criteria** fulfilled per 2nd National Institute of Allergy and ID/Food Allergy and Anaphylaxis Network
 
 1.  Acute onset (min-several hrs), involving skin, mucosa, or both (hives, flushing, pruritis, angioedema) AND at least 1 of the following:
+
     -   Respiratory compromise: shortness of breath, wheezing, stridor, hypoxemia, reduced PEF
     -   Reduced BP or associated sx of end-organ dysfunction: hypotonia, syncope, incontinence
 
 2.  Two or more of the following that occur rapidly after exposure to likely allergen:
+
     1.  Involvement of skin-mucosal tissue: hives, itching, flushing
     2.  Respiratory compromise: shortness of breath, wheezing, stridor, hypoxema, reduced PEF
     3.  Reduced BP or associated dx: hypotonia, syncope, incontinence
     4.  Persistent GI sx: cramping, abdominal pain, vomiting
 
 3.  Reduced BP after exposure to known allergen
-    -   Infants/children: Low SBP (age specific) or &gt; 30% decrease in SBP
 
-      - Age 1 mo - 1 yr: SBP &lt; 70 mmHg
-      - Age 1 yr - 10 yr: SBP &lt; 70 mmHg + [2 x age]
+    -   Infants/children: Low SBP (age specific) or > 30% decrease in SBP
 
-    -   Adults: SBP &lt;90 mmHg or &gt;30% decrease in person's baseline
+    -   Age 1 mo - 1 yr: SBP &lt; 70 mmHg
+    -   Age 1 yr - 10 yr: SBP &lt; 70 mmHg + [2 x age]
+
+    -   Adults: SBP &lt;90 mmHg or >30% decrease in person's baseline
 
 ## ED management
 

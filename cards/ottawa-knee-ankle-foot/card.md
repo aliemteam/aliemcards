@@ -1,18 +1,14 @@
 ---
 
-title: 'Ottawa Knee, Ankle, and Foot Rules'
+title: Ottawa Knee, Ankle, and Foot Rules
 authors:
-    - 'Michelle Lin, MD'
+    - Michelle Lin, MD
 created: 2010/05/07
 updates: null
 categories:
     - Orthopedics
     - EBM
-drugs: null
-
 ---
-
-
 
 # Ottawa Knee, Ankle, and Foot Rules
 
@@ -53,15 +49,14 @@ Exclusion criteria: Patients &lt;18 years old)
 -   Specificity = 31.5%
 -   Negative LR = 0.07  
 
-
 ## Pearls
 
 **Pediatric patients:** Variable validation data for Ottawa ankle and foot rules.
 
-- General rule: Ligaments are stronger than growth plates in children. 
-- OK to use knee rules in pediatrics based on ([Bulloch et al. Ann Emerg Med, 2003](http://www.ncbi.nlm.nih.gov/pubmed/?term=12827123)) 
-  -   Mean age in study = 11.8 years +/- 3.1 years
-  -   Inclusion age range = 2-16 years old
+-   General rule: Ligaments are stronger than growth plates in children. 
+-   OK to use knee rules in pediatrics based on ([Bulloch et al. Ann Emerg Med, 2003](http://www.ncbi.nlm.nih.gov/pubmed/?term=12827123)) 
+    -   Mean age in study = 11.8 years +/- 3.1 years
+    -   Inclusion age range = 2-16 years old
 
 ## References
 

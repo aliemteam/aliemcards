@@ -1,18 +1,14 @@
 ---
 
-title: 'Rapid Sequence Intubation'
+title: Rapid Sequence Intubation
 authors:
-    - 'Demian Szyld, MD'
+    - Demian Szyld, MD
 created: 2010/07/16
 updates: null
 categories:
-    - 'Critical Care'
+    - Critical Care
     - Procedures
-drugs: 'lidocaine, fentanyl, etomidate, propofol, thiopental, ketamine, midazolam, succinylcholine, rocuronium, vecuronium'
-
 ---
-
-
 
 # Rapid Sequence Intubation (RSI)
 
@@ -42,31 +38,29 @@ Avoid paralysis when difficulty laryngoscopy is anticipated. Consider awake int
 
 **Pre-treatment**
 
-| Medication    | Weight-based dose | 80 kg / 180 lbs dose  | Indications             |
-|---------------|:-------------------:|:-----------------------:|-------------------------|
-| <span class="drug">Lidocaine</span>     | 1.5 mg/kg         | 120 mg                | Head, lung              |
-| <span class="drug">Fentanyl</span>      | 3 mcg/kg          | 250 mcg               | Head, heart             |
+| Medication                          | Weight-based dose | 80 kg / 180 lbs dose | Indications |
+| ----------------------------------- | :---------------: | :------------------: | ----------- |
+| <span class="drug">Lidocaine</span> |     1.5 mg/kg     |        120 mg        | Head, lung  |
+| <span class="drug">Fentanyl</span>  |      3 mcg/kg     |        250 mcg       | Head, heart |
 
 **Sedation**
 
-| Medication    | Weight-based dose | 80 kg / 180 lbs dose  | Indications             |
-|---------------|:-------------------:|:-----------------------:|-------------------------|
-| <span class="drug">Etomidate</span>   | 0.3 mg/kg | 24 mg   |  |
-| <span class="drug">Propofol</span>    | 1.5 mg/kg | 120 mg  |  |
-| <span class="drug">Thiopental</span>  | 3 mg/kg   | 250 mg  |  |
-| <span class="drug">Ketamine IV</span>    | 1.5 mg/kg | 120 mg  | Asthma |
-| <span class="drug">Ketamine IM</span>    | 3.0 mg/kg | 249 mg  | No IV access |
-| <span class="drug">Midazolam</span>   | 0.3 mg/kg | 24 mg   |  |
+| Medication                            | Weight-based dose | 80 kg / 180 lbs dose | Indications  |
+| ------------------------------------- | :---------------: | :------------------: | ------------ |
+| <span class="drug">Etomidate</span>   |     0.3 mg/kg     |         24 mg        |              |
+| <span class="drug">Propofol</span>    |     1.5 mg/kg     |        120 mg        |              |
+| <span class="drug">Thiopental</span>  |      3 mg/kg      |        250 mg        |              |
+| <span class="drug">Ketamine IV</span> |     1.5 mg/kg     |        120 mg        | Asthma       |
+| <span class="drug">Ketamine IM</span> |     3.0 mg/kg     |        249 mg        | No IV access |
+| <span class="drug">Midazolam</span>   |     0.3 mg/kg     |         24 mg        |              |
 
 **Paralytics**
 
-| Medication    | Weight-based dose | 80 kg / 180 lbs dose  | Indications             |
-|---------------|:-------------------:|:-----------------------:|-------------------------|
-| <span class="drug">Succinylcholine</span>   | 1.5 mg/kg   | 120 mg | |
-| <span class="drug">Rocuronium</span>        | 1.0 mg/kg   | 80 mg | |
-| <span class="drug">Vecuronium</span>        | 0.2mg/kg    | 16 mg | |
-
- 
+| Medication                                | Weight-based dose | 80 kg / 180 lbs dose | Indications |
+| ----------------------------------------- | :---------------: | :------------------: | ----------- |
+| <span class="drug">Succinylcholine</span> |     1.5 mg/kg     |        120 mg        |             |
+| <span class="drug">Rocuronium</span>      |     1.0 mg/kg     |         80 mg        |             |
+| <span class="drug">Vecuronium</span>      |      0.2mg/kg     |         16 mg        |             |
 
 ## References
 

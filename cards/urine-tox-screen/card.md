@@ -1,118 +1,27 @@
 ---
 
-title: 'Urine Toxicology Screen'
+title: Urine Toxicology Screen
 authors:
-    - 'Michelle Lin, MD'
+    - Michelle Lin, MD
 created: 2010/07/22
-updates: null
+updates: 
+    - 2017/02/14
 categories:
     - Toxicology
-drugs: 'amantadine, buproprion, chlorpromazine, desipramine, fluoxetine, labetalol, Methylphenidate, Phentermine, Phenylephrine, Phenylpropanolamine, Promethazine, Pseudoephedrine, Ranitidine, Thioridazine, trazodone, oxaprozin, sertraline, Dextromethorphan, Diphenhydramine, Quinine, Rifampin, Verapamil, Ibuprofen, Imipramine, Ketamine, Meperidine, Venlafaxine, Dronabinol, Pantoprazole, oxazepam, diazepam, chlordiazepoxide, alprazolam, clonazepam, lorazepam, morphine, codeine, hydrocodone, hydromorphone, oxycodone, oxymorphone, buprenorphine, fentanyl, methadone, tramadol,'
-
 ---
-
-
 
 # Urine Toxicology Screen
 
-<table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Drug</strong></th>
-<th><strong>Causes false (+) test</strong></th>
-<th><strong>Duration of detectability</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Amphetamines</td>
-<td>Amantadine<br />
+| **Drug**                         | **Causes False (+) Test**                                                                                                                                                                                                                                           | **Duration of detectability**                                                                                                   |
+| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| Amphetamines                     | Amantadine, Buproprion, Chlorpromazine, Desipramine, Fluoxetine, L-methamphetamine in nasal decongestant, Labetalol, Methylphenidate (Ritalin), Phentermine, Phenylephrine, Phenylpropanolamine, Promethazine, Pseudoephedrine, Ranitidine, Thioridazine, Trazodone | **2-3 days**                                                                                                                    |
+| Benzodiazepines                  | Oxaprozin, Sertraline                                                                                                                                                                                                                                               | **3 days** for short acting (e.g. lorazepam) and up to **30 days** for long acting (e.g. diazepam)                              |
+| Cocaine                          | Topical anesthetics which have cocaine                                                                                                                                                                                                                              | **2-3 days** (occasional user), up to **8 days** (heavy user)                                                                   |
+| Opiates                          | Dextromethorphan, Diphenhydramine, Fluoroquinolones, Poppy seed, Quinine, Rifampin, Verapamil                                                                                                                                                                       | **1-3 days**                                                                                                                    |
+| Phenycyclidine                   | Dextromethorphan, Diphenhydramine, Ibuprofen, Imipramine, Ketamine, Lamotrigine, Meperidine, Thioridazine, Tramadol, Venlafaxine                                                                                                                                    | **7-14 days**                                                                                                                   |
+| Marijuana (tetrahydrocannabinol) | Dronabinol, NSAID, Pantoprazole and other proton pump inhibitors                                                                                                                                                                                                    | **3-5 days** with 1x use, **5-7 days** with 4x/wk use, **10-15 days** with daily use, **>30 days** with long term and heavy use |
 
-<p>Buproprion</p>
-<p>Chlorpromazine</p>
-<p>Desipramine</p>
-<p>Fluoxetine</p>
-<span class="aglmd-moreinfo ui-moreinfo" data-iid="53aa247bd35d3ae92e001a24">L-methamphetamine</span><br />
-
-<p>Labetalol</p>
-<span class="aglmd-moreinfo ui-moreinfo" data-iid="53aa247bd35d3ae92e001a25">Methylphenidate</span><br />
-
-<p>Phentermine</p>
-<p>Phenylephrine</p>
-<p>Phenylpropanolamine</p>
-<p>Promethazine</p>
-<p>Pseudoephedrine</p>
-<p>Ranitidine</p>
-<p>Thioridazine</p>
-<p>Trazadone</p></td>
-<td>2-3 days</td>
-</tr>
-<tr class="even">
-<td>Benzodiazepines</td>
-<td><p>Oxaprozin</p>
-<span class="aglmd-moreinfo ui-moreinfo" data-iid="53aa247bd35d3ae92e001a26">Sertraline</span></td>
-<td><span class="aglmd-moreinfo ui-moreinfo" data-iid="53aa247bd35d3ae92e001a27">3 days for short-acting</span><br />
-<span class="aglmd-moreinfo ui-moreinfo" data-iid="53aa247bd35d3ae92e001a28">Up to 30 days for long acting</span><br />
-</td>
-</tr>
-<tr class="odd">
-<td>Cocaine</td>
-<td>Topic anesthetics which have cocaine</td>
-<td><p>2-3 days (occasional use)<br />
-Up to 8 days (heavy use)</p></td>
-</tr>
-<tr class="even">
-<td>Opiates</td>
-<td>Dextromethorphan<br />
-
-<p>Diphenhydramine</p>
-<p>Fluoroquinolones</p>
-<p>Poppy seed</p>
-<p>Quinine</p>
-<p>Rifampin</p>
-<p>Verapamil</p></td>
-<td>1-3 days</td>
-</tr>
-<tr class="odd">
-<td>Phencyclidine</td>
-<td>Dextromethorphan<br />
-
-<p>Diphenhydramine</p>
-<p>Ibuprofen</p>
-<p>Imipramine</p>
-<p>Ketamine</p>
-<p>Meperidine</p>
-<p>Thioridazine</p>
-<p>Tramadol</p>
-<p>Venlafaxine</p></td>
-<td>7-14 days</td>
-</tr>
-<tr class="even">
-<td><span class="aglmd-moreinfo ui-moreinfo" data-iid="53aa247bd35d3ae92e001a29">Marijuana</span></td>
-<td>Dronabinol<br />
-
-<p>NSAID</p>
-Pantoprazole and PPIs</td>
-<td><ul>
-<li>3-5 days with 1x use<br />
-</li>
-<li>5-7 days with 4x/wk use<br />
-</li>
-<li>10-15 days with daily use<br />
-</li>
-<li>&gt;30 days with long term/heavy use<br />
-</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
-
-**Pearl*:*** MDMA (Ecstacy) may not be positive on amphetamine drug screen, unlessspecifically screen for MDMA. 
+**Pearl**:  MDMA (Ecstacy) may not be positive on amphetamine drug screen, unless specifically screen for MDMA. 
 
 ## Benzodiazepines
 
@@ -124,7 +33,7 @@ Important points on benzodiazepine urine toxicology test:
 2.  The test does not specifically look for **alprazolam**, **clonazepam**, **lorazepam** (or many others). Therefore, a negative result does not necessarily rule out use of these agents.
 3.  Benzodiazepines vary in reactivity and potency and can trigger a positive result due to cross-reactivity.
 
-**BOTTOM LINE**
+### BOTTOM LINE
 
 A negative result doesn't rule out benzodiazepine ingestion, and a positive result only guarantees that **oxazepam**, **diazepam**, or **chlordiazepoxide** is present.
 
@@ -136,19 +45,22 @@ These two terms are often used interchangeably and really shouldn't be.
 -   **Opiate:** Refers to only naturally occurring opioids
 
 ![](image-1.png)
+
 -   **Oxycodone**, a semi-synthetic, is similar to **morphine**.
 -   **Methadone**, a synthetic, has a completely unrelated structure.
 
 **LEARNING POINTS**
+
 1.  Notice the name of the urine drug screen next time you order one. It is opiates (not opioids).
 2.  The test was designed to look for heroin (technically a semi-synthetic) via its metabolite, **6-monacetyl morphine**. It also picks up **morphine** and **codeine**.
 3.  The test does not specifically look for **oxycodone**, **hydromorphone**, **hydrocodone**, etc. They can trigger a positive result due to their structural similarities, but not in every case. Therefore, a negative result doesn't rule out use of these common drugs of abuse.
 4.  Synthetics will never cross-react with the opiate urine drug screen. They are too structurally dissimilar. That's why there is a separate test for methadone.
 
-**BOTTOM LINE**
+### BOTTOM LINE
 
 A negative result doesn't rule out opioid ingestion, and a positive result only guarantees that **heroin, morphine, or codeine** is present.
 
 ## References
 
 -   [Standridge JB, Adams SM, Zotos AP. Urine drug screening: a valuable office procedure. Am Fam Physician. 2010 Mar 1;81(5):635-40.](http://www.ncbi.nlm.nih.gov/pubmed/20187600)
+-   \[Geraci, M.J., Peele, J., McCoy, S.L. et al. Int J Emerg Med. 2010 Nov 3: 327. doi:10.1007/s12245-010-0235-3

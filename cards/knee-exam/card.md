@@ -1,18 +1,14 @@
 ---
 
-title: 'Knee Examination'
+title: Knee Examination
 authors:
-    - 'Michelle Lin, MD'
+    - Michelle Lin, MD
 created: 2010/03/19
 updates: null
 categories:
     - Orthopedics
     - EBM
-drugs: null
-
 ---
-
-
 
 # Knee Examination
 
@@ -34,11 +30,13 @@ Following facts from [Solomon et al, JAMA 2001](http://www.ncbi.nlm.nih.gov/pub
 **Mechanism**: Knee twist with tibia pushed anteriorlyusually with concurrent valgus stress
 
 **Symptoms: **
+
 -   May recall “pop” sound at injury
 -   May c/o knee buckling or “giving out”
 -   May notice more pronounced pain when pivoting
 
 **Exam: **
+
 -   Lachman test 
 -   Anterior drawer sign
 -   Lateral pivot shift test: Valgus stress on knee plus internal/external rotation of knee during knee flexion
@@ -51,31 +49,32 @@ Check out a Pivot Shift [YouTube video](http://www.youtube.com/watch?v=ZWEGB0To
 
 -   Knee twist with tibia pushed posteriorly
 -   Composite stats for posterior drawer sign: 
-  - Positive LR 21, Negative LR 0.05 
+-   Positive LR 21, Negative LR 0.05 
 
 ## Meniscus Tear
 
 -   Menisci have no pain fibers and pain comesfrom traction on peripheral structures
--   16% asymptomatic patients have meniscustear on MRI (36% if age&gt;45)
+-   16% asymptomatic patients have meniscustear on MRI (36% if age>45)
 -   Medial meniscus tear can result in kneelocked in flexion (unlikely lateral meniscus because more mobile)
 -   Association with “clicking” noise when walking 
 -   **Exam:** McMurray test - Brit J of Sports Med [YouTube video](http://www.youtube.com/watch?v=fkt1TOn1UfI)
-  - **Lateral meniscus test**: Valgus stress on knee and internal/external rotation while flex/extending knee
-  - **Medial meniscus test**: Varus stress on knee and internal/external rotation while flex/extending knee
+-   **Lateral meniscus test**: Valgus stress on knee and internal/external rotation while flex/extending knee
+-   **Medial meniscus test**: Varus stress on knee and internal/external rotation while flex/extending knee
 
 ![](image-3.png)
 
-- **Exam:** Apley compression test - Br J of Sports Med [YouTube video](http://www.youtube.com/watch?v=w57I1cYXlCA)
-  - In a patient prone position, flex knee to 90 degrees and external/internal rotate knee while axially loading
-- **Exam:** Medial-lateral grind test: Valgus and varus stress on knee while flex/extending knee – other hand is placed at joint line to detect grinding
-- Composite stats on exam maneuvers: 
-  - Positive LR 2.7, Negative LR 0.4 (Overall - not that great) 
+-   **Exam:** Apley compression test - Br J of Sports Med [YouTube video](http://www.youtube.com/watch?v=w57I1cYXlCA)
+    -   In a patient prone position, flex knee to 90 degrees and external/internal rotate knee while axially loading
+-   **Exam:** Medial-lateral grind test: Valgus and varus stress on knee while flex/extending knee – other hand is placed at joint line to detect grinding
+-   Composite stats on exam maneuvers: 
+    -   Positive LR 2.7, Negative LR 0.4 (Overall - not that great) 
 
 ## Knee Exam
 
 Conduct exam first on normal knee for comparison 
 Inspection: Look for atrophy, effusion
--   ***Tip:*** Collateral ligament injuries often have no effusion in acute setting
+
+-   **_Tip:_** Collateral ligament injuries often have no effusion in acute setting
 
 Palpation: Look for crepitus as sign of cartilage disruption, joint line tenderness 
 Function: Perform stress maneuvers

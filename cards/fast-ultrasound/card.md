@@ -1,23 +1,17 @@
 ---
 
-title: 'Focused Assessment with Sonography in Trauma (FAST)'
+title: Focused Assessment with Sonography in Trauma (FAST)
 authors:
-    - 'Wilma Chan, MD'
-    - 'John Eicken, MD' 
-    - 'Mike Stone, MD'
+    - Wilma Chan, MD
+    - John Eicken, MD 
+    - Mike Stone, MD
 created: 2014/09/14
 updates: null
 categories:
     - Ultrasound
     - Radiology
     - Trauma
-drugs: null
-
 ---
-
-
-
-
 
 # Ultrasound: Focused Assessment with Sonography in Trauma (FAST)
 
@@ -35,7 +29,7 @@ Figure 1: Transducer positions and directional indicator orientation (white dot)
 
 The FAST exam is dichotomous, yielding either a negative or positive result.  A negative FAST exam is defined by the absence of fluid in all four imaging windows.  A positive FAST exam is defined by the presence, no matter how small, of any amount of fluid in any of the four windows.
 
-A meta-analysis of 62 studies including FAST exams of &gt;18,000 patients revealed a sensitivity of 78.9% and specificity of 99.2% for the identification of intra-peritoneal free fluid (Stengel et al, 2005).
+A meta-analysis of 62 studies including FAST exams of >18,000 patients revealed a sensitivity of 78.9% and specificity of 99.2% for the identification of intra-peritoneal free fluid (Stengel et al, 2005).
 
 ## Right Upper Quadrant (RUQ) View
 
@@ -87,15 +81,18 @@ Figure 3: Positive FAST in LUQ view demonstrating large amount of complex free f
 -   The left kidney is often located more superior and posterior compared to the right kidney. Try placing the probe more posterior towards the left flank.
 
 **Can’t find the bladder?**
+
 -   Make sure you’re as close to the symphysis pubis as possible (don’t be shy!), and aiming the transducer towards the patient’s feet. Visualization of the bladder is improved prior to emptying of the bladder. Try FAST prior to insertion of a foley catheter or prior to the patient emptying their bladder.
 
 **Rib shadows obstructing view in RUQ and LUQ views?** 
+
 -   Try rotating the transducer obliquely parallel to the ribs in order to fit between an intercostal space. A phased array transducer’s smaller footprint can reduce or eliminate rib shadows.
 
 **Can’t see the entire heart on the subxiphoid view?**
+
 -   Try moving the probe more to the patient’s right to use the liver as an acoustic window. You can also try increasing the depth of the image.
 
-## Common Errors: Failure to...
+## Common Errors: Failure to&hellip;
 
 -   Fan through entire depth and length of target organs
 -   Perform serial FAST exams in patients who develop changes in their vitals or exam
@@ -106,6 +103,6 @@ Figure 3: Positive FAST in LUQ view demonstrating large amount of complex free f
 
 ## References
 
-- Durston W et al. *Ann of Surg*, 1998. PMID [9790345](mailto:http://www.ncbi.nlm.nih.gov/pubmed/9790345)
-- Stengel D et al. *Br J Surg*, 2001. PMID [11442520](http://www.ncbi.nlm.nih.gov/pubmed/11442520)
-- Stengel D et al. Radiology, 2005. PMID [15983072](http://www.ncbi.nlm.nih.gov/pubmed/15983072)
+-   Durston W et al. _Ann of Surg_, 1998. PMID [9790345](mailto:http://www.ncbi.nlm.nih.gov/pubmed/9790345)
+-   Stengel D et al. _Br J Surg_, 2001. PMID [11442520](http://www.ncbi.nlm.nih.gov/pubmed/11442520)
+-   Stengel D et al. Radiology, 2005. PMID [15983072](http://www.ncbi.nlm.nih.gov/pubmed/15983072)

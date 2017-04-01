@@ -1,21 +1,17 @@
 ---
 
-title: 'When to Avoid Tramadol'
+title: When to Avoid Tramadol
 authors:
-    - 'Jill Logan, PharmD'
+    - Jill Logan, PharmD
 created: 2014/01/06
 updates: null
 categories:
     - Toxicology
-drugs: 'tramadol,'
-
 ---
-
-
 
 # Tramadol: When to avoid it
 
-**Take Home Points**
+## Take Home Points
 
 Avoid tramadol in:
 
@@ -24,18 +20,16 @@ Avoid tramadol in:
 -   Patients taking antidepressants
 -   Patients taking warfarin
 
-**Click [here](http://academiclifeinem.com/tramadol-when-to-avoid-it/) for full ALiEM blog post**
-
 Tramadol is a popular agent for the treatment of pain and offers an alternative to opioid therapy. Tramadol exerts its analgesic effects through weak stimulation of the mu opioid receptor as well as inhibiting the reuptake of serotonin and norepinephrine similar to some antidepressant medications. While tramadol may be an effective option for mild to moderate pain in otherwise healthy individuals, the following patients may benefit from an alternative analgesic selection:
 
-| Patient Population                        | Tramadol Effect                                                                                                                                                                                                                                                                                                                                                                   |
-|-------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Seizure patients**                      | Tramadol may lower the seizure threshold thereby potentially increasing seizure frequency in patients at risk or treated for seizures.                                                                                                                                                                                                                                            |
-| **Renal patients**                        | Tramadol requires renal dose adjustment to a frequency of Q 12 hours in patients with CrCl &lt; 30 mL/min.                                                                                                                                                                                                                                                                        |
-| **Patients treated with antidepressants** | As tramadol exerts serotonin and norepinephrine reuptake inhibition, this may put patients exposed to serotonergic agents at higher risk for serotonin syndrome. While the use of antidepressants and tramadol may be safely used concomitantly, use particular caution with MAO inhibitors and have suspicion for this interaction in patients in potential overdose situations                               |
-| **Warfarin patients**                     | Tramadol will likely lead to an increased INR due to its serotonergic effects as well as other unknown mechanisms.                                                                                 |
+| **Patient Population**                    | **Tramadol Effect**                                                                                                                                                                                                                                                                                                                                                              |     |
+| ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
+| **Seizure patients**                      | Tramadol may lower the seizure threshold thereby potentially increasing seizure frequency in patients at risk or treated for seizures.                                                                                                                                                                                                                                           |     |
+| **Renal patients**                        | Tramadol requires renal dose adjustment to a frequency of Q 12 hours in patients with CrCl &lt;30 mL/min.                                                                                                                                                                                                                                                                        |     |
+| **Patients treated with antidepressants** | As tramadol exerts serotonin and norepinephrine reuptake inhibition, this may put patients exposed to serotonergic agents at higher risk for serotonin syndrome. While the use of antidepressants and tramadol may be safely used concomitantly, use particular caution with MAO inhibitors and have suspicion for this interaction in patients in potential overdose situations |     |
+| **Warfarin patients**                     | Tramadol will likely lead to an increased INR due to its serotonergic effects as well as other unknown mechanisms.                                                                                                                                                                                                                                                               |     |
 
-*NOTE: Linezolid and some Parkinson’s medications fall into the class of MAO inhibiters (although the MAO type B inhibitors may pose less of a risk)*
+_NOTE: Linezolid and some Parkinson’s medications fall into the class of MAO inhibiters (although the MAO type B inhibitors may pose less of a risk)_
 
 ## References
 

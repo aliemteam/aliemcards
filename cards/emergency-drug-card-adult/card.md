@@ -1,20 +1,16 @@
 ---
 
-title: 'Emergency Drug Card - Adult'
+title: Emergency Drug Card - Adult
 authors:
-    - 'Rob Bryant, MD'
-    - 'Amie Hatch, PharmD, BCPS'
-    - 'Jeremy Bair, PharmD'
+    - Rob Bryant, MD
+    - Amie Hatch, PharmD, BCPS
+    - Jeremy Bair, PharmD
 created: 2013/09/11
 updates: null
 categories:
     - Pharmacology
     - Critical Care
-drugs: 'etomidate, lidocaine, rocuronium, succinylcholine, vecuronium, amiodarone, diltiazem, esmolol, labetalol, nicardipine, procainamide, fentanyl, ketamine, propofol, dobutamine, dopamine, epinephrine, norepinephrine, phenylephrine, vasopressin'
-
 ---
-
-
 
 # Emergency Drug Card (Adult)
 
@@ -299,7 +295,6 @@ drugs: 'etomidate, lidocaine, rocuronium, succinylcholine, vecuronium, amiodaron
   </tr>
 </table>
 
-
 ## MISCELLANEOUS
 
 <table>
@@ -311,6 +306,7 @@ drugs: 'etomidate, lidocaine, rocuronium, succinylcholine, vecuronium, amiodaron
         PE (acute massive with pulses): 100 mg IV infusion over 2 hours<br>
         PE (cardiac arrest only): 50 mg IV push, repeat with 50 mg IV push in 15 minutes if no ROSC<br>
     </td>
+
   </tr>
   <tr>
     <td><span class="drug">Desmopressin (DDAVP)</span></td>
@@ -388,6 +384,8 @@ drugs: 'etomidate, lidocaine, rocuronium, succinylcholine, vecuronium, amiodaron
 
 ## ACKNOWLEDGEMENTS
 
-*Prepared by: Amie Hatch, PharmD, BCPS and Jeremy Bair, PharmD,BCPS. Updated AUG2013.*
+_Prepared by: Amie Hatch, PharmD, BCPS and Jeremy Bair, PharmD,BCPS. Updated AUG2013._
 
-*This document presents an evidence-based approach that is appropriate for most patients. It should be adapted to meet the needs of individual patients and situations, and should not replace clinical judgment.*
+_This document presents an evidence-based approach that is appropriate for most patients. It should be adapted to meet the needs of individual patients and situations, and should not replace clinical judgment._
+
+## References

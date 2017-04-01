@@ -1,22 +1,20 @@
 ---
 
-title: 'Cervical Spine Distracting Injuries'
+title: Cervical Spine Distracting Injuries
 authors:
-    - 'Michelle Lin, MD'
+    - Michelle Lin, MD
 created: 2011/09/11
 updates: null
 categories:
     - Trauma
     - Orthopedics
-drugs: null
-
 ---
 
+# Cervical Spine Assessment: What are "distracting injuries"?
 
+## The **NEXUS definition of "distracting injury"** is vague  
 
-# Cervical Spine Assessment: Distracting Injuries
-
-The **NEXUS definition of "distracting injury"** is too vague, but is as follows:  ([Hoffman et al., NEJM, 2000)](https://www.ncbi.nlm.nih.gov/pubmed/?term=10891516)
+([Hoffman et al., NEJM, 2000)](https://www.ncbi.nlm.nih.gov/pubmed/?term=10891516)
 
 Defined as “a condition thought by the clinician to be producing pain sufficient to distract the patients from a second (neck) injury. Examples may include, but are not limited to the following:
 
@@ -26,30 +24,36 @@ Defined as “a condition thought by the clinician to be producing pain sufficie
 -   Large burns
 -   Any other injury producing acute functional impairment
 
-Physicians may also classify any injury as distracting if it is thought to have the potential to impair the patient’s ability to appreciate other injuries
+Physicians may also classify any injury as distracting if it is thought to have the potential to impair the patient’s ability to appreciate other injuries"
 
 Distracting injury alone accounted for 30% of all radiographic studies ordered for the 818 NEXUS patients
 
-Injuries to the **upper torso** should be considered distracting injuries ([Heffernan et al., J Trauma, 2005](https://www.ncbi.nlm.nih.gov/pubmed/?term=16394912))
+## Injuries to the upper torso may be considered distracting injuries 
 
-Prospective study of blunt trauma patients
+([Heffernan et al., J Trauma, 2005](https://www.ncbi.nlm.nih.gov/pubmed/?term=16394912))
 
-Exclusion criteria: patient age &lt; 18 years, prolonged ICU care, non-English speaking 
+**Study design:**
 
-n = 40 patients with cervical spine injury out of 406 patients
+-   Prospective study of blunt trauma patients
+-   Exclusion criteria: patient age &lt;18 years, prolonged ICU care, non-English speaking 
+
+**Results:** (n=40 patients with cervical spine injury out of 406 patients)
 
 -    7 of 40 patients (18%) had no neck pain or tenderness
 -    All 7 patients had upper torso injuries.
 
-**Severe pain or injuries in the chest** should be considered distracting injuries ([Konstantinidis et al, J Trauma, 2011](https://www.ncbi.nlm.nih.gov/pubmed/?term=21248650)) 
+## Severe pain or injuries in the chest may be considered distracting injuries
 
-Prospective study of blunt trauma patients
+([Konstantinidis et al, J Trauma, 2011](https://www.ncbi.nlm.nih.gov/pubmed/?term=21248650)) 
 
-Exclusion criteria: GCS &lt; 13, intoxication, patient age ≤ 16 years
+**Study design:**
 
-n =101 patients with a cervical spine injury out of 9,103 blunt trauma patients
+-   Prospective study of blunt trauma patients
+-   Exclusion criteria: GCS &lt;13, intoxication, patient age ≤16 years
 
--    4 of 101 (4%) patients had no neck pain or tenderness
+**Results:**  (n =101 patients with a cervical spine injury out of 9,103 blunt trauma patients)
+
+-   4 of 101 (4%) patients had no neck pain or tenderness
 -   All 4 patients had rib fractures or severe chest tenderness.
 
 ## References

@@ -1,17 +1,14 @@
 ---
 
-title: 'Cancer Risk from CT'
+title: Cancer Risk from CT
 authors:
-    - 'Michelle Lin, MD'
+    - Michelle Lin, MD
 created: 2011/06/10
 updates: null
 categories:
     - Radiology
-drugs: null
 
 ---
-
-
 
 # Cancer Risk from CT
 

@@ -7,30 +7,25 @@ created: 2011/02/04
 updates: null
 categories:
     - Environmental
-drugs: null
-
 ---
-
-
 
 # Hypothermia, Accidental
 
-## Stages of Hypothermia:
+## Stages of Hypothermia
 
 **MILD HYPOTHERMIA** 32.2-35°C (90-95°F) 
 
-| Early Stage      | Decompensated Stage                                |
-| :-------------   | :-------------                                     |
-| Hypertenstion    | Apathy/Impaired Judgment                           |
-| Tachycardia      | Ataxia                                             |
-| Shivering        | Cold diuresis-kidneys unable to concentrate urine  |
-| Vasoconstriction | Hypovolemia                                        |
-
+| Early Stage      | Decompensated Stage                               |
+| :--------------- | :------------------------------------------------ |
+| Hypertenstion    | Apathy/Impaired Judgment                          |
+| Tachycardia      | Ataxia                                            |
+| Shivering        | Cold diuresis-kidneys unable to concentrate urine |
+| Vasoconstriction | Hypovolemia                                       |
 
 **MODERATE HYPOTHERMIA** 28-32.2°C (82.4-90°F)
 
 | Clinical Findings |
-| --- |
+\| --- \|
 | Atrial dysrhythmias  |
 | J wave on ECG          |
 | Hypotension, bradycardia  | 
@@ -45,7 +40,7 @@ drugs: null
 **SEVERE HYPOTHERMIA** &lt;28°C (&lt;82.4°F)
 
 | Clinical Findings |
-| --- |
+\| --- \|
 | Apnea               |       
 | Coma                 | 
 | No activity on EEG   | 
@@ -72,6 +67,7 @@ drugs: null
 
 1.  **Passive Rewarming:** Remove cold, damp clothes. Wrap with blankets.
 2.  **Active External Rewarming:** applying heat to skin
+
     -   Heating blanket or radiant heat
     -   Hot water bottles or heating pads to truncal surfaces. Caution-- do not burn skin.
     -   Risk of “Core Temperature Afterdrop”, vasodilation with active external rewarming causes cold peripheral blood to return to heart. Give warm IV fluid beforehand.
@@ -101,14 +97,12 @@ drugs: null
 -   Warm IVF
 -   Heated humidified oxygen
 -   Extracorporeal rewarming (i.e. cardiopulmonary bypass), if not immediately available, do active core rewarming measures
--   Rewarm to target temperature &gt;30°C (86°F)
-
+-   Rewarm to target temperature >30°C (86°F)
 
 **If NOT in cardiopulmonary arrest AND temperature &lt;32°C (89.6°F):**
 
 -   Active External Rewarming (i.e. Bair Hugger, warm blankets), and
 -   Minimally invasive Active Core Rewarming (warm IVF, warm air)
-
 
 **If NOT in cardiopulmonary arrest AND temp ≥32°C (89.6°F):**
 

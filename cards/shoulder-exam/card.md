@@ -1,17 +1,14 @@
 ---
 
-title: 'Shoulder Exam Provocative Testing'
+title: Shoulder Exam Provocative Testing
 authors:
-    - 'Michelle Lin, MD'
+    - Michelle Lin, MD
 created: 2011/01/28
 updates: null
 categories:
     - Orthopedics
-drugs: null
 
 ---
-
-
 
 # Shoulder Exam Provocative Testing
 
@@ -42,7 +39,7 @@ drugs: null
 
 90% of shoulder external rotation uses infraspinatus muscle. 
 
-**Infraspinatus scapular rotation test:**
+### Infraspinatus scapular rotation test
 
 Patient has pain when externally rotates shoulder against resistance (with elbow in 90 degree flexion)
 
@@ -91,3 +88,5 @@ Patient has pain when externally rotates shoulder against resistance (with elbow
 2.  Have the patient supinate and flex elbow against examiner's resistance (holding at wrist)
 
 ![](image-8.png)
+
+## References

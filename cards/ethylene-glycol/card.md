@@ -1,19 +1,15 @@
 ---
 
-title: 'Toxic Alcohol Ingestion - Ethylene Glycol'
+title: Toxic Alcohol Ingestion - Ethylene Glycol
 authors:
-    - 'Michelle Lin, MD'
+    - Michelle Lin, MD
 created: 2012/06/08
 updates: null
 categories:
     - Toxicology
-drugs: fomipezole
-
 ---
 
-
-
-# Toxic Alcohol Ingestion: Ethylene Glycol 
+# Toxic Alcohol Ingestion: Ethylene Glycol
 
 General concepts for all 3 toxic alcohols
 
@@ -33,13 +29,13 @@ Found in antifreeze, coolants, deicing solutions, ink in stamp pads and ballpoin
 
 **Labs:** 
 
-- High anion gap metabolic acidosis and high osmolal gap (early in patient course)
+-   High anion gap metabolic acidosis and high osmolal gap (early in patient course)
 
 ## EG: Classic Presentation 
 
-1. Altered mental status
-2. Hypocalcemia
-3. Oxalate crystals in urine
+1.  Altered mental status
+2.  Hypocalcemia
+3.  Oxalate crystals in urine
 
 **Common Signs and Symptoms**
 
@@ -58,23 +54,23 @@ Found in antifreeze, coolants, deicing solutions, ink in stamp pads and ballpoin
 
 **Indications for treatment of EG poisoning with FOMIPEZOLE: (any of following)**
 
- - Documented plasma ethylene glycol &gt;20 mg/dL
- - Documented recent hx of ingesting toxic EG amounts and osmolal gap &gt;10 mOsm/L
- - Strong suspicion of EG poisoning and at least 2 criteria:
- 
-  1.  Arterial pH &lt;7.3
-  2.  Serum bicarbonate &lt;20 mEq/L
-  3.  Osmolal gap &gt;10 mOsm/L
-  4.  Urine oxalate crystal present
+ \- Documented plasma ethylene glycol >20 mg/dL
+ \- Documented recent hx of ingesting toxic EG amounts and osmolal gap >10 mOsm/L
+ \- Strong suspicion of EG poisoning and at least 2 criteria:
+
+1.  Arterial pH &lt;7.3
+2.  Serum bicarbonate &lt;20 mEq/L
+3.  Osmolal gap >10 mOsm/L
+4.  Urine oxalate crystal present
 
 **Indications for treatment of EG toxicity with HEMODIALYSIS: (any of following)**
 
 1.  Deteriorating clinical status despite supportive tx PLUS metabolic acidosis (arterial pH &lt; 7.25-7.3)
-2.  Acute kidney injury with serum Cr &gt; 3 mg/dL or increase in serum Cr by 1 mg/dL
+2.  Acute kidney injury with serum Cr > 3 mg/dL or increase in serum Cr by 1 mg/dL
 3.  Acid-base/electrolyte abnormalities unresponsive to standard tx
-4.  Old recommendation: EG level &gt; 50 mg/dL
+4.  Old recommendation: EG level > 50 mg/dL
 
-*Note:* **<span class="drug">Fomipezole</span>** without hemodialysis is an option if normal renal function AND no metabolic acidosis
+_Note:_ **<span class="drug">Fomipezole</span>** without hemodialysis is an option if normal renal function AND no metabolic acidosis
 
 ## Metabolism of Alcohols
 

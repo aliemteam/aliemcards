@@ -1,17 +1,13 @@
 ---
 
-title: 'Metatarsal & Metacarpal Fractures'
+title: Metatarsal & Metacarpal Fractures
 authors:
-    - 'Michelle Lin, MD'
+    - Michelle Lin, MD
 created: 2013/12/13
 updates: null
 categories:
     - Orthopedics
-drugs: null
-
 ---
-
-
 
 # Metatarsal/Metacarpal Fractures
 
@@ -128,11 +124,11 @@ Most are nonoperative, especially 3rd and 4th MC because of inter-MC ligaments
 
 ## Splinting
 
-| **Digit**               |  **Splint**            | **Position**                            |
-|----------------------|------------------------|--------------------------------------|
-| Thumb                | Thumb splica           | Wrist extension 20°, thumb ABduction |
-| Index, middle finger | Radial gutter or volar | Wrist extension in 20°, MCP flexion in 90°, keep IPs free         |
-| Ring, small finger   | Ulnar gutter           | Wrist extension in 20°, MCP flexion in 90°, keep IPs free         |
+| **Digit**            |  **Splint**            | **Position**                                              |
+| -------------------- | ---------------------- | --------------------------------------------------------- |
+| Thumb                | Thumb splica           | Wrist extension 20°, thumb ABduction                      |
+| Index, middle finger | Radial gutter or volar | Wrist extension in 20°, MCP flexion in 90°, keep IPs free |
+| Ring, small finger   | Ulnar gutter           | Wrist extension in 20°, MCP flexion in 90°, keep IPs free |
 
 ## References
 

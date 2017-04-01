@@ -1,67 +1,63 @@
 ---
 
-title: 'ECG Electrolyte Imbalance'
+title: ECG Electrolyte Imbalance
 authors:
-    - 'Michelle Lin, MD'
+    - Steve Field, MD
 created: 2012/09/21
 updates: null
 categories:
     - Cardiovascular
     - ECG
     - Endocrinology
-drugs: null
-
 ---
-
-
 
 # ECG: Electrolyte Imbalance
 
 ![](image-1.png)
 
-Image from [Life in the Fast Lane](image-2.gif)
+Image courtesy of [Life in the Fast Lane](image-2.gif)
 
 **PR Interval**
 
-| Short | Prolonged |
-|-------|-----------|
-| pre-excitation, e.g. Wolff-Parkinson-White | High K <br>Low Ca |
+| Short                                      | Prolonged      |
+| ------------------------------------------ | -------------- |
+| Pre-excitation, e.g. Wolff-Parkinson-White | High K, Low Ca |
 
 **QRS Duration**
 
-| Narrow | Wide |
-|-------|-----------|
-| Low K <br> Low Ca <br>Normal | High K <br>High Ca |
+| Narrow                | Wide            |
+| --------------------- | --------------- |
+| Low K, Low Ca, Normal | High K, High Ca |
 
 **QTc Interval**
 
-| Short | Prolonged |
-|-------|-----------|
-| High Ca | Low K <br>Low Ca |
+| Short   | Prolonged     |
+| ------- | ------------- |
+| High Ca | Low K, Low Ca |
 
 **ST Segment**
 
-| Depressed | Elevated |
-|-------|-----------|
-| Low K <br>High Ca | High K |
+| Depressed      | Elevated |
+| -------------- | -------- |
+| Low K, High Ca | High K   |
 
 **T Wave**   
 
 | Peak/Tall | Flattened |
-|-------|-----------|
-| High K | Low K |
+| --------- | --------- |
+| High K    | Low K     |
 
 **U Wave**   
 
-| Absent | Present |
-|-------|-----------|
-| Normal | Low K <br>Low Ca |
+| Absent | Present       |
+| ------ | ------------- |
+| Normal | Low K, Low Ca |
 
 **Heart Rate**   
 
-| Slow | Fast |
-|-------|-----------|
-| High K | Low K |                                                                        
+| Slow            | Fast          |
+| --------------- | ------------- |
+| High K, High Ca | Low K, Low Ca |
 
 ## Electrolyte Imbalances
 
@@ -122,7 +118,7 @@ Image from [Life in the Fast Lane](image-2.gif)
 </tbody>
 </table>
 
-**Magnesium derangements:**
+**Magnesium Derangements:**
 
 -   Nonspecific ECG findings
 -   Often co-exists with Ca derangements

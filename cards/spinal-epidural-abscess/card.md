@@ -1,18 +1,14 @@
 ---
 
-title: 'Spinal Epidural Abscess'
+title: Spinal Epidural Abscess
 authors:
-    - 'Michelle Lin, MD'
+    - Michelle Lin, MD
 created: 2011/08/05
 updates: null
 categories:
     - Infectious Disease
     - EBM
-drugs: null
-
 ---
-
-
 
 # Spinal Epidural Abscess (SEA)
 
@@ -20,8 +16,8 @@ drugs: null
 
 ESR test:
 
--   If ESR &gt;20, sensitivity=90% [1](https://www.ncbi.nlm.nih.gov/pubmed/?term=15028325).
--   If ESR &gt;30, sensitivity=81% [2].
+-   If ESR >20, sensitivity=90% [1](https://www.ncbi.nlm.nih.gov/pubmed/?term=15028325).
+-   If ESR >30, sensitivity=81% [2].
 
 **Diagnostic Guideline** ([Davis et al., 2011](https://www.ncbi.nlm.nih.gov/pubmed/?term=21417700))
 
@@ -29,8 +25,8 @@ ESR test:
 
 **Study design:**
 
-- Prospective cohort analysis of clinical decision guidelines to diagnose SEA 
-- n = 86 patients (55 in 9-year control group, 31 in 5-year study group)
+-   Prospective cohort analysis of clinical decision guidelines to diagnose SEA 
+-   n = 86 patients (55 in 9-year control group, 31 in 5-year study group)
 
 **Outcome measures:**
 

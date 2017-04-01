@@ -1,19 +1,15 @@
 ---
 
-title: 'Pneumonia Risk Stratification Tools'
+title: Pneumonia Risk Stratification Tools
 authors:
-    - 'Michelle Lin, MD'
+    - Michelle Lin, MD
 created: 2011/02/25
 updates: null
 categories:
     - Pulmonology
     - Infectious Disease
     - EBM
-drugs: null
-
 ---
-
-
 
 # Pneumonia: Risk Stratification Scoring Tools
 
@@ -21,41 +17,41 @@ drugs: null
 
 -   ([Fine et al., JAMA 1997)](http://www.ncbi.nlm.nih.gov/pubmed/?term=8995086)
 -   Pneumonia Patient Outcomes Research Team (PORT)
--   A large derivation and validation study with &gt;50,000 patients
+-   A large derivation and validation study with >50,000 patients
 -   Best identifies low-risk/ low-mortality patients
 -   Tends to miss higher-risk pneumonia in younger patients because score is based on age 
 -   Does not factor in immunosuppression (eg. HIV) and poor social support 
 
-| **Risk factors**                    | **Points**     |
-|-------------------------------------|:----------------:|
-| Men                                 | Age (years)    |
+| **Risk factors**                    |   **Points**   |
+| ----------------------------------- | :------------: |
+| Men                                 |   Age (years)  |
 | Women                               | Age (years)-10 |
-| Nursing home resident               | +10            |
-| History of neoplasm                 | +30            |
-| History of liver disease            | +20            |
-| History of heart failure            | +10            |
-| History of stroke                   | +10            |
-| History of renal failure            | +10            |
-| Altered mental status               | +20            |
-| RR ≥ 30 breaths/ min                | +20            |
-| SBP &lt; 90 mmHg                    | +20            |
-| Temp &lt; 95F (35C) or ≥104F (40C)  | +15            |
-| HR ≥ 125 bpm                        | +10            |
-| Arterial pH &lt; 7.35               | +30            |
-| BUN &gt; 30 mg/dL                   | +20            |
-| Na &lt; 130 mmol/L                  | +20            |
-| Glucose ≥250 mg/dL                  | +10            |
-| Hematocrit &lt; 30%                 | +10            |
-| PaO2 &lt; 60 mmHg                   | +10            |
-| Pleural effusion                    | +10            |
+| Nursing home resident               |       +10      |
+| History of neoplasm                 |       +30      |
+| History of liver disease            |       +20      |
+| History of heart failure            |       +10      |
+| History of stroke                   |       +10      |
+| History of renal failure            |       +10      |
+| Altered mental status               |       +20      |
+| RR ≥ 30 breaths/ min                |       +20      |
+| SBP &lt; 90 mmHg                    |       +20      |
+| Temp &lt; 95F (35C) or ≥104F (40C)  |       +15      |
+| HR ≥ 125 bpm                        |       +10      |
+| Arterial pH &lt; 7.35               |       +30      |
+| BUN > 30 mg/dL                      |       +20      |
+| Na &lt; 130 mmol/L                  |       +20      |
+| Glucose ≥250 mg/dL                  |       +10      |
+| Hematocrit &lt; 30%                 |       +10      |
+| PaO2 &lt; 60 mmHg                   |       +10      |
+| Pleural effusion                    |       +10      |
 
-| **PSI Class**  | **Total Points** | **30-Day Mortality**  | **Disposition** |
-|:---------:|:-----------------:|:-----------:|:----------------:|
-| I       | &lt; 51          | 0.1%        | Outpatient      |
-| II      | 51-70            | 0.6%        | Outpatient      |
-| III     | 71-90            | 0.9%        | Outpatient vs short-stay inpatient        |
-| IV      | 91-130           | 9.3%        | Inpatient       |
-| V       | &gt; 130         | 27.0%       | Inpatient ICU   |
+| **PSI Class** | **Total Points** | **30-Day Mortality** |           **Disposition**          |
+| :-----------: | :--------------: | :------------------: | :--------------------------------: |
+|       I       |      &lt; 51     |         0.1%         |             Outpatient             |
+|       II      |       51-70      |         0.6%         |             Outpatient             |
+|      III      |       71-90      |         0.9%         | Outpatient vs short-stay inpatient |
+|       IV      |      91-130      |         9.3%         |              Inpatient             |
+|       V       |       > 130      |         27.0%        |            Inpatient ICU           |
 
 ## CURB-65 Severity Score
 
@@ -65,22 +61,22 @@ Supported by ([British Thoracic Society Standards of Care Committee](http://www.
 -   Tends to misclassify moderate-risk pneumonia patients (as low-risk) 
 -   Does not account for co-morbidities and hypoxemia
 
-|        | **Risk Factor**                                   | **Points** |
-|:--------:|---------------------------------------------------|:------------:|
-| **C**  | **C**onfusion                                     | 1          |
-| **U**  | Uremia (BUN &gt;19 mg/dL)                         | 1          |
-| **R**  | **R**R ≥ 30 breaths/min                           | 1          |
-| **B**  | **B**P low (SBP &lt;90 mmHg or DBP &lt;60 mmHg) | 1          |
-| **65** | Age ≥ **65** years                                | 1          |
+|        | **Risk Factor**                                 | **Points** |
+| :----: | ----------------------------------------------- | :--------: |
+|  **C** | **C**onfusion                                   |      1     |
+|  **U** | Uremia (BUN >19 mg/dL)                          |      1     |
+|  **R** | **R**R ≥ 30 breaths/min                         |      1     |
+|  **B** | **B**P low (SBP &lt;90 mmHg or DBP &lt;60 mmHg) |      1     |
+| **65** | Age ≥ **65** years                              |      1     |
 
-| **Total Points** | **30-Day Mortality**  | **Disposition**                    |
-|:-----------------:|:-------------:|:----------------------------------|
-| 0                | 0.6%        | Outpatient                         |
-| 1                | 3.2%        | Outpatient                         |
-| 2                | 13.0%       | Outpatient or short-stay inpatient |
-| 3                | 17%         | Inpatient                          |
-| 4                | 41.5%       | Inpatient, likely ICU              |
-| 5                | 57.0%       | Inpatient ICU                      |
+| **Total Points** | **30-Day Mortality** | **Disposition**                    |
+| :--------------: | :------------------: | :--------------------------------- |
+|         0        |         0.6%         | Outpatient                         |
+|         1        |         3.2%         | Outpatient                         |
+|         2        |         13.0%        | Outpatient or short-stay inpatient |
+|         3        |          17%         | Inpatient                          |
+|         4        |         41.5%        | Inpatient, likely ICU              |
+|         5        |         57.0%        | Inpatient ICU                      |
 
 ## SMART-COP
 
@@ -166,13 +162,11 @@ If age &gt; 50 years: <strong>R</strong>R ≥ 30 breaths min <br />
 </table>
 
 | **Total points** | **Risk of needing IRVS** |
-|:-----------------:|--------------------------|
-| 0-2              | Low                      |
-| 3-4              | Moderate (1 in 8)       |
-| 5-6              | High (1 in 3)            |
-| ≥ 7              | Very high (2 in 3)       |
-
-
+| :--------------: | ------------------------ |
+|        0-2       | Low                      |
+|        3-4       | Moderate (1 in 8)        |
+|        5-6       | High (1 in 3)            |
+|        ≥ 7       | Very high (2 in 3)       |
 
 ## References
 
