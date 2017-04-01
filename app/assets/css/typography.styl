@@ -29,7 +29,7 @@ h1
     padding: 1rem
     font-weight: 600
     background-color: $light-gray
-    color: $accent
+    color: $font-primary
     border-radius: 2px
     border-bottom: 5px solid $accent
 
@@ -57,11 +57,12 @@ strong
 a
     text-decoration: none
     color: $accent
+    transition: $link-transition
     &:hover
         color: $primary
 
 ::selection
-    background: $accent
+    background: $primary
     color: white
 
 .homelist_header
