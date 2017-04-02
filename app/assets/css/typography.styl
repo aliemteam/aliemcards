@@ -25,10 +25,11 @@ h6
     line-height: 1.4
 
 h1
-    font-size: 2rem
+    font-size: 2.5rem
     padding: 1rem
     font-weight: 600
     background-color: $light-gray
+    color: $font-primary
     border-radius: 2px
     border-bottom: 5px solid $primary
 
@@ -55,10 +56,14 @@ strong
 
 a
     text-decoration: none
-    color: $primary
+    color: $accent
+    transition: $link-transition
     &:hover
-        color: $primary-shade
+        color: $primary
 
 ::selection
     background: $primary
     color: white
+
+.homelist_header
+    font-size: 1.8rem
