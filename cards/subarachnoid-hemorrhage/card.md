@@ -11,15 +11,15 @@ categories:
 
 # Grading and Management of Aneurysmal Subarachnoid Hemorrhage (SAH)
 
-1.  Control rebleeding: 4% incidence in first 24 hrs of bleed
-2.  Blood pressure (BP) control:
+1. Control rebleeding: 4% incidence in first 24 hrs of bleed
+2. Blood pressure (BP) control:
 
--   No evidence for a target BP
+- No evidence for a target BP
 
-3.  “Triple H therapy” to treat vasospasm: Hypervolemia, hypertension, hemodilution
-4.  Ventriculostomy, if hydrocephalus (occurs in 33-50% of SAH patients) 
-5.  **<span class="drug">Nimodipine</span>**: Vasospasm and delayed cerebral ischemia: Usually occurs 7-10 days after bleed. 
-6.  Definitive treatment: Microvascular aneurysm clipping or endovascular coil embolization
+3. “Triple H therapy” to treat vasospasm: Hypervolemia, hypertension, hemodilution
+4. Ventriculostomy, if hydrocephalus (occurs in 33-50% of SAH patients) 
+5. **<span class="drug">Nimodipine</span>**: Vasospasm and delayed cerebral ischemia: Usually occurs 7-10 days after bleed. 
+6. Definitive treatment: Microvascular aneurysm clipping or endovascular coil embolization
 
 ## Grading Scales
 
@@ -50,4 +50,4 @@ Increase by 1 grade for serious system disease, or severe vasospasm on arteriog
 
 ## References
 
--   [Edlow JA, Malek AM, Ogilvy CS. Aneurysmal subarachnoid hemorrhage: update for emergency physicians. J Emerg Med. 2008 Apr;34(3):237-51. Epub 2007 Dec 26.](http://www.ncbi.nlm.nih.gov/pubmed/?term=18155383)
+- [Edlow JA, Malek AM, Ogilvy CS. Aneurysmal subarachnoid hemorrhage: update for emergency physicians. J Emerg Med. 2008 Apr;34(3):237-51. Epub 2007 Dec 26.](http://www.ncbi.nlm.nih.gov/pubmed/?term=18155383)

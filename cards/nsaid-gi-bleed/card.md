@@ -12,13 +12,13 @@ categories:
 
 # NSAIDs and Upper GI Bleed
 
--   Stomach and platelets have much more COX-1 receptors than COX-2 receptors.
--   Below are statistics from a systematic review on NSAIDs and upper GI complications (bleeding, perforation)
+- Stomach and platelets have much more COX-1 receptors than COX-2 receptors.
+- Below are statistics from a systematic review on NSAIDs and upper GI complications (bleeding, perforation)
 
 **Ketorolac pearls**
 
--   Has the highest relative risk for upper GI complication = 14.54
--   Before giving, first check that patients do NOT have a history of a GI bleed or peptic ulcer disease.
+- Has the highest relative risk for upper GI complication = 14.54
+- Before giving, first check that patients do NOT have a history of a GI bleed or peptic ulcer disease.
 
 | **NSAID Medication**                      | **Estimated Relative Risk of Complication** | **[95 % CI]** |
 | ----------------------------------------- | :-----------------------------------------: | :-----------: |
@@ -38,12 +38,12 @@ categories:
 
 ## Risk Factors for Upper GI Complication
 
-1.  Longer drug half-life
-2.  Slow-release formulation
-3.  Dual inhibition of COX-1 and COX-2 isoenzymes 
+1. Longer drug half-life
+2. Slow-release formulation
+3. Dual inhibition of COX-1 and COX-2 isoenzymes 
 
 Relative risk is greatest when first starting medication (&lt;30 days)
 
 ## References
 
--   [Massó González EL, Patrignani P, Tacconelli S, García Rodríguez LA. Variability among nonsteroidal antiinflammatory drugs in risk of upper gastrointestinal bleeding. Arthritis Rheum. 2010 Jun;62(6):1592-601](http://www.ncbi.nlm.nih.gov/pubmed/?term=20178131)
+- [Massó González EL, Patrignani P, Tacconelli S, García Rodríguez LA. Variability among nonsteroidal antiinflammatory drugs in risk of upper gastrointestinal bleeding. Arthritis Rheum. 2010 Jun;62(6):1592-601](http://www.ncbi.nlm.nih.gov/pubmed/?term=20178131)
