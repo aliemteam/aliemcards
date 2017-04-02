@@ -39,14 +39,14 @@ export default class Home extends React.PureComponent<Props, {}> {
     const updated = this.props.data.recentlyUpdated || [];
     return (
       <div className="row row--wrap">
-        <div className="column column--50">
-          <h1>New Cards</h1>
+        <div className="column">
+          <h1 className="homelist_header">New Cards</h1>
           { newest.length > 0 &&
             <CardList cards={newest} />
           }
         </div>
-        <div className="column column--50">
-          <h1>Updated Cards</h1>
+        <div className="column">
+          <h1 className="homelist_header">Updated Cards</h1>
           { updated.length > 0 &&
             <CardList cards={updated} />
           }
