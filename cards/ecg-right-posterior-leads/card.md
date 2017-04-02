@@ -53,5 +53,5 @@ Hints of an associated posterior infarct:
 
 ## References
 
-1. [Edhouse J, Brady WJ, Morris F. ABC of clinical electrocardiography: Acute myocardial infarction-Part II. BMJ. 2002; 324: 963-6.] (https://doi.org/10.1136/bmj.324.7343.963)
-2. [Van Gorselen EO, Verheugt FW, Meursing BT, Oude Ophuis AJ. Posterior myocardial infarction: the dark side of the moon. Neth Heart J. 2007; 15: 16-21.] (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1847720/)
+1.  [Edhouse J, Brady WJ, Morris F. ABC of clinical electrocardiography: Acute myocardial infarction-Part II. BMJ. 2002; 324: 963-6.] (https://doi.org/10.1136/bmj.324.7343.963)
+2.  [Van Gorselen EO, Verheugt FW, Meursing BT, Oude Ophuis AJ. Posterior myocardial infarction: the dark side of the moon. Neth Heart J. 2007; 15: 16-21.] (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1847720/)
