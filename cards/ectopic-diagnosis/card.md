@@ -17,18 +17,18 @@ Systematic review based on 14 studies (n=12,101) with a summary prevalence of ec
 
 ## Background
 
--   Leading cause of maternal death in the first trimester of pregnancy
--   Incidence as high as 2.6%
--   **Heterotopic pregnancy**: Incidence = 0.3-0.8% (1-3% if assisted reproduction)
--   \#1 cause of 1<sup>st</sup> trimesterpregnancy-related death
--   8-31% initially diagnosed as “pregnancy of unknown location” (PUL), despite beta-hCG and ultrasonography
--   More than half of patients with ectopic pregnancy will have ZERO risk factors
+- Leading cause of maternal death in the first trimester of pregnancy
+- Incidence as high as 2.6%
+- **Heterotopic pregnancy**: Incidence = 0.3-0.8% (1-3% if assisted reproduction)
+- \#1 cause of 1<sup>st</sup> trimesterpregnancy-related death
+- 8-31% initially diagnosed as “pregnancy of unknown location” (PUL), despite beta-hCG and ultrasonography
+- More than half of patients with ectopic pregnancy will have ZERO risk factors
 
 **Discriminatory zone:** Serum beta-HCG level cutoff above which intrauterine pregnancy is likely visible on ultrasound.
 
--   Variable definition of cutoff with range of 1,500-3,000 mIU/mL
--   No single serum beta-hCG value is predictive of an ectopic pregnancy
--   If beta-HCG ≥3,000 mIU/mL and an “empty uterus” on ultrasound, suggestive of ectopic pregnancy
+- Variable definition of cutoff with range of 1,500-3,000 mIU/mL
+- No single serum beta-hCG value is predictive of an ectopic pregnancy
+- If beta-HCG ≥3,000 mIU/mL and an “empty uterus” on ultrasound, suggestive of ectopic pregnancy
 
 ## Diagnostic Tools to Risk Stratify
 
@@ -44,23 +44,23 @@ Systematic review based on 14 studies (n=12,101) with a summary prevalence of ec
 
 **Ultrasound:**
 
--   Findings of an intrauterine pregnancy (IUP) such as gestational sac or fetal pole ruled out ectopic pregnancy, except in rare cases of heterotropic prengnacy.
--   Bedside ultrasound is the single most useful diagnostic test (positive LR = 111). 
+- Findings of an intrauterine pregnancy (IUP) such as gestational sac or fetal pole ruled out ectopic pregnancy, except in rare cases of heterotropic prengnacy.
+- Bedside ultrasound is the single most useful diagnostic test (positive LR = 111). 
 
 **Beta hCG:**
 
--   The "discriminatory zone" continues to be debated - no consensus on the number
--   A one-time hCG level does not rule out ectopic pregnancy
+- The "discriminatory zone" continues to be debated - no consensus on the number
+- A one-time hCG level does not rule out ectopic pregnancy
 
 **CONCLUSIONS: **
 
-1.  **Transvaginal ultrasound** is the single-best test to assess for ectopic pregnancy.
-2.  Patient symptoms have limited risk-stratification value.
-3.  Most predictive exam findings for ectopic pregnancy: 
+1. **Transvaginal ultrasound** is the single-best test to assess for ectopic pregnancy.
+2. Patient symptoms have limited risk-stratification value.
+3. Most predictive exam findings for ectopic pregnancy: 
 
--   Cervical motion tenderness (positive LR = 4.9)
--   Peritoneal findings (positive LR = 4.2-4.5)
--   Adnexal mass (positive LR = 2.4)
+- Cervical motion tenderness (positive LR = 4.9)
+- Peritoneal findings (positive LR = 4.2-4.5)
+- Adnexal mass (positive LR = 2.4)
 
 ## Fagan Nomogram
 
@@ -68,4 +68,4 @@ Systematic review based on 14 studies (n=12,101) with a summary prevalence of ec
 
 ## References
 
--   [Crochet et al. Does this woman have an ectopic pregnancy? 2013; 309(16): 1722-9.](https://www.ncbi.nlm.nih.gov/pubmed/?term=23613077)
+- [Crochet et al. Does this woman have an ectopic pregnancy? 2013; 309(16): 1722-9.](https://www.ncbi.nlm.nih.gov/pubmed/?term=23613077)

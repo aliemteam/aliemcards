@@ -14,49 +14,49 @@ categories:
 
 **Background**
 
--   _Bordetella pertussis_ – Gram negative coccobacillus
--   Childhood vaccination confers immunity for 5-10 years
--   Incubation period: 7-10 days 
+- _Bordetella pertussis_ – Gram negative coccobacillus
+- Childhood vaccination confers immunity for 5-10 years
+- Incubation period: 7-10 days 
 
 ## CDC Clinical Case Definition of Pertussis
 
 Cough illness lasting ≥ 2 weeks without other apparent cause with 1 or more of:
 
--   Cough paroxysms
--   Inspiratory whoop
--   Posttussive emesis 
+- Cough paroxysms
+- Inspiratory whoop
+- Posttussive emesis 
 
 ## Phases of Pertussis
 
 **Phase 1: Catarrhal (week #0-2)**
 
--   Nonspecific URI sx
--   Afebrile or low-grade temp
--   Excessive lacrimation, conjunctival injection 
+- Nonspecific URI sx
+- Afebrile or low-grade temp
+- Excessive lacrimation, conjunctival injection 
 
 **Phase 2: Paroxysmal (week #2-8)**
 
--   Paroxysmal coughing spells
--   Minimal symptoms between paroxysms
--   May hear inspiratory “whoop” especially in children and infants
--   Posttussive emesis or syncope 
+- Paroxysmal coughing spells
+- Minimal symptoms between paroxysms
+- May hear inspiratory “whoop” especially in children and infants
+- Posttussive emesis or syncope 
 
 **Phase 3: Convalescent (week #8-12)**
 
--   Persistent or improving cough
+- Persistent or improving cough
 
 ## Diagnosis
 
--   Diagnosis is not easy
--   Dacron swab of posterior nasopharynx (cotton swab is toxic to B pertussis)
--   PCR assay (results in 1-2 days, more costly)
--   DFA is inexpensive but poorly sensitive and specific (not recommended) 
+- Diagnosis is not easy
+- Dacron swab of posterior nasopharynx (cotton swab is toxic to B pertussis)
+- PCR assay (results in 1-2 days, more costly)
+- DFA is inexpensive but poorly sensitive and specific (not recommended) 
 
 ## Treatment
 
--   **Macrolide** (e.g. **<span class="drug">azithromycin</span>**), or <span class="drug">**trimethoprim-sulfamethoxazole**</span> (if allergic)
--   Antibiotics decrease duration of pertussis course if given in catarrhal stage (but difficult to differentiate from viral URI)
--   Antibiotics in any stage decreases transmission to others. 
+- **Macrolide** (e.g. **<span class="drug">azithromycin</span>**), or <span class="drug">**trimethoprim-sulfamethoxazole**</span> (if allergic)
+- Antibiotics decrease duration of pertussis course if given in catarrhal stage (but difficult to differentiate from viral URI)
+- Antibiotics in any stage decreases transmission to others. 
 
 | **Finding**        | **Positive LR** | **Negative LR**  |
 | ------------------ | --------------- | ---------------- |
@@ -66,13 +66,13 @@ Cough illness lasting ≥ 2 weeks without other apparent cause with 1 or more of
 
 **American Academy of Pediatrics (AAP) recommendation for patients &lt;3 months old:**
 
--   If suspect pertussis (basically a cough), swab for pertussis and start **<span class="drug">azithromycin</span>** immediately (10 mg/kg per day in a single dose x 5 days). 
+- If suspect pertussis (basically a cough), swab for pertussis and start **<span class="drug">azithromycin</span>** immediately (10 mg/kg per day in a single dose x 5 days). 
 
 ## Bottom Line
 
--   Positive and negative LR’s for clinical findings are not very helpful.
--   More dependent on your pretest probability of patient having pertussis.
--   Check if there is a current outbreak in your region. 
+- Positive and negative LR’s for clinical findings are not very helpful.
+- More dependent on your pretest probability of patient having pertussis.
+- Check if there is a current outbreak in your region. 
 
 ## Fagan Nomogram
 
@@ -80,4 +80,4 @@ Cough illness lasting ≥ 2 weeks without other apparent cause with 1 or more of
 
 ## References
 
--   [Cornia PB, Hersh AL, Lipsky BA, Newman TB, Gonzales R. Does this coughing adolescent or adult patient have pertussis? JAMA. 2010 Aug 25;304(8):890-6.](http://www.ncbi.nlm.nih.gov/pubmed/?term=20736473)
+- [Cornia PB, Hersh AL, Lipsky BA, Newman TB, Gonzales R. Does this coughing adolescent or adult patient have pertussis? JAMA. 2010 Aug 25;304(8):890-6.](http://www.ncbi.nlm.nih.gov/pubmed/?term=20736473)

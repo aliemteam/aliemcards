@@ -26,8 +26,8 @@ Figure 1: Standard transducer placement for the basic transthoracic echocardiogr
 
 ## 1. Parasternal Long-Axis (PSLA)
 
--   **Anatomic landmarks**: Just left of sternum, 4th or 5th intercostal space
--   **Initial transducer orientation:** Place directional indicator towards right shoulder. Align image to include both aortic and mitral valve. Place mitral valve in center of screen.
+- **Anatomic landmarks**: Just left of sternum, 4th or 5th intercostal space
+- **Initial transducer orientation:** Place directional indicator towards right shoulder. Align image to include both aortic and mitral valve. Place mitral valve in center of screen.
 
 ![](image-2.png)
 
@@ -35,8 +35,8 @@ Figure 2: Parasternal Long Axis view with measurement. Note the right ventricle 
 
 ## 2. Parasternal Short Axis (PSSA)
 
--   **Anatomic landmarks**: Same location as PSLX. Rotate transducer 90<sup>o</sup> clockwise.
--   **Initial transducer orientation:** Directional indicator towards left shoulder. Fan transducer towards right shoulder for image of aortic valve. Fan transducer towards left hip for image of mid LV cavity.
+- **Anatomic landmarks**: Same location as PSLX. Rotate transducer 90<sup>o</sup> clockwise.
+- **Initial transducer orientation:** Directional indicator towards left shoulder. Fan transducer towards right shoulder for image of aortic valve. Fan transducer towards left hip for image of mid LV cavity.
 
 ![](image-3.png)
 
@@ -44,8 +44,8 @@ Figure 3: PSSA view with right ventricle **(RV),** circular left ventricle **(LV
 
 ## 3. Apical 4-chamber (A4)
 
--   **Anatomic landmarks**: Point of Maximal Impulse (usually 2 cm below nipple).
--   **Initial transducer orientation:** Directional indicator towards left axilla with transducer angled towards right shoulder. Try to locate over the true apex of the heart and align both tricuspid and mitral valves. Septum should be vertical in image.
+- **Anatomic landmarks**: Point of Maximal Impulse (usually 2 cm below nipple).
+- **Initial transducer orientation:** Directional indicator towards left axilla with transducer angled towards right shoulder. Try to locate over the true apex of the heart and align both tricuspid and mitral valves. Septum should be vertical in image.
 
 ![](image-4.png)
 
@@ -53,8 +53,8 @@ Figure 4: Apical 4 Chamber view demonstrating the right ventricle **(RV)**, righ
 
 ## 4. Subxiphoid
 
--   **Anatomic landmarks**: Transducer just below xiphoid process. Slightly to patient’s right.
--   **Initial transducer orientation:** Transducer marker towards patient’s **_left_** with transducer angled towards left shoulder. (Transducer is flipped from FAST view due to flipped screen indicator in cardiac imaging). Flatten transducer on abdomen.
+- **Anatomic landmarks**: Transducer just below xiphoid process. Slightly to patient’s right.
+- **Initial transducer orientation:** Transducer marker towards patient’s **_left_** with transducer angled towards left shoulder. (Transducer is flipped from FAST view due to flipped screen indicator in cardiac imaging). Flatten transducer on abdomen.
 
 ![](image-5.png)
 
@@ -100,6 +100,6 @@ Anterior fat pad can be mistaken for pericardial effusion, but will have interna
 
 ## References
 
--   Randazzo MR et al. _Acad Emerg Med_, 2003. PMID: [12957982](http://www.ncbi.nlm.nih.gov/pubmed/?term=Randazzo+Acad+Emerg+Med%2C+2003.)
+- Randazzo MR et al. _Acad Emerg Med_, 2003. PMID: [12957982](http://www.ncbi.nlm.nih.gov/pubmed/?term=Randazzo+Acad+Emerg+Med%2C+2003.)
 
--   Nagdev A, Stone MB. _Resuscitation_, 2011. PMID: [21397379](http://www.ncbi.nlm.nih.gov/pubmed/?term=Nagdev%2C+A.%2C+%26+Stone%2C+M.+B.+Resuscitation%2C+2011.)
+- Nagdev A, Stone MB. _Resuscitation_, 2011. PMID: [21397379](http://www.ncbi.nlm.nih.gov/pubmed/?term=Nagdev%2C+A.%2C+%26+Stone%2C+M.+B.+Resuscitation%2C+2011.)
