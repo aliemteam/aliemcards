@@ -35,10 +35,11 @@
     a
         color: $dark-gray
         text-decoration: none
+        font-size: 0.9em
         display: block
         padding: 10px 0
+        transition: $link-transition
         &:hover
-            background-color: white
             color: $primary
 
 .header__nav--open
@@ -56,11 +57,14 @@
         font-size: inherit
         li
             display: inline
+            padding-right: 10px
         a
             display: inline-block
-            padding: 8px 32px
+            margin-top: 5px
+            padding: 2px 8px
             &:hover
-                background-color: transparent
+                color: $primary
+                border-radius: 2px
     .header__nav--open,
     .header__nav--closed
         display: initial

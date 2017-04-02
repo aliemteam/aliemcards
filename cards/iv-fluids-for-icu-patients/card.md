@@ -28,9 +28,9 @@ categories:
 
 [Yunos et al JAMA 2012 study:](https://www.ncbi.nlm.nih.gov/pubmed/?term=23073953)
 
--   **Design:** Prospective open, label sequential study of 760 ICU patients (control) and 773 ICU patients (study group) at single hospital in Melbourne, Australia
--   **Control period:** Standard IVF per physician preference
--   **Study period:** Chloride-rich IVF (0.9% saline, 4% succinylated gelatin solution, 4% albumin) became restricted and required specialist approval. Standard fluids allowed were chloride-restrictive fluids (Hartmann solution – similar to Lactated Ringer’s, Plasma-Lyte 148, chloride-poor 20% albumin)
+- **Design:** Prospective open, label sequential study of 760 ICU patients (control) and 773 ICU patients (study group) at single hospital in Melbourne, Australia
+- **Control period:** Standard IVF per physician preference
+- **Study period:** Chloride-rich IVF (0.9% saline, 4% succinylated gelatin solution, 4% albumin) became restricted and required specialist approval. Standard fluids allowed were chloride-restrictive fluids (Hartmann solution – similar to Lactated Ringer’s, Plasma-Lyte 148, chloride-poor 20% albumin)
 
 |                                                                            |  Control period (Chloride-liberal) | Study period (Chloride-restricted)  |  P value  | Odds ratio for Cl-restrictive  fluid use |
 | -------------------------------------------------------------------------- | ---------------------------------: | ----------------------------------: | --------: | ---------------------------------------: |
@@ -44,5 +44,5 @@ categories:
 
 ## References
 
--   [Yunos NM, Bellomo R, Hegarty C, Story D, Ho L, Bailey M. Association between a chloride-liberal vs chloride-restrictive intravenous fluid administration strategy and kidney injury in critically ill adults. JAMA. 2012 Oct 17;308(15):1566-72. doi: 10.1001/jama.2012.13356.](https://www.ncbi.nlm.nih.gov/pubmed/?term=23073953)
--   [http://www.medscape.org/viewarticle/503138](http://www.medscape.org/viewarticle/503138%20)
+- [Yunos NM, Bellomo R, Hegarty C, Story D, Ho L, Bailey M. Association between a chloride-liberal vs chloride-restrictive intravenous fluid administration strategy and kidney injury in critically ill adults. JAMA. 2012 Oct 17;308(15):1566-72. doi: 10.1001/jama.2012.13356.](https://www.ncbi.nlm.nih.gov/pubmed/?term=23073953)
+- [http://www.medscape.org/viewarticle/503138](http://www.medscape.org/viewarticle/503138%20)

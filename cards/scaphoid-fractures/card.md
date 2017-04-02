@@ -12,9 +12,9 @@ categories:
 
 # Scaphoid Fracture - Adult
 
--   **Most common** carpal fracture (70%), followed by triquetral and trapezium
--   **Initial x-ray** (full scaphoid series): **Specificity is 100%** but **Sensitivity is 80%**
--   **Pre-test probability** of scaphoid fracture in patient with scaphoid wrist pain and non-diagnostic x-rays is about **25%** (17-38% across 4 studies in this meta-analysis)
+- **Most common** carpal fracture (70%), followed by triquetral and trapezium
+- **Initial x-ray** (full scaphoid series): **Specificity is 100%** but **Sensitivity is 80%**
+- **Pre-test probability** of scaphoid fracture in patient with scaphoid wrist pain and non-diagnostic x-rays is about **25%** (17-38% across 4 studies in this meta-analysis)
 
 ## Physical Exam
 
@@ -33,8 +33,8 @@ categories:
 | Discoloration             |       0.9 [0.3-2.8]      |      1.0 [0.73-1.38]     |
 | Resisted Pronation        |      0.09 [0.6-1.3]      |     1.44 [0.54-3.87]     |
 
--   **_Clamp Sign:_** Ask the patient “Exactly where does it hurt?” The patient will form a clamp with opposite thumb and index finger on both sides of the thumb
--   **_Pain with resisted supination:_** Hold the hand of the injured extremity with the patient’s forearm in neutral position. Patient attempts to supination, resulting in pain when the examiner resists.
+- **_Clamp Sign:_** Ask the patient “Exactly where does it hurt?” The patient will form a clamp with opposite thumb and index finger on both sides of the thumb
+- **_Pain with resisted supination:_** Hold the hand of the injured extremity with the patient’s forearm in neutral position. Patient attempts to supination, resulting in pain when the examiner resists.
 
 | **Imaging**                          | **Positive LR** [95% CI] | **Negative LR** [95% CI] |
 | ------------------------------------ | :----------------------: | :----------------------: |
@@ -49,16 +49,16 @@ categories:
 
 ## Management Plan Based on X-Ray Findings
 
--   Displaced (>1 mm) or proximal pole frature: Orthopedic/Hand consult in ED
--   Non- or minimally displaced fracture: Splint and Ortho/Hand clinic follow up in 5-7 days
--   Suspected fracture but non-diagnostics x-rays: Splint and follow up with primary care physician or Ortho/Hand clinic up for repeat exam and potentially repeat x-rays in 10-14 days
+- Displaced (>1 mm) or proximal pole frature: Orthopedic/Hand consult in ED
+- Non- or minimally displaced fracture: Splint and Ortho/Hand clinic follow up in 5-7 days
+- Suspected fracture but non-diagnostics x-rays: Splint and follow up with primary care physician or Ortho/Hand clinic up for repeat exam and potentially repeat x-rays in 10-14 days
 
 ## Pearls
 
--   The clinical exam has **high sensitivity** but **low specificity**
--   **MRI is most sensitive and specific** imaging modality, but cost-benefit must be balanced with patient’s economic loss from being splinted or a missed fracture.
--   Avascular necrosis and nonunion can occur leading to carpal instability and osteoarthritis 
-    –   Those at greatest risk: Displaced scaphoid fractures and initially missed fractures
+- The clinical exam has **high sensitivity** but **low specificity**
+- **MRI is most sensitive and specific** imaging modality, but cost-benefit must be balanced with patient’s economic loss from being splinted or a missed fracture.
+- Avascular necrosis and nonunion can occur leading to carpal instability and osteoarthritis 
+  –   Those at greatest risk: Displaced scaphoid fractures and initially missed fractures
 
 ## References
 
