@@ -13,9 +13,9 @@ categories:
 
 **How to diagnosis a rash:**
 
-1.  Accurately describe the rash (eg. macule or nodule, vesicle or bulla)
-2.  Quickly "profile" the rash to see if it fits any classic pattern by patient age, rash distribution, or presence of hypotension
-3.  Apply an algorithm based on the rash type
+1. Accurately describe the rash (eg. macule or nodule, vesicle or bulla)
+2. Quickly "profile" the rash to see if it fits any classic pattern by patient age, rash distribution, or presence of hypotension
+3. Apply an algorithm based on the rash type
 
 ## Rash Descriptors
 
@@ -38,50 +38,50 @@ categories:
 
 **0-5 years:**
 
--   Meningococcemia        
--   Kawasaki disease        
--   Viral exanthema  
+- Meningococcemia        
+- Kawasaki disease        
+- Viral exanthema  
 
 **> 65 years:**
 
--   Pemphigus vulgaris
--   Sepsis
--   Menigococcemia
--   Toxic epidermal necrolysis
--   Stevens Johnson syndrome
--   Toxic shock syndrome  
+- Pemphigus vulgaris
+- Sepsis
+- Menigococcemia
+- Toxic epidermal necrolysis
+- Stevens Johnson syndrome
+- Toxic shock syndrome  
 
 ### Rash
 
 Diffuse Erythema:
 
--   Staph scalded skin syndrome
--   Staph/strep toxic shock syndrome
--   Necrotizing fasciitis
+- Staph scalded skin syndrome
+- Staph/strep toxic shock syndrome
+- Necrotizing fasciitis
 
 Mucosal Lesions
 
--   Erythema ultiforme major
--   Toxic epidermal necrolysis/Stevens Johnson syndrome
--   Pemphigus vulgaris
+- Erythema ultiforme major
+- Toxic epidermal necrolysis/Stevens Johnson syndrome
+- Pemphigus vulgaris
 
 Petechiae/Purpura
 
--   Menigococcemia
--   Necrotizing fasciitis
--   Vasculitis
--   Disseminated intravascular coagulopathy 
--   Rocky Mountain Spotted Fever
+- Menigococcemia
+- Necrotizing fasciitis
+- Vasculitis
+- Disseminated intravascular coagulopathy 
+- Rocky Mountain Spotted Fever
 
 ### Symptoms
 
 Hypotension
 
--   Meningococcemia
--   Toxic shock syndrome
--   Rocky Mountain Spotted Fever
--   Toxic epidermal necrolysis
--   Stevens Johnson syndrome
+- Meningococcemia
+- Toxic shock syndrome
+- Rocky Mountain Spotted Fever
+- Toxic epidermal necrolysis
+- Stevens Johnson syndrome
 
 ## Erythematous Rash
 
@@ -101,4 +101,4 @@ Hypotension
 
 ## References
 
--   [Murphy-Lavoie H, Le Gros TL. Emergent Diagnosis of the Unknown Rash. Emergency Medicine. 2010 March. PDF:](http://www.emedmag.com/PDF/042030006.pdf)
+- [Murphy-Lavoie H, Le Gros TL. Emergent Diagnosis of the Unknown Rash. Emergency Medicine. 2010 March. PDF:](http://www.emedmag.com/PDF/042030006.pdf)

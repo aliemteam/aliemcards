@@ -13,8 +13,8 @@ categories:
 
 Bacteremia = true-positive bacterial presence in bloodstream
 
--   Approximately 50% (+) blood cultures are false (+) from contaminants
--   Overall 4.1-7.3% incidence of true (+) blood cultures
+- Approximately 50% (+) blood cultures are false (+) from contaminants
+- Overall 4.1-7.3% incidence of true (+) blood cultures
 
 | Condition                                       | Pretest probability of bacteremia |
 | ----------------------------------------------- | :-------------------------------: |
@@ -44,31 +44,31 @@ Bacteremia = true-positive bacterial presence in bloodstream
 
 _At least 2 of following:_
 
--   Temperature &lt;36°C or >38°C
--   Heart rate >90 bpm
--   Respiratory rate > 22 / min, or pCO2 &lt;32 mmHg on ABG
--   WBC &lt;4K or >12K, or >10% bands
+- Temperature &lt;36°C or >38°C
+- Heart rate >90 bpm
+- Respiratory rate > 22 / min, or pCO2 &lt;32 mmHg on ABG
+- WBC &lt;4K or >12K, or >10% bands
 
 ## Shapiro clinical prediction rule for bacteremia
 
 _If suspect infection, blood cultures indicated if 1 major OR 2 minor criteria:_
 
--    **MAJOR:** 
+-  **MAJOR:** 
 
--   Endocarditis suspicion
--   Temperature >39.4°C
--   Indwelling vascular catheter
+- Endocarditis suspicion
+- Temperature >39.4°C
+- Indwelling vascular catheter
 
--   ** MINOR:** 
+- ** MINOR:** 
 
--   Temperature 38.3°C - 39.3°C
--   Age > 65 years
--   Chills
--   Vomiting
--   SBP &lt;90 mmHg
--   WBC >18K
--   Creatinine >2 mg/dL
+- Temperature 38.3°C - 39.3°C
+- Age > 65 years
+- Chills
+- Vomiting
+- SBP &lt;90 mmHg
+- WBC >18K
+- Creatinine >2 mg/dL
 
 ## References
 
--   [Coburn B, Morris AM, Tomlinson G, Detsky AS. Does this adult patient with suspected bacteremia require blood cultures? JAMA. 2012 Aug 1;308(5):502-11. doi: 10.1001/jama.2012.8262.](https://www.ncbi.nlm.nih.gov/pubmed/?term=22851117)
+- [Coburn B, Morris AM, Tomlinson G, Detsky AS. Does this adult patient with suspected bacteremia require blood cultures? JAMA. 2012 Aug 1;308(5):502-11. doi: 10.1001/jama.2012.8262.](https://www.ncbi.nlm.nih.gov/pubmed/?term=22851117)

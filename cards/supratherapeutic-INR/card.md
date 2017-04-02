@@ -21,21 +21,21 @@ categories:
 
 **Higher bleeding risk associated with coumadin**
 
--   NSAIDS: non-selective and COX-2 selective
--   Antiplatelet agents: <span class="drug">aspirin</span>, <span class="drug">clopidogrel</span>
--   <span class="drug">Clotrimoxazole</span>
--   Antibiotics (especially <span class="drug">fluoroquinolones</span>)
+- NSAIDS: non-selective and COX-2 selective
+- Antiplatelet agents: <span class="drug">aspirin</span>, <span class="drug">clopidogrel</span>
+- <span class="drug">Clotrimoxazole</span>
+- Antibiotics (especially <span class="drug">fluoroquinolones</span>)
 
 **Pearl**
 
--   Risk of intracranial hemorrhage doubles for every 1-point increase in INR
+- Risk of intracranial hemorrhage doubles for every 1-point increase in INR
 
 ## Causes for supratherapeutic INR >6
 
 [Hylek et al. JAMA 1998 study](https://www.ncbi.nlm.nih.gov/pubmed/9496982)
 
--   Retrospective case-control study of patients with INR >6
--   Enrolled 93 cases, 196 controls
+- Retrospective case-control study of patients with INR >6
+- Enrolled 93 cases, 196 controls
 
 <table>
 <colgroup>
@@ -90,5 +90,5 @@ categories:
 
 ## References
 
--   [Hylek EM, Heiman H, Skates SJ, Sheehan MA, Singer DE. Acetaminophen and other risk factors for excessive warfarin anticoagulation. JAMA. 1998 Mar 4;279(9):657-62](https://www.ncbi.nlm.nih.gov/pubmed/9496982)
--   [Holbrook A, Schulman S, Witt DM, Vandvik PO, Fish J, Kovacs MJ, Svensson PJ, Veenstra DL, Crowther M, Guyatt GH; American College of Chest Physicians.Evidence-based management of anticoagulant therapy: Antithrombotic Therapy and Prevention of Thrombosis, 9th ed: American College of Chest Physicians Evidence-Based Clinical Practice Guidelines.Chest. 2012 Feb;141(2 Suppl):e152S-84S. doi: 10.1378/chest.11-2295.](https://www.ncbi.nlm.nih.gov/pubmed/22315259)
+- [Hylek EM, Heiman H, Skates SJ, Sheehan MA, Singer DE. Acetaminophen and other risk factors for excessive warfarin anticoagulation. JAMA. 1998 Mar 4;279(9):657-62](https://www.ncbi.nlm.nih.gov/pubmed/9496982)
+- [Holbrook A, Schulman S, Witt DM, Vandvik PO, Fish J, Kovacs MJ, Svensson PJ, Veenstra DL, Crowther M, Guyatt GH; American College of Chest Physicians.Evidence-based management of anticoagulant therapy: Antithrombotic Therapy and Prevention of Thrombosis, 9th ed: American College of Chest Physicians Evidence-Based Clinical Practice Guidelines.Chest. 2012 Feb;141(2 Suppl):e152S-84S. doi: 10.1378/chest.11-2295.](https://www.ncbi.nlm.nih.gov/pubmed/22315259)

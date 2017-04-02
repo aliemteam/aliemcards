@@ -13,9 +13,9 @@ categories:
 
 General concepts for all 3 toxic alcohols:
 
--   Parent compounds (not metabolites) cause high osmolal gap
--   When NAD depleted, pyruvate converts to lactate - which then causes lactic acidosis
--   See metabolism of alcohols diagram below
+- Parent compounds (not metabolites) cause high osmolal gap
+- When NAD depleted, pyruvate converts to lactate - which then causes lactic acidosis
+- See metabolism of alcohols diagram below
 
 ## Methanol: Factoids
 
@@ -23,10 +23,10 @@ Solvent found in cleaning and printing solutions, adhesives, stains, paint remov
 
 **Pharmacology**:
 
--   Peak serum concentration 30-60 minutes, elimination half-life 12-20 hours
--   Permanent blindness reported at as little as 0.1 mL/kg (6-10 mL in adults)
--   Lethal dose = 1-2 mL/kg
--   Metabolite (eg. formic acid) causes toxicity, but does NOT cause osmolal gap
+- Peak serum concentration 30-60 minutes, elimination half-life 12-20 hours
+- Permanent blindness reported at as little as 0.1 mL/kg (6-10 mL in adults)
+- Lethal dose = 1-2 mL/kg
+- Metabolite (eg. formic acid) causes toxicity, but does NOT cause osmolal gap
 
 ## Methanol: Classic Presentation 
 
@@ -54,9 +54,9 @@ Solvent found in cleaning and printing solutions, adhesives, stains, paint remov
 </tbody>
 </table>
 
--   **CNS:** Headache, lethargy, confusion, Parkinsonian extrapyramidal symptoms
--   **Ocular:** Blurry vision, central scotoma, impaired pupillary response, photophobia, retinal edema (permanent damage in 25-33% of patients)
--   **GI:** Vomiting, abdominal pain, pancreatitis
+- **CNS:** Headache, lethargy, confusion, Parkinsonian extrapyramidal symptoms
+- **Ocular:** Blurry vision, central scotoma, impaired pupillary response, photophobia, retinal edema (permanent damage in 25-33% of patients)
+- **GI:** Vomiting, abdominal pain, pancreatitis
 
 ## Methanol: Stages of Presentation
 
@@ -70,8 +70,8 @@ Solvent found in cleaning and printing solutions, adhesives, stains, paint remov
 
 **Goal:** Prevent further formation of formic acid (using **<span class="drug">fomepizole</span>**) and eliminate toxic metabolites (through dialysis) 
 
--   **<span class="drug">Folic</span>** or folinic acid supplementation to enhance formate metabolism
--   **Antidote:** **<span class="drug">Fomipezole</span>** inhibits alcohol dehydrogenase (alternative = **<span class="drug">ethanol</span>**)
+- **<span class="drug">Folic</span>** or folinic acid supplementation to enhance formate metabolism
+- **Antidote:** **<span class="drug">Fomipezole</span>** inhibits alcohol dehydrogenase (alternative = **<span class="drug">ethanol</span>**)
 
 | **Fomipezole**   | **Dosing**                          |
 | ---------------- | ----------------------------------- |
@@ -88,7 +88,7 @@ Solvent found in cleaning and printing solutions, adhesives, stains, paint remov
 
 ## References
 
--   [Jammalamadaka D, Raissi S. Ethylene glycol, methanol and isopropyl alcohol intoxication. Am J Med Sci. 2010 Mar;339(3):276-81. doi: 10.1097/MAJ.0b013e3181c94601.](https://www.ncbi.nlm.nih.gov/pubmed/?term=20090509)
--   [Kraut JA, Kurtz I. Toxic alcohol ingestions: clinical features, diagnosis, and management. Clin J Am Soc Nephrol. 2008 Jan;3(1):208-25. Epub 2007 Nov 28.](https://www.ncbi.nlm.nih.gov/pubmed/?term=18045860)
--   [Marraffa JM, Cohen V, Howland MA. Antidotes for toxicological emergencies: a practical review. Am J Health Syst Pharm. 2012 Feb 1;69(3):199-212. doi: 10.2146/ajhp110014](https://www.ncbi.nlm.nih.gov/pubmed/?term=22261941)
--   [Barceloux DG, Bond GR, Krenzelok EP, Cooper H, Vale JA; American Academy of Clinical Toxicology Ad Hoc Committee on the Treatment Guidelines for Methanol Poisoning. American Academy of Clinical Toxicology practice guidelines on the treatment of methanol poisoning. J Toxicol Clin Toxicol. 2002;40(4):415-46.](https://www.ncbi.nlm.nih.gov/pubmed/?term=12216995)
+- [Jammalamadaka D, Raissi S. Ethylene glycol, methanol and isopropyl alcohol intoxication. Am J Med Sci. 2010 Mar;339(3):276-81. doi: 10.1097/MAJ.0b013e3181c94601.](https://www.ncbi.nlm.nih.gov/pubmed/?term=20090509)
+- [Kraut JA, Kurtz I. Toxic alcohol ingestions: clinical features, diagnosis, and management. Clin J Am Soc Nephrol. 2008 Jan;3(1):208-25. Epub 2007 Nov 28.](https://www.ncbi.nlm.nih.gov/pubmed/?term=18045860)
+- [Marraffa JM, Cohen V, Howland MA. Antidotes for toxicological emergencies: a practical review. Am J Health Syst Pharm. 2012 Feb 1;69(3):199-212. doi: 10.2146/ajhp110014](https://www.ncbi.nlm.nih.gov/pubmed/?term=22261941)
+- [Barceloux DG, Bond GR, Krenzelok EP, Cooper H, Vale JA; American Academy of Clinical Toxicology Ad Hoc Committee on the Treatment Guidelines for Methanol Poisoning. American Academy of Clinical Toxicology practice guidelines on the treatment of methanol poisoning. J Toxicol Clin Toxicol. 2002;40(4):415-46.](https://www.ncbi.nlm.nih.gov/pubmed/?term=12216995)

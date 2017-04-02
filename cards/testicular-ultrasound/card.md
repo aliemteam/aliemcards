@@ -22,15 +22,15 @@ categories:
 
 **Windows:**
 
-1.  **Transverse** **survey** of each testicle: Directional indicator oriented to patient’s right
-2.  **Longitudinal** **survey** of each testicle: Directional indicator oriented to patient’s head. The epididymis will be located posterolaterally to the testicle
-3.  **Doppler**: Color flow or Power Doppler of each testicle looking for flow and comparing each side. Begin with the unaffected testicle and adjust color gain to have a small but visible amount of flow. Then move to the affected testicle and compare flow with the same settings. Comparison of both sides is critical.
-4.  **Single midline view** of both testicles side by side if possible, both with and without color for comparison.
+1. **Transverse** **survey** of each testicle: Directional indicator oriented to patient’s right
+2. **Longitudinal** **survey** of each testicle: Directional indicator oriented to patient’s head. The epididymis will be located posterolaterally to the testicle
+3. **Doppler**: Color flow or Power Doppler of each testicle looking for flow and comparing each side. Begin with the unaffected testicle and adjust color gain to have a small but visible amount of flow. Then move to the affected testicle and compare flow with the same settings. Comparison of both sides is critical.
+4. **Single midline view** of both testicles side by side if possible, both with and without color for comparison.
 
 ## Color and Flow Comparison
 
--   Always compare flow relative to unaffected testicle.
--   Decreased or absent flow in the affected testicle suggests **torsion**
+- Always compare flow relative to unaffected testicle.
+- Decreased or absent flow in the affected testicle suggests **torsion**
 
 ![](image-1.png)
 
@@ -38,8 +38,8 @@ Figure 1: Left testicular torsion - midline transverse view demonstrating absen
 
 ## Color and Flow Comparison (cont’d)
 
--   Increased flow in the affected testicle or epididymis suggests orchitis and/or epididymitis (or a recently detorsed testicle if clinically consistent). 
--   Isolated orchitis is rare, **epididymitis** most common diagnosis.
+- Increased flow in the affected testicle or epididymis suggests orchitis and/or epididymitis (or a recently detorsed testicle if clinically consistent). 
+- Isolated orchitis is rare, **epididymitis** most common diagnosis.
 
 ![](image-2.png)
 
@@ -53,5 +53,5 @@ Torsion cannot be excluded with ultrasound, although a normal comprehensive spec
 
 ## References
 
--   Blaivas M, Sierzenski P. _Acad Emerg Med_, 2001. PMID: [11136158](http://www.ncbi.nlm.nih.gov/pubmed/11136158)
--   Blaivas M, et al. _Acad Emerg Med_, 2001. PMID: [11136159](http://www.ncbi.nlm.nih.gov/pubmed/11136159)
+- Blaivas M, Sierzenski P. _Acad Emerg Med_, 2001. PMID: [11136158](http://www.ncbi.nlm.nih.gov/pubmed/11136158)
+- Blaivas M, et al. _Acad Emerg Med_, 2001. PMID: [11136159](http://www.ncbi.nlm.nih.gov/pubmed/11136159)
