@@ -15,7 +15,7 @@
     "lint:markdown": "remark -q ./cards",
     "lint:typescript": "tslint --project . -t codeFrame",
     "lint:stylus": "stylint app/assets/css",
-    "s3": "aws s3 sync ./cards s3://aliemcards --acl public-read --exclude \".*\" --exclude \"*/.*\" --exclude \"*/*.md\" --delete; fi",
+    "s3": "aws s3 sync ./cards s3://aliemcards --acl public-read --exclude \".*\" --exclude \"*/.*\" --exclude \"*/*.md\" --delete",
     "now-build": "echo build step skipped",
     "build": "gulp __build && NODE_ENV=production webpack"
   },
