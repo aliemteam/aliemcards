@@ -8,16 +8,17 @@ updates: null
 categories:
     - Ultrasound
     - Radiology
-
 ---
 
 # Causes of Elevated Lactate
 
 ## High lactate levels associated with worse prognosis in medical and trauma patients
--   Level &gt;2 mmol/L is abnormal
--   Level &gt;4 mmol/L suggests tissue hypoperfusion
+
+- Level >2 mmol/L is abnormal
+- Level >4 mmol/L suggests tissue hypoperfusion
 
 ## Causes for elevation in lactate that is NOT related to shock
+
 <table>
 <colgroup>
 <col width="50%" />
@@ -80,5 +81,5 @@ O2 use<br />
 
 ## References
 
--   [Strehlow MC.Early identification of shock in critically ill patients. Emerg Med Clin North Am. 2010 Feb;28(1):57-66, vii. doi: 10.1016/j.emc.2009.09.006.](http://www.ncbi.nlm.nih.gov/pubmed/19945598)
--   [Perera P et al. Rapid Ultrasound in SHock in the Evaluation of the Critically lll. EMCNA 2010; 28: 29-56.](http://www.ncbi.nlm.nih.gov/pubmed/19945597)
+- [Strehlow MC.Early identification of shock in critically ill patients. Emerg Med Clin North Am. 2010 Feb;28(1):57-66, vii. doi: 10.1016/j.emc.2009.09.006.](http://www.ncbi.nlm.nih.gov/pubmed/19945598)
+- [Perera P et al. Rapid Ultrasound in SHock in the Evaluation of the Critically lll. EMCNA 2010; 28: 29-56.](http://www.ncbi.nlm.nih.gov/pubmed/19945597)

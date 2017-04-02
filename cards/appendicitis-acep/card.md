@@ -16,8 +16,8 @@ categories:
 
 WBC count > 10K and likelihood of having appendicitis:
 
--   Positive LR 1.59, Negative LR 0.46 ([Cardall et al, Acad Emerg Med 2004](http://onlinelibrary.wiley.com/doi/10.1197/j.aem.2004.04.011/abstract))
--   Positive LR 2.47, Negative LR 0.25 ([Andersson, Br J Surg 2004](http://onlinelibrary.wiley.com/doi/10.1002/bjs.4464/abstract?deniedAccessCustomisedMessage=&userIsAuthenticated=false))
+- Positive LR 1.59, Negative LR 0.46 ([Cardall et al, Acad Emerg Med 2004](http://onlinelibrary.wiley.com/doi/10.1197/j.aem.2004.04.011/abstract))
+- Positive LR 2.47, Negative LR 0.25 ([Andersson, Br J Surg 2004](http://onlinelibrary.wiley.com/doi/10.1002/bjs.4464/abstract?deniedAccessCustomisedMessage=&userIsAuthenticated=false))
 
 ## Alvarado Score
 
@@ -36,10 +36,10 @@ WBC count > 10K and likelihood of having appendicitis:
 
 **_Score:_** 
 
--   1-4 (appendicitis unlikely)
--   5-6 (possible)
--   7-8 (probable)
--   9-10 (very probable)
+- 1-4 (appendicitis unlikely)
+- 5-6 (possible)
+- 7-8 (probable)
+- 9-10 (very probable)
 
 However, 0-8% of patients with Score &lt; 5 had appendicitis
 
@@ -66,18 +66,18 @@ Beware of patients &lt;10 yr and >60 yr old for atypical presentations
 
 **_Ultrasound_**: Appendix > 6 mm in diameter, non-compressible appx, appendiceal tenderness 
 
--   Positive LR 17.2-49.5
--   Negative LR 0.01-0.14
+- Positive LR 17.2-49.5
+- Negative LR 0.01-0.14
 
 **_CT_**: Unclear about additional benefit of PO/IV contrast. Many give PO/IV because ofless intraperitoneal fat in children (less obvious stranding on noncontrast study)
 
 [Kharbanda, Pediatrics 2005:](http://pediatrics.aappublications.org/content/116/3/709.short) In kids, if 0/5 of the following criteria: 
 
-1.  Nausea
-2.  Right lower quadrant pain
-3.  Difficulty walking
-4.  Rebound tenderness
-5.  Absolute PMN>6,750, then the patient is very unlikely to have appendicitis (negative LR=0.058). (\* see Fagan nomogram)
+1. Nausea
+2. Right lower quadrant pain
+3. Difficulty walking
+4. Rebound tenderness
+5. Absolute PMN>6,750, then the patient is very unlikely to have appendicitis (negative LR=0.058). (\* see Fagan nomogram)
 
 ## Fagan nomogram
 
@@ -87,4 +87,4 @@ Draw a connecting your pre-test probability and your likelihood ratio. This prov
 
 ## References
 
--   [Howell JM, Eddy OL, Lukens TW, Thiessen ME, Weingart SD, Decker WW; American College of Emergency Physicians.Clinical policy: Critical issues in the evaluation and management of emergency department patients with suspected appendicitis. Ann Emerg Med. 2010 Jan;55(1):71-116. doi: 10.1016/j.annemergmed.2009.10.004.](http://www.ncbi.nlm.nih.gov/pubmed/20116016)
+- [Howell JM, Eddy OL, Lukens TW, Thiessen ME, Weingart SD, Decker WW; American College of Emergency Physicians.Clinical policy: Critical issues in the evaluation and management of emergency department patients with suspected appendicitis. Ann Emerg Med. 2010 Jan;55(1):71-116. doi: 10.1016/j.annemergmed.2009.10.004.](http://www.ncbi.nlm.nih.gov/pubmed/20116016)

@@ -16,8 +16,8 @@ _Clinical Toxicology_ has published guidelines for out-of-hospital management o
 
 **There are 2 caveats to be aware of regarding these guidelines.**
 
-1.  They were developed between 2005 and 2007. New medications have been approved since that time and there may be more recent data available.
-2.  As with any poisoning, dose is only one factor when determining disposition. Consideration should also be given to intent, underlying medical conditions, co-ingestion of other medications, presence of symptoms, and drug formulation.
+1. They were developed between 2005 and 2007. New medications have been approved since that time and there may be more recent data available.
+2. As with any poisoning, dose is only one factor when determining disposition. Consideration should also be given to intent, underlying medical conditions, co-ingestion of other medications, presence of symptoms, and drug formulation.
 
 This ALiEM Card summarizes the **pediatric ingestion dose thresholds** for referral to an Emergency Department.
 
@@ -35,16 +35,16 @@ This ALiEM Card summarizes the **pediatric ingestion dose thresholds** for ref
 
 **Age &lt;6 years (Acute & RSTI)**
 
--   ≥ 200 mg/kg
--   ≥ 200mg/kg over 24 hours, or
--   ≥ 150 mg/kg per 24 hours x 2 days, or
--   ≥ 100 mg/kg per 24 hours x 3 days
+- ≥ 200 mg/kg
+- ≥ 200mg/kg over 24 hours, or
+- ≥ 150 mg/kg per 24 hours x 2 days, or
+- ≥ 100 mg/kg per 24 hours x 3 days
 
-**Age &gt;6 years (Acute & RSTI)**
+**Age >6 years (Acute & RSTI)**
 
--   ≥ 10 g or ≥ 200 mg/kg
--   ≥ 10 g or ≥ 200 mg/kg over 24 hour, or
--   ≥ 6 g or ≥ 150 mg/kg per 24 hours x 2 days
+- ≥ 10 g or ≥ 200 mg/kg
+- ≥ 10 g or ≥ 200 mg/kg over 24 hour, or
+- ≥ 6 g or ≥ 150 mg/kg per 24 hours x 2 days
 
 ## Atypical Antipsychotics
 
@@ -143,8 +143,8 @@ More than witnessed taste/lick or unknown amount
 
 **Oil of Wintergreen**:
 
--   Age &lt; 6 years: more than a taste/lick
--   Age ≥ 6 years: more than 4 mL
+- Age &lt; 6 years: more than a taste/lick
+- Age ≥ 6 years: more than 4 mL
 
 ## Selective Serotonin Reuptake Inhibitors
 
@@ -173,15 +173,15 @@ More than witnessed taste/lick or unknown amount
 
 ## References
 
-1.  Wax P, Erdman A, Chyka P, et al. beta-blocker ingestion: an evidence-based consensus guideline for out-of-hospital management. Clin Toxicol (Phila). 2005;43(3):131-146. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/15906457)
-2.  Caravati E, Erdman A, Christianson G, et al. Ethylene glycol exposure: an evidence-based consensus guideline for out-of-hospital management. Clin Toxicol (Phila). 2005;43(5):327-345. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/16235508)
-3.  Manoguerra A, Erdman A, Booze L, et al. Iron ingestion: an evidence-based consensus guideline for out-of-hospital management. Clin Toxicol (Phila). 2005;43(6):553-570. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/16255338)
-4.  Olson K, Erdman A, Woolf A, et al. Calcium channel blocker ingestion: an evidence-based consensus guideline for out-of-hospital management. Clin Toxicol (Phila). 2005;43(7):797-822. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/16440509)
-5.  Dart R, Erdman A, Olson K, et al. Acetaminophen poisoning: an evidence-based consensus guideline for out-of-hospital management. Clin Toxicol (Phila). 2006;44(1):1-18. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/16496488)
-6.  Scharman E, Erdman A, Wax P, et al. Diphenhydramine and dimenhydrinate poisoning: an evidence-based consensus guideline for out-of-hospital management. Clin Toxicol (Phila). 2006;44(3):205-223. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/16749537)
-7.  Manoguerra A, Erdman A, Wax P, et al. Camphor Poisoning: an evidence-based practice guideline for out-of-hospital management. Clin Toxicol (Phila). 2006;44(4):357-370. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/16809137)
-8.  Caravati E, Erdman A, Scharman E, et al. Long-acting anticoagulant rodenticide poisoning: an evidence-based consensus guideline for out-of-hospital management. Clin Toxicol (Phila). 2007;45(1):1-22. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/17357377)
-9.  Chyka P, Erdman A, Christianson G, et al. Salicylate poisoning: an evidence-based consensus guideline for out-of-hospital management. Clin Toxicol (Phila). 2007;45(2):95-131. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/17364628)
+1. Wax P, Erdman A, Chyka P, et al. beta-blocker ingestion: an evidence-based consensus guideline for out-of-hospital management. Clin Toxicol (Phila). 2005;43(3):131-146. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/15906457)
+2. Caravati E, Erdman A, Christianson G, et al. Ethylene glycol exposure: an evidence-based consensus guideline for out-of-hospital management. Clin Toxicol (Phila). 2005;43(5):327-345. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/16235508)
+3. Manoguerra A, Erdman A, Booze L, et al. Iron ingestion: an evidence-based consensus guideline for out-of-hospital management. Clin Toxicol (Phila). 2005;43(6):553-570. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/16255338)
+4. Olson K, Erdman A, Woolf A, et al. Calcium channel blocker ingestion: an evidence-based consensus guideline for out-of-hospital management. Clin Toxicol (Phila). 2005;43(7):797-822. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/16440509)
+5. Dart R, Erdman A, Olson K, et al. Acetaminophen poisoning: an evidence-based consensus guideline for out-of-hospital management. Clin Toxicol (Phila). 2006;44(1):1-18. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/16496488)
+6. Scharman E, Erdman A, Wax P, et al. Diphenhydramine and dimenhydrinate poisoning: an evidence-based consensus guideline for out-of-hospital management. Clin Toxicol (Phila). 2006;44(3):205-223. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/16749537)
+7. Manoguerra A, Erdman A, Wax P, et al. Camphor Poisoning: an evidence-based practice guideline for out-of-hospital management. Clin Toxicol (Phila). 2006;44(4):357-370. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/16809137)
+8. Caravati E, Erdman A, Scharman E, et al. Long-acting anticoagulant rodenticide poisoning: an evidence-based consensus guideline for out-of-hospital management. Clin Toxicol (Phila). 2007;45(1):1-22. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/17357377)
+9. Chyka P, Erdman A, Christianson G, et al. Salicylate poisoning: an evidence-based consensus guideline for out-of-hospital management. Clin Toxicol (Phila). 2007;45(2):95-131. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/17364628)
 10. Woolf A, Erdman A, Nelson L, et al. Tricyclic antidepressant poisoning: an evidence-based consensus guideline for out-of-hospital management. Clin Toxicol (Phila). 2007;45(3):203-233. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/17453872)
 11. Nelson L, Erdman A, Booze L, et al. Selective serotonin reuptake inhibitor poisoning: An evidence-based consensus guideline for out-of-hospital management. Clin Toxicol (Phila). 2007;45(4):315-332. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/17486478)
 12. Chyka P, Erdman A, Manoguerra A, et al. Dextromethorphan poisoning: an evidence-based consensus guideline for out-of-hospital management. Clin Toxicol (Phila). 2007;45(6):662-677. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/17849242)

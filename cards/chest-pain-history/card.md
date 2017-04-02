@@ -16,18 +16,18 @@ categories:
 
 **Clinical factors that INCREASE likelihood of ACS/AMI:**
 
-1.  CP radiating bilaterally > right > left
-2.  Diaphoresis associated with CP
-3.  N/V associated with CP
-4.  Pain with exertion
+1. CP radiating bilaterally > right > left
+2. Diaphoresis associated with CP
+3. N/V associated with CP
+4. Pain with exertion
 
 **Clinical factors that DECREASE likelihood of ACS/AMI:**
 Chest pain that is:
 
-1.  Pleuritic
-2.  Positional
-3.  Sharp, stabbing
-4.  Reproducible with palpation
+1. Pleuritic
+2. Positional
+3. Sharp, stabbing
+4. Reproducible with palpation
 
 ## Severity of pain is not related to likelihood of AMI at presentation, or composite end points (death, revascularization, or AMI) at 30 days
 
@@ -35,14 +35,14 @@ Chest pain that is:
 
 **Objective:** 
 
--   Determine any correlation between severity of CP and the risk of AMI at presentation, or composite end points (death, revascularization, or acute myocardial infarction) at 30 days
--   Severe CP was defined as 9–10 on a 10-point pain scale. 
+- Determine any correlation between severity of CP and the risk of AMI at presentation, or composite end points (death, revascularization, or acute myocardial infarction) at 30 days
+- Severe CP was defined as 9–10 on a 10-point pain scale. 
 
 **Results:** (n=3,306)
 
--   Risk of AMI with Pain Score of 1–8 (82% of patients) = 3.0%
--   Risk of AMI with Pain Score of 9–10 (18% of patients) = 3.9%
--   Not statistically significant different
+- Risk of AMI with Pain Score of 1–8 (82% of patients) = 3.0%
+- Risk of AMI with Pain Score of 9–10 (18% of patients) = 3.9%
+- Not statistically significant different
 
 ## Many “atypical” symptoms are more likely to render the diagnosis of ACS than traditional “typical” symptoms 
 
@@ -50,21 +50,21 @@ Chest pain that is:
 
 **Objective:** 
 
--   Assess the value of individual symptoms for predicting a diagnosis of AMI or the occurrence of adverse events (death, AMI, revascularization via PCI or CABG) within 6 months
+- Assess the value of individual symptoms for predicting a diagnosis of AMI or the occurrence of adverse events (death, AMI, revascularization via PCI or CABG) within 6 months
 
 **Results:** (n=796)
 
--   Strongest positive predictor of AMI: 
--   Diaphoresis with CP
--   Other positive predictors of AMI and adverse events
--   Nausea and vomiting with CP
--   CP with radiation to both shoulders > right shoulder > left shoulder
--   Central chest pain
--   Strongest negative predictor of AMI
--   Pain located in the left anterior chest
--   Other negative predictors of AMI and adverse events
--   CP described as pain being the same as previous AMI
--   Presence of CP at rest
+- Strongest positive predictor of AMI: 
+- Diaphoresis with CP
+- Other positive predictors of AMI and adverse events
+- Nausea and vomiting with CP
+- CP with radiation to both shoulders > right shoulder > left shoulder
+- Central chest pain
+- Strongest negative predictor of AMI
+- Pain located in the left anterior chest
+- Other negative predictors of AMI and adverse events
+- CP described as pain being the same as previous AMI
+- Presence of CP at rest
 
 ## No characteristics of CP alone, or in combination, identify a group of patients that can be safely discharge home without further diagnostic testing
 
@@ -102,13 +102,13 @@ Chest pain that is:
 
 **Results:** (n=893)
 
--    Predictive of ACS/AMI:
-    -   Exertional pain
-    -   Pain radiating to both arms > right arm
--    NOT predictive of ACS/AMI: 
-    -   Presence of chest wall tenderness
-    -   Nausea or vomiting
-    -   Diaphoresis
+-  Predictive of ACS/AMI:
+  - Exertional pain
+  - Pain radiating to both arms > right arm
+-  NOT predictive of ACS/AMI: 
+  - Presence of chest wall tenderness
+  - Nausea or vomiting
+  - Diaphoresis
 
 ## History alone can help, but can NOT rule out ACS/AMI! 
 
@@ -134,10 +134,10 @@ Chest pain that is:
 
 ## References
 
--   [M. Edwards, A.M. Chang, A.C. Matsuura, M. Green, J.M. Robey, and J.E. Hollander, "Relationship between pain severity and outcomes in patients presenting with potential acute coronary syndromes.", Annals of emergency medicine, 2011.](http://www.ncbi.nlm.nih.gov/pubmed/21802776)
--   [R. Body, S. Carley, C. Wibberley, G. McDowell, J. Ferguson, and K. Mackway-Jones, "The value of symptoms and signs in the emergent diagnosis of acute coronary syndromes.", Resuscitation, 2009](http://www.ncbi.nlm.nih.gov/pubmed/20036454)
--   [C.J. Swap, and J.T. Nagurney, "Value and limitations of chest pain history in the evaluation of patients with suspected acute coronary syndromes.", JAMA : the journal of the American Medical Association, 2005.](%20http://www.ncbi.nlm.nih.gov/pubmed/16304077)
--   [S. Goodacre, T. Locker, F. Morris, and S. Campbell, "How useful are clinical features in the diagnosis of acute, undifferentiated chest pain?", Academic emergency medicine : official journal of the Society for Academic Emergency Medicine, 2002.](http://www.ncbi.nlm.nih.gov/pubmed/11874776)
--   [A.A. Panju, B.R. Hemmelgarn, G.H. Guyatt, and D.L. Simel, "The rational clinical examination. Is this patient having a myocardial infarction?", JAMA : the journal of the American Medical Association, 1998.](http://www.ncbi.nlm.nih.gov/pubmed/9786377)
--   [S.R. Pitts, R.W. Niska, J. Xu, and C.W. Burt, "National Hospital Ambulatory Medical Care Survey: 2006 emergency department summary.", National health statistics reports, 2008.](http://www.ncbi.nlm.nih.gov/pubmed/18958996)
--   [C.V. Pollack, F.D. Sites, F.S. Shofer, K.L. Sease, and J.E. Hollander, "Application of the TIMI risk score for unstable angina and non-ST elevation acute coronary syndrome to an unselected emergency department chest pain population.", Academic emergency medicine : official journal of the Society for Academic Emergency Medicine, 2005.](http://www.ncbi.nlm.nih.gov/pubmed/16365321)
+- [M. Edwards, A.M. Chang, A.C. Matsuura, M. Green, J.M. Robey, and J.E. Hollander, "Relationship between pain severity and outcomes in patients presenting with potential acute coronary syndromes.", Annals of emergency medicine, 2011.](http://www.ncbi.nlm.nih.gov/pubmed/21802776)
+- [R. Body, S. Carley, C. Wibberley, G. McDowell, J. Ferguson, and K. Mackway-Jones, "The value of symptoms and signs in the emergent diagnosis of acute coronary syndromes.", Resuscitation, 2009](http://www.ncbi.nlm.nih.gov/pubmed/20036454)
+- [C.J. Swap, and J.T. Nagurney, "Value and limitations of chest pain history in the evaluation of patients with suspected acute coronary syndromes.", JAMA : the journal of the American Medical Association, 2005.](%20http://www.ncbi.nlm.nih.gov/pubmed/16304077)
+- [S. Goodacre, T. Locker, F. Morris, and S. Campbell, "How useful are clinical features in the diagnosis of acute, undifferentiated chest pain?", Academic emergency medicine : official journal of the Society for Academic Emergency Medicine, 2002.](http://www.ncbi.nlm.nih.gov/pubmed/11874776)
+- [A.A. Panju, B.R. Hemmelgarn, G.H. Guyatt, and D.L. Simel, "The rational clinical examination. Is this patient having a myocardial infarction?", JAMA : the journal of the American Medical Association, 1998.](http://www.ncbi.nlm.nih.gov/pubmed/9786377)
+- [S.R. Pitts, R.W. Niska, J. Xu, and C.W. Burt, "National Hospital Ambulatory Medical Care Survey: 2006 emergency department summary.", National health statistics reports, 2008.](http://www.ncbi.nlm.nih.gov/pubmed/18958996)
+- [C.V. Pollack, F.D. Sites, F.S. Shofer, K.L. Sease, and J.E. Hollander, "Application of the TIMI risk score for unstable angina and non-ST elevation acute coronary syndrome to an unselected emergency department chest pain population.", Academic emergency medicine : official journal of the Society for Academic Emergency Medicine, 2005.](http://www.ncbi.nlm.nih.gov/pubmed/16365321)
