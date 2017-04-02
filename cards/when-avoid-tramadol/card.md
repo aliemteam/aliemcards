@@ -15,10 +15,10 @@ categories:
 
 Avoid tramadol in:
 
--   Seizure patients
--   Renal patients
--   Patients taking antidepressants
--   Patients taking warfarin
+- Seizure patients
+- Renal patients
+- Patients taking antidepressants
+- Patients taking warfarin
 
 Tramadol is a popular agent for the treatment of pain and offers an alternative to opioid therapy. Tramadol exerts its analgesic effects through weak stimulation of the mu opioid receptor as well as inhibiting the reuptake of serotonin and norepinephrine similar to some antidepressant medications. While tramadol may be an effective option for mild to moderate pain in otherwise healthy individuals, the following patients may benefit from an alternative analgesic selection:
 
@@ -33,7 +33,7 @@ _NOTE: Linezolid and some Parkinson’s medications fall into the class of MAO i
 
 ## References
 
--   [Gardner JS, et al. Tramadol and seizures: a surveillance study in a managed care population. Pharmacotherapy 2000;20(12)1423-31.](http://www.ncbi.nlm.nih.gov/pubmed/11130214)
--   [Park SH, et al. Serotonin syndrome: is it a reason to avoid the use of tramadol with antidepressants? J Pharm Pract. 2013 Oct 23.](http://www.ncbi.nlm.nih.gov/pubmed/24153222)
--   Tramadol: Drug Information. Lexi-Comp OnlineTM , Lexi-DrugsTM, Hudson, Ohio: Lexi-Comp, Inc.; December 17, 2013.
--   Nelson LS, Olsen D. Chapter 38. Opioids. In: Nelson LS, Olsen D, eds. Goldfrank’s Toxicologic Emergencies. 9th ed. New York: McGraw-Hill; 2011. Accessed December 17, 2013.
+- [Gardner JS, et al. Tramadol and seizures: a surveillance study in a managed care population. Pharmacotherapy 2000;20(12)1423-31.](http://www.ncbi.nlm.nih.gov/pubmed/11130214)
+- [Park SH, et al. Serotonin syndrome: is it a reason to avoid the use of tramadol with antidepressants? J Pharm Pract. 2013 Oct 23.](http://www.ncbi.nlm.nih.gov/pubmed/24153222)
+- Tramadol: Drug Information. Lexi-Comp OnlineTM , Lexi-DrugsTM, Hudson, Ohio: Lexi-Comp, Inc.; December 17, 2013.
+- Nelson LS, Olsen D. Chapter 38. Opioids. In: Nelson LS, Olsen D, eds. Goldfrank’s Toxicologic Emergencies. 9th ed. New York: McGraw-Hill; 2011. Accessed December 17, 2013.

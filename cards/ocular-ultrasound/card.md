@@ -22,8 +22,8 @@ categories:
 
 **Windows:** Visualize the eye in 2 planes:
 
-1.  **Longitudinal:** Commence at the midline of the eye. The directional indicator is oriented towards the vertex of the skull. Stabilize the transducer by resting your hand against the bridge of the patient’s nose or eyebrow, taking care not to apply any more pressure to the globe than is necessary to obtain adequate contact. The transducer should be ‘fanned’ from left to right to visualize the entire globe.
-2.  **Transverse:** Rotate the transducer 90 degrees, with the directional indicator oriented towards the patient’s right, and visualize the globe in a second plane. The transducer should be ‘fanned’ up and down in order to properly visualize all structures of the eye.
+1. **Longitudinal:** Commence at the midline of the eye. The directional indicator is oriented towards the vertex of the skull. Stabilize the transducer by resting your hand against the bridge of the patient’s nose or eyebrow, taking care not to apply any more pressure to the globe than is necessary to obtain adequate contact. The transducer should be ‘fanned’ from left to right to visualize the entire globe.
+2. **Transverse:** Rotate the transducer 90 degrees, with the directional indicator oriented towards the patient’s right, and visualize the globe in a second plane. The transducer should be ‘fanned’ up and down in order to properly visualize all structures of the eye.
 
 **Tip:** The contralateral, or ‘unaffected’ eye may be scanned in an identical manner to compare ocular anatomy.
 
@@ -33,17 +33,17 @@ categories:
 
 Figure 1: Normal eye
 
--   **Anterior chamber** (a): Located between hyperechoic cornea anteriorly and **iris** posteriorly
--   **Lens** (L): Biconvex hyperechoic structure posterior to the anterior chamber (a).
--   **Vitreous chamber** (v): Is hypoechoic and encompasses most of the globe and the **retina** adheres to its posterior surface
--   **Optic nerve sheath** (n): Appears as a hypoechoic linear structure deep to the vitreous chamber
+- **Anterior chamber** (a): Located between hyperechoic cornea anteriorly and **iris** posteriorly
+- **Lens** (L): Biconvex hyperechoic structure posterior to the anterior chamber (a).
+- **Vitreous chamber** (v): Is hypoechoic and encompasses most of the globe and the **retina** adheres to its posterior surface
+- **Optic nerve sheath** (n): Appears as a hypoechoic linear structure deep to the vitreous chamber
 
 ## Ocular Pathologies
 
 **Detachments**
 
--   **Retinal:** Generally remains anchored to the optic disc in most posterior section of the eye; appears as a hyperechoic membrane floating in the vitreous chamber
--   **Vitreous:** May be difficult to distinguish from a retinal detachment; may have a V-OOshaped appearance, similar to retinal detachment, but is generally less intensely OOhyperechoic and is better visualized with a higher gain setting.
+- **Retinal:** Generally remains anchored to the optic disc in most posterior section of the eye; appears as a hyperechoic membrane floating in the vitreous chamber
+- **Vitreous:** May be difficult to distinguish from a retinal detachment; may have a V-OOshaped appearance, similar to retinal detachment, but is generally less intensely OOhyperechoic and is better visualized with a higher gain setting.
 
 **Hemorrhage:** Retinal vs vitreous often difficult to distinguish from each other. Hemorrhages will look like echogenic opacities in the vitreous chamber.
 
@@ -81,15 +81,15 @@ Figure 5: Globe rupture – irregular globe contour with collapsed anterior cham
 
 **Can’t visualize the eye adequately?**
 
--   Increase the amount of gel on the bioocclusive dressing, as this ‘evens out’ the surface of the eye for the transducer.
+- Increase the amount of gel on the bioocclusive dressing, as this ‘evens out’ the surface of the eye for the transducer.
 
 **Unsure if there is pathology in the vitreous chamber?**
 
--   In order to adequately assess the vitreous chamber for detachment or hemorrhage, the eye should be examined with both moderate AND high gain settings. Evaluate in a fixed forward gaze AND while the patient performs extraocular movements (kinetic echography).
+- In order to adequately assess the vitreous chamber for detachment or hemorrhage, the eye should be examined with both moderate AND high gain settings. Evaluate in a fixed forward gaze AND while the patient performs extraocular movements (kinetic echography).
 
 **Is it ever unsafe to perform the exam?**
 
--   Ocular ultrasound is contraindicated if there are obvious signs of open ocular trauma or globe rupture. Discontinue the examination if there are sonographic findings of globe rupture or retrobulbar hematoma.
+- Ocular ultrasound is contraindicated if there are obvious signs of open ocular trauma or globe rupture. Discontinue the examination if there are sonographic findings of globe rupture or retrobulbar hematoma.
 
 ## Pearls
 
@@ -105,6 +105,6 @@ CT imaging is more sensitive in the detection of radio-opaque foreign bodies, pa
 
 ## References
 
--   Blaivas M, et al. _Acad Emerg Med_, 2002. PMID: [12153883](http://www.ncbi.nlm.nih.gov/pubmed/?term=12153883)
+- Blaivas M, et al. _Acad Emerg Med_, 2002. PMID: [12153883](http://www.ncbi.nlm.nih.gov/pubmed/?term=12153883)
 
--   Kimberly HH, et al. _Acad Emerg Med_, 2008. PMID: [18275454](http://www.ncbi.nlm.nih.gov/pubmed/18275454)
+- Kimberly HH, et al. _Acad Emerg Med_, 2008. PMID: [18275454](http://www.ncbi.nlm.nih.gov/pubmed/18275454)

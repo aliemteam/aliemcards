@@ -29,8 +29,8 @@ Figure 1: Transducer positions for aortic scan. Proximal (A), Mid-aorta (B), Dis
 
 ## Normal Reference Measurements
 
--   Aorta from outer wall to outer wall &lt;3 cm
--   Iliac vessels at bifurcation, outer wall to outer wall &lt;1.5 cm
+- Aorta from outer wall to outer wall &lt;3 cm
+- Iliac vessels at bifurcation, outer wall to outer wall &lt;1.5 cm
 
 **Signs of AAA:** Enlarged aorta >3 cm. Most AAA’s are fusiform and are infrarenal. The SMA is a useful landmark as it is in close proximity to the renal arteries, which are often difficult to identify. AAAs often contain a mural thrombus that MUST be included in your measurement of the aneurysm.
 
@@ -42,11 +42,11 @@ Figure 2: Aortic aneurysm (aaa) measuring 6 cm wide with mural thrombus (asteris
 
 Transducer orientation is transverse with marker towards the patient’s right
 
-1.  Proximal – Midline just below the xiphoid process
+1. Proximal – Midline just below the xiphoid process
 
-2.  Mid-Aorta – Midline between xiphoid process and umbilicus
+2. Mid-Aorta – Midline between xiphoid process and umbilicus
 
-3.  Distal - Midline near level of umbilicus
+3. Distal - Midline near level of umbilicus
 
 ![](image-3.png)
 
@@ -68,24 +68,24 @@ Figure 5: Proximal aorta longitudinal view demonstrating the abdominal aorta (re
 
 **Can’t find the aorta?**
 
--   Use plenty of compression to displace bowel gas – it’s remarkable how much pressure patients tolerate and how much it will improve your view. The vertebral shadow can be used as a landmark as the aorta should be just anterior to the vertebrae. Increase the depth setting until the vertebral shadow is seen. You can start in any segment and follow the aorta proximally or distally. You may also roll the patient on his/her left side or use the liver as a window to find the proximal aorta by using a coronal RUQ view (like a FAST view) with increased depth.
+- Use plenty of compression to displace bowel gas – it’s remarkable how much pressure patients tolerate and how much it will improve your view. The vertebral shadow can be used as a landmark as the aorta should be just anterior to the vertebrae. Increase the depth setting until the vertebral shadow is seen. You can start in any segment and follow the aorta proximally or distally. You may also roll the patient on his/her left side or use the liver as a window to find the proximal aorta by using a coronal RUQ view (like a FAST view) with increased depth.
 
 **Not sure if you are scanning proximal vs mid-aortic site?**
 
--   The proximal view should include the celiac trunk and/or the SMA branching from aorta. Both arise anteriorly with the celiac immediately splitting (seagull sign) and the SMA surrounded by bright echogenic fat (Fig 3-4). The mid-aorta does not have these landmarks.
+- The proximal view should include the celiac trunk and/or the SMA branching from aorta. Both arise anteriorly with the celiac immediately splitting (seagull sign) and the SMA surrounded by bright echogenic fat (Fig 3-4). The mid-aorta does not have these landmarks.
 
 ## Common Errors
 
--   Measuring the lumen instead of the entire vessel.  Abdominal aortic aneurysms often have mural thrombus so be careful to measure outer wall to outer wall to avoid incorrect measurements. 
+- Measuring the lumen instead of the entire vessel.  Abdominal aortic aneurysms often have mural thrombus so be careful to measure outer wall to outer wall to avoid incorrect measurements. 
 
--   Mistaking IVC for aorta. The aorta is on the patient’s left (screen right), has a thicker more echogenic wall, and is round in a transverse view while the IVC is often teardrop shaped.
+- Mistaking IVC for aorta. The aorta is on the patient’s left (screen right), has a thicker more echogenic wall, and is round in a transverse view while the IVC is often teardrop shaped.
 
--   Failing to visualize the entire aorta – you must see it from diaphragm to bifurcation to exclude the presence of an aneurysm.  
+- Failing to visualize the entire aorta – you must see it from diaphragm to bifurcation to exclude the presence of an aneurysm.  
 
--   Relying on ultrasound for the diagnosis of aortic dissection. While a dissection flap can be visualized and should prompt immediate action, failure to visualize a flap by ultrasound does not exclude aortic dissection.
+- Relying on ultrasound for the diagnosis of aortic dissection. While a dissection flap can be visualized and should prompt immediate action, failure to visualize a flap by ultrasound does not exclude aortic dissection.
 
 ## References
 
--   Tayal VS, et al. _Acad Emerg Med_, 2003. PMID [12896888](http://www.ncbi.nlm.nih.gov/pubmed/12896888);
--   Kuhn et al. _Ann Emerg Med_, 2000. PMID [10969223](http://www.ncbi.nlm.nih.gov/pubmed/10969223);
--   Taylor RA et al. _Acad Emerg Med_, 2012. PMID [22288871](http://www.ncbi.nlm.nih.gov/pubmed/22288871)
+- Tayal VS, et al. _Acad Emerg Med_, 2003. PMID [12896888](http://www.ncbi.nlm.nih.gov/pubmed/12896888);
+- Kuhn et al. _Ann Emerg Med_, 2000. PMID [10969223](http://www.ncbi.nlm.nih.gov/pubmed/10969223);
+- Taylor RA et al. _Acad Emerg Med_, 2012. PMID [22288871](http://www.ncbi.nlm.nih.gov/pubmed/22288871)

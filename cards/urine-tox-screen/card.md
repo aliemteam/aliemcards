@@ -29,9 +29,9 @@ Benzodiazepines are popular. In the U.S., **alprazolam**, **clonazepam**, **lora
 
 Important points on benzodiazepine urine toxicology test:
 
-1.  Most benzodiazepines screens look for **oxazepam**, because **diazepam** and **chlordiazepoxide** both are metabolized to **oxazepam**.
-2.  The test does not specifically look for **alprazolam**, **clonazepam**, **lorazepam** (or many others). Therefore, a negative result does not necessarily rule out use of these agents.
-3.  Benzodiazepines vary in reactivity and potency and can trigger a positive result due to cross-reactivity.
+1. Most benzodiazepines screens look for **oxazepam**, because **diazepam** and **chlordiazepoxide** both are metabolized to **oxazepam**.
+2. The test does not specifically look for **alprazolam**, **clonazepam**, **lorazepam** (or many others). Therefore, a negative result does not necessarily rule out use of these agents.
+3. Benzodiazepines vary in reactivity and potency and can trigger a positive result due to cross-reactivity.
 
 ### BOTTOM LINE
 
@@ -41,20 +41,20 @@ A negative result doesn't rule out benzodiazepine ingestion, and a positive resu
 
 These two terms are often used interchangeably and really shouldn't be.
 
--   **Opioid:** Broad category name which encompasses opiates, semi-synthetic, and synthetic agents
--   **Opiate:** Refers to only naturally occurring opioids
+- **Opioid:** Broad category name which encompasses opiates, semi-synthetic, and synthetic agents
+- **Opiate:** Refers to only naturally occurring opioids
 
 ![](image-1.png)
 
--   **Oxycodone**, a semi-synthetic, is similar to **morphine**.
--   **Methadone**, a synthetic, has a completely unrelated structure.
+- **Oxycodone**, a semi-synthetic, is similar to **morphine**.
+- **Methadone**, a synthetic, has a completely unrelated structure.
 
 **LEARNING POINTS**
 
-1.  Notice the name of the urine drug screen next time you order one. It is opiates (not opioids).
-2.  The test was designed to look for heroin (technically a semi-synthetic) via its metabolite, **6-monacetyl morphine**. It also picks up **morphine** and **codeine**.
-3.  The test does not specifically look for **oxycodone**, **hydromorphone**, **hydrocodone**, etc. They can trigger a positive result due to their structural similarities, but not in every case. Therefore, a negative result doesn't rule out use of these common drugs of abuse.
-4.  Synthetics will never cross-react with the opiate urine drug screen. They are too structurally dissimilar. That's why there is a separate test for methadone.
+1. Notice the name of the urine drug screen next time you order one. It is opiates (not opioids).
+2. The test was designed to look for heroin (technically a semi-synthetic) via its metabolite, **6-monacetyl morphine**. It also picks up **morphine** and **codeine**.
+3. The test does not specifically look for **oxycodone**, **hydromorphone**, **hydrocodone**, etc. They can trigger a positive result due to their structural similarities, but not in every case. Therefore, a negative result doesn't rule out use of these common drugs of abuse.
+4. Synthetics will never cross-react with the opiate urine drug screen. They are too structurally dissimilar. That's why there is a separate test for methadone.
 
 ### BOTTOM LINE
 
@@ -62,5 +62,5 @@ A negative result doesn't rule out opioid ingestion, and a positive result only 
 
 ## References
 
--   [Standridge JB, Adams SM, Zotos AP. Urine drug screening: a valuable office procedure. Am Fam Physician. 2010 Mar 1;81(5):635-40.](http://www.ncbi.nlm.nih.gov/pubmed/20187600)
--   \[Geraci, M.J., Peele, J., McCoy, S.L. et al. Int J Emerg Med. 2010 Nov 3: 327. doi:10.1007/s12245-010-0235-3
+- [Standridge JB, Adams SM, Zotos AP. Urine drug screening: a valuable office procedure. Am Fam Physician. 2010 Mar 1;81(5):635-40.](http://www.ncbi.nlm.nih.gov/pubmed/20187600)
+- \[Geraci, M.J., Peele, J., McCoy, S.L. et al. Int J Emerg Med. 2010 Nov 3: 327. doi:10.1007/s12245-010-0235-3

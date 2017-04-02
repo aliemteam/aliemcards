@@ -20,8 +20,8 @@ categories:
 
 **Calculate the excess anion gap** = total anion gap - 12 + measured bicarb
 
--   If sum is > 30, then metabolic alkalosis
--   If sum is &lt; 23, then nongap metabolic acidosis
+- If sum is > 30, then metabolic alkalosis
+- If sum is &lt; 23, then nongap metabolic acidosis
 
 Respiratory compensation occurs almost immediately in response to metabolic disorders.
 
@@ -33,15 +33,15 @@ eg. 7.50/ 29 / 80 / 22 (pH / PaCo2 / PaO2 / \[HCO3-])
 
 **Differential**
 
--   Anxiety
--   Lung disease
--   CNS disease 
--   Mechanical ventilation
--   Drug use (aspirin, catecholamines, progesterone)
--   Pregnancy
--   Hepatic encephalopathy
--   Sepsis
--   Hypoxia
+- Anxiety
+- Lung disease
+- CNS disease 
+- Mechanical ventilation
+- Drug use (aspirin, catecholamines, progesterone)
+- Pregnancy
+- Hepatic encephalopathy
+- Sepsis
+- Hypoxia
 
 ## Primary respiratory acidosis 
 
@@ -51,13 +51,13 @@ eg. 7.34 / 60 / 80 / 31 = **CHRONIC** because bicarbonate conensation
 
 **Differential**
 
--   Acute airway obstruction
--   Severe pneumonia or pulm edema   |
--   CNS depression            
--   Thoracic cage injury-flail chest
--   Impaired lung motion (PTX)
--   Ventilator dysfunction          
--   Neuromuscular disorder                               
+- Acute airway obstruction
+- Severe pneumonia or pulm edema   |
+- CNS depression            
+- Thoracic cage injury-flail chest
+- Impaired lung motion (PTX)
+- Ventilator dysfunction          
+- Neuromuscular disorder                               
 
 ## Primary metabolic alkalosis
 
@@ -65,15 +65,15 @@ eg. 7.50 / 48 / 80 / 36
 
 **Differential**
 
--   **Urine Cl = low**   \| **Urine Cl = normal-high**        \|
--   Diuretic use in past 
--   Current diuretic use             
--   NG suction           
--   Excess alkali administration     
--   Post-hypercapnia     
--   Excess mineralocorticoid activity
--    Vomiting            
--    Refeeding alkalosis             
+- **Urine Cl = low**   \| **Urine Cl = normal-high**        \|
+- Diuretic use in past 
+- Current diuretic use             
+- NG suction           
+- Excess alkali administration     
+- Post-hypercapnia     
+- Excess mineralocorticoid activity
+-  Vomiting            
+-  Refeeding alkalosis             
 
 ## Primary metabolic acidosis 
 
@@ -81,21 +81,21 @@ eg. 7.20 / 21 / 80 / 8
 
 **Nonanion gap:** CAGE
 
--   Chloride (HCL) administration 
--   Acetazolamide/Addisons
--   GI Loss
--   Extras – RTA, ingestion of oral acidifying salts, recovery phase of DKA
+- Chloride (HCL) administration 
+- Acetazolamide/Addisons
+- GI Loss
+- Extras – RTA, ingestion of oral acidifying salts, recovery phase of DKA
 
 **Anion gap:** MUDPILES
 
--   Methanol
--   Uremia
--   DKA
--   Paraldehydes, paint sniffing
--   INH, iron, ibuprofen, inborn error of metabolism
--   Lactic acidosis
--   Ethanol, ethylene glycol
--   Salicylates
+- Methanol
+- Uremia
+- DKA
+- Paraldehydes, paint sniffing
+- INH, iron, ibuprofen, inborn error of metabolism
+- Lactic acidosis
+- Ethanol, ethylene glycol
+- Salicylates
 
 _Pearl_: If anion gap > 20 exists, there is a primary metabolic acidosis
 
@@ -113,4 +113,4 @@ _Pearl_: If anion gap exists, calculate the excess anion gap to determine if the
 
 ## References
 
--   [Haber RJ. A practical approach to acid-base disorders. West J Med 1991; 155:146-51.](http://tmedweb.tulane.edu/mu/owlclub/files/2010/06/Must-Read-Acid-Base-Article-.pdf)
+- [Haber RJ. A practical approach to acid-base disorders. West J Med 1991; 155:146-51.](http://tmedweb.tulane.edu/mu/owlclub/files/2010/06/Must-Read-Acid-Base-Article-.pdf)

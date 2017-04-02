@@ -49,19 +49,19 @@ Use the Fagan nomogram
 
 **Note:**
 
--   All likelihood ratios (LR) cross or almost cross 1.0.
--   This is no history, physical exam, or lab test that would comfortably allow you to rule- out or rule-in cholecystitis.
--   Murphy’s sign is perhaps the most useful sign because the +LR has been shown to be as high as 8.6.
+- All likelihood ratios (LR) cross or almost cross 1.0.
+- This is no history, physical exam, or lab test that would comfortably allow you to rule- out or rule-in cholecystitis.
+- Murphy’s sign is perhaps the most useful sign because the +LR has been shown to be as high as 8.6.
 
 ## Bottom line
 
 Have a **low threshold** to perform a RUQ abdominal bedside ultrasonography for patients with upper abdominal pain or a fever from an unclear source (especially elder patients). Look for **indirect signs** of cholecystitis:
 
--   Murphy sign
--   Distended gallbladder
--   Pericholecystic fluid
--   Thickened gallbladder wall 
--   Gallstones
+- Murphy sign
+- Distended gallbladder
+- Pericholecystic fluid
+- Thickened gallbladder wall 
+- Gallstones
 
 ## Fagan nomogram
 
@@ -71,4 +71,4 @@ Draw a connecting your pre-test probability and your likelihood ratio. This prov
 
 ## References
 
--   [Trowbridge RL et al. Does this patient have acute cholecystitis? JAMA. 2003, 289(1): 80-6.](https://www.ncbi.nlm.nih.gov/pubmed/?term=12503981)
+- [Trowbridge RL et al. Does this patient have acute cholecystitis? JAMA. 2003, 289(1): 80-6.](https://www.ncbi.nlm.nih.gov/pubmed/?term=12503981)
