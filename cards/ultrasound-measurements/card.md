@@ -38,13 +38,13 @@ categories:
 
 **Areas for compression**
 
-1.  CFV above SFJ
-2.  SFV at SJF
-3.  CFV just below SJF
-4.  Proximal SFV
-5.  Mid SFV
-6.  Distal SFV (if possible)
-7.  Popliteal Fossa
+1. CFV above SFJ
+2. SFV at SJF
+3. CFV just below SJF
+4. Proximal SFV
+5. Mid SFV
+6. Distal SFV (if possible)
+7. Popliteal Fossa
 
 _CFV: Common femoral vein, SFJ: Saphenofemoral junction, SFV: Superficial femoral vein_
 
@@ -81,7 +81,7 @@ _CFV: Common femoral vein, SFJ: Saphenofemoral junction, SFV: Superficial femora
 
 **_Structures should be measured by assessing the luminal diameter of the structure, which is inner-to-inner wall except for:_**
 
-1.  **Aorta** - which requires taking any thrombus or plaque into account
-2.  **Biparietal diameter of fetus** - which is measured outer to inner wall of the skull
+1. **Aorta** - which requires taking any thrombus or plaque into account
+2. **Biparietal diameter of fetus** - which is measured outer to inner wall of the skull
 
 ## References
