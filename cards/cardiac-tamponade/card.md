@@ -17,10 +17,10 @@ Normal pericardial fluid volume: 15-30 mL
 
 ## Echocardiography findings
 
--   RA systolic collapse
--   RV diastolic collapse
--   IVC plethora
--   Exaggeration of respirophasic changes in flow velocities across TV and MV
+- RA systolic collapse
+- RV diastolic collapse
+- IVC plethora
+- Exaggeration of respirophasic changes in flow velocities across TV and MV
 
 ## Systematic review of 8 studies with a total of 300 patients
 
@@ -50,9 +50,9 @@ Use below Fagan nomogram
 
 ![](image-1.png)
 
--   Draw a connecting your pre-test probability and your likelihood ratio. 
--   This provides you with your post-test probability.
+- Draw a connecting your pre-test probability and your likelihood ratio. 
+- This provides you with your post-test probability.
 
 ## References
 
--   [Roy CL et al. Does This Patient With a Pericardial Effusion Have Cardiac Tamponade? JAMA. 2007;297:1810-8.](https://www.ncbi.nlm.nih.gov/pubmed/?term=17456823)
+- [Roy CL et al. Does This Patient With a Pericardial Effusion Have Cardiac Tamponade? JAMA. 2007;297:1810-8.](https://www.ncbi.nlm.nih.gov/pubmed/?term=17456823)

@@ -33,7 +33,7 @@ plugins:
 
   - - remark-lint-list-item-indent
     - - error
-      - tab-size
+      - space
 
   - - remark-lint-no-auto-link-without-protocol
     - - error

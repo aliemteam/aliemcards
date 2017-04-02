@@ -7,21 +7,20 @@ created: 2010/07/09
 updates: null
 categories:
     - Trauma
-
 ---
 
 # Penetrating Abdominal Trauma: Observe versus Laparotomy
 
 **Eastern Association for the Surgery Trauma (EAST) guidelines**
 
--   Diagnostic peritoneal lavage is no longer indicated. Replaced by the use of serial abdominal exams and triple-contrast CT abd-pelvis
--   Patients with a stab wound to flank/back should also receive a triple-contrast CT abd-pelvis 
--   A negative bedside FAST ultrasound does not replace need for triple-contrast CT in stable patient
+- Diagnostic peritoneal lavage is no longer indicated. Replaced by the use of serial abdominal exams and triple-contrast CT abd-pelvis
+- Patients with a stab wound to flank/back should also receive a triple-contrast CT abd-pelvis 
+- A negative bedside FAST ultrasound does not replace need for triple-contrast CT in stable patient
 
 ## Wound Management
 
--   **Gun shot wounds (GSW)** – all require laparatomy exploration because of higher incidence of intra-abdominal injuries
--   **Stab wounds** (SW) to anterior abdomen - can be observed vs laparotomy 
+- **Gun shot wounds (GSW)** – all require laparatomy exploration because of higher incidence of intra-abdominal injuries
+- **Stab wounds** (SW) to anterior abdomen - can be observed vs laparotomy 
 
 <table>
 <colgroup>
@@ -70,21 +69,21 @@ and reliable clinical exam <br />
 
 Overall incidence of complications: 2.5-41%
 
--   Acute myocardial infarction
--   Aspiration pneumonia
--   Bowel obstruction
--   Deep venous thrombosis
--   Ileus
--   Pancreatitis
--   Pneumothorax
--   Urinary tract infection
--   Visceral injury
--   Wound infection
--   Longer hospital stay
--   Death 
+- Acute myocardial infarction
+- Aspiration pneumonia
+- Bowel obstruction
+- Deep venous thrombosis
+- Ileus
+- Pancreatitis
+- Pneumothorax
+- Urinary tract infection
+- Visceral injury
+- Wound infection
+- Longer hospital stay
+- Death 
 
 **Goal:** Minimize number of unnecessary laparotomies
 
 ## References
 
--   [Como JJ et. al. Practice management guidelines for selective nonoperative management of penetrating abdominal trauma. J Trauma. 2010 Mar;68(3):721-33.](http://www.ncbi.nlm.nih.gov/pubmed/20220426)
+- [Como JJ et. al. Practice management guidelines for selective nonoperative management of penetrating abdominal trauma. J Trauma. 2010 Mar;68(3):721-33.](http://www.ncbi.nlm.nih.gov/pubmed/20220426)

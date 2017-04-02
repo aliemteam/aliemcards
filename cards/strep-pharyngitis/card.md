@@ -13,13 +13,13 @@ categories:
 
 # Streptococcal Pharyngitis
 
--   **Most cases of pharyngitis:** Viral
--   **Most cases of bacterial pharyngitis:** Group A beta-hemolytic streptococcus
--   **Incidence:** 15-30% (children) and 5-20% (adults) 
--   **Peak season:**  late winter/ early spring
--   **Transmission:** respiratory secretions
--   **Incubation period:**  24-72 hours
--   Antibiotics shorten symptoms by 16 hours
+- **Most cases of pharyngitis:** Viral
+- **Most cases of bacterial pharyngitis:** Group A beta-hemolytic streptococcus
+- **Incidence:** 15-30% (children) and 5-20% (adults) 
+- **Peak season:**  late winter/ early spring
+- **Transmission:** respiratory secretions
+- **Incubation period:**  24-72 hours
+- Antibiotics shorten symptoms by 16 hours
 
 ## Modified Centor Scoring
 
@@ -92,12 +92,12 @@ categories:
 | **AAP**          | Oral <span class="drug">erythromycin</span>, or first-gen cephalosporin |
 | **IDSA**         | Oral <span class="drug">erythromycin</span>, or first-gen cephalosporin |
 
--   ACP = American College of Physicians
--   CDC = Center for Disease Control
--   AAFP = American Academy of Family Physicians
--   AAP = American Academy of Pediatrics
--   IDSA = Infectious Disease Society of America 
+- ACP = American College of Physicians
+- CDC = Center for Disease Control
+- AAFP = American Academy of Family Physicians
+- AAP = American Academy of Pediatrics
+- IDSA = Infectious Disease Society of America 
 
 ## References
 
--   [Choby BA.Diagnosis and treatment of streptococcal pharyngitis.Am Fam Physician. 2009 Mar 1;79(5):383-90.](http://www.ncbi.nlm.nih.gov/pubmed/?term=19275067)
+- [Choby BA.Diagnosis and treatment of streptococcal pharyngitis.Am Fam Physician. 2009 Mar 1;79(5):383-90.](http://www.ncbi.nlm.nih.gov/pubmed/?term=19275067)

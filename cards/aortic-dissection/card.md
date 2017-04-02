@@ -14,7 +14,7 @@ categories:
 
 International Registry for Aortic Dissection (IRAD):
 
--   Descriptive case study by [Hagan et al](http://www.ncbi.nlm.nih.gov/pubmed/?term=10685714) of 464 patients with aortic dissection from 12 international centers 
+- Descriptive case study by [Hagan et al](http://www.ncbi.nlm.nih.gov/pubmed/?term=10685714) of 464 patients with aortic dissection from 12 international centers 
 
 ## Patient History
 
@@ -84,10 +84,10 @@ International Registry for Aortic Dissection (IRAD):
 
 ## Overall hospital mortality: 26.4%
 
--   **CHF** = congestive heart failure
--   **CVA** = cerebrovascular accident
--   **PTCA** = percutaneous transluminal coronary angioplasty
+- **CHF** = congestive heart failure
+- **CVA** = cerebrovascular accident
+- **PTCA** = percutaneous transluminal coronary angioplasty
 
 ## References
 
--   [Hagan PG. et. al. The International Registry of Acute Aortic Dissection (IRAD): new insights into an old disease. JAMA. 2000 Feb 16;283(7):897-903.](http://www.ncbi.nlm.nih.gov/pubmed/?term=10685714)
+- [Hagan PG. et. al. The International Registry of Acute Aortic Dissection (IRAD): new insights into an old disease. JAMA. 2000 Feb 16;283(7):897-903.](http://www.ncbi.nlm.nih.gov/pubmed/?term=10685714)

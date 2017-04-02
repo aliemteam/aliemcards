@@ -52,4 +52,4 @@ categories:
 
 ## References
 
--   Walls R, Murphy M. 3rd ed. Emergency Airway Management, 2008.
+- Walls R, Murphy M. 3rd ed. Emergency Airway Management, 2008.
