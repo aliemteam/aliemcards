@@ -109,5 +109,5 @@ categories:
 
 ## References
 
--   [McCullough PA, Hollander JE, Nowak RM, Storrow AB, Duc P, Omland T, McCord J, Herrmann HC, Steg PG, Westheim A, Knudsen CW, Abraham WT, Lamba S, Wu AH, Perez A, Clopton P, Krishnaswamy P, Kazanegra R, Maisel AS; BNP Multinational Study Investigators. Uncovering heart failure in patients with a history of pulmonary disease: rationale for the early use of B-type natriuretic peptide in the emergency department. Acad Emerg Med. 2003 Mar;10(3):198-204.](https://www.ncbi.nlm.nih.gov/pubmed/?term=12615582)
--   [Wang CS, FitzGerald JM, Schulzer M, Mak E, Ayas NT. Does this dyspneic patient in the emergency department have congestive heart failure? JAMA. 2005 Oct 19;294(15):1944-56.](https://www.ncbi.nlm.nih.gov/pubmed/?term=16234501)
+- [McCullough PA, Hollander JE, Nowak RM, Storrow AB, Duc P, Omland T, McCord J, Herrmann HC, Steg PG, Westheim A, Knudsen CW, Abraham WT, Lamba S, Wu AH, Perez A, Clopton P, Krishnaswamy P, Kazanegra R, Maisel AS; BNP Multinational Study Investigators. Uncovering heart failure in patients with a history of pulmonary disease: rationale for the early use of B-type natriuretic peptide in the emergency department. Acad Emerg Med. 2003 Mar;10(3):198-204.](https://www.ncbi.nlm.nih.gov/pubmed/?term=12615582)
+- [Wang CS, FitzGerald JM, Schulzer M, Mak E, Ayas NT. Does this dyspneic patient in the emergency department have congestive heart failure? JAMA. 2005 Oct 19;294(15):1944-56.](https://www.ncbi.nlm.nih.gov/pubmed/?term=16234501)

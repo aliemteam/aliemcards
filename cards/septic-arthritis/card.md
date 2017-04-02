@@ -15,10 +15,10 @@ categories:
 
 **Nongonococcal septic arthritis** 
 
--   Destroys cartilage within days
--   Staph and strep are most likely isolates
--   50% cases involve knee joint
--   No history or exam finding can rule out nongonococcal septic arthritis. 
+- Destroys cartilage within days
+- Staph and strep are most likely isolates
+- 50% cases involve knee joint
+- No history or exam finding can rule out nongonococcal septic arthritis. 
 
 ## Risk Factors
 
@@ -60,12 +60,12 @@ categories:
 
 Likelihood ratios:
 
--   Positive LR = How strongly a positive result increase the odds of disease
--   Negative LR = How well a negative result decreases the odds of disease 
+- Positive LR = How strongly a positive result increase the odds of disease
+- Negative LR = How well a negative result decreases the odds of disease 
 
 ![](image-1.png)
 
 ## References
 
--   [Carpenter CR, Schuur JD, Everett WW, Pines JM.Evidence-based diagnostics: adult septic arthritis. Acad Emerg Med. 2011 Aug;18(8):781-96. doi: 10.1111/j.1553-2712.2011.01121.x.](http://www.ncbi.nlm.nih.gov/pubmed/?term=21843213)
--   [Margaretten ME, Kohlwes J, Moore D, Bent S. Does this adult patient have septic arthritis? JAMA. 2007 Apr 4;297(13):1478-88.](http://www.ncbi.nlm.nih.gov/pubmed/?term=17405973)
+- [Carpenter CR, Schuur JD, Everett WW, Pines JM.Evidence-based diagnostics: adult septic arthritis. Acad Emerg Med. 2011 Aug;18(8):781-96. doi: 10.1111/j.1553-2712.2011.01121.x.](http://www.ncbi.nlm.nih.gov/pubmed/?term=21843213)
+- [Margaretten ME, Kohlwes J, Moore D, Bent S. Does this adult patient have septic arthritis? JAMA. 2007 Apr 4;297(13):1478-88.](http://www.ncbi.nlm.nih.gov/pubmed/?term=17405973)

@@ -15,11 +15,11 @@ categories:
 
 ## Metatarsal head
 
--   Typically operative, unless MCP stable and &lt; 20% articular surface involvement
+- Typically operative, unless MCP stable and &lt; 20% articular surface involvement
 
 ## Metatarsal neck
 
--   Most are nonoperative
+- Most are nonoperative
 
 <table>
 <colgroup>
@@ -132,7 +132,7 @@ Most are nonoperative, especially 3rd and 4th MC because of inter-MC ligaments
 
 ## References
 
--   [Metatarsal fracture, http://www.wheelessonline.com/](http://www.wheelessonline.com/ortho/hand_and_metacarpal_fractures)
--   Metatarsal fractures, Browner: Skeletal Trauma (4th ed)
--   Metatarsal fractures, Marx: Rosen’s Emergency Medicine (7th ed)
--   [Metatarsal fractures, www.emedicine.com](http://emedicine.medscape.com/article/1239721-overview)
+- [Metatarsal fracture, http://www.wheelessonline.com/](http://www.wheelessonline.com/ortho/hand_and_metacarpal_fractures)
+- Metatarsal fractures, Browner: Skeletal Trauma (4th ed)
+- Metatarsal fractures, Marx: Rosen’s Emergency Medicine (7th ed)
+- [Metatarsal fractures, www.emedicine.com](http://emedicine.medscape.com/article/1239721-overview)

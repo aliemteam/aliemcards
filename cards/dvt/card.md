@@ -57,4 +57,4 @@ Do NOT begin with D-Dimer. Follow Option #2 from Moderate Pretest Probability.
 
 ## References
 
--   [Bates SM, Jaeschke R, Stevens SM, Goodacre S, Wells PS, Stevenson MD, Kearon C, Schunemann HJ, Crowther M, Pauker SG, Makdissi R, Guyatt GH; American College of Chest Physicians.Diagnosis of DVT: Antithrombotic Therapy and Prevention of Thrombosis, 9th ed: American College of Chest Physicians Evidence-Based Clinical Practice Guidelines. Chest. 2012 Feb;141(2 Suppl):e351S-418S.](http://www.ncbi.nlm.nih.gov/pubmed/22315267)
+- [Bates SM, Jaeschke R, Stevens SM, Goodacre S, Wells PS, Stevenson MD, Kearon C, Schunemann HJ, Crowther M, Pauker SG, Makdissi R, Guyatt GH; American College of Chest Physicians.Diagnosis of DVT: Antithrombotic Therapy and Prevention of Thrombosis, 9th ed: American College of Chest Physicians Evidence-Based Clinical Practice Guidelines. Chest. 2012 Feb;141(2 Suppl):e351S-418S.](http://www.ncbi.nlm.nih.gov/pubmed/22315267)
