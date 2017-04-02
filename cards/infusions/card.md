@@ -42,4 +42,4 @@ categories:
 
 ## References
 
--   Based on 2012 card on Continuous Infusions from the UCSF Critical Care Units as part of a campaign for Safe Medication Prescriptions
+- Based on 2012 card on Continuous Infusions from the UCSF Critical Care Units as part of a campaign for Safe Medication Prescriptions

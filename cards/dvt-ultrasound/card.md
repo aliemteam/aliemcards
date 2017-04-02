@@ -23,17 +23,17 @@ categories:
 
 ## 1. Femoral Vein
 
-1.  Place linear transducer in transverse position at level of inguinal ligament
-2.  Identify the confluence of femoral vein and greater saphenous vein (saphenofemoral junction \[SFJ]), and apply direct pressure to assess for compressibility
-3.  To fully evaluate the common femoral vein, slide 5 cm distal to the confluence, compressing at 0.5-1 cm intervals. This allows for visualization of the proximal portion of the deep and superficial femoral veins. Assess for compressibility in both.
+1. Place linear transducer in transverse position at level of inguinal ligament
+2. Identify the confluence of femoral vein and greater saphenous vein (saphenofemoral junction \[SFJ]), and apply direct pressure to assess for compressibility
+3. To fully evaluate the common femoral vein, slide 5 cm distal to the confluence, compressing at 0.5-1 cm intervals. This allows for visualization of the proximal portion of the deep and superficial femoral veins. Assess for compressibility in both.
 
 ![](image-1.png)Figure 1: Transducer location to evaluate the femoral vein and normal ultrasound images showing common femoral artery **(A)** and fully compressible vein **(V).**
 
 ## 2. Popliteal Vein
 
-1.  Place linear transducer in transverse position in popliteal fossa.
-2.  Locate the popliteal artery and vein, and assess for compressibility of vein.
-3.  To fully evaluate the popliteal region, slide distally following the popliteal vein to allow for visualization of the proximal portion of the anterior and posterior tibial veins, and the peroneal vein. At this trifurcation, assess for compressibility of all three veins.
+1. Place linear transducer in transverse position in popliteal fossa.
+2. Locate the popliteal artery and vein, and assess for compressibility of vein.
+3. To fully evaluate the popliteal region, slide distally following the popliteal vein to allow for visualization of the proximal portion of the anterior and posterior tibial veins, and the peroneal vein. At this trifurcation, assess for compressibility of all three veins.
 
 ![](image-2.png)
 Figure 2: Transducer location to evaluate the popliteal vein and normal ultrasound images showing popliteal artery **(A)** and fully compressible vein **(V)**.
@@ -63,11 +63,11 @@ Figure 3: Positive DVT study showing **thrombus** in the femoral vein **(v),** a
 
 ## Common Errors
 
--   Other structures, such as lymph nodes, may mimic a thrombus. Be sure to scan through the entire structure as a lymph node will appear discrete and separate from the vessels.
--   To fully evaluate the common femoral vein, make sure to visualize the proximal region at the confluence of the greater saphenous and common femoral veins.
+- Other structures, such as lymph nodes, may mimic a thrombus. Be sure to scan through the entire structure as a lymph node will appear discrete and separate from the vessels.
+- To fully evaluate the common femoral vein, make sure to visualize the proximal region at the confluence of the greater saphenous and common femoral veins.
 
 ## References
 
--   Kline JA et al. _Annals of Emerg Med_, 2008. PMID: [18562044](www.ncbi.nlm.nih.gov/pubmed/18562044)
+- Kline JA et al. _Annals of Emerg Med_, 2008. PMID: [18562044](www.ncbi.nlm.nih.gov/pubmed/18562044)
 
--   Bernardi E. et al. _JAMA_, 2008. PMID: [18840838](www.ncbi.nlm.nih.gov/pubmed/18840838)
+- Bernardi E. et al. _JAMA_, 2008. PMID: [18840838](www.ncbi.nlm.nih.gov/pubmed/18840838)

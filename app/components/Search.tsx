@@ -52,10 +52,10 @@ export default class Search extends React.PureComponent<Props, State> {
           <div className="search__splash-text">
             <div>
               A Point-of-Care Reference Library
-              by Michelle Lin, and the <strong>ALiEM Team</strong>
             </div>
             <div>
-              Formerly known as <em>Paucis Verbis Cards</em>
+              by Michelle Lin, and the <strong>ALiEM Team</strong>
+              <br />Formerly known as <em>Paucis Verbis Cards</em>
             </div>
           </div>
         }
