@@ -15,21 +15,21 @@ _[JAMA Rational Clinical Examination Series 2009](http://www.ncbi.nlm.nih.gov/pu
 
 **Bottom line:** It appears safe to perform paracentesis without checking coagulation labs
 
--   2 prospective studies
--   No instances of significant bleeding despite platelet counts &lt;50K and INR >1.5
--   2 cases of minor bleeding
+- 2 prospective studies
+- No instances of significant bleeding despite platelet counts &lt;50K and INR >1.5
+- 2 cases of minor bleeding
 
 **Bottom line:** Albumin likely not needed in therapeutic paracentensis
 
--   9 prospective randomized studies
--   Pooled 806 paracentesis procedures: No difference with plasma expansion with respect to encephalopathy and death. 
+- 9 prospective randomized studies
+- Pooled 806 paracentesis procedures: No difference with plasma expansion with respect to encephalopathy and death. 
 
 ## Spontaneous Bacterial Peritonitis (SBP) Lab Findings
 
--   Ascites WBC >500 cells/mm3
--   Ascites PMN >250 cells/mm3
--   Ascites pH &lt;7.35
--   Blood-ascites pH gradient >0.1 
+- Ascites WBC >500 cells/mm3
+- Ascites PMN >250 cells/mm3
+- Ascites pH &lt;7.35
+- Blood-ascites pH gradient >0.1 
 
 ## Ascites fluid analysis to assess for SBP (pooled data)
 
@@ -48,4 +48,4 @@ _[JAMA Rational Clinical Examination Series 2009](http://www.ncbi.nlm.nih.gov/pu
 
 ## References
 
--   [Wilkerson RG, Sinert R.Evidence-based emergency medicine/rational clinical examination abstract: The use of paracentesis in the assessment of the patient with ascites. Ann Emerg Med. 2009 Sep;54(3):465-8. doi: 10.1016/j.annemergmed.2008.09.005. Epub 2008 Oct 16.](http://www.ncbi.nlm.nih.gov/pubmed/?term=18926597)
+- [Wilkerson RG, Sinert R.Evidence-based emergency medicine/rational clinical examination abstract: The use of paracentesis in the assessment of the patient with ascites. Ann Emerg Med. 2009 Sep;54(3):465-8. doi: 10.1016/j.annemergmed.2008.09.005. Epub 2008 Oct 16.](http://www.ncbi.nlm.nih.gov/pubmed/?term=18926597)

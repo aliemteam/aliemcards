@@ -18,21 +18,21 @@ Patients without a pulse do not require medications to facilitate intubation. 
 
 Maximize your chances for (first pass) SUCCESS with:
 
-1.  **Preparation**: room, airway equipment, suction, monitor, IV access, personnel 
-2.  **Pre-oxygenation:** NRB mask for spontaneously breathing patient, ventilate if hypoxic 
-3.  **Positioning:** Ear above sternum or ramp
-4.  **Plan A:** Share your laryngoscopy and intubation plan (bougie?, video?)
-5.  **Plan B:** Share your rescue ventilation and rescue intubation plan (LMA?, cric kit?) Paralysis: optimize laryngoscopic view with muscle relaxants
-6.  **Post-intubation**: Secure and confirm tube placement, sedation and vent orders
+1. **Preparation**: room, airway equipment, suction, monitor, IV access, personnel 
+2. **Pre-oxygenation:** NRB mask for spontaneously breathing patient, ventilate if hypoxic 
+3. **Positioning:** Ear above sternum or ramp
+4. **Plan A:** Share your laryngoscopy and intubation plan (bougie?, video?)
+5. **Plan B:** Share your rescue ventilation and rescue intubation plan (LMA?, cric kit?) Paralysis: optimize laryngoscopic view with muscle relaxants
+6. **Post-intubation**: Secure and confirm tube placement, sedation and vent orders
 
 Avoid paralysis without sedation.
 
 Avoid paralysis when difficulty laryngoscopy is anticipated. Consider awake intubation strategy, alternatively.
 
-1.  **Distortion** (of upper or lower airway ie: trauma, anaphylaxis) 
-2.  **Disproportion** (small jaw, large tongue)
-3.  **Dysmobility** (neck stiffness, c-collar, rheumatoid arthritis) 
-4.  **Dentition** (large teeth = small mouth opening)
+1. **Distortion** (of upper or lower airway ie: trauma, anaphylaxis) 
+2. **Disproportion** (small jaw, large tongue)
+3. **Dysmobility** (neck stiffness, c-collar, rheumatoid arthritis) 
+4. **Dentition** (large teeth = small mouth opening)
 
 ## Medications
 
@@ -64,5 +64,5 @@ Avoid paralysis when difficulty laryngoscopy is anticipated. Consider awake int
 
 ## References
 
--   [“Airway Cam Pocket Guide to Intubation, 2nd Edition](http://airwaycam.com)
--   [“The Airway Card”, The Airway Course](http://www.theairwaysite.com)
+- [“Airway Cam Pocket Guide to Intubation, 2nd Edition](http://airwaycam.com)
+- [“The Airway Card”, The Airway Course](http://www.theairwaysite.com)

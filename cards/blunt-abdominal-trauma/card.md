@@ -50,4 +50,4 @@ categories:
 
 ## References
 
--   [Nishijima DK et al. Does this adult patient have a blunt intra-abdominal injury? JAMA 2012;307(14):1517-27](https://www.ncbi.nlm.nih.gov/pubmed/?term=22496266)
+- [Nishijima DK et al. Does this adult patient have a blunt intra-abdominal injury? JAMA 2012;307(14):1517-27](https://www.ncbi.nlm.nih.gov/pubmed/?term=22496266)

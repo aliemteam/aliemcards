@@ -12,8 +12,8 @@ categories:
 
 # Genital Ulcers
 
--   Leading causes in the US: HSV types 1 and 2 (most common) > syphilis > chancroid
--   Note: 10% of chancroid are coinfected with syphilis or HSV
+- Leading causes in the US: HSV types 1 and 2 (most common) > syphilis > chancroid
+- Note: 10% of chancroid are coinfected with syphilis or HSV
 
 ## Differential diagnosis of genital ulcers
 
@@ -147,5 +147,5 @@ From “The Practitioner’s Handbook for the Management of STDs” (4th ed, 200
 
 ## References
 
--   Practitioner’s Handbook (2007)
--   [Roett MA, Mayor MT, Uduhiri KA. Diagnosis and management of genital ulcers. Am Fam Physician. 2012 Feb 1;85(3):254-62.](https://www.ncbi.nlm.nih.gov/pubmed/?term=22335265)
+- Practitioner’s Handbook (2007)
+- [Roett MA, Mayor MT, Uduhiri KA. Diagnosis and management of genital ulcers. Am Fam Physician. 2012 Feb 1;85(3):254-62.](https://www.ncbi.nlm.nih.gov/pubmed/?term=22335265)
