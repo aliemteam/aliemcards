@@ -77,7 +77,7 @@ categories:
 
 - <span class="drug">Warfarin</span>
 
-\##Notes
+## Notes
 
 - Anticoagulation goal with <span class="drug">warfarin</span>: INR 2-3
 - If age &lt;60 years AND zero risk factors: No anticoagulation because low risk for CVA 
