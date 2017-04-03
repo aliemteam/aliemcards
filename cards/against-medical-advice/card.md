@@ -75,4 +75,4 @@ When patients leave AMA, providers should do whatever is possible to limit bad m
    
 - [Baptist AP, Warrier I, Arora R, et al. Hospitalized patients with asthma who leave against medical advice: characteristics, reasons, and outcomes. J. Allergy Clin. Immunol. 2007;119 (4): 924-9.](https://www.ncbi.nlm.nih.gov/pubmed/?term=17239431)
 
--  [Lee TH, Short LW, Brand DA, et al. Patients with acute chest pain who leave emergency departments against medical advice: prevalence, clinical characteristics, and natural history. J Gen Intern Med. 3 (1): 21-4.](https://www.ncbi.nlm.nih.gov/pubmed/?term=3339484)
+- [Lee TH, Short LW, Brand DA, et al. Patients with acute chest pain who leave emergency departments against medical advice: prevalence, clinical characteristics, and natural history. J Gen Intern Med. 3 (1): 21-4.](https://www.ncbi.nlm.nih.gov/pubmed/?term=3339484)
