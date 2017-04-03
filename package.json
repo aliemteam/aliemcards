@@ -7,6 +7,7 @@
   "license": "ISC",
   "scripts": {
     "pretest": "npm run lint",
+    "prepush": "npm test",
     "test": "jest --coverage",
     "dev": "gulp __build && ts-node ./dist/index.js",
     "deploy": "torus run ./deploy",
@@ -66,6 +67,7 @@
     "gulp-image": "^2.7.5",
     "gulp-stylus": "^2.6.0",
     "html-webpack-plugin": "^2.28.0",
+    "husky": "^0.13.3",
     "jest": "^19.0.2",
     "marked": "^0.3.6",
     "offline-plugin": "^4.6.1",
@@ -139,7 +141,6 @@
       "!app/**/index.{ts,tsx}",
       "!app/App.jsx",
       "!app/utils/**"
-    ],
-    "coverageDirectory": "tmp/coverage"
+    ]
   }
 }

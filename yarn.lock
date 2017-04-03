@@ -215,8 +215,8 @@ anymatch@^1.3.0:
     micromatch "^2.1.5"
 
 apollo-client@^1.0.0-rc.9:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/apollo-client/-/apollo-client-1.0.0.tgz#16fef4ecbe481641228a55c8013508f60fbe0b4f"
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/apollo-client/-/apollo-client-1.0.1.tgz#efcbe1e9bd6c6e01beb016eec0f7a40df41b4d77"
   dependencies:
     graphql "^0.9.1"
     graphql-anywhere "^3.0.1"
@@ -468,9 +468,9 @@ aws4@^1.2.1:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.6.0.tgz#83ef5ca860b2b32e4a0deedee8c771b9db57471e"
 
-axios@^0.15.0:
-  version "0.15.3"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-0.15.3.tgz#2c9d638b2e191a08ea1d6cc988eadd6ba5bdc053"
+axios@^0.16.0:
+  version "0.16.0"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.16.0.tgz#6ed9771d815f429e7510f2838262957c4953d3b6"
   dependencies:
     follow-redirects "1.0.0"
 
@@ -2611,13 +2611,13 @@ encoding@^0.1.11:
   dependencies:
     iconv-lite "~0.4.13"
 
-end-of-stream@1.0.0, end-of-stream@^1.0.0:
+end-of-stream@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/end-of-stream/-/end-of-stream-1.0.0.tgz#d4596e702734a93e40e9af864319eabd99ff2f0e"
   dependencies:
     once "~1.3.0"
 
-end-of-stream@^1.1.0:
+end-of-stream@^1.0.0, end-of-stream@^1.1.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/end-of-stream/-/end-of-stream-1.4.0.tgz#7a90d833efda6cfa6eac0f4949dbb0fad3a63206"
   dependencies:
@@ -3086,6 +3086,10 @@ find-cache-dir@^0.1.1:
     mkdirp "^0.5.1"
     pkg-dir "^1.0.0"
 
+find-parent-dir@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/find-parent-dir/-/find-parent-dir-0.3.0.tgz#33c44b429ab2b2f0646299c5f9f718f376ff8d54"
+
 find-up@^1.0.0:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/find-up/-/find-up-1.1.2.tgz#6b2e9822b1a2ce0a60ab64d610eccad53cb24d0f"
@@ -3544,10 +3548,9 @@ gulp-decompress@^1.2.0:
     readable-stream "^2.0.2"
 
 gulp-image@^2.7.5:
-  version "2.7.5"
-  resolved "https://registry.yarnpkg.com/gulp-image/-/gulp-image-2.7.5.tgz#b6d56e4cd98b10c70bb583e18fa47159f1390931"
+  version "2.7.6"
+  resolved "https://registry.yarnpkg.com/gulp-image/-/gulp-image-2.7.6.tgz#f5569f00a72c11775843e35322865bc9c5052086"
   dependencies:
-    chalk "^1.1.3"
     exec-buffer "^3.1.0"
     execa "^0.6.0"
     filesize "^3.3.0"
@@ -3897,6 +3900,15 @@ http-signature@~1.1.0:
 https-browserify@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/https-browserify/-/https-browserify-0.0.1.tgz#3f91365cabe60b77ed0ebba24b454e3e09d95a82"
+
+husky@^0.13.3:
+  version "0.13.3"
+  resolved "https://registry.yarnpkg.com/husky/-/husky-0.13.3.tgz#bc2066080badc8b8fe3516e881f5bc68a57052ff"
+  dependencies:
+    chalk "^1.1.3"
+    find-parent-dir "^0.3.0"
+    is-ci "^1.0.9"
+    normalize-path "^1.0.0"
 
 iconv-lite@0.4.13:
   version "0.4.13"
@@ -5348,7 +5360,7 @@ miller-rabin@^4.0.0:
   version "1.27.0"
   resolved "https://registry.yarnpkg.com/mime-db/-/mime-db-1.27.0.tgz#820f572296bbd20ec25ed55e5b5de869e5436eb1"
 
-mime-types@^2.1.12, mime-types@~2.1.11, mime-types@~2.1.13, mime-types@~2.1.7:
+mime-types@^2.1.12, mime-types@~2.1.11, mime-types@~2.1.15, mime-types@~2.1.7:
   version "2.1.15"
   resolved "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.15.tgz#a4ebf5064094569237b8cf70046776d09fc92aed"
   dependencies:
@@ -5569,6 +5581,10 @@ normalize-package-data@^2.3.2, normalize-package-data@^2.3.4:
     is-builtin-module "^1.0.0"
     semver "2 || 3 || 4 || 5"
     validate-npm-package-license "^3.0.1"
+
+normalize-path@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/normalize-path/-/normalize-path-1.0.0.tgz#32d0e472f91ff345701c15a8311018d3b0a90379"
 
 normalize-path@^2.0.1:
   version "2.1.1"
@@ -8094,27 +8110,27 @@ type-check@~0.3.2:
     prelude-ls "~1.1.2"
 
 type-is@~1.6.14:
-  version "1.6.14"
-  resolved "https://registry.yarnpkg.com/type-is/-/type-is-1.6.14.tgz#e219639c17ded1ca0789092dd54a03826b817cb2"
+  version "1.6.15"
+  resolved "https://registry.yarnpkg.com/type-is/-/type-is-1.6.15.tgz#cab10fb4909e441c82842eafe1ad646c81804410"
   dependencies:
     media-typer "0.3.0"
-    mime-types "~2.1.13"
+    mime-types "~2.1.15"
 
 typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
 
 typescript@next:
-  version "2.3.0-dev.20170331"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.3.0-dev.20170331.tgz#969ed460092801745c831b2fc2311ae22aa6b014"
+  version "2.3.0-dev.20170402"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.3.0-dev.20170402.tgz#76088cb4f86bfbeebbb3618d0b27bbf336985411"
 
 ua-parser-js@^0.7.9:
   version "0.7.12"
   resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.12.tgz#04c81a99bdd5dc52263ea29d24c6bf8d4818a4bb"
 
 uglify-js@2.8.x, uglify-js@^2.6, uglify-js@^2.7.0, uglify-js@^2.8.5:
-  version "2.8.20"
-  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-2.8.20.tgz#be87100fbc18de3876ed606e9d24b4568311cecf"
+  version "2.8.21"
+  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-2.8.21.tgz#1733f669ae6f82fc90c7b25ec0f5c783ee375314"
   dependencies:
     source-map "~0.5.1"
     yargs "~3.10.0"
@@ -8588,8 +8604,8 @@ webpack-dev-middleware@^1.10.1:
     range-parser "^1.0.3"
 
 webpack-hot-middleware@^2.17.0:
-  version "2.17.1"
-  resolved "https://registry.yarnpkg.com/webpack-hot-middleware/-/webpack-hot-middleware-2.17.1.tgz#0c8fbf6f93ff29c095d684b07ab6d6c0f2f951d7"
+  version "2.18.0"
+  resolved "https://registry.yarnpkg.com/webpack-hot-middleware/-/webpack-hot-middleware-2.18.0.tgz#a16bb535b83a6ac94a78ac5ebce4f3059e8274d3"
   dependencies:
     ansi-html "0.0.7"
     html-entities "^1.2.0"
