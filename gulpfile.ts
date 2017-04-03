@@ -15,7 +15,7 @@ const CLOUDFRONT_URL = 'https://d249u3bk3sqm2p.cloudfront.net';
 const REGEX = {
   dateStringFormat: new RegExp('^\d{4}\/\d{2}\/\d{2}$'),
   hasReferenceHeading: new RegExp('## References'),
-  imageUrl: new RegExp(/(\w*(?:-|_)*\w*\.(?:png|jpg|jpeg|gif))/, 'gi'),
+  imageUrl: new RegExp(/[\w-]+\.(?:png|jpg|jpeg|gif)/, 'gi'),
   markdownH1: new RegExp('^#(?!#).+', 'm'),
 };
 
