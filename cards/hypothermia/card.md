@@ -25,7 +25,7 @@ categories:
 **MODERATE HYPOTHERMIA** 28-32.2°C (82.4-90°F)
 
 | Clinical Findings |
-\| --- \|
+| ----------------- |
 | Atrial dysrhythmias  |
 | J wave on ECG          |
 | Hypotension, bradycardia  | 
@@ -40,7 +40,7 @@ categories:
 **SEVERE HYPOTHERMIA** &lt;28°C (&lt;82.4°F)
 
 | Clinical Findings |
-\| --- \|
+| ----------------- |
 | Apnea               |       
 | Coma                 | 
 | No activity on EEG   | 
