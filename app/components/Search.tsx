@@ -42,7 +42,7 @@ export default class Search extends React.PureComponent<Props, State> {
   }
 
   handleClick = () => {
-    this.setState({ query: '', loading: false });
+    this.setState({ query: '', uiQuery: '', loading: false });
   }
 
   render() {
