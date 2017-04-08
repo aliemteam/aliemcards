@@ -4,7 +4,7 @@
   "description": "ALiEM Cards deployment scripts and website code.",
   "main": "./dist/index.js",
   "author": "Jeremy Voros",
-  "license": "ISC",
+  "license": "MIT",
   "scripts": {
     "pretest": "npm run lint",
     "prepush": "npm test",
