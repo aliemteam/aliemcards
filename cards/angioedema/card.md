@@ -80,6 +80,5 @@ categories:
 
 - [Ishoo E et al. Predicting airway risk in angioedema: Staging system based on presentation. Otolaryngol Head Neck Surg 1999; 121:263-8.](https://www.ncbi.nlm.nih.gov/pubmed/?term=18374684)
 - [Temino VM, Peebles RS. Spectrum and Treatment of Angioedema. Am J Med 2008; 121: 282-6](https://www.ncbi.nlm.nih.gov/pubmed/?term=18374684)
-- [Emedicine.com](http://emedicine.medscape.com/)
-- [Guyer AC, Banerji A. ACE inhibitor-induced angioedema.](http://www.uptodate.com/) Published 06/04/2015
+- [Guyer AC, Banerji A. ACE inhibitor-induced angioedema. In: UpToDate, Post TW (Ed), UpToDate, Waltham, MA. (Accessed on June 4, 2015.)](http://www.uptodate.com/)
 - [Shenvi C, Serrano K. New Treatments for Angioedema. Emergency Physicians Monthly. Sep 2016.](http://epmonthly.com/article/new-treatments-angioedema/)
