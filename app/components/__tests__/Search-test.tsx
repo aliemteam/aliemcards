@@ -1,9 +1,9 @@
 jest.mock('react-router-dom');
 jest.mock('../SearchResults');
 
+import { shallow } from 'enzyme';
 import * as React from 'react';
 import * as renderer from 'react-test-renderer';
-import { shallow } from 'enzyme';
 import Search from '../Search';
 
 describe('<Search />', () => {
@@ -25,7 +25,7 @@ describe('<Search />', () => {
 
   it('should have spinner only when searching', () => {
     const component = shallow(
-      <Search splashText={false} />
+      <Search splashText={false} />,
     );
     expect(component.find('.search__loader').exists()).toBeFalsy();
     component.find('input').simulate('change', {currentTarget: { value: 'hello' } });
@@ -34,7 +34,7 @@ describe('<Search />', () => {
 
   it('should not have spinner if query is empty', () => {
     const component = shallow(
-      <Search splashText={false} />
+      <Search splashText={false} />,
     );
     expect(component.find('.search__loader').exists()).toBeFalsy();
     component.find('input').simulate('change', {currentTarget: { value: '' } });
@@ -43,7 +43,7 @@ describe('<Search />', () => {
 
   it('should clear query, uiQuery, and loader with handleClick', () => {
     const component = shallow(
-      <Search splashText={false} />
+      <Search splashText={false} />,
     );
     component.find('input').simulate('change', {currentTarget: { value: 'hello' } });
     component.instance().handleClick();
