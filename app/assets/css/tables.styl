@@ -3,7 +3,7 @@
 table
     border-collapse: collapse
     border-spacing: 0
-    width: 100%
+    max-width: 100vw
     margin-bottom: 1.5em
     border: 0
     box-shadow: $shadow-2dp
@@ -34,3 +34,10 @@ table
         p
             margin: 10px 0 !important // @stylint ignore
             line-height: 1.5em
+
+@media (max-width: 800px)
+    table
+        position: relative
+        display: block
+        max-width: 100%
+        overflow-x: scroll
