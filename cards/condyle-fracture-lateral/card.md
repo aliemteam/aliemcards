@@ -1,14 +1,13 @@
 ---
 
 title: Elbow Injuries - Condyle Fracture Lateral
-
 authors:
    - Melody Glenn, MD
    - Andrew Little, DO
    - Mary Haas, MD
-Created: 2016/12/12
+created: 2016/12/12
 updates: null
-Categories:
+categories:
    - Peer Reviewed
    - Orthopedics
 
@@ -16,7 +15,7 @@ Categories:
 
 # Elbow Injuries: Condyle Fracture Lateral
 
-![](Image 1)
+![](image-1.png)
 
 ## Xray Views
 
@@ -29,7 +28,7 @@ Long-arm posterior splint with elbow at 90° flexion and forearm supination
 Consider a long arm cast instead
 
 Operative indications:
-   - >2 mm displacement
+   - &gt;2 mm displacement
    - Any joint incongruity
    - Fracture non-union
 
@@ -51,10 +50,7 @@ Complications: Ulnar nerve injury and avascular necrosis
 
 ## References
 
-1. [Wheeless’ Textbook of Orthopaedics] (http://Wheelessonline.com)
-
-2. [Orthobullets] (http://OrthoBullets.com)
-
-3. [Radiopaedia] (http://Radiopaedia.org)
-
-4. [General Guidelines For Management for Orthopedic Injuries card by the Nationwide Children’s Hospital, Dept of Orthopedics]
+- [Wheeless’ Textbook of Orthopaedics.] (http://Wheelessonline.com)
+- [Orthobullets.] (http://OrthoBullets.com)
+- [Radiopaedia.] (http://Radiopaedia.org)
+- General Guidelines For Management for Orthopedic Injuries card by the Nationwide Children’s Hospital, Dept of Orthopedics.
