@@ -28,9 +28,9 @@ Long-arm posterior splint with elbow at 90° flexion and forearm supination
 Consider a long arm cast instead
 
 Operative indications:
-   - &gt;2 mm displacement
-   - Any joint incongruity
-   - Fracture non-union
+- &gt;2 mm displacement
+- Any joint incongruity
+- Fracture non-union
 
 ## Follow-up Timing
 
@@ -41,12 +41,12 @@ Operative: Follow up in 2-3 days
 ## Notes
 
 Milch Classification:
-   - Type I: Fx line is lateral to trochlear grove
-   - Type II: Fx line into trochlear groove
+- Type I: Fx line is lateral to trochlear grove
+- Type II: Fx line into trochlear groove
 
 Complications: Ulnar nerve injury and avascular necrosis
-   - Usually in children 5-10 years old
-   - Majority will require operative stabilization
+- Usually in children 5-10 years old
+- Majority will require operative stabilization
 
 ## References
 
