@@ -87,4 +87,4 @@ Draw a connecting your pre-test probability and your likelihood ratio. This prov
 
 ## References
 
-- [Howell JM, Eddy OL, Lukens TW, Thiessen ME, Weingart SD, Decker WW; American College of Emergency Physicians.Clinical policy: Critical issues in the evaluation and management of emergency department patients with suspected appendicitis. Ann Emerg Med. 2010 Jan;55(1):71-116. doi: 10.1016/j.annemergmed.2009.10.004.](http://www.ncbi.nlm.nih.gov/pubmed/20116016)
+- [Howell JM, Eddy OL, Lukens TW, Thiessen ME, Weingart SD, Decker WW; American College of Emergency Physicians.Clinical policy: Critical issues in the evaluation and management of emergency department patients with suspected appendicitis. Ann Emerg Med. 2010 Jan;55(1):71-116.](http://www.ncbi.nlm.nih.gov/pubmed/20116016)

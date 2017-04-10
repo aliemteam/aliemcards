@@ -58,5 +58,5 @@ There were two studies \[[Poulton, 1988](http://www.ncbi.nlm.nih.gov/pubmed/333
 
 ## References
 
-- [T.J. Poulton, "ATLS paradigm fails.", Annals of emergency medicine, 1988.](http://www.ncbi.nlm.nih.gov/pubmed/3337405)
-- [C.D. Deakin, and J.L. Low, "Accuracy of the advanced trauma life support guidelines for predicting systolic blood pressure using carotid, femoral, and radial pulses: observational study.", BMJ (Clinical research ed.), 2000.](http://www.ncbi.nlm.nih.gov/pubmed/10987771)
+- [Poulton TJ. ATLS paradigm fails. Ann Emerg Med. 1988;17(1):107.](http://www.ncbi.nlm.nih.gov/pubmed/3337405)
+- [Deakin CD, Low JL. Accuracy of the advanced trauma life support guidelines for predicting systolic blood pressure using carotid, femoral, and radial pulses: observational study. BMJ. 2000;321(7262):673-4.](http://www.ncbi.nlm.nih.gov/pubmed/10987771)
