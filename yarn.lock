@@ -3937,8 +3937,8 @@ history@^4.5.1, history@^4.6.0:
     warning "^3.0.0"
 
 hmac-drbg@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/hmac-drbg/-/hmac-drbg-1.0.0.tgz#3db471f45aae4a994a0688322171f51b8b91bee5"
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/hmac-drbg/-/hmac-drbg-1.0.1.tgz#d2745701025a6c775a6c545793ed502fc0c649a1"
   dependencies:
     hash.js "^1.0.3"
     minimalistic-assert "^1.0.0"
@@ -4087,9 +4087,9 @@ ienoopen@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/ienoopen/-/ienoopen-1.0.0.tgz#346a428f474aac8f50cf3784ea2d0f16f62bda6b"
 
-ignore@3.2.6, ignore@^3.2.0:
-  version "3.2.6"
-  resolved "https://registry.yarnpkg.com/ignore/-/ignore-3.2.6.tgz#26e8da0644be0bb4cb39516f6c79f0e0f4ffe48c"
+ignore@3.2.7, ignore@^3.2.0:
+  version "3.2.7"
+  resolved "https://registry.yarnpkg.com/ignore/-/ignore-3.2.7.tgz#4810ca5f1d8eca5595213a34b94f2eb4ed926bbd"
 
 imurmurhash@^0.1.4:
   version "0.1.4"
@@ -5825,8 +5825,8 @@ now-and-later@^1.0.0:
     once "^1.3.2"
 
 now@^4.7.1:
-  version "4.10.3"
-  resolved "https://registry.yarnpkg.com/now/-/now-4.10.3.tgz#4625203927d7e42338c0462754aeca748e5d300c"
+  version "4.11.0"
+  resolved "https://registry.yarnpkg.com/now/-/now-4.11.0.tgz#aa9c000f88604341dce6c3dc4ab383f56598d4ca"
   dependencies:
     "@google/maps" "0.3.1"
     ansi-escapes "1.4.0"
@@ -5847,7 +5847,7 @@ now@^4.7.1:
     email-validator "1.0.7"
     fs-promise "2.0.2"
     glob "7.1.1"
-    ignore "3.2.6"
+    ignore "3.2.7"
     ini "1.3.4"
     inquirer "3.0.6"
     is-url "1.2.2"
@@ -5857,13 +5857,13 @@ now@^4.7.1:
     node-version "1.0.0"
     opn "4.0.2"
     ora "1.2.0"
-    progress "1.1.8"
-    psl "1.1.17"
+    progress "2.0.0"
+    psl "1.1.18"
     resumer "0.0.0"
     socket.io-client "1.7.3"
     split-array "1.0.1"
     strip-ansi "3.0.1"
-    stripe "4.16.1"
+    stripe "4.17.0"
     text-table "0.2.0"
     tmp-promise "1.0.3"
     update-notifier "2.1.0"
@@ -6637,9 +6637,9 @@ process@^0.11.0:
   version "0.11.9"
   resolved "https://registry.yarnpkg.com/process/-/process-0.11.9.tgz#7bd5ad21aa6253e7da8682264f1e11d11c0318c1"
 
-progress@1.1.8:
-  version "1.1.8"
-  resolved "https://registry.yarnpkg.com/progress/-/progress-1.1.8.tgz#e260c78f6161cdd9b0e56cc3e0a85de17c7a57be"
+progress@2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.0.tgz#8a1be366bf8fc23db2bd23f10c6fe920b4389d1f"
 
 promise@^7.1.1:
   version "7.1.1"
@@ -6672,9 +6672,9 @@ pseudomap@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/pseudomap/-/pseudomap-1.0.2.tgz#f052a28da70e618917ef0a8ac34c1ae5a68286b3"
 
-psl@1.1.17:
-  version "1.1.17"
-  resolved "https://registry.yarnpkg.com/psl/-/psl-1.1.17.tgz#a849efbdf89c9d3d1356d771c68afe27b11f4d6f"
+psl@1.1.18:
+  version "1.1.18"
+  resolved "https://registry.yarnpkg.com/psl/-/psl-1.1.18.tgz#a8f2f5465a01e8acce4ff2d72342b05c7b507d90"
 
 public-encrypt@^4.0.0:
   version "4.0.0"
@@ -7954,9 +7954,9 @@ strip-outer@^1.0.0:
   dependencies:
     escape-string-regexp "^1.0.2"
 
-stripe@4.16.1:
-  version "4.16.1"
-  resolved "https://registry.yarnpkg.com/stripe/-/stripe-4.16.1.tgz#4f8cf9a60a0cc2d14c583fbd2bdb5a27edbdb9bd"
+stripe@4.17.0:
+  version "4.17.0"
+  resolved "https://registry.yarnpkg.com/stripe/-/stripe-4.17.0.tgz#b9a909f481a44a197e6a61427f33d7bcfc4802da"
   dependencies:
     bluebird "^2.10.2"
     lodash.isplainobject "^4.0.6"
