@@ -24,12 +24,14 @@ describe('<Search />', () => {
   });
 
   it('should have spinner only when searching', () => {
+    jest.useFakeTimers();
     const component = shallow(
       <Search splashText={false} />,
     );
     expect(component.find('.search__loader').exists()).toBeFalsy();
-    component.find('input').simulate('change', {currentTarget: { value: 'hello' } });
+    component.find('input').simulate('change', { currentTarget: { value: 'hello' } });
     expect(component.find('.search__loader').exists()).toBeTruthy();
+    jest.runAllTimers();
   });
 
   it('should not have spinner if query is empty', () => {
@@ -37,7 +39,7 @@ describe('<Search />', () => {
       <Search splashText={false} />,
     );
     expect(component.find('.search__loader').exists()).toBeFalsy();
-    component.find('input').simulate('change', {currentTarget: { value: '' } });
+    component.find('input').simulate('change', { currentTarget: { value: '' } });
     expect(component.find('.search__loader').exists()).toBeFalsy();
   });
 
@@ -45,7 +47,7 @@ describe('<Search />', () => {
     const component = shallow(
       <Search splashText={false} />,
     );
-    component.find('input').simulate('change', {currentTarget: { value: 'hello' } });
+    component.find('input').simulate('change', { currentTarget: { value: 'hello' } });
     component.instance().handleClick();
     expect(component.state('loading')).toBe(false);
     expect(component.state('query')).toBe('');
