@@ -3,9 +3,9 @@
 table
     border-collapse: collapse
     border-spacing: 0
-    width: 100%
+    max-width: 100vw
     margin-bottom: 1.5em
-    border: none
+    border: 0
     box-shadow: $shadow-2dp
     thead>tr>td,
     thead>tr>th,
@@ -20,17 +20,24 @@ table
         &:nth-child(odd)
             background-color: $tertiary
         td, th
-            padding: 0.8em
+            padding: .8em
             vertical-align: top
     tfoot
-        font-size: 0.8em
+        font-size: .8em
         tr
-            background-color: white !important
+            background-color: white !important // @stylint ignore
             border-top: solid $border-color 1px
         td
             text-align: justify
             padding: 0 .8em
             color: $font-gray
         p
-            margin: 10px 0 !important
+            margin: 10px 0 !important // @stylint ignore
             line-height: 1.5em
+
+@media (max-width: 800px)
+    table
+        position: relative
+        display: block
+        max-width: 100%
+        overflow-x: scroll
