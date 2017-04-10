@@ -4,6 +4,7 @@ jest.mock('react-apollo');
 import { shallow } from 'enzyme';
 import * as React from 'react';
 import SearchResults from '../SearchResults';
+import { Link } from 'react-router-dom';
 
 interface Card {
   id: string;
@@ -47,6 +48,10 @@ describe('<SearchResults />', () => {
   it('should render correctly', () => {
     const { component } = setup();
     expect(component.find('.search__result').length).toBe(4);
+    expect(component.find(Link).get(0).props.children).toBe('DVT of the Leg - ACCP Guidelines');
+    expect(component.find(Link).get(1).props.children).toBe('Ultrasound DVT Assessment');
+    expect(component.find(Link).get(2).props.children).toBe('Pulmonary Embolism Clinical Prediction Rules');
+    expect(component.find(Link).get(3).props.children).toBe('Ultrasound Measurement Cheat Sheet');
   });
   it('should throw an error if no data is available', () => {
     const { component } = setup();
@@ -64,5 +69,9 @@ describe('<SearchResults />', () => {
     expect(component.html()).not.toBeNull();
     component.setProps({ data: { cards: null } });
     expect(component.html()).toBeNull();
+  });
+  it('should use the onClick function passed in props', () => {
+    const { component } = setup();
+    expect(component.find(Link).get(0).props.onClick).toBe(click);
   });
 });
