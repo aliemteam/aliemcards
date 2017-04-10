@@ -90,4 +90,4 @@ Patient has pain when externally rotates shoulder against resistance (with elbow
 
 ## References
 
-1. [Levine W. Shoulder Exam. Orthobullets](http://www.orthobullets.com/sports/3037/shoulder-exam)
+- [Levine W. Shoulder Exam. Orthobullets](http://www.orthobullets.com/sports/3037/shoulder-exam)

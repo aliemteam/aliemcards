@@ -1,6 +1,7 @@
-import * as marked from 'marked';
 import * as React from 'react';
 import { gql, graphql } from 'react-apollo';
+import * as remark from 'remark';
+import * as reactRenderer from 'remark-react';
 import { Card as ICard } from '../../server/models/';
 
 interface Props {
@@ -36,8 +37,6 @@ const config = {
 
 @graphql(cardDataFromId, config)
 export default class Card extends React.PureComponent<Props, {}> {
-  getContent = () => ({__html: marked(this.props.data.card.content)});
-
   render() {
     const { card, networkStatus } = this.props.data;
     if (networkStatus === 6) {
@@ -60,7 +59,13 @@ export default class Card extends React.PureComponent<Props, {}> {
             </div>
             <div><strong>Updated:</strong> {lastUpdate}</div>
           </div>
-          <div className="card__content" dangerouslySetInnerHTML={this.getContent()} />
+          <div className="card__content">
+            {
+              remark()
+              .use(reactRenderer, { createElement: React.createElement })
+              .processSync(this.props.data.card.content).contents
+            }
+          </div>
         </div>
       </article>
     );

@@ -79,7 +79,7 @@ module.exports = {
     publicPath: '/',
   },
   resolve: {
-    extensions: ['*', '.js', '.jsx', '.ts', '.tsx', '.styl'],
+    extensions: ['*', '.js', '.jsx', '.ts', '.tsx', '.styl', '.json'],
   },
   performance: { hints: false },
   plugins,
@@ -104,6 +104,10 @@ module.exports = {
           'css-loader',
           'stylus-loader',
         ],
+      },
+      {
+        test: /\.json$/,
+        use: 'json-loader',
       },
     ],
   },

@@ -136,4 +136,4 @@ categories:
 
 ## References
 
-1. [Luten RC, Zaritsky A, Wears R, Broselow J. The Use of the Broselow Tape in Pediatric Resuscitation. Academic Emergency Medicine. 2007; 14; 500-501.] (https://www.ncbi.nlm.nih.gov/pubmed/17456560)
+- [Luten RC, Zaritsky A, Wears R, Broselow J. The Use of the Broselow Tape in Pediatric Resuscitation. Academic Emergency Medicine. 2007; 14; 500-501.](https://www.ncbi.nlm.nih.gov/pubmed/17456560)
