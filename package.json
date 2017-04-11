@@ -9,7 +9,6 @@
     "pretest": "npm run lint",
     "prepush": "npm test",
     "test": "jest --coverage",
-    "mytest": "jest --coverage ./app/components/__tests__/SearchResults-test.tsx",
     "dev": "gulp __build && ts-node ./dist/index.js",
     "deploy": "torus run ./deploy",
     "start": "node ./dist/index.js",
