@@ -1,6 +1,6 @@
 // Place your settings in this file to overwrite default and user settings.
 {
-    "lcov.path": "coverage/remapped/lcov.info",
+    "lcov.path": "tmp/coverage/lcov.info",
     "typescript.tsdk": "./node_modules/typescript/lib",
     "tslint.nodePath": "./node_modules/.bin/tslint",
     "files.associations": {
