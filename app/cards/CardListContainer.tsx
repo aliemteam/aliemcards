@@ -1,13 +1,16 @@
 import * as React from 'react';
 import { gql, graphql } from 'react-apollo';
+import { Card } from '../../server/models/card/cardType';
+import { Category } from '../../server/models/category/categoryType';
 import CardList from './CardList';
 
+export interface Data {
+  cards: Card[];
+  categories: Category[];
+}
+
 interface Props {
-  data?: {
-    cards: any[];
-    categories: any[];
-    networkStatus: number;
-  };
+  data?: Data;
   filter?: boolean;
 }
 

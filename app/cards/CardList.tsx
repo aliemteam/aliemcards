@@ -1,9 +1,11 @@
 import * as React from 'react';
 import { Link } from 'react-router-dom';
+import { Card } from '../../server/models/card/cardType';
+import { Category } from '../../server/models/category/categoryType';
 
 interface Props {
-  cards: any;
-  categories?: any[];
+  cards: Card[];
+  categories?: Category[];
   filter?: boolean;
   filterhandler?: (e: React.ChangeEvent<any>) => void;
   filtervalue?: string;

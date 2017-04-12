@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CardList /> should render with filter 1`] = `
+<div>
+  <select
+    onChange={[Function]}
+    value=""
+  >
+    <option
+      value=""
+    >
+      Filter by Category:
+    </option>
+    <option
+      value="1"
+    >
+      Test Category
+    </option>
+  </select>
+  <div
+    className="card-list"
+  >
+    <div
+      className="card-list__item"
+    >
+       
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<CardList /> should render without filter 1`] = `
+<div>
+  <div
+    className="card-list"
+  >
+    <div
+      className="card-list__item"
+    >
+       
+    </div>
+  </div>
+</div>
+`;
