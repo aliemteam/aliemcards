@@ -12,7 +12,7 @@ const Home = lazyLoad(() => (
   System.import('./pages/Home').then(module => module.default)
 ));
 const Cards = lazyLoad(() => (
-  System.import('./cards/Cards').then(module => module.default)
+  System.import('./cards/').then(module => module.default)
 ));
 const Card = lazyLoad(() => (
   System.import('./cards/Card').then(module => module.default)

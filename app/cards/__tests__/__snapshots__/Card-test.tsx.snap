@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Card /> should render according to networkStatus 1`] = `
+<div>
+  Loading...
+</div>
+`;
+
+exports[`<Card /> should render according to networkStatus 2`] = `
+<div>
+  Polling!
+</div>
+`;
+
+exports[`<Card /> should render according to networkStatus 3`] = `
+<article
+  role="article"
+>
+  <h1>
+    Test Card
+  </h1>
+  <div
+    className="card"
+  >
+    <div
+      className="card__meta"
+    >
+      <div>
+        <strong>
+          Author: 
+        </strong>
+        John Doe
+      </div>
+      <div>
+        <strong>
+          Updated:
+        </strong>
+         
+        12/31/2016
+      </div>
+    </div>
+    <div
+      className="card__content"
+    >
+      <div>
+        <h1>
+          Hello World
+        </h1>
+      </div>
+    </div>
+  </div>
+</article>
+`;
+
+exports[`<Card /> should render with multiple authors and updated date 1`] = `
+<article
+  role="article"
+>
+  <h1>
+    Test Card
+  </h1>
+  <div
+    className="card"
+  >
+    <div
+      className="card__meta"
+    >
+      <div>
+        <strong>
+          Authors: 
+        </strong>
+        John Doe, Jane Doe
+      </div>
+      <div>
+        <strong>
+          Updated:
+        </strong>
+         
+        12/31/2016
+      </div>
+    </div>
+    <div
+      className="card__content"
+    >
+      <div>
+        <h1>
+          Hello World
+        </h1>
+      </div>
+    </div>
+  </div>
+</article>
+`;
