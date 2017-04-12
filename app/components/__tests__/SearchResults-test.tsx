@@ -3,8 +3,8 @@ jest.mock('react-apollo');
 
 import { shallow } from 'enzyme';
 import * as React from 'react';
-import SearchResults from '../SearchResults';
 import { Link } from 'react-router-dom';
+import SearchResults from '../SearchResults';
 
 interface Card {
   id: string;
