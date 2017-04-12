@@ -46,8 +46,8 @@ export default class Card extends React.PureComponent<Props, {}> {
       return <div>Loading...</div>;
     }
     const lastUpdate = card.updates
-        ? new Date(card.updates[0]).toLocaleDateString('en-US')
-        : new Date(card.created).toLocaleDateString('en-US');
+        ? new Date(card.updates[0]).toLocaleDateString('en-US', { timeZone: 'UTC' })
+        : new Date(card.created).toLocaleDateString('en-US', { timeZone: 'UTC' });
     return (
       <article role="article">
         <h1>{card.title}</h1>

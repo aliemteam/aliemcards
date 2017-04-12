@@ -36,7 +36,7 @@ exports[`<Card /> should render according to networkStatus 3`] = `
           Updated:
         </strong>
          
-        12/31/2016
+        1/1/2017
       </div>
     </div>
     <div
@@ -76,7 +76,7 @@ exports[`<Card /> should render with multiple authors and updated date 1`] = `
           Updated:
         </strong>
          
-        12/31/2016
+        1/1/2017
       </div>
     </div>
     <div
