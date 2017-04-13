@@ -3,12 +3,14 @@ import { gql, graphql } from 'react-apollo';
 import { Card as ICard, Category as ICategory } from '../../server/models/';
 import CardList from '../cards/CardList';
 
+export interface Data {
+  cards: Array<Pick<ICard, 'id'|'title'|'categories'>>;
+  category: Pick<ICategory, 'id'|'name'>;
+  networkStatus: number;
+}
+
 interface Props {
-  data: {
-    cards: Array<Pick<ICard, 'id'|'title'|'categories'>>;
-    category: Pick<ICategory, 'id'|'name'>;
-    networkStatus: number;
-  };
+  data: Data;
   match: {
     params: {
       category: string;
