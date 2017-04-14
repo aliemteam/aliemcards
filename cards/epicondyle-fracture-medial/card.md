@@ -15,7 +15,7 @@ categories:
 
 # Elbow Injuries: Epicondyle Fracture Medial
 
-![](image-1)
+![](image-1.png)
 
 ## Xray Views
 

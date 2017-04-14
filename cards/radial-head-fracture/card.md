@@ -15,7 +15,7 @@ categories:
 
 # Elbow Injuries: Radial Head Fracture
 
-![](image-1)
+![](image-1.png)
 
 ## X-ray Views
 

@@ -15,7 +15,7 @@ categories:
 
 # Elbow Injuries: Epicondylitis, Lateral or Medial
 
-![](image-1)
+![](image-1.png)
 
 ## Xray Views
 **No XRs:** A clinical diagnosis.

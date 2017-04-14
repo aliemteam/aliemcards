@@ -15,7 +15,7 @@ categories:
 
 # Elbow Injuries: Elbow Dislocation
 
-![](image-1)
+![](image-1.png)
 
 ## X-ray views
 

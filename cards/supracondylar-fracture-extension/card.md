@@ -15,7 +15,7 @@ categories:
 
 # Elbow Injuries: Supracondylar Fractures Extension
 
-![](image-1)
+![](image-1.png)
 
 ## X-ray views
 

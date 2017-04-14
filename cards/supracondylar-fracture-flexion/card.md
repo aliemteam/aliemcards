@@ -15,7 +15,7 @@ categories:
 
 # Elbow Injuries: Supracondylar Fracture Flexion
 
-![](image-1)
+![](image-1.png)
 
 ## X-ray Views
 
