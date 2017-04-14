@@ -12,7 +12,7 @@ categories:
 
 # Diabetic Leg Ulcer and Osteomyelitis
 
-- Most common cause of nontraumatic amputations = diabetic foot problems
+- **Diabetic foot problems** are the most common cause of nontraumatic amputations
 
 **Osteomyelitis:**
 
