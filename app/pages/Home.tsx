@@ -11,7 +11,7 @@ interface Props {
   };
 }
 
-const homepageCards = gql`
+export const homepageCards = gql`
   query homepageCards {
     recentlyAdded: cards(orderBy: created, limit: 5) {
       ...cardFragment

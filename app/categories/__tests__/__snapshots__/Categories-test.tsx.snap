@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Categories /> should render appropriately 1`] = `
+<div>
+  <h1>
+    Categories
+  </h1>
+  <div
+    className="card-list"
+  >
+    <div
+      className="card-list__item"
+    />
+    <div
+      className="card-list__item"
+    />
+  </div>
+</div>
+`;
+
+exports[`<Categories /> should render appropriately 2`] = `
+<div>
+  <h1>
+    Categories
+  </h1>
+  <div
+    className="card-list"
+  />
+</div>
+`;

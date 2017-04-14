@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home /> should work 1`] = `
+<div
+  className="row row--wrap"
+>
+  <div
+    className="column"
+  >
+    <h1>
+      New Cards
+    </h1>
+  </div>
+  <div
+    className="column"
+  >
+    <h1>
+      Updated Cards
+    </h1>
+  </div>
+</div>
+`;
+
+exports[`<Home /> should work with 0 length cards 1`] = `
+<div
+  className="row row--wrap"
+>
+  <div
+    className="column"
+  >
+    <h1>
+      New Cards
+    </h1>
+  </div>
+  <div
+    className="column"
+  >
+    <h1>
+      Updated Cards
+    </h1>
+  </div>
+</div>
+`;

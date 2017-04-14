@@ -10,7 +10,6 @@ export interface Category {
 interface Props {
   data: {
     categories: Category[];
-    networkStatus: number;
   };
 }
 
