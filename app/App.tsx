@@ -35,6 +35,7 @@ const FourOhFour = lazyLoad(() => (
 
 const App = props => (
   <div className="row row--stacked main">
+    <div className="alphaalert">Alpha development release. Not for public sharing.</div>
     <Header {...props} />
     <main className="content" role="main">
       <Switch>
