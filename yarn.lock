@@ -61,9 +61,9 @@
   version "7.0.12"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-7.0.12.tgz#ae5f67a19c15f752148004db07cbbb372e69efc9"
 
-"@types/react@^15.0.15":
-  version "15.0.21"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-15.0.21.tgz#29d849427237c1463abfb7b370755ee3e5b5b375"
+"@types/react@^15.0.22":
+  version "15.0.22"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-15.0.22.tgz#50803cde8d89f60a9b034f2dd0d619bc5f0273b5"
 
 "@types/serve-static@*":
   version "1.7.31"
@@ -86,9 +86,9 @@
   dependencies:
     "@types/source-map" "*"
 
-"@types/webpack@^2.2.11":
-  version "2.2.14"
-  resolved "https://registry.yarnpkg.com/@types/webpack/-/webpack-2.2.14.tgz#3970c56eac47013efc4e4b7f383fd59f60f50675"
+"@types/webpack@^2.2.15":
+  version "2.2.15"
+  resolved "https://registry.yarnpkg.com/@types/webpack/-/webpack-2.2.15.tgz#4ad7e9b7a51cae736a1dc783f203610c884789ff"
   dependencies:
     "@types/node" "*"
     "@types/tapable" "*"
@@ -289,9 +289,9 @@ arr-filter@^1.1.1:
   dependencies:
     make-iterator "^1.0.0"
 
-arr-flatten@1.0.1, arr-flatten@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/arr-flatten/-/arr-flatten-1.0.1.tgz#e5ffe54d45e19f32f216e91eb99c8ce892bb604b"
+arr-flatten@1.0.2, arr-flatten@^1.0.1:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/arr-flatten/-/arr-flatten-1.0.2.tgz#1ec1e63439c54f67d6f72bb4299c3d4f73b2d996"
 
 arr-map@^2.0.0:
   version "2.0.2"
@@ -1566,8 +1566,8 @@ caniuse-api@^1.5.2:
     lodash.uniq "^4.5.0"
 
 caniuse-db@^1.0.30000529, caniuse-db@^1.0.30000604:
-  version "1.0.30000653"
-  resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30000653.tgz#123e112a29ce8f3199e4995d2d8b9d95492c5b41"
+  version "1.0.30000655"
+  resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30000655.tgz#e40b6287adc938848d6708ef83d65b5f54ac1874"
 
 capture-stack-trace@^1.0.0:
   version "1.0.0"
@@ -1815,8 +1815,8 @@ combined-stream@^1.0.5, combined-stream@~1.0.5:
     delayed-stream "~1.0.0"
 
 comma-separated-tokens@^1.0.0:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/comma-separated-tokens/-/comma-separated-tokens-1.0.2.tgz#4b64717a2ee363af6dd39878336bd95e42d063e7"
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/comma-separated-tokens/-/comma-separated-tokens-1.0.3.tgz#6eb01f4730bde7a7fce5d5e2d943bdd637272801"
   dependencies:
     trim "0.0.1"
 
@@ -2283,7 +2283,7 @@ dateformat@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/dateformat/-/dateformat-2.0.0.tgz#2743e3abb5c3fc2462e527dca445e04e9f4dee17"
 
-debug@*, debug@2.6.1, debug@^2.1.1:
+debug@*, debug@2.6.1, debug@^2.1.1, debug@^2.4.5:
   version "2.6.1"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.1.tgz#79855090ba2c4e3115cc7d8769491d58f0491351"
   dependencies:
@@ -2301,7 +2301,7 @@ debug@2.3.3:
   dependencies:
     ms "0.7.2"
 
-debug@2.6.3, debug@^2.2.0, debug@^2.4.5:
+debug@2.6.3, debug@^2.2.0:
   version "2.6.3"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.3.tgz#0f7eb8c30965ec08c72accfa0130c8b79984141d"
   dependencies:
@@ -3512,7 +3512,7 @@ glob-watcher@^3.0.0:
     lodash.assignwith "^4.0.6"
     lodash.debounce "^4.0.6"
 
-glob@7.0.4:
+glob@7.0.4, glob@7.0.x:
   version "7.0.4"
   resolved "https://registry.yarnpkg.com/glob/-/glob-7.0.4.tgz#3b44afa0943bdc31b2037b934791e2e084bcb7f6"
   dependencies:
@@ -3520,17 +3520,6 @@ glob@7.0.4:
     inflight "^1.0.4"
     inherits "2"
     minimatch "2 || 3"
-    once "^1.3.0"
-    path-is-absolute "^1.0.0"
-
-glob@7.0.x:
-  version "7.0.6"
-  resolved "https://registry.yarnpkg.com/glob/-/glob-7.0.6.tgz#211bafaf49e525b8cd93260d14ab136152b3f57a"
-  dependencies:
-    fs.realpath "^1.0.0"
-    inflight "^1.0.4"
-    inherits "2"
-    minimatch "^3.0.2"
     once "^1.3.0"
     path-is-absolute "^1.0.0"
 
@@ -4388,8 +4377,8 @@ is-plain-object@^2.0.1:
     isobject "^1.0.0"
 
 is-png@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/is-png/-/is-png-1.0.0.tgz#3d80373fe9b89d65fd341f659d3fc0a1135e718a"
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/is-png/-/is-png-1.1.0.tgz#d574b12bf275c0350455570b0e5b57ab062077ce"
 
 is-posix-bracket@^0.1.0:
   version "0.1.1"
@@ -5829,14 +5818,14 @@ now-and-later@^1.0.0:
   dependencies:
     once "^1.3.2"
 
-now@^4.11.1:
-  version "4.11.1"
-  resolved "https://registry.yarnpkg.com/now/-/now-4.11.1.tgz#69660a809ee89e5044309d86d49979729eb82302"
+now@^4.11.2:
+  version "4.11.2"
+  resolved "https://registry.yarnpkg.com/now/-/now-4.11.2.tgz#a27c4b23aa0a2aed792b01664176bb7717b1c606"
   dependencies:
     "@google/maps" "0.3.1"
     ansi-escapes "1.4.0"
     ansi-regex "2.1.1"
-    arr-flatten "1.0.1"
+    arr-flatten "1.0.2"
     array-unique "0.3.2"
     async-retry "0.3.0"
     async-to-gen "1.3.2"
@@ -8305,9 +8294,9 @@ trough@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/trough/-/trough-1.0.0.tgz#6bdedfe7f2aa49a6f3c432257687555957f342fd"
 
-ts-jest@^19.0.9:
-  version "19.0.9"
-  resolved "https://registry.yarnpkg.com/ts-jest/-/ts-jest-19.0.9.tgz#049a599be6e09264b421be05f56567165995199c"
+ts-jest@^19.0.10:
+  version "19.0.10"
+  resolved "https://registry.yarnpkg.com/ts-jest/-/ts-jest-19.0.10.tgz#62d086569f44ed86173cf8f0f332606606142add"
   dependencies:
     fs-extra "^2.1.2"
     glob-all "^3.1.0"
@@ -8407,9 +8396,9 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
 
-typescript@next:
-  version "2.3.0-dev.20170414"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.3.0-dev.20170414.tgz#21199d254e3436215c1cefc60fc5bd266de573ce"
+typescript@rc:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.3.0.tgz#2e63e09284392bc8158a2444c33e2093795c0418"
 
 ua-parser-js@^0.7.9:
   version "0.7.12"
