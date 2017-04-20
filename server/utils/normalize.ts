@@ -32,10 +32,15 @@ function createCategoryObj(category: string): Category {
 }
 
 export const normalize = (cards: SingleCardJSON[]): RootValue => {
-  const mapped = cards.map(card => Object.assign({}, card, {
+  let mapped = cards.map(card => Object.assign({}, card, {
     authors: card.authors.map(AuthorFactory.create),
     categories: card.categories ? card.categories.map(createCategoryObj) : [],
   }));
+  mapped = mapped.sort((a, b) => {
+    if (a.title < b.title) { return -1; }
+    if (a.title > b.title) { return 1; }
+    return 0;
+  });
 
   // const mapped = cards.map(card => ({...card,
   //   authors: card.authors.map(AuthorFactory.create),
