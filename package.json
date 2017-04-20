@@ -8,6 +8,7 @@
   "scripts": {
     "pretest": "yarn lint",
     "prepush": "yarn build && yarn test",
+    "precommit": "echo precommit hooking",
     "test": "jest --coverage",
     "dev": "gulp __build && ts-node ./dist/index.js",
     "deploy": "torus run ./deploy",
