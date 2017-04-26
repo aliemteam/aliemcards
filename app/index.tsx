@@ -1,8 +1,8 @@
+import 'autotrack'; // Google Analytics global functions
 import * as React from 'react';
 import { ApolloClient, ApolloProvider } from 'react-apollo';
 import { render } from 'react-dom';
 import * as WebFont from 'webfontloader';
-import 'autotrack'; // Google Analytics global functions
 import App from './App';
 
 declare const __DEV__: boolean;
