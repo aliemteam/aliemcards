@@ -31,6 +31,7 @@
     ]
   },
   "dependencies": {
+    "autotrack": "^2.3.2",
     "axios": "^0.16.0",
     "compression": "^1.6.2",
     "express": "^4.14.1",
