@@ -108,7 +108,7 @@
     "remark-lint-table-cell-padding": "^1.0.0",
     "remark-lint-table-pipe-alignment": "^1.0.0",
     "remark-lint-unordered-list-marker-style": "^1.0.0",
-    "style-loader": "^0.16.0",
+    "style-loader": "^0.17.0",
     "stylint": "^1.5.9",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.1",
