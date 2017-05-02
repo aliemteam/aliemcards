@@ -12,5 +12,16 @@ $now -C \
     -e ALIEM_API_KEY="$ALIEM_API_KEY" \
     "$(pwd)"
 
+# Grab deploy URL
+deploy_url=$(
+  $now -t "$NOW_TOKEN" ls aliemcards |
+  awk '/ url/,EOF' |
+  tail -n +2 |
+  awk '{ print $1 }'
+)
+
+# Scale it to a minimum of 1 instance (never sleep)
+$now -t "$NOW_TOKEN" scale "$deploy_url" 1 auto
+
 # Move the URL symbolic link to the new deploy
 $now -C -t "$NOW_TOKEN" alias
