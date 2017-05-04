@@ -41,13 +41,13 @@ exports[`<Card /> should render according to networkStatus 3`] = `
     </div>
     <div
       className="card__content"
-    >
-      <div>
-        <h1>
-          Hello World
-        </h1>
-      </div>
-    </div>
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "<h1>Hello World</h1>
+        ",
+        }
+      }
+    />
   </div>
 </article>
 `;
@@ -81,13 +81,13 @@ exports[`<Card /> should render with multiple authors and updated date 1`] = `
     </div>
     <div
       className="card__content"
-    >
-      <div>
-        <h1>
-          Hello World
-        </h1>
-      </div>
-    </div>
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "<h1>Hello World</h1>
+        ",
+        }
+      }
+    />
   </div>
 </article>
 `;

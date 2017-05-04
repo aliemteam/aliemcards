@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { gql, graphql } from 'react-apollo';
 import * as remark from 'remark';
-import * as reactRenderer from 'remark-react';
+import * as html from 'remark-html';
 import { Card as ICard } from '../../server/models/';
 
 interface Props {
@@ -59,13 +59,12 @@ export default class Card extends React.PureComponent<Props, {}> {
             </div>
             <div><strong>Updated:</strong> {lastUpdate}</div>
           </div>
-          <div className="card__content">
-            {
-              remark()
-              .use(reactRenderer, { createElement: React.createElement })
-              .processSync(this.props.data.card.content).contents
-            }
-          </div>
+          <div
+            className="card__content"
+            dangerouslySetInnerHTML={{
+              __html: remark().use(html).processSync(this.props.data.card.content).contents,
+            }}
+          />
         </div>
       </article>
     );
