@@ -10,8 +10,6 @@ before_install:
     - pip install --user awscli
     - export PATH=$PATH:$HOME/.local/bin
 script: yarn test && yarn build
-after_success:
-    - bash <(curl -s https://codecov.io/bash)
 before_deploy:
     - yarn s3
 deploy:
@@ -20,3 +18,5 @@ deploy:
     skip_cleanup: true
     provider: script
     script: ./deploy
+after_success:
+    - bash <(curl -s https://codecov.io/bash)
