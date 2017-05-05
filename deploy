@@ -22,4 +22,4 @@ deploy_url=$(
 $now -t "$NOW_TOKEN" scale "$deploy_url" 1
 
 # Move the URL symbolic link to the new deploy
-$now -C -t "$NOW_TOKEN" alias
+$now -C -t "$NOW_TOKEN" alias set "$deploy_url" aliemcards
