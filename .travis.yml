@@ -5,6 +5,7 @@ branches:
     only:
         - master
         - /^greenkeeper-.*$/
+        - /v\d+\.\d+\.\d+(?:-rc\d+)?/
 cache: yarn
 before_install:
     - pip install --user awscli
