@@ -1,8 +1,9 @@
 import * as React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
+import Announcements from './components/Announcements';
 import Footer from './components/Footer';
 import Header from './components/Header';
-import Announcements from './components/Announcements';
 import lazyLoad from './utils/LazyLoad';
 
 import './assets/css/main';
@@ -56,7 +57,7 @@ class App extends React.PureComponent<Props, State> {
     return (
       <div className="row row--stacked main">
         <Header {...this.props} />
-        { this.state.announcements && 
+        { this.state.announcements &&
           <Announcements />
         }
         <main className="content" role="main">
