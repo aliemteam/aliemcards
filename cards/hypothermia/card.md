@@ -24,31 +24,31 @@ categories:
 
 **MODERATE HYPOTHERMIA** 28-32.2°C (82.4-90°F)
 
-| Clinical Findings |
-| ----------------- |
-| Atrial dysrhythmias  |
-| J wave on ECG          |
+| Clinical Findings         |
+| :------------------------ |
+| Atrial dysrhythmias       |
+| J wave on ECG             |
 | Hypotension, bradycardia  | 
 | Lethargy                  |
 | Mydriasis                 |
-| Diminished gag reflex   |
-| Loss of shivering       |
-| Hyporeflexia            |
+| Diminished gag reflex     |
+| Loss of shivering         |
+| Hyporeflexia              |
 
 [](image-1.png) 
 
 **SEVERE HYPOTHERMIA** &lt;28°C (&lt;82.4°F)
 
-| Clinical Findings |
-| ----------------- |
-| Apnea               |       
-| Coma                 | 
-| No activity on EEG   | 
-| Fixed pupils         | 
-| Oliguria                  | 
+| Clinical Findings         |
+| :------------------------ |
+| Apnea                     |
+| Coma                      |
+| No activity on EEG        |
+| Fixed pupils              |
+| Oliguria                  |
 | Pulmonary edema           |
 | Ventricular dysrhythmias  |
-| Asystole                  |
+| Asystole                  |
 
 **Tip:**
 
