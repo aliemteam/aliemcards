@@ -1,6 +1,6 @@
 ---
 
-title: Emergency Drug Card (Pediatric)
+title: Emergency Drug Card - Pediatric
 authors:
     - Rob Bryant, MD
     - Amie Hatch, PharmD, BCPS
@@ -10,9 +10,10 @@ updates: null
 categories:
     - Pharmacology
     - Critical Care
+    - Pediatrics
 ---
 
-# Emergency Drug Card (Pediatric)
+# Emergency Drug Card - Pediatric
 
 ## PALS
 

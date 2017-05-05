@@ -1,13 +1,15 @@
 @require 'variables'
 
 .footer
+    margin-top: 5em
     font-size: 12px
     line-height: 1em
+    background-color: $darkest-gray
+    padding-bottom: 5em
     a
         font-weight: bold
 
 .footer__cc
-    border: 1px solid $light-gray
     padding: 2rem
     width: 100%
     max-width: $container-max-width
@@ -23,12 +25,15 @@
 .footer__cc-text
     flex: auto
     line-height: 1.4em
-    color: $dark-gray
+    color: $light-gray
     a
-        color: $dark-gray
+        color: $light-gray
 
 .footer__links
-    max-width: 300px
+    max-width: 500px
     margin-left: auto
     margin-right: auto
     justify-content: space-between
+    font-size: 1.2em
+    a
+        color: $primary
