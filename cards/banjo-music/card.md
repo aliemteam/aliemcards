@@ -29,13 +29,3 @@ A card about banjos. Updated in MacDown.
 **Resonator banjo**
 
 ![resonator banjo picture](image-2.jpg)
-
-# Jibberish goes here
-;lskjd
-alsdkj;afsd
-lasdkjf
-laskdfj
-
-## References
-
-- add a new reference
