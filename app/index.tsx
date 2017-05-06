@@ -1,3 +1,4 @@
+import 'autotrack'; // Google Analytics global functions
 import * as React from 'react';
 import { ApolloClient, ApolloProvider } from 'react-apollo';
 import { render } from 'react-dom';

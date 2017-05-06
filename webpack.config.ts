@@ -95,6 +95,12 @@ module.exports = {
         : ['react-hot-loader', 'babel-loader', tsLoader],
       },
       {
+        // necessary to load google autotrack
+        test: /\.js?$/,
+        use: { loader: 'babel-loader' },
+        exclude: /node_modules\/(?!(autotrack|dom-utils))/,
+      },
+      {
         test: /\.styl$/,
         include: [
           join(__dirname, 'app'),

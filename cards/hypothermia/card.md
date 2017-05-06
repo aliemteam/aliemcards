@@ -13,7 +13,7 @@ categories:
 
 ## Stages of Hypothermia
 
-**MILD HYPOTHERMIA** 32.2-35°C (90-95°F) 
+### MILD HYPOTHERMIA 32.2-35&deg;C (90-95&deg;F) 
 
 | Early Stage      | Decompensated Stage                               |
 | :--------------- | :------------------------------------------------ |
@@ -22,33 +22,33 @@ categories:
 | Shivering        | Cold diuresis-kidneys unable to concentrate urine |
 | Vasoconstriction | Hypovolemia                                       |
 
-**MODERATE HYPOTHERMIA** 28-32.2°C (82.4-90°F)
+### MODERATE HYPOTHERMIA 28-32.2&deg;C (82.4-90&deg;F)
 
-| Clinical Findings |
-| ----------------- |
-| Atrial dysrhythmias  |
-| J wave on ECG          |
+| Clinical Findings         |
+| :------------------------ |
+| Atrial dysrhythmias       |
+| J wave on ECG             |
 | Hypotension, bradycardia  | 
 | Lethargy                  |
 | Mydriasis                 |
-| Diminished gag reflex   |
-| Loss of shivering       |
-| Hyporeflexia            |
+| Diminished gag reflex     |
+| Loss of shivering         |
+| Hyporeflexia              |
 
-[](image-1.png) 
+![J-wave example](image-1.png)
 
-**SEVERE HYPOTHERMIA** &lt;28°C (&lt;82.4°F)
+### SEVERE HYPOTHERMIA &lt;28&deg;C (&lt;82.4&deg;F)
 
-| Clinical Findings |
-| ----------------- |
-| Apnea               |       
-| Coma                 | 
-| No activity on EEG   | 
-| Fixed pupils         | 
-| Oliguria                  | 
+| Clinical Findings         |
+| :------------------------ |
+| Apnea                     |
+| Coma                      |
+| No activity on EEG        |
+| Fixed pupils              |
+| Oliguria                  |
 | Pulmonary edema           |
 | Ventricular dysrhythmias  |
-| Asystole                  |
+| Asystole                  |
 
 **Tip:**
 

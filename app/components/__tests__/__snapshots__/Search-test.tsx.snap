@@ -30,15 +30,21 @@ exports[`<Search /> shoulder render splashText when prop is set 1`] = `
       A Point-of-Care Reference Library
     </div>
     <div>
-      by Michelle Lin, and the 
-      <strong>
-        ALiEM Team
-      </strong>
-      <br />
-      Formerly known as 
+      formerly known as 
       <em>
         Paucis Verbis Cards
       </em>
+      <br />
+      by the 
+      <a
+        href="https://aliem.com"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        ALiEM Team
+      </a>
+       
+      and contributors
     </div>
   </div>
   <div

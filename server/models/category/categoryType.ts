@@ -14,11 +14,11 @@ const fields = (): TypedFields<Category> => ({
   id: {
       type: new GraphQLNonNull(GraphQLString),
       description: 'The ID of the category.',
-    },
-    name: {
-      type: GraphQLString,
-      description: 'The category name.',
-    },
+  },
+  name: {
+    type: GraphQLString,
+    description: 'The category name.',
+  },
 });
 
 export default new GraphQLObjectType({

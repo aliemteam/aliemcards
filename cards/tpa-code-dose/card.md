@@ -1,6 +1,6 @@
 ---
 
-title: tPA Code Dose
+title: TPA Code Dose
 authors:
     - Bryan D. Hayes, PharmD
 created: 2013/05/14
@@ -9,7 +9,7 @@ categories:
     - Critical Care
 ---
 
-# tPA: Code Dose of tPA
+# TPA: Code Dose of TPA
 
 **Clinical Question: **In the rare situation where fibrinolytics may be indicated in cardiac arrest from PE or Acute Myocardial Infarction (AMI), what’s the dose?
 
