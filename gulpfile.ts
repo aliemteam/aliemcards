@@ -16,6 +16,7 @@ const REGEX = {
   dateStringFormat: new RegExp('^\d{4}\/\d{2}\/\d{2}$'),
   hasReferenceHeading: new RegExp('## References'),
   imageUrl: new RegExp(/[\w-]+\.(?:png|jpg|jpeg|gif)/, 'gi'),
+  imagesHaveAltText: new RegExp(/\!\[\]\(image-\d{1,2}\.\w+\)/, 'gi'),
   markdownH1: new RegExp('^#(?!#).+', 'm'),
 };
 
@@ -45,6 +46,12 @@ gulp.task('cards', () => (
         // Does the card have a reference header?
         if (!REGEX.hasReferenceHeading.test(parsed.body)) {
           throw new Error(`Improper reference format found in ${dir}`);
+        }
+
+        if (!REGEX.imagesHaveAltText.test(parsed.body)) {
+          console.warn(
+            `\x1b[33m\x1b[1mWarning:\x1b[0m One or more images in \x1b[32m${dir}\x1b[0m do not have alt text`,
+          );
         }
 
         checkCardAttributes(parsed.attributes, dir);
