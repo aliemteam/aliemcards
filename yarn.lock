@@ -5866,9 +5866,9 @@ now-and-later@^1.0.0:
   dependencies:
     once "^1.3.2"
 
-now@^5.1.2:
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/now/-/now-5.2.0.tgz#2c18cf5d250b5238bfce96fe0841254994c6ad30"
+now@^5.2.1:
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/now/-/now-5.2.1.tgz#6a357c6a3e2234c87a094aa15c17635c1c53d46d"
   dependencies:
     "@google/maps" "0.3.1"
     ansi-escapes "2.0.0"
