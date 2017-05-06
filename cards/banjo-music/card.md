@@ -13,7 +13,7 @@ categories:
 
 # Banjo Music
 
-A card about banjos. Updated 5/6/2017.
+A card about banjos. Updated in MacDown.
 
 ## Styles of Banjo Play
 
