@@ -30,6 +30,12 @@ A card about banjos. Updated in MacDown.
 
 ![resonator banjo picture](image-2.jpg)
 
+## Famous People Who Also Play Banjo
+
+- Steve Martin.
+
+![Steve Martin and a banjo](image-3.jpg)
+
 ## References
 
-- [A link about banjos](http://www.pubmed.com)
+- [a banjo reference](http://www.pubmed.com)
