@@ -30,3 +30,6 @@ A card about banjos. Updated in MacDown.
 
 ![resonator banjo picture](image-2.jpg)
 
+## References
+
+- [Banjo Reference](http://www.pubmed.com)
