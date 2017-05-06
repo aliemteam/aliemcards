@@ -11,8 +11,7 @@ categories:
 ---
 # Background
 
-Eye complaints are a common chief complaint in the emergency department (ED). Approximately 3.3% of patient visits to the ED were related to an eye or ear complaint in 2005. Having a systematic approach to ocular complaints is especially important as each structure of the eye holds within it different pathology. It is often difficult to remember individual diagnoses for various complaints such as red eye, painful eye, or vision loss, especially during busy shifts. The rule of 2s, as illustrated below, is a simple method with an anatomical approach to major ocular diagnoses encountered in the ED. It ensures one doesn't miss clinically significant diagnoses and requires only a basic understanding of the anatomy of the eye. The rule of 2s is easy to remember as it contains the number 2 in the context of eyes and proceeds from layer to layer of the eye in an anterior to posterior direction highlighting the 2 major associated diagnoses of that layer.  
-This approach is not meant to be all-inclusive of ocular diagnoses but rather is meant to provide a framework one can use to guide the physical exam, such as while using the slit lamp, and to systematically include or eliminate certain conditions.
+Eye complaints are a common chief complaint in the emergency department. Having a systematic approach to ocular complaints is especially important as each structure of the eye holds within it different pathology. It is often difficult to remember individual diagnoses for various complaints such as red eye, painful eye, or vision loss, especially during busy shifts. The rule of 2s, as illustrated below, is a simple method with an anatomical approach to the major ocular diagnoses and is meant to provide a general framework to guide the physical exam and include or eliminate certain conditions. The rule of 2s is easy to remember as it contains the number 2 in the context of eyes and proceeds from layer to layer of the eye in an anterior to posterior direction highlighting the 2 major associated diagnoses of that layer.  
 
 ## Anterior Eye – Utilize slit lamp exam
 ![anterior eye picture - conjunctiva (conjunctivitis and subconjunctival hemorrhage), cornea (corneal abrasion, corneal ulcer/infiltrate/keratitis, anterior chamber (cell/flare (uveitis, iritis), fluid (hyphema (blood), hypopyon (pus))), lens (cataract or swelling (as in hyperglycemia), dislocation)](image-1.png)
@@ -25,7 +24,7 @@ This approach is not meant to be all-inclusive of ocular diagnoses but rather is
 
 ## References
 
-- [Nawar, E.W., Niska, R.W., Xu, J. National Hospital Ambulatory Medical Care Survey: 2005 Emergency Department Summary: Advance Data from Vital and Health Statistics; No. 386. National Center for Health Statistics, Hyattsville, MD; 2007.]
+- [Nawar, E.W., Niska, R.W., Xu, J. National Hospital Ambulatory Medical Care Survey: 2005 Emergency Department Summary: Advance Data from Vital and Health Statistics; No. 386. National Center for Health Statistics, Hyattsville, MD; 2007.](https://www.ncbi.nlm.nih.gov/pubmed/17703794)
 
 - [Sharma R, Brunette DD. Ophthalmology. In: Marx JA, Hockberger RS, Walls RM. eds. Rosen's Emergency Medicine - Concepts and Clinical Practice. 8th ed. Philadelphia, PA: Elsevier/Saunders, 2014.]
 
