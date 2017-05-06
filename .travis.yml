@@ -5,7 +5,7 @@ branches:
     only:
         - master
         - /^greenkeeper-.*$/
-        - /v\d+\.\d+\.\d+(?:-rc\d+)?/
+        - /^v\d+\.\d+\.\d+(?:-rc\d+)?/
 cache: yarn
 before_install:
     - pip install --user awscli
@@ -14,7 +14,7 @@ script: yarn test && yarn build
 before_deploy:
     - yarn s3
 deploy:
-    on:
+    'on':
         tags: true
     skip_cleanup: true
     provider: script
