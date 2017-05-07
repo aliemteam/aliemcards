@@ -12,14 +12,16 @@ categories:
 
 # Stroke: 2013 AHA Guidelines on Contraindications for Thrombolytics
 
-**INCLUSION CRITERIA**
+## Inclusion Criteria
 
 1. Diagnosis of ischemic stroke causing measurable neurologic deficit
 2. Age ≥18 years
 
-## 0-3 hours from symptom onset
+## Exclusion Criteria
 
-### Absolute Exclusion Criteria
+### 0-3 hours from symptom onset
+
+#### Absolute Exclusion Criteria
 
 - Significant head trauma or prior stroke in previous 3 months
 - Symptoms suggest subarachnoid hemorrhage
@@ -35,7 +37,7 @@ categories:
 - Blood glucose &lt;50 mg/dL (2.7 mmol/L)
 - CT shows multilobar infarct (hypodensity >1/3 cerebral hemisphere)
 
-### Relative Exclusion Criteria
+#### Relative Exclusion Criteria
 
 - Only minor or rapidly improvement stroke symptoms (clearing spontaneously)
 - Pregnancy
@@ -44,11 +46,11 @@ categories:
 - Recent GI or urinary tract hemorrhage within previous 21 days
 - Recent acute MI within previous 3 months
 
-## 3-4.5 hours from symptom onset
+### 3-4.5 hours from symptom onset
 
-### Absolute Exclusion Criteria
+#### Absolute Exclusion Criteria
 
-**_List is same as for 0-3 hour time frame above PLUS any of the following_**:
+> **_List is same as for 0-3 hour time frame above PLUS any of the following_**:
 
 - Age >80 years
 - Severe stroke (NIHSS >25)
