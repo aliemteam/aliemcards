@@ -60,7 +60,7 @@ export default class Announcements extends React.Component<Props, State> {
     return (
       <div className="announcement">
           <div className="announcement_content">
-            <span className="foo">
+            <span>
               <span className="announcement_heading" children={this.state.announcement.heading} />
               {this.state.announcement.message}
             </span>
