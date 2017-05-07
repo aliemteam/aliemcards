@@ -7,6 +7,7 @@ import * as fs from 'fs';
 import * as gulp from 'gulp';
 import * as image from 'gulp-image';
 import * as stylus from 'gulp-stylus';
+import * as yaml from 'js-yaml';
 
 import { normalize } from './server/utils/normalize';
 import { SingleCardJSON } from './server/utils/strongTypes';
@@ -60,9 +61,13 @@ gulp.task('cards', () => (
       return cards;
     })
     .then(normalize)
-    .then(json => writeFilePromise('./dist/server/data.json',
-      JSON.stringify(json).replace(/\u2028/g, '\\u2028').replace(/\u2029/g, '\\u2029'),
-    ))
+    .then(json => {
+      const announcements = yaml.safeLoad(fs.readFileSync('./cards/announcements.yml', 'utf8'));
+      const data = { announcements, ...json };
+      return writeFilePromise('./dist/server/data.json',
+        JSON.stringify(data).replace(/\u2028/g, '\\u2028').replace(/\u2029/g, '\\u2029'),
+      );
+    })
 ));
 
 // Files
@@ -144,25 +149,25 @@ function writeFilePromise(path, content) {
 // Fail-fast abstractions --------------------------------------------------------------------------
 
 function checkDirectoryShape(contents: string[]): Promise<string[]> {
+  const ignoredFiles = ['.DS_Store', 'announcements.yml'];
   const promises: Array<Promise<string>> = [];
   for (const dir of contents) {
-    if (dir !== '.DS_Store') {
-      promises.push(new Promise(res => {
-        fs.stat(`./cards/${dir}`, (err, stats) => {
-          if (err) { throw err; }
-          if (!stats.isDirectory()) {
-            throw new Error('No files should be located in the first level of the "cards" directory');
+    if (ignoredFiles.includes(dir)) { continue; }
+    promises.push(new Promise(res => {
+      fs.stat(`./cards/${dir}`, (err, stats) => {
+        if (err) { throw err; }
+        if (!stats.isDirectory()) {
+          throw new Error('No files should be located in the first level of the "cards" directory');
+        }
+        fs.readdir(`./cards/${dir}`, (errr, files) => {
+          if (errr) { throw errr; }
+          if (files.indexOf('card.md') === -1) {
+            throw new Error(`No card.md file found in directory ${dir}`);
           }
-          fs.readdir(`./cards/${dir}`, (errr, files) => {
-            if (errr) { throw errr; }
-            if (files.indexOf('card.md') === -1) {
-              throw new Error(`No card.md file found in directory ${dir}`);
-            }
-            res(dir);
-          });
+          res(dir);
         });
-      }));
-    }
+      });
+    }));
   }
   return Promise.all(promises);
 }

@@ -4,7 +4,8 @@
     "module": "commonjs",
     "lib": [
       "dom",
-      "es2017",
+      "es6",
+      "es2016.array.include",
       "es2017.object"
     ],
     "jsx": "react",
@@ -19,9 +20,7 @@
     "moduleResolution": "node",
     "experimentalDecorators": true
   },
-  "include": [
-    "webpack.config.ts",
-    "index.ts",
-    "./server/**/*"
+  "files": [
+    "./index.ts"
   ]
 }
