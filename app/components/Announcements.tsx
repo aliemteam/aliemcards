@@ -66,7 +66,7 @@ export default class Announcements extends React.Component<Props, State> {
             </span>
             <button
               className="announcement_dismiss"
-              children="dismiss"
+              children="&times; dismiss"
               onClick={this.dismiss}
             />
           </div>
