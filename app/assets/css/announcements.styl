@@ -15,14 +15,19 @@
 
 .announcement_dismiss
     display: inline-block
-    margin-right: 20px
+    position: relative
     font-weight: bold
     font-size: .9em
     color: $primary
     float: right
-    text-transform: uppercase
     &:hover
         color: $primary-shade
+    &::before
+        content: '✕'
+        position: absolute
+        left: -5px
+        font-size: .8em
+        top: 4px
 
 .announcement_heading
     color: $primary
