@@ -1,10 +1,9 @@
 ---
-
 title: Ketofol
 authors:
     - Salim Rezaie, MD
 created: 2013/03/20
-updates: null
+updates:
 categories:
     - Pharmacology
 ---
@@ -13,17 +12,17 @@ categories:
 
 **Take Home Points**
 
-- **<span class="drug">Ketofol</span>** is a combination of <span class="drug">ketamine</span> and <span class="drug">propofol</span>.
-- **<span class="drug">Ketamine</span>** gives you a dissociative sedative, analgesic, and amnestic effect.
-- **<span class="drug">Propofol</span>** gives you rapid sedation and antiemetic effects. 
-- Overall, it appears that **<span class="drug">ketofol</span>** could have a slightly better time to sedation, and length of sedation, but this is not statistically significant based on available evidence. However, it does appear that **<span class="drug">ketofol</span>** does have a more steady sedation depth not requiring as many subsequent doses.  
+- <span class="drug">Ketofol</span> is a combination of <span class="drug">ketamine</span> and <span class="drug">propofol</span>.
+- <span class="drug">Ketamine</span> gives you a dissociative sedative, analgesic, and amnestic effect.
+- <span class="drug">Propofol</span> gives you rapid sedation and antiemetic effects. 
+- Overall, it appears that <span class="drug">ketofol</span> could have a slightly better time to sedation, and length of sedation, but this is not statistically significant based on available evidence. However, it does appear that <span class="drug">ketofol</span> does have a more steady sedation depth not requiring as many subsequent doses.  
 - More studies needed (it would be great to see a three-armed study comparing <span class="drug">ketofol</span>, <span class="drug">ketamine</span>, and <span class="drug">propofol</span> with appropriate and clinically equivalent dosing for each). 
 
 ## KETAMINE BASICS
 
-![](image-1.png)
+![Ketamine basics table](image-1.png)
 
-**<span class="drug">Ketamine</span>** is a dissociative anesthetic that is a phencyclidine derivative and provides sedation, analgesia, and amnesia. It works by inhibiting catecholamine uptake, which exerts a sympathomimetic effect.
+<span class="drug">Ketamine</span> is a dissociative anesthetic that is a phencyclidine derivative and provides sedation, analgesia, and amnesia. It works by inhibiting catecholamine uptake, which exerts a sympathomimetic effect.
 
 **Typical dose:** 1–2 mg/kg IV or 4–5 mg/kg IM
 
@@ -42,9 +41,9 @@ categories:
 
 ## PROPOFOL BASICS
 
-![](image-2.png)
+![Propofol basics table](image-2.png)
 
-**<span class="drug">Propofol</span>** is a lipophilic, ultra short-acting hypnotic agent, which works by potentiating GABA receptors on the neuronal lipid membranes. It does not provide any analgesia, and therefore should not be used as a sole agent for sedation. Note that one of its advantages is its anti-emetic property with a very low incidence of vomiting.
+<span class="drug">Propofol</span> is a lipophilic, ultra short-acting hypnotic agent, which works by potentiating GABA receptors on the neuronal lipid membranes. It does not provide any analgesia, and therefore should not be used as a sole agent for sedation. Note that one of its advantages is its anti-emetic property with a very low incidence of vomiting.
 
 **Typical dosing:** 1-2 mg/kg bolus followed by either a continuous infusion at 0.05-0.1 mg/kg/min or by 0.5 mg/kg boluses every 2–3 minutes. 
 The [Pediatric Sedation Research Consortium looked at 49,836 propofol sedation cases](http://www.ncbi.nlm.nih.gov/pubmed/19201064) and found no instances of death associated with propofol. 

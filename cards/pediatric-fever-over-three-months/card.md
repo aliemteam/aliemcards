@@ -4,7 +4,7 @@ title: Pediatric Fever Without a Source - Over 3 Months
 authors:
     - Christine Cho, MD
 created: 2012/02/09
-updates: null
+updates:
 categories:
     - Pediatrics
 ---
@@ -43,7 +43,7 @@ Serious bacterial infection (SBI) includes:
 
 ### Number of Pneumococcal conjugate vaccines (PCV)
 
-![](image-1.png)
+![Workup relative to number of pneumococcal conjugate vaccines](image-1.png)
 
 ## References
 

@@ -5,7 +5,7 @@ authors:
     - Trevor Wilson, MD
     - Beth Kaplan, MD
 created: 2013/07/31
-updates: null
+updates:
 categories:
     - Trauma
 ---

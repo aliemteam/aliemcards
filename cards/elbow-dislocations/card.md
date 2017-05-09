@@ -6,7 +6,7 @@ authors:
     - Andrew Little, DO
     - Mary Haas, MD
 created: 2016/12/12
-updates: null
+updates:
 categories:
     - Peer Reviewed
     - Orthopedics
@@ -15,7 +15,7 @@ categories:
 
 # Elbow Injuries: Elbow Dislocation
 
-![](image-1.png)
+![Anterior vs posterior elbow dislocation drawing. 90% are posterior](image-1.png)
 
 ## X-ray views
 

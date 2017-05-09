@@ -76,7 +76,7 @@ Consider the following adjunct therapies
 - Nebulized epinepherine
 - Manage as appropriate to clinical findings
 
-![](image-1.png)
+![Acute bronchiolitis workup pathway](image-1.png)
 
 ## References
 

@@ -1,21 +1,19 @@
 ---
-
 title: Elbow Injuries - Olecranon Fracture
 authors:
    - Melody Glenn, MD
    - Andrew Little, DO
    - Mary Haas, MD
 created: 2016/12/12
-updates: null
+updates:
 categories:
    - Peer Reviewed
    - Orthopedics
-
 ---
 
 # Elbow Injuries: Olecranon Fracture
 
-![](image-1.png)
+![Olecranon fracture drawing](image-1.png)
 
 ## Xray Views
 

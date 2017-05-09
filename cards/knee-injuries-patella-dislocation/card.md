@@ -6,14 +6,14 @@ authors:
     - Michael Gottlieb, MD, RDMS
     - Mary Haas, MD
 created: 2016/11/21
-updates: null
+updates:
 categories:
     - Orthopedics
 ---
 
 # Knee Injuries: Patella Dislocation
 
-![](image-1.png)
+![Patella dislocation drawing](image-1.png)
 
 ## X-ray Views
 

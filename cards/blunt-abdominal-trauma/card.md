@@ -4,7 +4,7 @@ title: Blunt Intra-Abdominal Injury
 authors:
     - Michelle Lin, MD
 created: 2012/04/20
-updates: null
+updates:
 categories:
     - Trauma
     - EBM

@@ -4,7 +4,7 @@ title: Hypothermia
 authors:
     - 'Michelle Lin, MD'
 created: 2011/02/04
-updates: null
+updates:
 categories:
     - Environmental
 ---

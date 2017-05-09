@@ -4,7 +4,7 @@ title: Dysphagia
 authors:
     - Michelle Lin, MD
 created: 2010/02/03
-updates: null
+updates:
 categories:
     - Gastroenterology
 ---
@@ -43,7 +43,7 @@ categories:
 
 ## Esophageal dysphagia
 
-![](image-1.png)
+![Esophageal dysphagia workup flowchart](image-1.png)
 
 ## Approach to dysphagia
 

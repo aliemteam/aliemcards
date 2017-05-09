@@ -1,5 +1,4 @@
 ---
-
 title: Urine Toxicology Screen
 authors:
     - Michelle Lin, MD
@@ -12,7 +11,7 @@ categories:
 
 # Urine Toxicology Screen
 
-| **Drug**                         | **Causes False (+) Test**                                                                                                                                                                                                                                           | **Duration of detectability**                                                                                                   |
+| Drug                             | Causes False (+) Test                                                                                                                                                                                                                                               | Duration of detectability                                                                                                       |
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
 | Amphetamines                     | Amantadine, Buproprion, Chlorpromazine, Desipramine, Fluoxetine, L-methamphetamine in nasal decongestant, Labetalol, Methylphenidate (Ritalin), Phentermine, Phenylephrine, Phenylpropanolamine, Promethazine, Pseudoephedrine, Ranitidine, Thioridazine, Trazodone | **2-3 days**                                                                                                                    |
 | Benzodiazepines                  | Oxaprozin, Sertraline                                                                                                                                                                                                                                               | **3 days** for short acting (e.g. lorazepam) and up to **30 days** for long acting (e.g. diazepam)                              |
@@ -44,7 +43,14 @@ These two terms are often used interchangeably and really shouldn't be.
 - **Opioid:** Broad category name which encompasses opiates, semi-synthetic, and synthetic agents
 - **Opiate:** Refers to only naturally occurring opioids
 
-![](image-1.png)
+| Opiates  | Semi-Synthetic | Synthetic |
+| -------- | -------------- | --------- |
+| Opium    | Heroin         | Fentanyl  |
+| Morphine | Hydrocodone    | Methadone |
+| Codeine  | Hydromorphone  | Tramadol  |
+|          | Oxycodone      |           |
+|          | Oxymorphone    |           |
+|          | Buprenorphine  |           |
 
 - **Oxycodone**, a semi-synthetic, is similar to **morphine**.
 - **Methadone**, a synthetic, has a completely unrelated structure.
@@ -63,4 +69,4 @@ A negative result doesn't rule out opioid ingestion, and a positive result only 
 ## References
 
 - [Standridge JB, Adams SM, Zotos AP. Urine drug screening: a valuable office procedure. Am Fam Physician. 2010 Mar 1;81(5):635-40.](http://www.ncbi.nlm.nih.gov/pubmed/20187600)
-- \[Geraci, M.J., Peele, J., McCoy, S.L. et al. Int J Emerg Med. 2010 Nov 3: 327. doi:10.1007/s12245-010-0235-3
+- Geraci, M.J., Peele, J., McCoy, S.L. et al. Int J Emerg Med. 2010 Nov 3: 327. doi:10.1007/s12245-010-0235-3

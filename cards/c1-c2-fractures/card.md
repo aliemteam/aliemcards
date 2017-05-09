@@ -4,7 +4,7 @@ title: C1 and C2 Spine Fractures
 authors:
     - Michelle Lin, MD
 created: 2010/09/24
-updates: null
+updates:
 categories:
     - Orthopedics
 ---
@@ -83,7 +83,7 @@ categories:
 - Complication: Central cord syndrome due to ligamentum flavum buckling during hyperextension
 - Requires CT differentiation from very unstable flexion teardrop fracture
 
-![](image-1.png)
+![C1-C2 fracture diagram](image-1.png)
 
 (ALL = Anterior Longitudinal Ligament)
 

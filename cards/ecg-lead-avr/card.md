@@ -4,7 +4,7 @@ title: Lead aVR
 authors:
     - Michelle Lin, MD
 created: 2011/11/18
-updates: null
+updates:
 categories:
     - Cardiovascular
     - ECG
@@ -24,7 +24,7 @@ categories:
 
 **ST Elevation >1.5 mm in aVR**
 
-![](image-1.png)
+![Example of ST elevation](image-1.png)
 
 - Suggests left main coronary artery (LMCA), left anterior descending (LAD), or 3-vessel coronary disease
 - LMCA occlusion has a high mortality and often refractory to thrombolytics.
@@ -34,7 +34,7 @@ categories:
 
 **PR elevation in aVR**
 
-![](image-2.png)
+![Example of PR elevation](image-2.png)
 
 Suggests subepicardial atrial injury from pericardial inflammation
 
@@ -47,7 +47,7 @@ Suggests subepicardial atrial injury from pericardial inflammation
 
 **Prominent R wave in aVR**
 
-![](image-3.png)
+![Example of a prominent R wave](image-3.png)
 
 - Classic ECG findings of TCA overdose:
   - Sinus tachycardia
@@ -81,7 +81,7 @@ Suggests subepicardial atrial injury from pericardial inflammation
 3. Is there a notch on the descending limb of a negative QRS complex?
 4. Measure the voltage change in the first (vi) and last 40 msec (vt). Is vi / vt &lt;1?
 
-![](image-4.png)
+![Example of VT vs SVT](image-4.png)
 
 | Criteria | Sensitivity | Specificity | PPV | NPV |
 | -------- | :---------: | :---------: | :-: | :-: |

@@ -4,7 +4,7 @@ title: Supratherapeutic INR
 authors:
     - Michelle Lin, MD
 created: 2012/08/10
-updates: null
+updates:
 categories:
     - Hematology and Oncology
 ---

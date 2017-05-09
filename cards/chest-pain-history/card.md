@@ -4,7 +4,7 @@ title: Chest Pain History
 authors:
     - Salim Rezaie, MD
 created: 2013/03/28
-updates: null
+updates:
 categories:
     - Cardiovascular
     - EBM

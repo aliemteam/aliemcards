@@ -4,7 +4,7 @@ title: Streptococcal Pharyngitis
 authors:
     - Michelle Lin, MD
 created: 2010/07/30
-updates: null
+updates:
 categories:
     - ENT
     - Infectious Disease

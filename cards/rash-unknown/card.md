@@ -1,10 +1,9 @@
 ---
-
 title: An Approach to the Unknown Rash
 authors:
     - Michelle Lin, MD
 created: 2011/08/26
-updates: null
+updates:
 categories:
     - Dermatology
 ---
@@ -85,19 +84,19 @@ Hypotension
 
 ## Erythematous Rash
 
-![](image-1.png)
+![Erythematous rash workup pathway](image-1.png)
 
 ## Maculopapular Rash
 
-![](image-2.png)
+![Maculopapular rash workup pathway](image-2.png)
 
 ## Petechial/ Purpuric Rash
 
-![](image-3.png)
+![Petechial or purpuric rash workup pathway](image-3.png)
 
 ## Vesiculobullous Rash
 
-![](image-4.png)
+![Vesiculobullous rash workup pathway](image-4.png)
 
 ## References
 

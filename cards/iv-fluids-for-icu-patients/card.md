@@ -4,7 +4,7 @@ title: IV Fluid Formulations for ICU Patients
 authors:
     - Michelle Lin, MD
 created: 2012/01/03
-updates: null
+updates:
 categories:
     - Critical Care
 ---

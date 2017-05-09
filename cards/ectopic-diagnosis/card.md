@@ -4,7 +4,7 @@ title: Ectopic Pregnancy - Making the Diagnosis
 authors:
     - Javier Benitez, MD
 created: 2013/05/09
-updates: null
+updates:
 categories:
     - OBGYN
 ---
@@ -64,7 +64,7 @@ Systematic review based on 14 studies (n=12,101) with a summary prevalence of ec
 
 ## Fagan Nomogram
 
-![](image-2.png)
+![Fagan nomogram](image-2.png)
 
 ## References
 

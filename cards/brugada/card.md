@@ -4,7 +4,7 @@ title: Brugada Syndrome
 authors:
     - Michelle Lin, MD
 created: 2011/05/06
-updates: null
+updates:
 categories:
     - Cardiovascular
 ---
@@ -23,7 +23,7 @@ categories:
 - Type 1 – Most specific for Brugada Syndrome
 - Highest risk for symptoms of syncope and sudden death
 
-![](image-1.png)
+![Examples of type 1, type 2, and type 3 Brugada ECG patterns](image-1.png)
 
 ## Differential diagnosis
 

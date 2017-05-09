@@ -4,7 +4,7 @@ title: Head CT in Trauma
 authors:
     - Michelle Lin, MD
 created: 2011/05/13
-updates: null
+updates:
 categories:
     - Radiology
     - EBM

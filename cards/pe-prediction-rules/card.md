@@ -4,7 +4,7 @@ title: Pulmonary Embolism Clinical Prediction Rules
 authors:
     - Michelle Lin, MD
 created: 2011/06/03
-updates: null
+updates:
 categories:
     - Pulmonology
     - EBM

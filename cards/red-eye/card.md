@@ -1,10 +1,9 @@
 ---
-
 title: Red Eye
 authors:
     - Michelle Lin, MD
 created: 2010/01/22
-updates: null
+updates:
 categories:
     - Ophthalmology
 ---
@@ -13,7 +12,7 @@ categories:
 
 ## Conjunctivitis
 
-![](image-1.png)
+![Bacterial conjunctivitis photo](image-1.png)
 
 ### Allergic
 
@@ -30,7 +29,7 @@ categories:
 
 ### Viral: Epidemic keratoconjunctivitis
 
-![](image-2.png)
+![Epidemic keratoconjunctivitis photo](image-2.png)
 
 - Adenovirus
 - **Symptoms:** Eye pain, decreased visual acuity
@@ -41,8 +40,8 @@ categories:
 - More prevalent in HIV pts. 
 - Foreign body sensation in eye (unlike typical viral conjunctivitis)
 - **Treatment**:
-- If no skin or corneal involvement, topical antivirals (**<span class="drug">trifluridine</span>** or **<span class="drug">vidarabine</span>**) x 10-14 days
-- If corneal involvement (dendrites seen), topical **<span class="drug">trifluridine</span>** and oral **<span class="drug">acyclovir</span>** x 7-10 days. NO STEROIDS. 
+- If no skin or corneal involvement, topical antivirals (<span class="drug">trifluridine</span> or <span class="drug">vidarabine</span>) x 10-14 days
+- If corneal involvement (dendrites seen), topical <span class="drug">trifluridine</span> and oral <span class="drug">acyclovir</span> x 7-10 days. NO STEROIDS. 
 
 ### Viral: HZV ophthalmicus
 
@@ -70,7 +69,7 @@ Often association with morning crusting. Injection more pronounced at fornices.�
 
 - Chlamydia: Sexually active patients and neonates,mucopurulent discharge, foreign body sensation
 - Check for concurrent STI(symptomatic only 1⁄2 patients).
-- **Treatment:** Topical **<span class="drug">erythromycin</span>** and po **<span class="drug">azithromycin</span>** x 1 
+- **Treatment:** Topical <span class="drug">erythromycin</span> and po <span class="drug">azithromycin</span> x 1 
 
 ## Subconjunctival Hemorrhage
 
@@ -79,7 +78,7 @@ Often association with morning crusting. Injection more pronounced at fornices.�
 
 ## Episcleritis
 
-![](image-3.png)
+![Episcleritis photo](image-3.png)
 
 - Episclera: Thin membrane over the sclera and beneath conjunctiva
 - Benign self-limited inflammatory cond with focal area of dilated episceral vessels 
@@ -88,7 +87,7 @@ Often association with morning crusting. Injection more pronounced at fornices.�
 
 ## Scleritis
 
-![](image-4.png)
+![Scleritis photo](image-4.png)
 
 - **Most common immune cause:** Rheumatoid arthritis
 - **Most common vasculitis cause:** Wegener’s 
@@ -109,15 +108,15 @@ Often association with morning crusting. Injection more pronounced at fornices.�
 
 ## Acute Angle Closure Glaucoma
 
-![](image-5.png)
+![Acute Angle Closure Glaucoma photo](image-5.png)
 
 - **Symptoms:** Blurred vision, halos around lights, nausea/vomiting, headache
 - **Pearl:** Consider in all patients with “migraine HA’s” – check pupil reactivity
 - **Exam:** Corneal edema, mid-dilated NON-reactive pupil
 - Intraocular pressure >30 mmHg requires prompt treatment
 - **Treatment:** 
-- Topicals: **<span class="drug">Timolol</span>**, **<span class="drug">prednisolone</span>**, **<span class="drug">apraclonidine</span>**
-- Oral: **<span class="drug">Acetazolamide</span>** 
+- Topicals: <span class="drug">Timolol</span>, <span class="drug">prednisolone</span>, <span class="drug">apraclonidine</span>
+- Oral: <span class="drug">Acetazolamide</span> 
 
 ## References
 

@@ -4,14 +4,14 @@ title: Dermatomes and Myotomal Maps
 authors:
     - Michelle Lin, MD
 created: 2013/05/26
-updates: null
+updates:
 categories:
     - Orthopedics
 ---
 
 # Dermatomes and Myotomal Maps
 
-![](image-1.png)
+![Dermatome map diagram](image-1.png)
 
 ## Testing Motor Function by Level
 

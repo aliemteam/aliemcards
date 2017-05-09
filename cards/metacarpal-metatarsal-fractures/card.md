@@ -4,14 +4,14 @@ title: Metatarsal & Metacarpal Fractures
 authors:
     - Michelle Lin, MD
 created: 2013/12/13
-updates: null
+updates:
 categories:
     - Orthopedics
 ---
 
 # Metatarsal/Metacarpal Fractures
 
-![](image-1.png)
+![Metacarpal and metatarsal drawing](image-1.png)
 
 ## Metatarsal head
 

@@ -8,7 +8,7 @@ authors:
     - Ellen Laves, MD
     - Michelle Lin, MD
 created: 2012/02/02
-updates: null
+updates:
 categories:
     - Pediatrics
     - Infectious Disease
@@ -65,7 +65,7 @@ History and physical are not reliable to rule-out serious bacterial infection (S
 
 ## Treatment
 
-Timely administration of IV antibiotics (**<span class="drug">Ampicillin</span>** + **<span class="drug">Cefotaxime</span>**, or **<span class="drug">Ampicillin</span>** + **<span class="drug">Gentamicin</span>**). May give IM, if IV not possible (**<span class="drug">Cefotaxime</span>** more consistently absorbed IM than **<span class="drug">Gentamicin</span>**).
+Timely administration of IV antibiotics (<span class="drug">Ampicillin</span> + <span class="drug">Cefotaxime</span>, or <span class="drug">Ampicillin</span> + <span class="drug">Gentamicin</span>). May give IM, if IV not possible (<span class="drug">Cefotaxime</span> more consistently absorbed IM than <span class="drug">Gentamicin</span>).
 
 Add **<span class="drug">Acyclovir</span>,** if any 1 of following:
 

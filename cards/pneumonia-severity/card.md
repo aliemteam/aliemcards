@@ -4,7 +4,7 @@ title: Pneumonia Risk Stratification Tools
 authors:
     - Michelle Lin, MD
 created: 2011/02/25
-updates: null
+updates:
 categories:
     - Pulmonology
     - Infectious Disease

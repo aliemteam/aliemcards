@@ -1,10 +1,9 @@
 ---
-
 title: Local Anesthetic Toxicity
 authors:
     - David Murphy
 created: 2014/06/13
-updates: null
+updates:
 categories:
     - Toxicology
 ---
@@ -20,17 +19,17 @@ categories:
 5. Where this line intersects “Max Volume” (center) is the maximum dose (mL) that can be safely administered to the patient.
 6. These numbers assume that the toxic levels are:
 
-- **<span class="drug">Bupivacaine</span>** 2 mg/kg
-- **<span class="drug">Lidocaine</span>** 3 mg/kg
-- **<span class="drug">Lidocaine</span>** + “Ad”renaline (<span class="drug">Epinephrine</span>)\*\* 6 mg/kg
+- <span class="drug">Bupivacaine</span> 2 mg/kg
+- <span class="drug">Lidocaine</span> 3 mg/kg
+- <span class="drug">Lidocaine</span> + “Ad”renaline (<span class="drug">Epinephrine</span>)\*\* 6 mg/kg
 
-![](image-1.png)
+![Nomogram for local anesthetic toxic dose limits](image-1.png)
 
 ## Dosing of 20% INTRAVENOUS LIPID for local anesthetic toxicity\*\*
 
-- Draw a **vertical line** downward from patient´s IBW. Intersection of this line with the 3 other axes indicate weight-based initial bolus volume, infusion rate, and total maximum dose of **<span class="drug">intralipid (20%)</span>**.
+- Draw a **vertical line** downward from patient´s IBW. Intersection of this line with the 3 other axes indicate weight-based initial bolus volume, infusion rate, and total maximum dose of <span class="drug">intralipid (20%)</span>.
 
-![](image-2.png)
+![body weight to dose limit figure](image-2.png)
 
 ## References
 

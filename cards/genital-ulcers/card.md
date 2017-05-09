@@ -4,7 +4,7 @@ title: Genital Ulcers
 authors:
     - Michelle Lin, MD
 created: 2012/05/04
-updates: null
+updates:
 categories:
     - Infectious Disease
     - Genitourinary

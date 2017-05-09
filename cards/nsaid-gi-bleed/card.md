@@ -4,7 +4,7 @@ title: NSAIDs and Upper GI Bleed
 authors:
     - Michelle Lin, MD
 created: 2011/07/15
-updates: null
+updates:
 categories:
     - Gastroenterology
     - Pharmacology

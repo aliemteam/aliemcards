@@ -1,10 +1,9 @@
 ---
-
 title: Septic Arthritis
 authors:
     - Michelle Lin, MD
 created: 2010/06/11
-updates: null
+updates:
 categories:
     - Orthopedics
     - Infectious Disease
@@ -63,7 +62,7 @@ Likelihood ratios:
 - Positive LR = How strongly a positive result increase the odds of disease
 - Negative LR = How well a negative result decreases the odds of disease 
 
-![](image-1.png)
+![Fagan nomogram](image-1.png)
 
 ## References
 

@@ -4,7 +4,7 @@ title: Acute Vestibular Syndrome vs Stroke
 authors:
     - Michelle Lin, MD
 created: 2011/12/02
-updates: null
+updates:
 categories:
     - Neurology
     - ENT
@@ -92,7 +92,7 @@ HINTS test seems as good as diffusion-weighted MRI to r/o CVA in AVS. 
 
 ## Fagan Nomogram
 
-![](image-1.png) 
+![Fagan nomogram](image-1.png) 
 
 ## References
 

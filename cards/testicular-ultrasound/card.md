@@ -1,11 +1,10 @@
 ---
-
 title: Testicular Ultrasound Assessment
 authors:
     - Matthew Dawson, MD
     - Mike Stone, MD
 created: 2015/01/21
-updates: null
+updates:
 categories:
     - Genitourinary
     - Radiology
@@ -32,7 +31,7 @@ categories:
 - Always compare flow relative to unaffected testicle.
 - Decreased or absent flow in the affected testicle suggests **torsion**
 
-![](image-1.png)
+![Left testicular torsion - midline transverse view demonstrating absent flow](image-1.png)
 
 Figure 1: Left testicular torsion - midline transverse view demonstrating absent flow
 
@@ -41,7 +40,7 @@ Figure 1: Left testicular torsion - midline transverse view demonstrating absen
 - Increased flow in the affected testicle or epididymis suggests orchitis and/or epididymitis (or a recently detorsed testicle if clinically consistent). 
 - Isolated orchitis is rare, **epididymitis** most common diagnosis.
 
-![](image-2.png)
+![Acute epididymitis. Longitudinal view demonstrating increased color flow in the body of the epididymis](image-2.png)
 
 Figure 2: Acute epididymitis - longitudinal view demonstrating increased color flow in the body of the epididymis
 

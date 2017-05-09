@@ -4,7 +4,7 @@ title: Rapid Sequence Intubation
 authors:
     - Demian Szyld, MD
 created: 2010/07/16
-updates: null
+updates:
 categories:
     - Critical Care
     - Procedures

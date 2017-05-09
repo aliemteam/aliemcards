@@ -1,11 +1,10 @@
 ---
-
 title: Pediatric Assessment Triangle
 authors:
     - Michelle Reina, MD
     - Rob Bryant, MD
 created: 2013/05/30
-updates: null
+updates:
 categories:
     - Pediatrics
     - Critical Care
@@ -13,7 +12,7 @@ categories:
 
 # Pediatric Assessment Triangle
 
-![](image-1.png)
+![Pediatric assessment triangle](image-1.png)
 
 The PAT functions as a rapid, initial assessment to determine “sick” or “not sick,” and should be immediately followed by/not delay the ABCDEs. It can be utilized for serial assessment of patients to track response to therapy.
 

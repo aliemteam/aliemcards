@@ -4,7 +4,7 @@ title: Dental Infections
 authors:
     - Hans Rosenberg, MD
 created: 2011/04/22
-updates: null
+updates:
 categories:
     - ENT
 ---
@@ -15,9 +15,9 @@ categories:
 - **Pulpitis** - inflammation of pulp secondary to caries
 - **Periodontitis** - loss of supportive bone structure caused by chronic gingivitis
 
-![](image-1.png)
+![Cellulitis, necrotic pulp, and periapical abscess diagram](image-1.png)
 
-![](image-2.png)
+![Impaction of food and bacteria diagram](image-2.png)
 
 ## Periapical Abscess
 
@@ -30,8 +30,8 @@ Collection of purulent material at apex of tooth
 
 - Antibiotics
 
-  - Uncomplicated: **<span class="drug">Penicillin</span>** or **<span class="drug">Clindamycin</span>**
-  - Complicated: **<span class="drug">Penicillin</span>** + **<span class="drug">Metronidazole</span>, Piperacillin/Tazobactam,** or **<span class="drug">Clindamycin</span>** + **<span class="drug">Ceftriaxone</span>**
+  - Uncomplicated: <span class="drug">Penicillin</span> or <span class="drug">Clindamycin</span>
+  - Complicated: <span class="drug">Penicillin</span> + <span class="drug">Metronidazole</span>, Piperacillin/Tazobactam, **or** <span class="drug">Clindamycin</span> + <span class="drug">Ceftriaxone</span>
 
 - Pain control
 - I+D if abscess present: probe with 18g needle → purulent → 11 blade stab incision → hemostat blunt dissection +/- packing
@@ -54,8 +54,8 @@ Collection of purulent material at apex of tooth
 - I & D abscess as needed: 11 blade stab incision → hemostat blunt dissection +/- packing
 - Antibiotics:
 
-  - **<span class="drug">Penicillin</span>** or **<span class="drug">Clindamycin</span>**
-  - **<span class="drug">Chlorhexidine</span>** 0.1% rinses q2-3h
+  - <span class="drug">Penicillin</span> or <span class="drug">Clindamycin</span>
+  - <span class="drug">Chlorhexidine</span> 0.1% rinses q2-3h
 
 - Dentist followup
 - Generalist in 1-2 days
@@ -71,8 +71,8 @@ Collection of purulent material at apex of tooth
   - I & D abscess as needed: 11 blade stab incision → hemostat blunt dissection +/- packing
   - Antibiotics:
 
-    - **<span class="drug">Penicillin</span>** or **<span class="drug">Clindamycin</span>**
-    - **<span class="drug">Chlorhexidine</span>** 0.1% rinses q2-3h
+    - <span class="drug">Penicillin</span> or <span class="drug">Clindamycin</span>
+    - <span class="drug">Chlorhexidine</span> 0.1% rinses q2-3h
 
 - Dentist followup: 
 - Generalist in 1-2 days

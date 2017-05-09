@@ -4,7 +4,7 @@ title: Clostridium Difficile Infection
 authors:
     - Michelle Lin, MD
 created: 2011/06/24
-updates: null
+updates:
 categories:
     - Infectious Disease
 ---

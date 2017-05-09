@@ -4,7 +4,7 @@ title: Dental Trauma
 authors:
     - Hans Rosenberg, MD
 created: 2011/04/15
-updates: null
+updates:
 categories:
     - ENT
 ---

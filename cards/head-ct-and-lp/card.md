@@ -4,7 +4,7 @@ title: Head CT Before LP for Meningitis
 authors:
     - Michelle Lin, MD
 created: 2010/04/23
-updates: null
+updates:
 categories:
     - Neurology
     - Procedures

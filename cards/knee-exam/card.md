@@ -4,7 +4,7 @@ title: Knee Examination
 authors:
     - Michelle Lin, MD
 created: 2010/03/19
-updates: null
+updates:
 categories:
     - Orthopedics
     - EBM
@@ -18,7 +18,7 @@ Following facts from [Solomon et al, JAMA 2001](http://www.ncbi.nlm.nih.gov/pub
 
 ## Anatomy of the Knee Joint
 
-![](image-1.png)
+![Anatomy of the Knee Joint](image-1.png)
 
 - Largest articulation in body
 - Stabilized by ACL, PCL, MCL, LCL, menisci, capsule and muscle
@@ -29,19 +29,19 @@ Following facts from [Solomon et al, JAMA 2001](http://www.ncbi.nlm.nih.gov/pub
 
 **Mechanism**: Knee twist with tibia pushed anteriorlyusually with concurrent valgus stress
 
-**Symptoms: **
+**Symptoms:**
 
 - May recall “pop” sound at injury
 - May c/o knee buckling or “giving out”
 - May notice more pronounced pain when pivoting
 
-**Exam: **
+**Exam:**
 
 - Lachman test 
 - Anterior drawer sign
 - Lateral pivot shift test: Valgus stress on knee plus internal/external rotation of knee during knee flexion
 
-![](image-2.png)
+![Lateral pivot shift test drawing](image-2.png)
 
 Check out a Pivot Shift [YouTube video](http://www.youtube.com/watch?v=ZWEGB0ToXZo)
 
@@ -61,7 +61,7 @@ Check out a Pivot Shift [YouTube video](http://www.youtube.com/watch?v=ZWEGB0To
 - **Lateral meniscus test**: Valgus stress on knee and internal/external rotation while flex/extending knee
 - **Medial meniscus test**: Varus stress on knee and internal/external rotation while flex/extending knee
 
-![](image-3.png)
+![McMurray Test drawing](image-3.png)
 
 - **Exam:** Apley compression test - Br J of Sports Med [YouTube video](http://www.youtube.com/watch?v=w57I1cYXlCA)
   - In a patient prone position, flex knee to 90 degrees and external/internal rotate knee while axially loading
@@ -87,7 +87,7 @@ Function: Perform stress maneuvers
 
 ## Fagan Nomogram
 
-![](image-4.png)
+![Fagan nomogram](image-4.png)
 
 ## References
 

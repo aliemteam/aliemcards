@@ -4,7 +4,7 @@ title: Toxic Alcohol Ingestion - Ethylene Glycol
 authors:
     - Michelle Lin, MD
 created: 2012/06/08
-updates: null
+updates:
 categories:
     - Toxicology
 ---
@@ -45,8 +45,8 @@ Found in antifreeze, coolants, deicing solutions, ink in stamp pads and ballpoin
 
 ## EG: Management
 
-- **Goal**: Prevent further formation of (**<span class="drug">fomipezole</span>**) & eliminate toxic metabolites (dialysis)
-- **Antidote**: **<span class="drug">Fomipezole</span>** inhibits alcohol dehydrogenase (alternative antidote= ethanol)
+- **Goal**: Prevent further formation of (<span class="drug">fomipezole</span>) & eliminate toxic metabolites (dialysis)
+- **Antidote**: <span class="drug">Fomipezole</span> inhibits alcohol dehydrogenase (alternative antidote= ethanol)
 - **Loading dose**: 15 mg/kg IV
 - **Maintenance dose**: 10 mg/kg IV every 12 hours x 2 days 
 
@@ -70,11 +70,11 @@ Found in antifreeze, coolants, deicing solutions, ink in stamp pads and ballpoin
 3. Acid-base/electrolyte abnormalities unresponsive to standard tx
 4. Old recommendation: EG level > 50 mg/dL
 
-_Note:_ **<span class="drug">Fomipezole</span>** without hemodialysis is an option if normal renal function AND no metabolic acidosis
+_Note:_ <span class="drug">Fomipezole</span> without hemodialysis is an option if normal renal function AND no metabolic acidosis
 
 ## Metabolism of Alcohols
 
-![](image-1.png)
+![Metabolism of alcohols drawing](image-1.png)
 
 ## References
 

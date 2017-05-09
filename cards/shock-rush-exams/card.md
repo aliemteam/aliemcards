@@ -4,7 +4,7 @@ title: Causes of Elevated Lactate
 authors:
     - Michelle Lin, MD
 created: 2009/12/22
-updates: null
+updates:
 categories:
     - Ultrasound
     - Radiology

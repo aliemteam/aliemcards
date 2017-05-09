@@ -4,7 +4,7 @@ title: Cholecystitis Diagnostic Test
 authors:
     - Michelle Lin, MD
 created: 2011/03/18
-updates: null
+updates:
 categories:
     - Gastroenterology
     - EBM
@@ -65,7 +65,7 @@ Have a **low threshold** to perform a RUQ abdominal bedside ultrasonography for 
 
 ## Fagan nomogram
 
-![](image-1.png)
+![Fagan nomogram](image-1.png)
 
 Draw a connecting your pre-test probability and your likelihood ratio. This provides you with your post-test probability.
 

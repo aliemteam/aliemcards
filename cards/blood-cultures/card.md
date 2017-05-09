@@ -4,7 +4,7 @@ title: Blood Culture Indications
 authors:
     - Michelle Lin, MD
 created: 2012/08/17
-updates: null
+updates:
 categories:
     - Infectious Disease
 ---

@@ -4,7 +4,7 @@ title: Open Fractures and Antibiotics
 authors:
     - Michelle Lin, MD
 created: 2012/01/20
-updates: null
+updates:
 categories:
     - Orthopedics
 ---
@@ -27,7 +27,7 @@ categories:
 
 - Start systemic antibiotics ASAP and target gram-positive organisms (eg. **first generation cephalosporins**)
 - Add **antibiotics for gram-negative coverage** for Type III open fractures
-- Add **<span class="drug">high-dose penicillin</span>**, if fecal or potential clostridial contamination (e.g. farm-related injuries)
+- Add <span class="drug">high-dose penicillin</span>, if fecal or potential clostridial contamination (e.g. farm-related injuries)
 - **Fluoroquinolones** provide no added benefit compared to the **cephalosporin + aminoglycoside** combination. Fluoroquinolones may impair fracture healing and result in higher infection rates in type III open fractures. 
 
 ## Level II Recommendations

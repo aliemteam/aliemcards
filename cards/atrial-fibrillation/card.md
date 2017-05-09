@@ -35,11 +35,11 @@ categories:
 - **D **= DM (1 pt)
 - **S2** = prior Stroke or TIA (2 pts)
 
-![](image-1.png)
+![Bar chart showing stroke rate as CHADS2 score increases](image-1.png)
 
 ([Gage et al., JAMA, 2001](https://www.ncbi.nlm.nih.gov/pubmed/?term=11401607))
 
-\##Deciding on whether to anticoagulate with aspirin or warfarin: ([AHA/ACC/ESC 2006 guidelines](http://circ.ahajournals.org/content/114/7/e257.full))
+## Deciding on whether to anticoagulate with aspirin or warfarin: ([AHA/ACC/ESC 2006 guidelines](http://circ.ahajournals.org/content/114/7/e257.full))
 
 ### WEAK RISK FACTORS
 

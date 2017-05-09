@@ -4,7 +4,7 @@ title: Suture Materials
 authors:
     - Michelle Lin, MD
 created: 2011/01/07
-updates: null
+updates:
 categories:
     - Surgery
 ---
