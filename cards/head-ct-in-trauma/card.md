@@ -15,7 +15,7 @@ categories:
 
 ## Canadian CT Head Rules (CCHR)
 
-**_Inclusion criteria:_** GCS 13-15, age ≥ 16 years, no coagulopathy, no obvious open skull fracture
+**_Inclusion criteria:_** GCS 13-15, age &ge; 16 years, no coagulopathy, no obvious open skull fracture
 
 **CT indicated if any of following:**
 
@@ -24,10 +24,10 @@ categories:
   - Suspected open or depressed skull fracture
   - Signs of basal skull fracture
   - At least 2 episodes of vomiting
-  - Age ≥65 years old
+  - Age &ge;65 years old
 - **Medium risk features** for brain injury detection on CT:
-  - Amnesia before impact of ≥ 30 minutes
-  - Dangerous mechanism (pedestrian vs. auto, an occupant ejected from motor vehicle, or a fall from an elevation of ≥ 3 feet or 5 stairs)
+  - Amnesia before impact of &ge; 30 minutes
+  - Dangerous mechanism (pedestrian vs. auto, an occupant ejected from motor vehicle, or a fall from an elevation of &ge; 3 feet or 5 stairs)
 
 ([Stiell IG eg. al Ann Emerg Med, 2001](http://www.mcgill.ca/files/emergency/CCHR.pdf))
 
@@ -47,11 +47,10 @@ GCS 15 and loss of consciousness in the setting of trauma and:
 
 ([Haydel et. al. NEJM, July 2000](http://www.ncbi.nlm.nih.gov/pubmed/10891517))
 
-## NEXUS II CRITERIA
-
+## NEXUS-II Criteria
 **CT indicated if any of following**:    
 
-- Age ≥65 years old
+- Age &ge;65 years old
 - Evidence of significant skull fracture 
 - Scalp hematoma
 - Neurologic deficit

@@ -1,5 +1,4 @@
 ---
-
 title: Atrial Fibrillation and Anticoagulation
 authors:
     - Michelle Lin, MD
@@ -22,7 +21,7 @@ categories:
 
 - Prior CVA or TIA
 - HTN
-- Age ≥75
+- Age &ge;75
 - CHF
 - Poor LV function
 - DM
@@ -31,8 +30,8 @@ categories:
 
 - **C** = Congestive heart failure (1 pt)
 - **H** = Hypertension (1 pt)
-- **A **= Age ≥ 75 (1 pt)
-- **D **= DM (1 pt)
+- **A** = Age &ge; 75 (1 pt)
+- **D** = DM (1 pt)
 - **S2** = prior Stroke or TIA (2 pts)
 
 ![Bar chart showing stroke rate as CHADS2 score increases](image-1.png)
@@ -41,7 +40,7 @@ categories:
 
 ## Deciding on whether to anticoagulate with aspirin or warfarin: ([AHA/ACC/ESC 2006 guidelines](http://circ.ahajournals.org/content/114/7/e257.full))
 
-### WEAK RISK FACTORS
+### Weak Risk Factors
 
 - Female gender    
 - Age 65-74 years        
@@ -52,20 +51,20 @@ categories:
 
 - <span class="drug">Aspirin</span> or <span class="drug">warfarin</span>
 
-### MODERATE RISK FACTORS
+### Moderate Risk Factors
 
 - Age > 75 years          
 - Hypertension                     
 - Heart failure           
-- LV ejection fracture ≤35%              
+- LV ejection fracture &le;35%              
 - Diabetes mellitus 
 
 **Treatment**
 
 - 1 risk factor: <span class="drug">aspirin</span> or <span class="drug">warfarin</span>
-- \> 1 risk factor: <span class="drug">warfarin</span>
+- &gt; 1 risk factor: <span class="drug">warfarin</span>
 
-### HIGH RISK FACTORS
+### High Risk Factors
 
 - Prior CVA        
 - Prior TIA         

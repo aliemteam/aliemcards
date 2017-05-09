@@ -104,7 +104,7 @@ categories:
 - Active External Rewarming (i.e. Bair Hugger, warm blankets), and
 - Minimally invasive Active Core Rewarming (warm IVF, warm air)
 
-**If NOT in cardiopulmonary arrest AND temp ≥32°C (89.6°F):**
+**If NOT in cardiopulmonary arrest AND temp &ge;32°C (89.6°F):**
 
 - Passive external rewarming measures    
 

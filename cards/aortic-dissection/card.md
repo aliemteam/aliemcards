@@ -1,5 +1,4 @@
 ---
-
 title: Aortic Dissection
 authors:
     - Michelle Lin, MD

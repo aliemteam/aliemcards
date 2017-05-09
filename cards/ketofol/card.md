@@ -18,7 +18,7 @@ categories:
 - Overall, it appears that <span class="drug">ketofol</span> could have a slightly better time to sedation, and length of sedation, but this is not statistically significant based on available evidence. However, it does appear that <span class="drug">ketofol</span> does have a more steady sedation depth not requiring as many subsequent doses.  
 - More studies needed (it would be great to see a three-armed study comparing <span class="drug">ketofol</span>, <span class="drug">ketamine</span>, and <span class="drug">propofol</span> with appropriate and clinically equivalent dosing for each). 
 
-## KETAMINE BASICS
+## Ketamine Basics
 
 ![Ketamine basics table](image-1.png)
 
@@ -39,7 +39,7 @@ categories:
 
 - The largest difference from baseline IOP occurred at 15 minutes with an estimated change of only 1.09 mmHg.
 
-## PROPOFOL BASICS
+## Propofol Basics
 
 ![Propofol basics table](image-2.png)
 

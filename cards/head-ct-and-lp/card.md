@@ -20,7 +20,7 @@ If **ZERO** high risk features, it is safe to do LP without a Head CT:
 
 \| **High risk features associated with abnormal CT:**        |
 \|------------------------------------------------------------\|
-| Age ≥ 60 yr                                                |
+| Age &ge; 60 yr                                                |
 | Immunocompromise (HIV, transplant, immunosuppression)      |
 | History of CNS disease (mass lesion, CVA, focal infection) |
 | Seizure &lt; 1 wk prior to arrival                         |

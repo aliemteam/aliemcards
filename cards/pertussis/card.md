@@ -20,7 +20,7 @@ categories:
 
 ## CDC Clinical Case Definition of Pertussis
 
-Cough illness lasting ≥ 2 weeks without other apparent cause with 1 or more of:
+Cough illness lasting &ge; 2 weeks without other apparent cause with 1 or more of:
 
 - Cough paroxysms
 - Inspiratory whoop

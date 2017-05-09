@@ -40,7 +40,7 @@ categories:
 - 33% with associated C2 fracture
 - Low incidence of neurologic injury because of wide C1 spinal canal
 - Usually involves fractures of both the anterior and posterior C1 arches, often with 3 or 4 fracture fragments
-- Complication: transverse ligament rupture, especially if C1 lateral masses are ≥7 mm wider than expected (MRI recommended)
+- Complication: transverse ligament rupture, especially if C1 lateral masses are &ge;7 mm wider than expected (MRI recommended)
 - Complication: vertebral artery injury (CT angiography recommended)
 
 ## C1 posterior arch fracture

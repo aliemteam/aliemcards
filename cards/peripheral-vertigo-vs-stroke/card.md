@@ -18,7 +18,7 @@ categories:
 - Acute dizziness with nausea/vomiting
 - Unsteady gait
 - Nystagmus
-- Intolerance to head motion, and lasts ≥24 hrs
+- Intolerance to head motion, and lasts &ge;24 hrs
 - No focal neurologic signs
 
 **Most Common Causes:**

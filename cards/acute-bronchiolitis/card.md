@@ -61,7 +61,7 @@ Discharge home if patient meets following criteria.
 
 ### Discharge Criteria (must meet all requirements)
 
-1. O<sub>2</sub> saturation ≥ 90% while awake
+1. O<sub>2</sub> saturation &ge; 90% while awake
 2. No more than mild/moderate respiratory distress
 3. Ability to maintain hydration
 4. Ability to obtain reliable follow-up care

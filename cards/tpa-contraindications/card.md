@@ -15,7 +15,7 @@ categories:
 ## Inclusion Criteria
 
 1. Diagnosis of ischemic stroke causing measurable neurologic deficit
-2. Age ≥18 years
+2. Age &ge;18 years
 
 ## Exclusion Criteria
 

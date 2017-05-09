@@ -24,7 +24,7 @@ Risk of CT-documented TBI in children GCS &lt;14 = 20% 
 - Death from TBI
 - Intubation >24 hours duration
 - Neurosurgical intervention
-- Hospital admission ≥2 nights
+- Hospital admission &ge;2 nights
 
 ## PATIENT AGE &lt;2 Years 
 
@@ -37,7 +37,7 @@ Risk of CT-documented TBI in children GCS &lt;14 = 20% 
 - **FALL >3 ft**
 - Head struck by a high-impact object
 
-## PATIENT AGE ≥2 years
+## PATIENT AGE &ge;2 years
 
 ![Age greater than or equal to 2 years workup pathway](image-2.png)
 

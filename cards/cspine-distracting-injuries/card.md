@@ -49,7 +49,7 @@ Distracting injury alone accounted for 30% of all radiographic studies ordered f
 **Study design:**
 
 - Prospective study of blunt trauma patients
-- Exclusion criteria: GCS &lt;13, intoxication, patient age ≤16 years
+- Exclusion criteria: GCS &lt;13, intoxication, patient age &le;16 years
 
 **Results:**  (n =101 patients with a cervical spine injury out of 9,103 blunt trauma patients)
 

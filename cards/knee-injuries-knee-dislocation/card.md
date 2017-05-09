@@ -34,7 +34,7 @@ Consult vascular surgery for hard signs of vascular injury
 
 Measure Ankle-Brachial index(ABIs):
 
-- ABI ≥ 0.9: Monitor by serial exam
+- ABI &ge; 0.9: Monitor by serial exam
 - ABI &lt; 0.9: Obtain CT angiography
 
 Splint knee in 20-30 degrees of flexion

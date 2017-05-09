@@ -1,5 +1,4 @@
 ---
-
 title: Neutropenic Fever and Cancer
 authors:
     - Michelle Lin, MD
@@ -13,7 +12,7 @@ categories:
 
 Chemotherapy causes neutropenia in 10-50% of patients with solid tumors and > 80% of patients with hematologic malignancies during chemotherapy cycle
 
-**Fever:** ≥ 38.3 C (101 F) or ≥ 38.0 C (100.4 F) over 1-hour period
+**Fever:** &ge; 38.3 C (101 F) or ≥ 38.0 C (100.4 F) over 1-hour period
 
 **Neutropenia:** Absolute neutrophil count &lt; 500 cells/mm3
 
@@ -21,17 +20,17 @@ Chemotherapy causes neutropenia in 10-50% of patients with solid tumors and > 80
 
 **Multinational Association for Supportive Care in Cancer (MASCC) Score:**
 
-| Criteria                                                                                          |             Points             |
-| ------------------------------------------------------------------------------------------------- | :----------------------------: |
+| Criteria                                                                                          |                         Points |
+| ------------------------------------------------------------------------------------------------- | -----------------------------: |
 | Burden of febrile neutropenia                                                                     | 5 (if mild) or 3 (if moderate) |
-| No hypotension (SBP ≥ 90 mmHg)                                                                    |                5               |
-| No COPD                                                                                           |               4                |
-| Solid tumor or hematologic malignancy <span class="drug">with</span> no previous fungal infection |                4               |
-| No dehydration requiring parenteral fluids                                                        |                3               |
-| Outpatient status\*                                                                               |                3               |
-| Age &lt;60 years\*                                                                                |                2               |
+| No hypotension (SBP ≥ 90 mmHg)                                                                    |                              5 |
+| No COPD                                                                                           |                              4 |
+| Solid tumor or hematologic malignancy <span class="drug">with</span> no previous fungal infection |                              4 |
+| No dehydration requiring parenteral fluids                                                        |                              3 |
+| Outpatient status\*                                                                               |                              3 |
+| Age &lt;60 years\*                                                                                |                              2 |
 
-**HIGH RISK PATIENTS** (require admission):
+### High Risk Patients (require admission)
 
 - MASCC score &lt; 21 **OR**
 - Any of clinical findings:
@@ -41,10 +40,10 @@ Chemotherapy causes neutropenia in 10-50% of patients with solid tumors and > 80
   - New abdominal pain
   - Neurologic changes
 
-**LOW RISK PATIENTS** (may be eligible for outpatient tx):
+### Low Risk Patients (may be eligible for outpatient tx)
 
-- MASCC score ≥21
-- Brief (≤7 days duration) neutropenic periods and few co-morbidities
+- MASCC score &ge;21
+- Brief (&le;7 days duration) neutropenic periods and few co-morbidities
 
 ## Workup
 
@@ -54,7 +53,7 @@ Chemotherapy causes neutropenia in 10-50% of patients with solid tumors and > 80
 
 ## Antibiotic Treatment
 
-_Monotherapy:_ 
+### Monotherapy
 
 - Antipseudomonal beta-lactam (eg. <span class="drug">cefipime</span>, <span class="drug">carbapenem</span>, <span class="drug">pip-tazo</span>)
 - <span class="drug">Vancomycin</span> is not always indicated in cancer patients with a neutropenic fever.

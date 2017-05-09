@@ -47,13 +47,13 @@ Image adapted from ([Davis et al., 2011](https://www.ncbi.nlm.nih.gov/pubmed/?te
 
 ## Limitation
 
-1/3 of physicians did NOT follow guidelines with ≥1 risk factor esp in setting of trauma and non-midline spine pain
+1/3 of physicians did NOT follow guidelines with &ge;1 risk factor esp in setting of trauma and non-midline spine pain
 
 ## Results 
 
 - **Diagnostic delays:** 84% without guidelines, 10% with guidelines (OR = 48)
 - **Motor deficits at diagnosis:** 82% without guidelines, 19% with guidelines (OR = 19)
-- **ESR:** Sensitivity = 100% and specificity = 67% if ≥1 SEA risk factor
+- **ESR:** Sensitivity = 100% and specificity = 67% if &ge;1 SEA risk factor
 - **ROC curve** better with ESR (0.96) than CRP (0.81)
 
 ## References

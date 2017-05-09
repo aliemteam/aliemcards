@@ -1,5 +1,4 @@
 ---
-
 title: Clostridium Difficile Infection
 authors:
     - Michelle Lin, MD
@@ -23,24 +22,24 @@ categories:
 
 ## Background
 
-**Definition of _Clostridium difficile_ infection (CDI)**
+### Definition of _Clostridium difficile_ infection (CDI)
 
 - Presence of diarrhea (3 unformed stools in ≤24 hours)
 - Stool test positive for _C. difficile_ or its toxins, or colonoscopic findings of pseudomembranous colitis
 
-**Epidemiology**
+### Epidemiology
 
 - Accounts for 20-30% of all antibiotic-associated diarrhea
 - Most common cause of infectious diarrhea in healthcare settings
 
-**Transmission**
+### Transmission
 
 - Fecal-oral route
 - Median time from exposure to C. difficile to diarrhea symptoms = 2-3 days
 
-**Risk factors to develop CDI**
+### Risk factors to develop CDI
 
-- Age ≥ 65 years
+- Age &ge; 65 years
 - Duration of hospitalization
 - Exposure to antibiotics (almost every Abx has been assoc with CDI – not just <span class="drug">clindamycin</span>)
   - 96% have received abx within 14 days before diarrhea onset 
@@ -48,11 +47,11 @@ categories:
 - HIV
 - GI surgery or manipulation of GI tract (i.e. tube feeding)
 
-**Clinical presentation**
+### Clinical presentation
 
 - Diarrhea may have mucous or occult blood
 
-**Recurrence rates**
+### Recurrence rates
 
 - 20% (typically within 4 weeks), despite <span class="drug">metronidazole</span> or <span class="drug">vancomycin</span> treatment ([Kelly et al., NEJM, 2008](https://www.ncbi.nlm.nih.gov/pubmed/?term=18971494))
 

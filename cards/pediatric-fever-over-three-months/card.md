@@ -1,5 +1,4 @@
 ---
-
 title: Pediatric Fever Without a Source - Over 3 Months
 authors:
     - Christine Cho, MD
@@ -11,8 +10,8 @@ categories:
 
 # Pediatric Fever Without a Source - 3 months to 3 years
 
-- Fever that should prompt workup in this age group: T ≥39.0° C / 102.2°F
-- Fever still defined as T ≥ 38°C / 100.4°F
+- Fever that should prompt workup in this age group: T &ge;39.0&deg;C / 102.2&deg;F
+- Fever still defined as T &ge; 38&deg;C / 100.4&deg;F
 - Named viral infections DO count as a source, such as: HSV gingivostomatitis, Coxsackie hand-foot-mouth, RSV bronchiolitis (although UTI may present concurrently with RSV)
 - Unnamed, nonspecific viral infections MAY be considered a source for vaccinated, well-appearing child (especially with sick contacts)
 
@@ -35,11 +34,11 @@ Serious bacterial infection (SBI) includes:
 
 ### Boys
 
-| Age         | Circumsised                             | Uncircumcised                           |
-| ----------- | --------------------------------------- | --------------------------------------- |
-| ≤ 6 months  | _consider_ urinalysis and urine culture | urinalysis, urine culture               |
-| 6-12 months | no urine studies                        | _consider_ urinalysis and urine culture |
-| > 12 months | no urine studies                        | no urine studies                        |
+| Age            | Circumsised                             | Uncircumcised                           |
+| -------------- | --------------------------------------- | --------------------------------------- |
+| &le; 6 months  | _consider_ urinalysis and urine culture | urinalysis, urine culture               |
+| 6-12 months    | no urine studies                        | _consider_ urinalysis and urine culture |
+| &gt; 12 months | no urine studies                        | no urine studies                        |
 
 ### Number of Pneumococcal conjugate vaccines (PCV)
 

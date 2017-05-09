@@ -16,7 +16,7 @@ categories:
 
 **Look at pH**: Whichever side of 7.4 the pH is on, the process that caused it to shift to that side is the primary abnormality
 
-**Calculate the anion gap**. If AG ≥ 20, there is a primary metabolic acidosis regardless of the pH or serum bicarbonate concentration
+**Calculate the anion gap**. If AG &ge; 20, there is a primary metabolic acidosis regardless of the pH or serum bicarbonate concentration
 
 **Calculate the excess anion gap** = total anion gap - 12 + measured bicarb
 

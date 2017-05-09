@@ -24,7 +24,7 @@ It is difficult to determine if a patient with a left bundle branch block (LBBB)
 - Use as another data point in risk-stratifying these complex patients with LBBB
 - Sgarbossa criteria applies also for LBBB pattern seen in pacemaker patients
 
-## 1. ST elevation ≥ 1 mm concordant with QRS complex
+## 1. ST elevation &ge; 1 mm concordant with QRS complex
 
 - Most predictive of AMI
 - \+ LR: 9.54 (3.1-17.3)
@@ -32,14 +32,14 @@ It is difficult to determine if a patient with a left bundle branch block (LBBB)
 
 ![ST elevation example](image-1.png)
 
-## 2. ST depression ≥ 1 mm in lead V1, V2, V3
+## 2. ST depression &ge; 1 mm in lead V1, V2, V3
 
 - \+ LR: 6.58 (2.6-16.1)
 - \- LR: 0.78 (0.7-0.87)
 
 ![ST depression example](image-2.png)
 
-## 3. ST elevation ≥ 5 mm where discordant with QRS complex
+## 3. ST elevation &ge; 5 mm where discordant with QRS complex
 
 - May not be significant as the +LR crosses 1.0
 - \+ LR: 3.42 (0.18-6.5)

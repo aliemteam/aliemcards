@@ -54,7 +54,7 @@ A physician can be fined for:
 - Failing to inform emergency patients of the risks and benefits of transfer
 - Signing a transfer certification when he or she can reasonably be expected to know that the risks outweigh the benefits
 
-Fine = $25,000 or $50,000 per violation (hospital with &lt;100 beds vs ≥100 beds)
+Fine = $25,000 or $50,000 per violation (hospital with &lt;100 beds vs &ge;100 beds)
 
 ## References
 

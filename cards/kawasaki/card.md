@@ -15,7 +15,7 @@ categories:
 
 **Classic clinical criteria**
 
-1. **Fever for ≥ 5 days**, AND
+1. **Fever for &ge; 5 days**, AND
 2. At least **4** of the 5 following:
 
 - Bilateral bulbar nonexudative conjunctivitis
@@ -56,23 +56,23 @@ categories:
 
 **AHA consensus recommendations**
 
-1. Infants ≤ 6 months old on day ≥ 7 of fever without other explanation should undergo lab testing and, if evidence of systemic inflammation is found, an echocardiogram, even if they have no clinical criteria
+1. Infants &le; 6 months old on day &ge; 7 of fever without other explanation should undergo lab testing and, if evidence of systemic inflammation is found, an echocardiogram, even if they have no clinical criteria
 2. Check for classic findings
 3. Supplemental lab criteria
 
-- Albumin ≤3.0 g/dL
+- Albumin &le;3.0 g/dL
 - Anemia for age
 - Elevation of ALT
-- Platelets after 7 d ≥450,000/mm3
-- WBC ≥15,000/mm3,
-- Urine ≥10 WBC/hpf
+- Platelets after 7 d &ge;450,000/mm3
+- WBC &ge;15,000/mm3,
+- Urine &ge;10 WBC/hpf
 
 4. Can treat before performing echocardiogram.
 5. Echo is considered positive for purposes of this algorithm, if any of 3 conditions met: 
 
-- z score of LAD or RCA ≥ 2.5
+- z score of LAD or RCA &ge; 2.5
 - Coronary arteries meet Japanese Ministry of Health criteria for aneurysms, or 
-- ≥ 3 other suggestive features exist, including: perivascular brightness, lack of tapering, decreased LV function, mitral regurgitation, pericardial effusion, or z scores in LAD or RCA of 2–2.5
+- &ge; 3 other suggestive features exist, including: perivascular brightness, lack of tapering, decreased LV function, mitral regurgitation, pericardial effusion, or z scores in LAD or RCA of 2–2.5
 
 6. If echo is positive, treatment should be given to children within 10 d of fever onset and those > day 10 with clinical and lab signs (CRP, ESR) of ongoing inflammation
 7. Typical peeling begins under nail bed of fingers and then toes

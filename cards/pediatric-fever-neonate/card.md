@@ -16,8 +16,8 @@ categories:
 
 # Pediatric Fever Without a Source: Birth - 28 Days Old
 
-- Age ≤ 28 days (be more conservative for premature infants)
-- Fever defined as temperature ≥ 38°C / 100.4°F (rectal)
+- Age &le; 28 days (be more conservative for premature infants)
+- Fever defined as temperature &ge; 38°C / 100.4°F (rectal)
 - Viral URI symptoms do NOT count as a fever source in this age group.
 - **Disposition:** ADMIT all of these patients to the hospital.
 
