@@ -51,4 +51,4 @@ Risk of CT-documented TBI in children GCS &lt;14 = 20% 
 
 ## References
 
-- [Kuppermann N et al. ID of children at very low risk of clinically-important brain injuries after head trauma: a prospective cohort study. Lancet. 2009 Oct 3;374(9696):1160-70.](http://www.ncbi.nlm.nih.gov/pubmed/19758692)
+- Kuppermann N et al. ID of children at very low risk of clinically-important brain injuries after head trauma: a prospective cohort study. Lancet. 2009 Oct 3;374(9696):1160-70. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/19758692)

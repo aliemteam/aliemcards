@@ -83,6 +83,6 @@ Lactate is useful adjunct to risk stratify for mortality ([Shapiro et al. (2005)
 
 ## References
 
-- [Shapiro NI, Howell MD, Talmor D, Nathanson LA, Lisbon A, Wolfe RE, Weiss JW.Serum lactate as a predictor of mortality in emergency department patients with infection. Ann Emerg Med. 2005 May;45(5):524-8.](https://www.ncbi.nlm.nih.gov/pubmed/15855951)
-- [Panebianco NL, Jahnes K, Mills AM. Imaging and Laboratory Testing in Acute Abdominal Pain. Emerg Med Clin N Am. 2011;29:175-93.](https://www.ncbi.nlm.nih.gov/pubmed/?term=21515175)
-- [Ultrasonography vs. CT for suspected Nephrolithiasis. New England Journal of Medicine. 2014;371(26):2529–2531.](https://www.ncbi.nlm.nih.gov/pubmed/?term=25229916)
+- Shapiro NI, Howell MD, Talmor D, Nathanson LA, Lisbon A, Wolfe RE, Weiss JW.Serum lactate as a predictor of mortality in emergency department patients with infection. Ann Emerg Med. 2005 May;45(5):524-8. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/15855951)
+- Panebianco NL, Jahnes K, Mills AM. Imaging and Laboratory Testing in Acute Abdominal Pain. Emerg Med Clin N Am. 2011;29:175-93. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=21515175)
+- Ultrasonography vs. CT for suspected Nephrolithiasis. New England Journal of Medicine. 2014;371(26):2529–2531. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=25229916)

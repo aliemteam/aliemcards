@@ -71,4 +71,4 @@ Draw a connecting your pre-test probability and your likelihood ratio. This prov
 
 ## References
 
-- [Trowbridge RL et al. Does this patient have acute cholecystitis? JAMA. 2003, 289(1): 80-6.](https://www.ncbi.nlm.nih.gov/pubmed/?term=12503981)
+- Trowbridge RL et al. Does this patient have acute cholecystitis? JAMA. 2003, 289(1): 80-6. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=12503981)

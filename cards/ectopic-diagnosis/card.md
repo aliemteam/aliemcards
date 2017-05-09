@@ -68,4 +68,4 @@ Systematic review based on 14 studies (n=12,101) with a summary prevalence of ec
 
 ## References
 
-- [Crochet et al. Does this woman have an ectopic pregnancy? 2013; 309(16): 1722-9.](https://www.ncbi.nlm.nih.gov/pubmed/?term=23613077)
+- Crochet et al. Does this woman have an ectopic pregnancy? 2013; 309(16): 1722-9. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=23613077)

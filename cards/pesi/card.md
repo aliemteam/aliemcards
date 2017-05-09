@@ -71,4 +71,4 @@ categories:
 
 ## References
 
-- [Aujesky D, Roy PM, Verschuren F, Righini M, Osterwalder J, Egloff M, Renaud B, Verhamme P, Stone RA, Legall C, Sanchez O, Pugh NA, N'gako A, Cornuz J, Hugli O, Beer HJ, Perrier A, Fine MJ, Yealy DM. Outpatient versus inpatient treatment for patients with acute pulmonary embolism: an international, open-label, randomised, non-inferiority trial. Lancet. 2011 Jul 2;378(9785):41-8. doi: 10.1016/S0140-6736(11)60824-6. Epub 2011 Jun 22.](https://www.ncbi.nlm.nih.gov/pubmed/?term=21703676)
+- Aujesky D, Roy PM, Verschuren F, Righini M, Osterwalder J, Egloff M, Renaud B, Verhamme P, Stone RA, Legall C, Sanchez O, Pugh NA, N'gako A, Cornuz J, Hugli O, Beer HJ, Perrier A, Fine MJ, Yealy DM. Outpatient versus inpatient treatment for patients with acute pulmonary embolism: an international, open-label, randomised, non-inferiority trial. Lancet. 2011 Jul 2;378(9785):41-8. doi: 10.1016/S0140-6736(11)60824-6. Epub 2011 Jun 22. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=21703676)

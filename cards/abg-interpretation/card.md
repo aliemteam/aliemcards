@@ -113,4 +113,4 @@ _Pearl_: If anion gap exists, calculate the excess anion gap to determine if the
 
 ## References
 
-- [Haber RJ. A practical approach to acid-base disorders. West J Med 1991; 155:146-51.](http://tmedweb.tulane.edu/mu/owlclub/files/2010/06/Must-Read-Acid-Base-Article-.pdf)
+- Haber RJ. A practical approach to acid-base disorders. West J Med 1991; 155:146-51. [Link](http://tmedweb.tulane.edu/mu/owlclub/files/2010/06/Must-Read-Acid-Base-Article-.pdf)

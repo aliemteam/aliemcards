@@ -31,4 +31,4 @@ Suggested algorithm, based on available evidence:![](image-1.png)
 
 ## References
 
-- [Bernardin B, Troquet JM. Initial management and resuscitation of severe chest trauma. EM Clinics of North Am. 2012;30:377-400.](http://www.ncbi.nlm.nih.gov/pubmed/?term=22487111)
+- Bernardin B, Troquet JM. Initial management and resuscitation of severe chest trauma. EM Clinics of North Am. 2012;30:377-400. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=22487111)

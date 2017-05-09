@@ -90,5 +90,5 @@ categories:
 
 ## References
 
-- [Hylek EM, Heiman H, Skates SJ, Sheehan MA, Singer DE. Acetaminophen and other risk factors for excessive warfarin anticoagulation. JAMA. 1998 Mar 4;279(9):657-62](https://www.ncbi.nlm.nih.gov/pubmed/9496982)
-- [Holbrook A, Schulman S, Witt DM, Vandvik PO, Fish J, Kovacs MJ, Svensson PJ, Veenstra DL, Crowther M, Guyatt GH; American College of Chest Physicians.Evidence-based management of anticoagulant therapy: Antithrombotic Therapy and Prevention of Thrombosis, 9th ed: American College of Chest Physicians Evidence-Based Clinical Practice Guidelines.Chest. 2012 Feb;141(2 Suppl):e152S-84S. doi: 10.1378/chest.11-2295.](https://www.ncbi.nlm.nih.gov/pubmed/22315259)
+- Hylek EM, Heiman H, Skates SJ, Sheehan MA, Singer DE. Acetaminophen and other risk factors for excessive warfarin anticoagulation. JAMA. 1998 Mar 4;279(9):657-62 [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/9496982)
+- Holbrook A, Schulman S, Witt DM, Vandvik PO, Fish J, Kovacs MJ, Svensson PJ, Veenstra DL, Crowther M, Guyatt GH; American College of Chest Physicians.Evidence-based management of anticoagulant therapy: Antithrombotic Therapy and Prevention of Thrombosis, 9th ed: American College of Chest Physicians Evidence-Based Clinical Practice Guidelines.Chest. 2012 Feb;141(2 Suppl):e152S-84S. doi: 10.1378/chest.11-2295. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/22315259)

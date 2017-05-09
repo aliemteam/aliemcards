@@ -123,4 +123,4 @@ categories:
 
 ## References
 
-- [Lin M and Mahadevan S. “Spine and Spinal Cord Injuries” in Adams J et al (eds), Emergency Medicine. New York: Elsevier, 2007](None)
+- Lin M and Mahadevan S. “Spine and Spinal Cord Injuries” in Adams J et al (eds), Emergency Medicine. New York: Elsevier, 2007(None)

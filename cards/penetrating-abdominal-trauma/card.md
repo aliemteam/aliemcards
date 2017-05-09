@@ -86,4 +86,4 @@ Overall incidence of complications: 2.5-41%
 
 ## References
 
-- [Como JJ et. al. Practice management guidelines for selective nonoperative management of penetrating abdominal trauma. J Trauma. 2010 Mar;68(3):721-33.](http://www.ncbi.nlm.nih.gov/pubmed/20220426)
+- Como JJ et. al. Practice management guidelines for selective nonoperative management of penetrating abdominal trauma. J Trauma. 2010 Mar;68(3):721-33. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/20220426)

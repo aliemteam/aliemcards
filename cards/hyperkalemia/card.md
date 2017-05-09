@@ -120,4 +120,4 @@ categories:
 
 ## References
 
-- [Weisberg LS. Management of severe hyperkalemia. Crit Care Med. 2008; 36:3246-51.](https://www.ncbi.nlm.nih.gov/pubmed/?term=18936701)
+- Weisberg LS. Management of severe hyperkalemia. Crit Care Med. 2008; 36:3246-51. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=18936701)

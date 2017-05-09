@@ -50,4 +50,4 @@ Increase by 1 grade for serious system disease, or severe vasospasm on arteriog
 
 ## References
 
-- [Edlow JA, Malek AM, Ogilvy CS. Aneurysmal subarachnoid hemorrhage: update for emergency physicians. J Emerg Med. 2008 Apr;34(3):237-51. Epub 2007 Dec 26.](http://www.ncbi.nlm.nih.gov/pubmed/?term=18155383)
+- Edlow JA, Malek AM, Ogilvy CS. Aneurysmal subarachnoid hemorrhage: update for emergency physicians. J Emerg Med. 2008 Apr;34(3):237-51. Epub 2007 Dec 26. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=18155383)

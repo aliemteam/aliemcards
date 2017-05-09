@@ -63,4 +63,4 @@ categories:
 
 ## References
 
-- [Spieker MR.Evaluating dysphagia. Am Fam Physician. 2000 Jun 15;61(12):3639-48.](https://www.ncbi.nlm.nih.gov/pubmed/?term=10892635)
+- Spieker MR.Evaluating dysphagia. Am Fam Physician. 2000 Jun 15;61(12):3639-48. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=10892635)

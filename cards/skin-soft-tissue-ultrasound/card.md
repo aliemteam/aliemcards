@@ -85,4 +85,4 @@ Fine movements and control of probe is necessary for accuracy and to avoid slipp
 
 ## References
 
-- Tayal VS, et al. _Acad Emerg Med_, 2006. PMID: [16531602](http://www.ncbi.nlm.nih.gov/pubmed/16531602)
+- Tayal VS, et al. _Acad Emerg Med_, 2006. PMID: 16531602 [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/16531602)

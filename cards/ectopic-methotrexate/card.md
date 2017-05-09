@@ -65,4 +65,4 @@ categories:
 
 ## References
 
-- [ACOG Practice Bulletin No. 94:Medical management of ectopic pregnancy. Obstet Gynecology. 2008; 111(6):1479-85.](http://www.ncbi.nlm.nih.gov/pubmed/18515537)
+- ACOG Practice Bulletin No. 94:Medical management of ectopic pregnancy. Obstet Gynecology. 2008; 111(6):1479-85. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/18515537)

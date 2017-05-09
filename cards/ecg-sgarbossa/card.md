@@ -70,5 +70,5 @@ _ECG tracings courtesy of [ems12lead.blogpost.com](http://ems12lead.blogpost.com
 
 ## References
 
-- [Sgarbossa EB et al, for GUSTO-1 investigators. ECG diagnosis of evolving AMI in the presence of LBBB, New Engl J Med 1996; 334:481-7.](http://www.nejm.org/doi/full/10.1056/NEJM199602223340801)
-- [Smith SW et al. Diagnosis of ST-Elevation Myocardial Infarction in the Presence of Left Bundle Branch Block With the ST-Elevation to S-Wave Ratio in a Modified Sgarbossa Rule. Ann Emerg Med. 2012 Dec;60(6):766-76](https://www.ncbi.nlm.nih.gov/pubmed/22939607)
+- Sgarbossa EB et al, for GUSTO-1 investigators. ECG diagnosis of evolving AMI in the presence of LBBB, New Engl J Med 1996; 334:481-7. [Link](http://www.nejm.org/doi/full/10.1056/NEJM199602223340801)
+- Smith SW et al. Diagnosis of ST-Elevation Myocardial Infarction in the Presence of Left Bundle Branch Block With the ST-Elevation to S-Wave Ratio in a Modified Sgarbossa Rule. Ann Emerg Med. 2012 Dec;60(6):766-76 [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/22939607)

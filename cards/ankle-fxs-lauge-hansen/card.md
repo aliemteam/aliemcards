@@ -77,4 +77,4 @@ categories:
 
 ## References
 
-- [Clare MP. A rational approach to ankle fractures. Foot Ankle Clin. 2008 Dec;13(4):593-610.](https://www.ncbi.nlm.nih.gov/pubmed/19013398)
+- Clare MP. A rational approach to ankle fractures. Foot Ankle Clin. 2008 Dec;13(4):593-610. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/19013398)

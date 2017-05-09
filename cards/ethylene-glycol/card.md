@@ -78,6 +78,6 @@ _Note:_ **<span class="drug">Fomipezole</span>** without hemodialysis is an opti
 
 ## References
 
-- [Marraffa JM, Cohen V, Howland MA. Antidotes for toxicological emergencies: a practical review. Am J Health Syst Pharm. 2012 Feb 1;69(3):199-212. doi: 10.2146/ajhp110014.](https://www.ncbi.nlm.nih.gov/pubmed/?term=22261941)
-- [Kraut JF, Kurtz I. Toxic alcohol ingestions: clinical features, diagnosis, and management. Clin J Am Soc Nephrol. 2008 Jan;3(1):208-25. Epub 2007 Nov 28.](https://www.ncbi.nlm.nih.gov/pubmed/?term=18045860)
-- [Jammalamadaka D, Raissi S. Ethylene glycol, methanol and isopropyl alcohol intoxication. Am J Med Sci. 2010 Mar;339(3):276-81. doi: 10.1097/MAJ.0b013e3181c94601.](https://www.ncbi.nlm.nih.gov/pubmed/?term=20090509)
+- Marraffa JM, Cohen V, Howland MA. Antidotes for toxicological emergencies: a practical review. Am J Health Syst Pharm. 2012 Feb 1;69(3):199-212. doi: 10.2146/ajhp110014. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=22261941)
+- Kraut JF, Kurtz I. Toxic alcohol ingestions: clinical features, diagnosis, and management. Clin J Am Soc Nephrol. 2008 Jan;3(1):208-25. Epub 2007 Nov 28. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=18045860)
+- Jammalamadaka D, Raissi S. Ethylene glycol, methanol and isopropyl alcohol intoxication. Am J Med Sci. 2010 Mar;339(3):276-81. doi: 10.1097/MAJ.0b013e3181c94601. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=20090509)
