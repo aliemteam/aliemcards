@@ -3413,9 +3413,9 @@ function.prototype.name@^1.0.0:
     function-bind "^1.1.0"
     is-callable "^1.1.2"
 
-fuse.js@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/fuse.js/-/fuse.js-3.0.0.tgz#7b6c0b177f6ffc6421e4f229843b3f70a21b1ac5"
+fuse.js@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/fuse.js/-/fuse.js-3.0.1.tgz#5950e8f908af8e28bbbe607f38f443d7105bdda0"
 
 gauge@~2.7.3:
   version "2.7.4"
@@ -3524,7 +3524,7 @@ glob-watcher@^3.0.0:
     lodash.debounce "^4.0.6"
     object.defaults "^1.0.0"
 
-glob@7.0.4:
+glob@7.0.4, glob@7.0.x:
   version "7.0.4"
   resolved "https://registry.yarnpkg.com/glob/-/glob-7.0.4.tgz#3b44afa0943bdc31b2037b934791e2e084bcb7f6"
   dependencies:
@@ -3532,17 +3532,6 @@ glob@7.0.4:
     inflight "^1.0.4"
     inherits "2"
     minimatch "2 || 3"
-    once "^1.3.0"
-    path-is-absolute "^1.0.0"
-
-glob@7.0.x:
-  version "7.0.6"
-  resolved "https://registry.yarnpkg.com/glob/-/glob-7.0.6.tgz#211bafaf49e525b8cd93260d14ab136152b3f57a"
-  dependencies:
-    fs.realpath "^1.0.0"
-    inflight "^1.0.4"
-    inherits "2"
-    minimatch "^3.0.2"
     once "^1.3.0"
     path-is-absolute "^1.0.0"
 
@@ -8350,9 +8339,9 @@ trough@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/trough/-/trough-1.0.0.tgz#6bdedfe7f2aa49a6f3c432257687555957f342fd"
 
-ts-jest@^20.0.0:
-  version "20.0.1"
-  resolved "https://registry.yarnpkg.com/ts-jest/-/ts-jest-20.0.1.tgz#8f9449e8f62b17e473ecbcd9a62b24864e54c49d"
+ts-jest@^20.0.2:
+  version "20.0.2"
+  resolved "https://registry.yarnpkg.com/ts-jest/-/ts-jest-20.0.2.tgz#d22a48d3da305259e7e1bbbaf3f8c4bfd0b5aea7"
   dependencies:
     babel-jest "^20.0.0"
     babel-plugin-transform-es2015-modules-commonjs "^6.24.1"

@@ -70,4 +70,3 @@ A negative result doesn't rule out opioid ingestion, and a positive result only 
 
 - Standridge JB, Adams SM, Zotos AP. Urine drug screening: a valuable office procedure. Am Fam Physician. 2010 Mar 1;81(5):635-40. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/20187600)
 - Geraci, M.J., Peele, J., McCoy, S.L. et al. Int J Emerg Med. 2010 Nov 3: 327. doi:10.1007/s12245-010-0235-3
-

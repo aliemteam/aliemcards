@@ -106,4 +106,3 @@ Figure 3: Positive FAST in LUQ view demonstrating large amount of complex free f
 - Durston W et al. _Ann of Surg_, 1998. PMID 9790345 [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/9790345)
 - Stengel D et al. _Br J Surg_, 2001. PMID 11442520 [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/11442520)
 - Stengel D et al. Radiology, 2005. PMID 15983072 [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/15983072)
-
