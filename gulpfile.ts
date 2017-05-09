@@ -24,7 +24,6 @@ const REGEX = {
 // Utility tasks
 gulp.task('clean', () => del(['dist/**/*', 'npm-debug.log', '!dist/app/index.html']));
 
-
 // Cards
 gulp.task('cards', () => (
   readdirPromise('./cards')
@@ -230,20 +229,22 @@ gulp.task('ref-fix-body', () => (
     .then(dirs => {
       for (const dir of dirs) {
         const f = fs.readFileSync(`./cards/${dir}/card.md`, { encoding: 'utf8' });
-        let [body, refs] = f.split("## References");
+        const a = f.split('## References');
+        const body = a[0];
+        let refs = a[1];
         // remove brackets from AMA refs
         refs = refs.replace(/\[(.+)\]/g, '$1');
         // add new link text to existing URLs
         const regex = new RegExp( /\(http.+\)/, 'g');
-        let myArray;
-        while ((myArray = regex.exec(refs)) !== null) { 
+        const myArray = regex.exec(refs);
+        while (myArray !== null) {
            if (myArray[0].search('ncbi.nlm.nih.gov') > -1) {
              refs = refs.replace(myArray[0], ` [PubMed]${myArray[0]}`);
            } else {
              refs = refs.replace(myArray[0], ` [Link]${myArray[0]}`);
            }
-        };
-        writeFilePromise(`./cards/${dir}/card.md`, "".concat(body, "## References", refs));
+        }
+        writeFilePromise(`./cards/${dir}/card.md`, ''.concat(body, '## References', refs));
       }
       return true;
     })
@@ -252,5 +253,5 @@ gulp.task('ref-fix-body', () => (
 // Ref Fix
 gulp.task('__ref-fix', gulp.series(
   'typescript',
-  'ref-fix-body'
+  'ref-fix-body',
 ));
