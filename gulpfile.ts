@@ -220,38 +220,3 @@ function checkCardAttributes(attrs: Partial<CardMeta>, cardName: string): void {
     }
   });
 }
-
-// REF FIXES
-
-gulp.task('ref-fix-body', () => (
-  readdirPromise('./cards')
-    .then(checkDirectoryShape)
-    .then(dirs => {
-      for (const dir of dirs) {
-        const f = fs.readFileSync(`./cards/${dir}/card.md`, { encoding: 'utf8' });
-        const a = f.split('## References');
-        const body = a[0];
-        let refs = a[1];
-        // remove brackets from AMA refs
-        refs = refs.replace(/\[(.+)\]/g, '$1');
-        // add new link text to existing URLs
-        const regex = new RegExp( /\(http.+\)/, 'g');
-        const myArray = regex.exec(refs);
-        while (myArray !== null) {
-           if (myArray[0].search('ncbi.nlm.nih.gov') > -1) {
-             refs = refs.replace(myArray[0], ` [PubMed]${myArray[0]}`);
-           } else {
-             refs = refs.replace(myArray[0], ` [Link]${myArray[0]}`);
-           }
-        }
-        writeFilePromise(`./cards/${dir}/card.md`, ''.concat(body, '## References', refs));
-      }
-      return true;
-    })
-));
-
-// Ref Fix
-gulp.task('__ref-fix', gulp.series(
-  'typescript',
-  'ref-fix-body',
-));
