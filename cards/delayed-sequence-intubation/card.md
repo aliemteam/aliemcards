@@ -51,7 +51,7 @@ categories:
 
 ## Delayed Sequence Intubation (DSI) algorithm
 
-![](image-1.png)
+![Delayed Sequence Intubation (DSI) algorithm](image-1.png)
 
 **Note:** During CPAP or BMV, it may take several minutes (may be as long as 10 minutes) to bring the oxygen saturation > 95%, while increasing PEEP up to 15 cm H2O.
 

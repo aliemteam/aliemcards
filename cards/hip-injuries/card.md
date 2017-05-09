@@ -6,7 +6,7 @@ authors:
     - Michael Gottlieb, MD, RDMS
     - Mary Haas, MD
 created: 2016/11/14
-updates: null
+updates:
 categories:
     - Orthopedics
 ---

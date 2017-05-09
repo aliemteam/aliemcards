@@ -4,7 +4,7 @@ title: Croup
 authors:
     - Michelle Lin, MD
 created: 2010/08/20
-updates: null
+updates:
 categories:
     - Pediatrics
     - ENT

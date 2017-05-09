@@ -4,7 +4,7 @@ title: Ectopic Pregnancy and Methotrexate
 authors:
     - Michelle Lin, MD
 created: 2011/11/11
-updates: null
+updates:
 categories:
     - OBGYN
 ---
@@ -50,7 +50,7 @@ categories:
 
 ## Single-Dose Regimen
 
-- Day 1: **<span class="drug">Methotrexate</span>** 50 mg/m2 IM
+- Day 1: <span class="drug">Methotrexate</span> 50 mg/m2 IM
 
 **Follow up with obstetrician:**
 

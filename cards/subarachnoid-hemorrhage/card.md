@@ -4,7 +4,7 @@ title: Management of Aneurysmal Subarachnoid Hemorrhage
 authors:
     - Michelle Lin, MD
 created: 2010/12/17
-updates: null
+updates:
 categories:
     - Neurology
 ---
@@ -18,7 +18,7 @@ categories:
 
 3. “Triple H therapy” to treat vasospasm: Hypervolemia, hypertension, hemodilution
 4. Ventriculostomy, if hydrocephalus (occurs in 33-50% of SAH patients) 
-5. **<span class="drug">Nimodipine</span>**: Vasospasm and delayed cerebral ischemia: Usually occurs 7-10 days after bleed. 
+5. <span class="drug">Nimodipine</span>: Vasospasm and delayed cerebral ischemia: Usually occurs 7-10 days after bleed. 
 6. Definitive treatment: Microvascular aneurysm clipping or endovascular coil embolization
 
 ## Grading Scales

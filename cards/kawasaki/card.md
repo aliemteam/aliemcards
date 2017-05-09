@@ -4,7 +4,7 @@ title: Kawasaki Disease
 authors:
     - Michelle Lin, MD
 created: 2012/03/23
-updates: null
+updates:
 categories:
     - Pediatrics
 ---
@@ -30,7 +30,7 @@ categories:
   - Subacute: Periungual peeling of fingers or toes in weeks #2-3 
 - Polymorphous rash
 
-![](image-1.png)
+![Signs of Kawasaki Disease drawing](image-1.png)
 
 ## Complications and differential diagnosis
 
@@ -52,7 +52,7 @@ categories:
 
 ## AHA 2004 guideline: Evaluation of suspected incomplete Kawasaki Disease
 
-![](image-2.png)
+![Kawasaki Disease clinical decision pathway](image-2.png)
 
 **AHA consensus recommendations**
 

@@ -1,10 +1,9 @@
 ---
-
 title: Toxic Alcohol Ingestion - Methanol
 authors:
     - Michelle Lin, MD
 created: 2012/06/15
-updates: null
+updates:
 categories:
     - Toxicology
 ---
@@ -68,10 +67,10 @@ Solvent found in cleaning and printing solutions, adhesives, stains, paint remov
 
 ## Methanol: Management
 
-**Goal:** Prevent further formation of formic acid (using **<span class="drug">fomepizole</span>**) and eliminate toxic metabolites (through dialysis) 
+**Goal:** Prevent further formation of formic acid (using <span class="drug">fomepizole</span>) and eliminate toxic metabolites (through dialysis) 
 
-- **<span class="drug">Folic</span>** or folinic acid supplementation to enhance formate metabolism
-- **Antidote:** **<span class="drug">Fomipezole</span>** inhibits alcohol dehydrogenase (alternative = **<span class="drug">ethanol</span>**)
+- <span class="drug">Folic</span> or folinic acid supplementation to enhance formate metabolism
+- **Antidote:** <span class="drug">Fomipezole</span> inhibits alcohol dehydrogenase (alternative = <span class="drug">ethanol</span>)
 
 | **Fomipezole**   | **Dosing**                          |
 | ---------------- | ----------------------------------- |
@@ -80,11 +79,11 @@ Solvent found in cleaning and printing solutions, adhesives, stains, paint remov
 
 ## Methanol: American Academy of Clinical Toxicology guidelines
 
-![](image-1.png)
+![Suspected or confirmed methanol clinical pathway](image-1.png)
 
 ## Metabolism of alcohols
 
-![](image-2.png)
+![Metabolism of alcohols diagram](image-2.png)
 
 ## References
 

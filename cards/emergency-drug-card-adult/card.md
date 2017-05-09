@@ -6,7 +6,7 @@ authors:
     - Amie Hatch, PharmD, BCPS
     - Jeremy Bair, PharmD
 created: 2013/09/11
-updates: null
+updates:
 categories:
     - Pharmacology
     - Critical Care

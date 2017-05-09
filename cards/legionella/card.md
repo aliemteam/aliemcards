@@ -4,7 +4,7 @@ title: Legionnaire''s Disease
 authors:
     - Michelle Lin, MD
 created: 2011/09/16
-updates: null
+updates:
 categories:
     - Infectious Disease
     - Pulmonology
@@ -50,7 +50,7 @@ Extrapulmonary organ involvement:
 | 104°F (40.0°C) | 130                  | &lt; 120                   |
 | 105°F (40.6°C) | 140                  | &lt; 130                   |
 
-![](image-1.png)
+![Legionella clinical pathway](image-1.png)
 
 ## Classic Laboratory Findings
 
@@ -70,7 +70,7 @@ Extrapulmonary organ involvement:
 | No zoonotic contact hx          |                                                       | Mild transaminitis           |
 |                                 |                                                       | Relative lymphopenia         |
 
-[(](http://www.ncbi.nlm.nih.gov/pubmed/?term=20457348)[Cunha et al., Infect Dis Clin N Am. 2010](http://www.ncbi.nlm.nih.gov/pubmed/?term=20171547))
+([Cunha et al.](http://www.ncbi.nlm.nih.gov/pubmed/?term=20457348), [Infect Dis Clin N Am. 2010](http://www.ncbi.nlm.nih.gov/pubmed/?term=20171547))
 
 ## Diagnostic Test
 

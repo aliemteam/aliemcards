@@ -4,7 +4,7 @@ title: Seizure, New Onset
 authors:
     - Michelle Lin, MD
 created: 2011/01/13
-updates: null
+updates:
 categories:
     - Neurology
 ---
@@ -27,7 +27,7 @@ Lumbar Puncture: Consider if new seizure PLUS -- fever, severe HA, immunocomprom
 
 ## Suggested Workup
 
-![](image-1.png)
+![Suggested workup flowchart for new-onset seizure](image-1.png)
 
  Based on 1994 ACEP Clinical Policy 
 

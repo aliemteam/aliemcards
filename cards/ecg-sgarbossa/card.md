@@ -4,7 +4,7 @@ title: Sgarbossa Criteria for LBBB and AMI
 authors:
     - Michelle Lin, MD
 created: 2010/11/05
-updates: null
+updates:
 categories:
     - Cardiovascular
     - ECG
@@ -30,14 +30,14 @@ It is difficult to determine if a patient with a left bundle branch block (LBBB)
 - \+ LR: 9.54 (3.1-17.3)
 - \- LR: 0.3 (0.22-0.39)
 
-![](image-1.png)
+![ST elevation example](image-1.png)
 
 ## 2. ST depression ≥ 1 mm in lead V1, V2, V3
 
 - \+ LR: 6.58 (2.6-16.1)
 - \- LR: 0.78 (0.7-0.87)
 
-![](image-2.png)
+![ST depression example](image-2.png)
 
 ## 3. ST elevation ≥ 5 mm where discordant with QRS complex
 
@@ -45,7 +45,7 @@ It is difficult to determine if a patient with a left bundle branch block (LBBB)
 - \+ LR: 3.42 (0.18-6.5)
 - \- LR: 0.8 (0.72-0.9)
 
-![](image-3.png)
+![ST elevation greater than 5 millimeters example](image-3.png)
 
 _ECG tracings courtesy of [ems12lead.blogpost.com](http://ems12lead.blogpost.com)_
 
@@ -62,11 +62,11 @@ _ECG tracings courtesy of [ems12lead.blogpost.com](http://ems12lead.blogpost.com
 | ----------------------- | :-------------: | :-------------: | :--------: | :--------: |
 | Modified Sgarbossa rule |       91%       |       90%       |     9.0    |     0.1    |
 
-![](image-4.png)
+![Old Sgarbossa rule juxtaposed against new Sgarbossa rule](image-4.png)
 
 ## Fagan nomogram
 
-![](image-5.png)
+![Fagan nomogram](image-5.png)
 
 ## References
 

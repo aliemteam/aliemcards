@@ -5,7 +5,7 @@ authors:
     - Naomi George, MD
     - Kalie Dove-Maguire, MD
 created: 2015/07/27
-updates: null
+updates:
 categories:
     - Palliative Care
 ---

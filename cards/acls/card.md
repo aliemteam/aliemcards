@@ -1,5 +1,4 @@
 ---
-
 title: ACLS 2015 Algorithm for Cardiac Arrest
 authors:
     - Michelle Lin, MD
@@ -14,7 +13,7 @@ categories:
 
 # ACLS 2015 Algorithm for Cardiac Arrest
 
-![](image-1.png)
+![2015 ACLS cardiac arrest algorithm](image-1.png)
 
 ## Tips
 

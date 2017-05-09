@@ -4,7 +4,7 @@ title: Cardiac Tamponade
 authors:
     - Michelle Lin, MD
 created: 2011/07/08
-updates: null
+updates:
 categories:
     - Cardiovascular
 ---
@@ -48,7 +48,7 @@ Use below Fagan nomogram
 
 ## Fagan Nomogram
 
-![](image-1.png)
+![Fagan Nonogram](image-1.png)
 
 - Draw a connecting your pre-test probability and your likelihood ratio. 
 - This provides you with your post-test probability.

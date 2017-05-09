@@ -4,7 +4,7 @@ title: Vasopressors in Hypotension
 authors:
     - Todd A. Seigel, MD
 created: 2013/08/20
-updates: null
+updates:
 categories:
     - Critical Care
     - Cardiovascular

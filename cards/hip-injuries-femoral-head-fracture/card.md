@@ -6,14 +6,14 @@ authors:
     - Michael Gottlieb, MD, RDMS
     - Mary Haas, MD
 created: 2016/11/14
-updates: null
+updates:
 categories:
     - Orthopedics
 ---
 
 # Hip Injuries: Femoral Head Fracture
 
-![](image-1.png)
+![Types 1 to 4 femoral head fracture drawings](image-1.png)
 
 ## Xray Views
 

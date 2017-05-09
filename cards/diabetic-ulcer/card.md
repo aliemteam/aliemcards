@@ -4,7 +4,7 @@ title: Diabetic Leg Ulcer and Osteomyelitis
 authors:
     - Michelle Lin, MD
 created: 2013/05/26
-updates: null
+updates:
 categories:
     - Orthopedics
     - EBM
@@ -75,7 +75,7 @@ categories:
 
 ## Fagan Nomogram
 
-![](image-1.png)
+![Fagan nomogram](image-1.png)
 
 Draw a connecting your pre-test probability and your likelihood ratio. This provides you with your post-test probability.
 

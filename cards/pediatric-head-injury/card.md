@@ -1,10 +1,9 @@
 ---
-
 title: Pediatric Blunt Head Trauma (PECARN Study)
 authors:
     - Michelle Lin, MD
 created: 2010/02/04
-updates: null
+updates:
 categories:
     - Pediatrics
     - Trauma
@@ -29,7 +28,7 @@ Risk of CT-documented TBI in children GCS &lt;14 = 20% 
 
 ## PATIENT AGE &lt;2 Years 
 
-![](image-1.png)
+![Age less than 2 workup pathway](image-1.png)
 
 **Severe Injury Mechanism**
 
@@ -40,7 +39,7 @@ Risk of CT-documented TBI in children GCS &lt;14 = 20% 
 
 ## PATIENT AGE ≥2 years
 
-![](image-2.png)
+![Age greater than or equal to 2 years workup pathway](image-2.png)
 
 **Severe Injury Mechanism**
 

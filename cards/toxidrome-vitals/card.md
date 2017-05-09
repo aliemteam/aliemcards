@@ -4,7 +4,7 @@ title: Toxidromes by Vital Signs
 authors:
     - Michelle Lin, MD
 created: 2010/11/19
-updates: null
+updates:
 categories:
     - Toxicology
 ---

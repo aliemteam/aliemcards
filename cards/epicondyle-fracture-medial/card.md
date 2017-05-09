@@ -6,7 +6,7 @@ authors:
    - Andrew Little, DO
    - Mary Haas, MD
 created: 2016/12/12
-updates: null
+updates:
 categories:
    - Peer Reviewed
    - Orthopedics
@@ -15,7 +15,7 @@ categories:
 
 # Elbow Injuries: Epicondyle Fracture Medial
 
-![](image-1.png)
+![Medial epicondyle fracture drawing](image-1.png)
 
 ## Xray Views
 

@@ -4,7 +4,7 @@ title: Scaphoid Fracture
 authors:
     - Sean Kivlehan, MD MPH
 created: 2016/02/01
-updates: null
+updates:
 categories:
     - Orthopedics
     - EBM

@@ -4,7 +4,7 @@ title: Blunt Cardiac Injury
 authors:
     - Michelle Lin, MD
 created: 2012/06/29
-updates: null
+updates:
 categories:
     - Trauma
     - Cardiovascular
@@ -27,7 +27,9 @@ No gold standard 
 - Consider BCI in hemodynamically unstable patients without alternative cause
 - Troponin I and T lack adequate sensitivity as screening test  
 
-Suggested algorithm, based on available evidence:![](image-1.png)
+Suggested algorithm, based on available evidence:
+
+![Blunt cardiac injury algorithm](image-1.png)
 
 ## References
 

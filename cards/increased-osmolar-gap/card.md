@@ -4,7 +4,7 @@ title: Approach to Increased Osmolar Gap
 authors:
     - Michelle Lin, MD
 created: 2012/06/01
-updates: null
+updates:
 categories:
     - Toxicology
 ---
@@ -15,7 +15,7 @@ categories:
 
 **Serum osmolality:** Contributed by ions and low-molecular-weight solutes
 
-![](image-1.png)
+![Serum osmolality = (2Na) + (BUN/2.8) + (Glucose/18) + (Ethanol/4.6)](image-1.png)
 
 **Osmolal gap = Calculated osmolality – Measured osmolality**
 

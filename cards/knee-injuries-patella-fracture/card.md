@@ -6,14 +6,14 @@ authors:
     - Michael Gottlieb, MD, RDMS
     - Mary Haas, MD
 created: 2016/11/21
-updates: null
+updates:
 categories:
     - Orthopedics
 ---
 
 # Knee Injuries: Patellar Fracture
 
-![](image-1.png)
+![Drawing of the types of patellar fractures](image-1.png)
 
 ## X-ray Views
 

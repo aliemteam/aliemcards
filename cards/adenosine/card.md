@@ -4,7 +4,7 @@ title: Adenosine 6-12-12 Approach
 authors:
     - Bryan Hayes, PharmD
 created: 2012/12/06
-updates: null
+updates:
 categories:
     - Cardiovascular
     - Pharmacology

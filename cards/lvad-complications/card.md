@@ -4,7 +4,7 @@ title: Left Ventricular Assist Device Complications
 authors:
     - Nicolas Stadlberger, MD
 created: 2016/11/23
-updates: null
+updates:
 categories:
     - Cardiovascular
     - Critical Care
@@ -12,7 +12,7 @@ categories:
 
 # Left Ventricular Assist Device Complications
 
-![](image-1.jpg)
+![LVAD diagram](image-1.jpg)
 
 - These patients MAY NOT HAVE A PULSE    
 - May need ABG since pulse ox maybe inaccurate without pulse
@@ -171,7 +171,7 @@ ACLS algorithms except:
 
 ## Altered LVAD Patient
 
-![](image-2.png)
+![Altered LVAD patient clinical pathway diagram](image-2.png)
 
 ## References
 

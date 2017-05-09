@@ -4,7 +4,7 @@ title: Hyperkalemia
 authors:
     - Michelle Lin, MD
 created: 2010/03/12
-updates: null
+updates:
 categories:
     - Endocrinology
     - Metabolic

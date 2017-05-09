@@ -4,7 +4,7 @@ title: Cervical Spine Rules
 authors:
     - Michelle Lin, MD
 created: 2010/12/10
-updates: null
+updates:
 categories:
     - Trauma
     - Orthopedics
@@ -31,14 +31,14 @@ A patient's neck can be clinically cleared safely without radiographic imaging i
 
 ## Canadian C-spine Rules (CCR)
 
-The basic approach in the flow-chart: 
+The basic approach in the flowchart: 
 
 1. Make sure that the patient meets the eligibility requirements as in the CCR study. 
 2. Determine if there are high-risk findings. If so, go directly to imaging.
 3. If there are no high-risk findings, check to see if the patient qualifies as a low-risk candidate where you might be able to clinically clear the c-spine without imaging.
 4. If the patient is neither high or low risk, then the patient is moderate risk and requires imaging.
 
-![](image-2.png)
+![Canadian C-spine Rule flowchart](image-2.png)
 
 ## References
 

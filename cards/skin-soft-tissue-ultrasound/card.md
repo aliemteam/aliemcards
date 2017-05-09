@@ -6,7 +6,7 @@ authors:
     - Patricia Henwood, MD
     - Mike Stone, MD
 created: 2015/01/07
-updates: null
+updates:
 categories:
     - Ultrasound
     - Radiology
@@ -42,7 +42,7 @@ Use an adjacent or contralateral (unaffected) area as a comparison.
 - Contents may be seen to "swirl” or “squish” when purulent material moves with compression by the transducer.
 - If anechoic and regular circular border, may be difficult to distinguish from a cyst.
 
-![](image-1.png)
+![Subcutaneous abscess characterized by a mixed echogenicity fluid collection with irregular borders](image-1.png)
 
 Figure 1: Subcutaneous abscess characterized by a mixed echogenicity **fluid collection with irregular borders** (yellow arrows)
 
@@ -50,30 +50,34 @@ Figure 1: Subcutaneous abscess characterized by a mixed echogenicity **fluid col
 
 Appears as "cobblestoning," caused by interstitial edema separating adipose tissue.
 
-![](image-2.png)Figure 2: Cellulitis
+![Cellulitis](image-2.png)
+
+Figure 2: Cellulitis
 
 ## Foreign Body
 
 - Will vary in appearance based on composition
 - May exhibit the "halo sign" which appears as hypoechoic ring surrounding a hyperechoic foreign body (generally only present in foreign bodies of >24 hours)
 
-![](image-3.png)Figure 3: A subcutaneous **wooden foreign body** (red arrows) is identified with **deep shadowing** (yellow arrows)
+![A subcutaneous wooden foreign body (red arrows) is identified with deep shadowing](image-3.png)
+
+Figure 3: A subcutaneous **wooden foreign body** (red arrows) is identified with **deep shadowing** (yellow arrows)
 
 ## Struggling with the Exam?
 
-**Is your preset set correctly?**
+### Is your preset set correctly?
 
 - Make sure you are using a “superficial” preset. A vascular or vascular access preset has a very high contrast (low dynamic range) & can make it difficult to identify subtle skin and soft tissue findings.
 
-**Looking for abscess?**
+### Looking for abscess?
 
 - Other structures may be mistaken for abscess including lymph nodes, solid masses, hematoma, deep venous thrombosis, or cyst. Be sure to slide all the way through the structure in 2 planes to define its borders.
 
-**Looking for foreign body?**
+### Looking for foreign body?
 
 - Other hyperechoic structures may be mistaken for a foreign body including tendons, fascia, etc.
 
-**Is the area is too painful to apply a probe?**
+### Is the area is too painful to apply a probe?
 
 - Try a water bath or heap up a generous pile of ultrasound gel to improve image acquisition and decrease the discomfort of the exam.
 

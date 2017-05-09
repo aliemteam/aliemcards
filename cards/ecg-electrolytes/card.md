@@ -4,7 +4,7 @@ title: ECG Electrolyte Imbalance
 authors:
     - Steve Field, MD
 created: 2012/09/21
-updates: null
+updates:
 categories:
     - Cardiovascular
     - ECG
@@ -13,9 +13,9 @@ categories:
 
 # ECG: Electrolyte Imbalance
 
-![](image-1.png)
+![Normal ECG with overlay showing all the measurable intervals](image-1.png)
 
-Image courtesy of [Life in the Fast Lane](image-2.gif)
+Image courtesy of [Life in the Fast Lane](https://lifeinthefastlane.com)
 
 **PR Interval**
 

@@ -4,7 +4,7 @@ title: Penetrating Abdominal Trauma - Observe vs Laparotomy
 authors:
     - Michelle Lin, MD
 created: 2010/07/09
-updates: null
+updates:
 categories:
     - Trauma
 ---

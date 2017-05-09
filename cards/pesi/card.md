@@ -4,7 +4,7 @@ title: PESI Score for Pulmonary Embolism
 authors:
     - Michelle Lin, MD
 created: 2012/11/17
-updates: null
+updates:
 categories:
     - Pulmonology
     - Critical Care
@@ -65,7 +65,7 @@ categories:
 
 **Outpatient treatment:** 
 
-**<span class="drug">Enoxaparin</span>** 1 mg/kg SQ BID to bridge into PO **<span class="drug">Warfarin</span>** (target INR=2)
+<span class="drug">Enoxaparin</span> 1 mg/kg SQ BID to bridge into PO <span class="drug">Warfarin</span> (target INR=2)
 
 **CONCLUSION**: PE patients with PESI class I or II seem safe to manage as outpatients (be aware of exclusion criteria from study)
 

@@ -4,7 +4,7 @@ title: Appendicitis ACEP Clinical Policy
 authors:
     - Michelle Lin, MD
 created: 2010/06/18
-updates: null
+updates:
 categories:
     - Surgery
     - EBM
@@ -81,7 +81,7 @@ Beware of patients &lt;10 yr and >60 yr old for atypical presentations
 
 ## Fagan nomogram
 
-![](image-1.png)
+![Fagan nomogram](image-1.png)
 
 Draw a connecting your pre-test probability and your likelihood ratio. This provides you with your post-test probability.
 

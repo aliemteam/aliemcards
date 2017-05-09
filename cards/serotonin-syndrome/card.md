@@ -4,7 +4,7 @@ title: Serotonin Syndrome
 authors:
     - Michelle Lin, MD
 created: 2012/01/06
-updates: null
+updates:
 categories:
     - Toxicology
 ---
@@ -61,7 +61,7 @@ categories:
 
 ## Hunter's decision Rule 
 
-![](image-1.png)
+![Hunter's decision Rule diagram](image-1.png)
 
 (Sensitivity 84%, Specificity 97%)
 
@@ -86,7 +86,7 @@ categories:
 - Neuroleptic malignant syndrome
 - Malignant hyperthermia 
 
-![](image-2.png)
+![Sternbach's criteria table](image-2.png)
 
 Table adapted from [Boyer EW, Shannon M. NEJM 2005](http://www.ncbi.nlm.nih.gov/pubmed/15784664)
 

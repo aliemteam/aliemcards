@@ -6,7 +6,7 @@ authors:
    - Andrew Little, DO
    - Mary Haas, MD
 created: 2016/12/12
-updates: null
+updates:
 categories:
    - Peer Reviewed
    - Orthopedics
@@ -15,7 +15,7 @@ categories:
 
 # Elbow Injuries: Radial Head Fracture
 
-![](image-1.png)
+![Type 1-4 radial head fracture drawing](image-1.png)
 
 ## X-ray Views
 

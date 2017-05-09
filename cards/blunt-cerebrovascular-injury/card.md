@@ -4,7 +4,7 @@ title: Blunt Cerebrovascular Injuries
 authors:
     - Michelle Lin, MD
 created: 2011/07/01
-updates: null
+updates:
 categories:
     - Trauma
     - Neurology

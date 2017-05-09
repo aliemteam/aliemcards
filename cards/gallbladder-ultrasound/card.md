@@ -5,7 +5,7 @@ authors:
     - John Eicken, MD
     - Mike Stone, MD
 created: 2015/01/01
-updates: null
+updates:
 categories:
     - Radiology
     - Ultrasound
@@ -20,7 +20,7 @@ categories:
 
 **Windows:** 3 windows, can be preformed in any order. Try alternative windows if initial choice unsuccessful.
 
-![](image-1.png)
+![Transducer positions for gallbladder scan. A: Intercostal, B: Subcostal, C: Lateral. Green line = costal margin. X = xiphoid process](image-1.png)
 
 Figure 1: Transducer positions for gallbladder scan. A: Intercostal, B: Subcostal, C: Lateral. Green line = costal margin. X = xiphoid process.
 
@@ -56,7 +56,7 @@ Figure 1: Transducer positions for gallbladder scan. A: Intercostal, B: Subcosta
 
 Transducer orientation is transverse with marker towards the patient’s right
 
-![](image-2.png)
+![Cholelithiasis example](image-2.png)
 
 Figure 2: Cholelithiasis. Note the gallstones with shadowing and normal gallbladder wall thickness
 
@@ -71,7 +71,7 @@ Figure 2: Cholelithiasis. Note the gallstones with shadowing and normal gallblad
 
 Transducer orientation is sagittal with marker towards the patient’s head
 
-![](image-3.png)
+![Acute cholecystitis example](image-3.png)
 
 Figure 3: Acute cholecystitis. Note the gallstones with shadowing, pericholecystic fluid, and thickened gallbladder wall.
 

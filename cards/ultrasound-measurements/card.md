@@ -6,7 +6,7 @@ authors:
     - Scott Fischette, MD 
     - Nate Teismann, MD
 created: 2015/10/15
-updates: null
+updates:
 categories:
     - Radiology
     - Ultrasound

@@ -4,7 +4,7 @@ title: Cervical Spine Distracting Injuries
 authors:
     - Michelle Lin, MD
 created: 2011/09/11
-updates: null
+updates:
 categories:
     - Trauma
     - Orthopedics

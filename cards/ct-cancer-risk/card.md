@@ -4,7 +4,7 @@ title: Cancer Risk from CT
 authors:
     - Michelle Lin, MD
 created: 2011/06/10
-updates: null
+updates:
 categories:
     - Radiology
 ---
@@ -13,7 +13,7 @@ categories:
 
 The lifetime attributable risk of 1 cancer from CT by age, gender, scanned area is:
 
-![](image-1.png)
+![CT-cancer risk chart](image-1.png)
 
 ## References
 

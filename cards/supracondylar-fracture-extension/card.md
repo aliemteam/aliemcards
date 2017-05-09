@@ -1,21 +1,19 @@
 ---
-
 title: Elbow Injuries - Supracondylar Fractures Extension
 authors:
     - Melody Glenn, MD
     - Andrew Little, DO
     - Mary Haas, MD
 created: 2016/12/12
-updates: null
+updates:
 categories:
     - Peer Reviewed
     - Orthopedics
-
 ---
 
 # Elbow Injuries: Supracondylar Fractures Extension
 
-![](image-1.png)
+![Type 1 through 3 supracondylar extension fractures](image-1.png)
 
 ## X-ray views
 

@@ -4,7 +4,7 @@ title: Does Your Dyspneic Patient Have CHF?
 authors:
     - Michelle Lin, MD
 created: 2012/08/24
-updates: null
+updates:
 categories:
     - Cardiovascular
     - EBM

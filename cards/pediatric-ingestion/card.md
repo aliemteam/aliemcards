@@ -4,7 +4,7 @@ title: Pediatric Ingestion Dose Thresholds for ED Referral
 authors:
     - Bryan D. Hayes, PharmD
 created: 2014/07/09
-updates: null
+updates:
 categories:
     - Pediatrics
     - Toxicology

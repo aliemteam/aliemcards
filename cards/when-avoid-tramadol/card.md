@@ -4,7 +4,7 @@ title: When to Avoid Tramadol
 authors:
     - Jill Logan, PharmD
 created: 2014/01/06
-updates: null
+updates:
 categories:
     - Toxicology
 ---

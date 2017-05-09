@@ -4,7 +4,7 @@ title: Murmurs Needing Echocardiography Evaluation
 authors:
     - Amy Kinard, RN
 created: 2010/09/17
-updates: null
+updates:
 categories:
     - Cardiovascular
 ---
@@ -13,7 +13,7 @@ categories:
 
 [ACC/AHA 2008 Guidelines](http://www.ncbi.nlm.nih.gov/pubmed/?term=18848134)
 
-![](image-1.png)
+![Cardiac murmur workup flowchart](image-1.png)
 
 ## Grading of a Murmur
 

@@ -6,14 +6,14 @@ authors:
     - Michael Gottlieb, MD, RDMS
     - Mary Haas, MD
 created: 2016/11/14
-updates: null
+updates:
 categories:
     - Orthopedics
 ---
 
 # Hip Injuries: Hip Dislocation
 
-![](image-1.png)
+![Posterior vs anterior hip dislocation drawing](image-1.png)
 
 ## Xray Views
 

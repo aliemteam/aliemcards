@@ -6,7 +6,7 @@ authors:
     - Mike Mallon, MD
     - Mike Stone, MD
 created: 2015/02/11
-updates: null
+updates:
 categories:
     - Cardiovascular
     - Ultrasound
@@ -20,7 +20,7 @@ categories:
 
 **Windows:** Can be performed in any order. Try alternative windows if initial choice is unsuccessful. Standard cardiac imaging places the screen indicator on the right side of the screen. Using abdominal or other machine presets where the screen indicator is on the left side of the screen will require a 180-degree flip of the transducer from the description below.
 
-![](image-1.png)
+![Parasternal, apical, and subxiphoid windows](image-1.png)
 
 Figure 1: Standard transducer placement for the basic transthoracic echocardiography examination
 
@@ -29,16 +29,16 @@ Figure 1: Standard transducer placement for the basic transthoracic echocardiogr
 - **Anatomic landmarks**: Just left of sternum, 4th or 5th intercostal space
 - **Initial transducer orientation:** Place directional indicator towards right shoulder. Align image to include both aortic and mitral valve. Place mitral valve in center of screen.
 
-![](image-2.png)
+![Parasternal long-axis view example](image-2.png)
 
 Figure 2: Parasternal Long Axis view with measurement. Note the right ventricle **(RV)**, interventricular septum **(S)**, left ventricle **(LV)**, left atrium **(LA)**, anterior mitral valve leaflet **(\*)**, and aorta **(Ao)** seen at its root adjacent to the aortic valve and again descending deep to the heart. EPSS is measured in M-mode (right panel) as the distance from the interventricular septum to the first upstroke of the anterior mitral valve leaflet in diastole – used to help determine LV ejection fraction.
 
-## 2. Parasternal Short Axis (PSSA)
+## 2. Parasternal Short-Axis (PSSA)
 
 - **Anatomic landmarks**: Same location as PSLX. Rotate transducer 90<sup>o</sup> clockwise.
 - **Initial transducer orientation:** Directional indicator towards left shoulder. Fan transducer towards right shoulder for image of aortic valve. Fan transducer towards left hip for image of mid LV cavity.
 
-![](image-3.png)
+![Parasternal Short-Axis view example](image-3.png)
 
 Figure 3: PSSA view with right ventricle **(RV),** circular left ventricle **(LV)**, and **papillary muscles**
 
@@ -47,7 +47,7 @@ Figure 3: PSSA view with right ventricle **(RV),** circular left ventricle **(LV
 - **Anatomic landmarks**: Point of Maximal Impulse (usually 2 cm below nipple).
 - **Initial transducer orientation:** Directional indicator towards left axilla with transducer angled towards right shoulder. Try to locate over the true apex of the heart and align both tricuspid and mitral valves. Septum should be vertical in image.
 
-![](image-4.png)
+![Apical 4-chamber example](image-4.png)
 
 Figure 4: Apical 4 Chamber view demonstrating the right ventricle **(RV)**, right atrium **(RA)**, left ventricle **(LV)** and left atrium **(LA)**. Note the vertical orientation of the septum.
 
@@ -56,7 +56,7 @@ Figure 4: Apical 4 Chamber view demonstrating the right ventricle **(RV)**, righ
 - **Anatomic landmarks**: Transducer just below xiphoid process. Slightly to patient’s right.
 - **Initial transducer orientation:** Transducer marker towards patient’s **_left_** with transducer angled towards left shoulder. (Transducer is flipped from FAST view due to flipped screen indicator in cardiac imaging). Flatten transducer on abdomen.
 
-![](image-5.png)
+![Subxiphoid view example](image-5.png)
 
 Figure 5: Subxiphoid 4-chamber view showing right ventricle **(RV)**, right atrium **(RA)**, left ventricle **(LV)** and left atrium **(LA)**. Note the small **pericardial effusion**.
 

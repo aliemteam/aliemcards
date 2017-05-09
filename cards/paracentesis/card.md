@@ -4,7 +4,7 @@ title: Paracentesis for Ascites
 authors:
     - Michelle Lin, MD
 created: 2010/06/25
-updates: null
+updates:
 categories:
     - Gastroenterology
 ---
@@ -44,7 +44,7 @@ _[JAMA Rational Clinical Examination Series 2009](http://www.ncbi.nlm.nih.gov/pu
 
 ## Fagan Nomogram
 
-![](image-1.png)
+![Fagan nomogram](image-1.png)
 
 ## References
 
