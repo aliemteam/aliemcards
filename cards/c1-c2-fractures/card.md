@@ -89,4 +89,4 @@ categories:
 
 ## References
 
-- [Lin M and Mahadevan S. "Spine and Spinal Cord Injuries" in Adams J et al (eds), Emergency Medicine. New York: Elsevier, 2007.](http://books.google.com/books/about/Emergency_Medicine.html?id=Q2Ag9OKC7awC)
+- Lin M and Mahadevan S. "Spine and Spinal Cord Injuries" in Adams J et al (eds), Emergency Medicine. New York: Elsevier, 2007. [Link](http://books.google.com/books/about/Emergency_Medicine.html?id=Q2Ag9OKC7awC)

@@ -44,5 +44,5 @@ categories:
 
 ## References
 
-- [Yunos NM, Bellomo R, Hegarty C, Story D, Ho L, Bailey M. Association between a chloride-liberal vs chloride-restrictive intravenous fluid administration strategy and kidney injury in critically ill adults. JAMA. 2012 Oct 17;308(15):1566-72. doi: 10.1001/jama.2012.13356.](https://www.ncbi.nlm.nih.gov/pubmed/?term=23073953)
-- [http://www.medscape.org/viewarticle/503138](http://www.medscape.org/viewarticle/503138%20)
+- Yunos NM, Bellomo R, Hegarty C, Story D, Ho L, Bailey M. Association between a chloride-liberal vs chloride-restrictive intravenous fluid administration strategy and kidney injury in critically ill adults. JAMA. 2012 Oct 17;308(15):1566-72. doi: 10.1001/jama.2012.13356. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=23073953)
+- http://www.medscape.org/viewarticle/503138 [Link](http://www.medscape.org/viewarticle/503138%20)

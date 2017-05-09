@@ -78,10 +78,10 @@ If all 8 present: Only 1% risk for venous thromboembolism (VTE) at 45 days. 
 
 ## References
 
-- [Klok FA et al.Simplification of the revised Geneva score for assessing clinical probability of pulmonary embolism. Arch Intern Med 2008](http://www.ncbi.nlm.nih.gov/pubmed/18955643)
-- [Wells et al. Excluding pulmonary embolism at the bedside without diagnostic imaging: management of patients with suspected pulmonary embolism presenting to the emergency department by using a simple clinical model and d-dimer. Ann Intern Med 2001.](http://www.ncbi.nlm.nih.gov/pubmed/11453709)
-- [Van Belle et al. Effectiveness of managing suspected pulmonary embolism using an algorithm combining clinical probability, D-dimer testing, and computed tomography.JAMA 2006](http://www.ncbi.nlm.nih.gov/pubmed/16403929)
-- [Hugli O, Righini M, Le Gal G, Roy PM, Sanchez O, Verschuren F, Meyer G, Bounameaux H, Aujesky D.The pulmonary embolism rule-out criteria (PERC) rule does not safely exclude pulmonary embolism.J Thromb Haemost. 2011 Feb;9(2):300-4.](http://www.ncbi.nlm.nih.gov/pubmed/21091866)
-- [Kline et al. Clinical criteria to prevent unnecessary diagnostic testing in emergency department patients with suspected pulmonary embolism.J Thromb Haem 2004.](http://www.ncbi.nlm.nih.gov/pubmed/15304025)
-- [Kline et al. Prospective multicenter evaluation of the pulmonary embolism rule-out criteria. J Thromb Haem 2008.](http://www.ncbi.nlm.nih.gov/pubmed/18318689)
-- [Wells et al.Derivation of a simple clinical model to categorize patients probability of pulmonary embolism: increasing the models utility with the SimpliRED D-dimer. Thromb Haemost 2000](http://www.ncbi.nlm.nih.gov/pubmed/10744147)
+- Klok FA et al.Simplification of the revised Geneva score for assessing clinical probability of pulmonary embolism. Arch Intern Med 2008 [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/18955643)
+- Wells et al. Excluding pulmonary embolism at the bedside without diagnostic imaging: management of patients with suspected pulmonary embolism presenting to the emergency department by using a simple clinical model and d-dimer. Ann Intern Med 2001. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/11453709)
+- Van Belle et al. Effectiveness of managing suspected pulmonary embolism using an algorithm combining clinical probability, D-dimer testing, and computed tomography.JAMA 2006 [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/16403929)
+- Hugli O, Righini M, Le Gal G, Roy PM, Sanchez O, Verschuren F, Meyer G, Bounameaux H, Aujesky D.The pulmonary embolism rule-out criteria (PERC) rule does not safely exclude pulmonary embolism.J Thromb Haemost. 2011 Feb;9(2):300-4. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/21091866)
+- Kline et al. Clinical criteria to prevent unnecessary diagnostic testing in emergency department patients with suspected pulmonary embolism.J Thromb Haem 2004. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/15304025)
+- Kline et al. Prospective multicenter evaluation of the pulmonary embolism rule-out criteria. J Thromb Haem 2008. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/18318689)
+- Wells et al.Derivation of a simple clinical model to categorize patients probability of pulmonary embolism: increasing the models utility with the SimpliRED D-dimer. Thromb Haemost 2000 [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/10744147)

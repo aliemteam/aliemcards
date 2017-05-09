@@ -90,4 +90,4 @@ International Registry for Aortic Dissection (IRAD):
 
 ## References
 
-- [Hagan PG. et. al. The International Registry of Acute Aortic Dissection (IRAD): new insights into an old disease. JAMA. 2000 Feb 16;283(7):897-903.](http://www.ncbi.nlm.nih.gov/pubmed/?term=10685714)
+- Hagan PG. et. al. The International Registry of Acute Aortic Dissection (IRAD): new insights into an old disease. JAMA. 2000 Feb 16;283(7):897-903. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=10685714)

@@ -92,8 +92,8 @@ Suggests subepicardial atrial injury from pericardial inflammation
 
 ## References
 
-- [Kireyev D et al.Clinical utility of aVR-The neglected electrocardiographic lead. Ann Noninvasive Electrocardiol. 2010;15(2):175-80.](http://www.ncbi.nlm.nih.gov/pubmed/20522059)
-- [Riera AR et al.Clinical value of lead aVR. Ann Noninvasive Electrocardiol. 2011 Jul;16(3):295-302.](http://www.ncbi.nlm.nih.gov/pubmed/21762258)
-- [Vereckei A, Duray G, Szénási G, Altemose GT, Miller JM. New algorithm using only lead aVR for differential diagnosis of wide QRS complex tachycardia. Heart Rhythm. 2008 Jan;5(1):89-98. doi: 10.1016/j.hrthm.2007.09.020. Epub 2007 Sep 20.](http://www.ncbi.nlm.nih.gov/pubmed/18180024)
-- [Buckley NA et. al.The limited utility of electrocardiography variables used to predict arrhythmia in psychotropic drug overdose.Crit Care. 2003 Oct;7(5):R101-7. Epub 2003 Aug 18.](http://www.ncbi.nlm.nih.gov/pubmed/12974977)
-- [Williamson K et al. Electrocardiographic applications of lead aVR. Am J Emerg Med. 2006 Nov;24(7):864-74.](http://www.ncbi.nlm.nih.gov/pubmed/17098112)
+- Kireyev D et al.Clinical utility of aVR-The neglected electrocardiographic lead. Ann Noninvasive Electrocardiol. 2010;15(2):175-80. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/20522059)
+- Riera AR et al.Clinical value of lead aVR. Ann Noninvasive Electrocardiol. 2011 Jul;16(3):295-302. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/21762258)
+- Vereckei A, Duray G, Szénási G, Altemose GT, Miller JM. New algorithm using only lead aVR for differential diagnosis of wide QRS complex tachycardia. Heart Rhythm. 2008 Jan;5(1):89-98. doi: 10.1016/j.hrthm.2007.09.020. Epub 2007 Sep 20. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/18180024)
+- Buckley NA et. al.The limited utility of electrocardiography variables used to predict arrhythmia in psychotropic drug overdose.Crit Care. 2003 Oct;7(5):R101-7. Epub 2003 Aug 18. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/12974977)
+- Williamson K et al. Electrocardiographic applications of lead aVR. Am J Emerg Med. 2006 Nov;24(7):864-74. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/17098112)

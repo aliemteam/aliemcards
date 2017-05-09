@@ -100,4 +100,4 @@ categories:
 
 ## References
 
-- [Choby BA.Diagnosis and treatment of streptococcal pharyngitis.Am Fam Physician. 2009 Mar 1;79(5):383-90.](http://www.ncbi.nlm.nih.gov/pubmed/?term=19275067)
+- Choby BA.Diagnosis and treatment of streptococcal pharyngitis.Am Fam Physician. 2009 Mar 1;79(5):383-90. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=19275067)

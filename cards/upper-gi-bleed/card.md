@@ -115,5 +115,5 @@ Validated decision tool to identify UGIB patients who DON'T need urgent interven
 
 ## References
 
-- [Kumar R, Mills AM. GI Bleeding. EM Clin N Am. 2011; 29:239-52.](http://www.ncbi.nlm.nih.gov/pubmed/?term=21515178)
-- [Srygley FD et al. Does this patient have a severe UGIB? JAMA. Mar 14, 2012; 307(10):1072-9.](http://www.ncbi.nlm.nih.gov/pubmed/?term=22416103)
+- Kumar R, Mills AM. GI Bleeding. EM Clin N Am. 2011; 29:239-52. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=21515178)
+- Srygley FD et al. Does this patient have a severe UGIB? JAMA. Mar 14, 2012; 307(10):1072-9. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=22416103)

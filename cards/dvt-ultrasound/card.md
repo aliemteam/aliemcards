@@ -72,6 +72,6 @@ Figure 3: Positive DVT study showing **thrombus** in the femoral vein **(v),** a
 
 ## References
 
-- Kline JA et al. _Annals of Emerg Med_, 2008. PMID: [18562044](www.ncbi.nlm.nih.gov/pubmed/18562044)
+- Kline JA et al. _Annals of Emerg Med_, 2008. PMID: 18562044(www.ncbi.nlm.nih.gov/pubmed/18562044)
 
-- Bernardi E. et al. _JAMA_, 2008. PMID: [18840838](www.ncbi.nlm.nih.gov/pubmed/18840838)
+- Bernardi E. et al. _JAMA_, 2008. PMID: 18840838(www.ncbi.nlm.nih.gov/pubmed/18840838)

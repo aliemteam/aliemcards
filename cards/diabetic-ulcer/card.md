@@ -81,4 +81,4 @@ Draw a connecting your pre-test probability and your likelihood ratio. This prov
 
 ## References
 
-- [Butalia S, Palda VA, Sargeant RJ, Detsky AS, Mourad O. Does this patient with diabetes have osteomyelitis of the lower extremity? JAMA. 2008 Feb 20;299(7):806-13. doi: 10.1001/jama.299.7.806.](https://www.ncbi.nlm.nih.gov/pubmed/?term=18285592)
+- Butalia S, Palda VA, Sargeant RJ, Detsky AS, Mourad O. Does this patient with diabetes have osteomyelitis of the lower extremity? JAMA. 2008 Feb 20;299(7):806-13. doi: 10.1001/jama.299.7.806. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=18285592)

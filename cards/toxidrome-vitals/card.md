@@ -90,4 +90,4 @@ categories:
 
 ## References
 
-- [Erickson TB, Thompson TM, Lu JJ.The approach to the patient with an unknown overdose. Emerg Med Clin North Am. 2007 May;25(2):249-81](http://www.ncbi.nlm.nih.gov/pubmed/?term=17482020)
+- Erickson TB, Thompson TM, Lu JJ.The approach to the patient with an unknown overdose. Emerg Med Clin North Am. 2007 May;25(2):249-81 [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=17482020)

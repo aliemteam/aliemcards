@@ -70,5 +70,5 @@ categories:
 
 ## References
 
-- [Cohen SH, et al. Clinical practice guidelines for Clostridium difficile infection in adults: 2010 update by SHEA and IDSA. Infect Control Hosp Epidemiol. 2010; 31(5):431-55.](https://www.ncbi.nlm.nih.gov/pubmed/?term=20307191)
-- [Kelly CP, LaMont JT.Clostridium difficile--more difficult than ever.N Engl J Med. 2008 Oct 30;359(18):1932-40. doi: 10.1056/NEJMra0707500.](https://www.ncbi.nlm.nih.gov/pubmed/?term=18971494)
+- Cohen SH, et al. Clinical practice guidelines for Clostridium difficile infection in adults: 2010 update by SHEA and IDSA. Infect Control Hosp Epidemiol. 2010; 31(5):431-55. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=20307191)
+- Kelly CP, LaMont JT.Clostridium difficile--more difficult than ever.N Engl J Med. 2008 Oct 30;359(18):1932-40. doi: 10.1056/NEJMra0707500. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=18971494)

@@ -45,7 +45,7 @@ Remember that theophylline may require higher dosing as well, because it is simi
 
 ## References
 
-- [McIntosh-Yellin NL, et al. Safety and efficacy of central intravenous bolus administration for termination of supraventricular tachycardia. J Am Coll Cardiol 1993;22:741-5.](http://www.ncbi.nlm.nih.gov/pubmed/8354807)
-- [Cabalag MS, et al. Recent caffeine ingestion reduces adenosine efficacy in the treatment of paroxysmal supraventricular tachycardia. Acad Emerg Med 2009;17(1):44-9.](http://www.ncbi.nlm.nih.gov/pubmed/20003123)
-- [Chang M, et al. Adenosine dose should be less when administered through a central line. J Emerg Med 2002;22(2):195-8](http://www.ncbi.nlm.nih.gov/pubmed/11858927)
-- [Neumar RW, et al. Part 8: Adult Advanced Cardiovascular Life Support: 2010 American Heart Association Guidelines for Cardiopulmonary Resuscitation and Emergency Cardiovascular Care. Circulation 2010;122:S729-S767.](http://www.ncbi.nlm.nih.gov/pubmed/20956256)
+- McIntosh-Yellin NL, et al. Safety and efficacy of central intravenous bolus administration for termination of supraventricular tachycardia. J Am Coll Cardiol 1993;22:741-5. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/8354807)
+- Cabalag MS, et al. Recent caffeine ingestion reduces adenosine efficacy in the treatment of paroxysmal supraventricular tachycardia. Acad Emerg Med 2009;17(1):44-9. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/20003123)
+- Chang M, et al. Adenosine dose should be less when administered through a central line. J Emerg Med 2002;22(2):195-8 [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/11858927)
+- Neumar RW, et al. Part 8: Adult Advanced Cardiovascular Life Support: 2010 American Heart Association Guidelines for Cardiopulmonary Resuscitation and Emergency Cardiovascular Care. Circulation 2010;122:S729-S767. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/20956256)

@@ -110,4 +110,4 @@ categories:
 
 ## References
 
-- [McCullough L, Arora S.Diagnosis and treatment of hypothermia.Am Fam Physician. 2004 Dec 15;70(12):2325-32.](http://www.ncbi.nlm.nih.gov/pubmed/?term=15617296)
+- McCullough L, Arora S.Diagnosis and treatment of hypothermia.Am Fam Physician. 2004 Dec 15;70(12):2325-32. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=15617296)

@@ -100,4 +100,4 @@ Hypotension
 
 ## References
 
-- [Murphy-Lavoie H, Le Gros TL. Emergent Diagnosis of the Unknown Rash. Emergency Medicine. 2010 March. PDF:](http://www.emedmag.com/PDF/042030006.pdf)
+- Murphy-Lavoie H, Le Gros TL. Emergent Diagnosis of the Unknown Rash. Emergency Medicine. 2010 March. PDF: [Link](http://www.emedmag.com/PDF/042030006.pdf)

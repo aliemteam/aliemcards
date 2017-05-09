@@ -24,6 +24,6 @@ categories:
 
 ## References
 
-- [Neumar RW, Otto CW, Link MS, Kronick SL, Shuster M, Callaway CW, Kudenchuk PJ, Ornato JP, McNally B, Silvers SM, Passman RS, White RD, Hess EP, Tang W, Davis D, Sinz E, Morrison LJ. Part 8: adult advanced cardiovascular life support: 2010 American Heart Association Guidelines for Cardiopulmonary Resuscitation and Emergency Cardiovascular Care.Circulation. 2010 Nov 2;122(18 Suppl 3):S729-67](http://circ.ahajournals.org/content/122/18_suppl_3/S729.full)
+- Neumar RW, Otto CW, Link MS, Kronick SL, Shuster M, Callaway CW, Kudenchuk PJ, Ornato JP, McNally B, Silvers SM, Passman RS, White RD, Hess EP, Tang W, Davis D, Sinz E, Morrison LJ. Part 8: adult advanced cardiovascular life support: 2010 American Heart Association Guidelines for Cardiopulmonary Resuscitation and Emergency Cardiovascular Care.Circulation. 2010 Nov 2;122(18 Suppl 3):S729-67 [Link](http://circ.ahajournals.org/content/122/18_suppl_3/S729.full)
 
-Click [here](https://www.aliem.com/2013/whats-code-dose-of-tpa/) for full ALiEM blog post
+Click here [Link](https://www.aliem.com/2013/whats-code-dose-of-tpa/) for full ALiEM blog post

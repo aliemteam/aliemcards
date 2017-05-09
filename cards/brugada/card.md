@@ -54,4 +54,4 @@ Otherwise, close followup with cardiologist.
 
 ## References
 
-- [Antzelevitch C, Brugada P, Borggrefe M, Brugada J, Brugada R, Corrado D, Gussak I, LeMarec H, Nademanee K, Perez Riera AR, Shimizu W, Schulze-Bahr E, Tan H, Wilde A. Brugada syndrome: report of the second consensus conference: endorsed by the Heart Rhythm Society and the European Heart Rhythm Association.Circulation. 2005 Feb 8;111(5):659-70. Epub 2005 Jan 17.](https://www.ncbi.nlm.nih.gov/pubmed/?term=15655131)
+- Antzelevitch C, Brugada P, Borggrefe M, Brugada J, Brugada R, Corrado D, Gussak I, LeMarec H, Nademanee K, Perez Riera AR, Shimizu W, Schulze-Bahr E, Tan H, Wilde A. Brugada syndrome: report of the second consensus conference: endorsed by the Heart Rhythm Society and the European Heart Rhythm Association.Circulation. 2005 Feb 8;111(5):659-70. Epub 2005 Jan 17. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=15655131)

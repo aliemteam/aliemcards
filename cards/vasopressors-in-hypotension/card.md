@@ -28,10 +28,10 @@ Side effects of vasoactive medications are related both to the direct mechanism 
 
 ## References
 
-- [Vasu TS, Cavallazzi R, Hirani A, Kaplan G, Leiby B, Marik PE. Norepinephrine or dopamine for septic shock: systematic review of randomized clinical trials. J Intensive Care Med 2012;27:172-8.](http://www.ncbi.nlm.nih.gov/pubmed/21436167)
-- [Annane D, Vignon P, Renault A, et al. Norepinephrine plus dobutamine versus epinephrine alone for management of septic shock: a randomised trial. Lancet 2007;370:676-84.](http://www.ncbi.nlm.nih.gov/pubmed/?term=17720019)
-- [Myburgh JA, Higgins A, Jovanovska A, Lipman J, Ramakrishnan N, Santamaria J. A comparison of epinephrine and norepinephrine in critically ill patients. Intensive Care Med 2008;34:2226-34.](http://www.ncbi.nlm.nih.gov/pubmed/18654759)
-- [Ellender TJ, Skinner JC. The use of vasopressors and inotropes in the emergency medical treatment of shock. Emerg Med Clin North Am 2008;26:759-86, ix.](http://www.ncbi.nlm.nih.gov/pubmed/18655944)
-- [De Backer D, Aldecoa C, Njimi H, Vincent JL. Dopamine versus norepinephrine in the treatment of septic shock: a meta-analysis. Crit Care Med 2012;40:725-30.](http://www.ncbi.nlm.nih.gov/pubmed/22036860)
+- Vasu TS, Cavallazzi R, Hirani A, Kaplan G, Leiby B, Marik PE. Norepinephrine or dopamine for septic shock: systematic review of randomized clinical trials. J Intensive Care Med 2012;27:172-8. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/21436167)
+- Annane D, Vignon P, Renault A, et al. Norepinephrine plus dobutamine versus epinephrine alone for management of septic shock: a randomised trial. Lancet 2007;370:676-84. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=17720019)
+- Myburgh JA, Higgins A, Jovanovska A, Lipman J, Ramakrishnan N, Santamaria J. A comparison of epinephrine and norepinephrine in critically ill patients. Intensive Care Med 2008;34:2226-34. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/18654759)
+- Ellender TJ, Skinner JC. The use of vasopressors and inotropes in the emergency medical treatment of shock. Emerg Med Clin North Am 2008;26:759-86, ix. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/18655944)
+- De Backer D, Aldecoa C, Njimi H, Vincent JL. Dopamine versus norepinephrine in the treatment of septic shock: a meta-analysis. Crit Care Med 2012;40:725-30. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/22036860)
 
-Click [here](https://www.aliem.com/2013/choosing-the-right-vasopressor-agent-in-hypotension/) for full ALiEM blog post
+Click here [Link](https://www.aliem.com/2013/choosing-the-right-vasopressor-agent-in-hypotension/) for full ALiEM blog post

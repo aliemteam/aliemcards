@@ -48,4 +48,4 @@ Palliative Care focuses on improving the care and quality of life for patients w
 
 ## References
 
-1. [George N et al, 2015](https://www.ncbi.nlm.nih.gov/pubmed/26171710)
+1. George N et al, 2015 [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/26171710)
