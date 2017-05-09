@@ -25,36 +25,6 @@ const REGEX = {
 gulp.task('clean', () => del(['dist/**/*', 'npm-debug.log', '!dist/app/index.html']));
 
 
-// Ref Fix
-gulp.task('__ref-fix', gulp.series(
-  'typescript',
-  'ref-fix-body'
-));
-
-gulp.task('ref-fix-body', () => (
-  readdirPromise('./cards')
-    .then(checkDirectoryShape)
-    .then(dirs => {
-      for (const dir of dirs) {
-        const f = fs.readFileSync(`./cards/${dir}/card.md`, { encoding: 'utf8' });
-        let [body, refs] = f.split("## References");
-        // remove brackets from AMA refs
-        refs = refs.replace(/\[(.+)\]/g, '$1');
-        // add new link text to existing URLs
-        const regex = new RegExp( /\(http.+\)/, 'g');
-        let myArray;
-        while ((myArray = regex.exec(refs)) !== null) { 
-           if (myArray[0].search('ncbi.nlm.nih.gov') > -1) {
-             refs = refs.replace(myArray[0], `[PubMed]${myArray[0]}`);
-           } else {
-             refs = refs.replace(myArray[0], `[Link]${myArray[0]}`);
-           }
-        };
-        return writeFilePromise(`./cards_fix/${dir}.md`, "".concat(body, "## References", refs));
-      }
-    })
-));
-
 // Cards
 gulp.task('cards', () => (
   readdirPromise('./cards')
@@ -251,3 +221,36 @@ function checkCardAttributes(attrs: Partial<CardMeta>, cardName: string): void {
     }
   });
 }
+
+// REF FIXES
+
+gulp.task('ref-fix-body', () => (
+  readdirPromise('./cards')
+    .then(checkDirectoryShape)
+    .then(dirs => {
+      for (const dir of dirs) {
+        const f = fs.readFileSync(`./cards/${dir}/card.md`, { encoding: 'utf8' });
+        let [body, refs] = f.split("## References");
+        // remove brackets from AMA refs
+        refs = refs.replace(/\[(.+)\]/g, '$1');
+        // add new link text to existing URLs
+        const regex = new RegExp( /\(http.+\)/, 'g');
+        let myArray;
+        while ((myArray = regex.exec(refs)) !== null) { 
+           if (myArray[0].search('ncbi.nlm.nih.gov') > -1) {
+             refs = refs.replace(myArray[0], ` [PubMed]${myArray[0]}`);
+           } else {
+             refs = refs.replace(myArray[0], ` [Link]${myArray[0]}`);
+           }
+        };
+        writeFilePromise(`./cards/${dir}/card.md`, "".concat(body, "## References", refs));
+      }
+      return true;
+    })
+));
+
+// Ref Fix
+gulp.task('__ref-fix', gulp.series(
+  'typescript',
+  'ref-fix-body'
+));
