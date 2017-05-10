@@ -48,8 +48,8 @@ categories:
   <tr>
     <td><span class="drug">Amiodarone</span></td>
     <td>
-      <b>Bolus:</b> 1 mcg/kg IV<br>
-      <b>Infusion:</b> 25-150 mcg/hr IV, titrate to goal
+      <b>Cardiac Arrest (pulseless):</b> 300 mg IV push, may repeat 150 mg IV push in 3-5 min<br>
+      <b>Wide complex tachycardia (stable):</b> 150 mg IV over 10 min, then 1 mg/min infusion x 6 hours, then 0.5 mg/min infusion x 18 hrs
     </td>
   </tr>
   <tr>
@@ -176,7 +176,7 @@ categories:
       <ol>
         <li>Take a 10 ml syringe </li>
         <li>Draw up 9 ml NS </li>
-        <li>Draw up 1 ml of epinephrine 1:10,000 (0.1mg/ml) - this is the syringe used in ACLS </li>
+        <li>Draw up 1 ml of epinephrine 1:10,000 (0.1 mg/ml) - this is the syringe used in ACLS </li>
         <li>Label the syringe 10 mcg/ml Dose: 5-20 mcg (0.5-2 ml) IV every 5-10 min Duration: 5-10 min</li>
       </ol>
     </td>

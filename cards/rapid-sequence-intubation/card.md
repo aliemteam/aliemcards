@@ -51,7 +51,7 @@ Avoid paralysis when difficulty laryngoscopy is anticipated. Consider awake int
 | <span class="drug">Propofol</span>    |     1.5 mg/kg     |        120 mg        |              |
 | <span class="drug">Thiopental</span>  |      3 mg/kg      |        250 mg        |              |
 | <span class="drug">Ketamine IV</span> |     1.5 mg/kg     |        120 mg        | Asthma       |
-| <span class="drug">Ketamine IM</span> |     3.0 mg/kg     |        249 mg        | No IV access |
+| <span class="drug">Ketamine IM</span> |     3.0 mg/kg     |        240 mg        | No IV access |
 | <span class="drug">Midazolam</span>   |     0.3 mg/kg     |         24 mg        |              |
 
 **Paralytics**

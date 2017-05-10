@@ -63,7 +63,7 @@ categories:
   </tr>
   <tr>
     <td><span class="drug">Hypertonic 3% NaCl</span></td>
-    <td>50cc IV push</td>
+    <td>50 mL IV push</td>
     <td>Immediate</td>
     <td>Unknown</td>
     <td>Volume overload, hypertonicity</td>
@@ -104,7 +104,7 @@ categories:
   </tr>
   <tr>
     <td><span class="drug">Kayexalate</span></td>
-    <td>150-30 g</td>
+    <td>15-30 g</td>
     <td>>2 hrs</td>
     <td>4-6 hr</td>
     <td>Variable efficacy</td>

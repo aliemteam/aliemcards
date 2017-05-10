@@ -16,7 +16,7 @@ categories:
 
 - Corticosteroids, if onset within 72 hours
 - 1 in 11 were helped (to complete recovery) - [NNT.com](http://www.thennt.com/nnt/steroids-for-bells-palsy/)
-- **<span class="drug">Prednisone</span>:** 60 daily x 1 week. May consider taper for days #8-10
+- **<span class="drug">Prednisone</span>:** 60 mg daily x 1 week. May consider taper for days #8-10
 - <span class="drug">Artificial tears</span> in daytime and lubricating eye ointment at night to prevent corneal drying and exposure. 
 - Tape eyelid shut while asleep.
 

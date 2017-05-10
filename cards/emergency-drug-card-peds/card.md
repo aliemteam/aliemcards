@@ -137,7 +137,7 @@ categories:
 <table>
   <tr>
     <td><span class="drug">Diazepam</span> rectal</td>
-    <td>0.2-0.5 mg/kg PR </td>
+    <td>0.2-0.5 mg/kg PR (may use IV solution)</td>
   </tr>
   <tr>
     <td><span class="drug">Fosphenytoin</span></td>
@@ -157,7 +157,7 @@ categories:
   </tr>
   <tr>
     <td><span class="drug">Phenobarbital</span></td>
-    <td>10-20 mg/kg IV (max dose 800 mg) IV over 20-60 min</td>
+    <td>10-20 mg/kg IV (max dose 800 mg) IV over 20-60 <br>(see pharmacist for dilution recommendations)</td>
   </tr>
 
 </table>

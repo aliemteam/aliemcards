@@ -66,7 +66,7 @@ Check for cutaneous hemangiomas, because may be subglottic hemangioma (esp in ag
 
 1. Keep child calm.
 2. Give supplemental oxygen
-3. <span class="drug">**Racemic epinephrine:**</span> Reduces airway edema. Use for moderate-severe respiratory distress. Observe 3-4 hours for rebound symptoms. Dose: 0.5 cc/kg (onset &lt;30 minutes, duration 2 hours)
+3. <span class="drug">**Racemic epinephrine:**</span> Reduces airway edema. Use for moderate-severe respiratory distress. Observe 3-4 hours for rebound symptoms. Dose: 0.5 mL/kg (onset &lt;30 minutes, duration 2 hours)
 4. <span class="drug">**Dexamethasone:**</span> Reduces severity and duration of croup, even in mild cases ([Bjornson et al., NEJM, 2004](https://www.ncbi.nlm.nih.gov/pubmed/?term=15385657))
 
 - Dose 0.6 mg/kg po
