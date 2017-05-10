@@ -33,12 +33,12 @@ export default () => (
       What would make them more useful? Found an error? Help us fix it!
     </p>
     <h2>The ALiEM Cards Team</h2>
-    <AboutBio 
-      name='Michelle Lin, MD'
-      title='Creator & Editor-in-Chief'
-      credentials='Endowed Chair for EM Education'
-      location='UC San Francisco / Zuckerberg San Francisco General'
-      twitter='M_Lin'
+    <AboutBio
+      name="Michelle Lin, MD"
+      title="Creator & Editor-in-Chief"
+      credentials="Endowed Chair for EM Education"
+      location="UC San Francisco / Zuckerberg San Francisco General"
+      twitter="M_Lin"
     />
 
   </div>

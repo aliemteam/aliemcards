@@ -8,8 +8,8 @@ interface BioProps {
     twitter?: string;
 }
 
-const AboutBio: React.StatelessComponent<BioProps> = (props) => (
-    <div className="aboutBio column column--50">
+const AboutBio: React.StatelessComponent<BioProps> = props => (
+    <div className="about__bio column column--50">
         <h3>{props.name}</h3>
         <ul>
             <li><b>{props.title}</b></li>
