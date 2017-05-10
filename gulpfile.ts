@@ -230,8 +230,8 @@ gulp.task('reffix', () => (
       for (const dir of dirs) {
         const f = fs.readFileSync(`./cards/${dir}/card.md`, { encoding: 'utf8' });
         const [body, refs] = f.split('## References');
-        const new_refs = refs.replace(/(\[.+\]\(.+\))/g, '\['+'$1'+'\]');
-        writeFilePromise(`./cards/${dir}/card.md`, ''.concat(body, '## References', new_refs));
+        const newRefs = refs.replace(/(\[.+\]\(.+\))/g, '\[' + '$1' + '\]');
+        writeFilePromise(`./cards/${dir}/card.md`, ''.concat(body, '## References', newRefs));
         }
       return true;
     })
