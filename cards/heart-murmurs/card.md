@@ -1,5 +1,4 @@
 ---
-
 title: Murmurs Needing Echocardiography Evaluation
 authors:
     - Amy Kinard, RN
@@ -41,7 +40,7 @@ Echo can be useful for:
 1. The evaluation of asymptomatic patients with (murmurs + other abnormal cardiac physical findings) or (murmurs + abnormal EKG or CXR)
 2. Patients whose symptoms and/or signs are likely non-cardiac in origin but in whom a cardiac basis cannot be excluded by standard evaluation
 
-## Class III (Benefit ≥ Risk)
+## Class III (Benefit &ge; Risk)
 
 Echo is NOT recommended for:
 

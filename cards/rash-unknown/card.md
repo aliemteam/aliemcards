@@ -18,18 +18,18 @@ categories:
 
 ## Rash Descriptors
 
-| Descriptor   | Definition                                          |
-| ------------ | --------------------------------------------------- |
-| **Lesion**   | Single small diseased area                          |
-| **Rash**     | Eruption of skin; more than single lesion           |
-| **Macule**   | Circumscribed area of change without elevation      |
-| **Papule**   | Solid raised lesion &lt;1 cm                        |
-| **Nodule**   | Solid raised ≥1 cm                                  |
-| **Plaque**   | Circumscribed elevated confluence of papules ≥1 cm  |
-| **Pustule**  | Circumscribed area containing pus                   |
-| **Vesicle**  | Circumscribed fluid-filled area &lt;1 cm            |
-| **Bulla**    | Circumscribed fluid-filled area ≥1 cm               |
-| **Petechia** | Small red/brown macule ≤1 cm that does not blanch   |
+| Descriptor   | Definition                                             |
+| ------------ | ------------------------------------------------------ |
+| **Lesion**   | Single small diseased area                             |
+| **Rash**     | Eruption of skin; more than single lesion              |
+| **Macule**   | Circumscribed area of change without elevation         |
+| **Papule**   | Solid raised lesion &lt;1 cm                           |
+| **Nodule**   | Solid raised &ge;1 cm                                  |
+| **Plaque**   | Circumscribed elevated confluence of papules &ge;1 cm  |
+| **Pustule**  | Circumscribed area containing pus                      |
+| **Vesicle**  | Circumscribed fluid-filled area &lt;1 cm               |
+| **Bulla**    | Circumscribed fluid-filled area &ge;1 cm               |
+| **Petechia** | Small red/brown macule &le;1 cm that does not blanch   |
 
 ## Quick Profiling of Rash
 
@@ -41,7 +41,7 @@ categories:
 - Kawasaki disease        
 - Viral exanthema  
 
-**> 65 years:**
+**&gt; 65 years:**
 
 - Pemphigus vulgaris
 - Sepsis

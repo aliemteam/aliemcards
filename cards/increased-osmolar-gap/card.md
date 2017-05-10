@@ -1,5 +1,4 @@
 ---
-
 title: Approach to Increased Osmolar Gap
 authors:
     - Michelle Lin, MD
@@ -32,8 +31,8 @@ categories:
   - Ethylene glycol
   - Propylene glycol
   - Diethylene glycol
-- A gap ≥ 20 suggests ethanol or toxic alcohol exposure
-  - Although case reports of diabetic ketoacidosis causing osmolal gap ≥ 20
+- A gap &ge; 20 suggests ethanol or toxic alcohol exposure
+  - Although case reports of diabetic ketoacidosis causing osmolal gap &ge; 20
 
 **Toxic alcohols**
 

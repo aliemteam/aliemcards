@@ -1,5 +1,4 @@
 ---
-
 title: Cholecystitis Diagnostic Test
 authors:
     - Michelle Lin, MD
@@ -17,33 +16,33 @@ Meta-analysis of 17 studies which evaluated role of history, physical, and lab t
 
 ## History and Physical Exam
 
-| **Finding**       | **(+) LR** | **(-) LR** |
-| ----------------- | ---------: | ---------: |
-| Anorexia          |    1.1-1.7 |    0.5-0.9 |
-| Emesis            |    1.1-2.1 |    0.3-0.9 |
-| Fever (>35C)      |    1.0-2.3 |    0.8-1.0 |
-| Guarding          |    1.1-2.8 |    0.5-1.0 |
-| Murphy sign       |    0.8-8.6 |    0.2-1.0 |
-| Nausea            |    1.0-1.2 |    0.6-1.0 |
-| Rebound           |    0.6-1.7 |    0.8-1.4 |
-| Rectal tenderness |    0.5-2.3 |    1.0-1.3 |
-| Rigidity          |    0.3-0.7 |    1.0-1.2 |
-| RUQ mass          |    0.5-1.2 |    0.9-1.1 |
-| RUQ pain          |    0.9-2.5 |    0.3-1.6 |
-| RUQ tenderness    |    1.0-2.5 |    0.2-1.1 |
+| **Finding**          | **(+) LR** | **(-) LR** |
+| -------------------- | ---------: | ---------: |
+| Anorexia             |    1.1-1.7 |    0.5-0.9 |
+| Emesis               |    1.1-2.1 |    0.3-0.9 |
+| Fever (&gt;35C)      |    1.0-2.3 |    0.8-1.0 |
+| Guarding             |    1.1-2.8 |    0.5-1.0 |
+| Murphy sign          |    0.8-8.6 |    0.2-1.0 |
+| Nausea               |    1.0-1.2 |    0.6-1.0 |
+| Rebound              |    0.6-1.7 |    0.8-1.4 |
+| Rectal tenderness    |    0.5-2.3 |    1.0-1.3 |
+| Rigidity             |    0.3-0.7 |    1.0-1.2 |
+| RUQ mass             |    0.5-1.2 |    0.9-1.1 |
+| RUQ pain             |    0.9-2.5 |    0.3-1.6 |
+| RUQ tenderness       |    1.0-2.5 |    0.2-1.1 |
 
 ## Laboratory tests
 
-| **Finding**                         | **(+) LR** | **(-) LR** |
-| ----------------------------------- | ---------: | ---------: |
-| Alkaline phosphatase (AP) >120 U/L  |    0.4-1.6 |    0.6-2.0 |
-| ALT >40 U/L or AST >48 U/L          |    0.5-2.0 |    0.8-1.4 |
-| Total bilirubin >2 mg/dL            |    0.7-2.3 |    0.7-1.2 |
-| All 3 elevated: Total bili, AST, AP |    1.0-2.8 |    0.8-0.9 |
-| Any 1 elevated: Total bili, AST, AP |    1.0-1.5 |    0.6-0.9 |
-| WBC >10K                            |    1.2-1.9 |    0.5-1.8 |
-| WBC >10K and fever (>35C)           |    0.9-2.8 |    0.8-1.0 |
-| WBC ≤10K and no fever (≤35C)        |    0.4-0.7 |    1.4-1.8 |
+| **Finding**                                   | **(+) LR** | **(-) LR** |
+| --------------------------------------------- | ---------: | ---------: |
+| Alkaline phosphatase (AP) &gt;120 U/L         |    0.4-1.6 |    0.6-2.0 |
+| ALT &gt;40 U/L or AST &gt;48 U/L              |    0.5-2.0 |    0.8-1.4 |
+| Total bilirubin &gt;2 mg/dL                   |    0.7-2.3 |    0.7-1.2 |
+| All 3 elevated: Total bili, AST, AP           |    1.0-2.8 |    0.8-0.9 |
+| Any 1 elevated: Total bili, AST, AP           |    1.0-1.5 |    0.6-0.9 |
+| WBC &gt;10K                                   |    1.2-1.9 |    0.5-1.8 |
+| WBC &gt;10K and fever (&gt;35&deg;C)          |    0.9-2.8 |    0.8-1.0 |
+| WBC &le;10K and no fever (&le;35&deg;C)       |    0.4-0.7 |    1.4-1.8 |
 
 Use the Fagan nomogram
 

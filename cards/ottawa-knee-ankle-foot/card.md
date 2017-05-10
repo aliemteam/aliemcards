@@ -1,5 +1,4 @@
 ---
-
 title: Ottawa Knee, Ankle, and Foot Rules
 authors:
     - Michelle Lin, MD
@@ -16,7 +15,7 @@ Plain film x-rays are indicated if presence of traumatized extremity and any of 
 
 ## Ottawa Knee Rules
 
-1. Patient age ≥55 years
+1. Patient age &ge;55 years
 2. Isolated tenderness of the patella
 3. Tenderness at the head of the fibula
 4. Inability to flex knee to 90 degrees

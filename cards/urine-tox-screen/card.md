@@ -32,7 +32,7 @@ Important points on benzodiazepine urine toxicology test:
 2. The test does not specifically look for **alprazolam**, **clonazepam**, **lorazepam** (or many others). Therefore, a negative result does not necessarily rule out use of these agents.
 3. Benzodiazepines vary in reactivity and potency and can trigger a positive result due to cross-reactivity.
 
-### BOTTOM LINE
+### Bottom Line
 
 A negative result doesn't rule out benzodiazepine ingestion, and a positive result only guarantees that **oxazepam**, **diazepam**, or **chlordiazepoxide** is present.
 
@@ -62,7 +62,7 @@ These two terms are often used interchangeably and really shouldn't be.
 3. The test does not specifically look for **oxycodone**, **hydromorphone**, **hydrocodone**, etc. They can trigger a positive result due to their structural similarities, but not in every case. Therefore, a negative result doesn't rule out use of these common drugs of abuse.
 4. Synthetics will never cross-react with the opiate urine drug screen. They are too structurally dissimilar. That's why there is a separate test for methadone.
 
-### BOTTOM LINE
+### Bottom Line
 
 A negative result doesn't rule out opioid ingestion, and a positive result only guarantees that **heroin, morphine, or codeine** is present.
 

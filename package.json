@@ -1,6 +1,6 @@
 {
   "name": "aliemcards",
-  "version": "0.5.1",
+  "version": "0.5.3",
   "description": "ALiEM Cards deployment scripts and website code.",
   "main": "./dist/index.js",
   "author": "Jeremy Voros",
@@ -21,7 +21,10 @@
     "build": "gulp __build && NODE_ENV=production webpack"
   },
   "now": {
-    "alias": "aliemcards.now.sh",
+    "alias": [
+      "aliemcards.com",
+      "www.aliemcards.com"
+    ],
     "name": "aliemcards",
     "env": {
       "NODE_ENV": "production"

@@ -1,5 +1,4 @@
 ---
-
 title: Pediatric Ingestion Dose Thresholds for ED Referral
 authors:
     - Bryan D. Hayes, PharmD
@@ -14,19 +13,19 @@ categories:
 
 _Clinical Toxicology_ has published guidelines for out-of-hospital management of 16 distinct overdoses and their dose thresholds, above which, pediatric patients should be referred to the Emergency Department for evaluation. _Clinical Toxicology_ is the official journal of the American Academy of Clinical Toxicology (AACT, [@AACTinfo](https://twitter.com/AACTinfo)), the American Association of Poison Control Centers (AAPCC, [@AAPCC](https://twitter.com/AAPCC)), and the European Association of Poisons Centres and Clinical Toxicologists (EAPCCT). 
 
-**There are 2 caveats to be aware of regarding these guidelines.**
+## There are 2 caveats to be aware of regarding these guidelines
 
 1. They were developed between 2005 and 2007. New medications have been approved since that time and there may be more recent data available.
 2. As with any poisoning, dose is only one factor when determining disposition. Consideration should also be given to intent, underlying medical conditions, co-ingestion of other medications, presence of symptoms, and drug formulation.
 
 This ALiEM Card summarizes the **pediatric ingestion dose thresholds** for referral to an Emergency Department.
 
-| **Acronym** | **Meaning**                         |
-| :---------: | ----------------------------------- |
-|     RSTI    | repeated supratherapeutic ingestion |
-|      IR     | immediate release                   |
-|      SR     | sustained release                   |
-|      MR     | modified release                    |
+| Acronym     | Meaning                             |
+| ----------- | ----------------------------------- |
+| RSTI        | repeated supratherapeutic ingestion |
+| IR          | immediate release                   |
+| SR          | sustained release                   |
+| MR          | modified release                    |
 
 **NOTE:** Whenever 2 values are noted, the lesser one should be utilized.
 **NOTE**: Symptomatic patients always warrant ED evaluation.
@@ -35,88 +34,88 @@ This ALiEM Card summarizes the **pediatric ingestion dose thresholds** for ref
 
 **Age &lt;6 years (Acute & RSTI)**
 
-- ≥ 200 mg/kg
-- ≥ 200mg/kg over 24 hours, or
-- ≥ 150 mg/kg per 24 hours x 2 days, or
-- ≥ 100 mg/kg per 24 hours x 3 days
+- &ge; 200 mg/kg
+- &ge; 200mg/kg over 24 hours, or
+- &ge; 150 mg/kg per 24 hours x 2 days, or
+- &ge; 100 mg/kg per 24 hours x 3 days
 
 **Age >6 years (Acute & RSTI)**
 
-- ≥ 10 g or ≥ 200 mg/kg
-- ≥ 10 g or ≥ 200 mg/kg over 24 hour, or
-- ≥ 6 g or ≥ 150 mg/kg per 24 hours x 2 days
+- &ge; 10 g or &ge; 200 mg/kg
+- &ge; 10 g or &ge; 200 mg/kg over 24 hour, or
+- &ge; 6 g or &ge; 150 mg/kg per 24 hours x 2 days
 
 ## Atypical Antipsychotics
 
 **Age &lt;12 years**
 
-| **Drug**    | **Dose** |
-| ----------- | -------- |
-| Ariprazole  | > 15 mg  |
-| Clozapine   | > 50 mg  |
-| Olanzapine  | > 10 mg  |
-| Quetiapine  | > 100 mg |
-| Risperidone | > 1 mg   |
-| Ziprasidone | > 80 mg  |
+| Drug        | Dose        |
+| ----------- | ----------- |
+| Ariprazole  | &gt; 15 mg  |
+| Clozapine   | &gt; 50 mg  |
+| Olanzapine  | &gt; 10 mg  |
+| Quetiapine  | &gt; 100 mg |
+| Risperidone | &gt; 1 mg   |
+| Ziprasidone | &gt; 80 mg  |
 
-**Age >12 years**
+**Age &gt;12 years**
 
-| **Drug**    | **Dose**  |
-| ----------- | --------- |
-| Ariprazole  | > 50 mg   |
-| Clozapine   | > 62.5 mg |
-| Olanzapine  | > 25 mg   |
-| Quetiapine  | > 125 mg  |
-| Risperidone | > 5 mg    |
-| Ziprasidone | > 100 mg  |
+| Drug        | Dose         |
+| ----------- | ------------ |
+| Ariprazole  | &gt; 50 mg   |
+| Clozapine   | &gt; 62.5 mg |
+| Olanzapine  | &gt; 25 mg   |
+| Quetiapine  | &gt; 125 mg  |
+| Risperidone | &gt; 5 mg    |
+| Ziprasidone | &gt; 100 mg  |
 
 ## Anticoagulant Rodenticides
 
-≥1 mg
+&ge;1 mg
 
 ## Beta Blockers
 
 **_Ingestion of any excess beta blocker in combination with a calcium channel blocker warrants referral to an ED._**
 
-| **Drug**      | **Dose**     |
-| ------------- | ------------ |
-| Acebutolol    | > 12 mg/kg   |
-| Atenolol      | > 2 mg/kg    |
-| Carvedilol    | > 0.5 mg/kg  |
-| Labetalol     | > 20 mg/kg   |
-| Metoprolol IR | > 2.5 mg/kg  |
-| Metoprolol SR | > 5 mg/kg    |
-| Nadalol       | > 2.5 mg/kg  |
-| Propanolol IR | > 4 mg/kg    |
-| Propanolol SR | > 5 mg/kg    |
-| Sotalol       | > 4 mg/kg    |
-| Timolol       | No safe dose |
+| Drug          | Dose            |
+| ------------- | --------------- |
+| Acebutolol    | &gt; 12 mg/kg   |
+| Atenolol      | &gt; 2 mg/kg    |
+| Carvedilol    | &gt; 0.5 mg/kg  |
+| Labetalol     | &gt; 20 mg/kg   |
+| Metoprolol IR | &gt; 2.5 mg/kg  |
+| Metoprolol SR | &gt; 5 mg/kg    |
+| Nadalol       | &gt; 2.5 mg/kg  |
+| Propanolol IR | &gt; 4 mg/kg    |
+| Propanolol SR | &gt; 5 mg/kg    |
+| Sotalol       | &gt; 4 mg/kg    |
+| Timolol       | No safe dose    |
 
 ## Calcium Channel Blockers
 
 **_Ingestion of any excess beta blocker in combination with a calcium channel blocker warrants referral to an ED._**
 
-| **Drug**      | **Dose**               |
-| ------------- | ---------------------- |
-| Amlodipine    | ≥ 0.3 mg/kg or ≥ 30 mg |
-| Diltiazem     | ≥ 1 mg/kg              |
-| Felodipine    | ≥ 0.3 mg/kg            |
-| Isradipine    | ≥ 0.1 mg/kg            |
-| Nifedipine IR | ≥ 1 mg/kg              |
-| Verapamil IR  | ≥ 2.5 mg/kg            |
+| Drug          | Dose                         |
+| ------------- | ---------------------------- |
+| Amlodipine    | &ge; 0.3 mg/kg or &ge; 30 mg |
+| Diltiazem     | &ge; 1 mg/kg                 |
+| Felodipine    | &ge; 0.3 mg/kg               |
+| Isradipine    | &ge; 0.1 mg/kg               |
+| Nifedipine IR | &ge; 1 mg/kg                 |
+| Verapamil IR  | &ge; 2.5 mg/kg               |
 
 ## Camphor
 
-\>30 mg/kg
+&gt;30 mg/kg
 
 ## Dextromethorphan
 
-\>7.5 mg/kg
+&gt;7.5 mg/kg
 
 ## Diphenhydramine & Dimenhydrinate
 
-Age &lt;6 years: >7.5 mg/kg
-Age ≥6 years: >7.5 mg/kg or 300 mg
+Age &lt;6 years: &gt;7.5 mg/kg
+Age &ge;6 years: &gt;7.5 mg/kg or 300 mg
 
 ## Ethylene Glycol
 
@@ -124,52 +123,52 @@ More than witnessed taste/lick or unknown amount
 
 ## Iron (Elemental)
 
-≥40 mg/kg of adult ferrous sulfate formulation
+&ge;40 mg/kg of adult ferrous sulfate formulation
 
 ## Mercury (Elemental)
 
-\>1 household fever thermometer
+&gt;1 household fever thermometer
 
 ## Methylphenidate
 
-| **Drug**        | **Dose**           |
-| --------------- | ------------------ |
-| IR or chewed MR | >2 mg/kg or 60 mg  |
-| MR (intact)     | >4 mg/kg or 120 mg |
+| Drug            | Dose                  |
+| --------------- | --------------------- |
+| IR or chewed MR | &gt;2 mg/kg or 60 mg  |
+| MR (intact)     | &gt;4 mg/kg or 120 mg |
 
 ## Salicylate
 
-**Aspirin equivalent**: >150 mg/kg or 6.5 g
+**Aspirin equivalent**: &gt;150 mg/kg or 6.5 g
 
 **Oil of Wintergreen**:
 
 - Age &lt; 6 years: more than a taste/lick
-- Age ≥ 6 years: more than 4 mL
+- Age &ge; 6 years: more than 4 mL
 
 ## Selective Serotonin Reuptake Inhibitors
 
-| **Drug**     | **Dose** |
-| ------------ | -------- |
-| Citalopram   | > 100 mg |
-| Escitalopram | > 50 mg  |
-| Fluoxetine   | > 100 mg |
-| Fluvoxamine  | > 250 mg |
-| Paroxetine   | > 100 mg |
-| Sertraline   | > 250 mg |
+| Drug         | Dose        |
+| ------------ | ----------- |
+| Citalopram   | &gt; 100 mg |
+| Escitalopram | &gt; 50 mg  |
+| Fluoxetine   | &gt; 100 mg |
+| Fluvoxamine  | &gt; 250 mg |
+| Paroxetine   | &gt; 100 mg |
+| Sertraline   | &gt; 250 mg |
 
 ## Tricyclic Antidepressants (TCA)
 
-| **Drug**      | **Dose**    |
-| ------------- | ----------- |
-| Desipramine   | > 2.5 mg/kg |
-| Nortriptyline | > 2.5 mg/kg |
-| Trimipramine  | > 2.5 mg/kg |
-| Protriptyline | > 1 mg/kg   |
-| All Others    | > 5 mg/kg   |
+| Drug          | Dose           |
+| ------------- | -------------- |
+| Desipramine   | &gt; 2.5 mg/kg |
+| Nortriptyline | &gt; 2.5 mg/kg |
+| Trimipramine  | &gt; 2.5 mg/kg |
+| Protriptyline | &gt; 1 mg/kg   |
+| All Others    | &gt; 5 mg/kg   |
 
 ## Valproic Acid
 
-≥50 mg/kg
+&ge;50 mg/kg
 
 ## References
 

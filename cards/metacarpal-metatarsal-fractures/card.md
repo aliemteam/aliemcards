@@ -1,5 +1,4 @@
 ---
-
 title: Metatarsal & Metacarpal Fractures
 authors:
     - Michelle Lin, MD
@@ -56,7 +55,7 @@ Most are nonoperative, especially 3rd and 4th MC because of inter-MC ligaments
 <td><ul>
 <li>&gt; 10°, 10°, 20°, 20° angulation for 2nd-5th MCs, respectively, OR<br />
 </li>
-<li>≥ 5 mm shortening, OR</li>
+<li>&ge; 5 mm shortening, OR</li>
 <li>ANY rotational deformity<br />
 </li>
 </ul></td>
@@ -102,7 +101,7 @@ Most are nonoperative, especially 3rd and 4th MC because of inter-MC ligaments
 <tr class="even">
 <td>2-4th MC<br />
 </td>
-<td>Operative repair if ≥ 2 mm articular surface displacement or significant angulation<br />
+<td>Operative repair if &ge; 2 mm articular surface displacement or significant angulation<br />
 </td>
 </tr>
 <tr class="odd">

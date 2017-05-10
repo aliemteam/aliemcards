@@ -1,5 +1,4 @@
 ---
-
 title: Acute Vestibular Syndrome vs Stroke
 authors:
     - Michelle Lin, MD
@@ -18,7 +17,7 @@ categories:
 - Acute dizziness with nausea/vomiting
 - Unsteady gait
 - Nystagmus
-- Intolerance to head motion, and lasts ≥24 hrs
+- Intolerance to head motion, and lasts &ge;24 hrs
 - No focal neurologic signs
 
 **Most Common Causes:**
@@ -89,10 +88,6 @@ Abnormal findings summarized using **INFARCTs** acronym:
 - If any 1 of 3 abnormal, sensitivity 100% and specificity 96% for central cause after HINT training ([Kattah et al. Stroke, 2009](https://www.ncbi.nlm.nih.gov/pubmed/?term=19762709))
 
 HINTS test seems as good as diffusion-weighted MRI to r/o CVA in AVS. 
-
-## Fagan Nomogram
-
-![Fagan nomogram](image-1.png) 
 
 ## References
 

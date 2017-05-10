@@ -1,5 +1,4 @@
 ---
-
 title: Focused 1st Trimester Pregnancy Transabdominal Ultrasound
 authors:
     - Matt Lipton, MD
@@ -40,7 +39,7 @@ Figure 2: Close-up image of a normal early IUP showing a **yolk sac** within a 
 ## Normal Reference Measurements
 
 1. Fetal heart rate (FHR) between 120-160 bpm (can be as low as 100 bpm in early gestation)
-2. Myometrium surrounding the IUP should be ≥ 8mm (endomyometrial mantle)
+2. Myometrium surrounding the IUP should be &ge; 8mm (endomyometrial mantle)
 
 **How to use the serum quantitative beta-HCG**
 

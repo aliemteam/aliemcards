@@ -1,5 +1,4 @@
 ---
-
 title: Focused Biliary Assessment
 authors:
     - John Eicken, MD
@@ -43,12 +42,12 @@ Figure 1: Transducer positions for gallbladder scan. A: Intercostal, B: Subcosta
 
 ## Normal Reference Measurements
 
-1. **Gallbladder wall ≤3 mm** (measure at near-field/superficial wall in longitudinal view)
+1. **Gallbladder wall &le;3 mm** (measure at near-field/superficial wall in longitudinal view)
 
 - **Differential Diagnosis if >3 mm**: 
   - Cholecystitis, heart failure, nephrotic syndrome, hypoalbuminemia, HIV/AIDS, tuberculosis, renal failure, ascites, acute hepatitis, adenomyomatosis, multiple myeloma
 
-2. **Common bile duct ≤5 mm** (can dilate after cholecystectomy & with advanced age) 
+2. **Common bile duct &le;5 mm** (can dilate after cholecystectomy & with advanced age) 
 
 - Should be measured from inner wall to inner wall.
 

@@ -1,5 +1,4 @@
 ---
-
 title: Ectopic Pregnancy - Making the Diagnosis
 authors:
     - Javier Benitez, MD
@@ -28,7 +27,7 @@ Systematic review based on 14 studies (n=12,101) with a summary prevalence of ec
 
 - Variable definition of cutoff with range of 1,500-3,000 mIU/mL
 - No single serum beta-hCG value is predictive of an ectopic pregnancy
-- If beta-HCG ≥3,000 mIU/mL and an “empty uterus” on ultrasound, suggestive of ectopic pregnancy
+- If beta-HCG &ge;3,000 mIU/mL and an “empty uterus” on ultrasound, suggestive of ectopic pregnancy
 
 ## Diagnostic Tools to Risk Stratify
 

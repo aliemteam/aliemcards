@@ -26,7 +26,7 @@ Long arm posterior splint in position of comfort.
 
 ## Follow-up Timing
 
-**Type I:** Orthopedic follow up in ≤7 days
+**Type I:** Orthopedic follow up in &le;7 days
 **Displaced fracture:** Consult orthopedicsurgeon to discuss, because no evidence on best treatment plan for adults and children (closed reduction plus immobilization vs operative).
 
 ## Notes

@@ -1,5 +1,4 @@
 ---
-
 title: Pediatric Fever Without a Source - Infant
 authors:
     - Hemal Kanzaria, MD
@@ -17,7 +16,7 @@ categories:
 
 Age: 29 days to 3 months old
 
-Fever defined as temperature **≥ 38°C / 100.4 °F** (rectal)
+Fever defined as temperature **&ge; 38°C / 100.4 °F** (rectal)
 
 Viral URI symptoms do NOT count as a fever source in this age group. 
 
@@ -76,8 +75,8 @@ Labs
 
 - WBC 5K-15K
 - Absolute band count &lt;1.5K
-- Urine ≤10 WBC/hpf
-- Stool ≤5 WBC/hpf
+- Urine &le;10 WBC/hpf
+- Stool &le;5 WBC/hpf
 
 ### Philadelphia Criteria
 
