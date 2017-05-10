@@ -221,18 +221,3 @@ function checkCardAttributes(attrs: Partial<CardMeta>, cardName: string): void {
   });
 }
 
-// REF FIX
-
-gulp.task('reffix', () => (
-  readdirPromise('./cards')
-    .then(checkDirectoryShape)
-    .then(dirs => {
-      for (const dir of dirs) {
-        const f = fs.readFileSync(`./cards/${dir}/card.md`, { encoding: 'utf8' });
-        const [body, refs] = f.split('## References');
-        const newRefs = refs.replace(/(\[.+\]\(.+\))/g, '\[' + '$1' + '\]');
-        writeFilePromise(`./cards/${dir}/card.md`, ''.concat(body, '## References', newRefs));
-        }
-      return true;
-    })
-  ));
