@@ -1,5 +1,4 @@
 ---
-
 title: Acute Limb Ischemia
 authors:
     - Michelle Lin, MD
@@ -46,12 +45,12 @@ categories:
 - **Thrombotic occlusions** usually class I or IIA because of presence of collateral vasculature
 - **Embolic occlusions** usually class IIB or III
 
-| Class   |  Category                                  |  Prognosis                      |  Sensory Loss       |  Muscle Weakness | Arterial Dopper Signal | Venous Doppler Signal |
+| Class   | Category                                   | Prognosis                       | Sensory Loss        | Muscle Weakness  | Arterial Dopper Signal | Venous Doppler Signal |
 | ------- | ------------------------------------------ | ------------------------------- | ------------------- | ---------------- | ---------------------- | --------------------- |
-| **I**   |  Viable, No immediate limb threat          | None                            | None                | Audible          | Audible                |                       |
-| **IIA** | Threatened: Marginal                       | Salvageable if treated promptly | Min-none            | None             |  +/- Audible           |  Audible              |
-| **IIB** | Threatened: Immediate                      | Salvageable if treated immed.   | More than just toes | Mild-mod         | Rarely audible         |  Audible              |
-| **III** | Irreversible Limb loss or permanent damage | Profound                        | Profound            | None             |  None                  |                       |
+| **I**   | Viable, No immediate limb threat           | None                            | None                | Audible          | Audible                |                       |
+| **IIA** | Threatened: Marginal                       | Salvageable if treated promptly | Min-none            | None             | +/- Audible            | Audible               |
+| **IIB** | Threatened: Immediate                      | Salvageable if treated immed.   | More than just toes | Mild-mod         | Rarely audible         | Audible               |
+| **III** | Irreversible Limb loss or permanent damage | Profound                        | Profound            | None             | None                   |                       |
 
 - Ankle brachial index (ABI)
 - Electrocardiogram

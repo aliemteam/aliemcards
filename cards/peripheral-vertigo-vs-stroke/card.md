@@ -89,10 +89,6 @@ Abnormal findings summarized using **INFARCTs** acronym:
 
 HINTS test seems as good as diffusion-weighted MRI to r/o CVA in AVS. 
 
-## Fagan Nomogram
-
-![Fagan nomogram](image-1.png) 
-
 ## References
 
 - Kattah JC, Talkad AV, Wang DZ, Hsieh YH, Newman-Toker DE. HINTS to diagnose stroke in the acute vestibular syndrome: three-step bedside oculomotor examination more sensitive than early MRI diffusion-weighted imaging. Stroke. 2009 Nov;40(11):3504-10. doi: 10.1161/STROKEAHA.109.551234. Epub 2009 Sep 17. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=19762709)
