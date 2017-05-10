@@ -220,4 +220,3 @@ function checkCardAttributes(attrs: Partial<CardMeta>, cardName: string): void {
     }
   });
 }
-
