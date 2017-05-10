@@ -23,12 +23,8 @@ export default () => (
       <div><Link to="/about">About</Link></div>
     </div>
     <div className="footer__disclaimer content">
-      ALiEM Cards content is intended for use by healthcare professionals. Users of this site
-      should exercise their own clinical judgment as to the reliability and accuracy of its
-      information. Non-healthcare-professionals who use this site do so at their own risk. 
-      Content on this site should not be construed as medical advice. Users should always confer
-      with medical profoessionals regarding decisions about medications, evaluations and other
-      medical treatments.
+      {// tslint:disable-next-line
+      }ALiEM Cards content is intended for use by healthcare professionals. Users of this site should exercise their own clinical judgment as to the reliability and accuracy of its information. Non-healthcare-professionals who use this site do so at their own risk. Content on this site should not be construed as medical advice. Users should always confer with medical profoessionals regarding decisions about medications, evaluations and other medical treatments.
     </div>
   </div>
 );
