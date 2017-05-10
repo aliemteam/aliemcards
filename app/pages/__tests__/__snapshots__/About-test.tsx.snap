@@ -37,5 +37,31 @@ exports[`<About /> should render correctly 1`] = `
     Please 
      how you use these cards. What would make them more useful? Found an error? Help us fix it!
   </p>
+  <h2>
+    The ALiEM Cards Team
+  </h2>
+  <div
+    className="about__bio column column--50"
+  >
+    <h3>
+      Michelle Lin, MD
+    </h3>
+    <ul>
+      <li>
+        <b>
+          Creator & Editor-in-Chief
+        </b>
+      </li>
+      <li>
+        Endowed Chair for EM Education
+      </li>
+      <li>
+        UC San Francisco / Zuckerberg San Francisco General
+      </li>
+      <li>
+        M_Lin
+      </li>
+    </ul>
+  </div>
 </div>
 `;
