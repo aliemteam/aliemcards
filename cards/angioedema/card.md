@@ -47,7 +47,7 @@ categories:
 - Highest incidence during 1st month of starting medication, but can occur years after 
 - 5x more common in African-Americans compared to Caucasians
 - Controversial whether patient can take ARBs (doesn’t cause elevated bradykinin) as well – some with angioedema.
-- _Tx: _ discontinue medication and supportive care
+- _Tx:_ Discontinue medication and supportive care
 - Usual IgE-mediated treatment regimen ineffective except epinephrine for laryngeal edema
 
 **Treatment philosophy:** 
