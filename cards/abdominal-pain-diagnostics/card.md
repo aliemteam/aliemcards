@@ -44,11 +44,11 @@ Obtain plain film if suspicious for:
 
 Lactate is useful adjunct to risk stratify for mortality ([Shapiro et al. (2005)](https://www.ncbi.nlm.nih.gov/pubmed/15855951))
 
-|                        | 28-day in-hospital mortality | Early death (≤ 3d) |
-| ---------------------- | ---------------------------- | ------------------ |
-| Lactate &lt; 2.5 (low) | 4.9%                         | 1.5%               |
-| Lactate 2.5-3.99 (med) | 9.0%                         | 4.5%               |
-| Lactate ≥ 4 (high)     | 28.4%                        | 22.4%              |
+| Lactate    | Level (mmol/L)               | 28-day in-hospital mortality | Early death (≤ 3d) |
+| :--------: | :--------------: | :----------------------------: | :------------------: |
+| Low |  &lt;2.5 | 4.9%                         | 1.5%               |
+| Medium | 2.5-3.99 | 9.0%                         | 4.5%               |
+| High | ≥4     | 28.4%                        | 22.4%              |
 
 ##  Diseases
 
@@ -56,9 +56,9 @@ Lactate is useful adjunct to risk stratify for mortality ([Shapiro et al. (2005)
 
 **Cholecystitis**: Normal LFTs do NOT rule it out. LFT’s helpful as adjunct to determine likelihood for common bile duct stone.
 
-**Diverticular disease**: Prevalence &lt;5% (age&lt;40 yrs), 30% (age 41-60 yrs), 65% (age 61-85 yrs).
+**Diverticular disease**: Prevalence &lt;5% (age&lt;40 yrs), 30% (age 41-60 yrs), 65% (age 61-85 yrs)
 
-**Ectopic pregnancy**: Discriminatory zone for gestational sac is B-HCG ≥ 6,500 (transabdominal U/S) or B-HCG ≥ 1,500 (transvaginal U/S).
+**Ectopic pregnancy**: Discriminatory zone for gestational sac is B-HCG ≥6,500 (transabdominal U/S) or B-HCG ≥1,500 (transvaginal U/S).
 
 **Mesenteric ischemia** of concern because of subtleties in presentation.
 
@@ -68,18 +68,16 @@ Lactate is useful adjunct to risk stratify for mortality ([Shapiro et al. (2005)
 **Nephrolithiasis**:
 
 - **Microscopic hematuria:** sens 89%, spec 29%
-- **First line imaging**: CT – sens and spec 98-100%
-- If hx of nephrolithiasis, consider renal ultrasound if at low-risk for alternative diagnosis
 
-**Pancreatitis**: Lipase (sens 90%, spec 93%) is better than Amylase (sens 79%, spec 93%). Unlike level of elevated enzymes, CT correlates with severity.
+**Pancreatitis**: Lipase (sens 90%, spec 93%) is better than amylase (sens 79%, spec 93%). Unlike level of elevated enzymes, CT correlates with severity.
 
 **UTI**: Urine dipstick alone is adequately predictive, except for children, elderly, suspected urosepsis.
 
-- **Nitrites:** Odds Ratio = 6.36
+- **Nitrites:** Odds Ratio (OR) = 6.36
 - **Leukocyte esterase:** OR = 4.52 
 - **Blood:** OR = 2.23
 
-**LUQ Pain:** Limited use for labs/imaging, unless elderly, immunosuppressed, ortrauma pt.
+**LUQ Pain:** Limited use for labs/imaging, unless elderly, immunosuppressed, or trauma patient
 
 ## References
 
