@@ -37,4 +37,4 @@ categories:
 
 ## References
 
-- Hoff WS, Bonadies JA, Cachecho R, Dorlac WC. East Practice Management Guidelines Work Group: update to practice management guidelines for prophylactic antibiotic use in open fractures. J Trauma. 2011 Mar;70(3):751-4. EAST = Eastern Association for the Surgery of Trauma organization [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=21610369)
+- Hoff WS, Bonadies JA, Cachecho R, Dorlac WC. East Practice Management Guidelines Work Group: update to practice management guidelines for prophylactic antibiotic use in open fractures. J Trauma. 2011 Mar;70(3):751-4. EAST = Eastern Association for the Surgery of Trauma organization [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=21610369)]

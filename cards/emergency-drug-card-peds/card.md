@@ -57,14 +57,14 @@ categories:
 
 ## Seizure
 
-| Drug                                    | Dose                                               |
-| --------------------------------------- | -------------------------------------------------- |
-| <span class="drug">Diazepam</span>      | 0.2-0.5 mg/kg PR                                   |
-| <span class="drug">Fosphenytoin</span>  | 20 mg/kg IV over 20 minutes                        |
-| <span class="drug">Levetiracetam</span> | 20 mg/kg IV over 20 minutes                        |
-| <span class="drug">Lorazepam</span>     | 0.1 mg/kg IV                                       |
-| <span class="drug">Midazolam</span>     | 0.2 mg/kg IN using the 5 mg/ml concentration       |
-| <span class="drug">Phenobarbital</span> | 10-20 mg/kg IV (max dose 800 mg) IV over 20-60 min |
+| Drug                                    | Dose                                                                                              |
+| --------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| <span class="drug">Diazepam</span>      | 0.2-0.5 mg/kg PR                                                                                  |
+| <span class="drug">Fosphenytoin</span>  | 20 mg/kg IV over 20 minutes                                                                       |
+| <span class="drug">Levetiracetam</span> | 20 mg/kg IV over 20 minutes                                                                       |
+| <span class="drug">Lorazepam</span>     | 0.1 mg/kg IV                                                                                      |
+| <span class="drug">Midazolam</span>     | 0.2 mg/kg IN using the 5 mg/ml concentration                                                      |
+| <span class="drug">Phenobarbital</span> | 10-20 mg/kg IV (max dose 800 mg) IV over 20-60 min, (see pharmacist for dilution recommendations) |
 
 ## Vasodilators
 

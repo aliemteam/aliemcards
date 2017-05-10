@@ -91,4 +91,4 @@ Function: Perform stress maneuvers
 
 ## References
 
-- Solomon DH et. al.The rational clinical examination. Does this patient have a torn meniscus or ligament of the knee? Value of the physical examination. JAMA. 2001 Oct 3;286(13):1610-20. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=11585485)
+- Solomon DH et. al.The rational clinical examination. Does this patient have a torn meniscus or ligament of the knee? Value of the physical examination. JAMA. 2001 Oct 3;286(13):1610-20. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=11585485)]

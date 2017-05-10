@@ -57,6 +57,6 @@ Distracting injury alone accounted for 30% of all radiographic studies ordered f
 
 ## References
 
-- Konstantinidis A, Plurad D, Barmparas G, Inaba K, Lam L, Bukur M, Branco BC, Demetriades D.The presence of nonthoracic distracting injuries does not affect the initial clinical examination of the cervical spine in evaluable blunt trauma patients: a prospective observational study.J Trauma. 2011 Sep;71(3):528-32. doi: 10.1097/TA.0b013e3181f8a8e0. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=21248650)
-- Hoffman JR, Mower WR, Wolfson AB, Todd KH, Zucker MI. Validity of a set of clinical criteria to rule out injury to the cervical spine in patients with blunt trauma. National Emergency X-Radiography Utilization Study Group.N Engl J Med. 2000 Jul 13;343(2):94-9. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=10891516)
-- Heffernan DS, Schermer CR, Lu SW. What defines a distracting injury in cervical spine assessment? J Trauma. 2005 Dec;59(6):1396-9. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=16394912)
+- Konstantinidis A, Plurad D, Barmparas G, Inaba K, Lam L, Bukur M, Branco BC, Demetriades D.The presence of nonthoracic distracting injuries does not affect the initial clinical examination of the cervical spine in evaluable blunt trauma patients: a prospective observational study.J Trauma. 2011 Sep;71(3):528-32. doi: 10.1097/TA.0b013e3181f8a8e0. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=21248650)]
+- Hoffman JR, Mower WR, Wolfson AB, Todd KH, Zucker MI. Validity of a set of clinical criteria to rule out injury to the cervical spine in patients with blunt trauma. National Emergency X-Radiography Utilization Study Group.N Engl J Med. 2000 Jul 13;343(2):94-9. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=10891516)]
+- Heffernan DS, Schermer CR, Lu SW. What defines a distracting injury in cervical spine assessment? J Trauma. 2005 Dec;59(6):1396-9. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=16394912)]

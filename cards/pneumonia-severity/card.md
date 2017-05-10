@@ -169,7 +169,7 @@ If age &gt; 50 years: <strong>R</strong>R &ge; 30 breaths min <br />
 
 ## References
 
-- Aujesky D et. al. Prospective comparison of three validated prediction rules for prognosis in community-acquired pneumonia. Am J Med. 2005 Apr;118(4):384-92. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=15808136)
-- Fine MJ et. al. A prediction rule to identify low-risk patients with community-acquired pneumonia.N Engl J Med. 1997 Jan 23;336(4):243-50. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=8995086)
-- Charles PG et. al. SMART-COP: a tool for predicting the need for intensive respiratory or vasopressor support in community-acquired pneumonia. Clin Infect Dis. 2008 Aug 1;47(3):375-84. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=18558884)
-- British Thoracic Society Standards of Care Committee. BTS Guidelines for the Management of Community Acquired Pneumonia in Adults. Thorax. 2001 Dec;56 Suppl 4:IV1-64. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=11713364)
+- Aujesky D et. al. Prospective comparison of three validated prediction rules for prognosis in community-acquired pneumonia. Am J Med. 2005 Apr;118(4):384-92. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=15808136)]
+- Fine MJ et. al. A prediction rule to identify low-risk patients with community-acquired pneumonia.N Engl J Med. 1997 Jan 23;336(4):243-50. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=8995086)]
+- Charles PG et. al. SMART-COP: a tool for predicting the need for intensive respiratory or vasopressor support in community-acquired pneumonia. Clin Infect Dis. 2008 Aug 1;47(3):375-84. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=18558884)]
+- British Thoracic Society Standards of Care Committee. BTS Guidelines for the Management of Community Acquired Pneumonia in Adults. Thorax. 2001 Dec;56 Suppl 4:IV1-64. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=11713364)]

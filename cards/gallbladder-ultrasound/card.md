@@ -99,5 +99,5 @@ Figure 3: Acute cholecystitis. Note the gallstones with shadowing, pericholecyst
 
 ## References
 
-- Summers SM et al. _Annals of Emerg Med,_ 2010. PMID: 20138397 [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/20138397)
-- Blaivas M. et al. _Acad Emerg Med,_ 1999. PMID: 10530660 [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/10530660)
+- Summers SM et al. _Annals of Emerg Med,_ 2010. PMID: 20138397 [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/20138397)]
+- Blaivas M. et al. _Acad Emerg Med,_ 1999. PMID: 10530660 [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/10530660)]

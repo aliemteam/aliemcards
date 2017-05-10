@@ -92,5 +92,5 @@ Table adapted from [Boyer EW, Shannon M. NEJM 2005](http://www.ncbi.nlm.nih.gov/
 
 ## References
 
-- Boyer EW, Shannon M. The serotonin syndrome. N Engl J Med. 2005 Mar 17;352(11):1112-20. PMID: 15784664. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/15784664)
-- Ables AZ, Nagubilli R. Prevention, recognition, and management of serotonin syndrome.Am Fam Physician. 2010 May 1;81(9):1139-42. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=20433130)
+- Boyer EW, Shannon M. The serotonin syndrome. N Engl J Med. 2005 Mar 17;352(11):1112-20. PMID: 15784664. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/15784664)]
+- Ables AZ, Nagubilli R. Prevention, recognition, and management of serotonin syndrome.Am Fam Physician. 2010 May 1;81(9):1139-42. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=20433130)]

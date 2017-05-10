@@ -33,4 +33,4 @@ categories:
 
 ## References
 
-1. "Dermatomes Anatomy: Overview, Gross Anatomy, Natural Variants". Emedicine.medscape.com. N.p., 2017. Web. 24 Mar. 2017. [Link](http://emedicine.medscape.com/article/1878388-overview)
+1. "Dermatomes Anatomy: Overview, Gross Anatomy, Natural Variants". Emedicine.medscape.com. N.p., 2017. Web. 24 Mar. 2017. [[Source](http://emedicine.medscape.com/article/1878388-overview)]

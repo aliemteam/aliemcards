@@ -62,4 +62,4 @@ IV: 
 
 ## References
 
-- Larson AM. Acetaminophen hepatotoxicity. Clin Liver Dis. 2007;11(3):525-48 [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=17723918)
+- Larson AM. Acetaminophen hepatotoxicity. Clin Liver Dis. 2007;11(3):525-48 [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=17723918)]

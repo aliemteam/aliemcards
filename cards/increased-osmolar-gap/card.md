@@ -78,4 +78,4 @@ Toxic alcohols may not cause significant osmolal gap because:
 
 ## References
 
-- Kraut JA, Xing SX. Approach to the evaluation of a patient with an increased serum osmolal gap and high-anion-gap metabolic acidosis. Am J Kidney Dis. 2011 Sep;58(3):480-4. doi: 10.1053/j.ajkd.2011.05.018. Epub 2011 Jul 27. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=21794966)
+- Kraut JA, Xing SX. Approach to the evaluation of a patient with an increased serum osmolal gap and high-anion-gap metabolic acidosis. Am J Kidney Dis. 2011 Sep;58(3):480-4. doi: 10.1053/j.ajkd.2011.05.018. Epub 2011 Jul 27. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=21794966)]

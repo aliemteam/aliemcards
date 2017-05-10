@@ -79,4 +79,4 @@ categories:
 
 ## References
 
-- Newburger JW et. al. Diagnosis, treatment, and long-term management of Kawasaki disease: a statement for health professionals from the Committee on Rheumatic Fever, Endocarditis and Kawasaki Disease, Council on Cardiovascular Disease in the Young, American Heart Association.Circulation. 2004 Oct 26;110(17):2747-71. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=15505111)
+- Newburger JW et. al. Diagnosis, treatment, and long-term management of Kawasaki disease: a statement for health professionals from the Committee on Rheumatic Fever, Endocarditis and Kawasaki Disease, Council on Cardiovascular Disease in the Young, American Heart Association.Circulation. 2004 Oct 26;110(17):2747-71. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=15505111)]

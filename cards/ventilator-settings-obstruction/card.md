@@ -89,4 +89,4 @@ _[EMcrit.org](http://emcrit.org/podcasts/vent-part-2/)_
 ## References
 
 - www.EMcrit.org(www.EMcrit.org)
-- Brenner B, Corbridge T, Kazzi A. Intubation and mechanical ventilation of the asthmatic patient in respiratory failure. J Emerg Med. 2009 Aug;37(2 Suppl):S23-34. doi: 10.1016/j.jemermed.2009.06.108. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/19683662/)
+- Brenner B, Corbridge T, Kazzi A. Intubation and mechanical ventilation of the asthmatic patient in respiratory failure. J Emerg Med. 2009 Aug;37(2 Suppl):S23-34. doi: 10.1016/j.jemermed.2009.06.108. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/19683662/)]

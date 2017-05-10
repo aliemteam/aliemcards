@@ -46,5 +46,5 @@ Undesired tissue reactivity is greater with:
 
 ## References
 
-- Taylor B et al. Basic plastic surgery techniques and principles: Choosing the right suture material. Student BMJ, 11: 2003. [Link](http://www.docstoc.com/docs/81946959/Basic-plastic-surgery-techniques-and-principles-Choosing-the)
-- Tajirian AL, Goldberg DJ.A review of sutures and other skin closure materials. J Cosmet Laser Ther. 2010 Dec;12(6):296-302 [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=21142740)
+- Taylor B et al. Basic plastic surgery techniques and principles: Choosing the right suture material. Student BMJ, 11: 2003. [[Source](http://www.docstoc.com/docs/81946959/Basic-plastic-surgery-techniques-and-principles-Choosing-the)]
+- Tajirian AL, Goldberg DJ.A review of sutures and other skin closure materials. J Cosmet Laser Ther. 2010 Dec;12(6):296-302 [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=21142740)]

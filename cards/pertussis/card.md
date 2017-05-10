@@ -79,4 +79,4 @@ Cough illness lasting &ge; 2 weeks without other apparent cause with 1 or more o
 
 ## References
 
-- Cornia PB, Hersh AL, Lipsky BA, Newman TB, Gonzales R. Does this coughing adolescent or adult patient have pertussis? JAMA. 2010 Aug 25;304(8):890-6. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=20736473)
+- Cornia PB, Hersh AL, Lipsky BA, Newman TB, Gonzales R. Does this coughing adolescent or adult patient have pertussis? JAMA. 2010 Aug 25;304(8):890-6. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=20736473)]

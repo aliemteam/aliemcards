@@ -65,4 +65,4 @@ categories:
 
 ## References
 
-- Neumar RW, Shuster M, Callaway CW, et al. Part 1: Executive Summary: 2015 American Heart Association Guidelines Update for Cardiopulmonary Resuscitation and Emergency Cardiovascular Care. Circulation. 2015;132(18 Suppl 2):S315-67. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/26472989)
+- Neumar RW, Shuster M, Callaway CW, et al. Part 1: Executive Summary: 2015 American Heart Association Guidelines Update for Cardiopulmonary Resuscitation and Emergency Cardiovascular Care. Circulation. 2015;132(18 Suppl 2):S315-67. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/26472989)]

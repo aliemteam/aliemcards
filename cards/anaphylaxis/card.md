@@ -79,5 +79,5 @@ categories:
 
 ## References
 
-- Simons FE. Anaphylaxis. J Allergy Clin Immunol. 2010;125(2 Suppl 2):S161-81. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/20176258)
-- Arnold JJ, Williams PM. Anaphylaxis: recognition and management. Am Fam Physician. 2011;84(10):1111-8. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/22085665)
+- Simons FE. Anaphylaxis. J Allergy Clin Immunol. 2010;125(2 Suppl 2):S161-81. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/20176258)]
+- Arnold JJ, Williams PM. Anaphylaxis: recognition and management. Am Fam Physician. 2011;84(10):1111-8. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/22085665)]

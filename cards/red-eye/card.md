@@ -120,4 +120,4 @@ Often association with morning crusting. Injection more pronounced at fornices.Â
 
 ## References
 
-- Mahmood AR, Narang AT. Diagnosis and management of the acute red eye.Emerg Med Clin North Am. 2008 Feb;26(1):35-55, vi. doi: 10.1016/j.emc.2007.10.002. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=18249256)
+- Mahmood AR, Narang AT. Diagnosis and management of the acute red eye.Emerg Med Clin North Am. 2008 Feb;26(1):35-55, vi. doi: 10.1016/j.emc.2007.10.002. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=18249256)]

@@ -55,4 +55,4 @@ Patients required “rescue drugs”, which were additional sedation medications
 
 ## References
 
-- Nobay F et al. A Prospective, Double-blind, Randomized Trial of Midazolam versus Haloperidol versus Lorazepam in the Chemical Restraint of Violent and Severely Agitated Patients . Acad Emerg Med. 2004; 11:747-9. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=15231461)
+- Nobay F et al. A Prospective, Double-blind, Randomized Trial of Midazolam versus Haloperidol versus Lorazepam in the Chemical Restraint of Violent and Severely Agitated Patients . Acad Emerg Med. 2004; 11:747-9. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=15231461)]

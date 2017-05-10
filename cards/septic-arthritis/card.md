@@ -66,5 +66,5 @@ Likelihood ratios:
 
 ## References
 
-- Carpenter CR, Schuur JD, Everett WW, Pines JM.Evidence-based diagnostics: adult septic arthritis. Acad Emerg Med. 2011 Aug;18(8):781-96. doi: 10.1111/j.1553-2712.2011.01121.x. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=21843213)
-- Margaretten ME, Kohlwes J, Moore D, Bent S. Does this adult patient have septic arthritis? JAMA. 2007 Apr 4;297(13):1478-88. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=17405973)
+- Carpenter CR, Schuur JD, Everett WW, Pines JM.Evidence-based diagnostics: adult septic arthritis. Acad Emerg Med. 2011 Aug;18(8):781-96. doi: 10.1111/j.1553-2712.2011.01121.x. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=21843213)]
+- Margaretten ME, Kohlwes J, Moore D, Bent S. Does this adult patient have septic arthritis? JAMA. 2007 Apr 4;297(13):1478-88. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=17405973)]
