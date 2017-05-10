@@ -1,9 +1,19 @@
 // Place your settings in this file to overwrite default and user settings.
 {
-    "lcov.path": "coverage/remapped/lcov.info",
-    "typescript.tsdk": "./node_modules/typescript/lib",
-    "tslint.nodePath": "./node_modules/.bin/tslint",
-    "files.associations": {
-      "deploy": "shellscript"
+  "lcov.path": "coverage/remapped/lcov.info",
+  "typescript.tsdk": "./node_modules/typescript/lib",
+  "tslint.nodePath": "./node_modules/.bin/tslint",
+  "files.associations": {
+    "deploy": "shellscript"
+  },
+  "remark.format": {
+    "rules": {
+      "emphasis": "_",
+      "gfm": true,
+      "entities": true,
+      "incrementListMarker": true,
+      "listItemIndent ": "1",
+      "strong": "*"
     }
+  }
 }
