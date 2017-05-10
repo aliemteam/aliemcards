@@ -21,7 +21,7 @@
     "build": "gulp __build && NODE_ENV=production webpack"
   },
   "now": {
-    "alias": "aliemcards.now.sh",
+    "alias": "aliemcards.com",
     "name": "aliemcards",
     "env": {
       "NODE_ENV": "production"
