@@ -185,4 +185,4 @@ categories:
 
 ## References
 
-1. "NINDS Know Stroke Campaign - NIH Stroke Scale". Stroke.nih.gov. N.p., 2017. Web. 24 Mar. 2017. [Link](https://stroke.nih.gov/resources/scale.htm)
+1. "NINDS Know Stroke Campaign - NIH Stroke Scale". Stroke.nih.gov. N.p., 2017. Web. 24 Mar. 2017. [[Link](https://stroke.nih.gov/resources/scale.htm)]

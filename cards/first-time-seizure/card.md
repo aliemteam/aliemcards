@@ -52,5 +52,5 @@ Coordinate with primary care physician
 
 ## References
 
-- Earnest MP et. al. Intracranial lesions shown by CT scans in 259 cases of first alcohol-related seizures. Neurology. 1988 Oct;38(10):1561-5. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=3419599)
-- Jagoda A, Gupta K. The emergency department evaluation of the adult patient who presents with a first-time seizure. Emerg Med Clin North Am. 2011 Feb;29(1):41-9. doi: 10.1016/j.emc.2010.08.004. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=21109101)
+- Earnest MP et. al. Intracranial lesions shown by CT scans in 259 cases of first alcohol-related seizures. Neurology. 1988 Oct;38(10):1561-5. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=3419599)]
+- Jagoda A, Gupta K. The emergency department evaluation of the adult patient who presents with a first-time seizure. Emerg Med Clin North Am. 2011 Feb;29(1):41-9. doi: 10.1016/j.emc.2010.08.004. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=21109101)]

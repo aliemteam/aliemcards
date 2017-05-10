@@ -57,8 +57,8 @@ categories:
 
 ## References
 
-- Weingart SD. Preoxygenation, reoxygenation, and delayed sequence intubation in the emergency department.J Emerg Med. 2011 Jun;40(6):661-7. doi: 10.1016/j.jemermed.2010.02.014. Epub 2010 Apr 8. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=20378297)
-- Weingart SD, Levitan RM. Preoxygenation and prevention of desaturation during emergency airway management. Ann Emerg Med. 2012 Mar;59(3):165-75.e1. doi: 10.1016/j.annemergmed.2011.10.002. Epub 2011 Nov 3 [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=22050948)
-- Sehdev RS, Symmons DA, Kindl K. Ketamine for rapid sequence induction in patients with head injury in the emergency department. Emerg Med Australas. 2006 Feb;18(1):37-44. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=16454773)
-- Bourgoin A, Albanèse J, Wereszczynski N, Charbit M, Vialet R, Martin C.Safety of sedation with ketamine in severe head injury patients: comparison with sufentanil.Crit Care Med. 2003 Mar;31(3):711-7. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=12626974)
-- Weingart SD, Trueger NS, Wong N, Scofi J, Singh N, Rudolph SS. Delayed Sequence Intubation: A Prospective Observational Study. Ann Emerg Med. 2015 Apr;65(4):349-55. doi: 10.1016/j.annemergmed.2014.09.025. Epub 2014 Oct 23. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/25447559) 
+- Weingart SD. Preoxygenation, reoxygenation, and delayed sequence intubation in the emergency department.J Emerg Med. 2011 Jun;40(6):661-7. doi: 10.1016/j.jemermed.2010.02.014. Epub 2010 Apr 8. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=20378297)]
+- Weingart SD, Levitan RM. Preoxygenation and prevention of desaturation during emergency airway management. Ann Emerg Med. 2012 Mar;59(3):165-75.e1. doi: 10.1016/j.annemergmed.2011.10.002. Epub 2011 Nov 3 [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=22050948)]
+- Sehdev RS, Symmons DA, Kindl K. Ketamine for rapid sequence induction in patients with head injury in the emergency department. Emerg Med Australas. 2006 Feb;18(1):37-44. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=16454773)]
+- Bourgoin A, Albanèse J, Wereszczynski N, Charbit M, Vialet R, Martin C.Safety of sedation with ketamine in severe head injury patients: comparison with sufentanil.Crit Care Med. 2003 Mar;31(3):711-7. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=12626974)]
+- Weingart SD, Trueger NS, Wong N, Scofi J, Singh N, Rudolph SS. Delayed Sequence Intubation: A Prospective Observational Study. Ann Emerg Med. 2015 Apr;65(4):349-55. doi: 10.1016/j.annemergmed.2014.09.025. Epub 2014 Oct 23. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/25447559)] 

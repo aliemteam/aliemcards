@@ -104,6 +104,6 @@ CT imaging is more sensitive in the detection of radio-opaque foreign bodies, pa
 
 ## References
 
-- Blaivas M, et al. _Acad Emerg Med_, 2002. PMID: 12153883 [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=12153883)
+- Blaivas M, et al. _Acad Emerg Med_, 2002. PMID: 12153883 [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=12153883)]
 
-- Kimberly HH, et al. _Acad Emerg Med_, 2008. PMID: 18275454 [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/18275454)
+- Kimberly HH, et al. _Acad Emerg Med_, 2008. PMID: 18275454 [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/18275454)]

@@ -70,4 +70,4 @@ _If suspect infection, blood cultures indicated if 1 major OR 2 minor criteria:_
 
 ## References
 
-- Coburn B, Morris AM, Tomlinson G, Detsky AS. Does this adult patient with suspected bacteremia require blood cultures? JAMA. 2012 Aug 1;308(5):502-11. doi: 10.1001/jama.2012.8262. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=22851117)
+- Coburn B, Morris AM, Tomlinson G, Detsky AS. Does this adult patient with suspected bacteremia require blood cultures? JAMA. 2012 Aug 1;308(5):502-11. doi: 10.1001/jama.2012.8262. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=22851117)]

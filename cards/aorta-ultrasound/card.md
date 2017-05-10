@@ -86,6 +86,6 @@ Figure 5: Proximal aorta longitudinal view demonstrating the abdominal aorta (re
 
 ## References
 
-- Tayal VS, Graf CD, Gibbs MA. Prospective study of accuracy and outcome of emergency ultrasound for abdominal aortic aneurysm over two years. Acad Emerg Med. 2003;10(8):867-71. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/12896888);
-- Kuhn M, Bonnin RL, Davey MJ, Rowland JL, Langlois SL. Emergency department ultrasound scanning for abdominal aortic aneurysm: accessible, accurate, and advantageous. Ann Emerg Med. 2000;36(3):219-23. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/10969223);
-- Taylor RA, Oliva I, Van tonder R, Elefteriades J, Dziura J, Moore CL. Point-of-care focused cardiac ultrasound for the assessment of thoracic aortic dimensions, dilation, and aneurysmal disease. Acad Emerg Med. 2012;19(2):244-7. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/22288871)
+- Tayal VS, Graf CD, Gibbs MA. Prospective study of accuracy and outcome of emergency ultrasound for abdominal aortic aneurysm over two years. Acad Emerg Med. 2003;10(8):867-71. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/12896888)];
+- Kuhn M, Bonnin RL, Davey MJ, Rowland JL, Langlois SL. Emergency department ultrasound scanning for abdominal aortic aneurysm: accessible, accurate, and advantageous. Ann Emerg Med. 2000;36(3):219-23. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/10969223)];
+- Taylor RA, Oliva I, Van tonder R, Elefteriades J, Dziura J, Moore CL. Point-of-care focused cardiac ultrasound for the assessment of thoracic aortic dimensions, dilation, and aneurysmal disease. Acad Emerg Med. 2012;19(2):244-7. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/22288871)]

@@ -66,4 +66,4 @@ If **ZERO** high risk features, it is safe to do LP without a Head CT:
 
 ## References
 
-- Hasbun et al. CT of head before LP in adults with suspected meningitis. NEJM. 345(24), 12/13/01: 1727-33 [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=11742046)
+- Hasbun et al. CT of head before LP in adults with suspected meningitis. NEJM. 345(24), 12/13/01: 1727-33 [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=11742046)]

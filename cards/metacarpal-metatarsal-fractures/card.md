@@ -131,7 +131,7 @@ Most are nonoperative, especially 3rd and 4th MC because of inter-MC ligaments
 
 ## References
 
-- Metatarsal fracture, http://www.wheelessonline.com/ [Link](http://www.wheelessonline.com/ortho/hand_and_metacarpal_fractures)
+- Metatarsal fracture, http://www.wheelessonline.com/ [[Link](http://www.wheelessonline.com/ortho/hand_and_metacarpal_fractures)]
 - Metatarsal fractures, Browner: Skeletal Trauma (4th ed)
 - Metatarsal fractures, Marx: Rosen’s Emergency Medicine (7th ed)
-- Metatarsal fractures, www.emedicine.com [Link](http://emedicine.medscape.com/article/1239721-overview)
+- Metatarsal fractures, www.emedicine.com [[Link](http://emedicine.medscape.com/article/1239721-overview)]

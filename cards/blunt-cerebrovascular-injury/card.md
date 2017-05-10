@@ -65,4 +65,4 @@ Risk of undiagnosed BVCI: Delayed CVA
 
 ## References
 
-- Burlew CC, Biffl WL. Imaging for blunt carotid and vertebral artery injuries. Surg Clin N Amer. 2011, 91(1), 217-31 [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=21184911)
+- Burlew CC, Biffl WL. Imaging for blunt carotid and vertebral artery injuries. Surg Clin N Amer. 2011, 91(1), 217-31 [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=21184911)]

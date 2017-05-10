@@ -50,7 +50,7 @@ Extension more common in children.
 
 ## References
 
-- Wheeless’ Textbook of Orthopaedics  [Link](http://Wheelessonline.com)
-- Orthobullets  [Link](http://OrthoBullets.com)
-- Radiopaedia  [Link](http://Radiopaedia.org)
+- Wheeless’ Textbook of Orthopaedics  [[Link](http://Wheelessonline.com)]
+- Orthobullets  [[Link](http://OrthoBullets.com)]
+- Radiopaedia  [[Link](http://Radiopaedia.org)]
 - General Guidelines For Management for Orthopedic Injuries card by the Nationwide Children’s Hospital, Dept of Orthopedics.

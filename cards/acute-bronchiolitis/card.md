@@ -79,4 +79,4 @@ Consider the following adjunct therapies
 
 ## References
 
-1. Ralston S, Lieberthal A, Meissner H, et al. Clinical practice guideline: the diagnosis, management, and prevention of bronchiolitis. Pediatrics. 2014;134(5):e1474-502. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/25349312)
+1. Ralston S, Lieberthal A, Meissner H, et al. Clinical practice guideline: the diagnosis, management, and prevention of bronchiolitis. Pediatrics. 2014;134(5):e1474-502. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/25349312)]

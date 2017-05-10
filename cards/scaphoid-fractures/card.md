@@ -62,4 +62,4 @@ categories:
 
 ## References
 
-Carpenter C, Pines J, Schuur J, Muir M, Calfee R, Raja A. Adult scaphoid fracture. Acad Emerg Med. 2014;21(2):101-121. PubMed [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/24673666)
+Carpenter C, Pines J, Schuur J, Muir M, Calfee R, Raja A. Adult scaphoid fracture. Acad Emerg Med. 2014;21(2):101-121. PubMed [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/24673666)]

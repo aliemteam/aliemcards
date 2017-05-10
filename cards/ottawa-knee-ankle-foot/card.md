@@ -59,6 +59,6 @@ Exclusion criteria: Patients &lt;18 years old)
 
 ## References
 
-- Mayer D. The injured ankle and foot. BMJ. 2009 Aug 7;339. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=19666680)
-- Bulloch B. et al. Validation of the Ottawa Knee Rule in children: a multicenter study. Ann Emerg Med. 2003 Jul;42(1):48-55. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=12827123)
-- Emparanza JI. et.al.Validation of the Ottawa Knee Rules.Ann Emerg Med. 2001 Oct;38(4):364-8. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=11574791)
+- Mayer D. The injured ankle and foot. BMJ. 2009 Aug 7;339. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=19666680)]
+- Bulloch B. et al. Validation of the Ottawa Knee Rule in children: a multicenter study. Ann Emerg Med. 2003 Jul;42(1):48-55. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=12827123)]
+- Emparanza JI. et.al.Validation of the Ottawa Knee Rules.Ann Emerg Med. 2001 Oct;38(4):364-8. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=11574791)]

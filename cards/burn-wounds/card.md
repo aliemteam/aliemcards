@@ -86,6 +86,6 @@ categories:
 
 ## References
 
-- Gomez R et. al. Management of burn wounds in the emergency department.Emerg Med Clin North Am. 2007 Feb;25(1):135-46. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=Gomez+Cancio+Emerg+Med+Clin+of+N+Am+2007)
-- Int Wound J. 2010 [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=20649832)
-- Cochrane Database Syst Rev 2015 [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=25742878) 
+- Gomez R et. al. Management of burn wounds in the emergency department.Emerg Med Clin North Am. 2007 Feb;25(1):135-46. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=Gomez+Cancio+Emerg+Med+Clin+of+N+Am+2007)]
+- Int Wound J. 2010 [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=20649832)]
+- Cochrane Database Syst Rev 2015 [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=25742878)] 

@@ -35,4 +35,4 @@ categories:
 
 - Williams DJ, Walker JD. A nomogram for calculating maximum dose of local anaesthetic. Anaesthesia 2014. PMID 24820093
 
-Click here [Link](https://www.aliem.com/2014/pv-card-local-anesthetic-toxicity-calculations/) for full ALiEM blog post
+Click here [[Link](https://www.aliem.com/2014/pv-card-local-anesthetic-toxicity-calculations/)] for full ALiEM blog post

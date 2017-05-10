@@ -65,4 +65,4 @@ I have a [post on differentiating VT and SVT with aberrancy using the Sasaki rul
 
 ## References
 
-- Brugada P et al. Circulation. 1991 May;83(5): 1649-59. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/2022022)
+- Brugada P et al. Circulation. 1991 May;83(5): 1649-59. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/2022022)]

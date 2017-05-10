@@ -77,4 +77,4 @@ Chemotherapy causes neutropenia in 10-50% of patients with solid tumors and > 80
 
 ## References
 
-- Fairefield AG et. al. Clinical practice guideline for the use of antimicrobial agents in neutropenic patients with cancer. 2010 update by the IDSA. Clinical Infectious Disease 2011; 52 (4): e56-93. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/21205990)
+- Fairefield AG et. al. Clinical practice guideline for the use of antimicrobial agents in neutropenic patients with cancer. 2010 update by the IDSA. Clinical Infectious Disease 2011; 52 (4): e56-93. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/21205990)]
