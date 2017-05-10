@@ -41,5 +41,5 @@ Some practitioners like to take advantage of the longer duration of action and a
 
 ## References
 
-- Mihic SJ, Harris RA. Chapter 17. Hypnotics and Sedatives. In: Chabner BA, Knollmann BC, eds. Goodman & Gilman’s The Pharmacological Basis of Therapeutics. 12nd ed. New York: McGraw-Hill; 2011. Accessed November 7, 2013. [[Link](http://www.accesspharmacy.com/content.aspx?aID=16663643)]
-- Lee DC, Ferguson KL. Chapter 74. Sedative-Hypnotics. In: Lee DC, Ferguson KL, eds.Goldfrank’s Toxicologic Emergencies. 9th ed. New York: McGraw-Hill; 2011. Accessed November 7, 2013. [[Link](http://www.accesspharmacy.com/content.aspx?aID=6520459)]
+- Mihic SJ, Harris RA. Chapter 17. Hypnotics and Sedatives. In: Chabner BA, Knollmann BC, eds. Goodman & Gilman’s The Pharmacological Basis of Therapeutics. 12nd ed. New York: McGraw-Hill; 2011. Accessed November 7, 2013. [[Source](http://www.accesspharmacy.com/content.aspx?aID=16663643)]
+- Lee DC, Ferguson KL. Chapter 74. Sedative-Hypnotics. In: Lee DC, Ferguson KL, eds.Goldfrank’s Toxicologic Emergencies. 9th ed. New York: McGraw-Hill; 2011. Accessed November 7, 2013. [[Source](http://www.accesspharmacy.com/content.aspx?aID=6520459)]

@@ -34,4 +34,4 @@ Side effects of vasoactive medications are related both to the direct mechanism 
 - Ellender TJ, Skinner JC. The use of vasopressors and inotropes in the emergency medical treatment of shock. Emerg Med Clin North Am 2008;26:759-86, ix. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/18655944)]
 - De Backer D, Aldecoa C, Njimi H, Vincent JL. Dopamine versus norepinephrine in the treatment of septic shock: a meta-analysis. Crit Care Med 2012;40:725-30. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/22036860)]
 
-Click here [[Link](https://www.aliem.com/2013/choosing-the-right-vasopressor-agent-in-hypotension/)] for full ALiEM blog post
+Click here [[Source](https://www.aliem.com/2013/choosing-the-right-vasopressor-agent-in-hypotension/)] for full ALiEM blog post

@@ -41,7 +41,7 @@ Complications: recurrent dislocations
 
 ## References
 
-- Schwartz A. Patella Fractures Treatment & Management, Emedicine.com (June 2016) [[Link](http://emedicine.medscape.com/article/1249384-treatment)].
+- Schwartz A. Patella Fractures Treatment & Management, Emedicine.com (June 2016) [[Source](http://emedicine.medscape.com/article/1249384-treatment)].
 
 - Hinton RY, Sharma KM. Acute and recurrent patellar instability in the young athlete. Orthop Clin North Am. 2003 Jul;34(3):385-96. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=12974488)]
 

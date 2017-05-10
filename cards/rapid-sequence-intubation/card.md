@@ -64,5 +64,5 @@ Avoid paralysis when difficulty laryngoscopy is anticipated. Consider awake int
 
 ## References
 
-- “Airway Cam Pocket Guide to Intubation, 2nd Edition [[Link](http://airwaycam.com)]
-- “The Airway Card”, The Airway Course [[Link](http://www.theairwaysite.com)]
+- “Airway Cam Pocket Guide to Intubation, 2nd Edition [[Source](http://airwaycam.com)]
+- “The Airway Card”, The Airway Course [[Source](http://www.theairwaysite.com)]

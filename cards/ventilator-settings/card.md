@@ -91,5 +91,5 @@ Start at FiO2 100% and PEEP 5 (OXYGENATION)
 
 ## References
 
-- NHLBI ARDS Network, "Ventilator Protocol Card" [[Link](http://www.ardsnet.org/node/77791)]
+- NHLBI ARDS Network, "Ventilator Protocol Card" [[Source](http://www.ardsnet.org/node/77791)]
 - Ventilation with lower tidal volumes as compared with traditional tidal volumes for acute lung injury and the acute respiratory distress syndrome. The Acute Respiratory Distress Syndrome Network. N Engl J Med. 2000 May 4;342(18):1301-8. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/10793162)]
