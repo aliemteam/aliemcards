@@ -1,5 +1,4 @@
 ---
-
 title: Fever Without a Source - neonate
 authors:
     - Hemal Kanzaria, MD

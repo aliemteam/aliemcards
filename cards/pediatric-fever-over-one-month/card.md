@@ -1,5 +1,4 @@
 ---
-
 title: Pediatric Fever Without a Source - Infant
 authors:
     - Hemal Kanzaria, MD

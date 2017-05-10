@@ -1,5 +1,4 @@
 ---
-
 title: Head CT in Trauma
 authors:
     - Michelle Lin, MD

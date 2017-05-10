@@ -1,5 +1,4 @@
 ---
-
 title: Ottawa Knee, Ankle, and Foot Rules
 authors:
     - Michelle Lin, MD

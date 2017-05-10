@@ -1,5 +1,4 @@
 ---
-
 title: C1 and C2 Spine Fractures
 authors:
     - Michelle Lin, MD

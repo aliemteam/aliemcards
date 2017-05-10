@@ -1,5 +1,4 @@
 ---
-
 title: Acute Vestibular Syndrome vs Stroke
 authors:
     - Michelle Lin, MD

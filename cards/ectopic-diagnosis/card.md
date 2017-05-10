@@ -1,5 +1,4 @@
 ---
-
 title: Ectopic Pregnancy - Making the Diagnosis
 authors:
     - Javier Benitez, MD

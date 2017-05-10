@@ -1,5 +1,4 @@
 ---
-
 title: Sgarbossa Criteria for LBBB and AMI
 authors:
     - Michelle Lin, MD

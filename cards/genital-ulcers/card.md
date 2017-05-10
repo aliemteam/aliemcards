@@ -1,5 +1,4 @@
 ---
-
 title: Genital Ulcers
 authors:
     - Michelle Lin, MD

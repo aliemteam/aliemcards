@@ -1,5 +1,4 @@
 ---
-
 title: Hypothermia
 authors:
     - 'Michelle Lin, MD'

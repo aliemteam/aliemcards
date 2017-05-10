@@ -1,5 +1,4 @@
 ---
-
 title: Cervical Spine Distracting Injuries
 authors:
     - Michelle Lin, MD

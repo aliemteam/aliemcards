@@ -1,5 +1,4 @@
 ---
-
 title: Pertussis
 authors:
     - Michelle Lin, MD

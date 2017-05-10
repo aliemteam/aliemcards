@@ -1,5 +1,4 @@
 ---
-
 title: '2013 AHA Guidelines: Contraindications for Thrombolytics'
 authors:
     - Michelle Lin, MD

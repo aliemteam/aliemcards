@@ -1,5 +1,4 @@
 ---
-
 title: Focused 1st Trimester Pregnancy Transabdominal Ultrasound
 authors:
     - Matt Lipton, MD

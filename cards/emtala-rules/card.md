@@ -1,5 +1,4 @@
 ---
-
 title: EMTALA Transfer Rules
 authors:
     - Michelle Lin, MD

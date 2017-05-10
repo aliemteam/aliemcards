@@ -1,5 +1,4 @@
 ---
-
 title: Acute Bronchiolitis Management
 authors:
     - Michelle Lin, MD
