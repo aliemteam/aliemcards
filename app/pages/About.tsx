@@ -1,6 +1,8 @@
 import * as React from 'react';
 import { Link } from 'react-router-dom';
 
+import AboutBio from '../components/AboutBio';
+
 export default () => (
   <div className="content">
     <h1>About</h1>
@@ -30,5 +32,14 @@ export default () => (
       Please <Link to="/contact">let us know</Link> how you use these cards.
       What would make them more useful? Found an error? Help us fix it!
     </p>
+    <h2>The ALiEM Cards Team</h2>
+    <AboutBio 
+      name='Michelle Lin, MD'
+      title='Creator & Editor-in-Chief'
+      credentials='Endowed Chair for EM Education'
+      location='UC San Francisco / Zuckerberg San Francisco General'
+      twitter='M_Lin'
+    />
+
   </div>
 );
