@@ -52,7 +52,7 @@ categories:
 
 | Grade | Definition                                                                                                                | CVA Rate Carotid | CVA Rate Vertebral |
 | ----: | ------------------------------------------------------------------------------------------------------------------------- | ---------------: | -----------------: |
-| **1** | Irregularity of vessel wall, or dissection/intramural hematoma with &lt;25% luminal stenosis                            |               3% |                 6% |
+| **1** | Irregularity of vessel wall, or dissection/intramural hematoma with <25% luminal stenosis                                 |               3% |                 6% |
 | **2** | Intraluminal thrombus or raised intimal flap is visualized, or dissection/intramural hematoma with ≥25% luminal narrowing |              14% |                38% |
 | **3** | Pseudoaneurysm                                                                                                            |              26% |                27% |
 | **4** | Vessel occlusion                                                                                                          |              50% |                28% |
