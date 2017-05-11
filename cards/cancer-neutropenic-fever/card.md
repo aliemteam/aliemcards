@@ -3,7 +3,7 @@ title: Neutropenic Fever and Cancer
 authors:
     - Michelle Lin, MD
 created: 2011/10/07
-updates:
+updates: 2017/05/10
 categories:
     - Hematology and Oncology
 ---
@@ -18,7 +18,7 @@ Chemotherapy causes neutropenia in 10-50% of patients with solid tumors and > 80
 
 ## MASCC score
 
-**Multinational Association for Supportive Care in Cancer (MASCC) Score:**
+**Multinational Association for Supportive Care in Cancer (MASCC) Score**
 
 | Criteria                                                                                          |                         Points |
 | ------------------------------------------------------------------------------------------------- | -----------------------------: |
@@ -27,14 +27,14 @@ Chemotherapy causes neutropenia in 10-50% of patients with solid tumors and > 80
 | No COPD                                                                                           |                              4 |
 | Solid tumor or hematologic malignancy <span class="drug">with</span> no previous fungal infection |                              4 |
 | No dehydration requiring parenteral fluids                                                        |                              3 |
-| Outpatient status\*                                                                               |                              3 |
-| Age &lt;60 years\*                                                                                |                              2 |
+| Outpatient status                                                                                 |                              3 |
+| Age &lt;60 years                                                                                  |                              2 |
 
 ### High Risk Patients (require admission)
 
-- MASCC score &lt; 21 **OR**
+- MASCC score &lt;21 **OR**
 - Any of clinical findings:
-  - Prolonged (>7 days duration) and profound neutropenia (ANC ≤ 100 cells/mm3)
+  - Prolonged (>7 days duration) and profound neutropenia (ANC ≤100 cells/mm3)
   - Hypotension
   - Pneumonia
   - New abdominal pain
@@ -47,7 +47,7 @@ Chemotherapy causes neutropenia in 10-50% of patients with solid tumors and > 80
 
 ## Workup
 
-- CBC, BUN/Creatinine, electrolytes, AST/ALT, bilirubin
+- CBC, BUN/creatinine, electrolytes, AST/ALT, bilirubin
 - Chest xray, if respiratory signs or symptoms
 - 2 blood cultures (1 central line lumen if present + 1 peripheral vein, or 2 peripheral veins)
 

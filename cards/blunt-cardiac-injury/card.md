@@ -27,7 +27,7 @@ No gold standard 
 - Consider BCI in hemodynamically unstable patients without alternative cause
 - Troponin I and T lack adequate sensitivity as screening test  
 
-Suggested algorithm, based on available evidence:
+## Suggested algorithm, based on available evidence:
 
 ![Blunt cardiac injury algorithm](image-1.png)
 
