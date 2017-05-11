@@ -12,7 +12,7 @@ categories:
 
 # Appendicitis: ACEP Clinical Policy
 
-**How predictive is WBC in appendicitis? **
+## How predictive is WBC in appendicitis?
 
 WBC count > 10K and likelihood of having appendicitis:
 
@@ -30,7 +30,7 @@ WBC count > 10K and likelihood of having appendicitis:
 | Nausea/vomiting           |     1    |
 | RLQ tenderness            |     2    |
 | Rebound pain              |     1    |
-| Temp > 37.3 C oral        |     1    |
+| Temperature > 37.3C oral  |     1    |
 | WBC > 10K                 |     2    |
 | Left shift WBC (>75% PMN) |     1    |
 
@@ -54,30 +54,30 @@ Beware of patients &lt;10 yr and >60 yr old for atypical presentations
 | PO/IV contrast   |      91%     |
 | PO contrast only |      76%     |
 
-**Addition of oral contrast to CT Abd-pelvis (IV contrast) study is unnecessary **([Anderson, Am J Surg 2005](https://secure.muhealth.org/~ed/students/articles/ajs_190_p0474.pdf))
+**Addition of oral contrast to CT Abd-pelvis (IV contrast) study is unnecessary** ([Anderson, Am J Surg 2005](https://secure.muhealth.org/~ed/students/articles/ajs_190_p0474.pdf))
 
-| CT with...      | Sens | Spec |
+| CT Technique    | Sens | Spec |
 | --------------- | ---- | ---- |
 | Noncontrast     | 93%  | 98%  |
 | PO/IV contrast  | 93%  | 93%  |
 | Rectal contrast | 97%  | 97%  |
 
-## Imaging in Pediatric Appy
+## Imaging in Pediatric Appendicitis
 
-**_Ultrasound_**: Appendix > 6 mm in diameter, non-compressible appx, appendiceal tenderness 
+**_Ultrasound_**: Appendix >6 mm in diameter, non-compressible appendix, appendiceal tenderness 
 
 - Positive LR 17.2-49.5
 - Negative LR 0.01-0.14
 
 **_CT_**: Unclear about additional benefit of PO/IV contrast. Many give PO/IV because ofless intraperitoneal fat in children (less obvious stranding on noncontrast study)
 
-[Kharbanda, Pediatrics 2005:](http://pediatrics.aappublications.org/content/116/3/709.short) In kids, if 0/5 of the following criteria: 
+[Kharbanda, Pediatrics 2005:](http://pediatrics.aappublications.org/content/116/3/709.short) In kids, if 0/5 of the following criteria, then the patient is very unlikely to have appendicitis (negative LR=0.058): 
 
 1. Nausea
 2. Right lower quadrant pain
 3. Difficulty walking
 4. Rebound tenderness
-5. Absolute PMN>6,750, then the patient is very unlikely to have appendicitis (negative LR=0.058). (\* see Fagan nomogram)
+5. Absolute PMN>6,750 (\* see Fagan nomogram)
 
 ## Fagan nomogram
 
