@@ -26,7 +26,7 @@ categories:
 
 ![Graphic displaying the 4 areas of injury](image-1.png)
 
-\*Often fibula fx pattern hints at classification 
+\* Often fibula fx pattern hints at classification 
 
 ### Supination-External Rotation (SER) 
 
@@ -66,10 +66,11 @@ categories:
 
 - Maisonneuve fx is a type of PER injury
 - Associated with syndesmosis instability
-- _Stage 1_: Transverse MM fx (or deltoid ligament tear) 
-- _Stage 2_: ATFL tear
-- _Stage 3_: Spiral oblique fibula fx above ankle mortise 
-- _Stage 4_: PM fx or PTFL tear
+- Staging:
+  - _Stage 1_: Transverse MM fx (or deltoid ligament tear) 
+  - _Stage 2_: ATFL tear
+  - _Stage 3_: Spiral oblique fibula fx above ankle mortise 
+  - _Stage 4_: PM fx or PTFL tear
 - To diagnose deltoid ligament instability, use “gravity stress” view (lateral portion of ankle rests on xray table to increase medial mortise)
 - Operative repair depends on talar stability under tibial plafond. A 1 mm lateral talar shift causes loss of joint surface contact by 42% --> chronic arthritis complications 
 
