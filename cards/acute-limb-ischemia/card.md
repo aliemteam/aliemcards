@@ -34,16 +34,16 @@ categories:
 - **Neurological:** Check for sensory and motor loss
 - **Vascular:** Grade peripheral pulses
 
-    - 0 = No Doppler signal
-    - 1 = Reduced
-    - 2 = Normal
-    - 3 = Increased
-    - 4 = Bounding
+  - 0 = No Doppler signal
+  - 1 = Reduced
+  - 2 = Normal
+  - 3 = Increased
+  - 4 = Bounding
 
 - Rutherford Classification scheme for ALI ([Rutherford et al](https://www.ncbi.nlm.nih.gov/pubmed/?term=9308598))
 
-    - **Thrombotic occlusions** usually class I or IIA because of presence of collateral vasculature
-    - **Embolic occlusions** usually class IIB or III
+  - **Thrombotic occlusions** usually class I or IIA because of presence of collateral vasculature
+  - **Embolic occlusions** usually class IIB or III
 
 | Class   | Category                                   | Prognosis                       | Sensory Loss        | Muscle Weakness  | Arterial Dopper Signal | Venous Doppler Signal |
 | ------- | ------------------------------------------ | ------------------------------- | ------------------- | ---------------- | ---------------------- | --------------------- |
