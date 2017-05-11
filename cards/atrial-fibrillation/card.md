@@ -17,7 +17,7 @@ categories:
 
 - Patients with persistent and paroxysmal atrial fibrillation should be treated the same when it comes to deciding about anticoagulation. They have an equivalent risk of stroke.
 
-**Stroke risk factors for patients with AF: **
+**Stroke risk factors for patients with AF:**
 
 - Prior CVA or TIA
 - HTN
@@ -53,7 +53,7 @@ categories:
 
 ### Moderate Risk Factors
 
-- Age > 75 years          
+- Age >75 years          
 - Hypertension                     
 - Heart failure           
 - LV ejection fracture &le;35%              
@@ -62,7 +62,7 @@ categories:
 **Treatment**
 
 - 1 risk factor: <span class="drug">aspirin</span> or <span class="drug">warfarin</span>
-- &gt; 1 risk factor: <span class="drug">warfarin</span>
+- &gt;1 risk factor: <span class="drug">warfarin</span>
 
 ### High Risk Factors
 
@@ -70,7 +70,7 @@ categories:
 - Prior TIA         
 - Embolism          
 - Mitral stenosis   
-- Mech heart valve
+- Mechanical heart valve
 
 **Treatment**
 

@@ -10,14 +10,14 @@ categories:
     - Neurology
 ---
 
-# Bell's Palsy: Treatment
+# Bell's Palsy Treatment
 
-\##Treatment
+## Treatment
 
 - Corticosteroids, if onset within 72 hours
 - 1 in 11 were helped (to complete recovery) - [NNT.com](http://www.thennt.com/nnt/steroids-for-bells-palsy/)
 - **<span class="drug">Prednisone</span>:** 60 mg daily x 1 week. May consider taper for days #8-10
-- <span class="drug">Artificial tears</span> in daytime and lubricating eye ointment at night to prevent corneal drying and exposure. 
+- <span class="drug">Artificial tears</span> in daytime and lubricating eye ointment at night to prevent corneal drying and exposure
 - Tape eyelid shut while asleep.
 
 Controversial benefit of antivirals (at most risk difference of 7%):
