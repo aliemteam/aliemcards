@@ -56,8 +56,8 @@ categories:
 3. Reduced BP after exposure to known allergen
 
    - Infants/children: Low SBP (age specific) or > 30% decrease in SBP
-      - Age 1 mo - 1 yr: SBP &lt; 70 mmHg
-      - Age 1 yr - 10 yr: SBP &lt; 70 mmHg + [2 x age]
+     - Age 1 mo - 1 yr: SBP &lt; 70 mmHg
+     - Age 1 yr - 10 yr: SBP &lt; 70 mmHg + [2 x age]
 
    - Adults: SBP &lt;90 mmHg or >30% decrease in person's baseline
 

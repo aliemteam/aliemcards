@@ -54,7 +54,6 @@ Transducer orientation is transverse with marker towards the patient’s right
 ![Proximal aorta transverse view demonstrating the inferior vena cava (ivc), the aorta (ao), the celiac trunk (red arrows) branching into the common hepatic artery (green arrow) and splenic artery (yellow arrow). Known as “seagull sign”](image-3.png)
 Figure 3: Proximal aorta transverse view demonstrating the inferior vena cava (ivc), the aorta (ao), the celiac trunk (red arrows) branching into the common hepatic artery (green arrow) and splenic artery (yellow arrow). Known as “seagull sign”.
 
-
 ![Proximal aorta transverse view caudal to Figure 3. Note inferior vena cava (ivc), aorta (ao), anterior cortex of vertebral body (yellow arrows) and superior mesenteric artery (green arrow) with surrounding hyperechoic fat (“clock mantle” sign)](image-4.png)
 Figure 4: Proximal aorta transverse view caudal to Figure 3. Note inferior vena cava (ivc), aorta (ao), anterior cortex of vertebral body (yellow arrows) and superior mesenteric artery (green arrow) with surrounding hyperechoic fat (“clock mantle” sign).
 

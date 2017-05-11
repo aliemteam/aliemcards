@@ -72,4 +72,3 @@ When patients leave AMA, providers should do whatever is possible to limit bad m
 2. Monico EP, Schwartz I. Leaving against medical advice: facing the issue in the emergency department. J Healthc Risk Manag. 2009;29 (2): 6-9, 13, 15. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=19908647)]
 
 3. Miller S. Obtaining a valid AMA (Against Medical Advice). JEMS. 1996;21 (2): 54-5. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=10154651)]
-
