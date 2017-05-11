@@ -1,10 +1,9 @@
 ---
-
 title: Toxic Alcohol Ingestion - Methanol
 authors:
     - Michelle Lin, MD
 created: 2012/06/15
-updates: null
+updates:
 categories:
     - Toxicology
 ---
@@ -68,10 +67,10 @@ Solvent found in cleaning and printing solutions, adhesives, stains, paint remov
 
 ## Methanol: Management
 
-**Goal:** Prevent further formation of formic acid (using **<span class="drug">fomepizole</span>**) and eliminate toxic metabolites (through dialysis) 
+**Goal:** Prevent further formation of formic acid (using <span class="drug">fomepizole</span>) and eliminate toxic metabolites (through dialysis) 
 
-- **<span class="drug">Folic</span>** or folinic acid supplementation to enhance formate metabolism
-- **Antidote:** **<span class="drug">Fomipezole</span>** inhibits alcohol dehydrogenase (alternative = **<span class="drug">ethanol</span>**)
+- <span class="drug">Folic</span> or folinic acid supplementation to enhance formate metabolism
+- **Antidote:** <span class="drug">Fomipezole</span> inhibits alcohol dehydrogenase (alternative = <span class="drug">ethanol</span>)
 
 | **Fomipezole**   | **Dosing**                          |
 | ---------------- | ----------------------------------- |
@@ -80,15 +79,15 @@ Solvent found in cleaning and printing solutions, adhesives, stains, paint remov
 
 ## Methanol: American Academy of Clinical Toxicology guidelines
 
-![](image-1.png)
+![Suspected or confirmed methanol clinical pathway](image-1.png)
 
 ## Metabolism of alcohols
 
-![](image-2.png)
+![Metabolism of alcohols diagram](image-2.png)
 
 ## References
 
-- [Jammalamadaka D, Raissi S. Ethylene glycol, methanol and isopropyl alcohol intoxication. Am J Med Sci. 2010 Mar;339(3):276-81. doi: 10.1097/MAJ.0b013e3181c94601.](https://www.ncbi.nlm.nih.gov/pubmed/?term=20090509)
-- [Kraut JA, Kurtz I. Toxic alcohol ingestions: clinical features, diagnosis, and management. Clin J Am Soc Nephrol. 2008 Jan;3(1):208-25. Epub 2007 Nov 28.](https://www.ncbi.nlm.nih.gov/pubmed/?term=18045860)
-- [Marraffa JM, Cohen V, Howland MA. Antidotes for toxicological emergencies: a practical review. Am J Health Syst Pharm. 2012 Feb 1;69(3):199-212. doi: 10.2146/ajhp110014](https://www.ncbi.nlm.nih.gov/pubmed/?term=22261941)
-- [Barceloux DG, Bond GR, Krenzelok EP, Cooper H, Vale JA; American Academy of Clinical Toxicology Ad Hoc Committee on the Treatment Guidelines for Methanol Poisoning. American Academy of Clinical Toxicology practice guidelines on the treatment of methanol poisoning. J Toxicol Clin Toxicol. 2002;40(4):415-46.](https://www.ncbi.nlm.nih.gov/pubmed/?term=12216995)
+- Jammalamadaka D, Raissi S. Ethylene glycol, methanol and isopropyl alcohol intoxication. Am J Med Sci. 2010 Mar;339(3):276-81. doi: 10.1097/MAJ.0b013e3181c94601. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=20090509)]
+- Kraut JA, Kurtz I. Toxic alcohol ingestions: clinical features, diagnosis, and management. Clin J Am Soc Nephrol. 2008 Jan;3(1):208-25. Epub 2007 Nov 28. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=18045860)]
+- Marraffa JM, Cohen V, Howland MA. Antidotes for toxicological emergencies: a practical review. Am J Health Syst Pharm. 2012 Feb 1;69(3):199-212. doi: 10.2146/ajhp110014 [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=22261941)]
+- Barceloux DG, Bond GR, Krenzelok EP, Cooper H, Vale JA; American Academy of Clinical Toxicology Ad Hoc Committee on the Treatment Guidelines for Methanol Poisoning. American Academy of Clinical Toxicology practice guidelines on the treatment of methanol poisoning. J Toxicol Clin Toxicol. 2002;40(4):415-46. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=12216995)]

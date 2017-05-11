@@ -4,7 +4,7 @@ title: Causes of Elevated Lactate
 authors:
     - Michelle Lin, MD
 created: 2009/12/22
-updates: null
+updates:
 categories:
     - Ultrasound
     - Radiology
@@ -81,5 +81,5 @@ O2 use<br />
 
 ## References
 
-- [Strehlow MC.Early identification of shock in critically ill patients. Emerg Med Clin North Am. 2010 Feb;28(1):57-66, vii. doi: 10.1016/j.emc.2009.09.006.](http://www.ncbi.nlm.nih.gov/pubmed/19945598)
-- [Perera P et al. Rapid Ultrasound in SHock in the Evaluation of the Critically lll. EMCNA 2010; 28: 29-56.](http://www.ncbi.nlm.nih.gov/pubmed/19945597)
+- Strehlow MC.Early identification of shock in critically ill patients. Emerg Med Clin North Am. 2010 Feb;28(1):57-66, vii. doi: 10.1016/j.emc.2009.09.006. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/19945598)]
+- Perera P et al. Rapid Ultrasound in SHock in the Evaluation of the Critically lll. EMCNA 2010; 28: 29-56. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/19945597)]

@@ -1,10 +1,9 @@
 ---
-
 title: Hypothermia
 authors:
     - 'Michelle Lin, MD'
 created: 2011/02/04
-updates: null
+updates:
 categories:
     - Environmental
 ---
@@ -104,10 +103,10 @@ categories:
 - Active External Rewarming (i.e. Bair Hugger, warm blankets), and
 - Minimally invasive Active Core Rewarming (warm IVF, warm air)
 
-**If NOT in cardiopulmonary arrest AND temp ≥32°C (89.6°F):**
+**If NOT in cardiopulmonary arrest AND temp &ge;32°C (89.6°F):**
 
 - Passive external rewarming measures    
 
 ## References
 
-- [McCullough L, Arora S.Diagnosis and treatment of hypothermia.Am Fam Physician. 2004 Dec 15;70(12):2325-32.](http://www.ncbi.nlm.nih.gov/pubmed/?term=15617296)
+- McCullough L, Arora S.Diagnosis and treatment of hypothermia.Am Fam Physician. 2004 Dec 15;70(12):2325-32. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=15617296)]

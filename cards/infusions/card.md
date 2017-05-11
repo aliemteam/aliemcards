@@ -4,7 +4,7 @@ title: Continuous Infusions
 authors:
     - Michelle Lin, MD
 created: 2012/03/09
-updates: null
+updates:
 categories:
     - Pharmacology
     - Critical Care

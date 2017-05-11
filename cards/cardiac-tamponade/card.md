@@ -4,7 +4,7 @@ title: Cardiac Tamponade
 authors:
     - Michelle Lin, MD
 created: 2011/07/08
-updates: null
+updates:
 categories:
     - Cardiovascular
 ---
@@ -48,11 +48,11 @@ Use below Fagan nomogram
 
 ## Fagan Nomogram
 
-![](image-1.png)
+![Fagan Nonogram](image-1.png)
 
 - Draw a connecting your pre-test probability and your likelihood ratio. 
 - This provides you with your post-test probability.
 
 ## References
 
-- [Roy CL et al. Does This Patient With a Pericardial Effusion Have Cardiac Tamponade? JAMA. 2007;297:1810-8.](https://www.ncbi.nlm.nih.gov/pubmed/?term=17456823)
+- Roy CL et al. Does This Patient With a Pericardial Effusion Have Cardiac Tamponade? JAMA. 2007;297:1810-8. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=17456823)]

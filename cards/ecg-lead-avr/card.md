@@ -4,7 +4,7 @@ title: Lead aVR
 authors:
     - Michelle Lin, MD
 created: 2011/11/18
-updates: null
+updates:
 categories:
     - Cardiovascular
     - ECG
@@ -24,7 +24,7 @@ categories:
 
 **ST Elevation >1.5 mm in aVR**
 
-![](image-1.png)
+![Example of ST elevation](image-1.png)
 
 - Suggests left main coronary artery (LMCA), left anterior descending (LAD), or 3-vessel coronary disease
 - LMCA occlusion has a high mortality and often refractory to thrombolytics.
@@ -34,7 +34,7 @@ categories:
 
 **PR elevation in aVR**
 
-![](image-2.png)
+![Example of PR elevation](image-2.png)
 
 Suggests subepicardial atrial injury from pericardial inflammation
 
@@ -47,7 +47,7 @@ Suggests subepicardial atrial injury from pericardial inflammation
 
 **Prominent R wave in aVR**
 
-![](image-3.png)
+![Example of a prominent R wave](image-3.png)
 
 - Classic ECG findings of TCA overdose:
   - Sinus tachycardia
@@ -81,7 +81,7 @@ Suggests subepicardial atrial injury from pericardial inflammation
 3. Is there a notch on the descending limb of a negative QRS complex?
 4. Measure the voltage change in the first (vi) and last 40 msec (vt). Is vi / vt &lt;1?
 
-![](image-4.png)
+![Example of VT vs SVT](image-4.png)
 
 | Criteria | Sensitivity | Specificity | PPV | NPV |
 | -------- | :---------: | :---------: | :-: | :-: |
@@ -92,8 +92,8 @@ Suggests subepicardial atrial injury from pericardial inflammation
 
 ## References
 
-- [Kireyev D et al.Clinical utility of aVR-The neglected electrocardiographic lead. Ann Noninvasive Electrocardiol. 2010;15(2):175-80.](http://www.ncbi.nlm.nih.gov/pubmed/20522059)
-- [Riera AR et al.Clinical value of lead aVR. Ann Noninvasive Electrocardiol. 2011 Jul;16(3):295-302.](http://www.ncbi.nlm.nih.gov/pubmed/21762258)
-- [Vereckei A, Duray G, Szénási G, Altemose GT, Miller JM. New algorithm using only lead aVR for differential diagnosis of wide QRS complex tachycardia. Heart Rhythm. 2008 Jan;5(1):89-98. doi: 10.1016/j.hrthm.2007.09.020. Epub 2007 Sep 20.](http://www.ncbi.nlm.nih.gov/pubmed/18180024)
-- [Buckley NA et. al.The limited utility of electrocardiography variables used to predict arrhythmia in psychotropic drug overdose.Crit Care. 2003 Oct;7(5):R101-7. Epub 2003 Aug 18.](http://www.ncbi.nlm.nih.gov/pubmed/12974977)
-- [Williamson K et al. Electrocardiographic applications of lead aVR. Am J Emerg Med. 2006 Nov;24(7):864-74.](http://www.ncbi.nlm.nih.gov/pubmed/17098112)
+- Kireyev D et al.Clinical utility of aVR-The neglected electrocardiographic lead. Ann Noninvasive Electrocardiol. 2010;15(2):175-80. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/20522059)]
+- Riera AR et al.Clinical value of lead aVR. Ann Noninvasive Electrocardiol. 2011 Jul;16(3):295-302. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/21762258)]
+- Vereckei A, Duray G, Szénási G, Altemose GT, Miller JM. New algorithm using only lead aVR for differential diagnosis of wide QRS complex tachycardia. Heart Rhythm. 2008 Jan;5(1):89-98. doi: 10.1016/j.hrthm.2007.09.020. Epub 2007 Sep 20. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/18180024)]
+- Buckley NA et. al.The limited utility of electrocardiography variables used to predict arrhythmia in psychotropic drug overdose.Crit Care. 2003 Oct;7(5):R101-7. Epub 2003 Aug 18. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/12974977)]
+- Williamson K et al. Electrocardiographic applications of lead aVR. Am J Emerg Med. 2006 Nov;24(7):864-74. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/17098112)]

@@ -1,6 +1,6 @@
 {
   "name": "aliemcards",
-  "version": "0.4.2",
+  "version": "0.5.4",
   "description": "ALiEM Cards deployment scripts and website code.",
   "main": "./dist/index.js",
   "author": "Jeremy Voros",
@@ -21,7 +21,10 @@
     "build": "gulp __build && NODE_ENV=production webpack"
   },
   "now": {
-    "alias": "aliemcards.now.sh",
+    "alias": [
+      "aliemcards.com",
+      "www.aliemcards.com"
+    ],
     "name": "aliemcards",
     "env": {
       "NODE_ENV": "production"
@@ -36,7 +39,7 @@
     "compression": "^1.6.2",
     "express": "^4.14.1",
     "express-graphql": "^0.6.3",
-    "fuse.js": "^3.0.0",
+    "fuse.js": "^3.0.1",
     "graphql": "^0.9.6",
     "helmet": "^3.6.0",
     "normalizr": "^3.2.1",
@@ -73,7 +76,8 @@
     "gulp-stylus": "^2.6.0",
     "html-webpack-plugin": "^2.28.0",
     "husky": "^0.13.3",
-    "jest": "^19.0.2",
+    "jest": "^20.0.0",
+    "js-yaml": "^3.8.3",
     "json-loader": "^0.5.4",
     "offline-plugin": "^4.7.0",
     "react-addons-test-utils": "^15.4.2",
@@ -112,7 +116,7 @@
     "stylint": "^1.5.9",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.1",
-    "ts-jest": "^19.0.14",
+    "ts-jest": "^20.0.2",
     "ts-loader": "^2.0.1",
     "ts-node": "^3.0.4",
     "tslint": "^5.2.0",
@@ -129,8 +133,8 @@
     "transform": {
       ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
     },
-    "testResultsProcessor": "<rootDir>/node_modules/ts-jest/coverageprocessor.js",
     "testRegex": "(/__tests__/.*\\.(ts|tsx))$",
+    "mapCoverage": true,
     "moduleFileExtensions": [
       "js",
       "ts",

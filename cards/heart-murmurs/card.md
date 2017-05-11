@@ -1,10 +1,9 @@
 ---
-
 title: Murmurs Needing Echocardiography Evaluation
 authors:
     - Amy Kinard, RN
 created: 2010/09/17
-updates: null
+updates:
 categories:
     - Cardiovascular
 ---
@@ -13,7 +12,7 @@ categories:
 
 [ACC/AHA 2008 Guidelines](http://www.ncbi.nlm.nih.gov/pubmed/?term=18848134)
 
-![](image-1.png)
+![Cardiac murmur workup flowchart](image-1.png)
 
 ## Grading of a Murmur
 
@@ -41,7 +40,7 @@ Echo can be useful for:
 1. The evaluation of asymptomatic patients with (murmurs + other abnormal cardiac physical findings) or (murmurs + abnormal EKG or CXR)
 2. Patients whose symptoms and/or signs are likely non-cardiac in origin but in whom a cardiac basis cannot be excluded by standard evaluation
 
-## Class III (Benefit ≥ Risk)
+## Class III (Benefit &ge; Risk)
 
 Echo is NOT recommended for:
 
@@ -49,4 +48,4 @@ Echo is NOT recommended for:
 
 ## References
 
-- [Bonow RO et. al.2008 focused update incorporated into the ACC/AHA 2006 guidelines for the management of patients with valvular heart disease: a report of the American College of Cardiology/American Heart Association Task Force on Practice Guidelines (Writing Committee to revise the 1998 guidelines for the management of patients with valvular heart disease). Endorsed by the Society of Cardiovascular Anesthesiologists, Society for Cardiovascular Angiography and Interventions, and Society of Thoracic Surgeons.J Am Coll Cardiol. 2008 Sep 23;52(13):e1-142.](http://www.ncbi.nlm.nih.gov/pubmed/?term=18848134)
+- Bonow RO et. al.2008 focused update incorporated into the ACC/AHA 2006 guidelines for the management of patients with valvular heart disease: a report of the American College of Cardiology/American Heart Association Task Force on Practice Guidelines (Writing Committee to revise the 1998 guidelines for the management of patients with valvular heart disease). Endorsed by the Society of Cardiovascular Anesthesiologists, Society for Cardiovascular Angiography and Interventions, and Society of Thoracic Surgeons.J Am Coll Cardiol. 2008 Sep 23;52(13):e1-142. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=18848134)]

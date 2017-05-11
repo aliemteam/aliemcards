@@ -1,14 +1,37 @@
-.announcements
+@require './variables'
+
+.announcement
     margin: $block-margins
     margin-top: $block-margin*-1
-    padding: 1em 3em
+    padding: 20px 0
     background-color: $light-gray
     color: $dark-gray
 
-    h2
-        color: $primary
-        border: 0
-        margin-bottom: 0
-        font-size: 1.3em
-        padding-right: 1em
-        display: inline
+.announcement_content
+    margin: auto
+    padding: 0 20px
+    width: 100%
+    max-width: $container-max-width
+
+.announcement_dismiss
+    display: inline-block
+    position: relative
+    font-weight: bold
+    font-size: .9em
+    color: $primary
+    float: right
+    &:hover
+        color: $primary-shade
+    &::before
+        content: '✕'
+        position: absolute
+        left: -5px
+        font-size: .8em
+        top: 4px
+
+.announcement_heading
+    color: $primary
+    border: 0
+    margin-bottom: 0
+    font-size: 1.3em
+    padding-right: 10px

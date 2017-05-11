@@ -1,21 +1,19 @@
 ---
-
 title: Elbow Injuries - Supracondylar Fractures Extension
 authors:
     - Melody Glenn, MD
     - Andrew Little, DO
     - Mary Haas, MD
 created: 2016/12/12
-updates: null
+updates:
 categories:
     - Peer Reviewed
     - Orthopedics
-
 ---
 
 # Elbow Injuries: Supracondylar Fractures Extension
 
-![](image-1.png)
+![Type 1 through 3 supracondylar extension fractures](image-1.png)
 
 ## X-ray views
 
@@ -52,7 +50,7 @@ Extension more common in children.
 
 ## References
 
-- [Wheeless’ Textbook of Orthopaedics] (http://Wheelessonline.com)
-- [Orthobullets] (http://OrthoBullets.com)
-- [Radiopaedia] (http://Radiopaedia.org)
+- Wheeless’ Textbook of Orthopaedics  [[Source](http://Wheelessonline.com)]
+- Orthobullets  [[Source](http://OrthoBullets.com)]
+- Radiopaedia  [[Source](http://Radiopaedia.org)]
 - General Guidelines For Management for Orthopedic Injuries card by the Nationwide Children’s Hospital, Dept of Orthopedics.

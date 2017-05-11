@@ -1,10 +1,9 @@
 ---
-
 title: Supratherapeutic INR
 authors:
     - Michelle Lin, MD
 created: 2012/08/10
-updates: null
+updates:
 categories:
     - Hematology and Oncology
 ---
@@ -13,10 +12,10 @@ categories:
 
 **ACCP treatment guidelines for managing supratherapeutic INR (2012, 9th ed)**
 
-|   **INR**   | **Therapeutic Intervention**                                                                                                                                                                                                                  |
-| :---------: | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|     ≤10     | **_If no bleeding:_** Hold <span class="drug">coumadin</span>. Restart when INR is therapeutic                                                                                                                                                |
-|     >10     | **_If no bleeding:_** Hold <span class="drug">coumadin</span>. Give oral <span class="drug">vitamin K</span> (2.5 mg)                                                                                                                         |
+|         INR | Therapeutic Intervention                                                                                                                                                                                                                      |
+| ----------: | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|      &le;10 | **_If no bleeding:_** Hold <span class="drug">coumadin</span>. Restart when INR is therapeutic                                                                                                                                                |
+|      &gt;10 | **_If no bleeding:_** Hold <span class="drug">coumadin</span>. Give oral <span class="drug">vitamin K</span> (2.5 mg)                                                                                                                         |
 | Major bleed | Hold <span class="drug">coumadin</span>. Give <span class="drug">vitamin K</span> (5-10 mg slow IVP), 4-factor <span class="drug">PCC</span> (<span class="drug">FFP</span> not of added benefit with 4-factor <span class="drug">PCC</span>) |
 
 **Higher bleeding risk associated with coumadin**
@@ -90,5 +89,5 @@ categories:
 
 ## References
 
-- [Hylek EM, Heiman H, Skates SJ, Sheehan MA, Singer DE. Acetaminophen and other risk factors for excessive warfarin anticoagulation. JAMA. 1998 Mar 4;279(9):657-62](https://www.ncbi.nlm.nih.gov/pubmed/9496982)
-- [Holbrook A, Schulman S, Witt DM, Vandvik PO, Fish J, Kovacs MJ, Svensson PJ, Veenstra DL, Crowther M, Guyatt GH; American College of Chest Physicians.Evidence-based management of anticoagulant therapy: Antithrombotic Therapy and Prevention of Thrombosis, 9th ed: American College of Chest Physicians Evidence-Based Clinical Practice Guidelines.Chest. 2012 Feb;141(2 Suppl):e152S-84S. doi: 10.1378/chest.11-2295.](https://www.ncbi.nlm.nih.gov/pubmed/22315259)
+- Hylek EM, Heiman H, Skates SJ, Sheehan MA, Singer DE. Acetaminophen and other risk factors for excessive warfarin anticoagulation. JAMA. 1998 Mar 4;279(9):657-62 [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/9496982)]
+- Holbrook A, Schulman S, Witt DM, Vandvik PO, Fish J, Kovacs MJ, Svensson PJ, Veenstra DL, Crowther M, Guyatt GH; American College of Chest Physicians.Evidence-based management of anticoagulant therapy: Antithrombotic Therapy and Prevention of Thrombosis, 9th ed: American College of Chest Physicians Evidence-Based Clinical Practice Guidelines.Chest. 2012 Feb;141(2 Suppl):e152S-84S. doi: 10.1378/chest.11-2295. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/22315259)]

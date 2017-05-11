@@ -6,7 +6,7 @@ authors:
    - Andrew Little, DO
    - Mary Haas, MD
 created: 2016/12/12
-updates: null
+updates:
 categories:
    - Peer Reviewed
    - Orthopedics
@@ -15,7 +15,7 @@ categories:
 
 # Elbow Injuries: Epicondylitis, Lateral or Medial
 
-![](image-1.png)
+![Epicondylitis drawing](image-1.png)
 
 ## Xray Views
 **No XRs:** A clinical diagnosis.
@@ -44,7 +44,7 @@ Routine follow up with primary care physician.
 - Associated with ulnar neuropathy and ulnar collateral ligament insufficiency
 
 ## References
-- [Wheeless’ Textbook of Orthopaedics](http://Wheelessonline.com)
-- [Orthobullets](http://OrthoBullets.com)
-- [Radiopaedia](http://Radiopaedia.org)
+- Wheeless’ Textbook of Orthopaedics [[Source](http://Wheelessonline.com)]
+- Orthobullets [[Source](http://OrthoBullets.com)]
+- Radiopaedia [[Source](http://Radiopaedia.org)]
 - General Guidelines For Management for Orthopedic Injuries card by the Nationwide Children’s Hospital, Dept of Orthopedics.

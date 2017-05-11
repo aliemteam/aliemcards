@@ -5,7 +5,7 @@ authors:
     - Trevor Wilson, MD
     - Beth Kaplan, MD
 created: 2013/07/31
-updates: null
+updates:
 categories:
     - Trauma
 ---
@@ -59,5 +59,5 @@ Define safety plan for discharge.
 
 ## References
 
-- [Ashur ML. Asking about violence: SAFE questions. JAMA 1993.](http://www.ncbi.nlm.nih.gov/pubmed/?term=8479058)
-- [Moyer VA, US Preventative Serv Task Force. Ann Intern Med 2013](http://www.ncbi.nlm.nih.gov/pubmed/?term=23338828)
+- Ashur ML. Asking about violence: SAFE questions. JAMA 1993. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=8479058)]
+- Moyer VA, US Preventative Serv Task Force. Ann Intern Med 2013 [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=23338828)]

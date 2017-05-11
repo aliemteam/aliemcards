@@ -5,7 +5,7 @@ authors:
     - Nick Koch, MD
     - Sergey Motov, MD
 created: 2015/10/23
-updates: null
+updates:
 categories:
     - Pharmacology
 ---

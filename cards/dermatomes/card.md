@@ -4,14 +4,14 @@ title: Dermatomes and Myotomal Maps
 authors:
     - Michelle Lin, MD
 created: 2013/05/26
-updates: null
+updates:
 categories:
     - Orthopedics
 ---
 
 # Dermatomes and Myotomal Maps
 
-![](image-1.png)
+![Dermatome map diagram](image-1.png)
 
 ## Testing Motor Function by Level
 
@@ -33,4 +33,4 @@ categories:
 
 ## References
 
-1. ["Dermatomes Anatomy: Overview, Gross Anatomy, Natural Variants". Emedicine.medscape.com. N.p., 2017. Web. 24 Mar. 2017.](http://emedicine.medscape.com/article/1878388-overview)
+1. "Dermatomes Anatomy: Overview, Gross Anatomy, Natural Variants". Emedicine.medscape.com. N.p., 2017. Web. 24 Mar. 2017. [[Source](http://emedicine.medscape.com/article/1878388-overview)]

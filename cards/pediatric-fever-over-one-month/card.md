@@ -1,5 +1,4 @@
 ---
-
 title: Pediatric Fever Without a Source - Infant
 authors:
     - Hemal Kanzaria, MD
@@ -8,7 +7,7 @@ authors:
     - Ellen Laves, MD
     - Michelle Lin, MD
 created: 2012/02/09
-updates: null
+updates:
 categories:
     - Pediatrics
 ---
@@ -17,7 +16,7 @@ categories:
 
 Age: 29 days to 3 months old
 
-Fever defined as temperature **≥ 38°C / 100.4 °F** (rectal)
+Fever defined as temperature **&ge; 38°C / 100.4 °F** (rectal)
 
 Viral URI symptoms do NOT count as a fever source in this age group. 
 
@@ -76,8 +75,8 @@ Labs
 
 - WBC 5K-15K
 - Absolute band count &lt;1.5K
-- Urine ≤10 WBC/hpf
-- Stool ≤5 WBC/hpf
+- Urine &le;10 WBC/hpf
+- Stool &le;5 WBC/hpf
 
 ### Philadelphia Criteria
 
@@ -153,10 +152,10 @@ Generally accepted workup includes:
 - Options for management:
 
   - No antibiotics and close follow-up in 24 hrs
-  - **<span class="drug">Ceftriaxone</span>** IV/IM after LP with close follow-up in 24 hrs
+  - <span class="drug">Ceftriaxone</span> IV/IM after LP with close follow-up in 24 hrs
 
 **High risk infant:** Admit to hospital for **<span class="drug">ceftriaxone</span> IV/IM** and closer observation
 
 ## References
 
-- [Ishimine P, The evolving approach to the young child who has fever and no obvious source, Emerg Med Clin North Am. 2007 Nov;25(4):1087-115, vii.](http://www.ncbi.nlm.nih.gov/pubmed/17950137)
+- Ishimine P, The evolving approach to the young child who has fever and no obvious source, Emerg Med Clin North Am. 2007 Nov;25(4):1087-115, vii. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/17950137)]

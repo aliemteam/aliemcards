@@ -1,21 +1,19 @@
 ---
-
 title: Elbow Injuries - Radial Head Subluxation (Nursemaids Elbow)
 authors:
    - Melody Glenn, MD
    - Andrew Little, DO
    - Mary Haas, MD
 created: 2016/12/12
-updates: null
+updates:
 categories:
    - Peer Reviewed
    - Orthopedics
-
 ---
 
 # Elbow Injuries: Radial Head Subluxation
 
-![](image-1.png)
+![Radial head subluxation drawing](image-1.png)
 
 ## X-ray Views
 
@@ -45,7 +43,7 @@ Routine follow-up with pediatrician.
 
 ## References
 
-- [Wheeless’ Textbook of Orthopaedics](http://Wheelessonline.com)
-- [Orthobullets](http://OrthoBullets.com)
-- [Radiopaedia](http://Radiopaedia.org)
+- Wheeless’ Textbook of Orthopaedics [[Source](http://Wheelessonline.com)]
+- Orthobullets [[Source](http://OrthoBullets.com)]
+- Radiopaedia [[Source](http://Radiopaedia.org)]
 - General Guidelines For Management for Orthopedic Injuries card by the Nationwide Children’s Hospital, Dept of Orthopedics.

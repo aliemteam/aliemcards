@@ -4,7 +4,7 @@ title: ECG Right and Posterior Leads
 authors:
     - Michelle Lin, MD
 created: 2011/03/11
-updates: null
+updates:
 categories:
     - Cardiovascular
     - ECG
@@ -14,7 +14,7 @@ categories:
 
 ## Right Sided ECG Leads
 
-**![](image-1.png)**
+![Right sided ECG lead placement diagram](image-1.png)
 
 Right sided ECG leads (V1R-V6R) are positioned in a mirror image fashion to the standard 12-lead precordial leads.
 
@@ -22,7 +22,7 @@ Right sided ECG leads (V1R-V6R) are positioned in a mirror image fashion to the 
 - RV infarcts usually associated with inferior wall AMI
 - **Indications**: 2004 ACC/AHA guidelines state to get a **right-sided ECG** in setting of **inferior AMI** (ST elevation in II, III, AVF)
 
-![](image-2.png)
+![Example ECG showing an inferior wall MI](image-2.png)
 
 Hints of an associated RV infarct:
 
@@ -33,7 +33,7 @@ Hints of an associated RV infarct:
 
 ## Posterior ECG leads
 
-![](image-3.png)
+![Posterior ECG lead placement diagram](image-3.png)
 
 **Posterior ECG leads (V7-V9)** are applied by moving V4-V6 to under the left scapula.
 
@@ -44,7 +44,7 @@ Hints of an associated RV infarct:
 - STD in V1-V3, or 
 - R/S amplitude ratio in V1 or V2 is >1 
 
-![](image-4.png)
+![ST depression in leads V1-V3](image-4.png)
 
 Hints of an associated posterior infarct:
 
@@ -53,5 +53,5 @@ Hints of an associated posterior infarct:
 
 ## References
 
-- [Edhouse J, Brady WJ, Morris F. ABC of clinical electrocardiography: Acute myocardial infarction-Part II. BMJ. 2002; 324: 963-6.](https://doi.org/10.1136/bmj.324.7343.963)
-- [Van Gorselen EO, Verheugt FW, Meursing BT, Oude Ophuis AJ. Posterior myocardial infarction: the dark side of the moon. Neth Heart J. 2007; 15: 16-21.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1847720/)
+- Edhouse J, Brady WJ, Morris F. ABC of clinical electrocardiography: Acute myocardial infarction-Part II. BMJ. 2002; 324: 963-6. [[Source](https://doi.org/10.1136/bmj.324.7343.963)]
+- Van Gorselen EO, Verheugt FW, Meursing BT, Oude Ophuis AJ. Posterior myocardial infarction: the dark side of the moon. Neth Heart J. 2007; 15: 16-21. [[PubMed](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1847720/)]

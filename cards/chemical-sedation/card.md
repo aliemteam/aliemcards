@@ -4,7 +4,7 @@ title: Chemical Sedation - Haldoperidol vs. Lorazepam vs. Midazolam
 authors:
     - Michelle Lin, MD
 created: 2011/03/25
-updates: null
+updates:
 categories:
     - Pharmacology
 ---
@@ -55,4 +55,4 @@ Patients required “rescue drugs”, which were additional sedation medications
 
 ## References
 
-- [Nobay F et al. A Prospective, Double-blind, Randomized Trial of Midazolam versus Haloperidol versus Lorazepam in the Chemical Restraint of Violent and Severely Agitated Patients . Acad Emerg Med. 2004; 11:747-9.](https://www.ncbi.nlm.nih.gov/pubmed/?term=15231461)
+- Nobay F et al. A Prospective, Double-blind, Randomized Trial of Midazolam versus Haloperidol versus Lorazepam in the Chemical Restraint of Violent and Severely Agitated Patients . Acad Emerg Med. 2004; 11:747-9. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=15231461)]
