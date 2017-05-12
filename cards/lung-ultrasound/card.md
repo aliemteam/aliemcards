@@ -1,6 +1,6 @@
 ---
 
-title: Ultrasound: Focused Lung Assessment
+title: 'Ultrasound: Focused Lung Assessment'
 authors:
     - Anne Aspler, MD
     - Clare Heslop, MD
