@@ -64,12 +64,12 @@ Coronary artery aneurysms/ ectasis
 3. Check for classic findings
 4. Supplemental lab criteria
 
-  - Albumin &le;3.0 g/dL
-  - Anemia for age
-  - Elevation of ALT
-  - Platelets after 7 d &ge;450,000/mm3
-  - WBC &ge;15,000/mm3
-  - Urine &ge;10 WBC/hpf
+- Albumin &le;3.0 g/dL
+- Anemia for age
+- Elevation of ALT
+- Platelets after 7 d &ge;450,000/mm3
+- WBC &ge;15,000/mm3
+- Urine &ge;10 WBC/hpf
 
 5. Can treat before performing echocardiogram
 6. Echo is considered positive for purposes of this algorithm, if any of 3 conditions met: 
