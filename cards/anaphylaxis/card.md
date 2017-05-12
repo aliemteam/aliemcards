@@ -48,17 +48,16 @@ categories:
 
 2. Two or more of the following that occur rapidly after exposure to likely allergen:
 
-   1. Involvement of skin-mucosal tissue: hives, itching, flushing
-   2. Respiratory compromise: shortness of breath, wheezing, stridor, hypoxema, reduced PEF
-   3. Reduced BP or associated dx: hypotonia, syncope, incontinence
-   4. Persistent GI sx: cramping, abdominal pain, vomiting
+   - Involvement of skin-mucosal tissue: hives, itching, flushing
+   - Respiratory compromise: shortness of breath, wheezing, stridor, hypoxema, reduced PEF
+   - Reduced BP or associated dx: hypotonia, syncope, incontinence
+   - Persistent GI sx: cramping, abdominal pain, vomiting
 
 3. Reduced BP after exposure to known allergen
 
    - Infants/children: Low SBP (age specific) or > 30% decrease in SBP
-
-   - Age 1 mo - 1 yr: SBP &lt; 70 mmHg
-   - Age 1 yr - 10 yr: SBP &lt; 70 mmHg + [2 x age]
+     - Age 1 mo - 1 yr: SBP &lt; 70 mmHg
+     - Age 1 yr - 10 yr: SBP &lt; 70 mmHg + [2 x age]
 
    - Adults: SBP &lt;90 mmHg or >30% decrease in person's baseline
 

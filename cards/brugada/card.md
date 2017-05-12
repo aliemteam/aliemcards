@@ -4,7 +4,8 @@ title: Brugada Syndrome
 authors:
     - Michelle Lin, MD
 created: 2011/05/06
-updates:
+updates: 
+    - 2017/05/10
 categories:
     - Cardiovascular
 ---
@@ -17,7 +18,7 @@ categories:
 - Higher prevalence in males and Asian descent
 - Atrial fibrillation associated in 10-20% cases
 
-## EKG findings
+## ECG findings
 
 - 3 types
 - Type 1 – Most specific for Brugada Syndrome
@@ -41,13 +42,13 @@ categories:
 
 ## Treatment
 
-**Indications for implantable cardiac defibrillator**
+### Indications for implantable cardiac defibrillator
 
 **Brugada Type 1 PLUS one of following:**
 
 - Aborted sudden cardiac death
 - Syncope, seizure, or noctural agonal respirations without alternative cause
-- Family hx of sudden cardiac death (likely from Brugada) AND positive electrophysiology (EPS) study 
+- Family history of sudden cardiac death (likely from Brugada) AND positive electrophysiology (EPS) study 
 - A positive EPS study
 
 Otherwise, close followup with cardiologist.

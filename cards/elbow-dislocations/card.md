@@ -8,7 +8,6 @@ authors:
 created: 2016/12/12
 updates:
 categories:
-    - Peer Reviewed
     - Orthopedics
 
 ---
