@@ -21,14 +21,17 @@ categories:
 
 **Windows:** Visualize the eye in 2 planes:
 
-1. **Longitudinal View** 
-  - Commence at the midline of the eye. 
-  - The directional indicator is oriented towards the vertex of the skull. 
-  - Stabilize the transducer by resting your hand against the bridge of the patient’s nose or eyebrow, taking care not to apply any more pressure to the globe than is necessary to obtain adequate contact. 
-  - The transducer should be ‘fanned’ from left to right to visualize the entire globe.
+1. **Longitudinal View**
+
+    - Commence at the midline of the eye. 
+    - The directional indicator is oriented towards the vertex of the skull. 
+    - Stabilize the transducer by resting your hand against the bridge of the patient’s nose or eyebrow, taking care not to apply any more pressure to the globe than is necessary to obtain adequate contact. 
+    - The transducer should be ‘fanned’ from left to right to visualize the entire globe.
+
 2. **Transverse View** 
-  - Rotate the transducer 90 degrees, with the directional indicator oriented towards the patient’s right, and visualize the globe in a second plane. 
-  - The transducer should be ‘fanned’ up and down in order to properly visualize all structures of the eye.
+
+    - Rotate the transducer 90 degrees, with the directional indicator oriented towards the patient’s right, and visualize the globe in a second plane. 
+    - The transducer should be ‘fanned’ up and down in order to properly visualize all structures of the eye.
 
 **Tip:** The contralateral, or ‘unaffected’ eye may be scanned in an identical manner to compare ocular anatomy.
 

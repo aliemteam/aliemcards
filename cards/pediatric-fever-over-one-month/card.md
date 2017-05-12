@@ -24,7 +24,7 @@ Viral URI symptoms do NOT count as a fever source in this age group. 
 
 History and physical are not reliable to rule-out serious bacterial infection
 
-### Serious bacterial infections include:
+### Serious bacterial infections include
 
 - Urinary tract infection (up to 15%)
 - Bacteremia (1%)
@@ -122,15 +122,15 @@ Labs
 - CSF &lt;10 WBC/hpf
 - CXR: no infiltrate
 
-## All recommend mimum workup:
+## All recommend the following minimum workup
 - CBC
 - Catheterized UA
 - Urine culture
 
 ## Is further workup or antibiotics indicated?
 
-| **Criteria**  |   **Blood Culture**  |      **CXR**      |         **LP**        | **Abx** |
-| ------------- | :-------------------: | :---------------: | :-------------------: | :-----: |
+| **Criteria**  |   **Blood Culture**   |      **CXR**      |         **LP**        | **Abx** |
+| :------------ | :-------------------: | :---------------: | :-------------------: | :-----: |
 | Rochester     | If abnormal serum WBC | If respiratory sx | If abnormal serum WBC |    No   |
 | Philadelphia  |        Required       |      Required     |        Required       |    No   |
 | Boston        |        Required       | If respiratory sx |        Required       |   Yes   |

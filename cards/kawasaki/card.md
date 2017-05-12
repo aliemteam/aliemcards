@@ -19,16 +19,21 @@ Acute, self-limited vasculitis of unknown etiology that occursmostly in infants 
 
 1. **Fever for &ge; 5 days**, AND
 2. At least **4** of the 5 following:
+
     - Bilateral bulbar nonexudative conjunctivitis
     - Cervical lymphadenopathy (> 1.5 cm diameter), usually unilateral
     - Changes in lips and oral cavity
+
       - Erythema
       - Lip cracking
       - Strawberry tongue
       - Diffuse injection of oral/pharyngeal mucosae
+
     - Changes in extremities
+
       - Acute: Erythema of palms or soles; edema of hands or feet
       - Subacute: Periungual peeling of fingers or toes in weeks #2-3 
+      
     - Polymorphous rash
 
 ![Signs of Kawasaki Disease drawing](image-1.png)

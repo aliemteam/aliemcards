@@ -18,6 +18,7 @@ categories:
 4. Draw a line between LA Agent & Concentration (left) to patient´s IBW (right).
 5. Where this line intersects “Max Volume” (center) is the maximum dose (mL) that can be safely administered to the patient.
 6. These numbers assume that the toxic levels are:
+
     - <span class="drug">Bupivacaine</span> = 2 mg/kg
     - <span class="drug">Lidocaine</span> = 3 mg/kg
     - <span class="drug">Lidocaine</span> + “Ad”renaline (<span class="drug">Epinephrine</span>) = 6 mg/kg

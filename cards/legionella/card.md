@@ -63,7 +63,7 @@ Extrapulmonary organ involvement:
 ## Legionella Diagnostic Triad ([Cunha et al.](http://www.ncbi.nlm.nih.gov/pubmed/?term=20457348))
 
 | **Need All 3 Criteria**  | **Key Clinical Feature**                      | **Key Lab Features (Any 3)** |
-| ------------------------ | --------------------------------------------- | ---------------------------- |
+| :----------------------- | :-------------------------------------------- | :--------------------------- |
 | Signs/sx of CAP          | T >102F with unexplained relative bradycardia | Hypophophatemia              |
 | New infiltrate on CXR    |                                               | Ferritin> 2x normal          |
 | No zoonotic contact hx   |                                               | Mild transaminitis           |
