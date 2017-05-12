@@ -1,5 +1,5 @@
 ---
-title: Focused 1st Trimester Pregnancy Transabdominal Ultrasound
+title: Ultrasound - Focused 1st Trimester Pregnancy, Transabdominal Exam
 authors:
     - Matt Lipton, MD
     - Mike Mallin, MD
@@ -92,6 +92,5 @@ Figure 3: **Empty fluid-filled sac** within the endometrium. Given the absence o
 
 ## References
 
-- Wang R., et al. _Annals of Emerg Med,_ 2011. PMID: 21310509 [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=Use+of+a+%CE%B2-hCG+discriminatory+zone+with+bedside+pelvic+ultrasonography.)]
-
+- Wang R, et al. _Ann Emerg Med,_ 2011. PMID: 21310509 [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=Use+of+a+%CE%B2-hCG+discriminatory+zone+with+bedside+pelvic+ultrasonography.)]
 - Tayal VS, et al. _Acad Emerg Med,_ 2004. PMID: 15347539 [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/15347539)]

@@ -1,5 +1,5 @@
 ---
-title: Focused Biliary Assessment
+title: Ultrasound - Focused Biliary Assessment
 authors:
     - John Eicken, MD
     - Mike Stone, MD
@@ -23,33 +23,33 @@ categories:
 
 Figure 1: Transducer positions for gallbladder scan. A: Intercostal, B: Subcostal, C: Lateral. Green line = costal margin. X = xiphoid process.
 
-1. **Intercostal:** 
+**1. Intercostal View** 
 
 - Anatomic landmarks: Right midclavicular line at the level of the xiphoid process
 - Initial transducer orientation: Transverse with marker towards the patient’s right
 
-2. **Subcostal:** 
+**2. Subcostal View** 
 
 - Anatomic landmarks: Right midclavicular line just below the costal margin
 - Initial transducer orientation: Sagittal with marker towards the patient’s head
 
-3. **Lateral:** 
+**3. Lateral View** 
 
 - Anatomic landmarks: Right mid or anterior axillary line at the level of the xiphoid process
 - Initial transducer orientation: Sagittal with marker towards the patient’s head
 
-\*All examinations should include evaluation of the key structures in two orthogonal (perpendicular) planes
+_All examinations should include evaluation of the key structures in 2 orthogonal (perpendicular) planes_
 
 ## Normal Reference Measurements
 
-1. **Gallbladder wall &le;3 mm** (measure at near-field/superficial wall in longitudinal view)
+**1. Gallbladder wall &le;3 mm** (measure at near-field/superficial wall in longitudinal view)
 
 - **Differential Diagnosis if >3 mm**: 
   - Cholecystitis, heart failure, nephrotic syndrome, hypoalbuminemia, HIV/AIDS, tuberculosis, renal failure, ascites, acute hepatitis, adenomyomatosis, multiple myeloma
 
-2. **Common bile duct &le;5 mm** (can dilate after cholecystectomy & with advanced age) 
+**2. Common bile duct &le;5 mm** (can dilate after cholecystectomy & with advanced age) 
 
-- Should be measured from inner wall to inner wall.
+- Should be measured from inner wall to inner wall
 
 ## Cholelithiasis
 
@@ -76,15 +76,15 @@ Figure 3: Acute cholecystitis. Note the gallstones with shadowing, pericholecyst
 
 ## Struggling with the Exam?
 
-**Can’t find the gallbladder?**
+### Can’t find the gallbladder?
 
 - Have the patient sit up and roll onto their left side to improve visualization. Try having the patient take a deep breath and hold it.
 
-**Can’t find the common bile duct (CBD)?**
+### Can’t find the common bile duct (CBD)?
 
 - From the intercostal window, identify the gallbladder in a short axis. Slowly angle the ultrasound beam towards the patient’s head, passing all the way through the gallbladder and continuing upwards. The CBD will be seen in a long axis, just superficial to the portal vein. Use color Doppler to distinguish the CBD from the hepatic artery and portal vein.
 
-**Rib shadows obstructing view?**
+### Rib shadows obstructing view?
 
 - Try rotating the probe obliquely to mirror the angle of the intercostal space. If unsuccessful, you can ask the patient to take and hold a deep breath to bring the gallbladder below the ribs.
 
@@ -99,5 +99,5 @@ Figure 3: Acute cholecystitis. Note the gallstones with shadowing, pericholecyst
 
 ## References
 
-- Summers SM et al. _Annals of Emerg Med,_ 2010. PMID: 20138397 [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/20138397)]
+- Summers SM et al. _Ann Emerg Med,_ 2010. PMID: 20138397 [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/20138397)]
 - Blaivas M. et al. _Acad Emerg Med,_ 1999. PMID: 10530660 [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/10530660)]

@@ -19,7 +19,7 @@ categories:
 | Ca (mEq)            |                 3 |                       |                 |      |          |                |
 | Mg (mEq)            |                   |                       |               3 |      |          |                |
 | Lactate (mEq)       |                28 |                       |                 |      |          |                |
-| Acetate (mEq        |                   |                       |              27 |      |          |                |
+| Acetate (mEq)       |                   |                       |              27 |      |          |                |
 | Gluconate (mEq)     |                   |                       |              23 |      |          |                |
 | Glucose (mg/dL)     |                   |                       |                 | 4545 |     4545 |                |
 | Osmolarity (mOsm/L) |               273 |                   308 |             294 |  252 |      406 |            309 |
@@ -38,11 +38,12 @@ categories:
 | Incidence of injury & failure class for "acute kidney injury" (RIFLE defn) |                                14% |                                8.4% | &lt;0.001 |                                     0.52 |
 | Use of renal replacement therapy (RRT)                                     |                                10% |                                6.3% |     0.005 |                                     0.52 |
 
-**Bottom line:** Chloride-rich IV fluids were associated with greater acute kidney injury and need for RRT in ICU patients, compared to chloride-restrictive IV fluids. 
+**Bottom line:** 
+
+Chloride-rich IV fluids were associated with greater acute kidney injury and need for RRT in ICU patients, compared to chloride-restrictive IV fluids. 
 
 **NOTE:** There was, however, NO difference in mortality, hospital, ICU length of stay, or RRT after hospital discharge.
 
 ## References
 
-- Yunos NM, Bellomo R, Hegarty C, Story D, Ho L, Bailey M. Association between a chloride-liberal vs chloride-restrictive intravenous fluid administration strategy and kidney injury in critically ill adults. JAMA. 2012 Oct 17;308(15):1566-72. doi: 10.1001/jama.2012.13356. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=23073953)]
-- http://www.medscape.org/viewarticle/503138 [[Source](http://www.medscape.org/viewarticle/503138%20)]
+- Yunos NM, Bellomo R, Hegarty C, Story D, Ho L, Bailey M. Association between a chloride-liberal vs chloride-restrictive intravenous fluid administration strategy and kidney injury in critically ill adults. JAMA. 2012 Oct 17;308(15):1566-72. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=23073953)]
