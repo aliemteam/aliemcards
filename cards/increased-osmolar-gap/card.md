@@ -1,10 +1,9 @@
 ---
-
 title: Approach to Increased Osmolar Gap
 authors:
     - Michelle Lin, MD
 created: 2012/06/01
-updates: null
+updates:
 categories:
     - Toxicology
 ---
@@ -15,7 +14,7 @@ categories:
 
 **Serum osmolality:** Contributed by ions and low-molecular-weight solutes
 
-![](image-1.png)
+![Serum osmolality = (2Na) + (BUN/2.8) + (Glucose/18) + (Ethanol/4.6)](image-1.png)
 
 **Osmolal gap = Calculated osmolality – Measured osmolality**
 
@@ -32,8 +31,8 @@ categories:
   - Ethylene glycol
   - Propylene glycol
   - Diethylene glycol
-- A gap ≥ 20 suggests ethanol or toxic alcohol exposure
-  - Although case reports of diabetic ketoacidosis causing osmolal gap ≥ 20
+- A gap &ge; 20 suggests ethanol or toxic alcohol exposure
+  - Although case reports of diabetic ketoacidosis causing osmolal gap &ge; 20
 
 **Toxic alcohols**
 
@@ -79,4 +78,4 @@ Toxic alcohols may not cause significant osmolal gap because:
 
 ## References
 
-- [Kraut JA, Xing SX. Approach to the evaluation of a patient with an increased serum osmolal gap and high-anion-gap metabolic acidosis. Am J Kidney Dis. 2011 Sep;58(3):480-4. doi: 10.1053/j.ajkd.2011.05.018. Epub 2011 Jul 27.](https://www.ncbi.nlm.nih.gov/pubmed/?term=21794966)
+- Kraut JA, Xing SX. Approach to the evaluation of a patient with an increased serum osmolal gap and high-anion-gap metabolic acidosis. Am J Kidney Dis. 2011 Sep;58(3):480-4. doi: 10.1053/j.ajkd.2011.05.018. Epub 2011 Jul 27. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=21794966)]

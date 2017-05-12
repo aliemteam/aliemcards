@@ -54,7 +54,6 @@ export default class Header extends React.PureComponent<Props, State> {
               <li><Link to="/cards" onClick={this.handleClick}>Cards</Link></li>
               <li><Link to="/categories" onClick={this.handleClick}>Categories</Link></li>
               <li><Link to="/about" onClick={this.handleClick}>About</Link></li>
-              <li><Link to="/contact" onClick={this.handleClick}>Contact</Link></li>
             </ul>
           </nav>
         </div>

@@ -1,5 +1,4 @@
 ---
-
 title: Acute Bronchiolitis Management
 authors:
     - Michelle Lin, MD
@@ -61,7 +60,7 @@ Discharge home if patient meets following criteria.
 
 ### Discharge Criteria (must meet all requirements)
 
-1. O<sub>2</sub> saturation ≥ 90% while awake
+1. O<sub>2</sub> saturation &ge; 90% while awake
 2. No more than mild/moderate respiratory distress
 3. Ability to maintain hydration
 4. Ability to obtain reliable follow-up care
@@ -76,8 +75,8 @@ Consider the following adjunct therapies
 - Nebulized epinepherine
 - Manage as appropriate to clinical findings
 
-![](image-1.png)
+![Acute bronchiolitis workup pathway](image-1.png)
 
 ## References
 
-1. [Ralston S, Lieberthal A, Meissner H, et al. Clinical practice guideline: the diagnosis, management, and prevention of bronchiolitis. Pediatrics. 2014;134(5):e1474-502.](https://www.ncbi.nlm.nih.gov/pubmed/25349312)
+1. Ralston S, Lieberthal A, Meissner H, et al. Clinical practice guideline: the diagnosis, management, and prevention of bronchiolitis. Pediatrics. 2014;134(5):e1474-502. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/25349312)]

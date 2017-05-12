@@ -1,5 +1,4 @@
 ---
-
 title: Fever Without a Source - neonate
 authors:
     - Hemal Kanzaria, MD
@@ -8,7 +7,7 @@ authors:
     - Ellen Laves, MD
     - Michelle Lin, MD
 created: 2012/02/02
-updates: null
+updates:
 categories:
     - Pediatrics
     - Infectious Disease
@@ -16,8 +15,8 @@ categories:
 
 # Pediatric Fever Without a Source: Birth - 28 Days Old
 
-- Age ≤ 28 days (be more conservative for premature infants)
-- Fever defined as temperature ≥ 38°C / 100.4°F (rectal)
+- Age &le; 28 days (be more conservative for premature infants)
+- Fever defined as temperature &ge; 38°C / 100.4°F (rectal)
 - Viral URI symptoms do NOT count as a fever source in this age group.
 - **Disposition:** ADMIT all of these patients to the hospital.
 
@@ -65,7 +64,7 @@ History and physical are not reliable to rule-out serious bacterial infection (S
 
 ## Treatment
 
-Timely administration of IV antibiotics (**<span class="drug">Ampicillin</span>** + **<span class="drug">Cefotaxime</span>**, or **<span class="drug">Ampicillin</span>** + **<span class="drug">Gentamicin</span>**). May give IM, if IV not possible (**<span class="drug">Cefotaxime</span>** more consistently absorbed IM than **<span class="drug">Gentamicin</span>**).
+Timely administration of IV antibiotics (<span class="drug">Ampicillin</span> + <span class="drug">Cefotaxime</span>, or <span class="drug">Ampicillin</span> + <span class="drug">Gentamicin</span>). May give IM, if IV not possible (<span class="drug">Cefotaxime</span> more consistently absorbed IM than <span class="drug">Gentamicin</span>).
 
 Add **<span class="drug">Acyclovir</span>,** if any 1 of following:
 
@@ -84,4 +83,4 @@ _Note_: Disseminated HSV and HSV encephalitis may not present with rash
 
 ## References
 
-- [Ishimine P, The evolving approach to the young child who has fever and no obvious source, Emerg Med Clin North Am. 2007 Nov;25(4):1087-115, vii.](http://www.ncbi.nlm.nih.gov/pubmed/17950137)
+- Ishimine P, The evolving approach to the young child who has fever and no obvious source, Emerg Med Clin North Am. 2007 Nov;25(4):1087-115, vii. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/17950137)]

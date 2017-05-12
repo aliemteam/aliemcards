@@ -6,7 +6,7 @@ authors:
     - John Eicken, MD 
     - Mike Stone, MD
 created: 2014/09/14
-updates: null
+updates:
 categories:
     - Ultrasound
     - Radiology
@@ -21,7 +21,7 @@ categories:
 
 **Windows**:4 windows are obtained to perform a complete FAST exam (Fig 1)
 
-![](image-1.png)
+![Transducer positions and directional indicator orientation for the abdominal and cardiac views in the FAST exam](image-1.png)
 
 Figure 1: Transducer positions and directional indicator orientation (white dot) for the abdominal and cardiac views in the FAST exam
 
@@ -41,7 +41,7 @@ A meta-analysis of 62 studies including FAST exams of >18,000 patients revealed 
 - FAST is **POSITIVE** if anechoic free fluid identified in the hepatorenal recess—the potential space between liver and kidney (Fig 2).
 - Fluid cephalad to the diaphragm is in the thoracic cavity, and should raise concern for hemothorax in trauma.
 
-![](image-2.png)
+![Positive FAST in the RUQ view demonstrating echogenic clot in Morison’s pouch with adjacent anechoic free fluid](image-2.png)
 
 Figure 2: Positive FAST in the RUQ view demonstrating echogenic clot in Morison’s pouch with adjacent anechoic free fluid (\*).
 
@@ -54,7 +54,7 @@ Figure 2: Positive FAST in the RUQ view demonstrating echogenic clot in Morison�
 - FAST is **POSITIVE** if free fluid identified in either the splenorenal recess OR in the subdiaphragmatic space between the spleen and diaphragm
 - Fluid cephalad to the diaphragm is in the thoracic cavity, and should raise concern for hemothorax in trauma.
 
-![](image-3.png)
+![Positive FAST in LUQ view demonstrating large amount of complex free fluid below the diaphragm, despite a lack of fluid in the splenorenal recess](image-3.png)
 
 Figure 3: Positive FAST in LUQ view demonstrating large amount of complex free fluid (\*) below the diaphragm (yellow arrows), despite a lack of fluid in the splenorenal recess (green arrows).
 
@@ -103,6 +103,6 @@ Figure 3: Positive FAST in LUQ view demonstrating large amount of complex free f
 
 ## References
 
-- Durston W et al. _Ann of Surg_, 1998. PMID [9790345](mailto:http://www.ncbi.nlm.nih.gov/pubmed/9790345)
-- Stengel D et al. _Br J Surg_, 2001. PMID [11442520](http://www.ncbi.nlm.nih.gov/pubmed/11442520)
-- Stengel D et al. Radiology, 2005. PMID [15983072](http://www.ncbi.nlm.nih.gov/pubmed/15983072)
+- Durston W et al. _Ann of Surg_, 1998. PMID 9790345 [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/9790345)]
+- Stengel D et al. _Br J Surg_, 2001. PMID 11442520 [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/11442520)]
+- Stengel D et al. Radiology, 2005. PMID 15983072 [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/15983072)]

@@ -1,21 +1,18 @@
 ---
-
 title: Elbow Injuries - Supracondylar Fracture Flexion
 authors:
    - Melody Glenn, MD
    - Andrew Little, DO
    - Mary Haas, MD
 created: 2016/12/12
-updates: null
+updates:
 categories:
-   - Peer Reviewed
    - Orthopedics
-
 ---
 
 # Elbow Injuries: Supracondylar Fracture Flexion
 
-![](image-1.png)
+![Types 1 through 3 supracondylar flexion fractures](image-1.png)
 
 ## X-ray Views
 
@@ -28,7 +25,7 @@ Long arm posterior splint in position of comfort.
 
 ## Follow-up Timing
 
-**Type I:** Orthopedic follow up in ≤7 days
+**Type I:** Orthopedic follow up in &le;7 days
 **Displaced fracture:** Consult orthopedicsurgeon to discuss, because no evidence on best treatment plan for adults and children (closed reduction plus immobilization vs operative).
 
 ## Notes
@@ -46,7 +43,7 @@ Less common overall, more common in adults.
 
 ## References
 
-- [Wheeless’ Textbook of Orthopaedics] (http://Wheelessonline.com)
-- [Orthobullets] (http://OrthoBullets.com)
-- [Radiopaedia] (http://Radiopaedia.org)
+- Wheeless’ Textbook of Orthopaedics  [[Source](http://Wheelessonline.com)]
+- Orthobullets  [[Source](http://OrthoBullets.com)]
+- Radiopaedia  [[Source](http://Radiopaedia.org)]
 - General Guidelines For Management for Orthopedic Injuries card by the Nationwide Children’s Hospital, Dept of Orthopedics.

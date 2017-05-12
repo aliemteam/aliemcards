@@ -4,7 +4,7 @@ title: End-of-Shift Feedback
 authors:
     - David Thompson, MD
 created: 2011/12/09
-updates: null
+updates:
 categories:
     - Education and Policy
 ---

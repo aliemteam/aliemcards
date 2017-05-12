@@ -1,5 +1,7 @@
 import * as React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
+import Announcements from './components/Announcements';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import lazyLoad from './utils/LazyLoad';
@@ -33,25 +35,48 @@ const FourOhFour = lazyLoad(() => (
   System.import('./pages/404').then(module => module.default)
 ));
 
-const App = props => (
-  <div className="row row--stacked main">
-    <div className="alphaalert">Alpha development release. Not for public sharing.</div>
-    <Header {...props} />
-    <main className="content" role="main">
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/cards" component={Cards} />
-        <Route path="/cards/:id" component={Card} />
-        <Route exact path="/categories" component={Categories} />
-        <Route path="/categories/:category" component={Category} />
-        <Route path="/about" component={About} />
-        <Route path="/contact" component={Contact} />
-        <Route component={FourOhFour} />
-      </Switch>
-    </main>
-    <Footer />
-  </div>
-);
+interface Props {
+  location: {
+    pathname: string;
+  };
+}
+
+interface State {
+  announcements: boolean;
+}
+
+class App extends React.PureComponent<Props, State> {
+  constructor(props) {
+    super(props);
+    this.state = {
+      announcements: true,
+    };
+  }
+
+  render() {
+    return (
+      <div className="row row--stacked main">
+        <Header {...this.props} />
+        { this.state.announcements &&
+          <Announcements />
+        }
+        <main className="content" role="main">
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/cards" component={Cards} />
+            <Route path="/cards/:id" component={Card} />
+            <Route exact path="/categories" component={Categories} />
+            <Route path="/categories/:category" component={Category} />
+            <Route path="/about" component={About} />
+            <Route path="/contact" component={Contact} />
+            <Route component={FourOhFour} />
+          </Switch>
+        </main>
+        <Footer />
+      </div>
+    );
+  }
+}
 
 export default () => (
   <Router>

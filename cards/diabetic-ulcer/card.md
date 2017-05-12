@@ -4,7 +4,7 @@ title: Diabetic Leg Ulcer and Osteomyelitis
 authors:
     - Michelle Lin, MD
 created: 2013/05/26
-updates: null
+updates:
 categories:
     - Orthopedics
     - EBM
@@ -75,10 +75,10 @@ categories:
 
 ## Fagan Nomogram
 
-![](image-1.png)
+![Fagan nomogram](image-1.png)
 
 Draw a connecting your pre-test probability and your likelihood ratio. This provides you with your post-test probability.
 
 ## References
 
-- [Butalia S, Palda VA, Sargeant RJ, Detsky AS, Mourad O. Does this patient with diabetes have osteomyelitis of the lower extremity? JAMA. 2008 Feb 20;299(7):806-13. doi: 10.1001/jama.299.7.806.](https://www.ncbi.nlm.nih.gov/pubmed/?term=18285592)
+- Butalia S, Palda VA, Sargeant RJ, Detsky AS, Mourad O. Does this patient with diabetes have osteomyelitis of the lower extremity? JAMA. 2008 Feb 20;299(7):806-13. doi: 10.1001/jama.299.7.806. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=18285592)]

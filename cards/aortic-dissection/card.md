@@ -1,10 +1,9 @@
 ---
-
 title: Aortic Dissection
 authors:
     - Michelle Lin, MD
 created: 2011/05/20
-updates: null
+updates:
 categories:
     - Cardiovascular
     - 'Critical Care'
@@ -18,7 +17,7 @@ International Registry for Aortic Dissection (IRAD):
 
 ## Patient History
 
-| Factor                  | Incidence % |
+| Factor                  | Incidence   |
 | ----------------------- | ----------: |
 | Marfan syndrome         |        4.9% |
 | Hypertension            |       72.1% |
@@ -29,32 +28,32 @@ International Registry for Aortic Dissection (IRAD):
 
 ## Iatrogenic
 
-| Factor               | Incidence % |
+| Factor               | Incidence   |
 | -------------------- | ----------: |
 | Catheterization/PTCA |        2.2% |
 | Cardiac surgery      |        2.2% |
 
 ## Presenting Symptoms
 
-| Factor\*\*                   | Incidence % |
+| Factor                       | Incidence % |
 | ---------------------------- | ----------: |
 | Pain,                        |             |
-| - any                        |       95.5% |
-| - abrupt onset               |       84.8% |
-| - chest                      |       72.7% |
-| - anterior chest             |       60.9% |
-| - posterior chest            |       35.9% |
-| - back                       |       53.2% |
-| - abdomen                    |       29.6% |
-| - severe or worst ever       |       90.6% |
-| - tearing or ripping quality |       50.6% |
-| - radiating                  |       28.3% |
-| - migrating                  |       16.6% |
+| - Any                        |       95.5% |
+| - Abrupt onset               |       84.8% |
+| - Chest                      |       72.7% |
+| - Anterior chest             |       60.9% |
+| - Posterior chest            |       35.9% |
+| - Back                       |       53.2% |
+| - Abdomen                    |       29.6% |
+| - Severe or worst ever       |       90.6% |
+| - Tearing or ripping quality |       50.6% |
+| - Radiating                  |       28.3% |
+| - Migrating                  |       16.6% |
 | Syncope                      |        9.4% |
 
 ## Physical Exam
 
-| Factor                        | Incidence % |
+| Factor                        | Incidence   |
 | ----------------------------- | ----------: |
 | SBP ≥150 mmHg                 |       49.0% |
 | SBP 100-149 mmHg              |       34.6% |
@@ -67,15 +66,15 @@ International Registry for Aortic Dissection (IRAD):
 
 ## Chest X-Ray Findings
 
-| Factor                                          | Incidence % |
+| Factor                                          | Incidence   |
 | ----------------------------------------------- | ----------: |
 | Normal                                          |       12.4% |
 | Widening mediastinum or abnormal aortic contour |       78.7% |
 | Pleural effusion                                |       19.2% |
 
-## EKG Findings
+## ECG Findings
 
-| Factor                        | Incidence % |
+| Factor                        | Incidence   |
 | ----------------------------- | ----------: |
 | Normal                        |       31.3% |
 | Nonspecific ST-T wave changes |       41.4% |
@@ -84,10 +83,11 @@ International Registry for Aortic Dissection (IRAD):
 
 ## Overall hospital mortality: 26.4%
 
-- **CHF** = congestive heart failure
-- **CVA** = cerebrovascular accident
-- **PTCA** = percutaneous transluminal coronary angioplasty
+### Abbrevations
+- **CHF** = _congestive heart failure_
+- **CVA** = _cerebrovascular accident_
+- **PTCA** = _percutaneous transluminal coronary angioplasty_
 
 ## References
 
-- [Hagan PG. et. al. The International Registry of Acute Aortic Dissection (IRAD): new insights into an old disease. JAMA. 2000 Feb 16;283(7):897-903.](http://www.ncbi.nlm.nih.gov/pubmed/?term=10685714)
+- Hagan PG. et. al. The International Registry of Acute Aortic Dissection (IRAD): new insights into an old disease. JAMA. 2000 Feb 16;283(7):897-903. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=10685714)]

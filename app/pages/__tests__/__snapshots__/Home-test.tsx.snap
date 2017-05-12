@@ -5,14 +5,14 @@ exports[`<Home /> should work 1`] = `
   className="row row--wrap"
 >
   <div
-    className="column"
+    className="column column--50"
   >
     <h1>
       New Cards
     </h1>
   </div>
   <div
-    className="column"
+    className="column column--50"
   >
     <h1>
       Updated Cards
@@ -26,14 +26,14 @@ exports[`<Home /> should work with 0 length cards 1`] = `
   className="row row--wrap"
 >
   <div
-    className="column"
+    className="column column--50"
   >
     <h1>
       New Cards
     </h1>
   </div>
   <div
-    className="column"
+    className="column column--50"
   >
     <h1>
       Updated Cards

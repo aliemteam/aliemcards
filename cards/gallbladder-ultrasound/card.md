@@ -1,11 +1,10 @@
 ---
-
 title: Focused Biliary Assessment
 authors:
     - John Eicken, MD
     - Mike Stone, MD
 created: 2015/01/01
-updates: null
+updates:
 categories:
     - Radiology
     - Ultrasound
@@ -20,7 +19,7 @@ categories:
 
 **Windows:** 3 windows, can be preformed in any order. Try alternative windows if initial choice unsuccessful.
 
-![](image-1.png)
+![Transducer positions for gallbladder scan. A: Intercostal, B: Subcostal, C: Lateral. Green line = costal margin. X = xiphoid process](image-1.png)
 
 Figure 1: Transducer positions for gallbladder scan. A: Intercostal, B: Subcostal, C: Lateral. Green line = costal margin. X = xiphoid process.
 
@@ -43,12 +42,12 @@ Figure 1: Transducer positions for gallbladder scan. A: Intercostal, B: Subcosta
 
 ## Normal Reference Measurements
 
-1. **Gallbladder wall ≤3 mm** (measure at near-field/superficial wall in longitudinal view)
+1. **Gallbladder wall &le;3 mm** (measure at near-field/superficial wall in longitudinal view)
 
 - **Differential Diagnosis if >3 mm**: 
   - Cholecystitis, heart failure, nephrotic syndrome, hypoalbuminemia, HIV/AIDS, tuberculosis, renal failure, ascites, acute hepatitis, adenomyomatosis, multiple myeloma
 
-2. **Common bile duct ≤5 mm** (can dilate after cholecystectomy & with advanced age) 
+2. **Common bile duct &le;5 mm** (can dilate after cholecystectomy & with advanced age) 
 
 - Should be measured from inner wall to inner wall.
 
@@ -56,7 +55,7 @@ Figure 1: Transducer positions for gallbladder scan. A: Intercostal, B: Subcosta
 
 Transducer orientation is transverse with marker towards the patient’s right
 
-![](image-2.png)
+![Cholelithiasis example](image-2.png)
 
 Figure 2: Cholelithiasis. Note the gallstones with shadowing and normal gallbladder wall thickness
 
@@ -71,7 +70,7 @@ Figure 2: Cholelithiasis. Note the gallstones with shadowing and normal gallblad
 
 Transducer orientation is sagittal with marker towards the patient’s head
 
-![](image-3.png)
+![Acute cholecystitis example](image-3.png)
 
 Figure 3: Acute cholecystitis. Note the gallstones with shadowing, pericholecystic fluid, and thickened gallbladder wall.
 
@@ -100,5 +99,5 @@ Figure 3: Acute cholecystitis. Note the gallstones with shadowing, pericholecyst
 
 ## References
 
-- Summers SM et al. _Annals of Emerg Med,_ 2010. PMID: [20138397](http://www.ncbi.nlm.nih.gov/pubmed/20138397)
-- Blaivas M. et al. _Acad Emerg Med,_ 1999. PMID: [10530660](http://www.ncbi.nlm.nih.gov/pubmed/10530660)
+- Summers SM et al. _Annals of Emerg Med,_ 2010. PMID: 20138397 [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/20138397)]
+- Blaivas M. et al. _Acad Emerg Med,_ 1999. PMID: 10530660 [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/10530660)]

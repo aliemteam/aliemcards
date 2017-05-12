@@ -4,7 +4,7 @@ title: Left Ventricular Assist Device Complications
 authors:
     - Nicolas Stadlberger, MD
 created: 2016/11/23
-updates: null
+updates:
 categories:
     - Cardiovascular
     - Critical Care
@@ -12,7 +12,7 @@ categories:
 
 # Left Ventricular Assist Device Complications
 
-![](image-1.jpg)
+![LVAD diagram](image-1.jpg)
 
 - These patients MAY NOT HAVE A PULSE    
 - May need ABG since pulse ox maybe inaccurate without pulse
@@ -171,10 +171,10 @@ ACLS algorithms except:
 
 ## Altered LVAD Patient
 
-![](image-2.png)
+![Altered LVAD patient clinical pathway diagram](image-2.png)
 
 ## References
 
-- [Partyka C, Taylor B. Review article: ventricular assist devices in the emergency department. Emerg Med Australas. 2014;26(2):104-112.](https://www.ncbi.nlm.nih.gov/pubmed/24707998)
-- [Andersen M, Videbaek R, Boesgaard S, Sander K, Hansen P, Gustafsson F. Incidence of ventricular arrhythmias in patients on long-term support with a continuous-flow assist device (HeartMate II). J Heart Lung Transplant. 2009;28(7):733-735.](https://www.ncbi.nlm.nih.gov/pubmed/19560703)
-- [Greenwood J, Herr D. Mechanical circulatory support. Emerg Med Clin North Am. 2014;32(4):851-869.](https://www.ncbi.nlm.nih.gov/pubmed/25441039)
+- Partyka C, Taylor B. Review article: ventricular assist devices in the emergency department. Emerg Med Australas. 2014;26(2):104-112. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/24707998)]
+- Andersen M, Videbaek R, Boesgaard S, Sander K, Hansen P, Gustafsson F. Incidence of ventricular arrhythmias in patients on long-term support with a continuous-flow assist device (HeartMate II). J Heart Lung Transplant. 2009;28(7):733-735. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/19560703)]
+- Greenwood J, Herr D. Mechanical circulatory support. Emerg Med Clin North Am. 2014;32(4):851-869. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/25441039)]

@@ -4,7 +4,7 @@ title: Croup
 authors:
     - Michelle Lin, MD
 created: 2010/08/20
-updates: null
+updates:
 categories:
     - Pediatrics
     - ENT
@@ -66,7 +66,7 @@ Check for cutaneous hemangiomas, because may be subglottic hemangioma (esp in ag
 
 1. Keep child calm.
 2. Give supplemental oxygen
-3. <span class="drug">**Racemic epinephrine:**</span> Reduces airway edema. Use for moderate-severe respiratory distress. Observe 3-4 hours for rebound symptoms. Dose: 0.5 cc/kg (onset &lt;30 minutes, duration 2 hours)
+3. <span class="drug">**Racemic epinephrine:**</span> Reduces airway edema. Use for moderate-severe respiratory distress. Observe 3-4 hours for rebound symptoms. Dose: 0.5 mL/kg (onset &lt;30 minutes, duration 2 hours)
 4. <span class="drug">**Dexamethasone:**</span> Reduces severity and duration of croup, even in mild cases ([Bjornson et al., NEJM, 2004](https://www.ncbi.nlm.nih.gov/pubmed/?term=15385657))
 
 - Dose 0.6 mg/kg po
@@ -78,8 +78,8 @@ Check for cutaneous hemangiomas, because may be subglottic hemangioma (esp in ag
 
 ## References
 
-- [Sobol SE, Zapata S. Epiglottitis and Croup. Otolaryn Clin N Am. 2008, 41:551-66](https://www.ncbi.nlm.nih.gov/pubmed/?term=18435998)
-- [Scolnik D, Coates AL, Stephens D, Da Silva Z, Lavine E, Schuh S.Controlled delivery of high vs low humidity vs mist therapy for croup in emergency departments: a randomized controlled trial. JAMA. 2006 Mar 15;295(11):1274-80.](https://www.ncbi.nlm.nih.gov/pubmed/?term=16537737)
-- [Moore M, Little P. Humidified air inhalation for treating croup. Cochrane Database Syst Rev. 2006 Jul 19;(3):CD002870.](https://www.ncbi.nlm.nih.gov/pubmed/?term=16855994)
-- [Everard ML. Acute Bronchiolitis and Croup. Pediatr Clin N Am. 2009, 56:1 19-33](https://www.ncbi.nlm.nih.gov/pubmed/?term=19135584)
-- [Bjornson CL, Klassen TP, Williamson J, Brant R, Mitton C, Plint A, Bulloch B, Evered L, Johnson DW; Pediatric Emergency Research Canada Network.A randomized trial of a single dose of oral dexamethasone for mild croup.N Engl J Med. 2004 Sep 23;351(13):1306-13.](https://www.ncbi.nlm.nih.gov/pubmed/?term=15385657)
+- Sobol SE, Zapata S. Epiglottitis and Croup. Otolaryn Clin N Am. 2008, 41:551-66 [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=18435998)]
+- Scolnik D, Coates AL, Stephens D, Da Silva Z, Lavine E, Schuh S.Controlled delivery of high vs low humidity vs mist therapy for croup in emergency departments: a randomized controlled trial. JAMA. 2006 Mar 15;295(11):1274-80. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=16537737)]
+- Moore M, Little P. Humidified air inhalation for treating croup. Cochrane Database Syst Rev. 2006 Jul 19;(3):CD002870. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=16855994)]
+- Everard ML. Acute Bronchiolitis and Croup. Pediatr Clin N Am. 2009, 56:1 19-33 [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=19135584)]
+- Bjornson CL, Klassen TP, Williamson J, Brant R, Mitton C, Plint A, Bulloch B, Evered L, Johnson DW; Pediatric Emergency Research Canada Network.A randomized trial of a single dose of oral dexamethasone for mild croup.N Engl J Med. 2004 Sep 23;351(13):1306-13. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=15385657)]

@@ -1,17 +1,16 @@
 ---
-
 title: Metatarsal & Metacarpal Fractures
 authors:
     - Michelle Lin, MD
 created: 2013/12/13
-updates: null
+updates:
 categories:
     - Orthopedics
 ---
 
 # Metatarsal/Metacarpal Fractures
 
-![](image-1.png)
+![Metacarpal and metatarsal drawing](image-1.png)
 
 ## Metatarsal head
 
@@ -56,7 +55,7 @@ Most are nonoperative, especially 3rd and 4th MC because of inter-MC ligaments
 <td><ul>
 <li>&gt; 10°, 10°, 20°, 20° angulation for 2nd-5th MCs, respectively, OR<br />
 </li>
-<li>≥ 5 mm shortening, OR</li>
+<li>&ge; 5 mm shortening, OR</li>
 <li>ANY rotational deformity<br />
 </li>
 </ul></td>
@@ -102,7 +101,7 @@ Most are nonoperative, especially 3rd and 4th MC because of inter-MC ligaments
 <tr class="even">
 <td>2-4th MC<br />
 </td>
-<td>Operative repair if ≥ 2 mm articular surface displacement or significant angulation<br />
+<td>Operative repair if &ge; 2 mm articular surface displacement or significant angulation<br />
 </td>
 </tr>
 <tr class="odd">
@@ -132,7 +131,7 @@ Most are nonoperative, especially 3rd and 4th MC because of inter-MC ligaments
 
 ## References
 
-- [Metatarsal fracture, http://www.wheelessonline.com/](http://www.wheelessonline.com/ortho/hand_and_metacarpal_fractures)
+- Metatarsal fracture, http://www.wheelessonline.com/ [[Source](http://www.wheelessonline.com/ortho/hand_and_metacarpal_fractures)]
 - Metatarsal fractures, Browner: Skeletal Trauma (4th ed)
 - Metatarsal fractures, Marx: Rosen’s Emergency Medicine (7th ed)
-- [Metatarsal fractures, www.emedicine.com](http://emedicine.medscape.com/article/1239721-overview)
+- Metatarsal fractures, www.emedicine.com [[Source](http://emedicine.medscape.com/article/1239721-overview)]

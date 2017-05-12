@@ -1,27 +1,26 @@
 {
   "compilerOptions": {
-    "experimentalDecorators": true,
-    "jsx": "react",
+    "target": "es6",
     "module": "commonjs",
-    "moduleResolution": "node",
     "lib": [
       "dom",
-      "es2017",
+      "es6",
+      "es2016.array.include",
       "es2017.object"
     ],
-    "noImplicitReturns": true,
-    "noImplicitThis": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
+    "jsx": "react",
+    "sourceMap": true,
     "outDir": "./dist",
     "removeComments": true,
-    "strictNullChecks": true,
-    "target": "es6",
-    "sourceMap": true
+    "strict": true,
+    "noImplicitAny": false,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true
   },
-  "include": [
-    "webpack.config.ts",
-    "index.ts",
-    "./server/**/*"
+  "files": [
+    "./index.ts"
   ]
 }

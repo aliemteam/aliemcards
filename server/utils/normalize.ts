@@ -31,8 +31,11 @@ function createCategoryObj(category: string): Category {
   };
 }
 
-export const normalize = (cards: SingleCardJSON[]): RootValue => {
-  const mapped = cards.map(card => ({...card,
+type AllButAnnouncements = Pick<RootValue, 'entities'|'result'>;
+
+export const normalize = (cards: SingleCardJSON[]): AllButAnnouncements => {
+  const mapped = cards.map(card => ({
+    ...card,
     authors: card.authors.map(AuthorFactory.create),
     categories: card.categories.map(createCategoryObj),
   }))

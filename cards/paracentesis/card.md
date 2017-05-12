@@ -4,7 +4,7 @@ title: Paracentesis for Ascites
 authors:
     - Michelle Lin, MD
 created: 2010/06/25
-updates: null
+updates:
 categories:
     - Gastroenterology
 ---
@@ -44,8 +44,8 @@ _[JAMA Rational Clinical Examination Series 2009](http://www.ncbi.nlm.nih.gov/pu
 
 ## Fagan Nomogram
 
-![](image-1.png)
+![Fagan nomogram](image-1.png)
 
 ## References
 
-- [Wilkerson RG, Sinert R.Evidence-based emergency medicine/rational clinical examination abstract: The use of paracentesis in the assessment of the patient with ascites. Ann Emerg Med. 2009 Sep;54(3):465-8. doi: 10.1016/j.annemergmed.2008.09.005. Epub 2008 Oct 16.](http://www.ncbi.nlm.nih.gov/pubmed/?term=18926597)
+- Wilkerson RG, Sinert R.Evidence-based emergency medicine/rational clinical examination abstract: The use of paracentesis in the assessment of the patient with ascites. Ann Emerg Med. 2009 Sep;54(3):465-8. doi: 10.1016/j.annemergmed.2008.09.005. Epub 2008 Oct 16. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=18926597)]

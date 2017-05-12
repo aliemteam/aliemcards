@@ -4,7 +4,7 @@ title: Procedural Sedation & Analgesia
 authors:
     - Demian Szyld, MD
 created: 2010/08/06
-updates: null
+updates:
 categories:
     - Pharmacology
     - Procedures
@@ -100,8 +100,8 @@ Select sedative AND analgesic if both are required. Match duration of procedure
 
 ## References
 
-- [Cravero JP, Beach ML, Blike GT, Gallagher SM, Hertzog JH; Pediatric Sedation Research Consortium.The incidence and nature of adverse events during pediatric sedation/anesthesia with propofol for procedures outside the operating room: a report from the Pediatric Sedation Research Consortium. Anesth Analg. 2009 Mar;108(3):795-804. doi: 10.1213/ane.0b013e31818fc334.](https://www.ncbi.nlm.nih.gov/pubmed/?term=19224786)
-- [Shah A, Mosdossy G, McLeod S, Lehnhardt K, Peddle M, Rieder M .A blinded, randomized controlled trial to evaluate ketamine/propofol versus ketamine alone for procedural sedation in children. Ann Emerg Med. 2011 May;57(5):425-33.e2. doi: 10.1016/j.annemergmed.2010.08.032. Epub 2010 Oct 13.](https://www.ncbi.nlm.nih.gov/pubmed/?term=20947210)
-- [Andolfatto G, Abu-Laban RB, Zed PJ, Staniforth SM, Stackhouse S, Moadebi S, Willman E.,Ketamine-propofol combination (ketofol) versus propofol alone for emergency department procedural sedation and analgesia: a randomized double-blind trial.Ann Emerg Med. 2012 Jun;59(6):504-12.e1-2. doi: 10.1016/j.annemergmed.2012.01.017. Epub 2012 Mar 7.](https://www.ncbi.nlm.nih.gov/pubmed/22401952)
-- [Drayna PC, Estrada C, Wang W, Saville BR, Arnold DH, Ketamine sedation is not associated with clinically meaningful elevation of intraocular pressure. Am J Emerg Med. 2012 Sep;30(7):1215-8. doi: 10.1016/j.ajem.2011.06.001. Epub 2011 Dec 12.](https://www.ncbi.nlm.nih.gov/pubmed/?term=22169582)
-- [Green SM, Roback MG, Kennedy RM, Krauss B. Clinical Practice Guideline for Emergency Department Ketamine Dissociative Sedation: 2011 Update. Annals of emergency medicine. 2011](https://www.ncbi.nlm.nih.gov/pubmed/21256625)
+- Cravero JP, Beach ML, Blike GT, Gallagher SM, Hertzog JH; Pediatric Sedation Research Consortium.The incidence and nature of adverse events during pediatric sedation/anesthesia with propofol for procedures outside the operating room: a report from the Pediatric Sedation Research Consortium. Anesth Analg. 2009 Mar;108(3):795-804. doi: 10.1213/ane.0b013e31818fc334. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=19224786)]
+- Shah A, Mosdossy G, McLeod S, Lehnhardt K, Peddle M, Rieder M .A blinded, randomized controlled trial to evaluate ketamine/propofol versus ketamine alone for procedural sedation in children. Ann Emerg Med. 2011 May;57(5):425-33.e2. doi: 10.1016/j.annemergmed.2010.08.032. Epub 2010 Oct 13. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=20947210)]
+- Andolfatto G, Abu-Laban RB, Zed PJ, Staniforth SM, Stackhouse S, Moadebi S, Willman E.,Ketamine-propofol combination (ketofol) versus propofol alone for emergency department procedural sedation and analgesia: a randomized double-blind trial.Ann Emerg Med. 2012 Jun;59(6):504-12.e1-2. doi: 10.1016/j.annemergmed.2012.01.017. Epub 2012 Mar 7. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/22401952)]
+- Drayna PC, Estrada C, Wang W, Saville BR, Arnold DH, Ketamine sedation is not associated with clinically meaningful elevation of intraocular pressure. Am J Emerg Med. 2012 Sep;30(7):1215-8. doi: 10.1016/j.ajem.2011.06.001. Epub 2011 Dec 12. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=22169582)]
+- Green SM, Roback MG, Kennedy RM, Krauss B. Clinical Practice Guideline for Emergency Department Ketamine Dissociative Sedation: 2011 Update. Annals of emergency medicine. 2011 [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/21256625)]

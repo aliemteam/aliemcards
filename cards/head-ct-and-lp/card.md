@@ -1,10 +1,9 @@
 ---
-
 title: Head CT Before LP for Meningitis
 authors:
     - Michelle Lin, MD
 created: 2010/04/23
-updates: null
+updates:
 categories:
     - Neurology
     - Procedures
@@ -20,7 +19,7 @@ If **ZERO** high risk features, it is safe to do LP without a Head CT:
 
 \| **High risk features associated with abnormal CT:**        |
 \|------------------------------------------------------------\|
-| Age ≥ 60 yr                                                |
+| Age &ge; 60 yr                                                |
 | Immunocompromise (HIV, transplant, immunosuppression)      |
 | History of CNS disease (mass lesion, CVA, focal infection) |
 | Seizure &lt; 1 wk prior to arrival                         |
@@ -67,4 +66,4 @@ If **ZERO** high risk features, it is safe to do LP without a Head CT:
 
 ## References
 
-- [Hasbun et al. CT of head before LP in adults with suspected meningitis. NEJM. 345(24), 12/13/01: 1727-33](https://www.ncbi.nlm.nih.gov/pubmed/?term=11742046)
+- Hasbun et al. CT of head before LP in adults with suspected meningitis. NEJM. 345(24), 12/13/01: 1727-33 [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=11742046)]

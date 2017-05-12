@@ -1,10 +1,9 @@
 ---
-
 title: EMTALA Transfer Rules
 authors:
     - Michelle Lin, MD
 created: 2012/09/14
-updates: null
+updates:
 categories:
     - EMS
 ---
@@ -54,9 +53,9 @@ A physician can be fined for:
 - Failing to inform emergency patients of the risks and benefits of transfer
 - Signing a transfer certification when he or she can reasonably be expected to know that the risks outweigh the benefits
 
-Fine = $25,000 or $50,000 per violation (hospital with &lt;100 beds vs ≥100 beds)
+Fine = $25,000 or $50,000 per violation (hospital with &lt;100 beds vs &ge;100 beds)
 
 ## References
 
-- [EMTALA, acep.org](http://www.acep.org/content.aspx?id=25936)
+- EMTALA, acep.org [[Source](http://www.acep.org/content.aspx?id=25936)]
 - AMA Ethics Resource Center

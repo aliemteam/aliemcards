@@ -4,7 +4,7 @@ title: Brugada Criteria for SVT with Aberrancy vs VT
 authors:
     - Michelle Lin, MD
 created: 2013/02/27
-updates: null
+updates:
 categories:
     - Cardiovascular
 ---
@@ -25,21 +25,21 @@ Use this sequential 4-question approach to determine if the ECG reveals SVT with
 - **YES:** VT diagnosis (Sensitivity 21%, Specificity 100%)
 - **NO:** Move to Question 2
 
-![](image-1.png)
+![Example of an RS complex](image-1.png)
 
 ## 2. Is the R to S interval > 100 msec (2.5 boxes) in one precordial lead?
 
 - **YES:** VT diagnosis (Sensitivity 66%, Specificity 98%)
 - **NO:** Move to Question 3
 
-![](image-2.png)
+![Example of how to measure the R-S interval](image-2.png)
 
 ## 3. Is there Atrioventricular (AV) dissociation?
 
 - **YES:** VT diagnosis (Sensitivity 82%, Specificity 98%)
 - **NO: **Move to Question 4
 
-![](image-3.png)
+![Example of AV dissociation](image-3.png)
 
 ## 4. Is there morphology criteria for VT?
 
@@ -48,7 +48,7 @@ Determine if you have a LBBB morphology (dominant S wave in V1) or a RBBB morpho
 - **YES:** VT diagnosis (Sensitivity 98.7%, Specificity 96.5%)
 - **NO:** SVT with aberrance (Sensitivity 96.5%, Specificity 98.7%)
 
-![](image-4.png)
+![Examples of LBBB and RBBB morphologies](image-4.png)
 
 ## Dr. Stephen Smith's Expert Review
 
@@ -65,4 +65,4 @@ I have a [post on differentiating VT and SVT with aberrancy using the Sasaki rul
 
 ## References
 
-- [Brugada P et al. Circulation. 1991 May;83(5): 1649-59.](http://www.ncbi.nlm.nih.gov/pubmed/2022022)
+- Brugada P et al. Circulation. 1991 May;83(5): 1649-59. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/2022022)]

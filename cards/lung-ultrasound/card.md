@@ -6,7 +6,7 @@ authors:
     - Clare Heslop, MD
     - Mike Stone, MD
 created: 2015/02/04
-updates: null
+updates:
 categories:
     - Ultrasound
     - Radiology
@@ -32,7 +32,7 @@ categories:
 
 2. **8 lung zones**, or 4 sections, in each hemithorax [Volpicelli]&#x3A;
 
-![](image-1.png)
+![Transducer positions for the 8 lung zones](image-1.png)
 
 Figure 1: Transducer positions for the 8 lung zones
 
@@ -48,9 +48,9 @@ Absent lung sliding is a **_pathologic finding_** found in pneumothorax, contral
 - Arise from the pleural line, are hyperechoic and parallel to pleural surface at equal intervals.
 - Seen with normal lung aeration and in some cases of pneumothorax
 
-![](image-2.png)
+![A-lines are visualized as hyperechoic, horizontal artifacts at regular intervals deep to the pleural line](image-2.png)
 
-Figure 2: **A-lines **are visualized as hyperechoic, horizontal artifacts at regular intervals deep to the **pleural line.** Note the ribs **(r)** in the near field.
+Figure 2: **A-lines are visualized as hyperechoic, horizontal artifacts at regular intervals deep to the pleural line.** Note the ribs **(r)** in the near field.
 
 ## B-Lines
 
@@ -58,9 +58,9 @@ Figure 2: **A-lines **are visualized as hyperechoic, horizontal artifacts at r
 - Arise from the pleural line, extend off the screen without fading, are hyperechoic and laser-like, move with respiration, and erase the normal A-line pattern.
 - More than 3 B-lines in an interspace is considered **_pathologic_**, although many experts agree that any anterior B-lines are pathologic.
 
-![](image-3.png)
+![B-lines are visualized as hyperechoic vertical artifacts arising from the pleural line and extending off the screen without fading, erasing the A-line pattern](image-3.png)
 
-Figure 3: **B-lines **are visualized as hyperechoic vertical artifacts arising from the **pleural line** and extending off the screen without fading, erasing the A-line pattern.
+Figure 3: **B-lines are visualized as hyperechoic vertical artifacts arising from the pleural line** and extending off the screen without fading, erasing the A-line pattern.
 
 ## Comet Tails
 
@@ -83,13 +83,13 @@ Figure 3: **B-lines **are visualized as hyperechoic vertical artifacts arising
 
 ## Pleural Effusion
 
-![](image-4.png)
+![Pleural effusion visualized as an anechoic fluid collection](image-4.png)
 
-Figure 4: **Pleural effusion** visualized as an anechoic fluid collection located cephalad to the (arrows).
+Figure 4: **Pleural effusion** visualized as an anechoic fluid collection located cephalad to the arrows.
 
 ## Pneumonia
 
-![](image-5.png)
+![A lobar consolidation. The branching, hyperechoic air bronchograms define this consolidation](image-5.png)
 
 Figure 5: A lobar consolidation located cephalad to the **diaphragm.** The branching, **hyperechoic air bronchograms** define this consolidation.
 
@@ -121,6 +121,6 @@ Figure 5: A lobar consolidation located cephalad to the **diaphragm.** The branc
 
 ## References
 
-- Blaivas M, et al. _Acad Emerg Med_, 2005. PMID: [16141018](http://www.ncbi.nlm.nih.gov/pubmed/16141018)
-- Liteplo AS, et al. _Acad Emerg Med_, 2009. PMID: [19183402](http://www.ncbi.nlm.nih.gov/pubmed/19183402)
-- Volpicelli G. _J Ultrasound Med_. 2013. PMID: [23269722](http://www.ncbi.nlm.nih.gov/pubmed/23269722)
+- Blaivas M, et al. _Acad Emerg Med_, 2005. PMID: 16141018 [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/16141018)]
+- Liteplo AS, et al. _Acad Emerg Med_, 2009. PMID: 19183402 [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/19183402)]
+- Volpicelli G. _J Ultrasound Med_. 2013. PMID: 23269722 [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/23269722)]

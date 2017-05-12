@@ -4,7 +4,7 @@ title: ECG Electrolyte Imbalance
 authors:
     - Steve Field, MD
 created: 2012/09/21
-updates: null
+updates:
 categories:
     - Cardiovascular
     - ECG
@@ -13,9 +13,9 @@ categories:
 
 # ECG: Electrolyte Imbalance
 
-![](image-1.png)
+![Normal ECG with overlay showing all the measurable intervals](image-1.png)
 
-Image courtesy of [Life in the Fast Lane](image-2.gif)
+Image courtesy of [Life in the Fast Lane](https://lifeinthefastlane.com)
 
 **PR Interval**
 
@@ -126,6 +126,6 @@ Image courtesy of [Life in the Fast Lane](image-2.gif)
 
 ## References
 
-- [Goldberger A., Clinical Electrocardiography: A Simplified Approach, 8th Edition, 2006](None)
-- [Diercks DB, Shumaik GM, Harrigan RA, Brady WJ, Chan TC. Electrocardiographic manifestations: electrolyte abnormalities. J Emerg Med. 2004 Aug;27(2):153-60.](https://www.ncbi.nlm.nih.gov/pubmed/?term=15261358)
-- [Marx J, Hockberger R., Walls R.,Rosen’s Emergency Medicine: Concepts and Clinical Practice, 7th ed, 2010](None)
+- Goldberger A., Clinical Electrocardiography: A Simplified Approach, 8th Edition, 2006(None)
+- Diercks DB, Shumaik GM, Harrigan RA, Brady WJ, Chan TC. Electrocardiographic manifestations: electrolyte abnormalities. J Emerg Med. 2004 Aug;27(2):153-60. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=15261358)]
+- Marx J, Hockberger R., Walls R.,Rosen’s Emergency Medicine: Concepts and Clinical Practice, 7th ed, 2010(None)

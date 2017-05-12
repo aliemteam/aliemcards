@@ -1,11 +1,10 @@
 ---
-
 title: Ocular Assessment
 authors:
     - Sarah Elisabeth Frasure, MD
     - Mike Stone, MD
 created: 2015/01/28
-updates: null
+updates:
 categories:
     - Ultrasound
     - Radiology
@@ -29,7 +28,7 @@ categories:
 
 ## Normal Eye
 
-![](image-1.png)
+![Normal eye](image-1.png)
 
 Figure 1: Normal eye
 
@@ -55,27 +54,27 @@ Figure 1: Normal eye
 
 ## Retinal Detachment
 
-![](image-2.png)
+![The detached retina appears as a thick, hyperechoic band in the vitreous chamber, anchored posteriorly to the optic disc](image-2.png)
 
 Figure 2: The detached **retina** appears as a thick, hyperechoic band in the vitreous chamber, anchored posteriorly to the **optic disc**.
 
 ## Vitreous Hemorrhage
 
-![](image-3.png)
+![Vitreous hemorrhage. Area of hemorrhage is visible as faint echogenic material causing a heterogeneous appearance to the chamber](image-3.png)
 
 Figure 3: Vitreous hemorrhage - area of **hemorrhage** is visible as faint echogenic material causing a heterogeneous appearance to the chamber. Note the higher gain setting used.
 
 ## Lens Dislocation
 
-![](image-4.png)
+![Lens dislocation. The lens is seen floating en face in the vitreous chamber](image-4.png)
 
 Figure 4: Lens dislocation - The **lens** is seen floating en face in the vitreous chamber.
 
 ## Globe Rupture
 
-![](image-5.png)
+![Globe rupture. Irregular globe contour with collapsed anterior chamber. Echogenic material fills the vitreous chamber](image-5.png)
 
-Figure 5: Globe rupture – irregular globe contour with collapsed anterior chamber. Echogenic material fills the vitreous chamber.
+Figure 5: Globe rupture - irregular globe contour with collapsed anterior chamber. Echogenic material fills the vitreous chamber.
 
 ## Struggling with the Exam?
 
@@ -105,6 +104,6 @@ CT imaging is more sensitive in the detection of radio-opaque foreign bodies, pa
 
 ## References
 
-- Blaivas M, et al. _Acad Emerg Med_, 2002. PMID: [12153883](http://www.ncbi.nlm.nih.gov/pubmed/?term=12153883)
+- Blaivas M, et al. _Acad Emerg Med_, 2002. PMID: 12153883 [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=12153883)]
 
-- Kimberly HH, et al. _Acad Emerg Med_, 2008. PMID: [18275454](http://www.ncbi.nlm.nih.gov/pubmed/18275454)
+- Kimberly HH, et al. _Acad Emerg Med_, 2008. PMID: 18275454 [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/18275454)]

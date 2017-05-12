@@ -1,5 +1,4 @@
 ---
-
 title: '2013 AHA Guidelines: Contraindications for Thrombolytics'
 authors:
     - Michelle Lin, MD
@@ -12,14 +11,16 @@ categories:
 
 # Stroke: 2013 AHA Guidelines on Contraindications for Thrombolytics
 
-**INCLUSION CRITERIA**
+## Inclusion Criteria
 
 1. Diagnosis of ischemic stroke causing measurable neurologic deficit
-2. Age ≥18 years
+2. Age &ge;18 years
 
-## 0-3 hours from symptom onset
+## Exclusion Criteria
 
-### Absolute Exclusion Criteria
+### 0-3 hours from symptom onset
+
+#### Absolute Exclusion Criteria
 
 - Significant head trauma or prior stroke in previous 3 months
 - Symptoms suggest subarachnoid hemorrhage
@@ -35,7 +36,7 @@ categories:
 - Blood glucose &lt;50 mg/dL (2.7 mmol/L)
 - CT shows multilobar infarct (hypodensity >1/3 cerebral hemisphere)
 
-### Relative Exclusion Criteria
+#### Relative Exclusion Criteria
 
 - Only minor or rapidly improvement stroke symptoms (clearing spontaneously)
 - Pregnancy
@@ -44,11 +45,11 @@ categories:
 - Recent GI or urinary tract hemorrhage within previous 21 days
 - Recent acute MI within previous 3 months
 
-## 3-4.5 hours from symptom onset
+### 3-4.5 hours from symptom onset
 
-### Absolute Exclusion Criteria
+#### Absolute Exclusion Criteria
 
-**_List is same as for 0-3 hour time frame above PLUS any of the following_**:
+> **_List is same as for 0-3 hour time frame above PLUS any of the following_**:
 
 - Age >80 years
 - Severe stroke (NIHSS >25)
@@ -57,5 +58,5 @@ categories:
 
 ## References
 
-- [Jauch EC, Saver JL, Adams HP Jr, Bruno A, Connors JJ, Demaerschalk BM, Khatri P, McMullan PW Jr, Qureshi AI, Rosenfield K, Scott PA, Summers DR, Wang DZ, Wintermark M, Yonas H; American Heart Association Stroke Council; Council on Cardiovascular Nursing; Council on Peripheral Vascular Disease; Council on Clinical Cardiology. Guidelines for the early management of patients with acute ischemic stroke: a guideline for healthcare professionals from the American Heart Association/American Stroke Association. Stroke. 2013 Mar;44(3):870-947. PMID: 23370205.](http://stroke.ahajournals.org/content/44/3/870.full.pdf)
-- [NINDS rt-PA Stroke Study Group. Tissue plasminogen activator for acute ischemic stroke. N Engl J Med. 1995 Dec 14;333(24):1581-7.](http://www.nejm.org/doi/full/10.1056/NEJM199512143332401)
+- Jauch EC, Saver JL, Adams HP Jr, Bruno A, Connors JJ, Demaerschalk BM, Khatri P, McMullan PW Jr, Qureshi AI, Rosenfield K, Scott PA, Summers DR, Wang DZ, Wintermark M, Yonas H; American Heart Association Stroke Council; Council on Cardiovascular Nursing; Council on Peripheral Vascular Disease; Council on Clinical Cardiology. Guidelines for the early management of patients with acute ischemic stroke: a guideline for healthcare professionals from the American Heart Association/American Stroke Association. Stroke. 2013 Mar;44(3):870-947. PMID: 23370205. [[Source](http://stroke.ahajournals.org/content/44/3/870.full.pdf)]
+- NINDS rt-PA Stroke Study Group. Tissue plasminogen activator for acute ischemic stroke. N Engl J Med. 1995 Dec 14;333(24):1581-7. [[Source](http://www.nejm.org/doi/full/10.1056/NEJM199512143332401)]
