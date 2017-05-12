@@ -32,7 +32,13 @@ gulp.task('cards', () => (
       let cards: SingleCardJSON[] = [];
       for (const dir of dirs) {
         const f = fs.readFileSync(`./cards/${dir}/card.md`, { encoding: 'utf8' });
-        const parsed = frontmatter(f);
+        let parsed;
+        try {
+          parsed = frontmatter(f);
+        } catch (e) {
+          console.error(`Error in yaml of ${dir}`);
+          throw e;
+        }
 
         // Does frontmatter exist?
         if (!parsed.frontmatter) {

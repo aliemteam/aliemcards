@@ -1,6 +1,6 @@
 ---
 
-title: Elbow Injuries - Epicondyle Fracture Medial
+title: Elbow Injuries - Epicondyle Fracture (Medial)
 authors:
    - Melody Glenn, MD
    - Andrew Little, DO
@@ -12,43 +12,41 @@ categories:
 
 ---
 
-# Elbow Injuries: Epicondyle Fracture Medial
+# Elbow Injuries: Epicondyle Fracture (Medial)
 
 ![Medial epicondyle fracture drawing](image-1.png)
 
 ## Xray Views
 
-Elbow XR: AP, lateral, external oblique.
+Elbow XR: AP, lateral, external oblique
 
 ## Acute Management
 
-Long-arm posterior splint with elbow at 90° flexion.
+- Long-arm posterior splint with elbow at 90° flexion
+- Consider a long arm cast instead
 
-Consider a long arm cast instead.
-
-Operative indications:
-- &gt;5 mm displacement.
-- Ulnar nerve dysfunction.
-- Entrapment of avulsed fracture fragment in joint.
-- Displacement in high level athletes.
+## Operative Indications
+- &gt;5 mm displacement
+- Ulnar nerve dysfunction
+- Entrapment of avulsed fracture fragment in joint
+- Displacement in high level athletes
 
 ## Follow-up Timing
 
-**Non-operative:** Follow up in 5-7 days.
-
-**Operative:** Follow up in 2-3 days.
+- Non-operative: Follow up in 5-7 days
+- Operative: Follow up in 2-3 days
 
 ## Notes
 
-Complications: Ulnar nerve entrapment & injury.
-- Usually in children 9-14 years old.
-- May be mistaken for medial epicondyle ossification center.
-- Associated with elbow dislocations.
-- Most can be managed non-operatively.
+Complications: Ulnar nerve entrapment & injury
+- Usually in children 9-14 years old
+- May be mistaken for medial epicondyle ossification center
+- Associated with elbow dislocations
+- Most can be managed non-operatively
 
 ## References
 
 - Wheeless’ Textbook of Orthopaedics [[Source](http://Wheelessonline.com)]
 - Orthobullets [[Source](http://OrthoBullets.com)]
 - Radiopaedia [[Source](http://Radiopaedia.org)]
-- General Guidelines For Management for Orthopedic Injuries card by the Nationwide Children’s Hospital, Dept of Orthopedics.
+- General Guidelines For Management for Orthopedic Injuries card by the Nationwide Children’s Hospital, Department of Orthopedics

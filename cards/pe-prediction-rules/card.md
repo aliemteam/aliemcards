@@ -13,8 +13,8 @@ categories:
 
 **Note**: These rules should be used with caution, because none of these scoring protocols are perfect. For instance, in a very recent publication of the _Journal of Thrombosis and Haemostasis_, the authors found that the [PERC rule may not actually safely exclude PEs](http://www.ncbi.nlm.nih.gov/pubmed/21091866).
 
-## Pulmonary Embolism Rule-out Criteria (PERC) Rule
-
+# Pulmonary Embolism Rule-out Criteria (PERC) Rule
+[Kline et al. J Thromb Haem 2004](http://www.ncbi.nlm.nih.gov/pubmed/15304025); [Kline et al. J Thromb Haem 2008](http://www.ncbi.nlm.nih.gov/pubmed/18318689)
 - Age &lt;50 years
 - Heart rate &lt;100 bpm
 - Room air oxygen saturation &ge;95%
@@ -26,11 +26,11 @@ categories:
 
 If all 8 present: Only 1% risk for venous thromboembolism (VTE) at 45 days. 
 
-[Kline et al. J Thromb Haem 2004](http://www.ncbi.nlm.nih.gov/pubmed/15304025), [Kline et al. J Thromb Haem 2008](http://www.ncbi.nlm.nih.gov/pubmed/18318689)
+# Wells' Score
 
-## Wells' Score
+[Wells et al. Thromb Haemost](http://www.ncbi.nlm.nih.gov/pubmed/10744147); [Wells et al. Ann Intern Med](http://www.ncbi.nlm.nih.gov/pubmed/11453709)
 
-| ClinicalFinding or Risk Factor                            | Points |
+| Clinical Finding or Risk Factor                           | Points |
 | --------------------------------------------------------- | -----: |
 | Clinical signs and symptoms of DVT                        |     +3 |
 | PE is #1 diagnosis, or equally likely                     |     +3 |
@@ -40,18 +40,16 @@ If all 8 present: Only 1% risk for venous thromboembolism (VTE) at 45 days. 
 | Hemoptysis                                                |     +1 |
 | Malignancy with treatment within 6 months, or palliative  |     +1 |
 
-[Wells et al. Thromb Haemost](http://www.ncbi.nlm.nih.gov/pubmed/10744147) & [Wells et al. Ann Intern Med](http://www.ncbi.nlm.nih.gov/pubmed/11453709)
+|  Total # Wells points | Risk for PE at 3 months               |
+| :-------------------: | :-----------------------------------: |
+|                 &lt;2 |                    1.3%               |
+|                   2-6 |                   16.2%               |
+|                 &gt;6 |                   40.6%               |
+| &le;4 and neg D-Dimer |  0.5% non-fatal VTE [Van Belle, 2006] |
 
-|  Total # Wells points | Risk for PE at 3 months |
-| --------------------: | ----------------------: |
-|                 &lt;2 |                    1.3% |
-|                   2-6 |                   16.2% |
-|                 &gt;6 |                   40.6% |
-| &le;4 and neg D-Dimer |      0.5% non-fatal VTE |
+# Simplified Geneva Score
 
-[Van Belle et al. JAMA 2006](http://www.ncbi.nlm.nih.gov/pubmed/16403929)
-
-## Simplified Geneva Score
+[Klok FA et al. Arch Intern Med 2008](http://www.ncbi.nlm.nih.gov/pubmed/18955643)
 
 | Clinical Finding or Risk Factor                                                              | Points |
 | -------------------------------------------------------------------------------------------- | -----: |
@@ -66,12 +64,10 @@ If all 8 present: Only 1% risk for venous thromboembolism (VTE) at 45 days. 
 | Pain on lower-limb deep venous palpation                                                     |     +4 |
 
 | Total # of points | Incidence of PE |
-| ----------------: | --------------: |
+| :---------------: | :-------------: |
 |               0-1 |            7.7% |
 |               2-4 |           29.4% |
 |               5-7 |           64.3% |
-
-[Klok FA et al. Arch Intern Med 2008](http://www.ncbi.nlm.nih.gov/pubmed/18955643)
 
 ## References
 

@@ -16,21 +16,22 @@ _Clinical Toxicology_ has published guidelines for out-of-hospital management o
 ## There are 2 caveats to be aware of regarding these guidelines
 
 1. They were developed between 2005 and 2007. New medications have been approved since that time and there may be more recent data available.
-2. As with any poisoning, dose is only one factor when determining disposition. Consideration should also be given to intent, underlying medical conditions, co-ingestion of other medications, presence of symptoms, and drug formulation.
+2. As with any poisoning, the dose is only one factor when determining disposition. Consideration should also be given to intent, underlying medical conditions, co-ingestion of other medications, presence of symptoms, and drug formulation.
 
 This ALiEM Card summarizes the **pediatric ingestion dose thresholds** for referral to an Emergency Department.
 
 | Acronym     | Meaning                             |
 | ----------- | ----------------------------------- |
-| RSTI        | repeated supratherapeutic ingestion |
-| IR          | immediate release                   |
-| SR          | sustained release                   |
-| MR          | modified release                    |
+| RSTI        | Repeated supratherapeutic ingestion |
+| IR          | Immediate release                   |
+| SR          | Sustained release                   |
+| MR          | Modified release                    |
 
-**NOTE:** Whenever 2 values are noted, the lesser one should be utilized.
-**NOTE**: Symptomatic patients always warrant ED evaluation.
+**NOTES:** 
+- Whenever 2 values are noted, the lesser one should be utilized.
+- Symptomatic patients always warrant ED evaluation.
 
-## Acetaminophen
+# Acetaminophen
 
 **Age &lt;6 years (Acute & RSTI)**
 
@@ -45,7 +46,7 @@ This ALiEM Card summarizes the **pediatric ingestion dose thresholds** for ref
 - &ge; 10 g or &ge; 200 mg/kg over 24 hour, or
 - &ge; 6 g or &ge; 150 mg/kg per 24 hours x 2 days
 
-## Atypical Antipsychotics
+# Atypical Antipsychotics
 
 **Age &lt;12 years**
 
@@ -69,13 +70,13 @@ This ALiEM Card summarizes the **pediatric ingestion dose thresholds** for ref
 | Risperidone | &gt; 5 mg    |
 | Ziprasidone | &gt; 100 mg  |
 
-## Anticoagulant Rodenticides
+# Anticoagulant Rodenticides
 
 &ge;1 mg
 
-## Beta Blockers
+# Beta Blockers
 
-**_Ingestion of any excess beta blocker in combination with a calcium channel blocker warrants referral to an ED._**
+Ingestion of any excess beta blocker in combination with a calcium channel blocker warrants referral to an ED.
 
 | Drug          | Dose            |
 | ------------- | --------------- |
@@ -91,9 +92,9 @@ This ALiEM Card summarizes the **pediatric ingestion dose thresholds** for ref
 | Sotalol       | &gt; 4 mg/kg    |
 | Timolol       | No safe dose    |
 
-## Calcium Channel Blockers
+# Calcium Channel Blockers
 
-**_Ingestion of any excess beta blocker in combination with a calcium channel blocker warrants referral to an ED._**
+Ingestion of any excess beta blocker in combination with a calcium channel blocker warrants referral to an ED.
 
 | Drug          | Dose                         |
 | ------------- | ---------------------------- |
@@ -104,48 +105,48 @@ This ALiEM Card summarizes the **pediatric ingestion dose thresholds** for ref
 | Nifedipine IR | &ge; 1 mg/kg                 |
 | Verapamil IR  | &ge; 2.5 mg/kg               |
 
-## Camphor
+# Camphor
 
 &gt;30 mg/kg
 
-## Dextromethorphan
+# Dextromethorphan
 
 &gt;7.5 mg/kg
 
-## Diphenhydramine & Dimenhydrinate
+# Diphenhydramine & Dimenhydrinate
 
-Age &lt;6 years: &gt;7.5 mg/kg
-Age &ge;6 years: &gt;7.5 mg/kg or 300 mg
+- Age &lt;6 years: &gt;7.5 mg/kg
+- Age &ge;6 years: &gt;7.5 mg/kg or 300 mg
 
-## Ethylene Glycol
+# Ethylene Glycol
 
 More than witnessed taste/lick or unknown amount
 
-## Iron (Elemental)
+# Iron (Elemental)
 
 &ge;40 mg/kg of adult ferrous sulfate formulation
 
-## Mercury (Elemental)
+# Mercury (Elemental)
 
 &gt;1 household fever thermometer
 
-## Methylphenidate
+# Methylphenidate
 
 | Drug            | Dose                  |
 | --------------- | --------------------- |
 | IR or chewed MR | &gt;2 mg/kg or 60 mg  |
 | MR (intact)     | &gt;4 mg/kg or 120 mg |
 
-## Salicylate
+# Salicylate
 
 **Aspirin equivalent**: &gt;150 mg/kg or 6.5 g
 
 **Oil of Wintergreen**:
 
-- Age &lt; 6 years: more than a taste/lick
-- Age &ge; 6 years: more than 4 mL
+- Age &lt; 6 years: More than a taste/lick
+- Age &ge; 6 years: More than 4 mL
 
-## Selective Serotonin Reuptake Inhibitors
+# Selective Serotonin Reuptake Inhibitors
 
 | Drug         | Dose        |
 | ------------ | ----------- |
@@ -156,7 +157,7 @@ More than witnessed taste/lick or unknown amount
 | Paroxetine   | &gt; 100 mg |
 | Sertraline   | &gt; 250 mg |
 
-## Tricyclic Antidepressants (TCA)
+# Tricyclic Antidepressants (TCA)
 
 | Drug          | Dose           |
 | ------------- | -------------- |
@@ -166,7 +167,7 @@ More than witnessed taste/lick or unknown amount
 | Protriptyline | &gt; 1 mg/kg   |
 | All Others    | &gt; 5 mg/kg   |
 
-## Valproic Acid
+# Valproic Acid
 
 &ge;50 mg/kg
 
