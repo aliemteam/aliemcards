@@ -1,5 +1,4 @@
 ---
-
 title: Legionnaire's Disease
 authors:
     - Michelle Lin, MD
@@ -22,25 +21,25 @@ Pneumonia caused by any _Legionella_ species
 - Excavation
 - Construction sites
 - Most commonly found in patients age > 50 years, smokers, immunocomprised
-- Differential diagnosis often involves other atypical pneumonia and zoonotic organisms 
+- Differential diagnosis often involves other atypical pneumonia and zoonotic organisms 
 - Requires reporting to your state's health department to help track for outbreaks
 
 ## Clinical Presentation
 
-Acute presentation of severe community acquired pneumonia (CAP) 
+Acute presentation of severe community acquired pneumonia (CAP) 
 
 **Classic Chest X-Ray:** Rapidly progressive asymmetrical patchy infiltrates
 
-- Besides Legionella, the differential diagnosis for such a CXR finding includes: 
-  1. _Strep pneumoniae_ in patients with impaired splenic function 
+- Besides Legionella, the differential diagnosis for such a CXR finding includes: 
+  1. _Strep pneumoniae_ in patients with impaired splenic function 
   2. Zoonotic atypical pathogens (Q fever, tularemia, adenovirus)
 
 Extrapulmonary organ involvement:
 
 - **CNS:** Mental confusion, encephalopathic, headache
-- **Cardiac:** Relative bradycardia
+- **Cardiac:** Relative bradycardia
 - **GI:** Loose stools, watery diarrhea
-- **Renal:** Microscopic hematuria, renal insufficiency 
+- **Renal:** Microscopic hematuria, renal insufficiency 
 
 | Temperature    | Appropriate HR (bpm) | Relative Bradycardia (bpm) |
 | -------------- | :------------------: | :------------------------: |
@@ -53,18 +52,18 @@ Extrapulmonary organ involvement:
 
 ## Classic Laboratory Findings
 
-- **Na:** Low in CAP but mostly frequently associated with Legionella 
+- **Na:** Low in CAP but mostly frequently associated with Legionella 
 - **AST/ALT:** Mildly increased 2-5x normal
 - **Phosphate:** Decreased
 - **CK:** Increased
 - **CRP:** > 35 mg/L
-- **Ferritin:** Increased > 2x normal 
+- **Ferritin:** Increased > 2x normal 
 
 ## Legionella Diagnostic Triad ([Cunha et al.](http://www.ncbi.nlm.nih.gov/pubmed/?term=20457348))
 
-| **Need All 3 Criteria**  | **Key Clinical Feature**                      | **Key Lab Features (Any 3)** |
+| **Need All 3 Criteria**  | **Key Clinical Feature**                      | **Key Lab Features (Any 3)** |
 | :----------------------- | :-------------------------------------------- | :--------------------------- |
-| Signs/sx of CAP          | T >102F with unexplained relative bradycardia | Hypophophatemia              |
+| Signs/sx of CAP          | T >102F with unexplained relative bradycardia | Hypophophatemia              |
 | New infiltrate on CXR    |                                               | Ferritin> 2x normal          |
 | No zoonotic contact hx   |                                               | Mild transaminitis           |
 |                          |                                               | Relative lymphopenia         |
@@ -76,7 +75,7 @@ Extrapulmonary organ involvement:
 ## Antibiotic Treatment
 
 - **Macrolides:** First-line agent, although a growing resistance
-- Other antibiotics: Doxycycline, fluoroquinolones 
+- Other antibiotics: Doxycycline, fluoroquinolones 
 - Duration of treatment: 2 weeks
 
 ## References
