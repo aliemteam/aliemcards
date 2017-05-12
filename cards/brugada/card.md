@@ -4,7 +4,8 @@ title: Brugada Syndrome
 authors:
     - Michelle Lin, MD
 created: 2011/05/06
-updates: 2017/05/10
+updates: 
+    - 2017/05/10
 categories:
     - Cardiovascular
 ---
