@@ -1,10 +1,10 @@
 ---
 
-title: Rule of 2s for Ocular Emergencies
+title: Eye Anatomy and Key Diagnoses: Rule of 2s
 author:
     - Puja Gopal, MD
 created: 2017/04/14
-updates: null
+updates: 
 categories:
     - Ophthalmology
  
@@ -19,10 +19,6 @@ The rule of 2s, as illustrated below, is a simple method with an anatomical appr
 
 ## Posterior Eye – Use fundoscopy and ultrasound
 ![posterior eye picture - vitreous (vitreous hemorrhage, posterior vitreous detachment), retina (retinal detachment, retinal vascular occlusion (central retinal artery or vein occlusion), optic nerve (optic neuritis (inflammation), temporal arteritis (ischemia)](image-2.png)
-
-## Other Eye Diagnoses
-![other eye diagnoses - trauma (globe rupture, retrobulbar hemorrhage), 2 Not to miss Bs (foreign body, blowout fracture), chemical injury (acid, alkali), increased pressure (papilledema or glaucoma), infections that manifest in the outer eye (dacrocystitis, periorbital/orbital cellulitis)](image-3.png)
-
 
 
 ## References
