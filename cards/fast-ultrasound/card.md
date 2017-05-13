@@ -1,6 +1,6 @@
 ---
 
-title: Focused Assessment with Sonography in Trauma (FAST)
+title: Ultrasound - Focused Assessment with Sonography in Trauma (FAST)
 authors:
     - Wilma Chan, MD
     - John Eicken, MD 
@@ -76,19 +76,19 @@ Figure 3: Positive FAST in LUQ view demonstrating large amount of complex free f
 
 ## Struggling with the Exam?
 
-**Can’t find the spleen or left kidney?**
+### Can’t find the spleen or left kidney?
 
 - The left kidney is often located more superior and posterior compared to the right kidney. Try placing the probe more posterior towards the left flank.
 
-**Can’t find the bladder?**
+### Can’t find the bladder?
 
 - Make sure you’re as close to the symphysis pubis as possible (don’t be shy!), and aiming the transducer towards the patient’s feet. Visualization of the bladder is improved prior to emptying of the bladder. Try FAST prior to insertion of a foley catheter or prior to the patient emptying their bladder.
 
-**Rib shadows obstructing view in RUQ and LUQ views?** 
+### Rib shadows obstructing view in RUQ and LUQ views?
 
 - Try rotating the transducer obliquely parallel to the ribs in order to fit between an intercostal space. A phased array transducer’s smaller footprint can reduce or eliminate rib shadows.
 
-**Can’t see the entire heart on the subxiphoid view?**
+### Can’t see the entire heart on the subxiphoid view?
 
 - Try moving the probe more to the patient’s right to use the liver as an acoustic window. You can also try increasing the depth of the image.
 
@@ -105,4 +105,4 @@ Figure 3: Positive FAST in LUQ view demonstrating large amount of complex free f
 
 - Durston W et al. _Ann of Surg_, 1998. PMID 9790345 [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/9790345)]
 - Stengel D et al. _Br J Surg_, 2001. PMID 11442520 [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/11442520)]
-- Stengel D et al. Radiology, 2005. PMID 15983072 [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/15983072)]
+- Stengel D et al. _Radiology_, 2005. PMID 15983072 [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/15983072)]

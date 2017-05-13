@@ -15,14 +15,14 @@ categories:
 
 **Caveat**: This review only applies to those patients in whom you suspect meningitis. This does not apply to those being worked up for subarachnoid hemorrhage.
 
-If **ZERO** high risk features, it is safe to do LP without a Head CT:
+If **ZERO** of the following high risk features, it is safe to do LP without a Head CT.
 
-\| **High risk features associated with abnormal CT:**        |
-\|------------------------------------------------------------\|
-| Age &ge; 60 yr                                                |
+| **High Risk Features Associated With An Abnormal CT**      |
+|------------------------------------------------------------|
+| Age &ge;60 yr                                              |
 | Immunocompromise (HIV, transplant, immunosuppression)      |
 | History of CNS disease (mass lesion, CVA, focal infection) |
-| Seizure &lt; 1 wk prior to arrival                         |
+| Seizure &lt; 1 week prior to arrival                       |
 | Altered level of consciousness                             |
 | Unable to answer 2 questions correctly                     |
 | Unable to follow 2 commands correctly                      |
@@ -32,7 +32,7 @@ If **ZERO** high risk features, it is safe to do LP without a Head CT:
 | Arm or leg drift                                           |
 | Abnormal language / speech                                 |
 
-## ([Hasbun et al. NEMJ, 2001](https://www.ncbi.nlm.nih.gov/pubmed/?term=11742046))\*\*
+## Study: [Hasbun et al. NEMJ, 2001](https://www.ncbi.nlm.nih.gov/pubmed/?term=11742046)
 
 **Design:** Prospective observational single-site study (n = 301)
 
@@ -66,4 +66,4 @@ If **ZERO** high risk features, it is safe to do LP without a Head CT:
 
 ## References
 
-- Hasbun et al. CT of head before LP in adults with suspected meningitis. NEJM. 345(24), 12/13/01: 1727-33 [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=11742046)]
+- Hasbun et al. CT of head before LP in adults with suspected meningitis. NEJM. 2001;345(24): 1727-33. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=11742046)]

@@ -13,8 +13,8 @@ categories:
 
 ## Classic mechanisms of injury
 
-- **Carotid artery injury (CAI)**: Hyperextension of neck resulting in stretching of carotid artery over lateral processes of C1-C3.
-- **Vertebral artery injury (VAI)**: Fracture through transverse process of C-spine, or hyperextension-stretch injury.
+- **Carotid artery injury (CAI)**: Hyperextension of neck resulting in stretching of carotid artery over lateral processes of C1-C3
+- **Vertebral artery injury (VAI)**: Fracture through transverse process of C-spine, or hyperextension-stretch injury
 
 ## Treatment
 
@@ -34,7 +34,7 @@ categories:
 ### Risk factors for BCVI
 
 - LeFort II or III facial fracture
-- C-spine fracture patterns: subluxation, fx extending into transverse foramen, fx involving C1-C3
+- C-spine fracture patterns: subluxation, fx extending into transverse foramen, fracture involving C1-C3
 - Basilar skull fracture with carotid canal involvement
 - Petrous bone fracture
 - Diffuse axonal injury with GCS &lt;6
@@ -52,7 +52,7 @@ categories:
 
 | Grade | Definition                                                                                                                | CVA Rate Carotid | CVA Rate Vertebral |
 | ----: | ------------------------------------------------------------------------------------------------------------------------- | ---------------: | -----------------: |
-| **1** | Irregularity of vessel wall, or dissection/intramural hematoma with &lt;25%luminal stenosis                               |               3% |                 6% |
+| **1** | Irregularity of vessel wall, or dissection/intramural hematoma with <25% luminal stenosis                                 |               3% |                 6% |
 | **2** | Intraluminal thrombus or raised intimal flap is visualized, or dissection/intramural hematoma with ≥25% luminal narrowing |              14% |                38% |
 | **3** | Pseudoaneurysm                                                                                                            |              26% |                27% |
 | **4** | Vessel occlusion                                                                                                          |              50% |                28% |
@@ -60,7 +60,7 @@ categories:
 
 Risk of undiagnosed BVCI: Delayed CVA
 
-- May occur hours to 14 years later) 
+- May occur hours to 14 years later 
 - Majority develop CVA symptoms in 10-72 hours
 
 ## References

@@ -11,7 +11,7 @@ categories:
 
 # Ottawa Knee, Ankle, and Foot Rules
 
-Plain film x-rays are indicated if presence of traumatized extremity and any of the following findings:
+Plain film x-rays are indicated if presence of traumatized extremity and ANY of the following findings:
 
 ## Ottawa Knee Rules
 
@@ -21,14 +21,13 @@ Plain film x-rays are indicated if presence of traumatized extremity and any of 
 4. Inability to flex knee to 90 degrees
 5. Inability to walk 4 steps both immediately and in the ED    
 
-[Emparanza et al, Ann Emerg Med (2001)](http://www.ncbi.nlm.nih.gov/pubmed/?term=11574791) statistics:
-
-- Sensitivity 100%
-- Reduced x-ray need by 49% 
+- Performance characteristics ([Emparanza et al, Ann Emerg Med (2001)](http://www.ncbi.nlm.nih.gov/pubmed/?term=11574791))
+  - Sensitivity 100%
+  - Reduced x-ray need by 49% 
 
 ## Ottawa Ankle Rules
 
-Exclusion criteria: Patients &lt;18 years old)
+Exclusion criteria: Patients &lt;18 years old
 
 1. Most distal 6 cm of fibula (lateral malleolus): Tenderness at or along posterior edge
 2. Most distal 6 cm of tibia (medial malleolus): Tenderness at or along posterior edge 
@@ -42,7 +41,7 @@ Exclusion criteria: Patients &lt;18 years old)
 
 ## Combined Ottawa Ankle and Root Rules
 
-[Mayer D. BMJ (2009)](http://www.ncbi.nlm.nih.gov/pubmed/?term=19666680) statistics:
+Performance characteristics ([Mayer D. BMJ (2009)](http://www.ncbi.nlm.nih.gov/pubmed/?term=19666680))
 
 - Sensitivity = 97.8%
 - Specificity = 31.5%
@@ -50,7 +49,7 @@ Exclusion criteria: Patients &lt;18 years old)
 
 ## Pearls
 
-**Pediatric patients:** Variable validation data for Ottawa ankle and foot rules.
+**Pediatric patients:** Variable validation data for Ottawa ankle and foot rules
 
 - General rule: Ligaments are stronger than growth plates in children. 
 - OK to use knee rules in pediatrics based on ([Bulloch et al. Ann Emerg Med, 2003](http://www.ncbi.nlm.nih.gov/pubmed/?term=12827123)) 
@@ -59,6 +58,6 @@ Exclusion criteria: Patients &lt;18 years old)
 
 ## References
 
-- Mayer D. The injured ankle and foot. BMJ. 2009 Aug 7;339. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=19666680)]
-- Bulloch B. et al. Validation of the Ottawa Knee Rule in children: a multicenter study. Ann Emerg Med. 2003 Jul;42(1):48-55. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=12827123)]
-- Emparanza JI. et.al.Validation of the Ottawa Knee Rules.Ann Emerg Med. 2001 Oct;38(4):364-8. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=11574791)]
+- Mayer D. The injured ankle and foot. _BMJ_. 2009 Aug 7;339. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=19666680)]
+- Bulloch B. et al. Validation of the Ottawa Knee Rule in children: a multicenter study. _Ann Emerg Med_. 2003 Jul;42(1):48-55. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=12827123)]
+- Emparanza JI. et.al.Validation of the Ottawa Knee Rules. _Ann Emerg Med_. 2001 Oct;38(4):364-8. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=11574791)]

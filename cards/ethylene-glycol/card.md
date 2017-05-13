@@ -31,7 +31,7 @@ Found in antifreeze, coolants, deicing solutions, ink in stamp pads and ballpoin
 
 - High anion gap metabolic acidosis and high osmolal gap (early in patient course)
 
-## EG: Classic Presentation 
+## Classic Presentation 
 
 1. Altered mental status
 2. Hypocalcemia
@@ -43,25 +43,24 @@ Found in antifreeze, coolants, deicing solutions, ink in stamp pads and ballpoin
 - **Cardiopulmonary** – Hyperventilation from respiratory compensation of acidosis, hypoxia from heart failure, multiorgan failure, ARDS
 -  **Renal** – Flank pain, acute tubular necrosis, renal failure
 
-## EG: Management
+## Management
 
 - **Goal**: Prevent further formation of (<span class="drug">fomipezole</span>) & eliminate toxic metabolites (dialysis)
 - **Antidote**: <span class="drug">Fomipezole</span> inhibits alcohol dehydrogenase (alternative antidote= ethanol)
 - **Loading dose**: 15 mg/kg IV
 - **Maintenance dose**: 10 mg/kg IV every 12 hours x 2 days 
 
-## EG: American Academy of Clinical Toxicology guidelines
+## American Academy of Clinical Toxicology guidelines
 
 **Indications for treatment of EG poisoning with FOMIPEZOLE: (any of following)**
+- Documented plasma ethylene glycol >20 mg/dL
+- Documented recent hx of ingesting toxic EG amounts and osmolal gap >10 mOsm/L
+- Strong suspicion of EG poisoning and at least 2 criteria:
 
- - Documented plasma ethylene glycol >20 mg/dL
- \- Documented recent hx of ingesting toxic EG amounts and osmolal gap >10 mOsm/L
- \- Strong suspicion of EG poisoning and at least 2 criteria:
-
-1. Arterial pH &lt;7.3
-2. Serum bicarbonate &lt;20 mEq/L
-3. Osmolal gap >10 mOsm/L
-4. Urine oxalate crystal present
+  1. Arterial pH &lt;7.3
+  2. Serum bicarbonate &lt;20 mEq/L
+  3. Osmolal gap >10 mOsm/L
+  4. Urine oxalate crystal present
 
 **Indications for treatment of EG toxicity with HEMODIALYSIS: (any of following)**
 

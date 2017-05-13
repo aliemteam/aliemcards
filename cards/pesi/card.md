@@ -57,6 +57,10 @@ Randomized, prospective, non-inferiority clinical trial of 19 ED’s (n = 344 p
 - Imprisonment
 - Diagnosis of PE &gt;23 hrs before time of screening
 
+### Results
+
+- Complication rates were calculated based on whether PE was managed as an outpatient or inpatient.
+
 | Complications                                   |   Outpatient |    Inpatient |
 | ----------------------------------------------- | -----------: | -----------: |
 | Major bleeding at &le;14 days                   | 1.2% (2/171) |   0% (0/168) |
@@ -66,12 +70,14 @@ Randomized, prospective, non-inferiority clinical trial of 19 ED’s (n = 344 p
 
 ### Outpatient treatment 
 
-<span class="drug">Enoxaparin</span> 1 mg/kg SQ BID to bridge into PO <span class="drug">Warfarin</span> (target INR=2)
+<span class="drug">Enoxaparin</span> 1 mg/kg SQ BID to bridge into PO <span class="drug">warfarin</span> (target INR=2)
 
 ## Conclusion
 
-PE patients with PESI class I or II seem safe to manage as outpatients (be aware of exclusion criteria from study)
+PE patients with PESI class I or II seem safe to manage as outpatients.
+
+- Be aware of exclusion criteria from study
 
 ## References
 
-- Aujesky D, Roy PM, Verschuren F, Righini M, Osterwalder J, Egloff M, Renaud B, Verhamme P, Stone RA, Legall C, Sanchez O, Pugh NA, N'gako A, Cornuz J, Hugli O, Beer HJ, Perrier A, Fine MJ, Yealy DM. Outpatient versus inpatient treatment for patients with acute pulmonary embolism: an international, open-label, randomised, non-inferiority trial. Lancet. 2011 Jul 2;378(9785):41-8. doi: 10.1016/S0140-6736(11)60824-6. Epub 2011 Jun 22. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=21703676)]
+- Aujesky D, Roy PM, Verschuren F, Righini M, Osterwalder J, Egloff M, Renaud B, Verhamme P, Stone RA, Legall C, Sanchez O, Pugh NA, N'gako A, Cornuz J, Hugli O, Beer HJ, Perrier A, Fine MJ, Yealy DM. Outpatient versus inpatient treatment for patients with acute pulmonary embolism: an international, open-label, randomised, non-inferiority trial. _Lancet_. 2011 Jul 2;378(9785):41-8. doi: 10.1016/S0140-6736(11)60824-6.  [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=21703676)]

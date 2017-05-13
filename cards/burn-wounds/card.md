@@ -17,7 +17,7 @@ categories:
 
 **Superficial**: EPIDERMIS depth only; painful
 
-**Partial-Thickness:** involve dermis
+**Partial-Thickness:** Involves dermis
 
 - **Superficial**
   - EPIDERMIS + SHALLOW DERMIS
@@ -70,7 +70,7 @@ categories:
 
 ## Burn Management
 
-**Minor burns:**
+**Minor burns**
 
 - Tetanus update
 - Pain medications
@@ -78,11 +78,13 @@ categories:
 - Apply topical antimicrobial/dressing
 - 24 hr follow-up
 
-**Large burns** – Apply topical antimicrobial agent such as **bacitracin**, **neomycin**, **mupirocin**, or **honey**. Membrane-based dressings can be used alternatively.
+**Large burns**
+
+- Apply topical antimicrobial agent such as **bacitracin**, **neomycin**, **mupirocin**, or **honey**. Membrane-based dressings can be used alternatively.
 
 **Practice Change:** **Silver sulfadiazine** has fallen out favor for burn prophylaxis in partial-thickness burns. May slow wound healing, increases frequency of dressing changes, and more painful
 
-**What is high voltage injury?** &gt; 1000 volts
+**What is high voltage injury?** &gt;1000 volts
 
 ## References
 
