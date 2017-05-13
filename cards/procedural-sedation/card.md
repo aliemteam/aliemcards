@@ -23,36 +23,36 @@ categories:
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>L</strong>ook externally: syndromic, obese, gestalt</td>
-<td><strong>M</strong>ask seal (beard, trauma, prone)<br />
+<td><strong>L</strong> ook externally: syndromic, obese, gestalt</td>
+<td><strong>M</strong> ask seal (beard, trauma, prone)<br />
 </td>
 </tr>
 <tr class="even">
-<td><strong>E</strong>valuate 3-3-2 rule<br />
+<td><strong>E</strong> valuate 3-3-2 rule<br />
 (mouth opening, thyromental, hyomental)</td>
-<td><strong>O</strong>besity<br />
+<td><strong>O</strong> besity<br />
 (redundant upper airway, OSA, poor reserve)<br />
 </td>
 </tr>
 <tr class="odd">
-<td><strong>M</strong>allampati<br />
+<td><strong>M</strong> allampati<br />
 
 <ul>
-<li>I: uvula, tonsils, palate</li>
-<li>II: upper uvula, tonsils</li>
-<li>III base of uvula</li>
-<li>IV: hard palate only<br />
+<li>I: Uvula, tonsils, palate</li>
+<li>II: Upper uvula, tonsils</li>
+<li>III Base of uvula</li>
+<li>IV: Hard palate only<br />
 </li>
 </ul></td>
-<td><strong>A</strong>ge &gt; 55 (Loss of airway tone)</td>
+<td><strong>A</strong> ge &gt; 55 (Loss of airway tone)</td>
 </tr>
 <tr class="even">
-<td><strong>O</strong>bstruction: OSA, PTA, epiglottis, mass</td>
-<td><strong>N</strong>o teeth</td>
+<td><strong>O</strong> bstruction: OSA, PTA, epiglottis, mass</td>
+<td><strong>N</strong> o teeth</td>
 </tr>
 <tr class="odd">
-<td><strong>N</strong>eck mobility: Rheum. arthritis, c-collar</td>
-<td><strong>S</strong>tiffness (asthma, COPD, pregnant)</td>
+<td><strong>N</strong> eck mobility: Rheum. arthritis, c-collar</td>
+<td><strong>S</strong> tiffness (asthma, COPD, pregnant)</td>
 </tr>
 </tbody>
 </table>
@@ -61,12 +61,12 @@ categories:
 
 Assemble appropriate staffing and equipment (**SOAPME**): 
 
-- **S**uction
-- **O**xygen
-- **A**irway adjuncts
-- **P**ersonnel
-- **M**edications
-- **E**quipment
+- **S** uction
+- **O** xygen
+- **A** irway adjuncts
+- **P** ersonnel
+- **M** edications
+- **E** quipment
 
 Select sedative AND analgesic if both are required. Match duration of procedure to duration of drug.
 
