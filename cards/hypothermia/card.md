@@ -1,10 +1,9 @@
 ---
-
-title: Hypothermia
+title: Hypothermia, Accidental
 authors:
     - 'Michelle Lin, MD'
 created: 2011/02/04
-updates: null
+updates:
 categories:
     - Environmental
 ---
@@ -13,7 +12,8 @@ categories:
 
 ## Stages of Hypothermia
 
-**MILD HYPOTHERMIA** 32.2-35°C (90-95°F) 
+### MILD HYPOTHERMIA 
+32.2-35&deg;C (90-95&deg;F) 
 
 | Early Stage      | Decompensated Stage                               |
 | :--------------- | :------------------------------------------------ |
@@ -22,35 +22,37 @@ categories:
 | Shivering        | Cold diuresis-kidneys unable to concentrate urine |
 | Vasoconstriction | Hypovolemia                                       |
 
-**MODERATE HYPOTHERMIA** 28-32.2°C (82.4-90°F)
+### MODERATE HYPOTHERMIA 
+28-32.2&deg;C (82.4-90&deg;F)
 
-| Clinical Findings |
-| ----------------- |
-| Atrial dysrhythmias  |
-| J wave on ECG          |
+| Clinical Findings         |
+| :------------------------ |
+| Atrial dysrhythmias       |
+| J wave on ECG             |
 | Hypotension, bradycardia  | 
 | Lethargy                  |
 | Mydriasis                 |
-| Diminished gag reflex   |
-| Loss of shivering       |
-| Hyporeflexia            |
+| Diminished gag reflex     |
+| Loss of shivering         |
+| Hyporeflexia              |
 
-[](image-1.png) 
+![J-wave example](image-1.png)
 
-**SEVERE HYPOTHERMIA** &lt;28°C (&lt;82.4°F)
+### SEVERE HYPOTHERMIA 
+&lt;28&deg;C (&lt;82.4&deg;F)
 
-| Clinical Findings |
-| ----------------- |
-| Apnea               |       
-| Coma                 | 
-| No activity on EEG   | 
-| Fixed pupils         | 
-| Oliguria                  | 
+| Clinical Findings         |
+| :------------------------ |
+| Apnea                     |
+| Coma                      |
+| No activity on EEG        |
+| Fixed pupils              |
+| Oliguria                  |
 | Pulmonary edema           |
 | Ventricular dysrhythmias  |
-| Asystole                  |
+| Asystole                  |
 
-**Tip:**
+**Tip**
 
 - Many thermometers do not measure below 34.4°C (94°F). Need special low-tempsensing rectal or bladder thermometers.
 - Avoid jostling the hypothermic patient too much because of myocardial irritability and consequent arrhythmias.
@@ -66,7 +68,7 @@ categories:
 ## Rewarming approaches
 
 1. **Passive Rewarming:** Remove cold, damp clothes. Wrap with blankets.
-2. **Active External Rewarming:** applying heat to skin
+2. **Active External Rewarming:** Apply heat to skin
 
    - Heating blanket or radiant heat
    - Hot water bottles or heating pads to truncal surfaces. Caution-- do not burn skin.
@@ -84,14 +86,14 @@ categories:
 
 ## Choosing a rewarming approach
 
-**General approach:**
+### General approach
 
 - Check glucose.    
 - Consider thiamine 100 mg IV, esp if chronic EtOH at risk for Wernicke’s    
 - Treat underlying etiology for hypothermia 
 - Give antibiotics +/- steroids, as appropriate   
 
-**If patient in cardiopulmonary arrest:**
+### If patient in cardiopulmonary arrest
 
 - Intubate, CPR, ACLS protocol
 - Warm IVF
@@ -99,15 +101,15 @@ categories:
 - Extracorporeal rewarming (i.e. cardiopulmonary bypass), if not immediately available, do active core rewarming measures
 - Rewarm to target temperature >30°C (86°F)
 
-**If NOT in cardiopulmonary arrest AND temperature &lt;32°C (89.6°F):**
+### If NOT in cardiopulmonary arrest AND temperature &lt;32°C (89.6°F)
 
 - Active External Rewarming (i.e. Bair Hugger, warm blankets), and
 - Minimally invasive Active Core Rewarming (warm IVF, warm air)
 
-**If NOT in cardiopulmonary arrest AND temp ≥32°C (89.6°F):**
+### If NOT in cardiopulmonary arrest AND temp &ge;32°C (89.6°F)
 
 - Passive external rewarming measures    
 
 ## References
 
-- [McCullough L, Arora S.Diagnosis and treatment of hypothermia.Am Fam Physician. 2004 Dec 15;70(12):2325-32.](http://www.ncbi.nlm.nih.gov/pubmed/?term=15617296)
+- McCullough L, Arora S. Diagnosis and treatment of hypothermia. _Am Fam Physician_. 2004 Dec 15;70(12):2325-32. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=15617296)]

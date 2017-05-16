@@ -1,10 +1,9 @@
 ---
-
 title: Red Eye
 authors:
     - Michelle Lin, MD
 created: 2010/01/22
-updates: null
+updates:
 categories:
     - Ophthalmology
 ---
@@ -13,7 +12,7 @@ categories:
 
 ## Conjunctivitis
 
-![](image-1.png)
+![Bacterial conjunctivitis photo](image-1.png)
 
 ### Allergic
 
@@ -30,7 +29,7 @@ categories:
 
 ### Viral: Epidemic keratoconjunctivitis
 
-![](image-2.png)
+![Epidemic keratoconjunctivitis photo](image-2.png)
 
 - Adenovirus
 - **Symptoms:** Eye pain, decreased visual acuity
@@ -38,39 +37,36 @@ categories:
 
 ### Viral: HSV conjunctivitis
 
-- More prevalent in HIV pts. 
+- More prevalent in HIV patients
 - Foreign body sensation in eye (unlike typical viral conjunctivitis)
 - **Treatment**:
-- If no skin or corneal involvement, topical antivirals (**<span class="drug">trifluridine</span>** or **<span class="drug">vidarabine</span>**) x 10-14 days
-- If corneal involvement (dendrites seen), topical **<span class="drug">trifluridine</span>** and oral **<span class="drug">acyclovir</span>** x 7-10 days. NO STEROIDS. 
+  - If no skin or corneal involvement, topical antivirals (<span class="drug">trifluridine</span> or <span class="drug">vidarabine</span>) x 10-14 days
+  - If corneal involvement (dendrites seen), topical <span class="drug">trifluridine</span> and oral <span class="drug">acyclovir</span> x 7-10 days. NO STEROIDS. 
 
 ### Viral: HZV ophthalmicus
 
-VZV virus: Reactivation through V1 nerve. 
+VZV virus: Reactivation through V1 nerve 
 
 Findings:
 
-- Hutchinson sign = Herpes pustules at nose tip and is predictive of ocular involvement 
+- Hutchinson sign: Herpes pustules at nose tip and is predictive of ocular involvement 
 - Dendrites on eye exam
-- **Treatment:** Systemic vs topical antiviral agents, +/- steroids only with ophtho consult
+- **Treatment:** Systemic vs topical antiviral agents, +/- steroids only with ophthalmology consult
 
 ### Bacterial 
 
-Often association with morning crusting. Injection more pronounced at fornices. 
-
-**Contact lens wearer**: Pseudomonas risk
-
-- **Treatment:** Topical fluoroquinolone, cycloplegic
-
-**Gonorrheal conjunctivitis:** Sexually active patients and neonates (from birthcanal), “hyperacute conjunctivitis”, abrupt onset, copious purulent discharge
-
-- **Treatment:** Topical antibiotics, usually with systemic antibitics because associated with venereal disease
+- Often association with morning crusting 
+- Injection more pronounced at fornices
+- **Contact lens wearer**: Pseudomonas risk
+  - **Treatment:** Topical fluoroquinolone, cycloplegic
+- **Gonorrheal conjunctivitis:** Sexually active patients and neonates (from birthcanal), “hyperacute conjunctivitis”, abrupt onset, copious purulent discharge
+  - **Treatment:** Topical antibiotics, usually with systemic antibitics because associated with venereal disease
 
 **Inclusion conjunctivitis**
 
-- Chlamydia: Sexually active patients and neonates,mucopurulent discharge, foreign body sensation
-- Check for concurrent STI(symptomatic only 1⁄2 patients).
-- **Treatment:** Topical **<span class="drug">erythromycin</span>** and po **<span class="drug">azithromycin</span>** x 1 
+- **Chlamydia:** Sexually active patients and neonates,mucopurulent discharge, foreign body sensation
+- Check for concurrent sexually transmitted infections (symptomatic only 1⁄2 patients).
+- **Treatment:** Topical <span class="drug">erythromycin</span> and po <span class="drug">azithromycin</span> x 1 
 
 ## Subconjunctival Hemorrhage
 
@@ -79,7 +75,7 @@ Often association with morning crusting. Injection more pronounced at fornices.�
 
 ## Episcleritis
 
-![](image-3.png)
+![Episcleritis photo](image-3.png)
 
 - Episclera: Thin membrane over the sclera and beneath conjunctiva
 - Benign self-limited inflammatory cond with focal area of dilated episceral vessels 
@@ -88,13 +84,15 @@ Often association with morning crusting. Injection more pronounced at fornices.�
 
 ## Scleritis
 
-![](image-4.png)
+![Scleritis photo](image-4.png)
 
 - **Most common immune cause:** Rheumatoid arthritis
 - **Most common vasculitis cause:** Wegener’s 
 - **Symptoms:** Severe eye pain radiating to ear, scalp, face, and jaw. Dull pain. Photophobia. 
 - **Exam:** Deep episcleral plexus is vascularly engorged – appears blue-violet, vessels non-blanching with vasoconstrictor, scleral edema 
-- **Treatment:** Oral NSAIDs +/- steroids po per ophtho consultation 
+- **Treatment:** 
+  - Oral NSAIDs 
+  - Consider oral steroids, but with ophthalmology consultation 
 
 ## Uveitis
 
@@ -105,20 +103,22 @@ Often association with morning crusting. Injection more pronounced at fornices.�
 - **Posterior uveitis:** “Floaters”, flashing light – no redness or pain
 - **Exam:** Inflammatory cells, proteinaceous flare
 - **Complications:** Cataracts, glaucoma, retinal detachment
-- **Treatment:** Mydriatic or cycloplegic drops +/- steroids po only with ophtho consult 
+- **Treatment:** 
+  - Mydriatic or cycloplegic drops 
+  - Consider oral steroids, but with ophthalmology consult 
 
 ## Acute Angle Closure Glaucoma
 
-![](image-5.png)
+![Acute Angle Closure Glaucoma photo](image-5.png)
 
 - **Symptoms:** Blurred vision, halos around lights, nausea/vomiting, headache
 - **Pearl:** Consider in all patients with “migraine HA’s” – check pupil reactivity
 - **Exam:** Corneal edema, mid-dilated NON-reactive pupil
 - Intraocular pressure >30 mmHg requires prompt treatment
 - **Treatment:** 
-- Topicals: **<span class="drug">Timolol</span>**, **<span class="drug">prednisolone</span>**, **<span class="drug">apraclonidine</span>**
-- Oral: **<span class="drug">Acetazolamide</span>** 
+  - Topicals: <span class="drug">Timolol</span>, <span class="drug">prednisolone</span>, <span class="drug">apraclonidine</span>
+  - Oral: <span class="drug">Acetazolamide</span> 
 
 ## References
 
-- [Mahmood AR, Narang AT. Diagnosis and management of the acute red eye.Emerg Med Clin North Am. 2008 Feb;26(1):35-55, vi. doi: 10.1016/j.emc.2007.10.002.](http://www.ncbi.nlm.nih.gov/pubmed/?term=18249256)
+- Mahmood AR, Narang AT. Diagnosis and management of the acute red eye. _Emerg Med Clin North Am_. 2008 Feb;26(1):35-55, vi. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=18249256)]

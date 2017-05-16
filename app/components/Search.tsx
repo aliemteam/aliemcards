@@ -54,8 +54,9 @@ export default class Search extends React.PureComponent<Props, State> {
               A Point-of-Care Reference Library
             </div>
             <div>
-              by Michelle Lin, and the <strong>ALiEM Team</strong>
-              <br />Formerly known as <em>Paucis Verbis Cards</em>
+              formerly known as <em>Paucis Verbis Cards</em><br />
+              by the <a href="https://aliem.com" target="_blank" rel="noopener noreferrer">ALiEM Team</a>{' '}
+              and contributors
             </div>
           </div>
         }

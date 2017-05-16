@@ -5,11 +5,19 @@ branches:
     only:
         - master
         - /^greenkeeper-.*$/
+        - /^v\d+\.\d+\.\d+(?:-rc\d+)?/
 cache: yarn
+before_install:
+    - pip install --user awscli
+    - export PATH=$PATH:$HOME/.local/bin
 script: yarn test && yarn build
+before_deploy:
+    - yarn s3
+deploy:
+    'on':
+        tags: true
+    skip_cleanup: true
+    provider: script
+    script: ./deploy
 after_success:
     - bash <(curl -s https://codecov.io/bash)
-deploy:
-  skip_cleanup: true
-  provider: script
-  script: ./deploy

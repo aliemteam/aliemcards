@@ -15,19 +15,19 @@ categories:
 
 ## American Burn Association Classification (2009)
 
-**Superficial**<span>: EPIDERMIS depth only; painful</span>
+**Superficial**: EPIDERMIS depth only; painful
 
-**Partial-Thickness:** <span>involve dermis</span>
+**Partial-Thickness:** Involves dermis
 
 - **Superficial**
-- EPIDERMIS + SHALLOW DERMIS
-- Moist, blistering; skin blanches, very painful
-- Heals within 3 weeks
+  - EPIDERMIS + SHALLOW DERMIS
+  - Moist, blistering; skin blanches, very painful
+  - Heals within 3 weeks
 - **Deep**
-- EPIDERMIS + DEEP DERMIS
-- Looks between superficial partial-thickness and 3<sup>rd</sup> degree burn
-- May need skin graft
-- Heals in >3 weeks
+  - EPIDERMIS + DEEP DERMIS
+  - Looks between superficial partial-thickness and 3<sup>rd</sup> degree burn
+  - May need skin graft
+  - Heals in >3 weeks
 
 **Full-Thickness:** 
 
@@ -36,7 +36,7 @@ categories:
 - Site insensate because burned nerve fibers
 - Needs skin graft
 
-![](image-1.png)
+![Epidermis, dermis, and subcutaneous layers of skin](image-1.png)
 
 ## Total body surface area (TBSA)
 
@@ -44,7 +44,7 @@ categories:
 - Patient’s palm and fingers = 1% TBSA
 - In calculating TBSA % burn, do not include 1<sup>st</sup> degree burns
 
-![](image-2.png)
+![Body surface area chart for an adult and child](image-2.png)
 
 ## Burn unit referral
 
@@ -56,7 +56,7 @@ categories:
 - Patient with co-morbidities
 - Special considerations: Social, emotional, or long-term rehab intervention
 
-**Fluid resuscitation **= 4 cc/kg/% TBSA of Lactated Ringers over 24 hrs with half given in first 8 hrs
+**Fluid resuscitation** = 4 cc/kg/% TBSA of Lactated Ringers over 24 hrs with half given in first 8 hrs
 
 - Titrate to urine output
 
@@ -66,11 +66,11 @@ categories:
 | Age > 2 yr    | 0.5-1 cc/kg/hr      |
 | Age &lt; 2 yr | 1-2 cc/kg/hr        |
 
-- Start if >20% TBSA involvement
+- Start if &gt;20% TBSA involvement
 
 ## Burn Management
 
-**Minor burns:**
+**Minor burns**
 
 - Tetanus update
 - Pain medications
@@ -78,14 +78,16 @@ categories:
 - Apply topical antimicrobial/dressing
 - 24 hr follow-up
 
-**Large burns** – Apply topical antimicrobial agent such as **bacitracin**, **neomycin**, **mupirocin**, or **honey**. Membrane-based dressings can be used alternatively.
+**Large burns**
+
+- Apply topical antimicrobial agent such as **bacitracin**, **neomycin**, **mupirocin**, or **honey**. Membrane-based dressings can be used alternatively.
 
 **Practice Change:** **Silver sulfadiazine** has fallen out favor for burn prophylaxis in partial-thickness burns. May slow wound healing, increases frequency of dressing changes, and more painful
 
-**What is high voltage injury? **>1000 volts
+**What is high voltage injury?** &gt;1000 volts
 
 ## References
 
-- [Gomez R et. al. Management of burn wounds in the emergency department.Emerg Med Clin North Am. 2007 Feb;25(1):135-46.](http://www.ncbi.nlm.nih.gov/pubmed/?term=Gomez+Cancio+Emerg+Med+Clin+of+N+Am+2007)
-- [Int Wound J. 2010](https://www.ncbi.nlm.nih.gov/pubmed/?term=20649832)
-- [Cochrane Database Syst Rev 2015](https://www.ncbi.nlm.nih.gov/pubmed/?term=25742878) 
+- Gomez R et. al. Management of burn wounds in the emergency department.Emerg Med Clin North Am. 2007 Feb;25(1):135-46. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=Gomez+Cancio+Emerg+Med+Clin+of+N+Am+2007)]
+- Int Wound J. 2010 [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=20649832)]
+- Cochrane Database Syst Rev 2015 [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=25742878)] 

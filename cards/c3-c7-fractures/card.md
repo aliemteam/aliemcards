@@ -4,7 +4,7 @@ title: C3-C7 Spine Fractures
 authors:
     - Michelle Lin, MD
 created: 2010/10/01
-updates: null
+updates:
 categories:
     - Orthopedics
 ---
@@ -119,8 +119,8 @@ categories:
 | Transverse process fx (Lateral flexion)         | Yes        |
 | Wedge fx (Flexion)                              | Yes        |
 
-![](image-1.png)
+![C3-C7 fracture diagram](image-1.png)
 
 ## References
 
-- [Lin M and Mahadevan S. “Spine and Spinal Cord Injuries” in Adams J et al (eds), Emergency Medicine. New York: Elsevier, 2007](None)
+- Lin M and Mahadevan S. “Spine and Spinal Cord Injuries” in Adams J et al (eds), Emergency Medicine. New York: Elsevier, 2007(None)

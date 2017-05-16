@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Category /> should render appropriately depending on networkStatus 1`] = `
+<div>
+  Loading...
+</div>
+`;
+
+exports[`<Category /> should render appropriately depending on networkStatus 2`] = `
+<div>
+  Polling!
+</div>
+`;
+
+exports[`<Category /> should render appropriately depending on networkStatus 3`] = `
+<div>
+  <h1>
+    Test Category
+  </h1>
+  <div>
+    Mocked CardList
+  </div>
+</div>
+`;
+
+exports[`<Category /> should render appropriately depending on networkStatus 4`] = `
+<div>
+  <h1>
+    Test Category
+  </h1>
+  <div>
+    Mocked CardList
+  </div>
+</div>
+`;

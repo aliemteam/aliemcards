@@ -4,7 +4,7 @@ title: Rapid Sequence Intubation
 authors:
     - Demian Szyld, MD
 created: 2010/07/16
-updates: null
+updates:
 categories:
     - Critical Care
     - Procedures
@@ -12,18 +12,19 @@ categories:
 
 # Rapid Sequence Intubation (RSI)
 
-**Preparation**
+## Preparation
 
 Patients without a pulse do not require medications to facilitate intubation. 
 
-Maximize your chances for (first pass) SUCCESS with:
+Maximize your chances for first-pass success with:
 
-1. **Preparation**: room, airway equipment, suction, monitor, IV access, personnel 
+1. **Preparation**: Room, airway equipment, suction, monitor, IV access, personnel 
 2. **Pre-oxygenation:** NRB mask for spontaneously breathing patient, ventilate if hypoxic 
 3. **Positioning:** Ear above sternum or ramp
 4. **Plan A:** Share your laryngoscopy and intubation plan (bougie?, video?)
-5. **Plan B:** Share your rescue ventilation and rescue intubation plan (LMA?, cric kit?) Paralysis: optimize laryngoscopic view with muscle relaxants
-6. **Post-intubation**: Secure and confirm tube placement, sedation and vent orders
+5. **Plan B:** Share your rescue ventilation and rescue intubation plan (LMA?, cric kit?) 
+6. **Paralysis:** Optimize laryngoscopic view with muscle relaxants
+7. **Post-intubation**: Secure and confirm tube placement, sedation and vent orders
 
 Avoid paralysis without sedation.
 
@@ -51,7 +52,7 @@ Avoid paralysis when difficulty laryngoscopy is anticipated. Consider awake int
 | <span class="drug">Propofol</span>    |     1.5 mg/kg     |        120 mg        |              |
 | <span class="drug">Thiopental</span>  |      3 mg/kg      |        250 mg        |              |
 | <span class="drug">Ketamine IV</span> |     1.5 mg/kg     |        120 mg        | Asthma       |
-| <span class="drug">Ketamine IM</span> |     3.0 mg/kg     |        249 mg        | No IV access |
+| <span class="drug">Ketamine IM</span> |     3.0 mg/kg     |        240 mg        | No IV access |
 | <span class="drug">Midazolam</span>   |     0.3 mg/kg     |         24 mg        |              |
 
 **Paralytics**
@@ -64,5 +65,5 @@ Avoid paralysis when difficulty laryngoscopy is anticipated. Consider awake int
 
 ## References
 
-- [“Airway Cam Pocket Guide to Intubation, 2nd Edition](http://airwaycam.com)
-- [“The Airway Card”, The Airway Course](http://www.theairwaysite.com)
+- Airway Cam Pocket Guide to Intubation, 2nd Edition [[Source](http://airwaycam.com)]
+- “The Airway Card”, The Airway Course [[Source](http://www.theairwaysite.com)]

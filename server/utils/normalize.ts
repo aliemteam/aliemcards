@@ -31,16 +31,19 @@ function createCategoryObj(category: string): Category {
   };
 }
 
-export const normalize = (cards: SingleCardJSON[]): RootValue => {
-  const mapped = cards.map(card => Object.assign({}, card, {
-    authors: card.authors.map(AuthorFactory.create),
-    categories: card.categories ? card.categories.map(createCategoryObj) : [],
-  }));
+type AllButAnnouncements = Pick<RootValue, 'entities'|'result'>;
 
-  // const mapped = cards.map(card => ({...card,
-  //   authors: card.authors.map(AuthorFactory.create),
-  //   categories: card.categories.map(createCategoryObj),
-  // })); // FIXME: Issue with ts-node -- not accepting object spread
+export const normalize = (cards: SingleCardJSON[]): AllButAnnouncements => {
+  const mapped = cards.map(card => ({
+    ...card,
+    authors: card.authors.map(AuthorFactory.create),
+    categories: card.categories.map(createCategoryObj),
+  }))
+  .sort((a, b) => {
+    if (a.title < b.title) { return -1; }
+    if (a.title > b.title) { return 1; }
+    return 0;
+  });
   const author = new schema.Entity('authors');
   const category = new schema.Entity('categories');
   const card = new schema.Entity('cards', {

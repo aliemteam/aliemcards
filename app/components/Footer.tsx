@@ -11,14 +11,14 @@ export default () => (
         </a>
       </div>
       <div className="footer__cc-text">
-        This work is licensed under a
+        This work is licensed under a{' '}
         <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/">
-          {' '}Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License
+          Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License
         </a>.
       </div>
     </div>
     <div className="row footer__links">
-      <div><Link to="/contact">Questions or Suggestions?</Link></div>
+      <div><Link to="/contact">Contact</Link></div>
       <div><Link to="/contact">Get Involved</Link></div>
       <div><Link to="/about">About</Link></div>
     </div>

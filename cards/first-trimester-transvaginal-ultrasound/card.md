@@ -1,12 +1,12 @@
 ---
 
-title: Focused 1st Trimester Pregnancy Transvaginal Ultrasound
+title: Ultrasound - Focused 1st Trimester Pregnancy, Transvaginal Exam
 authors:
     - Matt Lipton, MD
     - Mike Mallin, MD
     - Mike Stone, MD
 created: 2015/03/04
-updates: null
+updates:
 categories:
     - Ultrasound
     - Radiology
@@ -28,23 +28,23 @@ categories:
 
 **Directional indicator:** Pointed to patient’s right side
 
-![](image-1.png)
+![Appropriate transducer orientation for the coronal transvaginal exam](image-1.png)
 
 Figure 1: Appropriate transducer orientation for the coronal transvaginal exam
 
-![](image-2.png)
+![Ectopic pregnancy on transvaginal ultrasound, coronal view. Shown is a yolk sac within an extra-uterine gestational sac (black arrow) adjacent to an empty endometrium, outside of the uterus](image-2.png)
 
-Figure 2: Ectopic pregnancy on transvaginal ultrasound, coronal view. Shown is a **yolk sac** **within an extra-uterine gestational sac** (black arrow) adjacent to an empty **endometrium (e)**, outside of the **uterus**.
+Figure 2: Ectopic pregnancy on transvaginal ultrasound, coronal view. Shown is a **yolk sac within an extra-uterine gestational sac** (black arrow) adjacent to an empty **endometrium (e)**, outside of the **uterus**.
 
 ## 2.  Sagittal / longitudinal view
 
 **Directional indicator**: Pointed to anterior of patient (towards the ceiling)
 
-![](image-3.png)
+![Appropriate transducer orientation for the sagittal transvaginal exam](image-3.png)
 
 Figure 3: Appropriate transducer orientation for the sagittal transvaginal exam
 
-![](image-4.png)
+![Intrauterine pregnancy on transvaginal ultrasound, sagittal view. Shown is a gestational sac containing a yolk sac and within the endometrium](image-4.png)
 
 Figure 4: Intrauterine pregnancy on transvaginal ultrasound, sagittal view. Shown is a **gestational sac** containing a **yolk sac** and within the **endometrium.**
 
@@ -86,5 +86,5 @@ An ectopic pregnancy will occasionally be seen as an extrauterine mass. However,
 
 ## References
 
-- Wang R, et al. _Annals of Emerg Med,_ 2011. PMID: [21310509](http://www.ncbi.nlm.nih.gov/pubmed/?term=Use+of+a+%CE%B2-hCG+discriminatory+zone+with+bedside+pelvic+ultrasonography.)
-- Tayal, VS, et al. _Acad Emerg Med,_ 2004. PMID: [15347539](http://www.ncbi.nlm.nih.gov/pubmed/15347539)
+- Wang R, et al. _Ann Emerg Med,_ 2011. PMID: 21310509 [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=Use+of+a+%CE%B2-hCG+discriminatory+zone+with+bedside+pelvic+ultrasonography.)]
+- Tayal VS, et al. _Acad Emerg Med,_ 2004. PMID: 15347539 [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/15347539)]

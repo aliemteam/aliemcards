@@ -8,7 +8,7 @@ export const Logo: React.SFC<{}> = () => {
   if (__TEST__) {
     return <Thunk />;
   }
-  const LogoComponent = require('svg-react-loader?name=Logo!../assets/images/logo.svg');
+  const LogoComponent = require('babel-loader!react-svg-loader!../assets/images/logo.svg').default;
   return <LogoComponent />;
 };
 
@@ -16,6 +16,6 @@ export const CCIcon: React.SFC<{}> = () => {
   if (__TEST__) {
     return <Thunk />;
   }
-  const CCIconComponent = require('svg-react-loader?name=CreativeCommonsIcon!../assets/images/by-nc-nd.svg');
+  const CCIconComponent = require('babel-loader!react-svg-loader!../assets/images/by-nc-nd.svg').default;
   return <CCIconComponent />;
 };

@@ -1,10 +1,9 @@
 ---
-
 title: Genital Ulcers
 authors:
     - Michelle Lin, MD
 created: 2012/05/04
-updates: null
+updates:
 categories:
     - Infectious Disease
     - Genitourinary
@@ -141,11 +140,11 @@ From “The Practitioner’s Handbook for the Management of STDs” (4th ed, 200
     <td>Viral culture is most sensitive, especially once vesicles rupture and ulcerate. If lesions are granulating, HSV cultures may be negative and HSV serology is useful to confirm etiology.</td>
     <td>Darkfield microscopy, FTA-ABS, VDRL, RPR and DFA-TP</td>
     <td>Culture of <i>Haemophilus ducreyi</i>; Gram stain of pus aspirate from lymph node</td>
-    <td>Isolation of <i>Chlamydia trachomatis</i> from urethra, cervix, rectum or lymph node aspirate; complement fixation serology ≥ 1/64</td>
+    <td>Isolation of <i>Chlamydia trachomatis</i> from urethra, cervix, rectum or lymph node aspirate; complement fixation serology &ge; 1/64</td>
   </tr>
 </table>
 
 ## References
 
 - Practitioner’s Handbook (2007)
-- [Roett MA, Mayor MT, Uduhiri KA. Diagnosis and management of genital ulcers. Am Fam Physician. 2012 Feb 1;85(3):254-62.](https://www.ncbi.nlm.nih.gov/pubmed/?term=22335265)
+- Roett MA, Mayor MT, Uduhiri KA. Diagnosis and management of genital ulcers. Am Fam Physician. 2012 Feb 1;85(3):254-62. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=22335265)]

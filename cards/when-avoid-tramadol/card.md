@@ -4,7 +4,7 @@ title: When to Avoid Tramadol
 authors:
     - Jill Logan, PharmD
 created: 2014/01/06
-updates: null
+updates:
 categories:
     - Toxicology
 ---
@@ -33,7 +33,7 @@ _NOTE: Linezolid and some Parkinson’s medications fall into the class of MAO i
 
 ## References
 
-- [Gardner JS, et al. Tramadol and seizures: a surveillance study in a managed care population. Pharmacotherapy 2000;20(12)1423-31.](http://www.ncbi.nlm.nih.gov/pubmed/11130214)
-- [Park SH, et al. Serotonin syndrome: is it a reason to avoid the use of tramadol with antidepressants? J Pharm Pract. 2013 Oct 23.](http://www.ncbi.nlm.nih.gov/pubmed/24153222)
+- Gardner JS, et al. Tramadol and seizures: a surveillance study in a managed care population. Pharmacotherapy 2000;20(12)1423-31. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/11130214)]
+- Park SH, et al. Serotonin syndrome: is it a reason to avoid the use of tramadol with antidepressants? J Pharm Pract. 2013 Oct 23. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/24153222)]
 - Tramadol: Drug Information. Lexi-Comp OnlineTM , Lexi-DrugsTM, Hudson, Ohio: Lexi-Comp, Inc.; December 17, 2013.
 - Nelson LS, Olsen D. Chapter 38. Opioids. In: Nelson LS, Olsen D, eds. Goldfrank’s Toxicologic Emergencies. 9th ed. New York: McGraw-Hill; 2011. Accessed December 17, 2013.

@@ -1,12 +1,11 @@
 ---
-
-title: Focused 1st Trimester Pregnancy Transabdominal Ultrasound
+title: Ultrasound - Focused 1st Trimester Pregnancy, Transabdominal Exam
 authors:
     - Matt Lipton, MD
     - Mike Mallin, MD
     - Mike Stone, MD
 created: 2015/02/25
-updates: null
+updates:
 categories:
     - Radiology
     - Ultrasound
@@ -29,18 +28,18 @@ categories:
 1. **Yolk sac:** Round fluid-filled structure within the gestational sac, located in the endometrium
 2. **Fetal pole:** Small mass located near the yolk sac
 
-![](image-1.png)
+![Normal early IUP showing yolk sac and fetal pole](image-1.png)
 
 Figure 1: Normal early IUP showing **yolk sac** and **fetal pole**
 
-![](image-2.png)
+![Close-up image of a normal early IUP showing a yolk sac within a gestational sac](image-2.png)
 
 Figure 2: Close-up image of a normal early IUP showing a **yolk sac** within a gestational sac
 
 ## Normal Reference Measurements
 
 1. Fetal heart rate (FHR) between 120-160 bpm (can be as low as 100 bpm in early gestation)
-2. Myometrium surrounding the IUP should be ≥ 8mm (endomyometrial mantle)
+2. Myometrium surrounding the IUP should be &ge; 8mm (endomyometrial mantle)
 
 **How to use the serum quantitative beta-HCG**
 
@@ -56,7 +55,7 @@ Figure 2: Close-up image of a normal early IUP showing a **yolk sac** within a 
 - An ectopic pregnancy in the tube or ovary often has a “ring of fire” with color Doppler imaging. However, most ectopic pregnancies are not visible with transabdominal ultrasound.
 - **Free intraperitoneal fluid** in Morison’s pouch is a **sign of a ruptured ectopic** that will likely require operative intervention.
 
-![](image-3.png)
+![Empty fluid-filled sac within the endometrium. Given the absence of contents, you cannot differentiate gestational vs pseudogestational sac. This is not diagnostic of an IUP](image-3.png)
 
 Figure 3: **Empty fluid-filled sac** within the endometrium. Given the absence of contents, you cannot differentiate gestational vs pseudogestational sac. This is **not** diagnostic of an IUP.
 
@@ -93,6 +92,5 @@ Figure 3: **Empty fluid-filled sac** within the endometrium. Given the absence o
 
 ## References
 
-- Wang R., et al. _Annals of Emerg Med,_ 2011. PMID: [21310509](http://www.ncbi.nlm.nih.gov/pubmed/?term=Use+of+a+%CE%B2-hCG+discriminatory+zone+with+bedside+pelvic+ultrasonography.)
-
-- Tayal VS, et al. _Acad Emerg Med,_ 2004. PMID: [15347539](http://www.ncbi.nlm.nih.gov/pubmed/15347539)
+- Wang R, et al. _Ann Emerg Med,_ 2011. PMID: 21310509 [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=Use+of+a+%CE%B2-hCG+discriminatory+zone+with+bedside+pelvic+ultrasonography.)]
+- Tayal VS, et al. _Acad Emerg Med,_ 2004. PMID: 15347539 [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/15347539)]

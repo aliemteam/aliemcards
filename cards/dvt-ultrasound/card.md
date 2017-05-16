@@ -6,7 +6,7 @@ authors:
     - Joshua Rempell, MD
     - Mike Stone, MD
 created: 2015/02/18
-updates: null
+updates:
 categories:
     - Radiology
     - Ultrasound
@@ -27,7 +27,9 @@ categories:
 2. Identify the confluence of femoral vein and greater saphenous vein (saphenofemoral junction \[SFJ]), and apply direct pressure to assess for compressibility
 3. To fully evaluate the common femoral vein, slide 5 cm distal to the confluence, compressing at 0.5-1 cm intervals. This allows for visualization of the proximal portion of the deep and superficial femoral veins. Assess for compressibility in both.
 
-![](image-1.png)Figure 1: Transducer location to evaluate the femoral vein and normal ultrasound images showing common femoral artery **(A)** and fully compressible vein **(V).**
+![Transducer location to evaluate the femoral vein and normal ultrasound images showing common femoral artery and fully compressible vein](image-1.png)
+
+Figure 1: Transducer location to evaluate the femoral vein and normal ultrasound images showing common femoral artery **(A)** and fully compressible vein **(V).**
 
 ## 2. Popliteal Vein
 
@@ -35,7 +37,8 @@ categories:
 2. Locate the popliteal artery and vein, and assess for compressibility of vein.
 3. To fully evaluate the popliteal region, slide distally following the popliteal vein to allow for visualization of the proximal portion of the anterior and posterior tibial veins, and the peroneal vein. At this trifurcation, assess for compressibility of all three veins.
 
-![](image-2.png)
+![Transducer location to evaluate the popliteal vein and normal ultrasound images showing popliteal artery and fully compressible vein](image-2.png)
+
 Figure 2: Transducer location to evaluate the popliteal vein and normal ultrasound images showing popliteal artery **(A)** and fully compressible vein **(V)**.
 
 ## Positive (Abnormal) DVT Study
@@ -46,7 +49,8 @@ Normally, there should be complete coaptation of the venous walls – a.k.a. the
 
 Note: While the thrombus is frequently visualized as a discrete echogenic structure, it may not always be seen.
 
-![](image-3.png)
+![Positive DVT study showing thrombus in the femoral vein](image-3.png)
+
 Figure 3: Positive DVT study showing **thrombus** in the femoral vein **(v),** adjacent to the femoral artery **(a)** and involving the greater saphenous vein **(s)**. The image on the right demonstrates that the **vein does not collapse with compression**.
 
 ## Struggling with the Exam?
@@ -68,6 +72,6 @@ Figure 3: Positive DVT study showing **thrombus** in the femoral vein **(v),** a
 
 ## References
 
-- Kline JA et al. _Annals of Emerg Med_, 2008. PMID: [18562044](www.ncbi.nlm.nih.gov/pubmed/18562044)
+- Kline JA et al. _Annals of Emerg Med_, 2008. PMID: 18562044(www.ncbi.nlm.nih.gov/pubmed/18562044)
 
-- Bernardi E. et al. _JAMA_, 2008. PMID: [18840838](www.ncbi.nlm.nih.gov/pubmed/18840838)
+- Bernardi E. et al. _JAMA_, 2008. PMID: 18840838(www.ncbi.nlm.nih.gov/pubmed/18840838)

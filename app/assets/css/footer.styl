@@ -1,18 +1,23 @@
 @require 'variables'
 
 .footer
+    margin-top: 5em
     font-size: 12px
     line-height: 1em
+    background-color: $darkest-gray
     a
         font-weight: bold
 
 .footer__cc
-    border: 1px solid $light-gray
-    padding: 2rem
+    padding: 32px
+    padding-top: 20px
     width: 100%
     max-width: $container-max-width
     margin-left: auto
     margin-right: auto
+    margin-bottom: 0
+    a:hover
+        text-decoration: underline
 
 .footer__cc-image
     display: flex
@@ -23,12 +28,23 @@
 .footer__cc-text
     flex: auto
     line-height: 1.4em
-    color: $dark-gray
+    color: $light-gray
     a
-        color: $dark-gray
+        color: $light-gray
 
 .footer__links
-    max-width: 300px
-    margin-left: auto
-    margin-right: auto
-    justify-content: space-between
+    max-width: $container-max-width
+    justify-content: space-around
+    margin: 0 auto 20px
+    font-size: 1.2em
+    a
+        color: $light-gray
+        padding: .5em 1em
+        border-radius: 4px
+        // Disabling stylint because this is a single-use item that won't be used elsewhere
+        // @stylint off
+        &:hover
+            background-color: #252525
+            box-shadow: inset 0 1px 3px rgba(0, 0, 0, .5), 0 1px 0 rgba(255, 255, 255, .1)
+            text-shadow: 0 1px 3px rgba(0, 0, 0, .5)
+        // @stylint on

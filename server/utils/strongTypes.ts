@@ -1,5 +1,5 @@
 import { GraphQLArgumentConfig, GraphQLFieldConfig, GraphQLFieldResolver, GraphQLOutputType } from 'graphql';
-import { AuthorRaw, Category } from '../models/';
+import { Announcement, AuthorRaw, Category } from '../models/';
 
 interface AuthorJSON {
   [authorId: string]: AuthorRaw;
@@ -27,6 +27,7 @@ interface CardJSON {
  * The complete shape of `data.json`
  */
 export interface RootValue {
+  announcements: Announcement[];
   entities: {
     authors: AuthorJSON;
     categories: CategoryJSON;

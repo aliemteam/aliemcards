@@ -1,10 +1,9 @@
 ---
-
 title: Streptococcal Pharyngitis
 authors:
     - Michelle Lin, MD
 created: 2010/07/30
-updates: null
+updates:
 categories:
     - ENT
     - Infectious Disease
@@ -23,30 +22,30 @@ categories:
 
 ## Modified Centor Scoring
 
-| **Criteria **                     | **Points** |
-| --------------------------------- | :--------: |
-| Absence of cough                  |      1     |
-| Swollen and tender cervical nodes |      1     |
-| Temp >100.4F (38C)                |      1     |
-| Tonsillar exudates or swelling    |      1     |
-| Patient age:                      |            |
-| • 3-14 yr                         |      1     |
-| • 15-44 yr                        |      0     |
-| • ≥ 45 yr                         |     -1     |
+| Criteria                          | Points |
+| --------------------------------- | -----: |
+| Absence of cough                  |      1 |
+| Swollen and tender cervical nodes |      1 |
+| Temp &gt;100.4F (38C)             |      1 |
+| Tonsillar exudates or swelling    |      1 |
+| Patient age:                      |        |
+| 3-14 yr                           |      1 |
+| 15-44 yr                          |      0 |
+| &ge; 45 yr                        |     -1 |
 
-| **Score** | **Incidence of GABHS** | **Plan**                        |
-| :-------: | :--------------------: | ------------------------------- |
-|     ≤0    |         1-2.5%         | No testing, no antibiotics      |
-|     1     |          5-10%         | No testing, no antibiotics      |
-|     2     |         11-17%         | Do rapid antigen test           |
-|     3     |         28-35%         | Do rapid antigen test           |
-|     ≥4    |         51-53%         | No testing, empiric antibiotics |
+| Score | Incidence of GABHS | Plan                            |
+| ----: | -----------------: | ------------------------------- |
+| &le;0 |             1-2.5% | No testing, no antibiotics      |
+|     1 |              5-10% | No testing, no antibiotics      |
+|     2 |             11-17% | Do rapid antigen test           |
+|     3 |             28-35% | Do rapid antigen test           |
+| &ge;4 |             51-53% | No testing, empiric antibiotics |
 
 ## National Organization Guidelines
 
 ### How to screen for strep pharyngitis
 
-| **Group**        | **Recommendations**                                                                       |
+| Group            | Recommendations                                                                           |
 | ---------------- | ----------------------------------------------------------------------------------------- |
 | **ACP/CDC/AAFP** | Use Centor criteria to decide testing and antibiotics                                     |
 | **AAP**          | Use clinical & epidemiological findings to assess risk for GABHS (includes Centor scores) |
@@ -54,7 +53,7 @@ categories:
 
 ### Diagnostic Test
 
-| **Group**        | **Recommendations**                                           |
+| Group            | Recommendations                                               |
 | ---------------- | ------------------------------------------------------------- |
 | **ACP/CDC/AAFP** | Rapid antigen test only for Centor scores of 2 or 3 only      |
 | **AAP**          | Rapid antigen test or throat culture for ALL patients at risk |
@@ -62,7 +61,7 @@ categories:
 
 ### Backup culture needed if rapid Ag test is negative?
 
-| **Group**        | **Recommendations**          |
+| Group            | Recommendations              |
 | ---------------- | ---------------------------- |
 | **ACP/CDC/AAFP** | Adults: No; Pediatrics: Yes  |
 | **AAP**          | Adults: N/A; Pediatrics: Yes |
@@ -70,15 +69,15 @@ categories:
 
 ### Who gets antibiotics?
 
-| **Group**        | **Recommendations**                                                                   |
-| ---------------- | ------------------------------------------------------------------------------------- |
-| **ACP/CDC/AAFP** | Empiric abx for Centor score of ≥ 4, or those with positive rapid antigen test result |
-| **AAP**          | Positive rapid antigen test or throat culture                                         |
-| **IDSA**         | Positive rapid antigen test or throat culture                                         |
+| Group            | Recommendations                                                                          |
+| ---------------- | ---------------------------------------------------------------------------------------- |
+| **ACP/CDC/AAFP** | Empiric abx for Centor score of &ge; 4, or those with positive rapid antigen test result |
+| **AAP**          | Positive rapid antigen test or throat culture                                            |
+| **IDSA**         | Positive rapid antigen test or throat culture                                            |
 
 ### Which antibiotic?
 
-| **Group**        | **Recommendations**                                                                                                                              |
+| Group            | Recommendations                                                                                                                                  |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **ACP/CDC/AAFP** | Oral <span class="drug">penicillin</span> V, IM <span class="drug">penicillin</span> G benzathine, or oral <span class="drug">amoxacillin</span> |
 | **AAP**          | Oral <span class="drug">penicillin</span> V, IM <span class="drug">penicillin</span> G benzathine, or oral <span class="drug">amoxacillin</span> |
@@ -86,7 +85,7 @@ categories:
 
 ### Which antibiotic for PCN allergy?
 
-| **Group**        | **Recommendations**                                                     |
+| Group            | Recommendations                                                         |
 | ---------------- | ----------------------------------------------------------------------- |
 | **ACP/CDC/AAFP** | Oral <span class="drug">erythromycin</span>, or first-gen cephalosporin |
 | **AAP**          | Oral <span class="drug">erythromycin</span>, or first-gen cephalosporin |
@@ -100,4 +99,4 @@ categories:
 
 ## References
 
-- [Choby BA.Diagnosis and treatment of streptococcal pharyngitis.Am Fam Physician. 2009 Mar 1;79(5):383-90.](http://www.ncbi.nlm.nih.gov/pubmed/?term=19275067)
+- Choby BA.Diagnosis and treatment of streptococcal pharyngitis.Am Fam Physician. 2009 Mar 1;79(5):383-90. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=19275067)]

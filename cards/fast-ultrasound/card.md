@@ -1,12 +1,12 @@
 ---
 
-title: Focused Assessment with Sonography in Trauma (FAST)
+title: Ultrasound - Focused Assessment with Sonography in Trauma (FAST)
 authors:
     - Wilma Chan, MD
     - John Eicken, MD 
     - Mike Stone, MD
 created: 2014/09/14
-updates: null
+updates:
 categories:
     - Ultrasound
     - Radiology
@@ -21,7 +21,7 @@ categories:
 
 **Windows**:4 windows are obtained to perform a complete FAST exam (Fig 1)
 
-![](image-1.png)
+![Transducer positions and directional indicator orientation for the abdominal and cardiac views in the FAST exam](image-1.png)
 
 Figure 1: Transducer positions and directional indicator orientation (white dot) for the abdominal and cardiac views in the FAST exam
 
@@ -41,7 +41,7 @@ A meta-analysis of 62 studies including FAST exams of >18,000 patients revealed 
 - FAST is **POSITIVE** if anechoic free fluid identified in the hepatorenal recess—the potential space between liver and kidney (Fig 2).
 - Fluid cephalad to the diaphragm is in the thoracic cavity, and should raise concern for hemothorax in trauma.
 
-![](image-2.png)
+![Positive FAST in the RUQ view demonstrating echogenic clot in Morison’s pouch with adjacent anechoic free fluid](image-2.png)
 
 Figure 2: Positive FAST in the RUQ view demonstrating echogenic clot in Morison’s pouch with adjacent anechoic free fluid (\*).
 
@@ -54,7 +54,7 @@ Figure 2: Positive FAST in the RUQ view demonstrating echogenic clot in Morison�
 - FAST is **POSITIVE** if free fluid identified in either the splenorenal recess OR in the subdiaphragmatic space between the spleen and diaphragm
 - Fluid cephalad to the diaphragm is in the thoracic cavity, and should raise concern for hemothorax in trauma.
 
-![](image-3.png)
+![Positive FAST in LUQ view demonstrating large amount of complex free fluid below the diaphragm, despite a lack of fluid in the splenorenal recess](image-3.png)
 
 Figure 3: Positive FAST in LUQ view demonstrating large amount of complex free fluid (\*) below the diaphragm (yellow arrows), despite a lack of fluid in the splenorenal recess (green arrows).
 
@@ -76,19 +76,19 @@ Figure 3: Positive FAST in LUQ view demonstrating large amount of complex free f
 
 ## Struggling with the Exam?
 
-**Can’t find the spleen or left kidney?**
+### Can’t find the spleen or left kidney?
 
 - The left kidney is often located more superior and posterior compared to the right kidney. Try placing the probe more posterior towards the left flank.
 
-**Can’t find the bladder?**
+### Can’t find the bladder?
 
 - Make sure you’re as close to the symphysis pubis as possible (don’t be shy!), and aiming the transducer towards the patient’s feet. Visualization of the bladder is improved prior to emptying of the bladder. Try FAST prior to insertion of a foley catheter or prior to the patient emptying their bladder.
 
-**Rib shadows obstructing view in RUQ and LUQ views?** 
+### Rib shadows obstructing view in RUQ and LUQ views?
 
 - Try rotating the transducer obliquely parallel to the ribs in order to fit between an intercostal space. A phased array transducer’s smaller footprint can reduce or eliminate rib shadows.
 
-**Can’t see the entire heart on the subxiphoid view?**
+### Can’t see the entire heart on the subxiphoid view?
 
 - Try moving the probe more to the patient’s right to use the liver as an acoustic window. You can also try increasing the depth of the image.
 
@@ -103,6 +103,6 @@ Figure 3: Positive FAST in LUQ view demonstrating large amount of complex free f
 
 ## References
 
-- Durston W et al. _Ann of Surg_, 1998. PMID [9790345](mailto:http://www.ncbi.nlm.nih.gov/pubmed/9790345)
-- Stengel D et al. _Br J Surg_, 2001. PMID [11442520](http://www.ncbi.nlm.nih.gov/pubmed/11442520)
-- Stengel D et al. Radiology, 2005. PMID [15983072](http://www.ncbi.nlm.nih.gov/pubmed/15983072)
+- Durston W et al. _Ann of Surg_, 1998. PMID 9790345 [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/9790345)]
+- Stengel D et al. _Br J Surg_, 2001. PMID 11442520 [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/11442520)]
+- Stengel D et al. _Radiology_, 2005. PMID 15983072 [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/15983072)]

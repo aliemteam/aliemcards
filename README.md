@@ -8,8 +8,6 @@ This repository contains the original markdown source for all the ALIEM Cards as
 
 1. [Card Format](#card-format)
 2. [Website Build Details](#aliem-cards-website)
-3. [API Documentation](#api-documentation)
-
 
 
 ### Building the Site and Data Store
@@ -31,26 +29,6 @@ The `assets` folder contains static assets, e.g. images, css files, etc. Various
 
 ### Backend
 
-The `index.js` file in the root folder contains the [ExpressJS](https://expressjs.com) server that powers the site.
+The `index.ts` file in the root folder contains the [ExpressJS](https://expressjs.com) server that powers the site.
 
 The `server` folder contains the primary backend resources for the website, primarily schema files for GraphQL and the [Normalizr](https://github.com/paularmstrong/normalizr) helper library.
-
-### OpenShift
-
-The website is hosted on the [OpenShift](https://www.openshift.com) free tier. This hosting platform allows deployment via git. Management is done via their command-line tool.
-
-This command will provide shell access to the server console:
-
-```
-rhc ssh aliemcards
-```
-
-OpenShift has been added to the git repository as another remote, in this case titled `openshift`. After updates are made to the main respository, changes can be pushed via:
-
-```
-git push openshift HEAD
-```
-
-## API Documentation
-
-GraphQL info here.

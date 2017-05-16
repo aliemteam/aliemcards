@@ -1,18 +1,18 @@
 ---
 
-title: Continuous Infusions
+title: Continuous Medication Infusions
 authors:
     - Michelle Lin, MD
 created: 2012/03/09
-updates: null
+updates:
 categories:
     - Pharmacology
     - Critical Care
 ---
 
-# Continuous Infusions: Dosing Recommendations
+# Continuous Medication Infusions: Dosing Recommendations
 
-**Usual dose range for adults**
+## Usual dose range for adults
 
 | **Medication**  |  **Dose** | **Units (comments)**                                  |
 | --------------- | :-------: | ----------------------------------------------------- |

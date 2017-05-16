@@ -4,7 +4,7 @@ title: NSAIDs and Upper GI Bleed
 authors:
     - Michelle Lin, MD
 created: 2011/07/15
-updates: null
+updates:
 categories:
     - Gastroenterology
     - Pharmacology
@@ -15,10 +15,12 @@ categories:
 - Stomach and platelets have much more COX-1 receptors than COX-2 receptors.
 - Below are statistics from a systematic review on NSAIDs and upper GI complications (bleeding, perforation)
 
-**Ketorolac pearls**
+## Ketorolac 
 
-- Has the highest relative risk for upper GI complication = 14.54
+- Has the highest relative risk for upper GI complication = 14.54 (see below)
 - Before giving, first check that patients do NOT have a history of a GI bleed or peptic ulcer disease.
+
+## NSAID-Induced Complications
 
 | **NSAID Medication**                      | **Estimated Relative Risk of Complication** | **[95 % CI]** |
 | ----------------------------------------- | :-----------------------------------------: | :-----------: |
@@ -46,4 +48,4 @@ Relative risk is greatest when first starting medication (&lt;30 days)
 
 ## References
 
-- [Massó González EL, Patrignani P, Tacconelli S, García Rodríguez LA. Variability among nonsteroidal antiinflammatory drugs in risk of upper gastrointestinal bleeding. Arthritis Rheum. 2010 Jun;62(6):1592-601](http://www.ncbi.nlm.nih.gov/pubmed/?term=20178131)
+- Massó González EL, Patrignani P, Tacconelli S, García Rodríguez LA. Variability among nonsteroidal antiinflammatory drugs in risk of upper gastrointestinal bleeding. Arthritis Rheum. 2010 Jun;62(6):1592-601 [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=20178131)]

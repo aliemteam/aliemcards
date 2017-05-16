@@ -1,10 +1,9 @@
 ---
-
 title: Pediatric Blunt Head Trauma (PECARN Study)
 authors:
     - Michelle Lin, MD
 created: 2010/02/04
-updates: null
+updates:
 categories:
     - Pediatrics
     - Trauma
@@ -12,7 +11,7 @@ categories:
 
 # Pediatric Blunt Head Trauma (PECARN Study)
 
-Risk of CT-documented TBI in children GCS &lt;14 = 20% 
+Risk of CT-documented TBI in children with a GCS &lt;14 is 20% 
 
 ## PECARN Study
 
@@ -25,30 +24,30 @@ Risk of CT-documented TBI in children GCS &lt;14 = 20% 
 - Death from TBI
 - Intubation >24 hours duration
 - Neurosurgical intervention
-- Hospital admission ≥2 nights
+- Hospital admission &ge;2 nights
 
 ## PATIENT AGE &lt;2 Years 
 
-![](image-1.png)
+![Age less than 2 workup pathway](image-1.png)
 
 **Severe Injury Mechanism**
 
+- **FALL >3 ft**
 - MVC with patient ejection, death of another passenger, or rollover
 - Pedestrian or bicyclist without helmet struck by a motorized vehicle
-- **FALL >3 ft**
 - Head struck by a high-impact object
 
-## PATIENT AGE ≥2 years
+## PATIENT AGE &ge;2 years
 
-![](image-2.png)
+![Age greater than or equal to 2 years workup pathway](image-2.png)
 
 **Severe Injury Mechanism**
 
+- **FALL >5 ft**
 - MVC with patient ejection, death of another passenger, or rollover
 - Pedestrian or bicyclist without helmet struck by a motorized vehicle
-- **FALL >5 ft**
 - Head struck by a high-impact object
 
 ## References
 
-- [Kuppermann N et al. ID of children at very low risk of clinically-important brain injuries after head trauma: a prospective cohort study. Lancet. 2009 Oct 3;374(9696):1160-70.](http://www.ncbi.nlm.nih.gov/pubmed/19758692)
+- Kuppermann N et al. ID of children at very low risk of clinically-important brain injuries after head trauma: a prospective cohort study. _Lancet_. 2009 Oct 3;374(9696):1160-70. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/19758692)]

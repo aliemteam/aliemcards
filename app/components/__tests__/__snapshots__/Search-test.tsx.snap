@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Search /> should render correctly 1`] = `
+<div
+  className="search"
+>
+  <div
+    className="search__input"
+    role="search"
+  >
+    <input
+      aria-label="Search for cards"
+      onChange={[Function]}
+      placeholder="Search"
+      type="text"
+      value=""
+    />
+  </div>
+</div>
+`;
+
+exports[`<Search /> shoulder render splashText when prop is set 1`] = `
+<div
+  className="search"
+>
+  <div
+    className="search__splash-text"
+  >
+    <div>
+      A Point-of-Care Reference Library
+    </div>
+    <div>
+      formerly known as 
+      <em>
+        Paucis Verbis Cards
+      </em>
+      <br />
+      by the 
+      <a
+        href="https://aliem.com"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        ALiEM Team
+      </a>
+       
+      and contributors
+    </div>
+  </div>
+  <div
+    className="search__input"
+    role="search"
+  >
+    <input
+      aria-label="Search for cards"
+      onChange={[Function]}
+      placeholder="Search"
+      type="text"
+      value=""
+    />
+  </div>
+</div>
+`;
