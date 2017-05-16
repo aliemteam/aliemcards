@@ -1,6 +1,6 @@
 {
   "name": "aliemcards",
-  "version": "0.5.6",
+  "version": "0.5.7",
   "description": "ALiEM Cards deployment scripts and website code.",
   "main": "./dist/index.js",
   "author": "Jeremy Voros",
