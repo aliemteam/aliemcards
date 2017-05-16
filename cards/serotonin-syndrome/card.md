@@ -11,7 +11,11 @@ categories:
 
 # Serotonin Syndrome
 
-**Classic findings:** Altered mental status + Autonomic instability + Neuromuscular hyperactivity.
+## Classic triad of findings 
+
+- Altered mental status
+- Autonomic instability
+- Neuromuscular hyperactivity
 
 ## Medications contributing to serotonin syndrome
 
@@ -33,7 +37,7 @@ categories:
 - <span class="drug">SNRIs </span>
 - <span class="drug">Serotonin 2A-R blockers</span>
 - <span class="drug">St. John’s wort</span>
-- <span class="drug">TCAs</span>
+- <span class="drug">Tricyclic antidepressants</span>
 
 **Antiemetics**
 
@@ -57,17 +61,15 @@ categories:
 
 **Tip:** Be especially aware of adding drug that inhibits cytochrome P450 2D6 +/- 3A4 (eg. erythromycin) to someone on SSRI.
 
-**Treatment:** Usually supportive (benzodiazepines), although can give <span class="drug">cyproheptadine</span> (serotonin 2A antagonist) 
+## Hunter's Decision Rule 
 
-## Hunter's decision Rule 
+Sensitivity 84%, Specificity 97%
 
 ![Hunter's decision Rule diagram](image-1.png)
 
-(Sensitivity 84%, Specificity 97%)
-
 ## Sternbach's criteria
 
-**Need 3 of 10 symptoms:** (Sensitivity 75%, specificity 96%)
+Need 3 of 10 symptoms: (Sensitivity 75%, specificity 96%)
 
 - Agitation or restlessness
 - Diaphoresis
@@ -80,7 +82,7 @@ categories:
 - Shivering
 - Tremor 
 
-**Differential Diagnosis:**
+## Differential Diagnosis
 
 - Anticholinergic syndrome
 - Neuroleptic malignant syndrome
@@ -90,7 +92,11 @@ categories:
 
 Table adapted from [Boyer EW, Shannon M. NEJM 2005](http://www.ncbi.nlm.nih.gov/pubmed/15784664)
 
+## Treatment 
+
+Usually supportive (benzodiazepines), although can give <span class="drug">cyproheptadine</span> (serotonin 2A antagonist) 
+
 ## References
 
-- Boyer EW, Shannon M. The serotonin syndrome. N Engl J Med. 2005 Mar 17;352(11):1112-20. PMID: 15784664. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/15784664)]
-- Ables AZ, Nagubilli R. Prevention, recognition, and management of serotonin syndrome.Am Fam Physician. 2010 May 1;81(9):1139-42. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=20433130)]
+- Boyer EW, Shannon M. The serotonin syndrome. _N Engl J Med_. 2005 Mar 17;352(11):1112-20. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/15784664)]
+- Ables AZ, Nagubilli R. Prevention, recognition, and management of serotonin syndrome. _Am Fam Physician_. 2010 May 1;81(9):1139-42. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=20433130)]
