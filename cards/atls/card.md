@@ -20,7 +20,11 @@ In Advanced Trauma Life Support (ATLS), we learned that a carotid, femoral, and 
 -  Carotid & Femoral pulse only = SBP 70–80 mmHg
 -  Radial pulse present = SBP >80 mmHg
 
-There were two studies \[[Poulton, 1988](http://www.ncbi.nlm.nih.gov/pubmed/3337405); [Deakin, 2000](http://www.ncbi.nlm.nih.gov/pubmed/10987771)] that evaluated this paradigm.  Although very small studies, they were done by two different authors, using different methods (BP cuff vs arterial line).  Both came to the same conclusion: **ATLS overestimates SBP based on palpation of radial, femoral, & carotid pulses.** Another way to state this is, if using ATLS guidelines to guestimate BP, we are grossly underestimating the degree of hypovolemia our patients have.
+There were two studies \[[Poulton, 1988](http://www.ncbi.nlm.nih.gov/pubmed/3337405); [Deakin, 2000](http://www.ncbi.nlm.nih.gov/pubmed/10987771)] that evaluated this paradigm.  Although very small studies, they were done by two different authors, using different methods (BP cuff vs arterial line).  Both came to the same conclusion: 
+
+- **ATLS overestimates SBP based on palpation of radial, femoral, & carotid pulses.** 
+
+Another way to state this is, if using ATLS guidelines to guestimate BP, we are grossly underestimating the degree of hypovolemia our patients have.
 
 ## Poulton, 1988
 
@@ -41,7 +45,7 @@ There were two studies \[[Poulton, 1988](http://www.ncbi.nlm.nih.gov/pubmed/333
 
 **What they did:** Measured SBP with arterial line in 20 patient with hypovolemic shock and compared to pulses palpated by an observer blinded to BP readings.
 
-**What they found: **The disappearance of pulse always occurred in the following order radial > femoral > carotid pulse. There were 4 subgroups:
+**What they found:** The disappearance of pulse always occurred in the following order radial > femoral > carotid pulse. There were 4 subgroups:
 
 - Group 1: Radial, femoral, and carotid pulses present
   - 10/12 (83%) had SBP &lt;80 mmHg
@@ -58,5 +62,5 @@ There were two studies \[[Poulton, 1988](http://www.ncbi.nlm.nih.gov/pubmed/333
 
 ## References
 
-- Poulton TJ. ATLS paradigm fails. Ann Emerg Med. 1988;17(1):107. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/3337405)
-- Deakin CD, Low JL. Accuracy of the advanced trauma life support guidelines for predicting systolic blood pressure using carotid, femoral, and radial pulses: observational study. BMJ. 2000;321(7262):673-4. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/10987771)
+- Poulton TJ. ATLS paradigm fails. Ann Emerg Med. 1988;17(1):107. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/3337405)]
+- Deakin CD, Low JL. Accuracy of the advanced trauma life support guidelines for predicting systolic blood pressure using carotid, femoral, and radial pulses: observational study. BMJ. 2000;321(7262):673-4. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/10987771)]

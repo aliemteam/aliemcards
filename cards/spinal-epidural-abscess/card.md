@@ -59,5 +59,5 @@ Image adapted from ([Davis et al., 2011](https://www.ncbi.nlm.nih.gov/pubmed/?te
 ## References
 
 - Sidman RD, Delorie RC, Spitalnic SJ, Sucov A: Screening tests for spinal epidural abscess lack the sensitivity required to rule it out, Acad Emerg Med (abstract), 9(5):413-4, 2002.
-- Davis DP, Salazar A, Chan TC, Vilke GM. Prospective evaluation of a clinical decision guideline to diagnose spinal epidural abscess in patients who present to the emergency department with spine pain J Neurosurg Spine. 2011 Jun;14(6):765-70. doi: 10.3171/2011.1.SPINE1091. Epub 2011 Mar 18. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=21417700)
-- Davis DP, Wold RM, Patel RJ, Tran AJ, Tokhi RN, Chan TC, Vilke GM. The clinical presentation and impact of diagnostic delays on emergency department patients with spinal epidural abscess. J Emerg Med. 2004 Apr;26(3):285-91. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=15028325)
+- Davis DP, Salazar A, Chan TC, Vilke GM. Prospective evaluation of a clinical decision guideline to diagnose spinal epidural abscess in patients who present to the emergency department with spine pain J Neurosurg Spine. 2011 Jun;14(6):765-70. doi: 10.3171/2011.1.SPINE1091. Epub 2011 Mar 18. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=21417700)]
+- Davis DP, Wold RM, Patel RJ, Tran AJ, Tokhi RN, Chan TC, Vilke GM. The clinical presentation and impact of diagnostic delays on emergency department patients with spinal epidural abscess. J Emerg Med. 2004 Apr;26(3):285-91. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=15028325)]

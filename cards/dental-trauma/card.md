@@ -99,4 +99,4 @@ If ADULT DENTITION, "time is tooth" - Periodontal ligament necrosis in 60-90 min
 
 ## References
 
-- Benko, K. Acute Dental Emergencies in EM. EM Practice. 2003, 5(5) [Link](http://www.ebmedicine.net/topics.php?paction=showTopicSeg&topic_id=32&seg_id=566)
+- Benko, K. Acute Dental Emergencies in EM. EM Practice. 2003, 5(5) [[Source](http://www.ebmedicine.net/topics.php?paction=showTopicSeg&topic_id=32&seg_id=566)]

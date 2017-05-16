@@ -81,4 +81,4 @@ Collection of purulent material at apex of tooth
 
 ## References
 
-- Nguyen DH, Martin JT. Common dental infections in the primary care setting. Am Fam Physician. 2008 Mar 15;77(6):797-802. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=18386594)
+- Nguyen DH, Martin JT. Common dental infections in the primary care setting. Am Fam Physician. 2008 Mar 15;77(6):797-802. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=18386594)]

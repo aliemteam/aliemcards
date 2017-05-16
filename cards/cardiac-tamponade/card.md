@@ -55,4 +55,4 @@ Use below Fagan nomogram
 
 ## References
 
-- Roy CL et al. Does This Patient With a Pericardial Effusion Have Cardiac Tamponade? JAMA. 2007;297:1810-8. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=17456823)
+- Roy CL et al. Does This Patient With a Pericardial Effusion Have Cardiac Tamponade? JAMA. 2007;297:1810-8. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=17456823)]

@@ -16,7 +16,7 @@ categories:
 
 |                                   | Positive LR    | Negative LR       |
 | --------------------------------- | -------------- | ----------------- |
-| Coastal Margin Tenderness         | 1.4 \[1.3-1.7] | 0.74 \[0.66-0.84] |
+| Coastal margin tenderness         | 1.4 \[1.3-1.7] | 0.74 \[0.66-0.84] |
 | Abdominal tenderness on exam      | 1.4 \[1.3-1.5] | 0.61 \[0.46-0.80] |
 | Abdominal pain complaint          | 1.6 \[1.3-2.0] | 0.52 \[0.34-0.79] |
 | Abdominal guarding                | 3.7 \[2.3-5.9] | 0.80 \[0.70-0.91] |
@@ -50,4 +50,4 @@ categories:
 
 ## References
 
-- Nishijima DK et al. Does this adult patient have a blunt intra-abdominal injury? JAMA 2012;307(14):1517-27 [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=22496266)
+- Nishijima DK et al. Does this adult patient have a blunt intra-abdominal injury? JAMA 2012;307(14):1517-27 [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=22496266)]

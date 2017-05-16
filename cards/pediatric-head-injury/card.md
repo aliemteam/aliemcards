@@ -11,7 +11,7 @@ categories:
 
 # Pediatric Blunt Head Trauma (PECARN Study)
 
-Risk of CT-documented TBI in children GCS &lt;14 = 20% 
+Risk of CT-documented TBI in children with a GCS &lt;14 is 20% 
 
 ## PECARN Study
 
@@ -32,9 +32,9 @@ Risk of CT-documented TBI in children GCS &lt;14 = 20% 
 
 **Severe Injury Mechanism**
 
+- **FALL >3 ft**
 - MVC with patient ejection, death of another passenger, or rollover
 - Pedestrian or bicyclist without helmet struck by a motorized vehicle
-- **FALL >3 ft**
 - Head struck by a high-impact object
 
 ## PATIENT AGE &ge;2 years
@@ -43,11 +43,11 @@ Risk of CT-documented TBI in children GCS &lt;14 = 20% 
 
 **Severe Injury Mechanism**
 
+- **FALL >5 ft**
 - MVC with patient ejection, death of another passenger, or rollover
 - Pedestrian or bicyclist without helmet struck by a motorized vehicle
-- **FALL >5 ft**
 - Head struck by a high-impact object
 
 ## References
 
-- Kuppermann N et al. ID of children at very low risk of clinically-important brain injuries after head trauma: a prospective cohort study. Lancet. 2009 Oct 3;374(9696):1160-70. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/19758692)
+- Kuppermann N et al. ID of children at very low risk of clinically-important brain injuries after head trauma: a prospective cohort study. _Lancet_. 2009 Oct 3;374(9696):1160-70. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/19758692)]

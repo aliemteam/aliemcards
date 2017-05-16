@@ -61,4 +61,4 @@ If **&lt;10% resistance rate,** alternative oral fluoroquinolone outpatient dosi
 
 ## References
 
-- Gupta K et al. International clinical practice guidelines for the treatment of acute uncomplicated cystitis and pyelonephritis in women: A 2010 update by the IDSA and the ESMID. Clin Infect Dis. 2011; 52(5). [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/10589881)
+- Gupta K et al. International clinical practice guidelines for the treatment of acute uncomplicated cystitis and pyelonephritis in women: A 2010 update by the IDSA and the ESMID. Clin Infect Dis. 2011; 52(5). [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/10589881)]

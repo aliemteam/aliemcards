@@ -8,15 +8,15 @@ categories:
     - Orthopedics
 ---
 
-# Metatarsal/Metacarpal Fractures
+# Metatarsal and Metacarpal Fractures
 
 ![Metacarpal and metatarsal drawing](image-1.png)
 
-## Metatarsal head
+## Metatarsal Head
 
 - Typically operative, unless MCP stable and &lt; 20% articular surface involvement
 
-## Metatarsal neck
+## Metatarsal Neck
 
 - Most are nonoperative
 
@@ -39,7 +39,7 @@ categories:
 </tbody>
 </table>
 
-## Metacarpal shaft
+## Metacarpal Shaft
 
 Most are nonoperative, especially 3rd and 4th MC because of inter-MC ligaments
 
@@ -72,7 +72,7 @@ Most are nonoperative, especially 3rd and 4th MC because of inter-MC ligaments
 </tbody>
 </table>
 
-## Metacarpal base
+## Metacarpal Base
 
 <table>
 <colgroup>
@@ -125,13 +125,13 @@ Most are nonoperative, especially 3rd and 4th MC because of inter-MC ligaments
 
 | **Digit**            |  **Splint**            | **Position**                                              |
 | -------------------- | ---------------------- | --------------------------------------------------------- |
-| Thumb                | Thumb splica           | Wrist extension 20°, thumb ABduction                      |
+| Thumb                | Thumb splica           | Wrist extension 20°, thumb Abduction                      |
 | Index, middle finger | Radial gutter or volar | Wrist extension in 20°, MCP flexion in 90°, keep IPs free |
 | Ring, small finger   | Ulnar gutter           | Wrist extension in 20°, MCP flexion in 90°, keep IPs free |
 
 ## References
 
-- Metatarsal fracture, http://www.wheelessonline.com/ [Link](http://www.wheelessonline.com/ortho/hand_and_metacarpal_fractures)
+- Metatarsal fracture, http://www.wheelessonline.com/ [[Source](http://www.wheelessonline.com/ortho/hand_and_metacarpal_fractures)]
 - Metatarsal fractures, Browner: Skeletal Trauma (4th ed)
 - Metatarsal fractures, Marx: Rosen’s Emergency Medicine (7th ed)
-- Metatarsal fractures, www.emedicine.com [Link](http://emedicine.medscape.com/article/1239721-overview)
+- Metatarsal fractures, www.emedicine.com [[Source](http://emedicine.medscape.com/article/1239721-overview)]

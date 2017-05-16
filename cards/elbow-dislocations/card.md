@@ -8,7 +8,6 @@ authors:
 created: 2016/12/12
 updates:
 categories:
-    - Peer Reviewed
     - Orthopedics
 
 ---
@@ -61,4 +60,4 @@ Complications:
 
 ## References
 
-- Wheeless' TExtbook of Orthopedics [Link](http://wheelessonline.com/)
+- Wheeless' TExtbook of Orthopedics [[Source](http://wheelessonline.com/)]

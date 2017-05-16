@@ -23,36 +23,36 @@ categories:
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>L</strong>ook externally: syndromic, obese, gestalt</td>
-<td><strong>M</strong>ask seal (beard, trauma, prone)<br />
+<td><strong>L</strong> ook externally: syndromic, obese, gestalt</td>
+<td><strong>M</strong> ask seal (beard, trauma, prone)<br />
 </td>
 </tr>
 <tr class="even">
-<td><strong>E</strong>valuate 3-3-2 rule<br />
+<td><strong>E</strong> valuate 3-3-2 rule<br />
 (mouth opening, thyromental, hyomental)</td>
-<td><strong>O</strong>besity<br />
+<td><strong>O</strong> besity<br />
 (redundant upper airway, OSA, poor reserve)<br />
 </td>
 </tr>
 <tr class="odd">
-<td><strong>M</strong>allampati<br />
+<td><strong>M</strong> allampati<br />
 
 <ul>
-<li>I: uvula, tonsils, palate</li>
-<li>II: upper uvula, tonsils</li>
-<li>III base of uvula</li>
-<li>IV: hard palate only<br />
+<li>I: Uvula, tonsils, palate</li>
+<li>II: Upper uvula, tonsils</li>
+<li>III Base of uvula</li>
+<li>IV: Hard palate only<br />
 </li>
 </ul></td>
-<td><strong>A</strong>ge &gt; 55 (Loss of airway tone)</td>
+<td><strong>A</strong> ge &gt; 55 (Loss of airway tone)</td>
 </tr>
 <tr class="even">
-<td><strong>O</strong>bstruction: OSA, PTA, epiglottis, mass</td>
-<td><strong>N</strong>o teeth</td>
+<td><strong>O</strong> bstruction: OSA, PTA, epiglottis, mass</td>
+<td><strong>N</strong> o teeth</td>
 </tr>
 <tr class="odd">
-<td><strong>N</strong>eck mobility: Rheum. arthritis, c-collar</td>
-<td><strong>S</strong>tiffness (asthma, COPD, pregnant)</td>
+<td><strong>N</strong> eck mobility: Rheum. arthritis, c-collar</td>
+<td><strong>S</strong> tiffness (asthma, COPD, pregnant)</td>
 </tr>
 </tbody>
 </table>
@@ -61,12 +61,12 @@ categories:
 
 Assemble appropriate staffing and equipment (**SOAPME**): 
 
-- **S**uction
-- **O**xygen
-- **A**irway adjuncts
-- **P**ersonnel
-- **M**edications
-- **E**quipment
+- **S** uction
+- **O** xygen
+- **A** irway adjuncts
+- **P** ersonnel
+- **M** edications
+- **E** quipment
 
 Select sedative AND analgesic if both are required. Match duration of procedure to duration of drug.
 
@@ -100,8 +100,8 @@ Select sedative AND analgesic if both are required. Match duration of procedure
 
 ## References
 
-- Cravero JP, Beach ML, Blike GT, Gallagher SM, Hertzog JH; Pediatric Sedation Research Consortium.The incidence and nature of adverse events during pediatric sedation/anesthesia with propofol for procedures outside the operating room: a report from the Pediatric Sedation Research Consortium. Anesth Analg. 2009 Mar;108(3):795-804. doi: 10.1213/ane.0b013e31818fc334. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=19224786)
-- Shah A, Mosdossy G, McLeod S, Lehnhardt K, Peddle M, Rieder M .A blinded, randomized controlled trial to evaluate ketamine/propofol versus ketamine alone for procedural sedation in children. Ann Emerg Med. 2011 May;57(5):425-33.e2. doi: 10.1016/j.annemergmed.2010.08.032. Epub 2010 Oct 13. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=20947210)
-- Andolfatto G, Abu-Laban RB, Zed PJ, Staniforth SM, Stackhouse S, Moadebi S, Willman E.,Ketamine-propofol combination (ketofol) versus propofol alone for emergency department procedural sedation and analgesia: a randomized double-blind trial.Ann Emerg Med. 2012 Jun;59(6):504-12.e1-2. doi: 10.1016/j.annemergmed.2012.01.017. Epub 2012 Mar 7. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/22401952)
-- Drayna PC, Estrada C, Wang W, Saville BR, Arnold DH, Ketamine sedation is not associated with clinically meaningful elevation of intraocular pressure. Am J Emerg Med. 2012 Sep;30(7):1215-8. doi: 10.1016/j.ajem.2011.06.001. Epub 2011 Dec 12. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=22169582)
-- Green SM, Roback MG, Kennedy RM, Krauss B. Clinical Practice Guideline for Emergency Department Ketamine Dissociative Sedation: 2011 Update. Annals of emergency medicine. 2011 [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/21256625)
+- Cravero JP, Beach ML, Blike GT, Gallagher SM, Hertzog JH; Pediatric Sedation Research Consortium.The incidence and nature of adverse events during pediatric sedation/anesthesia with propofol for procedures outside the operating room: a report from the Pediatric Sedation Research Consortium. Anesth Analg. 2009 Mar;108(3):795-804. doi: 10.1213/ane.0b013e31818fc334. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=19224786)]
+- Shah A, Mosdossy G, McLeod S, Lehnhardt K, Peddle M, Rieder M .A blinded, randomized controlled trial to evaluate ketamine/propofol versus ketamine alone for procedural sedation in children. Ann Emerg Med. 2011 May;57(5):425-33.e2. doi: 10.1016/j.annemergmed.2010.08.032. Epub 2010 Oct 13. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=20947210)]
+- Andolfatto G, Abu-Laban RB, Zed PJ, Staniforth SM, Stackhouse S, Moadebi S, Willman E.,Ketamine-propofol combination (ketofol) versus propofol alone for emergency department procedural sedation and analgesia: a randomized double-blind trial.Ann Emerg Med. 2012 Jun;59(6):504-12.e1-2. doi: 10.1016/j.annemergmed.2012.01.017. Epub 2012 Mar 7. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/22401952)]
+- Drayna PC, Estrada C, Wang W, Saville BR, Arnold DH, Ketamine sedation is not associated with clinically meaningful elevation of intraocular pressure. Am J Emerg Med. 2012 Sep;30(7):1215-8. doi: 10.1016/j.ajem.2011.06.001. Epub 2011 Dec 12. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=22169582)]
+- Green SM, Roback MG, Kennedy RM, Krauss B. Clinical Practice Guideline for Emergency Department Ketamine Dissociative Sedation: 2011 Update. Annals of emergency medicine. 2011 [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/21256625)]

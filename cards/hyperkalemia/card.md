@@ -13,7 +13,7 @@ categories:
 
 # Hyperkalemia
 
-**Potassium regulation**
+## Potassium regulation
 
 - **Internal K shift:** modulated by insulin, catecholamines, acid-base status
 - **Total body K elimination:** By kidney (95%) and gut (5%)
@@ -26,7 +26,7 @@ categories:
 
 ## Treatment of hyperkalemia
 
-**Mechanism: Cardiac membrane stabilization **
+**Mechanism: Cardiac membrane stabilization**
 
 - **Calcium:** Reduces threshold potential in myocytes; check to be sure not on digoxin
 - **Hypertonic saline:** Only for severe hyponatremia in setting of hyperkalemia
@@ -34,14 +34,14 @@ categories:
 **Mechanism: K redistribution**
 
 - **Insulin:** Drives K intracellularly and drops serum K level by 0.6 mmol/L
-- **Beta-agonist:** Drives K intracellularly and 10 mg albuterol drops serum K level by 0.6 mmol/L(20 mg --> K drops by 1 mmol/L); effective in only 60% of patients
+- **Beta-agonist:** Drives K intracellularly and 10 mg albuterol drops serum K level by 0.6 mmol/L (20 mg --> K drops by 1 mmol/L); effective in only 60% of patients
 
 **Mechanism: K elimination via kidney/gut**
 
 - **Bicarbonate:** drives K out at distal nephron; best as infusion x 4-6 hrs
 - **Loop diuretic**
 - **Exchange resin** (sodium polystyrene sulfonate): Of minimal to no benefit. 
-- Case reports of colonic necrosis 
+  - Case reports of colonic necrosis 
 
 <table>
   <tr>
@@ -63,7 +63,7 @@ categories:
   </tr>
   <tr>
     <td><span class="drug">Hypertonic 3% NaCl</span></td>
-    <td>50cc IV push</td>
+    <td>50 mL IV push</td>
     <td>Immediate</td>
     <td>Unknown</td>
     <td>Volume overload, hypertonicity</td>
@@ -104,7 +104,7 @@ categories:
   </tr>
   <tr>
     <td><span class="drug">Kayexalate</span></td>
-    <td>150-30 g</td>
+    <td>15-30 g</td>
     <td>>2 hrs</td>
     <td>4-6 hr</td>
     <td>Variable efficacy</td>
@@ -120,4 +120,4 @@ categories:
 
 ## References
 
-- Weisberg LS. Management of severe hyperkalemia. Crit Care Med. 2008; 36:3246-51. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=18936701)
+- Weisberg LS. Management of severe hyperkalemia. _Crit Care Med_. 2008; 36:3246-51. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=18936701)]

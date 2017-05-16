@@ -10,11 +10,11 @@ categories:
     - Trauma
 ---
 
-# Intimate Partner Violence
+# Intimate Partner Violence (IPV)
 
-**Definition:** Physical,sexual, or psychological harm by a current or former partner or spouse. Occurs among heterosexual and same-sex couples.
+**Definition:** Physical, sexual, or psychological harm by a current or former partner or spouse; occurs among heterosexual and same-sex couples
 
-**Epidemiology:** Lifetime estimates for IPV in women= 22-39%.
+**Epidemiology:** Lifetime estimates for IPV in women= 22-39%
 
 **Sequelae:** Untreated IPV results in many physical and psychological morbidities. 
 
@@ -22,13 +22,15 @@ categories:
 
 ## Screening
 
-- USPSTF B recommendation for screening women of child-bearing age: high certainty that the net benefit is moderate. Costs and potential harms of screening appear to be outweighed by potential for early intervention with screening.
+- U.S. Preventive Services Task Force: Level B recommendation for screening women of child-bearing age
+  - High certainty that the net benefit is moderate. 
+  - Costs and potential harms of screening appear to be outweighed by potential for early intervention with screening.
 - Interview patient alone. Frame: “_Because violence is so common, we’re routinely asking our patients about their safety in their relationships_.”
 - Increase suspicion of abuse when overly protective partner, history inconsistent with injury, vague complaints, or pregnancy.
 
 **SAFE Questions**
 
-| Topic .            |    Question                                                                        |
+| Topic              |    Question                                                                        |
 | ------------------ | ---------------------------------------------------------------------------------- |
 | **S**tress/Safety  | _Do you feel safe in your relationship?_                                           |
 | **A**fraid/Abused  | _Have you ever been in a relationship where you were threatened, hurt, or afraid?_ |
@@ -50,14 +52,11 @@ Define safety plan for discharge.
 
 ## Resources
 
-**NationalDomestic Violence Hotline:**
-  **[1-800-799-SAFE](tel:1-800-799-7233)**
-**National Sexual Assault Hotline: **
-**[1-800-656-HOPE](tel:1-800-656-4673)**
-**NationalChild Abuse Hotline:**
-**[1-800-4-A-CHILD](tel:1-800-4-2-24453)** (contact Child Protective Services)
+- **National Domestic Violence Hotline:** [1-800-799-SAFE](tel:1-800-799-7233)
+- **National Sexual Assault Hotline:** [1-800-656-HOPE](tel:1-800-656-4673)
+- **National Child Abuse Hotline:** [1-800-4-A-CHILD](tel:1-800-4-2-24453) (and contact local Child Protective Services)
 
 ## References
 
-- Ashur ML. Asking about violence: SAFE questions. JAMA 1993. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=8479058)
-- Moyer VA, US Preventative Serv Task Force. Ann Intern Med 2013 [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=23338828)
+- Ashur ML. Asking about violence: SAFE questions. _JAMA_ 1993. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=8479058)]
+- Moyer VA, US Preventative Service Task Force. _Ann Intern Med_ 2013. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=23338828)]

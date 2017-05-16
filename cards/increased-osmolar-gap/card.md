@@ -23,7 +23,7 @@ categories:
 ## Osmolal gap
 
 - Most common cause: Ethanol 
-- Osmolal ap calculation includes ethanol correction factor (4.6)
+- Osmolal gap calculation includes ethanol correction factor (4.6)
 - Osmoloal gap screens for toxic alcohols with decreasing sensitivity: 
   - Methanol
   - Ethanol
@@ -66,7 +66,7 @@ Lactic acidosis<br />
 </tbody>
 </table>
 
-### Caution
+## Caution
 
 Toxic alcohols may not cause significant osmolal gap because:
 
@@ -74,8 +74,8 @@ Toxic alcohols may not cause significant osmolal gap because:
 2. Wide range of normal osmolal gap (can be as low as -10)
 3. Only the parent alcohol (not the metabolites) causes osmolal gap
 
-**Tip: **Consider toxic alcohols for cases of high anion gap metabolic acidosis even with normal osmolal gap
+**Tip:** Consider toxic alcohols for cases of high anion gap metabolic acidosis even with normal osmolal gap.
 
 ## References
 
-- Kraut JA, Xing SX. Approach to the evaluation of a patient with an increased serum osmolal gap and high-anion-gap metabolic acidosis. Am J Kidney Dis. 2011 Sep;58(3):480-4. doi: 10.1053/j.ajkd.2011.05.018. Epub 2011 Jul 27. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=21794966)
+- Kraut JA, Xing SX. Approach to the evaluation of a patient with an increased serum osmolal gap and high-anion-gap metabolic acidosis. _Am J Kidney Dis_. 2011 Sep;58(3):480-4. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=21794966)]

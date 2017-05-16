@@ -49,7 +49,7 @@ The PAT functions as a rapid, initial assessment to determine “sick” or “n
 | --------------------------------- | ------------ | ---------------------- | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Stable                            | Normal       | Normal                 | Normal                 | Specific therapy based on possible etiologies                                                                                                                                   |
 | Respiratory distress              | Normal       | **ABNORMAL**           | Normal                 | Position of comfort, O2/suction, specific therapy (e.g. albuterol, diphenhydramine, epinephrine), labs/x-rays                                                                   |
-| Respiratory failure               | **ABNORMAL** | **ABNORMAL **          | Normal or **ABNORMAL** | Position head/open airway, BVM, FB removal, advanced airway, labs/x-rays                                                                                                        |
+| Respiratory failure               | **ABNORMAL** | **ABNORMAL**           | Normal or **ABNORMAL** | Position head/open airway, BVM, FB removal, advanced airway, labs/x-rays                                                                                                        |
 | Shock (compensated)               | Normal       | Normal                 | **ABNORMAL**           | O2, peripheral IV, fluid resuscitation, specific therapy based on etiology (antibiotics, surgery, antidysrhythmics), labs/x-rays                                                |
 | Shock (decompensated/hypotensive) | **ABNORMAL** | Normal or **ABNORMAL** | **ABNORMAL**           | O2, vascular access, fluid resuscitation, specific therapy based on etiology (antibiotics, vasopressors, blood products, surgery, antidysrhythmics, cardioversion), labs/x-rays |
 | CNS/Metabolic dysfunction         | **ABNORMAL** | Normal                 | Normal                 | O2, POC glucose, consider other etiologies, labs/x-rays                                                                                                                         |
@@ -57,5 +57,5 @@ The PAT functions as a rapid, initial assessment to determine “sick” or “n
 
 ## References
 
-- Dieckmann RA, Brownstein D, Gausche-Hill M. The pediatric assessment triangle: a novel approach for the rapid evaluation of children. Pediatr Emerg Care. 2010 Apr;26(4):312-5. doi: 10.1097/PEC.0b013e3181d6db37. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=20386420)
-- ER CAST: Courtesy of Dr. Michelle Reina & Dr. Rob Bryant [Link](http://blog.ercast.org/2010/05/the-toxic-neonate/)
+- Dieckmann RA, Brownstein D, Gausche-Hill M. The pediatric assessment triangle: a novel approach for the rapid evaluation of children. Pediatr Emerg Care. 2010 Apr;26(4):312-5. doi: 10.1097/PEC.0b013e3181d6db37. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=20386420)]
+- ER CAST: Courtesy of Dr. Michelle Reina & Dr. Rob Bryant [[Source](http://blog.ercast.org/2010/05/the-toxic-neonate/)]

@@ -12,13 +12,12 @@ categories:
 
 # Stroke Score, NIH Scale
 
-- Score = 0 (No stroke) 
-- Score = 1-4 (Minor stroke) 
-- Score = 5-15 (Moderate stroke)
-- Score = 15-20 (Moderate to severe stroke)
-- Score = 21-42 (Severe stroke) 
-
-**TIP** Count out loud and use your fingers to show the patient your count when accessing motor strength in limbs
+Score
+- 0 (No stroke) 
+- 1-4 (Minor stroke) 
+- 5-15 (Moderate stroke)
+- 15-20 (Moderate to severe stroke)
+- 21-42 (Severe stroke) 
 
 <table>
   <tr>
@@ -185,4 +184,4 @@ categories:
 
 ## References
 
-1. "NINDS Know Stroke Campaign - NIH Stroke Scale". Stroke.nih.gov. N.p., 2017. Web. 24 Mar. 2017. [Link](https://stroke.nih.gov/resources/scale.htm)
+1. "NINDS Know Stroke Campaign - NIH Stroke Scale". Stroke.nih.gov. N.p., 2017. Web. 24 Mar. 2017. [[Source](https://stroke.nih.gov/resources/scale.htm)]

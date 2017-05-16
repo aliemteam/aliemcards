@@ -10,7 +10,7 @@ categories:
 
 # Ketamine and Propofol (Ketofol) for Procedural Sedation
 
-**Take Home Points**
+## Take Home Points
 
 - <span class="drug">Ketofol</span> is a combination of <span class="drug">ketamine</span> and <span class="drug">propofol</span>.
 - <span class="drug">Ketamine</span> gives you a dissociative sedative, analgesic, and amnestic effect.
@@ -60,10 +60,26 @@ Most studies and authors recommend a **1:1 ratio** to provide ease of administra
 
 ## References
 
-- P.C. Drayna, C. Estrada, W. Wang, B.R. Saville, and D.H. Arnold, "Ketamine sedation is not associated with clinically meaningful elevation of intraocular pressure.", The American journal of emergency medicine, 2011. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/22169582)
-- J.P. Cravero, M.L. Beach, G.T. Blike, S.M. Gallagher, J.H. Hertzog, and . , "The incidence and nature of adverse events during pediatric sedation/anesthesia with propofol for procedures outside the operating room: a report from the Pediatric Sedation Research Consortium.", Anesthesia and analgesia, 2009. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/19224786)
-- M.J. Alletag, M.A. Auerbach, and C.R. Baum, "Ketamine, propofol, and ketofol use for pediatric sedation.", Pediatric emergency care, 2012. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/23222112)
-- A. Shah, G. Mosdossy, S. McLeod, K. Lehnhardt, M. Peddle, and M. Rieder, "A blinded, randomized controlled trial to evaluate ketamine/propofol versus ketamine alone for procedural sedation in children.", Annals of emergency medicine, 2010. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/20947210)
-- J.A. Payne, C. Lytle, and T.J. McManus, "Foreign anion substitution for chloride in human red blood cells: effect on ionic and osmotic equilibria.", The American journal of physiology, 1990. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/2240195)
-- Andolfatto, Gary, et al. "Ketamine-propofol combination (ketofol) versus propofol alone for emergency department procedural sedation and analgesia: a randomized double-blind trial." Annals of emergency medicine 59.6 (2012): 504-512. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/22401952)
-- S.M. Green, M.G. Roback, B. Krauss, L. Brown, R.G. McGlone, D. Agrawal, M. McKee, M. Weiss, R.D. Pitetti, M.A. Hostetler, J.E. Wathen, G. Treston, B.M. Garcia Pena, A.C. Gerber, J.D. Losek, and . , "Predictors of airway and respiratory adverse events with ketamine sedation in the emergency department: an individual-patient data meta-analysis of 8,282 children.", Annals of emergency medicine, 2009. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/19201064)
+- Drayna PC, Estrada C, Wang W, Saville BR, Arnold DH. Ketamine sedation is not 
+associated with clinically meaningful elevation of intraocular pressure. _Am J
+Emerg Med_. 2012 Sep;30(7):1215-8. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/22169582)]
+- Cravero JP, Beach ML, Blike GT, Gallagher SM, Hertzog JH; Pediatric Sedation
+Research Consortium.. The incidence and nature of adverse events during pediatric
+sedation/anesthesia with propofol for procedures outside the operating room: a
+report from the Pediatric Sedation Research Consortium. _Anesth Analg_. 2009
+Mar;108(3):795-804.  [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/19224786)]
+- Alletag MJ, Auerbach MA, Baum CR. Ketamine, propofol, and ketofol use for
+pediatric sedation. _Pediatr Emerg Care_. 2012 Dec;28(12):1391-5; quiz 1396-8. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/23222112)]
+- Shah A, Mosdossy G, McLeod S, Lehnhardt K, Peddle M, Rieder M. A blinded,
+randomized controlled trial to evaluate ketamine/propofol versus ketamine alone
+for procedural sedation in children. _Ann Emerg Med_. 2011 May;57(5):425-33.e2. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/20947210)]
+- Andolfatto G, Abu-Laban RB, Zed PJ, Staniforth SM, Stackhouse S, Moadebi S,
+Willman E. Ketamine-propofol combination (ketofol) versus propofol alone for
+emergency department procedural sedation and analgesia: a randomized double-blind
+trial. _Ann Emerg Med_. 2012 Jun;59(6):504-12.e1-2. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/22401952)]
+- Green SM, Roback MG, Krauss B, Brown L, McGlone RG, Agrawal D, McKee M, Weiss 
+M, Pitetti RD, Hostetler MA, Wathen JE, Treston G, Garcia Pena BM, Gerber AC,
+Losek JD; Emergency Department Ketamine Meta-Analysis Study Group. Predictors of
+airway and respiratory adverse events with ketamine sedation in the emergency
+department: an individual-patient data meta-analysis of 8,282 children. _Ann Emerg
+Med_. 2009 Aug;54(2):158-68.e1-4.[[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/19201064)]
