@@ -1,5 +1,4 @@
 ---
-
 title: Blunt Cardiac Injury
 authors:
     - Michelle Lin, MD
