@@ -161,14 +161,14 @@ function writeFilePromise(path, content) {
 }
 
 function sitemap(cards: SingleCardJSON[]): SingleCardJSON[] {
-  const baseurl = 'http://www.aliemcards.com';
-  let sitemap = `${baseurl}\n`;
-  sitemap += `${baseurl}/about\n`;
-  sitemap += `${baseurl}/cards\n`;
-  sitemap += `${baseurl}/categories\n`;
-  cards.forEach(card => {
-    sitemap += `${baseurl}/cards/${card.id}\n`;
-  });
+  const baseurl = 'https://www.aliemcards.com';
+  const sitemap = [
+    baseurl,
+    `${baseurl}/about`,
+    `${baseurl}/cards`,
+    `${baseurl}/categories`,
+    ...cards.map(card => `${baseurl}/cards/${card.id}`),
+  ].join('\n');
   if (!fs.existsSync('./dist/app')) {
     fs.mkdirSync('./dist/app');
   }
