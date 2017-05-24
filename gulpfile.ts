@@ -73,6 +73,7 @@ gulp.task('cards', () => (
       }
       return cards;
     })
+    .then(sitemap)
     .then(normalize)
     .then(json => {
       const announcements = yaml.safeLoad(fs.readFileSync('./cards/announcements.yml', 'utf8'));
@@ -157,6 +158,22 @@ function writeFilePromise(path, content) {
       res();
     });
   });
+}
+
+function sitemap(cards: SingleCardJSON[]): SingleCardJSON[] {
+  const baseurl = 'http://www.aliemcards.com';
+  let sitemap = `${baseurl}\n`;
+  sitemap += `${baseurl}/about\n`;
+  sitemap += `${baseurl}/cards\n`;
+  sitemap += `${baseurl}/categories\n`;
+  cards.forEach(card => {
+    sitemap += `${baseurl}/cards/${card.id}\n`;
+  });
+  if (!fs.existsSync('./dist/app')) {
+    fs.mkdirSync('./dist/app');
+  }
+  writeFilePromise('./dist/app/sitemap.txt', sitemap);
+  return cards;
 }
 
 // Fail-fast abstractions --------------------------------------------------------------------------
