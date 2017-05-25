@@ -41,27 +41,156 @@ exports[`<About /> should render correctly 1`] = `
     The ALiEM Cards Team
   </h2>
   <div
-    className="about__bio column column--50"
+    className="row"
   >
-    <h3>
-      Michelle Lin, MD
-    </h3>
-    <ul>
-      <li>
-        <b>
-          Creator & Editor-in-Chief
-        </b>
-      </li>
-      <li>
-        Endowed Chair for EM Education
-      </li>
-      <li>
-        UC San Francisco / Zuckerberg San Francisco General
-      </li>
-      <li>
-        M_Lin
-      </li>
-    </ul>
+    <div
+      className="about__bio column column--50"
+    >
+      <h3>
+        Michelle Lin, MD
+      </h3>
+      <ul>
+        <li>
+          <b>
+            Creator & Editor-in-Chief
+          </b>
+        </li>
+        <li>
+          Endowed Chair for EM Education
+        </li>
+        <li>
+          UC San Francisco / Zuckerberg San Francisco General
+        </li>
+        <li>
+          <a
+            href="https://www.twitter.com/M_Lin"
+          >
+            @
+            M_Lin
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      className="about__bio column column--50"
+    >
+      <h3>
+        Jeremy Voros, MD
+      </h3>
+      <ul>
+        <li>
+          <b>
+            Developer
+          </b>
+        </li>
+        <li>
+          Attending Physician
+        </li>
+        <li>
+          Emergency Physicians Integrated Care, Utah
+        </li>
+        <li>
+          <a
+            href="https://www.twitter.com/VorosMD"
+          >
+            @
+            VorosMD
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="about__bio column column--50"
+    >
+      <h3>
+        Derek Sifford, FP-C, CCP-C
+      </h3>
+      <ul>
+        <li>
+          <b>
+            Developer
+          </b>
+        </li>
+        <li>
+          Paramedic
+        </li>
+        <li>
+          Wayne State University
+        </li>
+        <li>
+          <a
+            href="https://www.twitter.com/FlightMed1"
+          >
+            @
+            FlightMed1
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      className="about__bio column column--50"
+    >
+      <h3>
+        Catherine Patocka, MD, MHPE
+      </h3>
+      <ul>
+        <li>
+          <b>
+            Research Lead
+          </b>
+        </li>
+        <li>
+          Assistant Professor
+        </li>
+        <li>
+          University of Calgary
+        </li>
+        <li>
+          <a
+            href="https://www.twitter.com/patockaem"
+          >
+            @
+            patockaem
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="about__bio column column--50"
+    >
+      <h3>
+        Teresa Chan, MD MHPE
+      </h3>
+      <ul>
+        <li>
+          <b>
+            Research Mentor
+          </b>
+        </li>
+        <li>
+          Emergency Physician and Base Hospital Physician
+        </li>
+        <li>
+          Hamilton Health Sciences
+        </li>
+        <li>
+          <a
+            href="https://www.twitter.com/TChanMD"
+          >
+            @
+            TChanMD
+          </a>
+        </li>
+      </ul>
+    </div>
   </div>
 </div>
 `;
