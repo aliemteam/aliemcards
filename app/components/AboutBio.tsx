@@ -15,7 +15,7 @@ const AboutBio: React.StatelessComponent<BioProps> = props => (
             <li><b>{props.title}</b></li>
             <li>{props.credentials}</li>
             <li>{props.location}</li>
-            <li>{props.twitter}</li>
+            <li><a href={`https://www.twitter.com/${props.twitter}`}>@{props.twitter}</a></li>
         </ul>
     </div>
 );
