@@ -73,6 +73,13 @@ export default () => (
         location="Hamilton Health Sciences"
         twitter="TChanMD"
       />
+      <AboutBio
+        name="Andy Little, DO"
+        title="Content Editor"
+        credentials="Attending Physician, Core Faculty"
+        location="Doctors Hospital Emergency Medicine Residency, OH"
+        twitter="andyglittle"
+      />
     </div>
   </div>
 );
