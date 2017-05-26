@@ -50,6 +50,9 @@ input
 .row--wrap
     flex-wrap: wrap
 
+.row--centered
+    justify-content: center
+
 .column
     padding: 10px
     flex: auto
@@ -58,6 +61,8 @@ input
 for i in 12 25 50
     .column--{i}
         width: ($container-max-width * (i / 100)) - 20
+    .column--relative-{i}
+        width: (i)%
 
 .main
     box-sizing: border-box
