@@ -183,34 +183,6 @@ exports[`<About /> should render correctly 1`] = `
         </div>
       </div>
     </div>
-    <div
-      className="about__bio column column--50"
-    >
-      <h3>
-        Andy Little, DO
-      </h3>
-      <ul>
-        <li>
-          <b>
-            Content Editor
-          </b>
-        </li>
-        <li>
-          Attending Physician, Core Faculty
-        </li>
-        <li>
-          Doctors Hospital Emergency Medicine Residency, OH
-        </li>
-        <li>
-          <a
-            href="https://www.twitter.com/andyglittle"
-          >
-            @
-            andyglittle
-          </a>
-        </li>
-      </ul>
-    </div>
   </div>
 </div>
 `;
