@@ -41,155 +41,147 @@ exports[`<About /> should render correctly 1`] = `
     The ALiEM Cards Team
   </h2>
   <div
-    className="row"
+    className="row row--wrap"
   >
     <div
-      className="about__bio column column--50"
+      className="column column--relative-50"
     >
       <h3>
         Michelle Lin, MD
       </h3>
-      <ul>
-        <li>
-          <b>
+      <div>
+        <div>
+          <strong>
             Creator & Editor-in-Chief
-          </b>
-        </li>
-        <li>
+          </strong>
+        </div>
+        <div>
           Endowed Chair for EM Education
-        </li>
-        <li>
+        </div>
+        <div>
           UC San Francisco / Zuckerberg San Francisco General
-        </li>
-        <li>
+        </div>
+        <div>
           <a
             href="https://www.twitter.com/M_Lin"
           >
             @
             M_Lin
           </a>
-        </li>
-      </ul>
+        </div>
+      </div>
     </div>
     <div
-      className="about__bio column column--50"
+      className="column column--relative-50"
     >
       <h3>
         Jeremy Voros, MD
       </h3>
-      <ul>
-        <li>
-          <b>
+      <div>
+        <div>
+          <strong>
             Developer
-          </b>
-        </li>
-        <li>
+          </strong>
+        </div>
+        <div>
           Attending Physician
-        </li>
-        <li>
+        </div>
+        <div>
           Emergency Physicians Integrated Care, Utah
-        </li>
-        <li>
+        </div>
+        <div>
           <a
             href="https://www.twitter.com/VorosMD"
           >
             @
             VorosMD
           </a>
-        </li>
-      </ul>
+        </div>
+      </div>
     </div>
-  </div>
-  <div
-    className="row"
-  >
     <div
-      className="about__bio column column--50"
+      className="column column--relative-50"
     >
       <h3>
-        Derek Sifford, FP-C, CCP-C
+        Derek Sifford, FP-C
       </h3>
-      <ul>
-        <li>
-          <b>
+      <div>
+        <div>
+          <strong>
             Developer
-          </b>
-        </li>
-        <li>
+          </strong>
+        </div>
+        <div>
           Paramedic
-        </li>
-        <li>
+        </div>
+        <div>
           Wayne State University
-        </li>
-        <li>
+        </div>
+        <div>
           <a
-            href="https://www.twitter.com/FlightMed1"
+            href="https://www.twitter.com/flightmed1"
           >
             @
-            FlightMed1
+            flightmed1
           </a>
-        </li>
-      </ul>
+        </div>
+      </div>
     </div>
     <div
-      className="about__bio column column--50"
+      className="column column--relative-50"
     >
       <h3>
         Catherine Patocka, MD, MHPE
       </h3>
-      <ul>
-        <li>
-          <b>
+      <div>
+        <div>
+          <strong>
             Research Lead
-          </b>
-        </li>
-        <li>
+          </strong>
+        </div>
+        <div>
           Assistant Professor
-        </li>
-        <li>
+        </div>
+        <div>
           University of Calgary
-        </li>
-        <li>
+        </div>
+        <div>
           <a
             href="https://www.twitter.com/patockaem"
           >
             @
             patockaem
           </a>
-        </li>
-      </ul>
+        </div>
+      </div>
     </div>
-  </div>
-  <div
-    className="row"
-  >
     <div
-      className="about__bio column column--50"
+      className="column column--relative-50"
     >
       <h3>
         Teresa Chan, MD MHPE
       </h3>
-      <ul>
-        <li>
-          <b>
+      <div>
+        <div>
+          <strong>
             Research Mentor
-          </b>
-        </li>
-        <li>
+          </strong>
+        </div>
+        <div>
           Emergency Physician and Base Hospital Physician
-        </li>
-        <li>
+        </div>
+        <div>
           Hamilton Health Sciences
-        </li>
-        <li>
+        </div>
+        <div>
           <a
             href="https://www.twitter.com/TChanMD"
           >
             @
             TChanMD
           </a>
-        </li>
-      </ul>
+        </div>
+      </div>
     </div>
     <div
       className="about__bio column column--50"

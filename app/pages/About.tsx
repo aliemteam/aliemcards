@@ -1,7 +1,45 @@
 import * as React from 'react';
 import { Link } from 'react-router-dom';
 
-import AboutBio from '../components/AboutBio';
+import AboutBio, { BioProps } from '../components/AboutBio';
+
+const team: BioProps[] = [
+      {
+        name: 'Michelle Lin, MD',
+        title: 'Creator & Editor-in-Chief',
+        credentials: 'Endowed Chair for EM Education',
+        location: 'UC San Francisco / Zuckerberg San Francisco General',
+        twitter: 'M_Lin',
+      },
+      {
+        name: 'Jeremy Voros, MD',
+        title: 'Developer',
+        credentials: 'Attending Physician',
+        location: 'Emergency Physicians Integrated Care, Utah',
+        twitter: 'VorosMD',
+      },
+      {
+        name: 'Derek Sifford, FP-C',
+        title: 'Developer',
+        credentials: 'Paramedic',
+        location: 'Wayne State University',
+        twitter: 'flightmed1',
+      },
+      {
+        name: 'Catherine Patocka, MD, MHPE',
+        title: 'Research Lead',
+        credentials: 'Assistant Professor',
+        location: 'University of Calgary',
+        twitter: 'patockaem',
+      },
+      {
+        name: 'Teresa Chan, MD MHPE',
+        title: 'Research Mentor',
+        credentials: 'Emergency Physician and Base Hospital Physician',
+        location: 'Hamilton Health Sciences',
+        twitter: 'TChanMD',
+      },
+];
 
 export default () => (
   <div className="content">
@@ -33,53 +71,10 @@ export default () => (
       What would make them more useful? Found an error? Help us fix it!
     </p>
     <h2>The ALiEM Cards Team</h2>
-    <div className="row">
-      <AboutBio
-        name="Michelle Lin, MD"
-        title="Creator & Editor-in-Chief"
-        credentials="Endowed Chair for EM Education"
-        location="UC San Francisco / Zuckerberg San Francisco General"
-        twitter="M_Lin"
-      />
-      <AboutBio
-        name="Jeremy Voros, MD"
-        title="Developer"
-        credentials="Attending Physician"
-        location="Emergency Physicians Integrated Care, Utah"
-        twitter="VorosMD"
-      />
-    </div>
-    <div className="row">
-      <AboutBio
-        name="Derek Sifford, FP-C, CCP-C"
-        title="Developer"
-        credentials="Paramedic"
-        location="Wayne State University"
-        twitter="FlightMed1"
-      />
-      <AboutBio
-        name="Catherine Patocka, MD, MHPE"
-        title="Research Lead"
-        credentials="Assistant Professor"
-        location="University of Calgary"
-        twitter="patockaem"
-      />
-    </div>
-    <div className="row">
-      <AboutBio
-        name="Teresa Chan, MD MHPE"
-        title="Research Mentor"
-        credentials="Emergency Physician and Base Hospital Physician"
-        location="Hamilton Health Sciences"
-        twitter="TChanMD"
-      />
-      <AboutBio
-        name="Andy Little, DO"
-        title="Content Editor"
-        credentials="Attending Physician, Core Faculty"
-        location="Doctors Hospital Emergency Medicine Residency, OH"
-        twitter="andyglittle"
-      />
+    <div className="row row--wrap">
+      {
+        team.map(member => <AboutBio key={member.name} {...member} />)
+      }
     </div>
   </div>
 );
