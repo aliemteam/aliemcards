@@ -4,41 +4,41 @@ import { Link } from 'react-router-dom';
 import AboutBio, { BioProps } from '../components/AboutBio';
 
 const team: BioProps[] = [
-      {
-        name: 'Michelle Lin, MD',
-        title: 'Creator & Editor-in-Chief',
-        credentials: 'Endowed Chair for EM Education',
-        location: 'UC San Francisco / Zuckerberg San Francisco General',
-        twitter: 'M_Lin',
-      },
-      {
-        name: 'Jeremy Voros, MD',
-        title: 'Developer',
-        credentials: 'Attending Physician',
-        location: 'Emergency Physicians Integrated Care, Utah',
-        twitter: 'VorosMD',
-      },
-      {
-        name: 'Derek Sifford, FP-C',
-        title: 'Developer',
-        credentials: 'Paramedic',
-        location: 'Wayne State University',
-        twitter: 'flightmed1',
-      },
-      {
-        name: 'Catherine Patocka, MD, MHPE',
-        title: 'Research Lead',
-        credentials: 'Assistant Professor',
-        location: 'University of Calgary',
-        twitter: 'patockaem',
-      },
-      {
-        name: 'Teresa Chan, MD MHPE',
-        title: 'Research Mentor',
-        credentials: 'Emergency Physician and Base Hospital Physician',
-        location: 'Hamilton Health Sciences',
-        twitter: 'TChanMD',
-      },
+  {
+    name: 'Michelle Lin, MD',
+    title: 'Creator & Editor-in-Chief',
+    credentials: 'Endowed Chair for EM Education',
+    location: 'UC San Francisco / Zuckerberg San Francisco General',
+    twitter: 'M_Lin',
+  },
+  {
+    name: 'Jeremy Voros, MD',
+    title: 'Developer',
+    credentials: 'Attending Physician',
+    location: 'Emergency Physicians Integrated Care, Utah',
+    twitter: 'VorosMD',
+  },
+  {
+    name: 'Derek Sifford, FP-C',
+    title: 'Developer',
+    credentials: 'Paramedic',
+    location: 'Wayne State University',
+    twitter: 'flightmed1',
+  },
+  {
+    name: 'Catherine Patocka, MD, MHPE',
+    title: 'Research Lead',
+    credentials: 'Assistant Professor',
+    location: 'University of Calgary',
+    twitter: 'patockaem',
+  },
+  {
+    name: 'Teresa Chan, MD MHPE',
+    title: 'Research Mentor',
+    credentials: 'Emergency Physician and Base Hospital Physician',
+    location: 'Hamilton Health Sciences',
+    twitter: 'TChanMD',
+  },
 ];
 
 export default () => (
