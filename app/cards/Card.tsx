@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { gql, graphql } from 'react-apollo';
+import { Helmet } from 'react-helmet';
 import * as remark from 'remark';
 import * as html from 'remark-html';
 import { Card as ICard } from '../../server/models/';
@@ -39,9 +40,6 @@ const config = {
 export default class Card extends React.PureComponent<Props, {}> {
   render() {
     const { card, networkStatus } = this.props.data;
-    if (networkStatus === 6) {
-      return <div>Polling!</div>;
-    }
     if (networkStatus < 7) {
       return <div>Loading...</div>;
     }
@@ -50,6 +48,11 @@ export default class Card extends React.PureComponent<Props, {}> {
         : new Date(card.created).toLocaleDateString('en-US', { timeZone: 'UTC' });
     return (
       <article role="article">
+        <Helmet>
+          <script type="application/ld+json">
+            { JSON.stringify({ headline: card.title }) }
+          </script>
+        </Helmet>
         <h1>{card.title}</h1>
         <div className="card">
           <div className="card__meta">
@@ -62,7 +65,7 @@ export default class Card extends React.PureComponent<Props, {}> {
           <div
             className="card__content"
             dangerouslySetInnerHTML={{
-              __html: remark().use(html).processSync(this.props.data.card.content).contents,
+              __html: remark().use(html).processSync(card.content).contents,
             }}
           />
         </div>
