@@ -8,7 +8,7 @@ exports[`<Card /> should render according to networkStatus 1`] = `
 
 exports[`<Card /> should render according to networkStatus 2`] = `
 <div>
-  Polling!
+  Loading...
 </div>
 `;
 
