@@ -16,7 +16,7 @@ import * as stylus from 'gulp-stylus';
 import * as yaml from 'js-yaml';
 import { promisify } from 'util';
 
-const readdirPromisee = promisify(fs.readdir);
+const readdirPromise = promisify(fs.readdir);
 const writeFilePromise = promisify(fs.writeFile);
 
 import { normalize } from './server/utils/normalize';
@@ -36,7 +36,7 @@ gulp.task('clean', () => del(['dist/**/*', 'npm-debug.log', '!dist/app/index.htm
 
 // Cards
 gulp.task('cards', () => (
-  readdirPromisee('./cards')
+  readdirPromise('./cards')
     .then(checkDirectoryShape)
     .then(dirs => {
       let cards: SingleCardJSON[] = [];
