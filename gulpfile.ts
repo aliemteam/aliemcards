@@ -1,4 +1,10 @@
 // tslint:disable:no-console
+// FIXME: Temporary module extension until typescript updates the library builtin
+declare module 'util' {
+  export function promisify<T>(
+    func: (data: any, cb: (err: NodeJS.ErrnoException, data?: T) => void,
+  ) => void): (...input: any[]) => Promise<T>;
+}
 import * as autoprefixer from 'autoprefixer-stylus';
 import { execFile } from 'child_process';
 import * as del from 'del';
@@ -8,6 +14,10 @@ import * as gulp from 'gulp';
 import * as image from 'gulp-image';
 import * as stylus from 'gulp-stylus';
 import * as yaml from 'js-yaml';
+import { promisify } from 'util';
+
+const readdirPromisee = promisify(fs.readdir);
+const writeFilePromise = promisify(fs.writeFile);
 
 import { normalize } from './server/utils/normalize';
 import { SingleCardJSON } from './server/utils/strongTypes';
@@ -26,7 +36,7 @@ gulp.task('clean', () => del(['dist/**/*', 'npm-debug.log', '!dist/app/index.htm
 
 // Cards
 gulp.task('cards', () => (
-  readdirPromise('./cards')
+  readdirPromisee('./cards')
     .then(checkDirectoryShape)
     .then(dirs => {
       let cards: SingleCardJSON[] = [];
@@ -142,24 +152,6 @@ function buildCardObject(filename: string, meta: CardMeta, content: string): Sin
   };
 }
 
-function readdirPromise(path): Promise<string[]> {
-  return new Promise<string[]>((res, rej) => {
-    fs.readdir(path, (err, files) => {
-      if (err) { return rej(err); }
-      res(files);
-    });
-  });
-}
-
-function writeFilePromise(path, content) {
-  return new Promise((res, rej) => {
-    fs.writeFile(path, content, err => {
-      if (err) { rej(err); }
-      res();
-    });
-  });
-}
-
 function sitemap(cards: SingleCardJSON[]): SingleCardJSON[] {
   const baseurl = 'https://www.aliemcards.com';
   const sitemap = [
@@ -182,7 +174,7 @@ function checkDirectoryShape(contents: string[]): Promise<string[]> {
   const ignoredFiles = ['.DS_Store', 'announcements.yml'];
   const promises: Array<Promise<string>> = [];
   for (const dir of contents) {
-    if (ignoredFiles.includes(dir)) { continue; }
+    if (ignoredFiles.indexOf(dir) !== -1) { continue; }
     promises.push(new Promise(res => {
       fs.stat(`./cards/${dir}`, (err, stats) => {
         if (err) { throw err; }
