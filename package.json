@@ -25,13 +25,16 @@
       "aliemcards.com",
       "www.aliemcards.com"
     ],
-    "name": "aliemcards",
+    "engines": {
+      "node": "8.0.0"
+    },
     "env": {
       "NODE_ENV": "production"
     },
     "files": [
       "dist"
-    ]
+    ],
+    "name": "aliemcards"
   },
   "dependencies": {
     "autotrack": "^2.3.3",
