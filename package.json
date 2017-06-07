@@ -25,9 +25,6 @@
       "aliemcards.com",
       "www.aliemcards.com"
     ],
-    "engines": {
-      "node": "8.0.0"
-    },
     "env": {
       "NODE_ENV": "production"
     },
@@ -37,8 +34,8 @@
     "name": "aliemcards"
   },
   "dependencies": {
-    "autotrack": "^2.3.3",
-    "axios": "^0.16.0",
+    "autotrack": "^2.4.0",
+    "axios": "^0.16.2",
     "compression": "^1.6.2",
     "express": "^4.15.3",
     "express-graphql": "^0.6.6",
@@ -46,9 +43,9 @@
     "graphql": "^0.10.1",
     "helmet": "^3.6.1",
     "normalizr": "^3.2.3",
-    "now": "^6.2.2",
+    "now": "^6.3.1",
     "react": "^15.5.4",
-    "react-apollo": "^1.2.0",
+    "react-apollo": "1.3.0",
     "react-dom": "^15.5.4",
     "react-helmet": "^5.1.3",
     "react-router-dom": "^4.1.1",
@@ -61,8 +58,8 @@
     "@types/express": "^4.0.35",
     "@types/express-graphql": "^0.0.33",
     "@types/helmet": "^0.0.35",
-    "@types/jest": "^19.2.3",
-    "@types/react": "^15.0.25",
+    "@types/jest": "^19.2.4",
+    "@types/react": "^15.0.27",
     "@types/webpack": "^2.2.15",
     "autoprefixer-stylus": "^0.14.0",
     "babel-core": "^6.23.1",
@@ -116,14 +113,14 @@
     "remark-lint-table-cell-padding": "^1.0.0",
     "remark-lint-table-pipe-alignment": "^1.0.0",
     "remark-lint-unordered-list-marker-style": "^1.0.0",
-    "style-loader": "^0.18.1",
+    "style-loader": "^0.18.2",
     "stylint": "^1.5.9",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.1",
     "ts-jest": "^20.0.5",
     "ts-loader": "^2.1.0",
-    "ts-node": "^3.0.4",
-    "tslint": "^5.3.2",
+    "ts-node": "^3.0.6",
+    "tslint": "^5.4.3",
     "webfontloader": "^1.6.28",
     "webpack": "^2.6.1",
     "webpack-bundle-analyzer": "^2.8.2",
