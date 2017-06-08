@@ -39,6 +39,13 @@ const team: BioProps[] = [
     location: 'Hamilton Health Sciences',
     twitter: 'TChanMD',
   },
+  {
+    name: 'Andy Little, DO',
+    title: 'Content Editor',
+    credentials: 'Attending Physician, Core Faculty',
+    location: 'Doctors Hospital Emergency Medicine Residency',
+    twitter: 'andyglittle',
+  },
 ];
 
 export default () => (
