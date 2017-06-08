@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { Helmet } from 'react-helmet';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import Announcements from './components/Announcements';
@@ -46,6 +47,13 @@ interface State {
 }
 
 class App extends React.PureComponent<Props, State> {
+  static structuredData = {
+    '@context': 'http://schema.org',
+    '@type': 'WebSite',
+    'name': 'ALiEM Cards',
+    'url': 'https://www.aliemcards.com',
+  };
+
   constructor(props) {
     super(props);
     this.state = {
@@ -56,6 +64,11 @@ class App extends React.PureComponent<Props, State> {
   render() {
     return (
       <div className="row row--stacked main">
+        <Helmet>
+          <script type="application/ld+json">
+            { JSON.stringify(App.structuredData) }
+          </script>
+        </Helmet>
         <Header {...this.props} />
         { this.state.announcements &&
           <Announcements />

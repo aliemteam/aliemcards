@@ -37,5 +37,180 @@ exports[`<About /> should render correctly 1`] = `
     Please 
      how you use these cards. What would make them more useful? Found an error? Help us fix it!
   </p>
+  <h2>
+    The ALiEM Cards Team
+  </h2>
+  <div
+    className="row row--wrap"
+  >
+    <div
+      className="column column--relative-50"
+    >
+      <h3>
+        Michelle Lin, MD
+      </h3>
+      <div>
+        <div>
+          <strong>
+            Creator & Editor-in-Chief
+          </strong>
+        </div>
+        <div>
+          Endowed Chair for EM Education
+        </div>
+        <div>
+          UC San Francisco / Zuckerberg San Francisco General
+        </div>
+        <div>
+          <a
+            href="https://www.twitter.com/M_Lin"
+          >
+            @
+            M_Lin
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      className="column column--relative-50"
+    >
+      <h3>
+        Jeremy Voros, MD
+      </h3>
+      <div>
+        <div>
+          <strong>
+            Developer
+          </strong>
+        </div>
+        <div>
+          Attending Physician
+        </div>
+        <div>
+          Emergency Physicians Integrated Care, Utah
+        </div>
+        <div>
+          <a
+            href="https://www.twitter.com/VorosMD"
+          >
+            @
+            VorosMD
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      className="column column--relative-50"
+    >
+      <h3>
+        Derek Sifford, FP-C
+      </h3>
+      <div>
+        <div>
+          <strong>
+            Developer
+          </strong>
+        </div>
+        <div>
+          Paramedic
+        </div>
+        <div>
+          Wayne State University
+        </div>
+        <div>
+          <a
+            href="https://www.twitter.com/flightmed1"
+          >
+            @
+            flightmed1
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      className="column column--relative-50"
+    >
+      <h3>
+        Catherine Patocka, MD, MHPE
+      </h3>
+      <div>
+        <div>
+          <strong>
+            Research Lead
+          </strong>
+        </div>
+        <div>
+          Assistant Professor
+        </div>
+        <div>
+          University of Calgary
+        </div>
+        <div>
+          <a
+            href="https://www.twitter.com/patockaem"
+          >
+            @
+            patockaem
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      className="column column--relative-50"
+    >
+      <h3>
+        Teresa Chan, MD MHPE
+      </h3>
+      <div>
+        <div>
+          <strong>
+            Research Mentor
+          </strong>
+        </div>
+        <div>
+          Emergency Physician and Base Hospital Physician
+        </div>
+        <div>
+          Hamilton Health Sciences
+        </div>
+        <div>
+          <a
+            href="https://www.twitter.com/TChanMD"
+          >
+            @
+            TChanMD
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      className="column column--relative-50"
+    >
+      <h3>
+        Andy Little, DO
+      </h3>
+      <div>
+        <div>
+          <strong>
+            Content Editor
+          </strong>
+        </div>
+        <div>
+          Attending Physician, Core Faculty
+        </div>
+        <div>
+          Doctors Hospital Emergency Medicine Residency
+        </div>
+        <div>
+          <a
+            href="https://www.twitter.com/andyglittle"
+          >
+            @
+            andyglittle
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 `;
