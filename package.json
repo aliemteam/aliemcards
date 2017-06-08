@@ -34,7 +34,7 @@
     "name": "aliemcards"
   },
   "dependencies": {
-    "autotrack": "^2.4.0",
+    "autotrack": "^2.4.1",
     "axios": "^0.16.2",
     "compression": "^1.6.2",
     "express": "^4.15.3",
