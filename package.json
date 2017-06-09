@@ -69,7 +69,7 @@
     "babel-preset-react": "^6.23.0",
     "babel-preset-stage-0": "^6.22.0",
     "css-loader": "^0.28.4",
-    "del": "^2.2.2",
+    "del": "^3.0.0",
     "enzyme": "^2.8.2",
     "front-matter": "^2.1.2",
     "gulp": "gulpjs/gulp#4.0",
