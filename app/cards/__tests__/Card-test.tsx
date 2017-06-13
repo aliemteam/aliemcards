@@ -8,7 +8,7 @@ import Card from '../Card';
 const stub: any = {};
 
 const setup = (networkStatus = 7, cardData?: Partial<CardType>) => {
-  const card: CardType = {
+  const card: any = {
     authors: [
       {
         id: '1',
