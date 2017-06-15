@@ -43,7 +43,7 @@
     "graphql": "^0.10.1",
     "helmet": "^3.6.1",
     "normalizr": "^3.2.3",
-    "now": "^6.4.1",
+    "now": "^7.0.0",
     "react": "^15.5.4",
     "react-apollo": "1.2.0",
     "react-dom": "^15.5.4",
