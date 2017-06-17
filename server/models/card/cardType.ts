@@ -7,7 +7,7 @@ import {
   GraphQLString,
 } from 'graphql';
 import { Author, Category } from '../';
-import { RootValue, SingleCardJSON, TypedFields } from '../../utils/strongTypes';
+import { SingleCardJSON, TypedFields } from '../../utils/strongTypes';
 import authorType from '../author/authorType';
 import categoryType from '../category/categoryType';
 
@@ -39,19 +39,19 @@ export interface Card {
   updates: number[] | null;
 }
 
-const fields = (): TypedFields<Card, SingleCardJSON, RootValue> => ({
+const fields = (): TypedFields<Card, SingleCardJSON> => ({
   authors: {
     description: 'List of authors.',
     type: new GraphQLList(authorType),
     resolve: (card, _args, context) => (
-      card.authors.map(id => context.entities.authors[id])
+      card.authors.map(id => context.data.entities.authors[id])
     ),
   },
   categories: {
     description: 'List of categories.',
     type: new GraphQLList(categoryType),
     resolve: (card, _args, context) => (
-      card.categories.map(id => context.entities.categories[id])
+      card.categories.map(id => context.data.entities.categories[id])
     ),
   },
   content: {

@@ -36,11 +36,15 @@ export interface RootValue {
   result: Array<keyof CardJSON>;
 }
 
+export interface Context {
+  data: RootValue;
+}
+
 interface ArgumentConfig extends GraphQLArgumentConfig {
   description: string;
 }
 
-interface FieldConfig<TSource, TContext> extends GraphQLFieldConfig<TSource, TContext> {
+interface FieldConfig<TSource, TContext = Context> extends GraphQLFieldConfig<TSource, TContext> {
   description: string;
 }
 
@@ -54,6 +58,6 @@ export interface ArgumentField<TArgs> {
   description?: string;
 }
 
-export type TypedFields<TResolved, TRaw = TResolved, TContext = {}> = {
+export type TypedFields<TResolved, TRaw = TResolved, TContext = Context> = {
   [P in keyof TResolved]: FieldConfig<TRaw, TContext>;
 };

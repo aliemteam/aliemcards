@@ -4,7 +4,7 @@ import {
   GraphQLObjectType,
   GraphQLString,
 } from 'graphql';
-import { RootValue, TypedFields } from '../../utils/strongTypes';
+import { TypedFields } from '../../utils/strongTypes';
 import cardType, { Card } from '../card/cardType';
 
 /**
@@ -25,7 +25,7 @@ export interface Author extends AuthorRaw {
   cards: Card[];
 }
 
-const fields = (): TypedFields<Author, AuthorRaw, RootValue> => ({
+const fields = (): TypedFields<Author, AuthorRaw> => ({
   id: {
     type: new GraphQLNonNull(GraphQLString),
     description: 'The ID of the author.',
@@ -38,7 +38,7 @@ const fields = (): TypedFields<Author, AuthorRaw, RootValue> => ({
     type: new GraphQLList(cardType),
     description: 'A list of cards that the author contributed to.',
     resolve: (author: AuthorRaw, _args, context) => (
-      Object.values(context.entities.cards)
+      Object.values(context.data.entities.cards)
         .filter(c => c.authors.indexOf(author.id) !== -1)
     ),
   },
