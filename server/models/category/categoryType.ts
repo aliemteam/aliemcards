@@ -1,8 +1,4 @@
-import {
-  GraphQLNonNull,
-  GraphQLObjectType,
-  GraphQLString,
-} from 'graphql';
+import { GraphQLNonNull, GraphQLObjectType, GraphQLString } from 'graphql';
 import { TypedFields } from '../../utils/strongTypes';
 
 export interface Category {
@@ -12,8 +8,8 @@ export interface Category {
 
 const fields = (): TypedFields<Category> => ({
   id: {
-      type: new GraphQLNonNull(GraphQLString),
-      description: 'The ID of the category.',
+    type: new GraphQLNonNull(GraphQLString),
+    description: 'The ID of the category.',
   },
   name: {
     type: GraphQLString,

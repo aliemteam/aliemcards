@@ -5,8 +5,8 @@ import CardList from '../cards/CardList';
 
 interface Props {
   data: {
-    recentlyAdded: Array<Pick<Card, 'id'|'title'|'categories'|'updates'>>;
-    recentlyUpdated: Array<Pick<Card, 'id'|'title'|'categories'|'updates'>>;
+    recentlyAdded: Array<Pick<Card, 'id' | 'title' | 'categories' | 'updates'>>;
+    recentlyUpdated: Array<Pick<Card, 'id' | 'title' | 'categories' | 'updates'>>;
     networkStatus: number;
   };
 }
@@ -41,15 +41,11 @@ export default class Home extends React.PureComponent<Props, {}> {
       <div className="row row--wrap">
         <div className="column column--50">
           <h1>New Cards</h1>
-          { newest.length > 0 &&
-            <CardList cards={newest} />
-          }
+          {newest.length > 0 && <CardList cards={newest} />}
         </div>
         <div className="column column--50">
           <h1>Updated Cards</h1>
-          { updated.length > 0 &&
-            <CardList cards={updated} />
-          }
+          {updated.length > 0 && <CardList cards={updated} />}
         </div>
       </div>
     );

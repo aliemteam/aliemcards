@@ -35,7 +35,8 @@ exports[`<Search /> shoulder render splashText when prop is set 1`] = `
         Paucis Verbis Cards
       </em>
       <br />
-      by the 
+      by the
+       
       <a
         href="https://aliem.com"
         rel="noopener noreferrer"

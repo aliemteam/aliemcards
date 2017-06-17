@@ -14,20 +14,20 @@ interface Card {
 const click = jest.fn();
 const defaultCards = [
   {
-      id: 'dvt',
-      title: 'DVT of the Leg - ACCP Guidelines',
+    id: 'dvt',
+    title: 'DVT of the Leg - ACCP Guidelines',
   },
   {
-      id: 'dvt-ultrasound',
-      title: 'Ultrasound DVT Assessment',
+    id: 'dvt-ultrasound',
+    title: 'Ultrasound DVT Assessment',
   },
   {
-      id: 'pe-prediction-rules',
-      title: 'Pulmonary Embolism Clinical Prediction Rules',
+    id: 'pe-prediction-rules',
+    title: 'Pulmonary Embolism Clinical Prediction Rules',
   },
   {
-      id: 'ultrasound-measurements',
-      title: 'Ultrasound Measurement Cheat Sheet',
+    id: 'ultrasound-measurements',
+    title: 'Ultrasound Measurement Cheat Sheet',
   },
 ];
 
@@ -36,9 +36,7 @@ const setup = (cards: Card[] = defaultCards) => {
     cards,
     networkStatus: 0,
   };
-  const component = shallow(
-    <SearchResults query="test" data={data} onClick={click} />,
-  );
+  const component = shallow(<SearchResults query="test" data={data} onClick={click} />);
   return {
     component,
   };
@@ -50,15 +48,16 @@ describe('<SearchResults />', () => {
     expect(component.find('.search__result').length).toBe(4);
     expect(component.find(Link).get(0).props.children).toBe('DVT of the Leg - ACCP Guidelines');
     expect(component.find(Link).get(1).props.children).toBe('Ultrasound DVT Assessment');
-    expect(component.find(Link).get(2).props.children).toBe('Pulmonary Embolism Clinical Prediction Rules');
+    expect(component.find(Link).get(2).props.children).toBe(
+      'Pulmonary Embolism Clinical Prediction Rules',
+    );
     expect(component.find(Link).get(3).props.children).toBe('Ultrasound Measurement Cheat Sheet');
   });
   it('should throw an error if no data is available', () => {
     const { component } = setup();
     try {
-      component.setProps({data: null});
-    }
-    catch (err) {
+      component.setProps({ data: null });
+    } catch (err) {
       expect(err.message).toBe('Data should always be available');
       return;
     }

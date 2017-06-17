@@ -44,20 +44,26 @@ export default class Card extends React.PureComponent<Props, {}> {
       return <div>Loading...</div>;
     }
     const lastUpdate = card.updates
-        ? new Date(card.updates[0]).toLocaleDateString('en-US', { timeZone: 'UTC' })
-        : new Date(card.created).toLocaleDateString('en-US', { timeZone: 'UTC' });
+      ? new Date(card.updates[0]).toLocaleDateString('en-US', {
+          timeZone: 'UTC',
+        })
+      : new Date(card.created).toLocaleDateString('en-US', {
+          timeZone: 'UTC',
+        });
     return (
       <article role="article">
         <Helmet>
           <script type="application/ld+json">
-            { JSON.stringify({ headline: card.title }) }
+            {JSON.stringify({ headline: card.title })}
           </script>
         </Helmet>
         <h1>{card.title}</h1>
         <div className="card">
           <div className="card__meta">
             <div>
-              <strong>{card.authors.length > 1 ? 'Authors: ' : 'Author: '}</strong>
+              <strong>
+                {card.authors.length > 1 ? 'Authors: ' : 'Author: '}
+              </strong>
               {card.authors.map(author => author.name).join(', ')}
             </div>
             <div><strong>Updated:</strong> {lastUpdate}</div>

@@ -34,32 +34,33 @@ export default class Search extends React.PureComponent<Props, State> {
         this.setState({ loading: false, query: this.state.uiQuery });
       }, 500);
       this.setState({ loading: true, uiQuery: query });
-    }
-    // Query is empty. Reset state.
-    else {
+    } else {
+      // Query is empty. Reset state.
       this.setState({ loading: false, uiQuery: query, query });
     }
-  }
+  };
 
   handleClick = () => {
     this.setState({ query: '', uiQuery: '', loading: false });
-  }
+  };
 
   render() {
     return (
       <div className="search">
-        { this.props.splashText &&
+        {this.props.splashText &&
           <div className="search__splash-text">
             <div>
               A Point-of-Care Reference Library
             </div>
             <div>
               formerly known as <em>Paucis Verbis Cards</em><br />
-              by the <a href="https://aliem.com" target="_blank" rel="noopener noreferrer">ALiEM Team</a>{' '}
+              by the{' '}
+              <a href="https://aliem.com" target="_blank" rel="noopener noreferrer">
+                ALiEM Team
+              </a>{' '}
               and contributors
             </div>
-          </div>
-        }
+          </div>}
         <div className="search__input" role="search">
           <input
             type="text"
@@ -68,9 +69,8 @@ export default class Search extends React.PureComponent<Props, State> {
             aria-label="Search for cards"
             value={this.state.uiQuery}
           />
-          { this.state.loading &&
-            <img className="search__loader" src="/assets/images/loader.svg" alt="loader" />
-          }
+          {this.state.loading &&
+            <img className="search__loader" src="/assets/images/loader.svg" alt="loader" />}
         </div>
         <SearchResults query={this.state.query} onClick={this.handleClick} />
       </div>

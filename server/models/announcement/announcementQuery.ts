@@ -26,9 +26,7 @@ const announcements: ArgumentField<AnnouncementsArgs> = {
     },
   },
   resolve: (root, { limit, sort }: AnnouncementsArgs) => {
-    const payload = sort === 'desc'
-      ? [ ...root.announcements ]
-      : [ ...root.announcements ].reverse();
+    const payload = sort === 'desc' ? [...root.announcements] : [...root.announcements].reverse();
     return payload.slice(0, limit);
   },
 };

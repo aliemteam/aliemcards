@@ -23,7 +23,7 @@ export default class Header extends React.PureComponent<Props, State> {
 
   handleClick = () => {
     this.setState({ navDrawerOpen: !this.state.navDrawerOpen });
-  }
+  };
 
   render() {
     return (
@@ -36,9 +36,11 @@ export default class Header extends React.PureComponent<Props, State> {
           </div>
           <div className="header__nav-button">
             <button
-              className={this.state.navDrawerOpen ?
-              'hamburger hamburger__squeeze hamburger__squeeze--active' :
-              'hamburger hamburger__squeeze'}
+              className={
+                this.state.navDrawerOpen
+                  ? 'hamburger hamburger__squeeze hamburger__squeeze--active'
+                  : 'hamburger hamburger__squeeze'
+              }
               onClick={this.handleClick}
             >
               <span className="hamburger__box">
@@ -47,13 +49,29 @@ export default class Header extends React.PureComponent<Props, State> {
             </button>
           </div>
           <nav
-            className={this.state.navDrawerOpen ? 'header__nav header__nav--open' : 'header__nav header__nav--closed'}
+            className={
+              this.state.navDrawerOpen
+                ? 'header__nav header__nav--open'
+                : 'header__nav header__nav--closed'
+            }
             role="navigation"
           >
             <ul>
-              <li><Link to="/cards" onClick={this.handleClick}>Cards</Link></li>
-              <li><Link to="/categories" onClick={this.handleClick}>Categories</Link></li>
-              <li><Link to="/about" onClick={this.handleClick}>About</Link></li>
+              <li>
+                <Link to="/cards" onClick={this.handleClick}>
+                  Cards
+                </Link>
+              </li>
+              <li>
+                <Link to="/categories" onClick={this.handleClick}>
+                  Categories
+                </Link>
+              </li>
+              <li>
+                <Link to="/about" onClick={this.handleClick}>
+                  About
+                </Link>
+              </li>
             </ul>
           </nav>
         </div>

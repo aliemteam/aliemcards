@@ -60,9 +60,7 @@ describe('<Card />', () => {
           cards: [],
         },
       ],
-      updates: [
-        1483228800000,
-      ],
+      updates: [1483228800000],
     };
     const { snapshot } = setup(7, card);
     expect(snapshot.toJSON()).toMatchSnapshot();
