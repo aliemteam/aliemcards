@@ -25,10 +25,10 @@ import { SingleCardJSON } from './server/utils/strongTypes';
 const CLOUDFRONT_URL = 'https://d249u3bk3sqm2p.cloudfront.net';
 const REGEX = {
   dateStringFormat: new RegExp(/^\d{4}\/\d{2}\/\d{2}$/),
-  hasReferenceHeading: new RegExp('## References'),
+  hasReferenceHeading: new RegExp(/## References/),
   imageUrl: new RegExp(/[\w-]+\.(?:png|jpg|jpeg|gif)/, 'gi'),
   imagesWithoutAltText: new RegExp(/\!\[\]\(image-\d{1,2}\.\w+\)/, 'gi'),
-  markdownH1: new RegExp('^#(?!#).+', 'm'),
+  markdownH1: new RegExp(/^#(?!#).+/, 'm'),
 };
 
 // Utility tasks
@@ -236,7 +236,7 @@ function checkCardAttributes(attrs: Partial<CardMeta>, cardName: string): void {
         if (
           typeof attrs[att] !== 'string' ||
           attrs[att] === '' ||
-          ! REGEX.dateStringFormat.test(<string>attrs[att])
+          !REGEX.dateStringFormat.test(<string>attrs[att])
         ) {
           throw new Error(`Invalid "${att}" property in yaml of ${cardName}`);
         }

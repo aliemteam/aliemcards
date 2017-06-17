@@ -8,6 +8,7 @@
   "scripts": {
     "pretest": "yarn lint",
     "prepush": "yarn build && yarn test",
+    "precommit": "lint-staged",
     "test": "jest --coverage",
     "format": "prettier --write --single-quote --trailing-comma all --print-width 100 \"**/*.{ts,tsx}\"",
     "dev": "gulp __build && ts-node ./dist/index.js",
@@ -33,6 +34,40 @@
       "dist"
     ],
     "name": "aliemcards"
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "prettier --write --single-quote --trailing-comma all --print-width 100",
+      "git add"
+    ],
+    "*.md": [
+      "remark -o --file-path",
+      "git add"
+    ]
+  },
+  "jest": {
+    "globals": {
+      "__TEST__": true
+    },
+    "transform": {
+      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*\\.(ts|tsx))$",
+    "mapCoverage": true,
+    "moduleFileExtensions": [
+      "js",
+      "ts",
+      "tsx",
+      "json"
+    ],
+    "verbose": true,
+    "collectCoverageFrom": [
+      "app/**/*.{ts,tsx}",
+      "!**/__tests__/**",
+      "!app/**/index.{ts,tsx}",
+      "!app/App.jsx",
+      "!app/utils/**"
+    ]
   },
   "dependencies": {
     "autotrack": "^2.4.1",
@@ -82,6 +117,7 @@
     "jest": "^20.0.4",
     "js-yaml": "^3.8.3",
     "json-loader": "^0.5.4",
+    "lint-staged": "^3.6.1",
     "offline-plugin": "^4.8.1",
     "prettier": "^1.4.4",
     "react-addons-test-utils": "^15.6.0",
@@ -129,29 +165,5 @@
     "webpack-bundle-analyzer": "^2.8.2",
     "webpack-dev-middleware": "^1.10.2",
     "webpack-hot-middleware": "^2.17.0"
-  },
-  "jest": {
-    "globals": {
-      "__TEST__": true
-    },
-    "transform": {
-      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
-    },
-    "testRegex": "(/__tests__/.*\\.(ts|tsx))$",
-    "mapCoverage": true,
-    "moduleFileExtensions": [
-      "js",
-      "ts",
-      "tsx",
-      "json"
-    ],
-    "verbose": true,
-    "collectCoverageFrom": [
-      "app/**/*.{ts,tsx}",
-      "!**/__tests__/**",
-      "!app/**/index.{ts,tsx}",
-      "!app/App.jsx",
-      "!app/utils/**"
-    ]
   }
 }
