@@ -1,26 +1,26 @@
 {
   "name": "aliemcards",
   "version": "0.5.10",
-  "description": "ALiEM Cards deployment scripts and website code.",
+  "description": "ALiEM Cards deployment scripts and website code",
+  "license": "MIT",
   "main": "./dist/index.js",
   "author": "Jeremy Voros",
-  "license": "MIT",
   "scripts": {
-    "pretest": "yarn lint",
-    "prepush": "yarn build && yarn test",
-    "precommit": "lint-staged",
-    "test": "jest --coverage",
-    "format": "prettier --write --single-quote --trailing-comma all --print-width 100 \"**/*.{ts,tsx}\"",
-    "dev": "gulp __build && ts-node ./dist/index.js",
+    "build": "gulp __build && NODE_ENV=production webpack",
     "deploy": "torus run ./deploy",
-    "start": "node ./dist/index.js",
+    "dev": "gulp __build && ts-node ./dist/index.js",
     "lint": "yarn lint:typescript && yarn lint:stylus && yarn lint:markdown",
     "lint:markdown": "remark -q ./cards",
-    "lint:typescript": "tslint --project . -t codeFrame",
     "lint:stylus": "stylint app/assets/css",
-    "s3": "aws s3 sync ./cards s3://aliemcards --acl public-read --exclude \".*\" --exclude \"*/.*\" --exclude \"*/*.md\" --delete",
+    "lint:typescript": "tslint --type-check -p . -t codeFrame && tslint --type-check -p ./app -t codeFrame",
     "now-build": "echo build step skipped",
-    "build": "gulp __build && NODE_ENV=production webpack"
+    "precommit": "lint-staged",
+    "prepush": "yarn build && yarn test -- --no-coverage",
+    "pretest": "yarn lint",
+    "prettier": "prettier --write --single-quote --trailing-comma all --print-width 100 \"**/*.{ts,tsx}\"",
+    "s3": "aws s3 sync ./cards s3://aliemcards --acl public-read --exclude \".*\" --exclude \"*/.*\" --exclude \"*/*.md\" --delete",
+    "start": "node ./dist/index.js",
+    "test": "jest"
   },
   "now": {
     "alias": [
