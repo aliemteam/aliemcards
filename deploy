@@ -8,6 +8,7 @@ $now -t "$NOW_TOKEN" rm -y aliemcards
 $now -C \
     -t "$NOW_TOKEN" \
     -e ALIEM_API_KEY="$ALIEM_API_KEY" \
+    -e OPTICS_API_KEY="$OPTICS_API_KEY" \
     "$(pwd)"
 
 # Grab deploy URL
