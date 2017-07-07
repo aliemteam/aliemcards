@@ -44,6 +44,45 @@ const setup = (cards: Card[] = defaultCards) => {
   };
 };
 
+const setupLoading = () => {
+  const data = {
+    cards: [],
+    networkStatus: 1,
+  };
+  const component = shallow(
+    <SearchResults query="test" data={data} onClick={click} />,
+  );
+  return {
+    component,
+  };
+};
+
+const setupNoQuery = () => {
+  const data = {
+    cards: [],
+    networkStatus: 0,
+  };
+  const component = shallow(
+    <SearchResults query="" data={data} onClick={click} />,
+  );
+  return {
+    component,
+  };
+};
+
+const setupNoResults = () => {
+  const data = {
+    cards: [],
+    networkStatus: 7,
+  };
+  const component = shallow(
+    <SearchResults query="test" data={data} onClick={click} />,
+  );
+  return {
+    component,
+  };
+};
+
 describe('<SearchResults />', () => {
   it('should render correctly', () => {
     const { component } = setup();
@@ -64,14 +103,22 @@ describe('<SearchResults />', () => {
     }
     throw new Error('Test should not reach this point');
   });
-  it('should return early if result is empty', () => {
-    const { component } = setup();
-    expect(component.html()).not.toBeNull();
-    component.setProps({ data: { cards: null } });
-    expect(component.html()).toBeNull();
-  });
   it('should use the onClick function passed in props', () => {
     const { component } = setup();
     expect(component.find(Link).get(0).props.onClick).toBe(click);
   });
+  it('should have spinner only when query exists and networkStatus < 7', () => {
+    const { component } = setupLoading();
+    expect(component.find('.search__loader').exists()).toBeTruthy();
+  });
+  it('should not have spinner if query is empty', () => {
+    const { component } = setupNoQuery();
+    expect(component.find('.search__loader').exists()).toBeFalsy();
+  });
+  it('should return no results if no results and done loading', () => {
+    const { component } = setupNoResults();
+    expect(component.find('.search__loader').exists()).toBeFalsy();
+    expect(component.find('.search__noresult').exists()).toBeTruthy();
+  });
+
 });
