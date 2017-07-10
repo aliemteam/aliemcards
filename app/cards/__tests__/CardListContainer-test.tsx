@@ -39,9 +39,7 @@ const mockData: Data = {
 };
 
 const setup = (data?: Data) => {
-  const component = shallow(
-    <CardListContainer data={data} />,
-  );
+  const component = shallow(<CardListContainer data={data} />);
   return {
     component,
   };
@@ -51,8 +49,7 @@ describe('<CardListContainer />', () => {
   it('should throw error when no data is given', () => {
     try {
       setup();
-    }
-    catch (e) {
+    } catch (e) {
       expect(e.message).toBe('Component should always receive data');
       return;
     }
@@ -63,7 +60,7 @@ describe('<CardListContainer />', () => {
     expect(component.state().categoryFilter).toBe('');
     expect(component.first().props().cards.length).toBe(2);
 
-    component.instance().handleChange({ currentTarget: { value: '1' }});
+    component.instance().handleChange({ currentTarget: { value: '1' } });
     expect(component.state().categoryFilter).toBe('1');
     expect(component.first().props().cards.length).toBe(1);
   });

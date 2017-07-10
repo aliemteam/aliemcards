@@ -2,8 +2,8 @@
 // FIXME: Temporary module extension until typescript updates the library builtin
 declare module 'util' {
   export function promisify<T>(
-    func: (data: any, cb: (err: NodeJS.ErrnoException, data?: T) => void,
-  ) => void): (...input: any[]) => Promise<T>;
+    func: (data: any, cb: (err: NodeJS.ErrnoException, data?: T) => void) => void,
+  ): (...input: any[]) => Promise<T>;
 }
 import * as autoprefixer from 'autoprefixer-stylus';
 import { execFile } from 'child_process';
@@ -24,24 +24,26 @@ import { SingleCardJSON } from './server/utils/strongTypes';
 
 const CLOUDFRONT_URL = 'https://d249u3bk3sqm2p.cloudfront.net';
 const REGEX = {
-  dateStringFormat: new RegExp('^\d{4}\/\d{2}\/\d{2}$'),
-  hasReferenceHeading: new RegExp('## References'),
+  dateStringFormat: new RegExp(/^\d{4}\/\d{2}\/\d{2}$/),
+  hasReferenceHeading: new RegExp(/## References/),
   imageUrl: new RegExp(/[\w-]+\.(?:png|jpg|jpeg|gif)/, 'gi'),
   imagesWithoutAltText: new RegExp(/\!\[\]\(image-\d{1,2}\.\w+\)/, 'gi'),
-  markdownH1: new RegExp('^#(?!#).+', 'm'),
+  markdownH1: new RegExp(/^#(?!#).+/, 'm'),
 };
 
 // Utility tasks
 gulp.task('clean', () => del(['dist/**/*', 'npm-debug.log', '!dist/app/index.html']));
 
 // Cards
-gulp.task('cards', () => (
+gulp.task('cards', () =>
   readdirPromise('./cards')
     .then(checkDirectoryShape)
     .then(dirs => {
       let cards: SingleCardJSON[] = [];
       for (const dir of dirs) {
-        const f = fs.readFileSync(`./cards/${dir}/card.md`, { encoding: 'utf8' });
+        const f = fs.readFileSync(`./cards/${dir}/card.md`, {
+          encoding: 'utf8',
+        });
         let parsed;
         try {
           parsed = frontmatter(f);
@@ -88,47 +90,54 @@ gulp.task('cards', () => (
     .then(json => {
       const announcements = yaml.safeLoad(fs.readFileSync('./cards/announcements.yml', 'utf8'));
       const data = { announcements, ...json };
-      return writeFilePromise('./dist/server/data.json',
+      return writeFilePromise(
+        './dist/server/data.json',
         JSON.stringify(data).replace(/\u2028/g, '\\u2028').replace(/\u2029/g, '\\u2029'),
       );
-    })
-));
+    }),
+);
 
 // Files
 gulp.task('typescript', cb => {
   execFile('./node_modules/.bin/tsc', ['-p', __dirname], (err, stdout, stderr) => {
-    if (stderr) { console.error(stderr); }
-    if (stdout) { console.log(stdout); }
-    if (err) { throw err; }
+    if (stderr) {
+      console.error(stderr);
+    }
+    if (stdout) {
+      console.log(stdout);
+    }
+    if (err) {
+      throw err;
+    }
     cb();
   });
 });
 
-gulp.task('static', () => (
+gulp.task('static', () =>
   gulp
-    .src([
-      './app/assets/images/*',
-      './app/assets/manifest.json',
-    ], { base: './app' })
+    .src(['./app/assets/images/*', './app/assets/manifest.json'], {
+      base: './app',
+    })
     .pipe(image({ pngquant: false }))
-    .pipe(gulp.dest('./dist/app'))
-));
+    .pipe(gulp.dest('./dist/app')),
+);
 
-gulp.task('styles', () => (
+gulp.task('styles', () =>
   gulp
     .src(['./app/assets/css/print.styl'], { base: './app' })
-    .pipe(stylus({
-      use: [autoprefixer({ browsers: ['last 2 versions'] })],
-      compress: true,
-    }))
-    .pipe(gulp.dest('dist/app'))
-));
+    .pipe(
+      stylus({
+        use: [autoprefixer({ browsers: ['last 2 versions'] })],
+        compress: true,
+      }),
+    )
+    .pipe(gulp.dest('dist/app')),
+);
 
-gulp.task('__build', gulp.series(
-  'clean',
-  'typescript',
-  gulp.parallel('cards', 'static', 'styles'),
-));
+gulp.task(
+  '__build',
+  gulp.series('clean', 'typescript', gulp.parallel('cards', 'static', 'styles')),
+);
 
 // Utility functions -------------------------------------------------------------------------------
 
@@ -174,30 +183,38 @@ function checkDirectoryShape(contents: string[]): Promise<string[]> {
   const ignoredFiles = ['.DS_Store', 'announcements.yml'];
   const promises: Array<Promise<string>> = [];
   for (const dir of contents) {
-    if (ignoredFiles.indexOf(dir) !== -1) { continue; }
-    promises.push(new Promise(res => {
-      fs.stat(`./cards/${dir}`, (err, stats) => {
-        if (err) { throw err; }
-        if (!stats.isDirectory()) {
-          throw new Error('No files should be located in the first level of the "cards" directory');
-        }
-        fs.readdir(`./cards/${dir}`, (errr, files) => {
-          if (errr) { throw errr; }
-          if (files.indexOf('card.md') === -1) {
-            throw new Error(`No card.md file found in directory ${dir}`);
+    if (ignoredFiles.indexOf(dir) !== -1) {
+      continue;
+    }
+    promises.push(
+      new Promise(res => {
+        fs.stat(`./cards/${dir}`, (err, stats) => {
+          if (err) {
+            throw err;
           }
-          res(dir);
+          if (!stats.isDirectory()) {
+            throw new Error(
+              'No files should be located in the first level of the "cards" directory',
+            );
+          }
+          fs.readdir(`./cards/${dir}`, (errr, files) => {
+            if (errr) {
+              throw errr;
+            }
+            if (files.indexOf('card.md') === -1) {
+              throw new Error(`No card.md file found in directory ${dir}`);
+            }
+            res(dir);
+          });
         });
-      });
-    }));
+      }),
+    );
   }
   return Promise.all(promises);
 }
 
 function checkCardAttributes(attrs: Partial<CardMeta>, cardName: string): void {
-  const keys = [
-    'authors', 'categories', 'created', 'title', 'updates',
-  ];
+  const keys = ['authors', 'categories', 'created', 'title', 'updates'];
   const attributeKeys = Object.keys(attrs);
 
   if (attributeKeys.length < keys.length) {
@@ -216,7 +233,11 @@ function checkCardAttributes(attrs: Partial<CardMeta>, cardName: string): void {
         }
         return;
       case 'created':
-        if (typeof attrs[att] !== 'string' || attrs[att] === '' || REGEX.dateStringFormat.test(<string>attrs[att])) {
+        if (
+          typeof attrs[att] !== 'string' ||
+          attrs[att] === '' ||
+          !REGEX.dateStringFormat.test(<string>attrs[att])
+        ) {
           throw new Error(`Invalid "${att}" property in yaml of ${cardName}`);
         }
         return;

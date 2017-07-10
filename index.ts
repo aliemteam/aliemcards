@@ -18,24 +18,29 @@ if (isDevelopment) {
   const webpack = require('webpack');
   const config = require('../webpack.config.ts');
   const compiler = webpack(config);
-  app.use(require('webpack-dev-middleware')(compiler, {
-    publicPath: config.output.publicPath,
-    historyApiFallback: true,
-  }));
+  app.use(
+    require('webpack-dev-middleware')(compiler, {
+      publicPath: config.output.publicPath,
+      historyApiFallback: true,
+    }),
+  );
   app.use(require('webpack-hot-middleware')(compiler));
 }
 
 app.use(OpticsAgent.middleware());
 
-app.use('/graphql', graphqlHTTP(req => ({
-  schema: OpticsAgent.instrumentSchema(schema),
-  graphiql: isDevelopment,
-  context: {
-    data,
-    opticsContext: OpticsAgent.context(req),
-  },
-  rootValue: data,
-})));
+app.use(
+  '/graphql',
+  graphqlHTTP(req => ({
+    schema: OpticsAgent.instrumentSchema(schema),
+    graphiql: isDevelopment,
+    context: {
+      data,
+      opticsContext: OpticsAgent.context(req),
+    },
+    rootValue: data,
+  })),
+);
 
 app.use(express.static(join(__dirname, 'app'), { maxAge: 31557600000 })); // 1 year
 

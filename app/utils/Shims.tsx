@@ -16,6 +16,7 @@ export const CCIcon: React.SFC<{}> = () => {
   if (__TEST__) {
     return <Thunk />;
   }
-  const CCIconComponent = require('babel-loader!react-svg-loader!../assets/images/by-nc-nd.svg').default;
+  const CCIconComponent = require('babel-loader!react-svg-loader!../assets/images/by-nc-nd.svg')
+    .default;
   return <CCIconComponent />;
 };

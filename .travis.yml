@@ -10,7 +10,7 @@ cache: yarn
 before_install:
     - pip install --user awscli
     - export PATH=$PATH:$HOME/.local/bin
-script: yarn test && yarn build
+script: yarn test -- --coverage && yarn build
 before_deploy:
     - yarn s3
 deploy:

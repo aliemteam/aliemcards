@@ -4,7 +4,8 @@
   "typescript.tsdk": "./node_modules/typescript/lib",
   "tslint.nodePath": "./node_modules/.bin/tslint",
   "files.associations": {
-    "deploy": "shellscript"
+    "deploy": "shellscript",
+    ".stylintrc": "json"
   },
   "remark.format": {
     "rules": {
