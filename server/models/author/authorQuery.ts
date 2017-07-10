@@ -23,7 +23,7 @@ const author: ArgumentField<AuthorArgs> = {
       type: new GraphQLNonNull(GraphQLString),
     },
   },
-  resolve: (root, { id }: AuthorArgs) => (root.entities.authors[id]),
+  resolve: (root, { id }: AuthorArgs) => root.entities.authors[id],
 };
 
 export default {

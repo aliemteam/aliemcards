@@ -4,9 +4,7 @@ import FourOhFour from '../404';
 
 describe('<404 />', () => {
   it('should render correctly', () => {
-    const component = renderer.create(
-      <FourOhFour />,
-    );
+    const component = renderer.create(<FourOhFour />);
     const tree = component.toJSON();
     expect(tree).toMatchSnapshot();
   });

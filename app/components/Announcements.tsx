@@ -28,8 +28,7 @@ const announcements = gql`
 
 @graphql(announcements)
 export default class Announcements extends React.Component<Props, State> {
-
-  static lastSeen: string|null = localStorage.getItem(LOCALSTORAGE_KEY);
+  static lastSeen: string | null = localStorage.getItem(LOCALSTORAGE_KEY);
 
   constructor(props) {
     super(props);
@@ -39,7 +38,9 @@ export default class Announcements extends React.Component<Props, State> {
   }
 
   componentWillReceiveProps(props: Props) {
-    if (props.data === undefined || props.data.networkStatus !== 7) { return; }
+    if (props.data === undefined || props.data.networkStatus !== 7) {
+      return;
+    }
     const announcement = props.data.announcements[0];
     this.setState(prevState => ({
       ...prevState,
@@ -53,23 +54,21 @@ export default class Announcements extends React.Component<Props, State> {
       localStorage.setItem(LOCALSTORAGE_KEY, this.state.announcement.date);
     }
     this.setState(prevState => ({ ...prevState, isDismissed: true }));
-  }
+  };
 
   render() {
-    if (!this.state.announcement || this.state.isDismissed) { return null; }
+    if (!this.state.announcement || this.state.isDismissed) {
+      return null;
+    }
     return (
       <div className="announcement">
-          <div className="announcement_content">
-            <span>
-              <span className="announcement_heading" children={this.state.announcement.heading} />
-              {this.state.announcement.message}
-            </span>
-            <button
-              className="announcement_dismiss"
-              children="dismiss"
-              onClick={this.dismiss}
-            />
-          </div>
+        <div className="announcement_content">
+          <span>
+            <span className="announcement_heading" children={this.state.announcement.heading} />
+            {this.state.announcement.message}
+          </span>
+          <button className="announcement_dismiss" children="dismiss" onClick={this.dismiss} />
+        </div>
       </div>
     );
   }

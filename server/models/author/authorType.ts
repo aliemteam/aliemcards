@@ -1,9 +1,4 @@
-import {
-  GraphQLList,
-  GraphQLNonNull,
-  GraphQLObjectType,
-  GraphQLString,
-} from 'graphql';
+import { GraphQLList, GraphQLNonNull, GraphQLObjectType, GraphQLString } from 'graphql';
 import { TypedFields } from '../../utils/strongTypes';
 import cardType, { Card } from '../card/cardType';
 
@@ -37,10 +32,8 @@ const fields = (): TypedFields<Author, AuthorRaw> => ({
   cards: {
     type: new GraphQLList(cardType),
     description: 'A list of cards that the author contributed to.',
-    resolve: (author: AuthorRaw, _args, context) => (
-      Object.values(context.data.entities.cards)
-        .filter(c => c.authors.indexOf(author.id) !== -1)
-    ),
+    resolve: (author: AuthorRaw, _args, context) =>
+      Object.values(context.data.entities.cards).filter(c => c.authors.indexOf(author.id) !== -1),
   },
 });
 

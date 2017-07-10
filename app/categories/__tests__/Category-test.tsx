@@ -23,9 +23,7 @@ const setup = (networkStatus: number = 1, cards: any = []) => {
     cards,
     networkStatus,
   };
-  const snapshot = renderer.create(
-    <Category data={data} match={stub} />,
-  );
+  const snapshot = renderer.create(<Category data={data} match={stub} />);
   return {
     snapshot,
   };

@@ -4,8 +4,8 @@ import { Card as ICard, Category as ICategory } from '../../server/models/';
 import CardList from '../cards/CardList';
 
 export interface Data {
-  cards: Array<Pick<ICard, 'id'|'title'|'categories'>>;
-  category: Pick<ICategory, 'id'|'name'>;
+  cards: Array<Pick<ICard, 'id' | 'title' | 'categories'>>;
+  category: Pick<ICategory, 'id' | 'name'>;
   networkStatus: number;
 }
 
@@ -36,7 +36,9 @@ const currentCategoryAndCards = gql`
 `;
 
 const config = {
-  options: ({ match }) => ({ variables: { category: match.params.category } }),
+  options: ({ match }) => ({
+    variables: { category: match.params.category },
+  }),
 };
 
 @graphql(currentCategoryAndCards, config)

@@ -43,16 +43,13 @@ const fields = (): TypedFields<Card, SingleCardJSON> => ({
   authors: {
     description: 'List of authors.',
     type: new GraphQLList(authorType),
-    resolve: (card, _args, context) => (
-      card.authors.map(id => context.data.entities.authors[id])
-    ),
+    resolve: (card, _args, context) => card.authors.map(id => context.data.entities.authors[id]),
   },
   categories: {
     description: 'List of categories.',
     type: new GraphQLList(categoryType),
-    resolve: (card, _args, context) => (
-      card.categories.map(id => context.data.entities.categories[id])
-    ),
+    resolve: (card, _args, context) =>
+      card.categories.map(id => context.data.entities.categories[id]),
   },
   content: {
     description: "Markdown string of the card's content.",

@@ -5,7 +5,7 @@ import { Card } from '../../server/models/';
 
 interface Props {
   data?: {
-    cards: Array<Pick<Card, 'id'|'title'>>;
+    cards: Array<Pick<Card, 'id' | 'title'>>;
     networkStatus: number;
   };
   onClick: (e: React.MouseEvent<any>) => void;
@@ -29,7 +29,9 @@ const config = {
 export default class SearchResults extends React.PureComponent<Props, {}> {
   render() {
     // Required for static typing
-    if (!this.props.data) { throw new Error('Data should always be available'); }
+    if (!this.props.data) {
+      throw new Error('Data should always be available');
+    }
     if (!this.props.data.cards || this.props.data.cards.length === 0) {
       return null;
     }
@@ -37,11 +39,13 @@ export default class SearchResults extends React.PureComponent<Props, {}> {
     return (
       <div className="search__results">
         <ul>
-          {cards.map(card => (
+          {cards.map(card =>
             <li className="search__result" key={card.id}>
-              <Link to={`/cards/${card.id}`} onClick={this.props.onClick}>{card.title}</Link>
-            </li>
-          ))}
+              <Link to={`/cards/${card.id}`} onClick={this.props.onClick}>
+                {card.title}
+              </Link>
+            </li>,
+          )}
         </ul>
       </div>
     );

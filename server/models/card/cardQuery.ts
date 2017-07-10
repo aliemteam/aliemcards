@@ -47,21 +47,27 @@ const cards: ArgumentField<CardsArgs> = {
     switch (orderBy) {
       case 'created':
         payload = payload.sort((a, b) => {
-          if (a.created < b.created) { return 1; }
-          if (a.created > b.created) { return -1; }
+          if (a.created < b.created) {
+            return 1;
+          }
+          if (a.created > b.created) {
+            return -1;
+          }
           return 0;
         });
         break;
       case 'updated':
-        payload = payload
-          .filter(c => c.updates)
-          .sort((a, b) => {
-            const lhs = a.updates === null ? 0 : a.updates[0];
-            const rhs = b.updates === null ? 0 : b.updates[0];
-            if (lhs < rhs) { return 1; }
-            if (lhs > rhs) { return -1; }
-            return 0;
-          });
+        payload = payload.filter(c => c.updates).sort((a, b) => {
+          const lhs = a.updates === null ? 0 : a.updates[0];
+          const rhs = b.updates === null ? 0 : b.updates[0];
+          if (lhs < rhs) {
+            return 1;
+          }
+          if (lhs > rhs) {
+            return -1;
+          }
+          return 0;
+        });
         break;
       default:
         break;
@@ -110,7 +116,9 @@ const search: ArgumentField<SearchArgs> = {
     },
   },
   resolve: (root, { input }) => {
-    if (!input) { return []; }
+    if (!input) {
+      return [];
+    }
     const fuse = new Fuse(Object.values(root.entities.cards), {
       caseSensitive: false,
       shouldSort: true,

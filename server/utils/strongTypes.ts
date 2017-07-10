@@ -1,4 +1,9 @@
-import { GraphQLArgumentConfig, GraphQLFieldConfig, GraphQLFieldResolver, GraphQLOutputType } from 'graphql';
+import {
+  GraphQLArgumentConfig,
+  GraphQLFieldConfig,
+  GraphQLFieldResolver,
+  GraphQLOutputType,
+} from 'graphql';
 import { Announcement, AuthorRaw, Category } from '../models/';
 
 interface AuthorJSON {
@@ -50,14 +55,12 @@ interface FieldConfig<TSource, TContext = Context> extends GraphQLFieldConfig<TS
 
 export interface ArgumentField<TArgs> {
   type: GraphQLOutputType;
-  args: {
-    [P in keyof TArgs]: ArgumentConfig;
-  };
+  args: { [P in keyof TArgs]: ArgumentConfig };
   resolve?: GraphQLFieldResolver<RootValue, any>;
   deprecationReason?: string;
   description?: string;
 }
 
 export type TypedFields<TResolved, TRaw = TResolved, TContext = Context> = {
-  [P in keyof TResolved]: FieldConfig<TRaw, TContext>;
+  [P in keyof TResolved]: FieldConfig<TRaw, TContext>
 };

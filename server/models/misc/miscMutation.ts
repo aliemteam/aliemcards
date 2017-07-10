@@ -26,15 +26,22 @@ const contactUs: ArgumentField<ContactUsArgs> = {
       type: new GraphQLNonNull(GraphQLString),
     },
   },
-  resolve: (_root, args: ContactUsArgs): PromiseLike<APIResponse> => (
-    axios.post('https://aliem-slackbot.now.sh/aliemcards/messages/contact-form', { data: args }, {
-      headers: {
-        ALIEM_API_KEY: <string>process.env.ALIEM_API_KEY,
-      },
-    })
-    .then(res => res)
-    .catch(() => ({ status: 501, statusText: 'Server error encountered.' }))
-  ),
+  resolve: (_root, args: ContactUsArgs): PromiseLike<APIResponse> =>
+    axios
+      .post(
+        'https://aliem-slackbot.now.sh/aliemcards/messages/contact-form',
+        { data: args },
+        {
+          headers: {
+            ALIEM_API_KEY: <string>process.env.ALIEM_API_KEY,
+          },
+        },
+      )
+      .then(res => res)
+      .catch(() => ({
+        status: 501,
+        statusText: 'Server error encountered.',
+      })),
 };
 
 export default {

@@ -30,33 +30,33 @@ const sharedPlugins = [
 ];
 
 const plugins = isProduction
-? // Production plugins
-[
-  ...sharedPlugins,
-  new webpack.LoaderOptionsPlugin({
-    minimize: true,
-    debug: false,
-  }),
-  new webpack.optimize.UglifyJsPlugin(),
-  new webpack.DefinePlugin({
-    'process.env': {
-      NODE_ENV: JSON.stringify('production'),
-    },
-  }),
-  new webpack.optimize.AggressiveMergingPlugin(),
-  new OfflinePlugin(),
-  // new BundleAnalyzerPlugin({
-  //   analyzerMode: 'server',
-  //   analyzerPort: 8888,
-  //   openAnalyzer: true,
-  // }),
-]
-: // Development plugins
-[
-  ...sharedPlugins,
-  new webpack.NoEmitOnErrorsPlugin(),
-  new webpack.HotModuleReplacementPlugin(),
-];
+  ? // Production plugins
+    [
+      ...sharedPlugins,
+      new webpack.LoaderOptionsPlugin({
+        minimize: true,
+        debug: false,
+      }),
+      new webpack.optimize.UglifyJsPlugin(),
+      new webpack.DefinePlugin({
+        'process.env': {
+          NODE_ENV: JSON.stringify('production'),
+        },
+      }),
+      new webpack.optimize.AggressiveMergingPlugin(),
+      new OfflinePlugin(),
+      // new BundleAnalyzerPlugin({
+      //   analyzerMode: 'server',
+      //   analyzerPort: 8888,
+      //   openAnalyzer: true,
+      // }),
+    ]
+  : // Development plugins
+    [
+      ...sharedPlugins,
+      new webpack.NoEmitOnErrorsPlugin(),
+      new webpack.HotModuleReplacementPlugin(),
+    ];
 
 const tsLoader = {
   loader: 'ts-loader',
@@ -69,8 +69,8 @@ module.exports = {
   devtool: !isProduction ? 'eval-cheap-source-map' : false,
   entry: {
     bundle: isProduction
-    ? ['babel-polyfill', './app/index']
-    : ['webpack-hot-middleware/client', 'babel-polyfill', './app/index'],
+      ? ['babel-polyfill', './app/index']
+      : ['webpack-hot-middleware/client', 'babel-polyfill', './app/index'],
     vendor: ['react', 'react-dom'],
   },
   output: {
@@ -87,12 +87,10 @@ module.exports = {
     rules: [
       {
         test: /\.tsx?$/,
-        include: [
-          join(__dirname, 'app'),
-        ],
+        include: [join(__dirname, 'app')],
         use: isProduction
-        ? ['babel-loader', tsLoader]
-        : ['react-hot-loader', 'babel-loader', tsLoader],
+          ? ['babel-loader', tsLoader]
+          : ['react-hot-loader', 'babel-loader', tsLoader],
       },
       {
         // necessary to load google autotrack
@@ -102,14 +100,8 @@ module.exports = {
       },
       {
         test: /\.styl$/,
-        include: [
-          join(__dirname, 'app'),
-        ],
-        use: [
-          'style-loader',
-          'css-loader',
-          'stylus-loader',
-        ],
+        include: [join(__dirname, 'app')],
+        use: ['style-loader', 'css-loader', 'stylus-loader'],
       },
       {
         test: /\.json$/,

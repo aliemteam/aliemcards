@@ -20,9 +20,7 @@ const setup = (categories: any = [...mockData]) => {
   const data = {
     categories,
   };
-  const snapshot = renderer.create(
-    <Categories data={data} />,
-  );
+  const snapshot = renderer.create(<Categories data={data} />);
   return {
     snapshot,
   };

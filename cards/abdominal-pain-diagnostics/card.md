@@ -1,5 +1,4 @@
 ---
-
 title: Abdominal Pain - Diagnostic Studies
 authors:
     - Michelle Lin, MD
@@ -46,7 +45,7 @@ Lactate is useful adjunct to risk stratify for mortality ([Shapiro et al. (2005)
 
 | Lactate | Level (mmol/L) | 28-day in-hospital mortality | Early death (≤ 3d) |
 | ------- | -------------: | ---------------------------: | -----------------: |
-| Low     |           <2.5 |                         4.9% |               1.5% |
+| Low     |        &lt;2.5 |                         4.9% |               1.5% |
 | Medium  |       2.5-3.99 |                         9.0% |               4.5% |
 | High    |             ≥4 |                        28.4% |              22.4% |
 
@@ -56,7 +55,7 @@ Lactate is useful adjunct to risk stratify for mortality ([Shapiro et al. (2005)
 
 **Cholecystitis**: Normal LFTs do NOT rule it out. LFT's helpful as adjunct to determine likelihood for common bile duct stone.
 
-**Diverticular disease**: Prevalence <5% (age<40 yrs), 30% (age 41-60 yrs), 65% (age 61-85 yrs)
+**Diverticular disease**: Prevalence &lt;5% (age&lt;40 yrs), 30% (age 41-60 yrs), 65% (age 61-85 yrs)
 
 **Ectopic pregnancy**: Discriminatory zone for gestational sac is B-HCG ≥6,500 (transabdominal U/S) or B-HCG ≥1,500 (transvaginal U/S).
 
@@ -81,6 +80,6 @@ Lactate is useful adjunct to risk stratify for mortality ([Shapiro et al. (2005)
 
 ## References
 
-- Shapiro NI, Howell MD, Talmor D, Nathanson LA, Lisbon A, Wolfe RE, Weiss JW.Serum lactate as a predictor of mortality in emergency department patients with infection. Ann Emerg Med. 2005 May;45(5):524-8. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/15855951)]
-- Panebianco NL, Jahnes K, Mills AM. Imaging and Laboratory Testing in Acute Abdominal Pain. Emerg Med Clin N Am. 2011;29:175-93. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=21515175)]
-- Ultrasonography vs. CT for suspected Nephrolithiasis. New England Journal of Medicine. 2014;371(26):2529-2531. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=25229916)]
+- Shapiro NI, Howell MD, Talmor D, Nathanson LA, Lisbon A, Wolfe RE, Weiss JW.Serum lactate as a predictor of mortality in emergency department patients with infection. Ann Emerg Med. 2005 May;45(5):524-8. \[[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/15855951)]
+- Panebianco NL, Jahnes K, Mills AM. Imaging and Laboratory Testing in Acute Abdominal Pain. Emerg Med Clin N Am. 2011;29:175-93. \[[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=21515175)]
+- Ultrasonography vs. CT for suspected Nephrolithiasis. New England Journal of Medicine. 2014;371(26):2529-2531. \[[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=25229916)]
