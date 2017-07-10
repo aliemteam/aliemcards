@@ -6,7 +6,6 @@ interface Props {
 }
 
 interface State {
-  loading: boolean;
   query: string;
   uiQuery: string;
 }
@@ -17,7 +16,6 @@ export default class Search extends React.PureComponent<Props, State> {
   constructor(props) {
     super(props);
     this.state = {
-      loading: false,
       query: '',
       uiQuery: '',
     };
@@ -31,17 +29,17 @@ export default class Search extends React.PureComponent<Props, State> {
     // the update of `query` (and the associated api call) 500ms.
     if (query !== '') {
       Search.timer = setTimeout(() => {
-        this.setState({ loading: false, query: this.state.uiQuery });
+        this.setState({ query: this.state.uiQuery });
       }, 500);
-      this.setState({ loading: true, uiQuery: query });
+      this.setState({ uiQuery: query });
     } else {
       // Query is empty. Reset state.
-      this.setState({ loading: false, uiQuery: query, query });
+      this.setState({ uiQuery: query, query });
     }
   };
 
   handleClick = () => {
-    this.setState({ query: '', uiQuery: '', loading: false });
+    this.setState({ query: '', uiQuery: '' });
   };
 
   render() {
@@ -69,8 +67,6 @@ export default class Search extends React.PureComponent<Props, State> {
             aria-label="Search for cards"
             value={this.state.uiQuery}
           />
-          {this.state.loading &&
-            <img className="search__loader" src="/assets/images/loader.svg" alt="loader" />}
         </div>
         <SearchResults query={this.state.query} onClick={this.handleClick} />
       </div>
