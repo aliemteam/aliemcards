@@ -19,13 +19,11 @@ describe('<Search />', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('should have spinner only when searching', () => {
-    jest.useFakeTimers();
+  it('should have spinner immediately when query changes', () => {
     const component = shallow(<Search splashText={false} />);
     expect(component.find('.search__loader').exists()).toBeFalsy();
     component.find('input').simulate('change', { currentTarget: { value: 'hello' } });
     expect(component.find('.search__loader').exists()).toBeTruthy();
-    jest.runAllTimers();
   });
 
   it('should not have spinner if query is empty', () => {
@@ -33,6 +31,14 @@ describe('<Search />', () => {
     expect(component.find('.search__loader').exists()).toBeFalsy();
     component.find('input').simulate('change', { currentTarget: { value: '' } });
     expect(component.find('.search__loader').exists()).toBeFalsy();
+  });
+
+  it('should have a spinner if loadingStatus is < 7', () => {
+    const component = shallow(<Search splashText={false} />);
+    expect(component.find('.search__loader').exists()).toBeFalsy();
+    component.find('input').simulate('change', { currentTarget: { value: 'hello' } });
+    component.instance().handleLoadingStatus(2);
+    expect(component.find('.search__loader').exists()).toBeTruthy();
   });
 
   it('should clear query, uiQuery, and loader with handleClick', () => {
