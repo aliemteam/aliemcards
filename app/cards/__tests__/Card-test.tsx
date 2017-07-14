@@ -8,7 +8,7 @@ import Card from '../Card';
 const stub: any = {};
 
 const setup = (networkStatus = 7, cardData?: Partial<CardType>) => {
-  const card: CardType = {
+  const card: any = {
     authors: [
       {
         id: '1',
@@ -60,9 +60,7 @@ describe('<Card />', () => {
           cards: [],
         },
       ],
-      updates: [
-        1483228800000,
-      ],
+      updates: [1483228800000],
     };
     const { snapshot } = setup(7, card);
     expect(snapshot.toJSON()).toMatchSnapshot();

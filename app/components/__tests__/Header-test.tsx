@@ -6,9 +6,7 @@ import * as React from 'react';
 import Header from '../Header';
 
 const setup = () => {
-  const component = mount(
-    <Header location={{ pathname: 'testing' }} />,
-  );
+  const component = mount(<Header location={{ pathname: 'testing' }} />);
   return {
     button: component.find('button'),
     component,

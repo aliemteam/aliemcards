@@ -2,6 +2,7 @@ import * as compression from 'compression';
 import * as express from 'express';
 import * as graphqlHTTP from 'express-graphql';
 import * as helmet from 'helmet';
+import OpticsAgent from 'optics-agent';
 import { join } from 'path';
 import { schema } from './server/schema';
 
@@ -17,19 +18,29 @@ if (isDevelopment) {
   const webpack = require('webpack');
   const config = require('../webpack.config.ts');
   const compiler = webpack(config);
-  app.use(require('webpack-dev-middleware')(compiler, {
-    publicPath: config.output.publicPath,
-    historyApiFallback: true,
-  }));
+  app.use(
+    require('webpack-dev-middleware')(compiler, {
+      publicPath: config.output.publicPath,
+      historyApiFallback: true,
+    }),
+  );
   app.use(require('webpack-hot-middleware')(compiler));
 }
 
-app.use('/graphql', graphqlHTTP({
-  schema,
-  graphiql: isDevelopment,
-  context: data,
-  rootValue: data,
-}));
+app.use(OpticsAgent.middleware());
+
+app.use(
+  '/graphql',
+  graphqlHTTP(req => ({
+    schema: OpticsAgent.instrumentSchema(schema),
+    graphiql: isDevelopment,
+    context: {
+      data,
+      opticsContext: OpticsAgent.context(req),
+    },
+    rootValue: data,
+  })),
+);
 
 app.use(express.static(join(__dirname, 'app'), { maxAge: 31557600000 })); // 1 year
 

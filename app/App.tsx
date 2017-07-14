@@ -11,30 +11,18 @@ import './assets/css/main';
 
 declare const System;
 
-const Home = lazyLoad(() => (
-  System.import('./pages/Home').then(module => module.default)
-));
-const Cards = lazyLoad(() => (
-  System.import('./cards/').then(module => module.default)
-));
-const Card = lazyLoad(() => (
-  System.import('./cards/Card').then(module => module.default)
-));
-const Categories = lazyLoad(() => (
-  System.import('./categories/Categories').then(module => module.default)
-));
-const Category = lazyLoad(() => (
-  System.import('./categories/Category').then(module => module.default)
-));
-const About = lazyLoad(() => (
-  System.import('./pages/About').then(module => module.default)
-));
-const Contact = lazyLoad(() => (
-  System.import('./pages/Contact').then(module => module.default)
-));
-const FourOhFour = lazyLoad(() => (
-  System.import('./pages/404').then(module => module.default)
-));
+const Home = lazyLoad(() => System.import('./pages/Home').then(module => module.default));
+const Cards = lazyLoad(() => System.import('./cards/').then(module => module.default));
+const Card = lazyLoad(() => System.import('./cards/Card').then(module => module.default));
+const About = lazyLoad(() => System.import('./pages/About').then(module => module.default));
+const Contact = lazyLoad(() => System.import('./pages/Contact').then(module => module.default));
+const FourOhFour = lazyLoad(() => System.import('./pages/404').then(module => module.default));
+const Categories = lazyLoad(() =>
+  System.import('./categories/Categories').then(module => module.default),
+);
+const Category = lazyLoad(() =>
+  System.import('./categories/Category').then(module => module.default),
+);
 
 interface Props {
   location: {
@@ -50,8 +38,8 @@ class App extends React.PureComponent<Props, State> {
   static structuredData = {
     '@context': 'http://schema.org',
     '@type': 'WebSite',
-    'name': 'ALiEM Cards',
-    'url': 'https://www.aliemcards.com',
+    name: 'ALiEM Cards',
+    url: 'https://www.aliemcards.com',
   };
 
   constructor(props) {
@@ -66,13 +54,11 @@ class App extends React.PureComponent<Props, State> {
       <div className="row row--stacked main">
         <Helmet>
           <script type="application/ld+json">
-            { JSON.stringify(App.structuredData) }
+            {JSON.stringify(App.structuredData)}
           </script>
         </Helmet>
         <Header {...this.props} />
-        { this.state.announcements &&
-          <Announcements />
-        }
+        {this.state.announcements && <Announcements />}
         <main className="content" role="main">
           <Switch>
             <Route exact path="/" component={Home} />
@@ -91,8 +77,7 @@ class App extends React.PureComponent<Props, State> {
   }
 }
 
-export default () => (
+export default () =>
   <Router>
     <Route path="/" component={App} />
-  </Router>
-);
+  </Router>;

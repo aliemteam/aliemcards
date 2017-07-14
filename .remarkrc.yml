@@ -1,3 +1,6 @@
+settings:
+  listItemIndent: '1'
+  rule: '-'
 plugins:
   - - remark-lint-blockquote-indentation
     - - error

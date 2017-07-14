@@ -1,4 +1,9 @@
-import { GraphQLArgumentConfig, GraphQLFieldConfig, GraphQLFieldResolver, GraphQLOutputType } from 'graphql';
+import {
+  GraphQLArgumentConfig,
+  GraphQLFieldConfig,
+  GraphQLFieldResolver,
+  GraphQLOutputType,
+} from 'graphql';
 import { Announcement, AuthorRaw, Category } from '../models/';
 
 interface AuthorJSON {
@@ -36,24 +41,26 @@ export interface RootValue {
   result: Array<keyof CardJSON>;
 }
 
+export interface Context {
+  data: RootValue;
+}
+
 interface ArgumentConfig extends GraphQLArgumentConfig {
   description: string;
 }
 
-interface FieldConfig<TSource, TContext> extends GraphQLFieldConfig<TSource, TContext> {
+interface FieldConfig<TSource, TContext = Context> extends GraphQLFieldConfig<TSource, TContext> {
   description: string;
 }
 
 export interface ArgumentField<TArgs> {
   type: GraphQLOutputType;
-  args: {
-    [P in keyof TArgs]: ArgumentConfig;
-  };
+  args: { [P in keyof TArgs]: ArgumentConfig };
   resolve?: GraphQLFieldResolver<RootValue, any>;
   deprecationReason?: string;
   description?: string;
 }
 
-export type TypedFields<TResolved, TRaw = TResolved, TContext = {}> = {
-  [P in keyof TResolved]: FieldConfig<TRaw, TContext>;
+export type TypedFields<TResolved, TRaw = TResolved, TContext = Context> = {
+  [P in keyof TResolved]: FieldConfig<TRaw, TContext>
 };

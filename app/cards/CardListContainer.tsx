@@ -37,7 +37,6 @@ const cardsAndCategories = gql`
 
 @graphql(cardsAndCategories)
 export default class CardListContainer extends React.PureComponent<Props, State> {
-
   constructor(props) {
     super(props);
     this.state = {
@@ -48,17 +47,21 @@ export default class CardListContainer extends React.PureComponent<Props, State>
   handleChange = (e: React.FormEvent<HTMLSelectElement>) => {
     const category = e.currentTarget.value;
     this.setState({ categoryFilter: category });
-  }
+  };
 
   render() {
     // Required to maintain strict typing
-    if (!this.props.data) { throw new Error('Component should always receive data'); }
+    if (!this.props.data) {
+      throw new Error('Component should always receive data');
+    }
 
     const category = this.state.categoryFilter;
     let filterCards = this.props.data.cards;
 
     if (category) {
-      filterCards = filterCards.filter(card => card.categories.findIndex(c => c.id === category) !== -1);
+      filterCards = filterCards.filter(
+        card => card.categories.findIndex(c => c.id === category) !== -1,
+      );
     }
 
     return (

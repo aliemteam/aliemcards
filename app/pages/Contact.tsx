@@ -23,7 +23,8 @@ const contactUsMessage = gql`
 
 const config = {
   props: ({ mutate }) => ({
-    sendMessage: (name: string, email: string, message: string) => mutate({ variables: { name, email, message }}),
+    sendMessage: (name: string, email: string, message: string) =>
+      mutate({ variables: { name, email, message } }),
   }),
 };
 
@@ -44,19 +45,24 @@ export default class Contact extends React.PureComponent<Props, State> {
     const { name, email, message } = this.state;
     this.props.sendMessage(name, email, message).then(res => {
       const data = res.data.contactUs;
-      if (data.status !== 200) { throw new Error(data.statusText); }
+      if (data.status !== 200) {
+        throw new Error(data.statusText);
+      }
       this.setState({ sent: true });
     });
-  }
+  };
 
-  changeHandler = (e: React.FormEvent<HTMLInputElement|HTMLTextAreaElement>) => {
-    this.setState({ ...this.state, [e.currentTarget.id]: e.currentTarget.value });
-  }
+  changeHandler = (e: React.FormEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    this.setState({
+      ...this.state,
+      [e.currentTarget.id]: e.currentTarget.value,
+    });
+  };
 
   render() {
     return (
-      <div >
-        { !this.state.sent &&
+      <div>
+        {!this.state.sent &&
           <div className="contact">
             <h1>Contact Form</h1>
             <form onSubmit={this.sendHandler}>
@@ -78,15 +84,16 @@ export default class Contact extends React.PureComponent<Props, State> {
                 </div>
               </div>
             </form>
-          </div>
-        }
-        { this.state.sent &&
+          </div>}
+        {this.state.sent &&
           <div className="content">
             <h1>Thank You</h1>
-            <p>Thank you for your message.
-              Someone from the ALiEMCards team will contact you shortly.</p>
-          </div>
-        }
+            <p>
+              Thank you for your message.
+              Someone from the ALiEMCards team will contact you
+              shortly.
+            </p>
+          </div>}
       </div>
     );
   }

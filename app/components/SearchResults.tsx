@@ -5,9 +5,10 @@ import { Card } from '../../server/models/';
 
 interface Props {
   data?: {
-    cards: Array<Pick<Card, 'id'|'title'>>;
+    cards: Array<Pick<Card, 'id' | 'title'>>;
     networkStatus: number;
   };
+  loadStatus: (status: number) => void;
   onClick: (e: React.MouseEvent<any>) => void;
   query: string;
 }
@@ -27,21 +28,34 @@ const config = {
 
 @graphql(cardsMatchingSearch, config)
 export default class SearchResults extends React.PureComponent<Props, {}> {
+  componentWillReceiveProps(nextProps: Props) {
+    if (nextProps.data) {
+      this.props.loadStatus(nextProps.data.networkStatus);
+    }
+  }
+
   render() {
     // Required for static typing
-    if (!this.props.data) { throw new Error('Data should always be available'); }
-    if (!this.props.data.cards || this.props.data.cards.length === 0) {
+    if (!this.props.data) {
+      throw new Error('Data should always be available');
+    }
+    if (this.props.query === '') {
       return null;
     }
     const { cards } = this.props.data;
     return (
       <div className="search__results">
         <ul>
-          {cards.map(card => (
+          {this.props.data.cards.length === 0 &&
+            this.props.data.networkStatus > 6 &&
+            <li className="search__result search__noresult">No results found</li>}
+          {cards.map(card =>
             <li className="search__result" key={card.id}>
-              <Link to={`/cards/${card.id}`} onClick={this.props.onClick}>{card.title}</Link>
-            </li>
-          ))}
+              <Link to={`/cards/${card.id}`} onClick={this.props.onClick}>
+                {card.title}
+              </Link>
+            </li>,
+          )}
         </ul>
       </div>
     );
