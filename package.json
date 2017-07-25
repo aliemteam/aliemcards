@@ -39,10 +39,6 @@
     "*.{ts,tsx}": [
       "prettier --write --single-quote --trailing-comma all --print-width 100",
       "git add"
-    ],
-    "*.md": [
-      "remark -o --file-path",
-      "git add"
     ]
   },
   "jest": {

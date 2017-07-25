@@ -1,6 +1,11 @@
 settings:
   listItemIndent: '1'
   rule: '-'
+  emphasis: '_'
+  gfm: true
+  entities: true
+  incrementListMarker: true
+  strong: '*'
 plugins:
   - - remark-lint-blockquote-indentation
     - - error
