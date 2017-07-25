@@ -1,14 +1,17 @@
----
+- - -
+
 title: Elbow Injuries - Olecranon Fracture
 authors:
-   - Melody Glenn, MD
-   - Andrew Little, DO
-   - Mary Haas, MD
+    \- Melody Glenn, MD
+    \- Andrew Little, DO
+    \- Mary Haas, MD
 created: 2016/12/12
 updates:
 categories:
-   - Orthopedics
----
+
+    - Orthopedics
+
+- - -
 
 # Elbow Injuries: Olecranon Fracture
 
@@ -20,7 +23,7 @@ categories:
 
 ## Operative indications
 
-- &gt;2 mm fracture displacement
+- \>2 mm fracture displacement
 - Absence of elbow extension
 
 ## Acute Management
@@ -41,7 +44,7 @@ categories:
 
 ## References
 
-- Wheeless’ Textbook of Orthopaedics  [[Source](http://Wheelessonline.com)]
-- Orthobullets  [[Source](http://OrthoBullets.com)]
-- Radiopaedia  [[Source](http://Radiopaedia.org)]
+- Wheeless’ Textbook of Orthopaedics  \[[Source](http://Wheelessonline.com)]
+- Orthobullets  \[[Source](http://OrthoBullets.com)]
+- Radiopaedia  \[[Source](http://Radiopaedia.org)]
 - General Guidelines For Management for Orthopedic Injuries card by the Nationwide Children’s Hospital, Department of Orthopedics.
