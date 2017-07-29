@@ -49,7 +49,7 @@ plugins:
   - - remark-lint-no-auto-link-without-protocol
     - - error
 
-  - - remark-lint-no-blockquote-without-caret
+  - - remark-lint-no-blockquote-without-marker
     - - error
 
   - - remark-lint-no-consecutive-blank-lines
