@@ -6,13 +6,15 @@ branches:
         - master
         - /^greenkeeper-.*$/
         - /^v\d+\.\d+\.\d+(?:-rc\d+)?/
-cache: yarn
+cache:
+  directories:
+    - "node_modules"
 before_install:
     - pip install --user awscli
     - export PATH=$PATH:$HOME/.local/bin
-script: yarn test -- --coverage && yarn build
+script: npm run test -- --coverage && npm run build
 before_deploy:
-    - yarn s3
+    - npm run s3
 deploy:
     'on':
         tags: true
