@@ -1,17 +1,9 @@
 import { normalize as normalizr, schema } from 'normalizr';
+import { Announcement } from './schema';
 
 interface BaseObject {
   id: string;
   name: string;
-}
-
-interface Announcement {
-  /** Date string in the form of YYYY/MM/DD */
-  date: string;
-  /** Heading for announcement */
-  heading: string;
-  /** Announcement message */
-  message: string;
 }
 
 interface AuthorJSON {
