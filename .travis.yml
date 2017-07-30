@@ -6,7 +6,6 @@ branches:
         - master
         - /^greenkeeper-.*$/
         - /^v\d+\.\d+\.\d+(?:-rc\d+)?/
-sudo: true
 dist: trusty
 cache:
   directories:
