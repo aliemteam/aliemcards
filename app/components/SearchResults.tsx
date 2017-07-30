@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { gql, graphql } from 'react-apollo';
 import { Link } from 'react-router-dom';
-import { Card } from '../../server/models/';
+import { Card } from '../../server/schema';
 
 interface Props {
   data?: {
@@ -14,7 +14,7 @@ interface Props {
 }
 
 const cardsMatchingSearch = gql`
-  query searchForCard($query: String){
+  query searchForCard($query: String) {
     cards: search(input: $query) {
       id
       title

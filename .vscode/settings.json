@@ -16,5 +16,7 @@
       "listItemIndent ": "1",
       "strong": "*"
     }
-  }
+  },
+  "prettier.printWidth": 100,
+  "prettier.tabWidth": 2
 }

@@ -2,7 +2,7 @@ jest.mock('react-apollo');
 
 import * as React from 'react';
 import * as renderer from 'react-test-renderer';
-import { Card as CardType } from '../../../server/models/card/cardType';
+import { Card as CardType } from '../../../server/schema';
 import Card from '../Card';
 
 const stub: any = {};

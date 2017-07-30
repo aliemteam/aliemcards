@@ -1,10 +1,4 @@
 // tslint:disable:no-console
-// FIXME: Temporary module extension until typescript updates the library builtin
-declare module 'util' {
-  export function promisify<T>(
-    func: (data: any, cb: (err: NodeJS.ErrnoException, data?: T) => void) => void,
-  ): (...input: any[]) => Promise<T>;
-}
 import * as autoprefixer from 'autoprefixer-stylus';
 import { execFile } from 'child_process';
 import * as del from 'del';
@@ -19,8 +13,7 @@ import { promisify } from 'util';
 const readdirPromise = promisify(fs.readdir);
 const writeFilePromise = promisify(fs.writeFile);
 
-import { normalize } from './server/utils/normalize';
-import { SingleCardJSON } from './server/utils/strongTypes';
+import { normalize, SingleCardJSON } from './server/normalize';
 
 const CLOUDFRONT_URL = 'https://d249u3bk3sqm2p.cloudfront.net';
 const REGEX = {
@@ -163,7 +156,7 @@ function buildCardObject(filename: string, meta: CardMeta, content: string): Sin
 
 function sitemap(cards: SingleCardJSON[]): SingleCardJSON[] {
   const baseurl = 'https://www.aliemcards.com';
-  const sitemap = [
+  const sm = [
     baseurl,
     `${baseurl}/about`,
     `${baseurl}/cards`,
@@ -173,7 +166,7 @@ function sitemap(cards: SingleCardJSON[]): SingleCardJSON[] {
   if (!fs.existsSync('./dist/app')) {
     fs.mkdirSync('./dist/app');
   }
-  writeFilePromise('./dist/app/sitemap.txt', sitemap);
+  writeFilePromise('./dist/app/sitemap.txt', sm);
   return cards;
 }
 

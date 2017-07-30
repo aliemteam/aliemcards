@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { gql, graphql } from 'react-apollo';
-import { Card as ICard, Category as ICategory } from '../../server/models/';
+import { Card as ICard, Category as ICategory } from '../../server/schema';
 import CardList from '../cards/CardList';
 
 export interface Data {
@@ -53,7 +53,9 @@ export default class Category extends React.PureComponent<Props, {}> {
     }
     return (
       <div>
-        <h1>{category.name}</h1>
+        <h1>
+          {category.name}
+        </h1>
         <CardList cards={cards || []} />
       </div>
     );
