@@ -10,6 +10,7 @@ cache:
   directories:
     - "node_modules"
 before_install:
+    - apt-get install -y libjpeg libpng
     - pip install --user awscli
     - export PATH=$PATH:$HOME/.local/bin
 script: npm run test -- --coverage && npm run build
