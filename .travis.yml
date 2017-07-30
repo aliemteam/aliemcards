@@ -12,7 +12,7 @@ cache:
     - "node_modules"
 before_install:
     - sudo apt-get update -qq
-    - sudo apt-get install -y libjpeg libpng
+    - sudo apt-get install -y libjpeg-dev libpng12-0
     - pip install --user awscli
     - export PATH=$PATH:$HOME/.local/bin
 script: npm run test -- --coverage && npm run build
