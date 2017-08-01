@@ -35,4 +35,3 @@ categories:
 ## References
 
 - Williams DJ, Walker JD. A nomogram for calculating the maximum dose of local anaesthetic. Anaesthesia. 2014;69(8):847-53. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=24820093)]
-
