@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { gql, graphql } from 'react-apollo';
-import { Card } from '../../server/models/';
+import { Card } from '../../server/schema';
 import CardList from '../cards/CardList';
 
 interface Props {

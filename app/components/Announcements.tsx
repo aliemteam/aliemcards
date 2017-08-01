@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { gql, graphql } from 'react-apollo';
-import { Announcement as IAnnouncement } from '../../server/models/';
+import { Announcement as IAnnouncement } from '../../server/schema';
 
 const LOCALSTORAGE_KEY = 'announcementId';
 

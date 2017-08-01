@@ -3,7 +3,7 @@ import { gql, graphql } from 'react-apollo';
 import { Helmet } from 'react-helmet';
 import * as remark from 'remark';
 import * as html from 'remark-html';
-import { Card as ICard } from '../../server/models/';
+import { Card as ICard } from '../../server/schema';
 
 interface Props {
   data: {
@@ -57,7 +57,9 @@ export default class Card extends React.PureComponent<Props, {}> {
             {JSON.stringify({ headline: card.title })}
           </script>
         </Helmet>
-        <h1>{card.title}</h1>
+        <h1>
+          {card.title}
+        </h1>
         <div className="card">
           <div className="card__meta">
             <div>
@@ -66,7 +68,9 @@ export default class Card extends React.PureComponent<Props, {}> {
               </strong>
               {card.authors.map(author => author.name).join(', ')}
             </div>
-            <div><strong>Updated:</strong> {lastUpdate}</div>
+            <div>
+              <strong>Updated:</strong> {lastUpdate}
+            </div>
           </div>
           <div
             className="card__content"
