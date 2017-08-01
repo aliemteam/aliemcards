@@ -131,7 +131,7 @@ Most are nonoperative, especially 3rd and 4th MC because of inter-MC ligaments
 
 ## References
 
-- Metatarsal fracture, http://www.wheelessonline.com/ [[Source](http://www.wheelessonline.com/ortho/hand_and_metacarpal_fractures)]
-- Metatarsal fractures, Browner: Skeletal Trauma (4th ed)
-- Metatarsal fractures, Marx: Rosen’s Emergency Medicine (7th ed)
-- Metatarsal fractures, www.emedicine.com [[Source](http://emedicine.medscape.com/article/1239721-overview)]
+- Wheeless Online. Available at: http://www.wheelessonline.com/ortho/hand_and_metacarpal_fractures. Accessed August 1, 2017.
+- Browner BD. Skeletal Trauma, Basic Science, Management, and Reconstruction. Elsevier Health Sciences; 2009.
+- Hockberger RS, Walls RM. Rosen's Emergency Medicine - Concepts and Clinical Practice, 2-Volume Set,Expert Consult Premium Edition - Enhanced Online Features and Print,7, Rosen's Emergency Medicine - Concepts and Clinical Practice, 2-Volume Set. Elsevier Health Sciences; 2009.
+- Emedicine. Available at: http://emedicine.medscape.com/article/1239721-overview. Accessed August 1, 2017

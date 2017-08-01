@@ -50,4 +50,4 @@ Consider a Palliative Care consultation if your patient has at least 1 life-limi
 
 ## References
 
-- George N, Barrett N, Mcpeake L, Goett R, Anderson K, Baird J. Content Validation of a Novel Screening Tool to Identify Emergency Department Patients With Significant Palliative Care Needs. _Acad Emerg Med_. 2015;22(7):823-37. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/26171710)]
+- George N, Barrett N, Mcpeake L, Goett R, Anderson K, Baird J. Content Validation of a Novel Screening Tool to Identify Emergency Department Patients With Significant Palliative Care Needs. Acad Emerg Med. 2015;22(7):823-37. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/26171710)]

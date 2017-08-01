@@ -57,5 +57,5 @@ Fine = $25,000 or $50,000 per violation (hospital with &lt;100 beds vs &ge;100 b
 
 ## References
 
-- EMTALA, acep.org [[Source](http://www.acep.org/content.aspx?id=25936)]
-- AMA Ethics Resource Center
+- EMTALA. Available at: http://www.acep.org/content.aspx?id=25936. Accessed August 1, 2017.
+- AMA Ethics Resource Center. Available at: http://www.ama-assn.org/delivering-care/medical-ethics. Accessed August 1, 2017.

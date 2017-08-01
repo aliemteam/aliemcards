@@ -46,7 +46,7 @@ Complications: Ulnar nerve entrapment & injury
 
 ## References
 
-- Wheeless’ Textbook of Orthopaedics \[[Source](http://Wheelessonline.com)]
-- Orthobullets \[[Source](http://OrthoBullets.com)]
-- Radiopaedia \[[Source](http://Radiopaedia.org)]
+- Wheeless. Available at: http://www.wheelessonline.com/ortho/medial_epicondyle_frx_of_the_humerus. Accessed August 1, 2017.
+- Orthobullets. Available at: http://www.orthobullets.com/pediatrics/4008/medial-epicondylar-fractures--pediatric. Accessed August 1, 2017.
+- Radiopaedia. Available at: http://radiopaedia.org/articles/medial-epicondyle-fracture-1. Accessed August 1, 2017.
 - General Guidelines For Management for Orthopedic Injuries card by the Nationwide Children’s Hospital, Department of Orthopedics

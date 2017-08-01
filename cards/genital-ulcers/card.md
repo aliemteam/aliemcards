@@ -146,5 +146,4 @@ From “The Practitioner’s Handbook for the Management of STDs” (4th ed, 200
 
 ## References
 
-- Practitioner’s Handbook (2007)
 - Roett MA, Mayor MT, Uduhiri KA. Diagnosis and management of genital ulcers. Am Fam Physician. 2012 Feb 1;85(3):254-62. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=22335265)]

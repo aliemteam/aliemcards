@@ -56,4 +56,4 @@ Any of the following findings on UA:
 
 ## References
 
-- Christine Cho, lecture presentation: <http://lecture.ucsf.edu/ets/Play/b1d49de0f7f4407994c44a791b2223321d>
+- Christine Cho, lecture presentation. Availabe at: http://lecture.ucsf.edu/ets/Play/b1d49de0f7f4407994c44a791b2223321d

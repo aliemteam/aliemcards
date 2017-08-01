@@ -103,6 +103,6 @@ Figure 3: Positive FAST in LUQ view demonstrating large amount of complex free f
 
 ## References
 
-- Durston W et al. _Ann of Surg_, 1998. PMID 9790345 [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/9790345)]
-- Stengel D et al. _Br J Surg_, 2001. PMID 11442520 [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/11442520)]
-- Stengel D et al. _Radiology_, 2005. PMID 15983072 [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/15983072)]
+- Rozycki GS, Ballard RB, Feliciano DV, Schmidt JA, Pennington SD. Surgeon-performed ultrasound for the assessment of truncal injuries: lessons learned from 1540 patients. Ann Surg. 1998;228(4):557-67. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/9790345)]
+- Stengel D, Bauwens K, Sehouli J, et al. Systematic review and meta-analysis of emergency ultrasonography for blunt abdominal trauma. Br J Surg. 2001;88(7):901-12. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/11442520)]
+- Stengel D, Bauwens K, Rademacher G, Mutze S, Ekkernkamp A. Association between compliance with methodological standards of diagnostic research and reported test accuracy: meta-analysis of focused assessment of US for trauma. Radiology. 2005;236(1):102-11. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/15983072)]

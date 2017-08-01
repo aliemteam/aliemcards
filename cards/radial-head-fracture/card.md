@@ -53,7 +53,7 @@ Most common elbow fractures in adults
 
 ## References
 
-- Wheeless’ Textbook of Orthopaedics  \[[Source](http://Wheelessonline.com)]
-- Orthobullets  \[[Source](http://OrthoBullets.com)]
-- Radiopaedia  \[[Source](http://Radiopaedia.org)]
+- Wheeless’ Textbook of Orthopaedics. Available at: http://www.wheelessonline.com/ortho/radial_head_frx. Accessed August 1, 2017.
+- Orthobullets. Available at: http://www.orthobullets.com/trauma/1019/radial-head-fractures. Accessed August 1, 2017.
+- Radiopaedia. Available at: http://radiopaedia.org/articles/radial-head-fractures. Accessed August 1, 2017.
 - General Guidelines For Management for Orthopedic Injuries card by the Nationwide Children’s Hospital, Department of Orthopedics
