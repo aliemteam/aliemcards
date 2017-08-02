@@ -41,7 +41,7 @@ categories:
 
 ## References
 
-- Wheeless’ Textbook of Orthopaedics  \[[Source](http://Wheelessonline.com)]
-- Orthobullets  \[[Source](http://OrthoBullets.com)]
-- Radiopaedia  \[[Source](http://Radiopaedia.org)]
+- Wheeless’ Textbook of Orthopaedics. Available at: http://www.wheelessonline.com/ortho/fractures_of_the_olecranon. Accessed August 1, 2017.
+- Orthobullets. Available at: http://www.orthobullets.com/trauma/1022/olecranon-fractures. Accessed August 1, 2017.
+- Radiopaedia. Available at: http://radiopaedia.org/articles/olecranon-fractures-1. Accessed August 1, 2017.
 - General Guidelines For Management for Orthopedic Injuries card by the Nationwide Children’s Hospital, Department of Orthopedics.

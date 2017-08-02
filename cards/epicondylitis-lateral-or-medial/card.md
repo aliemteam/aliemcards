@@ -46,7 +46,6 @@ Routine follow up with primary care physician.
 
 ## References
 
-- Wheeless’ Textbook of Orthopaedics \[[Source](http://Wheelessonline.com)]
-- Orthobullets \[[Source](http://OrthoBullets.com)]
-- Radiopaedia \[[Source](http://Radiopaedia.org)]
+- Wheeless’ Textbook of Orthopaedics. Available at: http://www.wheelessonline.com/ortho/adult_lateral_condyle_fracure. Accessed August 1, 2017.
+- Orthobullets. Available at: http://www.orthobullets.com/sports/3082/lateral-epicondylitis-tennis-elbow. Accessed August 1, 2017.
 - General Guidelines For Management for Orthopedic Injuries card by the Nationwide Children’s Hospital, Dept of Orthopedics.

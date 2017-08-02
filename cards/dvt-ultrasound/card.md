@@ -72,6 +72,6 @@ Figure 3: Positive DVT study showing **thrombus** in the femoral vein **(v),** a
 
 ## References
 
-- Kline JA et al. _Annals of Emerg Med_, 2008. PMID: 18562044(www.ncbi.nlm.nih.gov/pubmed/18562044)
+- Kline JA, O'malley PM, Tayal VS, Snead GR, Mitchell AM. Emergency clinician-performed compression ultrasonography for deep venous thrombosis of the lower extremity. Ann Emerg Med. 2008;52(4):437-45.[[PubMed]((www.ncbi.nlm.nih.gov/pubmed/18562044)]
 
-- Bernardi E. et al. _JAMA_, 2008. PMID: 18840838(www.ncbi.nlm.nih.gov/pubmed/18840838)
+- Bernardi E, Camporese G, Büller HR, et al. Serial 2-point ultrasonography plus D-dimer vs whole-leg color-coded Doppler ultrasonography for diagnosing suspected symptomatic deep vein thrombosis: a randomized controlled trial. JAMA. 2008;300(14):1653-9.[[PubMed](www.ncbi.nlm.nih.gov/pubmed/18840838)]
