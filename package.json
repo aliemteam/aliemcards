@@ -1,6 +1,6 @@
 {
   "name": "aliemcards",
-  "version": "0.5.11",
+  "version": "0.5.12",
   "description": "ALiEM Cards deployment scripts and website code",
   "license": "MIT",
   "main": "./dist/index.js",
