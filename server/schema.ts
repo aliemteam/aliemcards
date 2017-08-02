@@ -266,7 +266,7 @@ const resolvers = {
         threshold: 0.2,
         location: 0,
         distance: 0,
-        maxPatternLength: 32,
+        maxPatternLength: 20,
         minMatchCharLength: 3,
         keys: [{ name: 'title', weight: 0.8 }, { name: 'content', weight: 0.2 }],
       });
