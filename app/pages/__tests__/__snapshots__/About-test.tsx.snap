@@ -213,6 +213,34 @@ exports[`<About /> should render correctly 1`] = `
         </div>
       </div>
     </div>
+    <div
+      className="column column--relative-50"
+    >
+      <h3>
+        Layla Abubshait, MD
+      </h3>
+      <div>
+        <div>
+          <strong>
+            Faculty Development and Medical Education Fellow
+          </strong>
+        </div>
+        <div>
+          Department of Emergency Medicine
+        </div>
+        <div>
+          Beth Israel Deaconess Medical Center
+        </div>
+        <div>
+          <a
+            href="https://www.twitter.com/layla_abubshait"
+          >
+            @
+            layla_abubshait
+          </a>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 `;
