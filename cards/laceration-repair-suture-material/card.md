@@ -11,6 +11,8 @@ categories:
 
 # Laceration Repair and Sutures – A cheat sheet guide
 
+![](image-1.png)
+
 | **SUTURE TYPE**     | **Time of Effective Tensile Strength**  |  **Time to Absorption** | **Reactivity**  |
 |---------------------|-----------------------------------------|-------------------------|-----------------|
 | Prolene             | indefinite                              | non absorbable          | low             |
