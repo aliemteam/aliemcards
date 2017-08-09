@@ -49,6 +49,7 @@ categories:
 | Oxycodone/acetaminophen (5/325 mg tablet)   | 1-2 tabs PO                                                                       |
 | Hydrocodone/acetaminophen (5/325 mg tablet) | 1-2 tabs PO                                                                       |
 | Hydrocodone/ibuprofen (2.5/200 mg tablet)   | 1-2 tabs PO                                                                       |
+| Morphine IR (15 mg tablet)                  | 1-2 tabs PO                                                                       |
 | Hydromorphone                               | **Weight-based:** 0.015 mg/kg IV titrate Q 15 min                                 |
 |                                             | **Fixed dose:** 1 mg IV titrate Q 10-15 min                                       |
 |                                             | 2-4 mg IM                                                                         |
@@ -211,3 +212,4 @@ Consider subdissociative dosing of ketamine.
 - Patanwala AE, Keim SM, Erstad BL. Intravenous opioids for severe acute pain in the emergency department. Ann Pharmacother. 2010;44(11):1800-9. [[Pubmed](http://www.ncbi.nlm.nih.gov/pubmed/20978218)]
 - Thomas SH. Emergency Department Analgesia, An Evidence-Based Guide. Cambridge University Press; 2008.
 - Yeaman F, Meek R, Egerton-warburton D, Rosengarten P, Graudins A. Sub-dissociative-dose intranasal ketamine for moderate to severe pain in adult emergency department patients. Emerg Med Australas. 2014;26(3):237-42.[[Pubmed](http://www.ncbi.nlm.nih.gov/pubmed/24712757)]
+- Strayer RJ, Motov SM, Nelson LS. Something for pain: Responsible opioid use in emergency medicine. Am J Emerg Med. 2017;35(2):337-341. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=27802876)]
