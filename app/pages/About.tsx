@@ -33,7 +33,7 @@ const team: BioProps[] = [
     twitter: 'patockaem',
   },
   {
-    name: 'Teresa Chan, MD MHPE',
+    name: 'Teresa Chan, MD, MHPE',
     title: 'Research Mentor',
     credentials: 'Emergency Physician and Base Hospital Physician',
     location: 'Hamilton Health Sciences',
