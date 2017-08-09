@@ -98,10 +98,10 @@ categories:
 
 ## Dental Pain
 
-| Medication     | Dose                                                               |
-| -------------- | ------------------------------------------------------------------ |
-| NSAID | Ibuprofen or naproxen                                                       |
-| Dental Blocks | 5 mL of Lidocaine (1-2%) **or**<br> 2 mL of Bupivacaine (0.25-0.5%) |
+| Medication     | Dose                                                                |
+| -------------- | ------------------------------------------------------------------- |
+| NSAID          | Ibuprofen or naproxen                                               |
+| Dental Blocks  | 5 mL of Lidocaine (1-2%) **or**<br> 2 mL of Bupivacaine (0.25-0.5%) |
 
 ## Headache
 
@@ -117,7 +117,7 @@ categories:
 
 | Medication        | Dose                                      |
 | ----------------- | ----------------------------------------- |
-| Metoclopramide    |10 mg IV (Slow drip over 10-15 min)        |
+| Metoclopramide    | 10 mg IV (Slow drip over 10-15 min)       |
 | Diphenhydramine   | 25-50 mg IV                               |
 | Prochlorperazine  | 10 mg IV                                  |
 | Chlorpromazine    | 0.1 mg/kg IV                              |
@@ -175,7 +175,7 @@ categories:
 | Fentanyl       | 1-2 mcg/kg IN titrate Q 5-10 min |
 | Fentanyl       | 2-4 mcg/kg nebulized single dose |
 
-*Intramuscular (IM) route is DISCOURAGED!*
+_Intramuscular (IM) route is DISCOURAGED!_
 
 ## Trauma & Burns
 
@@ -190,10 +190,6 @@ categories:
 ## Opiate-Tolerant Patient or Refractory/Intractable Pain
 
 Consider subdissociative dosing of ketamine.
-
-
-
-
 
 ## References
 - Andolfatto G, Willman E, Joo D. Intranasal ketamine for analgesia in the emergency department: a prospective observational series. Acad Emerg Med. 2013; 20(10):1050-4. [[Pubmed](http://www.ncbi.nlm.nih.gov/pubmed/24127709)]
