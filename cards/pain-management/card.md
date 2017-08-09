@@ -63,6 +63,137 @@ categories:
 |                                             | 2-4 mcg/kg nebulized                                                              |
 | Naloxone                                    | (for opioid-induced pruritus) 0.25-0.5 mcg/kg/hr IV (2 mg naloxone in 100 mL  NS) |
 
+# Pain Syndromes
+
+## Abdominal Pain (non-traumatic)
+
+| Medication     | Dose                     |
+| -------------- | ------------------------ |
+| Ketorolac      | 10-15 mg IV              |
+| Rescue Opioids | Morphine or Fentanyl IV  |
+
+## Abdominal Pain (traumatic)
+
+| Medication     | Dose                                      |
+| -------------- | ----------------------------------------- |
+| Opioids        | Morphine or Fentanyl IV                   |
+| Acetaminophen  | 1 g IV over 15 min (adjunct to opioids)   |
+
+## Back Pain (acute)
+
+| Medication    | Dose                      |
+| ------------- | ------------------------- |
+| NSAID         | Ibuprofen or naproxen     |
+| Methocarbamol | 1500 mg PO                |
+| Diazepam      | 5 mg PO                   |
+
+## Back Pain (chronic)
+
+| Medication        | Dose                            |
+| ----------------- | ------------------------------- |
+| Gabapentin        | 100-300 mg PO                   |
+| Pregabalin        | 25 mg PO                        |
+| Lidoderm 5% Patch | No more than 4 patches in 24 hr |
+
+## Dental Pain
+
+| Medication     | Dose                                                               |
+| -------------- | ------------------------------------------------------------------ |
+| NSAID | Ibuprofen or naproxen                                                       |
+| Dental Blocks | 5 mL of Lidocaine (1-2%) **or**<br> 2 mL of Bupivacaine (0.25-0.5%) |
+
+## Headache
+
+### Oral
+
+| Medication                                            | Dose                     |
+| ----------------------------------------------------- | ------------------------ |
+| NSAID                                                 | Ibuprofen or naproxen    |
+| Butalbital/ acetaminophen/caffeine<br>(50/325/40 mg)  | 1-2 tabs PO              |
+| Metoclopramide                                        | 10 mg PO                 |
+
+### Parenteral (in preferred order)
+
+| Medication        | Dose                                      |
+| ----------------- | ----------------------------------------- |
+| Metoclopramide    |10 mg IV (Slow drip over 10-15 min)        |
+| Diphenhydramine   | 25-50 mg IV                               |
+| Prochlorperazine  | 10 mg IV                                  |
+| Chlorpromazine    | 0.1 mg/kg IV                              |
+| Sumatriptan       | 6 mg SQ, repeat with 12 mg SQ (after 1 h) |
+| Dihydroergotamine | 0.25 mg IV, repeat with 1 mg (after 1 h)  |
+| Valproate         | 300-1000 mg IV (over 30 min)              |
+| Magnesium         | 2 gm IV (30-60 min)                       |
+| Droperidol        | 1-2.5 mg IV <br>2.5-8 mg IM               |
+| Haloperidol       | 2.5-5 mg IV                               |
+
+## Regional Nerve Blocks
+
+| Medication            | Dose                                                                 |
+| --------------------- | -------------------------------------------------------------------- |
+| Paracervical block    | 5 mL of Lidocaine (1-2%) **or**<br>2-3 mL of Bupivacaine (0.25-0.5%) |
+| Occipital nerve block | 5 mL of Lidocaine (1-2%) **or**<br>2-3 mL of Bupivacaine (0.25-0.5%) |
+
+## Musculoskeletal Pain (non-traumatic)
+
+| Medication            | Dose                                          |
+| --------------------- | --------------------------------------------- |
+| NSAID                 | Ibuprofen, naproxen, or indomethacin          |
+| Local/Regional Blocks | Lidocaine or bupivacaine ± epinephrine        |
+| Neuropathic Pain      | Gabapentin 100 mg PO<br>Pregabalin 25 mg PO   |
+| NSAID                 | Ibuprofen, naproxen, or indomethacin          |
+| Lidoderm 5% patch     | Apply on skin                                 |
+
+## Renal Colic
+
+| Medication     | Dose                     |
+| -------------- | ------------------------ |
+| Ketorolac      | 10-15 mg IV              |
+| Rescue Opioids | Morphine or Fentanyl IV  |
+
+## Sickle Cell Pain Crisis
+
+### Intravenous (IV)
+
+| Medication     | Dose                                 |
+| -------------- | ------------------------------------ |
+| Opioids        | Morphine, fentanyl, or hydromorphone |
+| Ketorolac      | 10-15 mg IV                          |
+
+### Subcutaneous (SQ)
+
+| Medication     | Dose                                                       |
+| -------------- | ---------------------------------------------------------- |
+| Morphine       | 0.1 mg/kg or 5 mg SQ fixed dose with titration Q 10-15 min |
+| Hydromorphone  | 1-1.5 mg SQ with titration Q 15 min                        |
+
+### Intranasal (IN) / Nebulized
+
+| Medication     | Dose                             |
+| -------------- | -------------------------------- |
+| Fentanyl       | 1-2 mcg/kg IN titrate Q 5-10 min |
+| Fentanyl       | 2-4 mcg/kg nebulized single dose |
+
+*Intramuscular (IM) route is DISCOURAGED!*
+
+## Trauma & Burns
+
+| Medication                         | Dose                                                                                                                                                              |
+| ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Local/Regional Blocks              | Lidocaine or bupivacaine ± epinephrine                                                                                                                            |
+| Opioids                            | Morphine or Fentanyl                                                                                                                                              |
+| Ketorolac                          | 10-15 mg IV                                                                                                                                                       |
+| Acetaminophen                      | 1 g IV over 15 min (adjunct to opioids/NSAIDS/ketamine)                                                                                                           |
+| Ketamine<br>_Subdissociative dose_ | 0.3 mg/kg IV in 100 mL NS over 10 min<br>**Continuous infusion**: 0.15 mg/kg/hr IV (100 mg in 100 mL NS)<br>**Intrnasal** 1 mg/kg (no more than 1 mL per nostril) |
+
+## Opiate-Tolerant Patient or Refractory/Intractable Pain
+
+Consider subdissociative dosing of ketamine.
+
+
+
+
+
 ## References
 - Andolfatto G, Willman E, Joo D. Intranasal ketamine for analgesia in the emergency department: a prospective observational series. Acad Emerg Med. 2013; 20(10):1050-4. [[Pubmed](http://www.ncbi.nlm.nih.gov/pubmed/24127709)]
 - Bartfield JM, Flint RD, McErlean M, Broderick J. Nebulized fentanyl for relief of abdominal pain.. Acad Emerg Med. 2003; 10(3):215-8. [[Pubmed](http://www.ncbi.nlm.nih.gov/pubmed/12615585)]
