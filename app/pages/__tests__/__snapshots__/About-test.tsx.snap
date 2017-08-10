@@ -161,7 +161,7 @@ exports[`<About /> should render correctly 1`] = `
       className="column column--relative-50"
     >
       <h3>
-        Teresa Chan, MD MHPE
+        Teresa Chan, MD, MHPE
       </h3>
       <div>
         <div>
