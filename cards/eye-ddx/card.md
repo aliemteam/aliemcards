@@ -1,6 +1,6 @@
 ---
 
-title: Eye Anatomy and Key Diagnoses: Rule of 2s
+title: Eye Anatomy and Key Diagnoses Rule of 2s
 author:
     - Puja Gopal, MD
 created: 2017/04/14
@@ -9,6 +9,7 @@ categories:
     - Ophthalmology
  
 ---
+
 # Background
 
 The rule of 2s, as illustrated below, is a simple method with an anatomical approach to the major ocular diagnoses and is meant to provide a general framework to guide the physical exam and include or eliminate certain conditions. The rule of 2s is easy to remember as it contains the number 2 in the context of eyes and proceeds from layer to layer of the eye in an anterior to posterior direction highlighting the 2 major associated diagnoses of that layer.  
