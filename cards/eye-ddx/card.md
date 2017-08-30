@@ -1,7 +1,7 @@
 ---
 
 title: Eye Anatomy and Key Diagnoses Rule of 2s
-author:
+authors:
     - Puja Gopal, MD
 created: 2017/04/14
 updates: 
