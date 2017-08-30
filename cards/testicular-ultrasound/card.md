@@ -52,5 +52,5 @@ Torsion cannot be excluded with ultrasound, although a normal comprehensive spec
 
 ## References
 
-- Blaivas M, Sierzenski P. _Acad Emerg Med_, 2001. PMID: 11136158 [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/11136158)]
-- Blaivas M, et al. _Acad Emerg Med_, 2001. PMID: 11136159 [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/11136159)]
+- Blaivas M, Sierzenski P. Emergency ultrasonography in the evaluation of the acute scrotum. Acad Emerg Med. 2001;8(1):85-9. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/11136158)]
+- Blaivas M, Sierzenski P, Lambert M. Emergency evaluation of patients presenting with acute scrotum using bedside ultrasonography. Acad Emerg Med. 2001;8(1):90-3. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/11136159)]

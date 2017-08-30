@@ -124,6 +124,6 @@ Figure 5: A lobar consolidation located cephalad to the diaphragm. The branching
 
 ## References
 
-- Blaivas M, et al. _Acad Emerg Med_, 2005. PMID: 16141018 [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/16141018)]
-- Liteplo AS, et al. _Acad Emerg Med_, 2009. PMID: 19183402 [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/19183402)]
-- Volpicelli G. _J Ultrasound Med_, 2013. PMID: 23269722 [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/23269722)]
+- Blaivas M, Lyon M, Duggal S. A prospective comparison of supine chest radiography and bedside ultrasound for the diagnosis of traumatic pneumothorax. Acad Emerg Med. 2005;12(9):844-9. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/16141018)]
+- Liteplo AS, Marill KA, Villen T, et al. Emergency thoracic ultrasound in the differentiation of the etiology of shortness of breath (ETUDES): sonographic B-lines and N-terminal pro-brain-type natriuretic peptide in diagnosing congestive heart failure. Acad Emerg Med. 2009;16(3):201-10. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/19183402)]
+- Volpicelli G. Lung sonography. J Ultrasound Med. 2013;32(1):165-71. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/23269722)]

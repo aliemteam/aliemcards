@@ -89,4 +89,4 @@ Fine movements and control of probe is necessary for accuracy and to avoid slipp
 
 ## References
 
-- Tayal VS, et al. _Acad Emerg Med_, 2006. PMID: 16531602 [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/16531602)]
+- Tayal VS, Hasan N, Norton HJ, Tomaszewski CA. The effect of soft-tissue ultrasound on the management of cellulitis in the emergency department. Acad Emerg Med. 2006;13(4):384-8. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/16531602)]

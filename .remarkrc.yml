@@ -1,6 +1,11 @@
 settings:
   listItemIndent: '1'
   rule: '-'
+  emphasis: '_'
+  gfm: true
+  entities: true
+  incrementListMarker: true
+  strong: '*'
 plugins:
   - - remark-lint-blockquote-indentation
     - - error
@@ -28,6 +33,9 @@ plugins:
     - - error
       - atx
 
+  - - remark-lint-linebreak-style
+    - - error
+
   - - remark-lint-list-item-bullet-indent
     - - error
 
@@ -41,13 +49,16 @@ plugins:
   - - remark-lint-no-auto-link-without-protocol
     - - error
 
-  - - remark-lint-no-blockquote-without-caret
+  - - remark-lint-no-blockquote-without-marker
     - - error
 
   - - remark-lint-no-consecutive-blank-lines
     - - error
 
   - - remark-lint-no-emphasis-as-heading
+    - - error
+
+  - - remark-lint-no-file-name-outer-dashes
     - - error
 
   - - remark-lint-no-heading-content-indent

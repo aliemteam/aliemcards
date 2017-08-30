@@ -60,4 +60,4 @@ Complications:
 
 ## References
 
-- Wheeless' TExtbook of Orthopedics [[Source](http://wheelessonline.com/)]
+- Available at: http://www.wheelessonline.com/ortho/dislocations_of_the_elbow. Accessed August 1, 2017. [[Source](http://wheelessonline.com/)]

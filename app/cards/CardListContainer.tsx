@@ -1,7 +1,6 @@
 import * as React from 'react';
 import { gql, graphql } from 'react-apollo';
-import { Card } from '../../server/models/card/cardType';
-import { Category } from '../../server/models/category/categoryType';
+import { Card, Category } from '../../server/schema';
 import CardList from './CardList';
 
 export interface Data {

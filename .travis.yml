@@ -6,13 +6,18 @@ branches:
         - master
         - /^greenkeeper-.*$/
         - /^v\d+\.\d+\.\d+(?:-rc\d+)?/
-cache: yarn
+dist: trusty
+cache:
+  directories:
+    - "node_modules"
 before_install:
+    - sudo apt-get update -qq
+    - sudo apt-get install -y libjpeg-dev libpng12-0
     - pip install --user awscli
     - export PATH=$PATH:$HOME/.local/bin
-script: yarn test -- --coverage && yarn build
+script: npm run test -- --coverage && npm run build
 before_deploy:
-    - yarn s3
+    - npm run s3
 deploy:
     'on':
         tags: true

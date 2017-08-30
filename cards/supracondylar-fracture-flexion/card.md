@@ -1,13 +1,13 @@
 ---
 title: Elbow Injuries - Supracondylar Fracture Flexion
 authors:
-   - Melody Glenn, MD
-   - Andrew Little, DO
-   - Mary Haas, MD
+    - Melody Glenn, MD
+    - Andrew Little, DO
+    - Mary Haas, MD
 created: 2016/12/12
 updates:
 categories:
-   - Orthopedics
+    - Orthopedics
 ---
 
 # Elbow Injuries: Supracondylar Fracture Flexion
@@ -43,7 +43,7 @@ Less common overall, more common in adults.
 
 ## References
 
-- Wheeless’ Textbook of Orthopaedics  [[Source](http://Wheelessonline.com)]
-- Orthobullets  [[Source](http://OrthoBullets.com)]
-- Radiopaedia  [[Source](http://Radiopaedia.org)]
+- Wheeless’ Textbook of Orthopaedics. Available at: http://www.wheelessonline.com/ortho/pediatric_supracondylar_fractures_of_the_humerus. Accessed August 1, 2017.
+- Orthobullets. Available at: http://www.orthobullets.com/pediatrics/4007/supracondylar-fracture--pediatric. Accessed August 1, 2017.
+- Radiopaedia. Available at: http://radiopaedia.org/articles/supracondylar-fracture. Accessed August 1, 2017.
 - General Guidelines For Management for Orthopedic Injuries card by the Nationwide Children’s Hospital, Dept of Orthopedics.

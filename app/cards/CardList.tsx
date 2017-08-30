@@ -1,7 +1,6 @@
 import * as React from 'react';
 import { Link } from 'react-router-dom';
-import { Card } from '../../server/models/card/cardType';
-import { Category } from '../../server/models/category/categoryType';
+import { Card, Category } from '../../server/schema';
 
 interface Props {
   cards: Array<Pick<Card, 'categories' | 'id' | 'title'>>;
@@ -34,8 +33,7 @@ export default ({
         <div key={card.id} className="card-list__item">
           <Link to={`/cards/${card.id}`} className="card-list__item-title">
             {card.title}
-          </Link>
-          {' '}
+          </Link>{' '}
           {card.categories.map(category =>
             <Link
               to={`/categories/${category.id}`}
