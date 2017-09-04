@@ -76,7 +76,7 @@
     "graphql-tools": "^1.1.0",
     "gulp": "gulpjs/gulp#4.0",
     "helmet": "^3.8.1",
-    "jest-cli": "^20.0.4",
+    "jest-cli": "^21.0.0",
     "normalizr": "^3.2.3",
     "now": "^7.2.4",
     "optics-agent": "^1.1.6",
