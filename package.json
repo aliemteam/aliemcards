@@ -112,7 +112,7 @@
     "gulp-stylus": "^2.6.0",
     "html-webpack-plugin": "^2.29.0",
     "husky": "^0.14.3",
-    "jest": "^20.0.4",
+    "jest": "^21.2.1",
     "js-yaml": "^3.9.0",
     "json-loader": "^0.5.7",
     "lint-staged": "^4.0.2",
