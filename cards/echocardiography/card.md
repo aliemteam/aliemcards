@@ -100,6 +100,6 @@ Anterior fat pad can be mistaken for pericardial effusion, but will have interna
 
 ## References
 
-- Randazzo MR et al. _Acad Emerg Med_, 2003. PMID: 12957982 [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=Randazzo+Acad+Emerg+Med%2C+2003.)]
+- Randazzo MR, Snoey ER, Levitt MA, Binder K. Accuracy of emergency physician assessment of left ventricular ejection fraction and central venous pressure using echocardiography. Acad Emerg Med. 2003;10(9):973-7. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=Randazzo+Acad+Emerg+Med%2C+2003.)]
 
-- Nagdev A, Stone MB. _Resuscitation_, 2011. PMID: 21397379 [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=Nagdev%2C+A.%2C+%26+Stone%2C+M.+B.+Resuscitation%2C+2011.)]
+- Nagdev A, Stone MB. Point-of-care ultrasound evaluation of pericardial effusions: does this patient have cardiac tamponade?. Resuscitation. 2011;82(6):671-3. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=Nagdev%2C+A.%2C+%26+Stone%2C+M.+B.+Resuscitation%2C+2011.)]

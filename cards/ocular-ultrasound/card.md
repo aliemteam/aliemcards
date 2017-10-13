@@ -119,5 +119,5 @@ Figure 5: Globe rupture - irregular globe contour with collapsed anterior chambe
 
 ## References
 
-- Blaivas M, et al. _Acad Emerg Med_, 2002. PMID: 12153883 [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=12153883)]
-- Kimberly HH, et al. _Acad Emerg Med_, 2008. PMID: 18275454 [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/18275454)]
+- Blaivas M, Theodoro D, Sierzenski PR. A study of bedside ocular ultrasonography in the emergency department. Acad Emerg Med. 2002;9(8):791-9. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=12153883)]
+- Kimberly HH, Shah S, Marill K, Noble V. Correlation of optic nerve sheath diameter with direct measurement of intracranial pressure. Acad Emerg Med. 2008;15(2):201-4. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/18275454)]

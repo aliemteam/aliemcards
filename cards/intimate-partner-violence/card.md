@@ -58,5 +58,5 @@ Define safety plan for discharge.
 
 ## References
 
-- Ashur ML. Asking about violence: SAFE questions. _JAMA_ 1993. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=8479058)]
-- Moyer VA, US Preventative Service Task Force. _Ann Intern Med_ 2013. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=23338828)]
+- Ashur ML. Asking about domestic violence: SAFE questions. JAMA. 1993;269(18):2367. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=8479058)]
+- Moyer VA. Screening for intimate partner violence and abuse of elderly and vulnerable adults: U.S. preventive services task force recommendation statement. Ann Intern Med. 2013;158(6):478-86. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=23338828)]

@@ -92,5 +92,5 @@ Figure 3: **Empty fluid-filled sac** within the endometrium. Given the absence o
 
 ## References
 
-- Wang R, et al. _Ann Emerg Med,_ 2011. PMID: 21310509 [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=Use+of+a+%CE%B2-hCG+discriminatory+zone+with+bedside+pelvic+ultrasonography.)]
-- Tayal VS, et al. _Acad Emerg Med,_ 2004. PMID: 15347539 [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/15347539)]
+- Wang R, Reynolds TA, West HH, et al. Use of a β-hCG discriminatory zone with bedside pelvic ultrasonography. Ann Emerg Med. 2011;58(1):12-20. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/?term=Use+of+a+%CE%B2-hCG+discriminatory+zone+with+bedside+pelvic+ultrasonography.)]
+- Tayal VS, Cohen H, Norton HJ. Outcome of patients with an indeterminate emergency department first-trimester pelvic ultrasound to rule out ectopic pregnancy. Acad Emerg Med. 2004;11(9):912-7. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/15347539)]

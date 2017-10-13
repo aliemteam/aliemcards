@@ -99,5 +99,5 @@ Figure 3: Acute cholecystitis. Note the gallstones with shadowing, pericholecyst
 
 ## References
 
-- Summers SM et al. _Ann Emerg Med,_ 2010. PMID: 20138397 [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/20138397)]
-- Blaivas M. et al. _Acad Emerg Med,_ 1999. PMID: 10530660 [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/10530660)]
+- Summers SM, Scruggs W, Menchine MD, et al. A prospective evaluation of emergency department bedside ultrasonography for the detection of acute cholecystitis. Ann Emerg Med. 2010;56(2):114-22. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/20138397)]
+- Blaivas M, Harwood RA, Lambert MJ. Decreasing length of stay with emergency ultrasound examination of the gallbladder. Acad Emerg Med. 1999;6(10):1020-3. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/10530660)]

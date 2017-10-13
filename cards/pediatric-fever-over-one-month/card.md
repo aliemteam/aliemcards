@@ -162,4 +162,4 @@ Generally accepted workup includes:
 
 ## References
 
-- Ishimine P, The evolving approach to the young child who has fever and no obvious source. _Emerg Med Clin North Am_. 2007 Nov;25(4):1087-115, vii. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/17950137)]
+- Ishimine P. The evolving approach to the young child who has fever and no obvious source. Emerg Med Clin North Am. 2007;25(4):1087-115, vii. [[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/17950137)]
