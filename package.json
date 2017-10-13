@@ -78,7 +78,7 @@
     "helmet": "^3.8.1",
     "jest-cli": "^20.0.4",
     "normalizr": "^3.2.3",
-    "now": "^7.2.4",
+    "now": "^8.0.0",
     "optics-agent": "^1.1.6",
     "react": "^15.6.1",
     "react-apollo": "^1.4.8",
