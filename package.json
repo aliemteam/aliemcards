@@ -157,7 +157,7 @@
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.1",
     "ts-jest": "^21.1.2",
-    "ts-loader": "^2.3.2",
+    "ts-loader": "^3.0.0",
     "ts-node": "^3.3.0",
     "tslint": "^5.5.0",
     "webfontloader": "^1.6.28",
