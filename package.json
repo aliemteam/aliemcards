@@ -15,7 +15,7 @@
     "lint:typescript": "tslint --type-check -p . -t codeFrame && tslint --type-check -p ./app -t codeFrame",
     "now-build": "echo build step skipped",
     "precommit": "lint-staged",
-    "prepush": "yarn build && yarn test -- --no-coverage",
+    "prepush": "yarn build && yarn test --no-coverage",
     "pretest": "yarn lint",
     "s3": "aws s3 sync ./cards s3://aliemcards --acl public-read --exclude \".*\" --exclude \"*/.*\" --exclude \"*/*.md\" --delete",
     "start": "node ./dist/index.js",
