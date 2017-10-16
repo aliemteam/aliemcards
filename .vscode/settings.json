@@ -5,7 +5,8 @@
   "tslint.nodePath": "./node_modules/.bin/tslint",
   "files.associations": {
     "deploy": "shellscript",
-    ".stylintrc": "json"
+    ".stylintrc": "json",
+    ".prettierrc": "yaml"
   },
   "remark.format": {
     "rules": {
@@ -17,6 +18,5 @@
       "strong": "*"
     }
   },
-  "prettier.printWidth": 100,
   "prettier.tabWidth": 2
 }

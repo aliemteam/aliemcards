@@ -44,7 +44,7 @@ exports[`<Card /> should render according to networkStatus 3`] = `
       dangerouslySetInnerHTML={
         Object {
           "__html": "<h1>Hello World</h1>
-        ",
+",
         }
       }
     />
@@ -84,7 +84,7 @@ exports[`<Card /> should render with multiple authors and updated date 1`] = `
       dangerouslySetInnerHTML={
         Object {
           "__html": "<h1>Hello World</h1>
-        ",
+",
         }
       }
     />

@@ -85,7 +85,9 @@ gulp.task('cards', () =>
       const data = { announcements, ...json };
       return writeFilePromise(
         './dist/server/data.json',
-        JSON.stringify(data).replace(/\u2028/g, '\\u2028').replace(/\u2029/g, '\\u2029'),
+        JSON.stringify(data)
+          .replace(/\u2028/g, '\\u2028')
+          .replace(/\u2029/g, '\\u2029'),
       );
     }),
 );

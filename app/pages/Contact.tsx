@@ -62,7 +62,7 @@ export default class Contact extends React.PureComponent<Props, State> {
   render() {
     return (
       <div>
-        {!this.state.sent &&
+        {!this.state.sent && (
           <div className="contact">
             <h1>Contact Form</h1>
             <form onSubmit={this.sendHandler}>
@@ -84,16 +84,16 @@ export default class Contact extends React.PureComponent<Props, State> {
                 </div>
               </div>
             </form>
-          </div>}
-        {this.state.sent &&
+          </div>
+        )}
+        {this.state.sent && (
           <div className="content">
             <h1>Thank You</h1>
             <p>
-              Thank you for your message.
-              Someone from the ALiEMCards team will contact you
-              shortly.
+              Thank you for your message. Someone from the ALiEMCards team will contact you shortly.
             </p>
-          </div>}
+          </div>
+        )}
       </div>
     );
   }
