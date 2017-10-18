@@ -20,6 +20,8 @@ Robust and comprehensive studies now support specific management guidelines for 
 
 ### Primary ICH
 
+![Primary ICH](image-1.png)
+
 **Systolic BP Goal (mmHg)**: &lt; 140-180
 
 **Seizure Prophylaxis**: No
@@ -29,6 +31,8 @@ Robust and comprehensive studies now support specific management guidelines for 
 - no platelets
 
 ### Subdural ICH
+
+![Subdural ICH](image-2.png)
 
 **Systolic BP Goal (mmHg)**: Age-dependent blood pressure goal: SBP ≥ 100 mmHg (age 50-69 years) and SBP ≥ 110 mmHg (age >70 years)
 
@@ -42,6 +46,8 @@ Robust and comprehensive studies now support specific management guidelines for 
 
 ### Epidural ICH
 
+![Epidural ICH](image-3.png)
+
 **Systolic BP Goal (mmHg)**: Age-dependent blood pressure goal: SBP ≥ 100 mmHg (age 50-69 years) and SBP ≥ 110 mmHg (age >70 years)
 
 **Seizure Prophylaxis**: Phenytoin if GCS &le; 10.
@@ -53,6 +59,8 @@ Robust and comprehensive studies now support specific management guidelines for 
 
 ### Traumatic Subarachnoid Hemorrhage (SAH)
 
+![Traumatic Subarachnoid Hemorrhage](image-4.png)
+
 **Systolic BP Goal (mmHg)**: Age-dependent blood pressure goal: SBP &ge; 100 mmHg (age 50-69 years) and SBP &ge; 110 mmHg (age &gt; 70 years)
 
 **Seizure Prophylaxis**: Phenytoin if GCS &le; 10.
@@ -60,6 +68,8 @@ Robust and comprehensive studies now support specific management guidelines for 
 **Therapy**: Supportive management
 
 ### Spontaneous SAH
+
+![Spontaneous Subarachnoid Hemorrhage](image-5.png)
 
 **Systolic BP Goal (mmHg)**: &lt; 140-160
 
