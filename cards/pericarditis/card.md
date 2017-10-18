@@ -33,7 +33,7 @@ categories:
     
 3. <span class="drug">Proton pump inhibitor</span> once daily for 3 months
 
-**Note**: *Steroids should be avoided* in all cases except refractory cases and neoplastic/autoimmune causes. Steroids are an independent risk for increased recurrence of pericarditis. Expert consultation strongly recommended if prescribing.
+**Note**: _Steroids should be avoided_ in all cases except refractory cases and neoplastic/autoimmune causes. Steroids are an independent risk for increased recurrence of pericarditis. Expert consultation strongly recommended if prescribing.
 
 ## Contraindications to Colchicine
 
@@ -52,7 +52,6 @@ categories:
 
 - Canada/ Europe: ~ $0.50-1.00
 - USA: Up to $5 per pill
-
 
 ## References
 
