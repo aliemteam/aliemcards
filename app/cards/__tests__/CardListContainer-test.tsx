@@ -61,6 +61,7 @@ describe('<CardListContainer />', () => {
     expect(component.first().props().cards.length).toBe(2);
 
     component.instance().handleChange({ currentTarget: { value: '1' } });
+    component.update();
     expect(component.state().categoryFilter).toBe('1');
     expect(component.first().props().cards.length).toBe(1);
   });

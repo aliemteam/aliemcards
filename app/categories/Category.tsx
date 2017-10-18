@@ -53,9 +53,7 @@ export default class Category extends React.PureComponent<Props, {}> {
     }
     return (
       <div>
-        <h1>
-          {category.name}
-        </h1>
+        <h1>{category.name}</h1>
         <CardList cards={cards || []} />
       </div>
     );

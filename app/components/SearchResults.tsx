@@ -47,15 +47,16 @@ export default class SearchResults extends React.PureComponent<Props, {}> {
       <div className="search__results">
         <ul>
           {this.props.data.cards.length === 0 &&
-            this.props.data.networkStatus > 6 &&
-            <li className="search__result search__noresult">No results found</li>}
-          {cards.map(card =>
+            this.props.data.networkStatus > 6 && (
+              <li className="search__result search__noresult">No results found</li>
+            )}
+          {cards.map(card => (
             <li className="search__result" key={card.id}>
               <Link to={`/cards/${card.id}`} onClick={this.props.onClick}>
                 {card.title}
               </Link>
-            </li>,
-          )}
+            </li>
+          ))}
         </ul>
       </div>
     );

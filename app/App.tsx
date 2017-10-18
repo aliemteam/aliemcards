@@ -53,9 +53,7 @@ class App extends React.PureComponent<Props, State> {
     return (
       <div className="row row--stacked main">
         <Helmet>
-          <script type="application/ld+json">
-            {JSON.stringify(App.structuredData)}
-          </script>
+          <script type="application/ld+json">{JSON.stringify(App.structuredData)}</script>
         </Helmet>
         <Header {...this.props} />
         {this.state.announcements && <Announcements />}
@@ -77,7 +75,8 @@ class App extends React.PureComponent<Props, State> {
   }
 }
 
-export default () =>
+export default () => (
   <Router>
     <Route path="/" component={App} />
-  </Router>;
+  </Router>
+);

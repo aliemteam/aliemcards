@@ -6,7 +6,8 @@
       "dom",
       "es6",
       "es2016.array.include",
-      "es2017.object"
+      "es2017.object",
+      "esnext"
     ],
     "jsx": "react",
     "sourceMap": true,

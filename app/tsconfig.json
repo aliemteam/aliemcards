@@ -5,7 +5,8 @@
       "dom",
       "dom.iterable",
       "es2017",
-      "es2017.object"
+      "es2017.object",
+      "esnext"
     ],
     "jsx": "react",
     "sourceMap": true,
