@@ -90,7 +90,7 @@ module.exports = {
         include: [join(__dirname, 'app')],
         use: isProduction
           ? ['babel-loader', tsLoader]
-          : ['react-hot-loader', 'babel-loader', tsLoader],
+          : ['react-hot-loader/webpack', 'babel-loader', tsLoader],
       },
       {
         // necessary to load google autotrack
