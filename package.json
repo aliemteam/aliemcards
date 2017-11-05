@@ -96,7 +96,7 @@
     "@types/compression": "^0.0.34",
     "@types/express": "^4.0.37",
     "@types/express-graphql": "0.0.35",
-    "@types/helmet": "^0.0.36",
+    "@types/helmet": "^0.0.37",
     "@types/jest": "^21.1.2",
     "@types/react": "^16.0.0",
     "@types/webpack": "^3.0.13",
