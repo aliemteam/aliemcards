@@ -29,7 +29,7 @@ export default () => (
       </div>
     </div>
     <div className="row row--centered">
-      <div className="content footer__disclaimer">
+      <div className="container footer__disclaimer">
         ALiEM Cards content is intended for use by healthcare professionals. Users of this site
         should exercise their own clinical judgment as to the reliability and accuracy of its
         information. Non-healthcare-professionals who use this site do so at their own risk. Content

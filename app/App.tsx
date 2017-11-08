@@ -57,7 +57,7 @@ class App extends React.PureComponent<Props, State> {
         </Helmet>
         <Header {...this.props} />
         {this.state.announcements && <Announcements />}
-        <main className="content" role="main">
+        <main className="content container" role="main">
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/cards" component={Cards} />
