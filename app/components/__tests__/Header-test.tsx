@@ -21,16 +21,17 @@ describe('<Header />', () => {
     expect(nav.hasClass('header__nav--open')).toBe(false);
   });
   it('should toggle the menu on click', () => {
-    const { button, nav } = setup();
-    expect(button.hasClass('hamburger__squeeze--active')).toBe(false);
-    expect(nav.hasClass('header__nav--open')).toBe(false);
+    const { component } = setup();
 
-    button.simulate('click');
-    expect(button.hasClass('hamburger__squeeze--active')).toBe(true);
-    expect(nav.hasClass('header__nav--open')).toBe(true);
+    expect(component.find('button').hasClass('hamburger__squeeze--active')).toBe(false);
+    expect(component.find('nav').hasClass('header__nav--open')).toBe(false);
 
-    button.simulate('click');
-    expect(button.hasClass('hamburger__squeeze--active')).toBe(false);
-    expect(nav.hasClass('header__nav--open')).toBe(false);
+    component.find('button').simulate('click');
+    expect(component.find('button').hasClass('hamburger__squeeze--active')).toBe(true);
+    expect(component.find('nav').hasClass('header__nav--open')).toBe(true);
+
+    component.find('button').simulate('click');
+    expect(component.find('button').hasClass('hamburger__squeeze--active')).toBe(false);
+    expect(component.find('nav').hasClass('header__nav--open')).toBe(false);
   });
 });

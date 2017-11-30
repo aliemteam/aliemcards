@@ -53,19 +53,13 @@ export default class Card extends React.PureComponent<Props, {}> {
     return (
       <article role="article">
         <Helmet>
-          <script type="application/ld+json">
-            {JSON.stringify({ headline: card.title })}
-          </script>
+          <script type="application/ld+json">{JSON.stringify({ headline: card.title })}</script>
         </Helmet>
-        <h1>
-          {card.title}
-        </h1>
+        <h1>{card.title}</h1>
         <div className="card">
           <div className="card__meta">
             <div>
-              <strong>
-                {card.authors.length > 1 ? 'Authors: ' : 'Author: '}
-              </strong>
+              <strong>{card.authors.length > 1 ? 'Authors: ' : 'Author: '}</strong>
               {card.authors.map(author => author.name).join(', ')}
             </div>
             <div>
@@ -75,7 +69,9 @@ export default class Card extends React.PureComponent<Props, {}> {
           <div
             className="card__content"
             dangerouslySetInnerHTML={{
-              __html: remark().use(html).processSync(card.content).contents,
+              __html: remark()
+                .use(html)
+                .processSync(card.content).contents,
             }}
           />
         </div>

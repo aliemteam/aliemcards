@@ -69,7 +69,10 @@ class AuthorFactory {
  */
 function createCategoryObj(category: string): BaseObject {
   return {
-    id: category.replace(/[^a-zA-Z0-9-_]/g, '-').replace(/-(?=-)/g, '').toLowerCase(),
+    id: category
+      .replace(/[^a-zA-Z0-9-_]/g, '-')
+      .replace(/-(?=-)/g, '')
+      .toLowerCase(),
     name: category,
   };
 }

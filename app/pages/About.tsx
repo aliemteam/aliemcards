@@ -55,7 +55,7 @@ const team: BioProps[] = [
   },
 ];
 
-export default () =>
+export default () => (
   <div className="content">
     <h1>About</h1>
     <h2>Paucis Verbis Cards</h2>
@@ -88,4 +88,5 @@ export default () =>
     <div className="row row--wrap">
       {team.map(member => <AboutBio key={member.name} {...member} />)}
     </div>
-  </div>;
+  </div>
+);

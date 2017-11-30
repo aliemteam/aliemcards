@@ -61,7 +61,7 @@ const plugins = isProduction
 const tsLoader = {
   loader: 'ts-loader',
   options: {
-    configFileName: join(__dirname, 'app/tsconfig.json'),
+    configFile: join(__dirname, 'app/tsconfig.json'),
   },
 };
 
@@ -69,8 +69,8 @@ module.exports = {
   devtool: !isProduction ? 'eval-cheap-source-map' : false,
   entry: {
     bundle: isProduction
-      ? ['babel-polyfill', './app/index']
-      : ['webpack-hot-middleware/client', 'babel-polyfill', './app/index'],
+      ? ['babel-polyfill', 'raf/polyfill', './app/index']
+      : ['webpack-hot-middleware/client', 'babel-polyfill', 'raf/polyfill', './app/index'],
     vendor: ['react', 'react-dom'],
   },
   output: {
@@ -90,7 +90,7 @@ module.exports = {
         include: [join(__dirname, 'app')],
         use: isProduction
           ? ['babel-loader', tsLoader]
-          : ['react-hot-loader', 'babel-loader', tsLoader],
+          : ['react-hot-loader/webpack', 'babel-loader', tsLoader],
       },
       {
         // necessary to load google autotrack
