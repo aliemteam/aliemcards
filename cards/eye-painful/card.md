@@ -11,7 +11,10 @@ categories:
 ---
 # The Painful Eye
 
-We will delve into some causes of the painful eye in this PV card. Many causes of the painful eye were already described in a previous PV card titled ["Red Eye"](https://www.aliem.com/2010/01/paucis-verbis-card-the-red-eye/) written by Dr. Michelle Lin. There is much overlap between the two categories, such as acute angle closure glaucoma, scleritis, and anterior uveitis/iritis. If you haven't already, check out "Red Eye"!
+There is significant overlap among conditions that cause a red, painful or red and painful eye. Here are additional cards that may help in your evaluation:
+
+- [Eye Differential Diagnoses](/cards/eye-ddx)
+- [Red Eye](/cards/red-eye)
 
 ## Optic Neuritis
 
@@ -41,16 +44,15 @@ We will delve into some causes of the painful eye in this PV card. Many causes o
 	- **treatment**: address the underlying cause
 - Ulcerative Keratitis: can be seen in association with a wide range of collagen vascular diseases (e.g. rheumatoid arthritis, sarcoidosis), DM (neurotrophic keratitis), vitamin A deficiency or allergic disease (atopic keratoconjunctivitis) amongst many others; **treatment**: determine and treat underlying cause
 
-
 ### Infectious Causes
-- Bacterial: commonly occurs due to *Streptococcus pneumoniae* and in contact lens wearers *Pseudomonas*, *Staphylococcus aureus* and *Serratia*
+- Bacterial: commonly occurs due to _Streptococcus pneumoniae_ and in contact lens wearers _Pseudomonas_, _Staphylococcus aureus_ and _Serratia_
 	- **Treatment**: cephalosporin (e.g. cefazolin) + aminoglycoside or floroquinolone
 - Viral
 	- HSV: dentritic corneal defects on exam; **treatment**: topical trifluridine, oral acyclovir as alternative or adjunct 
 	- VZV: forehead and upper eyelid vesicular lesions; dendritic lesions don't have well stained terminal bulbs and ulceration is uncommon compared to HSV; **treatment**: oral acyclovir or oral valacyclovir
 	- Adenovirus: often bilateral diffuse punctate lesions on exam, palpable preauricular lymph node; **resolves w/o treatment** in 7-10 days
-- Fungal: often due to *Fusarium* and *Aspergillus* due to traumatic injury from vegetable matter; are often initially treated as bacterial until corneal culture results are available; **treatment**: admit to hospital, mild cases - topicals, severe cases- add systemic antifungals; topical steroids are contraindicated
-- Amoebic: commonly *Acanthamoeba*; suspect in contact lens wearers with dentritiform lesions (thus often be confused with HSV); send corneal epithelium cultures if suspect; consult ophthalmologist, **treatment** typically involves topical amoebicidal agents
+- Fungal: often due to _Fusarium_ and _Aspergillus_ due to traumatic injury from vegetable matter; are often initially treated as bacterial until corneal culture results are available; **treatment**: admit to hospital, mild cases - topicals, severe cases- add systemic antifungals; topical steroids are contraindicated
+- Amoebic: commonly _Acanthamoeba_; suspect in contact lens wearers with dentritiform lesions (thus often be confused with HSV); send corneal epithelium cultures if suspect; consult ophthalmologist, **treatment** typically involves topical amoebicidal agents
 
 ## Corneal Abrasion
 - **symptoms**: pain, photophobia, excessive tearing
@@ -58,7 +60,7 @@ We will delve into some causes of the painful eye in this PV card. Many causes o
 - diagnosis: green flourescence at damaged area/s of cornea under Wood's lamp or cobalt blue light on slit lamp
 - **treatment**: topical antibiotic such as erythromycin or in contact lens wearers gentamicin or ciprofloxacin for Pseudomonal coverage; pain control options: topical NSAIDs, cycloplegics, oral analgesics (e.g. acetaminophen); do not patch; discontinue contact lens use until defect heals and symptoms resolve
 - followup: small abrasions heal quickly and generally require only a single 24 hour f/u exam; if contact lens related, should be reexamined daily to ensure healing
-- *indications for referral to opthalmologist*: large abrasions, defects over visual axis, abrasions that become larger or more symptomatic the next day, or development of ulcer
+- _indications for referral to opthalmologist_: large abrasions, defects over visual axis, abrasions that become larger or more symptomatic the next day, or development of ulcer
 
 ## References
 
