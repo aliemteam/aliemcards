@@ -64,12 +64,17 @@ Findings:
 - Injection more pronounced at fornices
 - **Contact lens wearer**: Pseudomonas risk
   - **Treatment:** Topical fluoroquinolone, cycloplegic
-- **Gonorrheal conjunctivitis:** Sexually active patients and neonates (from birthcanal), “hyperacute conjunctivitis”, abrupt onset, copious purulent discharge
-  - **Treatment:** Topical antibiotics, usually with systemic antibitics because associated with venereal disease
 
-### Inclusion conjunctivitis
+**Gonorrheal conjunctivitis:** 
+- Sexually active patients and neonates (from birthcanal)
+- “hyperacute conjunctivitis”, abrupt onset
+- copious purulent discharge
+- **Treatment:** Topical antibiotics, usually with systemic antibitics because associated with venereal disease
 
-- **Chlamydia:** Sexually active patients and neonates,mucopurulent discharge, foreign body sensation
+**Inclusion or Chlamydial conjunctivitis:** 
+- Sexually active patients and neonates
+- mucopurulent discharge
+- foreign body sensation
 - Check for concurrent sexually transmitted infections (symptomatic only 1⁄2 patients).
 - **Treatment:** Topical <span class="drug">erythromycin</span> and po <span class="drug">azithromycin</span> x 1 
 
