@@ -1,7 +1,7 @@
 ---
 
 title: Painful Eye
-author:
+authors:
     - Puja Gopal, MD
 created: 2017/07/14
 updates: 
