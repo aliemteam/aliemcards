@@ -30,13 +30,13 @@ export default class Categories extends React.PureComponent<Props, {}> {
       <div>
         <h1>Categories</h1>
         <div className="card-list">
-          {categories.map(category =>
+          {categories.map(category => (
             <div key={category.id} className="card-list__item">
               <Link to={`/categories/${category.id}`} className="card-list__item-title">
                 {category.name}
               </Link>
-            </div>,
-          )}
+            </div>
+          ))}
         </div>
       </div>
     );
