@@ -2,11 +2,11 @@
 
 title: Sepsis Core Measure
 authors:
-  - Jeremy Voros, MD
+    - Jeremy Voros, MD
 created: 2017/12/01
 updates: 
 categories:
-  - Critical Care
+    - Critical Care
 
 ---
 
@@ -46,5 +46,4 @@ Severe sepsis _plus_ sepsis-induced hypoperfusion persisting despite adequate fl
 
 | Sepsis-induced hypoperfusion: SBP < 90, or MAP < 70, or SBP decrease of > 40 mmHg or > 2 standard deviations from normal for age or known baseline
 
-
-
+## References
