@@ -27,6 +27,6 @@ There is significant overlap among conditions that cause a red, painful or red a
 
 ## References
 
-- [Nawar, E.W., Niska, R.W., Xu, J. National Hospital Ambulatory Medical Care Survey: 2005 Emergency Department Summary: Advance Data from Vital and Health Statistics; No. 386. National Center for Health Statistics, Hyattsville, MD; 2007.](https://www.ncbi.nlm.nih.gov/pubmed/17703794)
+- Nawar, E.W., Niska, R.W., Xu, J. National Hospital Ambulatory Medical Care Survey: 2005 Emergency Department Summary: Advance Data from Vital and Health Statistics; No. 386. National Center for Health Statistics, Hyattsville, MD; 2007. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/17703794)]
 - Sharma R, Brunette DD. Ophthalmology. In: Marx JA, Hockberger RS, Walls RM. eds. Rosen's Emergency Medicine - Concepts and Clinical Practice. 8th ed. Philadelphia, PA: Elsevier/Saunders, 2014.
 - Walker RA, Adhikari S. Eye Emergencies. In: Tintinalli JE et al, eds. Tintinalli’s Emergency Medicine: A Comprehensive Study Guide. 7th ed. New York: McGraw-Hill, 2011.
