@@ -16,7 +16,6 @@ There is significant overlap among conditions that cause a red, painful or red a
 - [Eye Differential Diagnoses](/cards/eye-ddx)
 - [Red Eye](/cards/red-eye)
 
-
 ## Orbital Cellulitis
 
 - infectious inflammation that occurs posterior to the orbital septum, within the bony orbit
