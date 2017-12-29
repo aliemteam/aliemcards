@@ -16,6 +16,18 @@ There is significant overlap among conditions that cause a red, painful or red a
 - [Eye Differential Diagnoses](/cards/eye-ddx)
 - [Red Eye](/cards/red-eye)
 
+## Orbital Cellulitis
+
+- infectious inflammation that occurs posterior to the orbital septum, within the bony orbit
+- commonly a secondary infection extending from infections of the paranasal sinuses or upper respiratory tract
+- **symptoms**: erythema and edema of the eyelids, vision loss, fever, headache, and diplopia
+- **physical exam**: proptosis, chemosis, discharge, pain with eye movement, afferent pupillary defect
+- **diagnosis**: CT imaging is indicated in patients with periorbital inflammation, proptosis, ophthalmoplegia and worsening visual acuity. MRI can be used when CT is inconclusive.
+- **treatment**: 
+	- emergent ophthalmology consultation
+	- broad-spectrum IV antibiotics
+	- surgery may be required to drain orbital abscesses or remove inciting foreign bodies
+
 ## Optic Neuritis
 
 ![normal optic disc in optic neuritis photo](image-1.png)
@@ -64,4 +76,5 @@ There is significant overlap among conditions that cause a red, painful or red a
 
 ## References
 
-- [Dargin J, Lowenstein R. The painful eye. Emerg Med Clin North Am. 2008 Feb;26(1):199-216.](https://www.ncbi.nlm.nih.gov/pubmed/18249263)
+- Dargin J, Lowenstein R. The painful eye. Emerg Med Clin North Am. 2008 Feb;26(1):199-216. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/18249263)]
+- Tsirouki T, Dastiridou AI, Ibánez flores N, et al. Orbital Cellulitis. Surv Ophthalmol. 2017; [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/29248536)]
