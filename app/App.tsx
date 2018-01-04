@@ -55,12 +55,14 @@ class App extends React.PureComponent<Props, State> {
   }
 
   handleScriptLoad() {
+    // tslint:disable-next-line:no-console
     console.log('script loaded');
     this.setState({ addthisLoaded: true });
   }
 
   buttonclick() {
     if (this.state.addthisLoaded) {
+      // tslint:disable-next-line:no-console
       console.log('button click');
       addthis.layers.refresh();
     }
@@ -73,6 +75,7 @@ class App extends React.PureComponent<Props, State> {
   }
 
   componentWillUpdate() {
+    // tslint:disable-next-line:no-console
     console.log('App did update');
     if (this.state.addthisLoaded) {
       addthis.layers.refresh();
@@ -80,6 +83,7 @@ class App extends React.PureComponent<Props, State> {
   }
 
   componentDidMount() {
+    // tslint:disable-next-line:no-console
     console.log('App did mount');
   }
 
