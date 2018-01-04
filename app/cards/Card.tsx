@@ -5,6 +5,8 @@ import * as remark from 'remark';
 import * as html from 'remark-html';
 import { Card as ICard } from '../../server/schema';
 
+// declare var addthis;
+
 interface Props {
   data: {
     card: ICard;
@@ -38,6 +40,12 @@ const config = {
 
 @graphql(cardDataFromId, config)
 export default class Card extends React.PureComponent<Props, {}> {
+  componentDidMount() {
+    // console.log('Card lifecycle fired.');
+    // addthis.layers.refresh(); // important! init the add this widget
+    // addthis.update('share', 'url', 'https://www.aliemcards.com'); // update with initial prop value
+  }
+
   render() {
     const { card, networkStatus } = this.props.data;
     if (networkStatus < 7) {
@@ -56,6 +64,7 @@ export default class Card extends React.PureComponent<Props, {}> {
           <script type="application/ld+json">{JSON.stringify({ headline: card.title })}</script>
         </Helmet>
         <h1>{card.title}</h1>
+        <div className="addthis_inline_share_toolbox" />
         <div className="card">
           <div className="card__meta">
             <div>
