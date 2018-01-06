@@ -20,9 +20,9 @@ These are the definitions tied to reimbursement, and likely the measures used to
 
 | CMS Term                                              | Definition                                                                                                                        |
 |-------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| Sepsis                                                | two SIRS criteria _plus_ suspected infection                                                                                      |
-| <span style="white-space:nowrap">Severe Sepsis</span> | sepsis _plus_ one or more signs of organ dysfunction                                                                              |
-| <span style="white-space:nowrap">Septic Shock</span>  | severe sepsis _plus either_: sepsis-induced hypoperfusion persisting despite adequate fluid resuscitation _or_ lactate > 4 mmol/L |
+| Sepsis                                                | 2 SIRS criteria _plus_ suspected infection                                                                                      |
+| <span style="white-space:nowrap">Severe Sepsis</span> | Sepsis _plus_ 1 or more signs of organ dysfunction                                                                              |
+| <span style="white-space:nowrap">Septic Shock</span>  | Severe sepsis _plus either_: sepsis-induced hypoperfusion persisting despite adequate fluid resuscitation _or_ lactate > 4 mmol/L |
 
 ### SIRS Criteria
 - Temp >38°C (100.4°F) or < 36°C (96.8°F)
@@ -31,7 +31,7 @@ These are the definitions tied to reimbursement, and likely the measures used to
 - WBC > 12,000/mm³, < 4,000/mm³, or > 10% bands
 
 ### Organ Dysfunction Criteria
-- SBP < 90, or MAP < 65, or SBP decrease of > 40 mmHg from known baseline
+- SBP < 90 mmHg, or MAP < 65 mmHg, or SBP decrease of > 40 mmHg from known baseline
 - Creatinine > 2.0 mg/dL, or urine output < 0.5 mL/kg/hour for 2 hours   
 - Bilirubin > 2 mg/dL (34.2 mmol/L)                                      
 - Platelet count < 100,000                                               
@@ -40,39 +40,39 @@ These are the definitions tied to reimbursement, and likely the measures used to
 
 ### Sepsis-induced Hypoperfusion Criteria
 Any one of:
-- SBP < 90
-- MAP < 70
+- SBP < 90 mmHg
+- MAP < 70 mmHg
 - SBP decrease of > 40 mmHg or > 2 standard deviations from normal for age or known baseline
 
 ## Study Definitions
 
-The three most recent and most prominent studies investigating resuscitation in septic shock were ProCESS, ARISE and ProMISE. They all share a common definition of septic shock, but do not directly address what CMS calls "severe sepsis."
+The 3 most recent and most prominent studies investigating resuscitation in septic shock were ProCESS, ARISE and ProMISE. They all share a common definition of septic shock, but do not directly address what CMS calls "severe sepsis."
 
-Their definition differs from CMS on the MAP cutoff for hypoperfusion. CMS sets a MAP cutoff of < 70, while these studies use a MAP < 65.
+Their definition differs from CMS on the MAP cutoff for hypoperfusion. CMS sets a MAP cutoff of < 70 mmHg, while these studies use a MAP < 65 mmHg.
 
 | Study Term                                            | Definition                                                                                                                                                                                                                              |
 |-------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Sepsis                                                | _not defined_                                                                                                                                                                                                                           |
 | <span style="white-space:nowrap">Severe Sepsis</span> | _not defined_                                                                                                                                                                                                                           |
-| <span style="white-space:nowrap">Septic Shock</span>  | two SIRS criteria _plus either_: refractory hypotension (SBP <90 mmHg or MAP <65 mmHg, despite resuscitation with at least 1 liter of intravenous fluids within 60 minutes) or hyperlactatemia (blood lactate level, ≥ 4 mmol per liter |
+| <span style="white-space:nowrap">Septic Shock</span>  | 2 SIRS criteria _plus either_: refractory hypotension (SBP <90 mmHg or MAP <65 mmHg, despite resuscitation with at least 1 liter of intravenous fluids within 60 minutes) or hyperlactatemia (blood lactate level, ≥ 4 mmol per liter |
 
 ## Surviving Sepsis Campaign (SSC) and Sepsis-3
 
 The latest 2016 guidelines from the prominent international working group are based on previously established definitions of sepsis, i.e. the CMS definitions. 
 
-However, also in 2016, the Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3) were published in the Journal of the American Medical Association. SSC has indicated their guidelines will begin transitioning to these new definitions.
+However also in 2016, the Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3) were published in the Journal of the American Medical Association. SSC has indicated their guidelines will begin transitioning to these new definitions.
 
 Notably, the **Sepsis-3** definitions do away with the term "severe sepsis".
 
 | <span style="white-space:nowrap">Sepsis-3 Term</span> | Definition                                                                                                                                                      |
 |-------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Sepsis                                                | life-threatening organ dysfunction caused by a dysregulated host response to infection                                                                          |
-| <span style="white-space:nowrap">Severe Sepsis</span> | _no longer defined_                                                                                                                                             |
-| <span style="white-space:nowrap">Septic Shock</span>  | sepsis with persistent hypotension requiring vasopressors to maintain MAP ≥ 65 mm Hg and a serum lactate level > 2 mmol/L despite adequate volume resuscitation |
+| Sepsis                                                | Life-threatening organ dysfunction caused by a dysregulated host response to infection                                                                          |
+| <span style="white-space:nowrap">Severe Sepsis</span> | _No longer defined_                                                                                                                                             |
+| <span style="white-space:nowrap">Septic Shock</span>  | Sepsis with persistent hypotension requiring vasopressors to maintain MAP ≥ 65 mm Hg and a serum lactate level > 2 mmol/L despite adequate volume resuscitation |
 
 Organ dysfunction can be identified as an acute change in Sequential Organ Failure Assessment (SOFA) score ≥ 2 points due to the infection.
 
-Patients with suspected infection who are likely to have a prolonged ICU stay or to die in the hospital can be promptly identified at the bedside with qSOFA (quick SOFA)
+Patients with suspected infection who are likely to have a prolonged ICU stay or to die in the hospital can be promptly identified at the bedside with qSOFA (quick SOFA).
 
 ### qSOFA Criteria
 Any one of:
@@ -86,7 +86,7 @@ The total Sequential Organ Failure Assessment (SOFA) score is the sum of scores 
 
 ### Respiratory System
 
-| PaO2/FiO2 (mmHg)                  | score |
+| PaO2/FiO2 (mmHg)                  | Score |
 |-----------------------------------|-------|
 | ≥ 400                             | 0     |
 | < 400                             | 1     |
@@ -96,7 +96,7 @@ The total Sequential Organ Failure Assessment (SOFA) score is the sum of scores 
 
 ### Nervous system
 
-| Glasgow coma scale | score |
+| Glasgow coma scale | Score |
 |--------------------|-------|
 | 15                 | 0     |
 | 13–14              | 1     |
@@ -106,17 +106,17 @@ The total Sequential Organ Failure Assessment (SOFA) score is the sum of scores 
 
 ### Cardiovascular system
 
-| Mean arterial pressure OR administration of vasopressors required                        | score |
+| Mean arterial pressure OR administration of vasopressors required                        | Score |
 |------------------------------------------------------------------------------------------|-------|
 | MAP ≥ 70 mm/Hg                                                                           | 0     |
 | MAP < 70 mm/Hg                                                                           | 1     |
-| dopamine ≤ 5 µg/kg/min or dobutamine (any dose)                                          | 2     |
-| dopamine > 5 µg/kg/min OR epinephrine ≤ 0.1 µg/kg/min OR norepinephrine ≤ 0.1 µg/kg/min  | 3     |
-| dopamine > 15 µg/kg/min OR epinephrine > 0.1 µg/kg/min OR norepinephrine > 0.1 µg/kg/min | 4     |
+| Dopamine ≤ 5 µg/kg/min or dobutamine (any dose)                                          | 2     |
+| Dopamine > 5 µg/kg/min OR epinephrine ≤ 0.1 µg/kg/min OR norepinephrine ≤ 0.1 µg/kg/min  | 3     |
+| Dopamine > 15 µg/kg/min OR epinephrine > 0.1 µg/kg/min OR norepinephrine > 0.1 µg/kg/min | 4     |
 
 ### Hepatic system
 
-| Bilirubin, mg/dl (μmol/L) | score |
+| Bilirubin, mg/dl (μmol/L) | Score |
 |---------------------------|-------|
 | < 1.2 (< 20)              | 0     |
 | 1.2–1.9 (20-32)           | 1     |
@@ -126,7 +126,7 @@ The total Sequential Organ Failure Assessment (SOFA) score is the sum of scores 
 
 ### Coagulation
 
-| Platelets×103/µl | score |
+| Platelets×10³/µl | Score |
 |------------------|-------|
 | ≥ 150            | 0     |
 | < 150            | 1     |
@@ -136,7 +136,7 @@ The total Sequential Organ Failure Assessment (SOFA) score is the sum of scores 
 
 ### Renal System
 
-| Creatinine, mg/dl (μmol/L) (or urine output) | score |
+| Creatinine, mg/dl (μmol/L) (or urine output) | Score |
 |----------------------------------------------|-------|
 | < 1.2 (< 110)                                | 0     |
 | 1.2–1.9 (110-170)                            | 1     |
