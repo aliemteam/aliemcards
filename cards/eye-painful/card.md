@@ -62,15 +62,15 @@ There is significant overlap among conditions that cause a red, painful or red a
 	- **Treatment**: Cephalosporin (e.g. cefazolin) + aminoglycoside or floroquinolone
 - VIRAL
 	- HSV: dentritic corneal defects on exam
-    - **Treatment**: Topical trifluridine, oral acyclovir as alternative or adjunct 
+  - **Treatment**: Topical trifluridine, oral acyclovir as alternative or adjunct 
 	- VZV: forehead and upper eyelid vesicular lesions; dendritic lesions don't have well stained terminal bulbs and ulceration is uncommon compared to HSV
-    - **Treatment**: Oral acyclovir or oral valacyclovir
+  - **Treatment**: Oral acyclovir or oral valacyclovir
 	- Adenovirus: often bilateral diffuse punctate lesions on exam, palpable preauricular lymph node; 
-    - **Treatment**: Resolves without treatment in 7-10 days
+  - **Treatment**: Resolves without treatment in 7-10 days
 - FUNGAL: Often due to _Fusarium_ and _Aspergillus_ due to traumatic injury from vegetable matter; are often initially treated as bacterial until corneal culture results are available
   - **Treatment**: Admit to hospital
-    - Mild cases - Topical antifungals
-    - Severe cases - Add systemic antifungals; topical steroids are contraindicated
+  - Mild cases - Topical antifungals
+  - Severe cases - Add systemic antifungals; topical steroids are contraindicated
 - AMOEBIC: Commonly _Acanthamoeba_; suspect in contact lens wearers with dentritiform lesions (thus often be confused with HSV); send corneal epithelium cultures if suspect; consult ophthalmologist
   - **Treatment** typically involves topical amoebicidal agents
 
