@@ -77,7 +77,7 @@ There is significant overlap among conditions that cause a red, painful or red a
 ## Corneal Abrasion
 - **Symptoms**: Pain, photophobia, excessive tearing
 - **Physical exam**: Visual acuity is normal unless the abrasion involves the visual axis or there is significant corneal edema; ciliary spasm may cause miosis; conjunctival injection
-- diagnosis: green flourescence at damaged area/s of cornea under Wood's lamp or cobalt blue light on slit lamp
+- **Diagnosis**: green flourescence at damaged area/s of cornea under Wood's lamp or cobalt blue light on slit lamp
 - **Treatment**: 
   - Topical antibiotic such as erythromycin, or in contact lens wearers gentamicin or ciprofloxacin for Pseudomonal coverage
   - Pain control options: Topical NSAIDs, cycloplegics, oral analgesics (e.g. acetaminophen)
