@@ -50,7 +50,7 @@ The 3 most recent and most prominent studies investigating resuscitation in sept
 
 Their definition differs from CMS on the MAP cutoff for hypoperfusion. CMS sets a MAP cutoff of < 70 mmHg, while these studies use a MAP < 65 mmHg.
 
-| Study Term                                            | Definition                                                                                                                                                                                                                              |
+| Study Term                                            | Definition                                                                                                                                                                                                                            |
 |-------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Sepsis                                                | _not defined_                                                                                                                                                                                                                         |
 | <span style="white-space:nowrap">Severe Sepsis</span> | _not defined_                                                                                                                                                                                                                         |
