@@ -54,8 +54,6 @@ class App extends React.PureComponent<Props, State> {
   }
 
   handleScriptLoad() {
-    // tslint:disable-next-line:no-console
-    console.log('addthis loaded');
     this.setState({ addthisLoaded: true });
     window.addthis.init();
   }
