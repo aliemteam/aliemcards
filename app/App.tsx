@@ -1,8 +1,7 @@
 import * as React from 'react';
 import { Helmet } from 'react-helmet';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-
 import * as LoadScript from 'react-load-script';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import Announcements from './components/Announcements';
 import Footer from './components/Footer';
@@ -12,7 +11,7 @@ import lazyLoad from './utils/LazyLoad';
 import './assets/css/main';
 
 declare const System;
-declare const addthis;
+declare const window: any;
 
 const Home = lazyLoad(() => System.import('./pages/Home').then(module => module.default));
 const Cards = lazyLoad(() => System.import('./cards/').then(module => module.default));
@@ -56,35 +55,9 @@ class App extends React.PureComponent<Props, State> {
 
   handleScriptLoad() {
     // tslint:disable-next-line:no-console
-    console.log('script loaded');
+    console.log('addthis loaded');
     this.setState({ addthisLoaded: true });
-  }
-
-  buttonclick() {
-    if (this.state.addthisLoaded) {
-      // tslint:disable-next-line:no-console
-      console.log('button click');
-      addthis.layers.refresh();
-    }
-  }
-
-  componentWillMount() {
-    if (this.state.addthisLoaded) {
-      addthis.layers.refresh();
-    }
-  }
-
-  componentWillUpdate() {
-    // tslint:disable-next-line:no-console
-    console.log('App did update');
-    if (this.state.addthisLoaded) {
-      addthis.layers.refresh();
-    }
-  }
-
-  componentDidMount() {
-    // tslint:disable-next-line:no-console
-    console.log('App did mount');
+    window.addthis.init();
   }
 
   render() {
@@ -100,11 +73,15 @@ class App extends React.PureComponent<Props, State> {
         <Header {...this.props} />
         {this.state.announcements && <Announcements />}
         <main className="content container" role="main">
-          <button onClick={this.buttonclick.bind(this)}>button</button>
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/cards" component={Cards} />
-            <Route path="/cards/:id" component={Card} />
+            <Route
+              path="/cards/:id"
+              render={routeProps => (
+                <Card {...routeProps} addThisLoaded={this.state.addthisLoaded} />
+              )}
+            />
             <Route exact path="/categories" component={Categories} />
             <Route path="/categories/:category" component={Category} />
             <Route path="/about" component={About} />

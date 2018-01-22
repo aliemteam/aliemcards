@@ -29,7 +29,9 @@ const setup = (networkStatus = 7, cardData?: Partial<CardType>) => {
     updates: null,
     ...cardData,
   };
-  const snapshot = renderer.create(<Card data={{ card, networkStatus }} match={stub} />);
+  const snapshot = renderer.create(
+    <Card data={{ card, networkStatus }} match={stub} location={{ pathname: 'localhost' }} />,
+  );
   return {
     snapshot,
   };
