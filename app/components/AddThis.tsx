@@ -7,7 +7,7 @@ interface Props {
 
 export default class Card extends React.Component<Props, {}> {
   componentDidMount() {
-    window.addEventListener('load', window.addthis.layers.refresh());
+    window.addEventListener('load', window.addthis.layers.refresh);
   }
 
   componentWillUnmount() {
