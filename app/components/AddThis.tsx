@@ -5,19 +5,13 @@ interface Props {
   title: string;
 }
 
-declare const window: any;
-
 export default class Card extends React.Component<Props, {}> {
   componentDidMount() {
     window.addEventListener('load', window.addthis.layers.refresh());
   }
 
-  componentDidUpdate() {
-    window.addEventListener('load', window.addthis.layers.refresh());
-  }
-
   componentWillUnmount() {
-    window.removeEventListener('load', window.addthis.layers.refresh());
+    window.removeEventListener('load', window.addthis.layers.refresh);
   }
 
   render() {

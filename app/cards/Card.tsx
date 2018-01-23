@@ -43,7 +43,7 @@ const config = {
 };
 
 @graphql(cardDataFromId, config)
-export default class Card extends React.Component<Props, {}> {
+export default class Card extends React.Component<Props> {
   render() {
     const { card, networkStatus } = this.props.data;
     if (networkStatus < 7) {
@@ -62,9 +62,6 @@ export default class Card extends React.Component<Props, {}> {
           <script type="application/ld+json">{JSON.stringify({ headline: card.title })}</script>
         </Helmet>
         <h1>{card.title}</h1>
-        {this.props.addThisLoaded === true && (
-          <AddThis url={this.props.location.pathname} title={this.props.data.card.title} />
-        )}
         <div className="card">
           <div className="card__meta">
             <div>
@@ -75,6 +72,9 @@ export default class Card extends React.Component<Props, {}> {
               <strong>Updated:</strong> {lastUpdate}
             </div>
           </div>
+          {this.props.addThisLoaded === true && (
+            <AddThis url={this.props.location.pathname} title={this.props.data.card.title} />
+          )}
           <div
             className="card__content"
             dangerouslySetInnerHTML={{

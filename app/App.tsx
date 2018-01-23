@@ -11,7 +11,6 @@ import lazyLoad from './utils/LazyLoad';
 import './assets/css/main';
 
 declare const System;
-declare const window: any;
 
 const Home = lazyLoad(() => System.import('./pages/Home').then(module => module.default));
 const Cards = lazyLoad(() => System.import('./cards/').then(module => module.default));
