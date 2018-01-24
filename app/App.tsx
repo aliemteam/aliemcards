@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { Helmet } from 'react-helmet';
-import * as LoadScript from 'react-load-script';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import Announcements from './components/Announcements';
@@ -33,7 +32,6 @@ interface Props {
 
 interface State {
   announcements: boolean;
-  addthisLoaded: boolean;
 }
 
 class App extends React.PureComponent<Props, State> {
@@ -44,26 +42,26 @@ class App extends React.PureComponent<Props, State> {
     url: 'https://www.aliemcards.com',
   };
 
-  constructor(props) {
+  constructor(props: Props) {
     super(props);
     this.state = {
       announcements: true,
-      addthisLoaded: false,
     };
-  }
 
-  handleScriptLoad() {
-    this.setState({ addthisLoaded: true });
-    window.addthis.init();
+    const addthis = document.createElement('script');
+    addthis.src = 'http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4eeb8f2d053a37df';
+    addthis.async = true;
+    addthis.addEventListener('load', onAddThisLoad);
+    document.head.appendChild(addthis);
+    function onAddThisLoad() {
+      window.addthis.init();
+      addthis.removeEventListener('load', onAddThisLoad);
+    }
   }
 
   render() {
     return (
       <div className="row row--stacked main">
-        <LoadScript
-          url="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4eeb8f2d053a37df"
-          onLoad={this.handleScriptLoad.bind(this)}
-        />
         <Helmet>
           <script type="application/ld+json">{JSON.stringify(App.structuredData)}</script>
         </Helmet>
@@ -73,12 +71,7 @@ class App extends React.PureComponent<Props, State> {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/cards" component={Cards} />
-            <Route
-              path="/cards/:id"
-              render={routeProps => (
-                <Card {...routeProps} addThisLoaded={this.state.addthisLoaded} />
-              )}
-            />
+            <Route path="/cards/:id" render={routeProps => <Card {...routeProps} />} />
             <Route exact path="/categories" component={Categories} />
             <Route path="/categories/:category" component={Category} />
             <Route path="/about" component={About} />

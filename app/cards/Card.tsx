@@ -5,8 +5,6 @@ import * as remark from 'remark';
 import * as html from 'remark-html';
 import { Card as ICard } from '../../server/schema';
 
-import AddThis from '../components/AddThis';
-
 interface Props {
   data: {
     card: ICard;
@@ -20,7 +18,6 @@ interface Props {
   location: {
     pathname: string;
   };
-  addThisLoaded?: boolean;
 }
 
 const cardDataFromId = gql`
@@ -72,9 +69,11 @@ export default class Card extends React.Component<Props> {
               <strong>Updated:</strong> {lastUpdate}
             </div>
           </div>
-          {this.props.addThisLoaded === true && (
-            <AddThis url={this.props.location.pathname} title={this.props.data.card.title} />
-          )}
+          <div
+            className="addthis_inline_share_toolbox"
+            data-url={this.props.location.pathname}
+            data-title={`ALIEMCards: ${card.title}`}
+          />
           <div
             className="card__content"
             dangerouslySetInnerHTML={{
@@ -84,6 +83,7 @@ export default class Card extends React.Component<Props> {
             }}
           />
         </div>
+        {window.addthis && window.addthis.layers.refresh()}
       </article>
     );
   }
