@@ -3,7 +3,9 @@ import { gql, graphql } from 'react-apollo';
 import { Helmet } from 'react-helmet';
 import * as remark from 'remark';
 import * as html from 'remark-html';
+
 import { Card as ICard } from '../../server/schema';
+import AddThis from '../components/AddThis';
 
 interface Props {
   data: {
@@ -69,11 +71,7 @@ export default class Card extends React.Component<Props> {
               <strong>Updated:</strong> {lastUpdate}
             </div>
           </div>
-          <div
-            className="addthis_inline_share_toolbox"
-            data-url={this.props.location.pathname}
-            data-title={`ALIEMCards: ${card.title}`}
-          />
+          <AddThis path={this.props.location.pathname} title={card.title} />
           <div
             className="card__content"
             dangerouslySetInnerHTML={{
@@ -83,7 +81,7 @@ export default class Card extends React.Component<Props> {
             }}
           />
         </div>
-        {window.addthis && window.addthis.layers.refresh()}
+        {/* {window.addthis && window.addthis.layers.refresh()} */}
       </article>
     );
   }
