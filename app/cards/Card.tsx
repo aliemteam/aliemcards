@@ -81,7 +81,6 @@ export default class Card extends React.Component<Props> {
             }}
           />
         </div>
-        {/* {window.addthis && window.addthis.layers.refresh()} */}
       </article>
     );
   }

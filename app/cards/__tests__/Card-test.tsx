@@ -1,7 +1,12 @@
 jest.mock('react-apollo');
+const share = jest.fn();
+Object.defineProperty(window, 'addthis', {
+  value: { share },
+});
 
 import * as React from 'react';
 import * as renderer from 'react-test-renderer';
+
 import { Card as CardType } from '../../../server/schema';
 import Card from '../Card';
 
