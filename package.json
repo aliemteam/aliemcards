@@ -163,7 +163,7 @@
     "stylus-loader": "^3.0.1",
     "ts-jest": "^21.1.2",
     "ts-loader": "^2.3.2",
-    "ts-node": "^3.3.0",
+    "ts-node": "^5.0.0",
     "tslint": "^5.7.0",
     "webfontloader": "^1.6.28",
     "webpack": "^3.7.1",
