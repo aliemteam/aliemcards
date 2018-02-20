@@ -70,7 +70,7 @@
   },
   "dependencies": {
     "autotrack": "^2.4.1",
-    "axios": "^0.17.0",
+    "axios": "^0.18.0",
     "compression": "^1.7.1",
     "express": "^4.16.2",
     "express-graphql": "^0.6.11",
