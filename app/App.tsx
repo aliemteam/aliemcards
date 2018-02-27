@@ -42,11 +42,21 @@ class App extends React.PureComponent<Props, State> {
     url: 'https://www.aliemcards.com',
   };
 
-  constructor(props) {
+  constructor(props: Props) {
     super(props);
     this.state = {
       announcements: true,
     };
+
+    const addthis = document.createElement('script');
+    addthis.src = 'http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4eeb8f2d053a37df';
+    addthis.async = true;
+    addthis.addEventListener('load', onAddThisLoad);
+    document.head.appendChild(addthis);
+    function onAddThisLoad() {
+      window.addthis.init();
+      addthis.removeEventListener('load', onAddThisLoad);
+    }
   }
 
   render() {
@@ -61,7 +71,7 @@ class App extends React.PureComponent<Props, State> {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/cards" component={Cards} />
-            <Route path="/cards/:id" component={Card} />
+            <Route path="/cards/:id" render={routeProps => <Card {...routeProps} />} />
             <Route exact path="/categories" component={Categories} />
             <Route path="/categories/:category" component={Category} />
             <Route path="/about" component={About} />

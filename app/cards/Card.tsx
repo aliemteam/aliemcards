@@ -3,7 +3,9 @@ import { gql, graphql } from 'react-apollo';
 import { Helmet } from 'react-helmet';
 import * as remark from 'remark';
 import * as html from 'remark-html';
+
 import { Card as ICard } from '../../server/schema';
+import AddThis from '../components/AddThis';
 
 interface Props {
   data: {
@@ -14,6 +16,9 @@ interface Props {
     params: {
       id: string;
     };
+  };
+  location: {
+    pathname: string;
   };
 }
 
@@ -37,7 +42,7 @@ const config = {
 };
 
 @graphql(cardDataFromId, config)
-export default class Card extends React.PureComponent<Props, {}> {
+export default class Card extends React.Component<Props> {
   render() {
     const { card, networkStatus } = this.props.data;
     if (networkStatus < 7) {
@@ -55,6 +60,7 @@ export default class Card extends React.PureComponent<Props, {}> {
         <Helmet>
           <script type="application/ld+json">{JSON.stringify({ headline: card.title })}</script>
         </Helmet>
+        <AddThis path={this.props.location.pathname} title={card.title} />
         <h1>{card.title}</h1>
         <div className="card">
           <div className="card__meta">

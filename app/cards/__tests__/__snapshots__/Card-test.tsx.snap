@@ -16,6 +16,56 @@ exports[`<Card /> should render according to networkStatus 3`] = `
 <article
   role="article"
 >
+  <div
+    className="addthis_share"
+  >
+    <div
+      className="addthis_button"
+    >
+      <i
+        className="addthis_icon_facebook"
+      />
+      <div
+        className="addthis_share_button"
+        data-description="Test Card"
+        data-service="facebook"
+        data-title="Test Card"
+        data-url="https://www.aliemcards.comlocalhost"
+      >
+        Facebook
+      </div>
+    </div>
+    <div
+      className="addthis_button"
+    >
+      <i
+        className="addthis_icon_twitter"
+      />
+      <div
+        className="addthis_share_button"
+        data-service="twitter"
+        data-title="Test Card"
+        data-url="https://www.aliemcards.comlocalhost"
+      >
+        Twitter
+      </div>
+    </div>
+    <div
+      className="addthis_button"
+    >
+      <i
+        className="addthis_icon_email"
+      />
+      <div
+        className="addthis_share_button"
+        data-service="email"
+        data-title="Test Card"
+        data-url="https://www.aliemcards.comlocalhost"
+      >
+        Email
+      </div>
+    </div>
+  </div>
   <h1>
     Test Card
   </h1>
@@ -56,6 +106,56 @@ exports[`<Card /> should render with multiple authors and updated date 1`] = `
 <article
   role="article"
 >
+  <div
+    className="addthis_share"
+  >
+    <div
+      className="addthis_button"
+    >
+      <i
+        className="addthis_icon_facebook"
+      />
+      <div
+        className="addthis_share_button"
+        data-description="Test Card"
+        data-service="facebook"
+        data-title="Test Card"
+        data-url="https://www.aliemcards.comlocalhost"
+      >
+        Facebook
+      </div>
+    </div>
+    <div
+      className="addthis_button"
+    >
+      <i
+        className="addthis_icon_twitter"
+      />
+      <div
+        className="addthis_share_button"
+        data-service="twitter"
+        data-title="Test Card"
+        data-url="https://www.aliemcards.comlocalhost"
+      >
+        Twitter
+      </div>
+    </div>
+    <div
+      className="addthis_button"
+    >
+      <i
+        className="addthis_icon_email"
+      />
+      <div
+        className="addthis_share_button"
+        data-service="email"
+        data-title="Test Card"
+        data-url="https://www.aliemcards.comlocalhost"
+      >
+        Email
+      </div>
+    </div>
+  </div>
   <h1>
     Test Card
   </h1>
