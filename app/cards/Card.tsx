@@ -60,6 +60,7 @@ export default class Card extends React.Component<Props> {
         <Helmet>
           <script type="application/ld+json">{JSON.stringify({ headline: card.title })}</script>
         </Helmet>
+        <AddThis path={this.props.location.pathname} title={card.title} />
         <h1>{card.title}</h1>
         <div className="card">
           <div className="card__meta">
@@ -71,7 +72,6 @@ export default class Card extends React.Component<Props> {
               <strong>Updated:</strong> {lastUpdate}
             </div>
           </div>
-          <AddThis path={this.props.location.pathname} title={card.title} />
           <div
             className="card__content"
             dangerouslySetInnerHTML={{
