@@ -81,7 +81,7 @@
     "helmet": "^3.9.0",
     "jest-cli": "^21.2.1",
     "normalizr": "^3.2.4",
-    "now": "^9.0.0-canary.1",
+    "now": "^10.1.1",
     "optics-agent": "^1.1.7",
     "react": "^16.0.0",
     "react-apollo": "1.4.16",
