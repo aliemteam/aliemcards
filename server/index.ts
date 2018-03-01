@@ -4,7 +4,7 @@ import * as bodyParser from 'body-parser';
 import * as compression from 'compression';
 import * as express from 'express';
 import * as helmet from 'helmet';
-import { join } from 'path';
+import * as path from 'path';
 
 import { schema } from './schema';
 const data = require('./data.json');
@@ -53,10 +53,10 @@ app.use(
   })),
 );
 
-app.use(express.static(join(__dirname, 'app'), { maxAge: 31557600000 })); // 1 year
+app.use(express.static(path.resolve(__dirname, '../app'), { maxAge: 31557600000 })); // 1 year
 
 app.get('*', (_, res) => {
-  res.sendFile(join(__dirname, 'app', 'index.html'), { maxAge: 31557600000 }); // 1 year
+  res.sendFile(path.resolve(__dirname, '../app', 'index.html'), { maxAge: 31557600000 }); // 1 year
 });
 
 app.listen(process.env.PORT || 3000);

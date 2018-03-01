@@ -80,11 +80,15 @@ export default <webpack.Configuration>{
     plugins: [new TsConfigPathsPlugin /* { configFileName, compiler } */()],
   },
   plugins: [...plugins],
+  optimization: {
+    splitChunks: {
+      chunks: 'all',
+    },
+  },
   module: {
     rules: [
       {
         test: /\.tsx?$/,
-        // include: [path.resolve(__dirname, 'app')],
         exclude: /node_modules/,
         use: [
           {
