@@ -21,11 +21,11 @@ export default class Header extends React.PureComponent<Props, State> {
     };
   }
 
-  handleClick = () => {
+  handleClick = (): void => {
     this.setState({ navDrawerOpen: !this.state.navDrawerOpen });
   };
 
-  render() {
+  render(): JSX.Element {
     return (
       <div>
         <div className="header" role="banner">

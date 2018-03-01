@@ -4,10 +4,10 @@ import * as bodyParser from 'body-parser';
 import * as compression from 'compression';
 import * as express from 'express';
 import * as helmet from 'helmet';
-import { join } from 'path';
+import * as path from 'path';
 
-import { schema } from './server/schema';
-const data = require('./server/data.json');
+import { schema } from './schema';
+const data = require('./data.json');
 
 const IS_PRODUCTION = process.env.NODE_ENV === 'production';
 
@@ -25,7 +25,7 @@ if (IS_PRODUCTION) {
   app.use(compression());
 } else {
   const webpack = require('webpack');
-  const config = require('../webpack.config.ts').default;
+  const config = require('../../webpack.config.ts').default;
   const compiler = webpack(config);
   app.use(compression());
   app.use(
@@ -53,10 +53,10 @@ app.use(
   })),
 );
 
-app.use(express.static(join(__dirname, 'app'), { maxAge: 31557600000 })); // 1 year
+app.use(express.static(path.resolve(__dirname, '../app'), { maxAge: 31557600000 })); // 1 year
 
 app.get('*', (_, res) => {
-  res.sendFile(join(__dirname, 'app', 'index.html'), { maxAge: 31557600000 }); // 1 year
+  res.sendFile(path.resolve(__dirname, '../app', 'index.html'), { maxAge: 31557600000 }); // 1 year
 });
 
 app.listen(process.env.PORT || 3000);

@@ -3,15 +3,17 @@
 exports[`<CardList /> should render with filter 1`] = `
 <div>
   <select
-    onChange={[Function]}
+    onChange={[MockFunction]}
     value=""
   >
     <option
+      aria-selected={true}
       value=""
     >
       Filter by Category:
     </option>
     <option
+      aria-selected={false}
       value="1"
     >
       Test Category

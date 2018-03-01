@@ -1,17 +1,18 @@
 // tslint:disable:no-console
 import * as autoprefixer from 'autoprefixer-stylus';
 import { execFile } from 'child_process';
-import * as del from 'del';
 import * as frontmatter from 'front-matter';
 import * as fs from 'fs';
 import * as gulp from 'gulp';
 import * as image from 'gulp-image';
 import * as stylus from 'gulp-stylus';
 import * as yaml from 'js-yaml';
+import * as path from 'path';
 import { promisify } from 'util';
 
 const readdirPromise = promisify(fs.readdir);
 const writeFilePromise = promisify(fs.writeFile);
+const statPromise = promisify(fs.stat);
 
 import { normalize, SingleCardJSON } from './server/normalize';
 
@@ -23,9 +24,6 @@ const REGEX = {
   imagesWithoutAltText: new RegExp(/\!\[\]\(image-\d{1,2}\.\w+\)/, 'gi'),
   markdownH1: new RegExp(/^#(?!#).+/, 'm'),
 };
-
-// Utility tasks
-gulp.task('clean', () => del(['dist/**/*', 'npm-debug.log', '!dist/app/index.html']));
 
 // Cards
 gulp.task('cards', () =>
@@ -84,29 +82,13 @@ gulp.task('cards', () =>
       const announcements = yaml.safeLoad(fs.readFileSync('./cards/announcements.yml', 'utf8'));
       const data = { announcements, ...json };
       return writeFilePromise(
-        './dist/server/data.json',
+        path.resolve(__dirname, 'dist/server/data.json'),
         JSON.stringify(data)
           .replace(/\u2028/g, '\\u2028')
           .replace(/\u2029/g, '\\u2029'),
       );
     }),
 );
-
-// Files
-gulp.task('typescript', cb => {
-  execFile('./node_modules/.bin/tsc', ['-p', __dirname], (err, stdout, stderr) => {
-    if (stderr) {
-      console.error(stderr);
-    }
-    if (stdout) {
-      console.log(stdout);
-    }
-    if (err) {
-      throw err;
-    }
-    cb();
-  });
-});
 
 gulp.task('static', () =>
   gulp
@@ -129,10 +111,7 @@ gulp.task('styles', () =>
     .pipe(gulp.dest('dist/app')),
 );
 
-gulp.task(
-  '__build',
-  gulp.series('clean', 'typescript', gulp.parallel('cards', 'static', 'styles')),
-);
+gulp.task('__build', gulp.parallel('cards', 'static', 'styles'));
 
 // Utility functions -------------------------------------------------------------------------------
 
@@ -174,38 +153,24 @@ function sitemap(cards: SingleCardJSON[]): SingleCardJSON[] {
 
 // Fail-fast abstractions --------------------------------------------------------------------------
 
-function checkDirectoryShape(contents: string[]): Promise<string[]> {
+async function checkDirectoryShape(contents: string[]): Promise<string[]> {
   const ignoredFiles = ['.DS_Store', 'announcements.yml'];
-  const promises: Array<Promise<string>> = [];
+  let directories: string[] = [];
   for (const dir of contents) {
-    if (ignoredFiles.indexOf(dir) !== -1) {
+    if (ignoredFiles.includes(dir)) {
       continue;
     }
-    promises.push(
-      new Promise(res => {
-        fs.stat(`./cards/${dir}`, (err, stats) => {
-          if (err) {
-            throw err;
-          }
-          if (!stats.isDirectory()) {
-            throw new Error(
-              'No files should be located in the first level of the "cards" directory',
-            );
-          }
-          fs.readdir(`./cards/${dir}`, (errr, files) => {
-            if (errr) {
-              throw errr;
-            }
-            if (files.indexOf('card.md') === -1) {
-              throw new Error(`No card.md file found in directory ${dir}`);
-            }
-            res(dir);
-          });
-        });
-      }),
-    );
+    const stat = await statPromise(path.resolve(__dirname, `./cards/${dir}`));
+    if (!stat.isDirectory()) {
+      throw new Error('No files should be located in the first level of the "cards" directory');
+    }
+    const fileslist = await readdirPromise(path.resolve(__dirname, `./cards/${dir}`));
+    if (!fileslist.includes('card.md')) {
+      throw new Error(`No card.md file found in directory ${dir}`);
+    }
+    directories = [...directories, dir];
   }
-  return Promise.all(promises);
+  return directories;
 }
 
 function checkCardAttributes(attrs: Partial<CardMeta>, cardName: string): void {
@@ -216,6 +181,7 @@ function checkCardAttributes(attrs: Partial<CardMeta>, cardName: string): void {
     throw new Error(`${cardName} is missing yaml attributes`);
   }
 
+  // tslint:disable-next-line:cyclomatic-complexity
   attributeKeys.forEach(att => {
     switch (att) {
       case 'authors':

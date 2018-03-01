@@ -50,9 +50,9 @@ export interface Context {
  * { id: Int, name: String (same as name param) }
  */
 class AuthorFactory {
-  public static create(name: string): BaseObject {
+  static create(name: string): BaseObject {
     let id = AuthorFactory.authors.get(name);
-    if (typeof id === 'undefined') {
+    if (id === undefined) {
       id = AuthorFactory.authorCount.toString();
       AuthorFactory.authorCount += 1;
       AuthorFactory.authors.set(name, id);

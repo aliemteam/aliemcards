@@ -1,5 +1,6 @@
+import gql from 'graphql-tag';
 import * as React from 'react';
-import { gql, graphql } from 'react-apollo';
+import { graphql } from 'react-apollo';
 
 interface State {
   name: string;
@@ -22,8 +23,8 @@ const contactUsMessage = gql`
 `;
 
 const config = {
-  props: ({ mutate }) => ({
-    sendMessage: (name: string, email: string, message: string) =>
+  props: ({ mutate }: any): any => ({
+    sendMessage: (name: string, email: string, message: string): any =>
       mutate({ variables: { name, email, message } }),
   }),
 };
@@ -40,7 +41,7 @@ export default class Contact extends React.PureComponent<Props, State> {
     };
   }
 
-  sendHandler = (e: React.FormEvent<HTMLFormElement>) => {
+  sendHandler = (e: React.FormEvent<HTMLFormElement>): void => {
     e.preventDefault();
     const { name, email, message } = this.state;
     this.props.sendMessage(name, email, message).then(res => {
@@ -52,14 +53,14 @@ export default class Contact extends React.PureComponent<Props, State> {
     });
   };
 
-  changeHandler = (e: React.FormEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  changeHandler = (e: React.FormEvent<HTMLInputElement | HTMLTextAreaElement>): any => {
     this.setState({
       ...this.state,
       [e.currentTarget.id]: e.currentTarget.value,
     });
   };
 
-  render() {
+  render(): JSX.Element {
     return (
       <div>
         {!this.state.sent && (

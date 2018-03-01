@@ -1,5 +1,6 @@
+import gql from 'graphql-tag';
 import * as React from 'react';
-import { gql, graphql } from 'react-apollo';
+import { graphql } from 'react-apollo';
 import { Card, Category } from '../../server/schema';
 import CardList from './CardList';
 
@@ -43,12 +44,12 @@ export default class CardListContainer extends React.PureComponent<Props, State>
     };
   }
 
-  handleChange = (e: React.FormEvent<HTMLSelectElement>) => {
+  handleChange = (e: React.FormEvent<HTMLSelectElement>): void => {
     const category = e.currentTarget.value;
     this.setState({ categoryFilter: category });
   };
 
-  render() {
+  render(): JSX.Element {
     // Required to maintain strict typing
     if (!this.props.data) {
       throw new Error('Component should always receive data');

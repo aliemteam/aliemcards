@@ -1,24 +1,37 @@
 import * as autoprefixer from 'autoprefixer-stylus';
+import { TsConfigPathsPlugin } from 'awesome-typescript-loader';
 import * as HtmlWebpackPlugin from 'html-webpack-plugin';
 import * as OfflinePlugin from 'offline-plugin';
-import { join } from 'path';
+import * as path from 'path';
 import * as webpack from 'webpack';
 
-const isProduction = process.env.NODE_ENV === 'production';
+import * as del from 'del';
 
-const sharedPlugins = [
-  new webpack.DefinePlugin({
-    __DEV__: JSON.stringify(!isProduction),
-    __TEST__: JSON.stringify(false),
+import { execFileSync } from 'child_process';
+
+del.sync(['dist/**', '!dist']);
+
+execFileSync(path.resolve(__dirname, 'node_modules/.bin/tsc'), [
+  '-p',
+  path.resolve(__dirname, 'server'),
+]);
+
+const IS_PRODUCTION = process.env.NODE_ENV === 'production';
+
+const plugins: Set<webpack.Plugin> = new Set([
+  new webpack.EnvironmentPlugin({
+    NODE_ENV: 'development',
   }),
-  new webpack.optimize.CommonsChunkPlugin({
-    minChunks: Infinity,
-    names: ['vendor', 'manifest'],
+  new webpack.DefinePlugin({
+    __TEST__: JSON.stringify(false),
   }),
   new HtmlWebpackPlugin({
     template: './app/index.html',
     hash: true,
   }),
+  // NOTE: I'd recommend switching to scss since it offers everything
+  // stylus has and then some. Plus it has much more of a critical mass
+  // than stylus.
   new webpack.LoaderOptionsPlugin({
     test: /\.styl$/,
     stylus: {
@@ -27,85 +40,89 @@ const sharedPlugins = [
       },
     },
   }),
-];
+]);
 
-const plugins = isProduction
-  ? // Production plugins
-    [
-      ...sharedPlugins,
-      new webpack.LoaderOptionsPlugin({
-        minimize: true,
-        debug: false,
-      }),
-      new webpack.optimize.UglifyJsPlugin(),
-      new webpack.DefinePlugin({
-        'process.env': {
-          NODE_ENV: JSON.stringify('production'),
+// TODO:
+// new webpack.optimize.CommonsChunkPlugin({
+//   minChunks: Infinity,
+//   names: ['vendor', 'manifest'],
+// }),
+
+if (IS_PRODUCTION) {
+  plugins
+    .add(new webpack.optimize.OccurrenceOrderPlugin(true))
+    .add(new webpack.optimize.AggressiveMergingPlugin())
+    .add(
+      new OfflinePlugin({
+        // FIXME: Waiting on a fix for this to be compatible with webpack 4
+        ServiceWorker: {
+          minify: false,
         },
       }),
-      new webpack.optimize.AggressiveMergingPlugin(),
-      new OfflinePlugin(),
-      // new BundleAnalyzerPlugin({
-      //   analyzerMode: 'server',
-      //   analyzerPort: 8888,
-      //   openAnalyzer: true,
-      // }),
-    ]
-  : // Development plugins
-    [
-      ...sharedPlugins,
-      new webpack.NoEmitOnErrorsPlugin(),
-      new webpack.HotModuleReplacementPlugin(),
-    ];
+    );
+} else {
+  plugins.add(new webpack.NamedModulesPlugin()).add(new webpack.HotModuleReplacementPlugin());
+}
 
-const tsLoader = {
-  loader: 'ts-loader',
-  options: {
-    configFile: join(__dirname, 'app/tsconfig.json'),
-  },
-};
-
-module.exports = {
-  devtool: !isProduction ? 'eval-cheap-source-map' : false,
+export default <webpack.Configuration>{
+  mode: IS_PRODUCTION ? 'production' : 'development',
   entry: {
-    bundle: isProduction
-      ? ['babel-polyfill', 'raf/polyfill', './app/index']
-      : ['webpack-hot-middleware/client', 'babel-polyfill', 'raf/polyfill', './app/index'],
+    'app/index': [...(IS_PRODUCTION ? [] : ['webpack-hot-middleware/client']), './app/index'],
     vendor: ['react', 'react-dom'],
   },
   output: {
-    path: join(__dirname, 'dist/app'),
+    path: path.resolve(__dirname, 'dist'),
     filename: '[name].js',
     publicPath: '/',
   },
   resolve: {
     extensions: ['*', '.js', '.jsx', '.ts', '.tsx', '.styl', '.json'],
+    plugins: [new TsConfigPathsPlugin /* { configFileName, compiler } */()],
   },
-  performance: { hints: false },
-  plugins,
+  plugins: [...plugins],
+  optimization: {
+    splitChunks: {
+      chunks: 'all',
+    },
+  },
   module: {
     rules: [
       {
         test: /\.tsx?$/,
-        include: [join(__dirname, 'app')],
-        use: isProduction
-          ? ['babel-loader', tsLoader]
-          : ['react-hot-loader/webpack', 'babel-loader', tsLoader],
-      },
-      {
-        // necessary to load google autotrack
-        test: /\.js?$/,
-        use: { loader: 'babel-loader' },
-        exclude: /node_modules\/(?!(autotrack|dom-utils))/,
+        exclude: /node_modules/,
+        use: [
+          {
+            loader: 'awesome-typescript-loader',
+            options: {
+              useBabel: true,
+              useCache: !IS_PRODUCTION,
+              cacheDirectory: path.resolve(
+                __dirname,
+                'node_modules/.cache/awesome-typescript-loader',
+              ),
+              babelCore: '@babel/core',
+            },
+          },
+        ],
       },
       {
         test: /\.styl$/,
-        include: [join(__dirname, 'app')],
+        include: [path.resolve(__dirname, 'app')],
         use: ['style-loader', 'css-loader', 'stylus-loader'],
       },
       {
-        test: /\.json$/,
-        use: 'json-loader',
+        test: /\.svg$/,
+        use: [
+          {
+            loader: 'babel-loader',
+          },
+          {
+            loader: 'react-svg-loader',
+            options: {
+              jsx: true,
+            },
+          },
+        ],
       },
     ],
   },

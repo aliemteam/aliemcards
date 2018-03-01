@@ -1,5 +1,7 @@
+import gql from 'graphql-tag';
 import * as React from 'react';
-import { gql, graphql } from 'react-apollo';
+import { graphql } from 'react-apollo';
+
 import { Announcement as IAnnouncement } from '../../server/schema';
 
 const LOCALSTORAGE_KEY = 'announcementId';
@@ -37,7 +39,7 @@ export default class Announcements extends React.Component<Props, State> {
     };
   }
 
-  componentWillReceiveProps(props: Props) {
+  componentWillReceiveProps(props: Props): void {
     if (props.data === undefined || props.data.networkStatus !== 7) {
       return;
     }
@@ -49,14 +51,14 @@ export default class Announcements extends React.Component<Props, State> {
     }));
   }
 
-  dismiss = () => {
+  dismiss = (): void => {
     if (this.state.announcement) {
       localStorage.setItem(LOCALSTORAGE_KEY, this.state.announcement.date);
     }
     this.setState(prevState => ({ ...prevState, isDismissed: true }));
   };
 
-  render() {
+  render(): JSX.Element | null {
     if (!this.state.announcement || this.state.isDismissed) {
       return null;
     }

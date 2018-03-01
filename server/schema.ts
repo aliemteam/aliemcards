@@ -1,6 +1,10 @@
 import axios from 'axios';
 import * as Fuse from 'fuse.js';
 import { makeExecutableSchema } from 'graphql-tools';
+import { Context, RootValue } from './normalize';
+
+// FIXME: enable this and strongly type resolvers when time is available
+// tslint:disable:typedef
 
 // TODO: Split resolvers into another testable file
 
@@ -182,8 +186,8 @@ const typeDefs = `
 
 const resolvers = {
   Author: {
-    cards: (author, _, context) =>
-      Object.values(context.data.entities.cards).filter(c => c.authors.indexOf(author.id) !== -1),
+    cards: (author: Author, _, context: Context) =>
+      Object.values(context.data.entities.cards).filter(card => card.authors.includes(author.id)),
   },
   Card: {
     authors: (card, _args, context) => card.authors.map(id => context.data.entities.authors[id]),
@@ -197,7 +201,7 @@ const resolvers = {
     },
     authors: root => Object.values(root.entities.authors),
     author: (root, { id }) => root.entities.authors[id],
-    cards: (root, { category, limit, orderBy, sort }) => {
+    cards: (root: RootValue, { category, limit, orderBy, sort }) => {
       let payload = Object.values(root.entities.cards);
 
       if (category) {
@@ -244,7 +248,7 @@ const resolvers = {
       return payload;
     },
     card: (root, { id }) => root.entities.cards[id],
-    categories: root =>
+    categories: (root: RootValue) =>
       Object.values(root.entities.categories).sort((a, b) => {
         if (a.id < b.id) {
           return -1;
@@ -275,7 +279,7 @@ const resolvers = {
     },
   },
   Mutation: {
-    contactUs: (_root, args) =>
+    contactUs: async (_root, args) =>
       axios
         .post(
           'https://aliem-slackbot.now.sh/aliemcards/messages/contact-form',

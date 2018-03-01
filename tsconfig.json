@@ -2,26 +2,16 @@
   "compilerOptions": {
     "target": "es6",
     "module": "commonjs",
-    "lib": [
-      "dom",
-      "es6",
-      "es2016.array.include",
-      "es2017.object",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "jsx": "react",
+    "baseUrl": ".",
     "sourceMap": true,
-    "outDir": "./dist",
-    "removeComments": true,
     "strict": true,
     "noImplicitAny": false,
-    "noImplicitReturns": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "moduleResolution": "node",
+    "noImplicitReturns": true,
     "experimentalDecorators": true
   },
-  "files": [
-    "./index.ts"
-  ]
+  "include": ["app/**/*", "server/**/*", "webpack.config.ts"]
 }
