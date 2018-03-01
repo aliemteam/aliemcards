@@ -23,7 +23,7 @@ export default class Search extends React.PureComponent<Props, State> {
     };
   }
 
-  handleChange = (e: React.FormEvent<HTMLInputElement>) => {
+  handleChange = (e: React.FormEvent<HTMLInputElement>): void => {
     clearTimeout(Search.timer);
     const query = e.currentTarget.value;
 
@@ -40,17 +40,17 @@ export default class Search extends React.PureComponent<Props, State> {
     }
   };
 
-  handleClick = () => {
+  handleClick = (): void => {
     this.setState({ query: '', uiQuery: '', loading: false });
   };
 
-  handleLoadingStatus = (status: number) => {
+  handleLoadingStatus = (status: number): void => {
     if (status > 6) {
       this.setState({ loading: false });
     }
   };
 
-  render() {
+  render(): JSX.Element {
     return (
       <div className="search">
         {this.props.splashText && (

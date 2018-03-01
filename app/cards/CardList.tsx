@@ -2,6 +2,8 @@ import * as React from 'react';
 import { Link } from 'react-router-dom';
 import { Card, Category } from '../../server/schema';
 
+// False positive
+// tslint:disable:react-unused-props-and-state
 interface Props {
   cards: Array<Pick<Card, 'categories' | 'id' | 'title'>>;
   categories?: Category[];
@@ -16,14 +18,20 @@ export default ({
   filter = false,
   filterhandler,
   filtervalue = '',
-}: Props) => (
+}: Props): JSX.Element => (
   <div>
     {filter &&
       categories.length > 0 && (
         <select value={filtervalue} onChange={filterhandler}>
-          <option value="">Filter by Category:</option>
+          <option value="" aria-selected={filtervalue === ''}>
+            Filter by Category:
+          </option>
           {categories.map(category => (
-            <option key={category.id} value={category.id}>
+            <option
+              key={category.id}
+              value={category.id}
+              aria-selected={filtervalue === category.id}
+            >
               {category.name}
             </option>
           ))}

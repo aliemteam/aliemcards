@@ -1,5 +1,6 @@
+import gql from 'graphql-tag';
 import * as React from 'react';
-import { gql, graphql } from 'react-apollo';
+import { graphql } from 'react-apollo';
 import { Link } from 'react-router-dom';
 
 export interface Category {
@@ -23,8 +24,8 @@ const categoryQuery = gql`
 `;
 
 @graphql(categoryQuery)
-export default class Categories extends React.PureComponent<Props, {}> {
-  render() {
+export default class Categories extends React.PureComponent<Props> {
+  render(): JSX.Element {
     const categories = this.props.data.categories || [];
     return (
       <div>

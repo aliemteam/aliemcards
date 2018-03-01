@@ -2,13 +2,11 @@ import * as React from 'react';
 import { Link } from 'react-router-dom';
 import { CCIcon } from '../utils/Shims';
 
-export default () => (
+export default (): JSX.Element => (
   <div className="footer" role="contentinfo">
     <div className="row footer__cc">
       <div className="footer__cc-image">
-        <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/">
-          <CCIcon />
-        </a>
+        <CCIcon />
       </div>
       <div className="footer__cc-text">
         This work is licensed under a{' '}

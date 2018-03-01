@@ -4,7 +4,7 @@ interface State {
   component: any;
 }
 
-export default getComponent =>
+export default (getComponent: () => Promise<any>): any =>
   class AsyncComponent extends React.PureComponent<{}, State> {
     static component: any;
     constructor(props) {
@@ -13,7 +13,7 @@ export default getComponent =>
         component: AsyncComponent.component,
       };
     }
-    componentWillMount() {
+    componentWillMount(): void {
       if (!this.state.component) {
         getComponent().then(component => {
           AsyncComponent.component = component;
@@ -21,7 +21,7 @@ export default getComponent =>
         });
       }
     }
-    render() {
+    render(): JSX.Element | null {
       const { component: Component } = this.state;
       if (Component) {
         return <Component {...this.props} />;

@@ -6,8 +6,8 @@ import * as express from 'express';
 import * as helmet from 'helmet';
 import { join } from 'path';
 
-import { schema } from './server/schema';
-const data = require('./server/data.json');
+import { schema } from './schema';
+const data = require('./data.json');
 
 const IS_PRODUCTION = process.env.NODE_ENV === 'production';
 
@@ -25,7 +25,7 @@ if (IS_PRODUCTION) {
   app.use(compression());
 } else {
   const webpack = require('webpack');
-  const config = require('../webpack.config.ts').default;
+  const config = require('../../webpack.config.ts').default;
   const compiler = webpack(config);
   app.use(compression());
   app.use(

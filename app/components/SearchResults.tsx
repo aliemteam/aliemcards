@@ -1,5 +1,6 @@
+import gql from 'graphql-tag';
 import * as React from 'react';
-import { gql, graphql } from 'react-apollo';
+import { graphql } from 'react-apollo';
 import { Link } from 'react-router-dom';
 import { Card } from '../../server/schema';
 
@@ -23,18 +24,18 @@ const cardsMatchingSearch = gql`
 `;
 
 const config = {
-  options: ({ query }) => ({ variables: { query } }),
+  options: ({ query }): any => ({ variables: { query } }),
 };
 
 @graphql(cardsMatchingSearch, config)
-export default class SearchResults extends React.PureComponent<Props, {}> {
-  componentWillReceiveProps(nextProps: Props) {
+export default class SearchResults extends React.PureComponent<Props> {
+  componentWillReceiveProps(nextProps: Props): void {
     if (nextProps.data) {
       this.props.loadStatus(nextProps.data.networkStatus);
     }
   }
 
-  render() {
+  render(): JSX.Element | null {
     // Required for static typing
     if (!this.props.data) {
       throw new Error('Data should always be available');

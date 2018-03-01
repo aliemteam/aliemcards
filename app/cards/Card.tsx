@@ -1,5 +1,6 @@
+import gql from 'graphql-tag';
 import * as React from 'react';
-import { gql, graphql } from 'react-apollo';
+import { graphql } from 'react-apollo';
 import { Helmet } from 'react-helmet';
 import * as remark from 'remark';
 import * as html from 'remark-html';
@@ -10,6 +11,8 @@ interface Props {
     card: ICard;
     networkStatus: number;
   };
+  // Disabled because it's a false positive. This is used in the config object
+  // tslint:disable-next-line:react-unused-props-and-state
   match: {
     params: {
       id: string;
@@ -33,12 +36,12 @@ const cardDataFromId = gql`
 `;
 
 const config = {
-  options: ({ match }) => ({ variables: { id: match.params.id } }),
+  options: ({ match }): any => ({ variables: { id: match.params.id } }),
 };
 
 @graphql(cardDataFromId, config)
 export default class Card extends React.PureComponent<Props, {}> {
-  render() {
+  render(): JSX.Element {
     const { card, networkStatus } = this.props.data;
     if (networkStatus < 7) {
       return <div>Loading...</div>;
@@ -66,6 +69,7 @@ export default class Card extends React.PureComponent<Props, {}> {
               <strong>Updated:</strong> {lastUpdate}
             </div>
           </div>
+          {/* tslint:disable-next-line:react-no-dangerous-html */}
           <div
             className="card__content"
             dangerouslySetInnerHTML={{

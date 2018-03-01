@@ -9,20 +9,14 @@ import lazyLoad from './utils/LazyLoad';
 
 import './assets/css/main';
 
-declare const System;
-
-const Home = lazyLoad(() => System.import('./pages/Home').then(module => module.default));
-const Cards = lazyLoad(() => System.import('./cards/').then(module => module.default));
-const Card = lazyLoad(() => System.import('./cards/Card').then(module => module.default));
-const About = lazyLoad(() => System.import('./pages/About').then(module => module.default));
-const Contact = lazyLoad(() => System.import('./pages/Contact').then(module => module.default));
-const FourOhFour = lazyLoad(() => System.import('./pages/404').then(module => module.default));
-const Categories = lazyLoad(() =>
-  System.import('./categories/Categories').then(module => module.default),
-);
-const Category = lazyLoad(() =>
-  System.import('./categories/Category').then(module => module.default),
-);
+const Home = lazyLoad(async () => import('./pages/Home').then(mod => mod.default));
+const Cards = lazyLoad(async () => import('./cards/').then(mod => mod.default));
+const Card = lazyLoad(async () => import('./cards/Card').then(mod => mod.default));
+const About = lazyLoad(async () => import('./pages/About').then(mod => mod.default));
+const Contact = lazyLoad(async () => import('./pages/Contact').then(mod => mod.default));
+const FourOhFour = lazyLoad(async () => import('./pages/404').then(mod => mod.default));
+const Categories = lazyLoad(async () => import('./categories/Categories').then(mod => mod.default));
+const Category = lazyLoad(async () => import('./categories/Category').then(mod => mod.default));
 
 interface Props {
   location: {
@@ -49,7 +43,7 @@ class App extends React.PureComponent<Props, State> {
     };
   }
 
-  render() {
+  render(): JSX.Element {
     return (
       <div className="row row--stacked main">
         <Helmet>
@@ -75,7 +69,7 @@ class App extends React.PureComponent<Props, State> {
   }
 }
 
-export default () => (
+export default (): JSX.Element => (
   <Router>
     <Route path="/" component={App} />
   </Router>

@@ -1,13 +1,18 @@
 import 'autotrack'; // Google Analytics global functions
 import * as React from 'react';
-import { ApolloClient, ApolloProvider } from 'react-apollo';
 import { render } from 'react-dom';
 import * as WebFont from 'webfontloader';
 import App from './App';
 
-declare const __DEV__: boolean;
+import { ApolloClient, HttpLink, InMemoryCache } from 'apollo-client-preset';
+import { ApolloProvider } from 'react-apollo';
 
-if (!__DEV__) {
+const client = new ApolloClient({
+  link: new HttpLink(),
+  cache: new InMemoryCache(),
+});
+
+if (process.env.NODE_ENV === 'production') {
   require('offline-plugin/runtime').install();
 }
 
@@ -16,8 +21,6 @@ WebFont.load({
     families: ['Open Sans'],
   },
 });
-
-const client = new ApolloClient();
 
 render(
   <ApolloProvider client={client}>

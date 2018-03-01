@@ -1,21 +1,21 @@
 {
   "compilerOptions": {
-    "target": "esnext",
+    "target": "es6",
+    "module": "commonjs",
     "lib": [
-      "dom",
-      "dom.iterable",
-      "es2017",
-      "es2017.object",
       "esnext"
     ],
-    "jsx": "react",
     "sourceMap": true,
+    "outDir": "../dist/server",
+    "removeComments": true,
     "strict": true,
     "noImplicitAny": false,
+    "noImplicitReturns": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noImplicitReturns": true,
-    "moduleResolution": "node",
     "experimentalDecorators": true
-  }
+  },
+  "files": [
+    "./index.ts"
+  ]
 }

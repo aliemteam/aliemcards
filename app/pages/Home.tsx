@@ -1,5 +1,6 @@
+import gql from 'graphql-tag';
 import * as React from 'react';
-import { gql, graphql } from 'react-apollo';
+import { graphql } from 'react-apollo';
 import { Card } from '../../server/schema';
 import CardList from '../cards/CardList';
 
@@ -34,7 +35,7 @@ export const homepageCards = gql`
 
 @graphql(homepageCards)
 export default class Home extends React.PureComponent<Props, {}> {
-  render() {
+  render(): JSX.Element {
     const newest = this.props.data.recentlyAdded || [];
     const updated = this.props.data.recentlyUpdated || [];
     return (

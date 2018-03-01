@@ -8,17 +8,23 @@ export interface BioProps {
   twitter: string;
 }
 
-const AboutBio: React.StatelessComponent<BioProps> = props => (
+const AboutBio: React.StatelessComponent<BioProps> = ({
+  credentials,
+  location,
+  name,
+  title,
+  twitter,
+}: BioProps): JSX.Element => (
   <div className="column column--relative-50">
-    <h3>{props.name}</h3>
+    <h3>{name}</h3>
     <div>
       <div>
-        <strong>{props.title}</strong>
+        <strong>{title}</strong>
       </div>
-      <div>{props.credentials}</div>
-      <div>{props.location}</div>
+      <div>{credentials}</div>
+      <div>{location}</div>
       <div>
-        <a href={`https://www.twitter.com/${props.twitter}`}>@{props.twitter}</a>
+        <a href={`https://www.twitter.com/${twitter}`}>@{twitter}</a>
       </div>
     </div>
   </div>

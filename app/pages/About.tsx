@@ -55,7 +55,7 @@ const team: BioProps[] = [
   },
 ];
 
-export default () => (
+export default (): JSX.Element => (
   <div className="content">
     <h1>About</h1>
     <h2>Paucis Verbis Cards</h2>
