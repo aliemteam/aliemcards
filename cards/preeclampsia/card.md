@@ -14,7 +14,7 @@ categories:
 
 Preeclampsia is on a spectrum of pregnancy related illness which includes eclampsia and HELLP syndrome (Hemolysis, Elevated Liver enzymes, Low Platelets - debate exists about if this is a separate entity altogether). Without intervention, it can lead to seizures (eclampsia) and carries a high mortality for mom and baby. 
 
-A pregnancy-related condition occurring anytime after 20 weeks pregnancy and up to 6 weeks postpartum, diagnosed by elevated blood pressure and and least one associated finding.
+A pregnancy-related condition occurring anytime after 20 weeks pregnancy and up to 6 weeks postpartum, it is diagnosed by elevated blood pressure and and least one associated finding.
 
 ## Criteria
 
