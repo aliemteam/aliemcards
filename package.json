@@ -157,7 +157,7 @@
     "remark-lint-table-cell-padding": "^1.0.1",
     "remark-lint-table-pipe-alignment": "^1.0.1",
     "remark-lint-unordered-list-marker-style": "^1.0.1",
-    "style-loader": "^0.19.0",
+    "style-loader": "^0.20.3",
     "stylint": "^1.5.9",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.1",
