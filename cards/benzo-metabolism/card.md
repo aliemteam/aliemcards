@@ -25,7 +25,7 @@ categories:
 - The ‘LOT’ drugs do not have active metabolites after hepatic conjugation, and therefore have minimally affected half-lives in patients with liver disease. 
 
 ## Non-LOT Benzodiazepine Medications
-These benzodiazepines may have prolonged effects in patients with market liver disease.
+These benzodiazepines may have prolonged effects in patients with marked liver disease.
 - Primarily metabolized via hepatic CYP-mediated oxidation. 
 - Examples: Drugs with active metabolites include - 
   - <span class="drug">Diazepam</span>
