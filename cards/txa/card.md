@@ -105,7 +105,7 @@ OR
 
 - Epistaxis treatment using injectable form of TXA topically. 500 mg in 5 ml of TXA soaked into a cotton pledget.
 
-### Hereditary angioedema (HAE):
+### Hereditary angioedema (HAE)
 
 - Treatment of acute HAE attack: Oral, IV: 25 mg/kg/dose (maximum single dose: 1,000 mg) every 3 to 4 hours (maximum: 75 mg/kg/day)  or 1,000 mg 4 times daily for 48 hours
 
@@ -173,4 +173,4 @@ Trauma-associated hemorrhage: IV: Loading dose: 1,000 mg over 10 minutes, follow
 16. Effect of early tranexamic acid administration on mortality, hysterectomy, and other morbidities in women with post-partum haemorrhage (WOMAN): an international, randomised, double-blind, placebo-controlled trial. Lancet. 2017;389(10084):2105-2116. [[PubMed]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5446563/)
 17. Gayet-ageron A, Prieto-merino D, Ker K, et al. Effect of treatment delay on the effectiveness and safety of antifibrinolytics in acute severe haemorrhage: a meta-analysis of individual patient-level data from 40 138 bleeding patients. Lancet. 2017; [[Lancet]](http://www.thelancet.com/journals/lancet/article/PIIS0140-6736(17)32455-8/fulltext)
 18. Zahed R, Moharamzadeh P, Alizadeharasi S, Ghasemi A, Saeedi M. A new and rapid method for epistaxis treatment using injectable form of tranexamic acid topically: a randomized controlled trial. Am J Emerg Med. 2013;31(9):1389-92. [[PubMed]](https://www.ncbi.nlm.nih.gov/pubmed/23911102)
- 
+
