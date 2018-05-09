@@ -17,10 +17,10 @@ Tumor lysis syndrome (TLS) is an oncologic emergency characterized by life-threa
 
 There is no uniform definition of TLS, however it is characterized by several electrolyte abnormalities:
 
-  - Hyperkalemia
-  - Hyperphosphatemia
-  - Hyeruricemia
-  - Hypocalcemia
+- Hyperkalemia
+- Hyperphosphatemia
+- Hyeruricemia
+- Hypocalcemia
 
 The clinical presentation and symptoms are directly related to these electrolyte abnormalities and the hallmark finding of acute renal insufficiency.
 
@@ -30,8 +30,8 @@ TLS is most commonly seen within 3 days of chemotherapy, however it can rarely o
 
 Common cancers associated with TLS include:
 
-  - T-cell acute lymphoblastic leukemia (ALL)
-  - Non-Hodgkin’s lymphomas
+- T-cell acute lymphoblastic leukemia (ALL)
+- Non-Hodgkin’s lymphomas
 
 ## Pathophysiology
 
