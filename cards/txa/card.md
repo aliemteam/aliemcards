@@ -44,7 +44,7 @@ Please note that the vast majority of these indications are not currently approv
 
 ### Trauma
 
-Crash-2 [3]: RCT, 274 hospitals, 40 countries, 20,000 patients with all forms of trauma and significant hemorrhage, TXA v. Placebo.
+Crash-2 [[3]](https://www.ncbi.nlm.nih.gov/pubmed?term=20554319): RCT, 274 hospitals, 40 countries, 20,000 patients with all forms of trauma and significant hemorrhage, TXA v. Placebo.
 
 - Mortality relative risk reduction of 9% (absolute reduction 1.5%)
 - Death from hemorrhage relative risk reduction 15% (absolute reduction 0.8%, NNT 125)
@@ -73,7 +73,7 @@ A German pre-hospital study retrospectively evaluated trauma patients administer
 
 ### Gynecology
 
-WOMAN trial (2); RCT, 193 hospitals, 21 countries, 20,060 women with diagnosis of post-partum hemorrhage after vaginal or c-section birth
+WOMAN trial [[3]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5446563/); RCT, 193 hospitals, 21 countries, 20,060 women with diagnosis of post-partum hemorrhage after vaginal or c-section birth
 
 - death from hemorrhage, relative risk reduction 21% (absolute risk reduction 0.4%, NNT 250)
 - If TXA given within 3 hours of birth, death relative risk reduction 30% (absolute risk reduction 0.5%, NNT 200)
