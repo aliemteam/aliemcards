@@ -24,32 +24,37 @@ Please note that the vast majority of these indications are not currently approv
 
 ### FDA Approved
 
-- Menorrhagia: brandname Lysteda, 1300 mg PO TID during menses, max 5 days.
+**Menorrhagia**: brandname Lysteda, 1,300 mg PO TID during menses, max 5 days
 
 ### Off Label Dosing
 
 **ENT**
 
-- Epistaxis treatment using injectable form of TXA topically [[1]](https://www.ncbi.nlm.nih.gov/pubmed/23911102). 500 mg in 5 ml of TXA soaked into a cotton pledget was superior to anterior nasal packing.(absolute risk reduction 40%, NNT 2.5). Small study, 216 patients.
+- Epistaxis treatment using injectable form of TXA topically [[1]](https://www.ncbi.nlm.nih.gov/pubmed/23911102)
+- 500 mg in 5 ml of TXA soaked into a cotton pledget was superior to anterior nasal packing
+- Absolute risk reduction 40%, NNT 2.5
+- Small study, only 216 patients
 
 **OB/Gyn**
 
-- Postpartum hemorrhage: 1,000 mg IV over 10 minutes given within 3 hours of vaginal birth or cesarean section; if bleeding continues after 30 minutes or restarts within 24 hours after the first dose, a second dose of 1,000 mg may be given [[2]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5446563/).
+- Postpartum hemorrhage: 1,000 mg IV over 10 minutes given within 3 hours of vaginal birth or cesarean section
+- If bleeding continues after 30 minutes or restarts within 24 hours after the first dose, a second dose of 1,000 mg may be given [[2]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5446563/).
 
 **Trauma**
 
-- Trauma-associated hemorrhage: IV: Loading dose: 1,000 mg over 10 minutes, followed by 1,000 mg over the next 8 hours [[3]](https://www.ncbi.nlm.nih.gov/pubmed?term=20554319).
+- Trauma-associated hemorrhage: IV Loading dose 1,000 mg over 10 minutes, followed by 1,000 mg over the next 8 hours [[3]](https://www.ncbi.nlm.nih.gov/pubmed?term=20554319).
 
 ## Evidence
 
 ### Trauma
 
-Crash-2 [[3]](https://www.ncbi.nlm.nih.gov/pubmed?term=20554319): RCT, 274 hospitals, 40 countries, 20,000 patients with all forms of trauma and significant hemorrhage, TXA v. Placebo.
+**Crash-2** [[3]](https://www.ncbi.nlm.nih.gov/pubmed?term=20554319)
+Randomized control trial, 274 hospitals, 40 countries, 20,000 patients with all forms of trauma and significant hemorrhage, TXA v. placebo.
 
 - Mortality relative risk reduction of 9% (absolute reduction 1.5%)
 - Death from hemorrhage relative risk reduction 15% (absolute reduction 0.8%, NNT 125)
-- No difference in vascular occlusion (thrombosis) rates.
-- IV Loading dose: 1,000 mg over 10 minutes, followed by 1,000 mg over the next 8 hours.
+- No difference in vascular occlusion (thrombosis) rates
+- IV Loading dose: 1,000 mg over 10 minutes, followed by 1,000 mg over the next 8 hours
 
 Analysis of Crash-2 data [[4]](https://www.ncbi.nlm.nih.gov/pubmed?term=21439633)
 
@@ -62,39 +67,41 @@ Analysis of Crash-2 data [[4]](https://www.ncbi.nlm.nih.gov/pubmed?term=21439633
 A German pre-hospital study retrospectively evaluated trauma patients administered TXA pre-hospital with a matched cohort [[6]](https://www.ncbi.nlm.nih.gov/pubmed?term=27176727).
 
 - 258 patients each group
-- TXA treatment population received less pRBCs in the ED (not statistically sig., small study)
+- TXA treatment population received less pRBCs in the ED (not statistically significant)
 - 24 hour mortality relative risk reduction 53% (absolute risk reduction 6.6%, NNT 15.1)
-- However, overall hospital mortality was similar. (Small study)
+- However, overall hospital mortality was similar
+- Small study
 
 2015 lengthy literature review was published in the Journal of Trauma and Acute Care Surgery reviewing use of TXA in the prehospital setting [[7]](https://www.ncbi.nlm.nih.gov/pubmed?term=26002268).
 
-- 129 RCTs and one meta-analysis reviewed.
+- 129 RCTs and one meta-analysis reviewed
 - Concluded: “High-level evidence supports its use in trauma and strongly suggests that its implementation in the prehospital setting offers a survival advantage to many patients, particularly when evacuation to surgical care may be delayed.”
 
 ### Gynecology
 
-WOMAN trial [[3]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5446563/); RCT, 193 hospitals, 21 countries, 20,060 women with diagnosis of post-partum hemorrhage after vaginal or c-section birth
+**WOMAN Trial** [[3]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5446563/)
+Randomized control trial, 193 hospitals, 21 countries, 20,060 women with diagnosis of post-partum hemorrhage after vaginal or c-section birth.
 
-- death from hemorrhage, relative risk reduction 21% (absolute risk reduction 0.4%, NNT 250)
+- Death from hemorrhage, relative risk reduction 21% (absolute risk reduction 0.4%, NNT 250)
 - If TXA given within 3 hours of birth, death relative risk reduction 30% (absolute risk reduction 0.5%, NNT 200)
-- If TXA given after 3 hours of birth, no change between two groups.
-- TXA did not change hysterectomy rate.
+- If TXA given after 3 hours of birth, no change between two groups
+- TXA did not change hysterectomy rate
 - TXA reduced laparotomy to control bleeding, relative risk reduction 39% (absolute risk reduction 0.5%, NNT 200)
 
 ### Combined Trauma & Gyn
 
 Hemorrhage and treatment delay effect from the Lancet [[8]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5773762/): An analysis of CRASH-2 and WOMAN trials concluded:
 
-- Surgical from bleeding is better with TXA
-- Effects dramatically fall in a non-linear fashion, the longer the delay in TXA administration, with no effect between 135-180 min.
-- Estimated that treatment benefit decreased by 10% for every 15 minute delay.
+- Survival from bleeding is better with TXA
+- Effects fall dramatically in a non-linear fashion, the longer the delay in TXA administration. No effect between 135-180 min.
+- Estimated that treatment benefit decreased by 10% for every 15 minute delay
 
 ### Epistaxis
 
 Epistaxis treatment using injectable form of TXA topically [[1]](https://www.ncbi.nlm.nih.gov/pubmed/23911102)
 
-- 500 mg in 5 ml of TXA soaked into a cotton pledget was superior to anterior nasal packing (absolute risk reduction 40%, NNT 2.5).
-- Small study, 216 patients.
+- 500 mg in 5 ml of TXA soaked into a cotton pledget was superior to anterior nasal packing (absolute risk reduction 40%, NNT 2.5)
+- Small study, only 216 patients
 
 ## References
 
