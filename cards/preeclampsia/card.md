@@ -25,6 +25,7 @@ A pregnancy-related condition occurring anytime after 20 weeks pregnancy and up 
   - Platelets <100k/mcL
   - Serum creatinine > 1.1 mg/dL
   - Liver transaminases at least 2 times normal
+  - Severe right upper quadrant or epigastric abdominal pain, not explained by another diagnosis
   - Pulmonary edema
   - Visual symptoms (e.g. blurred vision, flashing lights or sparks, scotoma)
   - Cerebral symptoms (e.g. severe persistent headache not responding to usual doses of analgesics)
