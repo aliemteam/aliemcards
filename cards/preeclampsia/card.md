@@ -3,7 +3,7 @@
 title: Preeclampsia
 authors:
     - Sam Ashoo, MD
-created: 2018/03/01
+created: 2018/05/14
 updates:
 categories:
     - OBGYN
@@ -25,6 +25,7 @@ A pregnancy-related condition occurring anytime after 20 weeks pregnancy and up 
   - Platelets <100k/mcL
   - Serum creatinine > 1.1 mg/dL
   - Liver transaminases at least 2 times normal
+  - Severe right upper quadrant or epigastric pain, not explained by another diagnosis
   - Pulmonary edema
   - Visual symptoms (e.g. blurred vision, flashing lights or sparks, scotoma)
   - Cerebral symptoms (e.g. severe persistent headache not responding to usual doses of analgesics)
@@ -35,12 +36,12 @@ A pregnancy-related condition occurring anytime after 20 weeks pregnancy and up 
 - <span class="drug">Magnesium Sulfate</span> IV for seizure prevention:
   - Loading dose: 4-6 g loading dose
   - Followed by continuous infusion: 1-2 g/hour for at least 24 hours
-- BP management until systolic <150 and diastolic <100
+- BP management until systolic < 150 and diastolic < 100
   - <span class="drug">Labetalol</span> 20 mg IV every 10 min (max 80mg per dose) for a total of 300mg.
   - <span class="drug">Hydralazine</span> 5 mg IV, repeat in 20 min until goal achieved, max 30mg. 
   - <span class="drug">Nicardipine</span> infusion 3-9 mg hour
   - <span class="drug">Nitroglycerin</span> IV if pulmonary edema
-- Corticosteroids if <34 weeks gestation and delivery anticipated in next 48 hours.
+- Corticosteroids if < 34 weeks gestation and delivery anticipated in next 48 hours.
   - <span class="drug">Betamethasone</span>: Two doses of 12 mg given intramuscularly 24 hours apart **OR**
   - <span class="drug">Dexamethasone</span> (sodium phosphate): Four doses of 6 mg given intramuscularly 12 hours apart. A non-sulfite containing preparation should be used as the sulfite preservative commonly used in dexamethasone preparations may be directly neurotoxic in newborns.
 
