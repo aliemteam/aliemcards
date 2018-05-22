@@ -35,11 +35,11 @@ Please note that the vast majority of these indications are not currently approv
 **OB/Gyn**
 
 - Postpartum hemorrhage: 1,000 mg IV over 10 minutes given within 3 hours of vaginal birth or cesarean section
-- If bleeding continues after 30 minutes or restarts within 24 hours after the first dose, a second dose of 1,000 mg may be given [[2]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5446563/).
+- If bleeding continues after 30 minutes or restarts within 24 hours after the first dose, a second dose of 1,000 mg may be given [[2]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5446563/)
 
 **Trauma**
 
-- Trauma-associated hemorrhage: IV Loading dose 1,000 mg over 10 minutes, followed by 1,000 mg over the next 8 hours [[3]](https://www.ncbi.nlm.nih.gov/pubmed?term=20554319).
+- Trauma-associated hemorrhage: IV Loading dose 1,000 mg over 10 minutes, followed by 1,000 mg over the next 8 hours [[3]](https://www.ncbi.nlm.nih.gov/pubmed?term=20554319)
 
 ## Evidence
 
