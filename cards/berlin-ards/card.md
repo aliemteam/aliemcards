@@ -30,6 +30,6 @@ In 2011 an initiative of the European Society of Intensive Care Medicine endorse
 | Moderate          | 7 days                                        | 32%           |
 | Severe            | 9 days                                        | 45%           |
 
-# References
+## References
 
 - ARDS Definition Task Force, Ranieri VM, Rubenfeld GD, Thompson BT, Ferguson ND, Caldwell E, Fan E, Camporota L, Slutsky AS. Acute respiratory distress syndrome: the Berlin Definition. JAMA. 2012 Jun 20;307(23):2526-33. [[PubMed]](https://www.ncbi.nlm.nih.gov/pubmed/22797452).
