@@ -1,6 +1,6 @@
 ---
 
-title: Acute Respiratory Distress Syndrome (ARDS)\: Berlin Definition
+title: Acute Respiratory Distress Syndrome (ARDS) - Berlin Definition
 authors:
     - Michelle Lin, MD
 created: 2018/05/30
