@@ -15,8 +15,9 @@ categories:
 
 In 2011 an initiative of the European Society of Intensive Care Medicine endorsed by the American Thoracic Society and the Society of Critical Care Medicine, developed the Berlin Definition of ARDS. It was subsequently empirically evaluated using patient-level meta-analysis of over 4,000 patients.
 
-| **Timing**                                   | Within 1 week of inciting event or symptom onset                                  |
+| **Clinial Feature**                          | ARDS Definition                                                                    |
 | -------------------------------------------- | ----------------------------------------------------------------------------------|
+| **Timing**                                   | Within 1 week of inciting event or symptom onset                                 |
 | **Imaging**                                  | Bilateral opacities not fully explained by effusions, atelectasis, or nodules     |
 | **Origin of edema**                          | Respiratory failure not fully explained by cardiac failure or fluid overload      |
 | **Oxygenation** (PaO2/FiO2)*                 | **MILD**: 201-300 mmHg<br>**MODERATE**: 101-200 mmHg<br>**SEVERE**: ≤ 100 mmHg    |
