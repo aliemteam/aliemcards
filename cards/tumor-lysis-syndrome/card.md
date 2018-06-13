@@ -111,17 +111,17 @@ Common cancers associated with TLS include:
 
 ## References
 
-1. Mirrakhimov AE, Ali AM, Khan M, Barbaryan A. Tumor Lysis Syndrome in Solid Tumors: An up to Date Review of the Literature. Rare Tumors. 2014;6:5389 
+1. Mirrakhimov AE, Ali AM, Khan M, Barbaryan A. Tumor Lysis Syndrome in Solid Tumors: An up to Date Review of the Literature. Rare Tumors. 2014;6:5389 [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/25002953)]
 2. McCurdy MT, Wacker DA. Selected Oncologic Emergencies. Rosen’s Emergency Medicine: Concepts and Clinical Practice 9th ed Philadelphia PA: Elsevier. 2017:1497-508.
 3. Life in the Fast Lane [Internet]. [cited 2017]. Available from: [](https://lifeinthefastlane.com/ccc/tumour-lysis-syndrome/)[https://lifeinthefastlane.com/ccc/tumour-lysis-syndrome/](https://lifeinthefastlane.com/ccc/tumour-lysis-syndrome/).
-4. Held-Warmkessel J. A patient with tumor lysis syndrome. Oncology (Williston Park, NY). 2012;26(8 Suppl Nurse Ed):16-21.
-5. Halfdanarson TR, Hogan WJ, Moynihan TJ, editors. Oncologic emergencies: diagnosis and treatment. Mayo Clinic Proceedings; 2006: Elsevier.
+4. Held-Warmkessel J. A patient with tumor lysis syndrome. Oncology (Williston Park, NY). 2012;26(8 Suppl Nurse Ed):16-21. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/25375006)]
+5. Halfdanarson TR, Hogan WJ, Moynihan TJ, editors. Oncologic emergencies: diagnosis and treatment. Mayo Clinic Proceedings; 2006: Elsevier. [[PubMed](https://www.ncbi.nlm.nih.gov/m/pubmed/16770986/)]
 6. Fojo AT. Metabolic emergencies. In: DeVita VT, Lawrence TS, Rosenberg SA, eds. DeVita, Hellman, and Rosenberg's Cancer: Principles and Practice of Oncology. 8th ed. Philadelphia: Lippincott Williams & Wilkins; 2008:2446–2455.
-7. Cairo MS, Bishop M. Tumour lysis syndrome: new therapeutic strategies and classification. Br J Haematol. 2004;127(1): 3–11. PMID: 15384972
-8. Davidson MB, Thakkar S, Hix JK, Bhandarkar ND, Wong A, Schreiber MJ. Pathophysiology, clinical consequences, and treatment of tumor lysis syndrome. Am J Med. 2004;116:546–554. PMID: 15063817
-9. Coiffier B, Altman A, Pui C-H, Younes A, Cairo MS. Guidelines for the management of pediatric and adult tumor lysis syndrome: an evidence-based review. Journal of Clinical Oncology. 2008;26(16):2767-78.
-10. Wilson FP, Berns JS. Tumor lysis syndrome: new challenges and recent advances. Advances in chronic kidney disease. 2014;21(1):18-26.
+7. Cairo MS, Bishop M. Tumour lysis syndrome: new therapeutic strategies and classification. Br J Haematol. 2004;127(1): 3–11. [[PubMed](https://www.ncbi.nlm.nih.gov/m/pubmed/15384972/)]
+8. Davidson MB, Thakkar S, Hix JK, Bhandarkar ND, Wong A, Schreiber MJ. Pathophysiology, clinical consequences, and treatment of tumor lysis syndrome. Am J Med. 2004;116:546–554. [[PubMed](https://www.ncbi.nlm.nih.gov/m/pubmed/15063817/)]
+9. Coiffier B, Altman A, Pui C-H, Younes A, Cairo MS. Guidelines for the management of pediatric and adult tumor lysis syndrome: an evidence-based review. Journal of Clinical Oncology. 2008;26(16):2767-78. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/18509186)]
+10. Wilson FP, Berns JS. Tumor lysis syndrome: new challenges and recent advances. Advances in chronic kidney disease. 2014;21(1):18-26. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/24359983)]
 11. Mughal, T. BMJ Best Practice: Tumor lysis syndrome. http://bestpractice.bmj.com/topics/en-us/936/pdf/936.pdf (Last accessed: April 29, 2018).  
-12. Hummel M, Reiter S, Adam K, Hehlmann R, Buchheidt D. Effective treatment and prophylaxis of hyperuricemia and impaired renal function in tumor lysis syndrome with low doses of rasburicase. Eur J Haematol. 2008;80(4):331–336.
-13. Sonbol MB, Yadav H, Vaidya R, Rana V, Witzig TE. Methemoglobinemia and hemolysis in a patient with G6PD deficiency treated with rasburicase. Am J Hematol. 2013 Feb;88(2):152-4.
-14. Howard Sc, Jones DP, Pui CH. The tumor lysis syndrome. N Engl J Med. 2011 May;364(19):1844-54.
+12. Hummel M, Reiter S, Adam K, Hehlmann R, Buchheidt D. Effective treatment and prophylaxis of hyperuricemia and impaired renal function in tumor lysis syndrome with low doses of rasburicase. Eur J Haematol. 2008;80(4):331–336. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/18081720)]
+13. Sonbol MB, Yadav H, Vaidya R, Rana V, Witzig TE. Methemoglobinemia and hemolysis in a patient with G6PD deficiency treated with rasburicase. Am J Hematol. 2013 Feb;88(2):152-4. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/22573495)]
+14. Howard Sc, Jones DP, Pui CH. The tumor lysis syndrome. N Engl J Med. 2011 May;364(19):1844-54. [[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/21561350)]
