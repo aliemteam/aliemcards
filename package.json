@@ -124,7 +124,7 @@
     "prettier": "^1.7.4",
     "raf": "^3.4.0",
     "react-addons-test-utils": "^15.6.2",
-    "react-hot-loader": "^3.1.1",
+    "react-hot-loader": "^4.0.1",
     "react-svg-loader": "^2.1.0",
     "react-test-renderer": "^16.0.0",
     "remark-cli": "^4.0.0",
