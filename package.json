@@ -172,6 +172,6 @@
     "webpack-hot-middleware": "^2.20.0"
   },
   "optionalDependencies": {
-    "@types/zen-observable": "^0.5.3"
+    "@types/zen-observable": "^0.8.0"
   }
 }
