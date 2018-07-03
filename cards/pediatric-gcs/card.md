@@ -11,6 +11,8 @@ categories:
 
 # Pediatric Glasgow Coma Scale
 
+Also see the card on [Pediatric Blunt Head Trauma (PECARN Study)](/cards/pediatric-head-injury).
+
 This variation of the adult Glasgow Coma Scale (GCS) is for children age <2 years old
 
 - Total = 15 points 
