@@ -5,7 +5,7 @@ authors:
     - Michelle Lin, MD
 created: 2011/05/06
 updates: 
-    - 2017/05/10
+    - 2018/08/02
 categories:
     - Cardiovascular
 ---
@@ -20,11 +20,12 @@ categories:
 
 ## ECG findings
 
-- 3 types
+- 2 types
 - Type 1 – Most specific for Brugada Syndrome
 - Highest risk for symptoms of syncope and sudden death
+- Type 3 no longer a recognized Brugada ECG pattern
 
-![Examples of type 1, type 2, and type 3 Brugada ECG patterns](image-1.png)
+![Examples of type 1 and 2 Brugada ECG patterns](image-2.png)
 
 ## Differential diagnosis
 
