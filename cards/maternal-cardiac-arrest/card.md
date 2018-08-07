@@ -121,11 +121,11 @@ Most common causes are hemorrhage, acute myocardial infarction (AMI), heart fail
 
 ### 9. Consider reversible causes and their treatment
 1. **Hemorrhage**: Blood transfusions, control bleeding, reverse coagulopathy
-2. **P****ulmonary embolism**: Thrombolytics (alteplase 50 mg bolus)
+2. **Pulmonary embolism**: Thrombolytics (alteplase 50 mg bolus)
 3. **Magnesium toxicity**: Calcium chloride 1 gm IV 
 4. **Preeclampsia/eclampsia**: Magnesium 4-6 gm IV slow push over 15 minutes then maintenance dose 1 gm/hr IV
 5. **AMI**: Revascularization; however caution in cases of coronary artery dissection (most common cause of AMI in pregnancy) in which must avoid anticoagulation, heparin, and TPA/thrombolytics; may require balloon pump or revascularization if there is cardiogenic shock
-6. **H****eart failure**: Inotropes
+6. **Heart failure**: Inotropes
 7. **Hyperkalemia**: Bicarbonate, calcium
 8. **Acidosis**: Bicarbonate
 9. **Hypoglycemia**: Glucose
@@ -135,7 +135,7 @@ Most common causes are hemorrhage, acute myocardial infarction (AMI), heart fail
 
 ### 10. If no return of spontaneous circulation (ROSC) by **4 minutes of resuscitative efforts**, consider performing immediate perimortem cesarean delivery
 
-Benefit has only been shown in gestational age >24 weeks (uterus palpated at or above umbilicus).
+Benefit has only been shown in gestational age >24 weeks [EAST 2005 guidelines](https://www.east.org/education/practice-management-guidelines/pregnancy-and-trauma), when generally the uterus is palpable at or above the umbilicus
 
 ## Perimortem Cesarean Delivery
 
