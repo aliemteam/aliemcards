@@ -13,9 +13,6 @@ categories:
 
 # Maternal Cardiac Arrest
 
-Authors: Jeffry Sakamoto MD, Colin Michels MD, Nikita Joshi MD
-Editor: Rebecca Bavolek MD
-
 Maternal cardiac arrest is a low-frequency, high-risk pregnancy complication with 2 lives at stake. Incidence is approximately 1 in 12,000 to 50,000 pregnancies with a greater than 40% mortality rate. Understanding physiologic changes of pregnancy and how to perform a perimortem cesarean section (resuscitative hysterotomy) are critical aspects of caring for maternal cardiac arrest.
 
 ## Maternal Physiology
@@ -138,7 +135,7 @@ Most common causes are hemorrhage, acute myocardial infarction (AMI), heart fail
 
 ### 10. If no return of spontaneous circulation (ROSC) by **4 minutes of resuscitative efforts**, consider performing immediate perimortem cesarean delivery
 
-Benefit has only been shown in gestational age >20 weeks (uterus palpated at or above umbilicus).
+Benefit has only been shown in gestational age >24 weeks (uterus palpated at or above umbilicus).
 
 ## Perimortem Cesarean Delivery
 
@@ -199,5 +196,6 @@ Goal is to deliver fetus expeditious manner.
 - Weingart S. EMCrit Conference Blast Winner: Peri-Mortem C-Section. _EMCrit Blog_. Published February 12, 2013. Accessed March 22, 2018. Available at https://emcrit.org/racc/peri-mortem-c-section/.
 - Chauhan A, Musunuru H, Donnino M, et al. The use of therapeutic hypothermia after cardiac arrest in a pregnant patient. _Ann Emerg Med_. 2012;60:786–789. [[PubMed]](https://www.ncbi.nlm.nih.gov/pubmed/22762909)
 - Jeejeebhoy FM, Zelop CM, Lipman S., et al. Cardiac arrest in pregnancy: a scientific statement from the American Heart Association. _Circulation_. 2015; 132: 1747–1773. [[PubMed]](https://www.ncbi.nlm.nih.gov/pubmed/26443610)
-- Jeejeebhoy FM, Zelop CM, Windrim R, et al. Management of cardiac arrest in pregnancy: a systematic review. _Resuscitation_. 2011 Jul;82(7):801-9. doi: 10.1016/j.resuscitation.2011.01.028. Epub 2011 May 6. [[PubMed]](https://www.ncbi.nlm.nih.gov/pubmed/21549495).
+- Jeejeebhoy FM, Zelop CM, Windrim R, et al. Management of cardiac arrest in pregnancy: a systematic review. _Resuscitation_. 2011 Jul;82(7):801-9. doi: 10.1016/j.resuscitation.2011.01.028. Epub 2011 May 6. [[PubMed]](https://www.ncbi.nlm.nih.gov/pubmed/21549495)
 - Mhyre JM, Tsen LC, Einav S, et al. Cardiac arrest during hospitalization for delivery in the United States, 1998–2011. _Anesthesiology_ 2014; 120:810–8. [[PubMed]](https://www.ncbi.nlm.nih.gov/pubmed/24694844)
+- Barraco RD, Chiu WC, Clancy TV, et al. Practice management guidelines for the diagnosis and management of injury in the pregnant patient: the EAST Practice Management Guidelines Work Group. J Trauma. 2010;69(1):211-4. [[PubMed]](https://www.ncbi.nlm.nih.gov/pubmed/?term=20622592)
