@@ -110,7 +110,7 @@
     "css-loader": "^0.28.7",
     "del": "^3.0.0",
     "enzyme": "^3.1.0",
-    "enzyme-adapter-react-16": "^1.0.1",
+    "enzyme-adapter-react-16": "^1.5.0",
     "front-matter": "^2.2.0",
     "gulp-image": "^4.0.0",
     "gulp-stylus": "^2.6.0",
