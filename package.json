@@ -88,7 +88,7 @@
     "react-dom": "^16.0.0",
     "react-helmet": "^5.2.0",
     "react-router-dom": "^4.2.2",
-    "remark": "^8.0.0",
+    "remark": "^10.0.0",
     "remark-html": "^6.0.1",
     "typescript": "^2.5.3"
   },
